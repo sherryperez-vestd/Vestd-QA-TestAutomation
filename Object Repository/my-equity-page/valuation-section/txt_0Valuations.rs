@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_0Valuations</name>
+   <tag></tag>
+   <elementGuidId>88481cac-bb00-436f-a0e0-ef1659351301</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-muted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/div/div[4]/div/div[2]/div/div[2]/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Valuations recorded by the company help show the actual growth of your sharehold&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>b2fbf3e4-6eff-4c81-8354-cfcc55d602d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-muted</value>
+      <webElementGuid>cf1b8400-3824-4a82-9f63-0721224e41e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Valuations recorded by the company help show the actual growth of your shareholding up to today. Please contact the company to add a historical valuation. </value>
+      <webElementGuid>2588c619-828a-4ff2-b58c-bf3fbe5f7747</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;col-md-12 mb-3&quot;]/div[@class=&quot;row border rounded bg-white&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-lg-6 pt-2 border-right&quot;]/p[@class=&quot;text-muted&quot;]</value>
+      <webElementGuid>2d3cd902-7e60-4f5f-80e6-4c4fa71601e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/div/div[4]/div/div[2]/div/div[2]/div/div[2]/p</value>
+      <webElementGuid>e6c44b83-c746-47c0-8ebf-51324cadbfc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter the company’s current value or an estimate to see what your equity is currently worth.'])[1]/following::p[1]</value>
+      <webElementGuid>e9d50c0d-4790-4fa4-8426-6b21e4da95b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£'])[3]/following::p[2]</value>
+      <webElementGuid>24ccda02-9d02-4a92-af95-a48a180b33db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your tax benefits'])[1]/preceding::p[1]</value>
+      <webElementGuid>297c1d7b-4dfd-40b5-bfdb-3e646a733807</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax &amp; profit calculations'])[1]/preceding::p[1]</value>
+      <webElementGuid>c028b93e-44b0-42e5-9663-741d29d44930</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Valuations recorded by the company help show the actual growth of your shareholding up to today. Please contact the company to add a historical valuation.']/parent::*</value>
+      <webElementGuid>1c1a5341-9260-4dbf-9f18-51ac38591738</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/p</value>
+      <webElementGuid>0d62178c-58b3-45e1-9685-8ba7faaad57d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Valuations recorded by the company help show the actual growth of your shareholding up to today. Please contact the company to add a historical valuation. ' or . = 'Valuations recorded by the company help show the actual growth of your shareholding up to today. Please contact the company to add a historical valuation. ')]</value>
+      <webElementGuid>01b226b5-5ace-45fc-8973-0801f314ecda</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>modal_Company-valuation-history</name>
+   <tag></tag>
+   <elementGuidId>e1d070a0-edb4-4fce-a1dc-78f93317bfc9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.modal-footer.justify-content-between</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='EfwtdLlauvpGbViM']/div/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Update graphCancel&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4d98b934-f59b-411e-b85f-86a90658dd00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-footer justify-content-between</value>
+      <webElementGuid>0770d07d-e5d7-4baa-979a-a465373400cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Update graphCancel</value>
+      <webElementGuid>61d47364-1fb0-40be-a87f-e4321d49e1a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;EfwtdLlauvpGbViM&quot;)/div[@class=&quot;modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer justify-content-between&quot;]</value>
+      <webElementGuid>6c9bacc9-c48a-4f4d-b9b1-4dd506583ab2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='EfwtdLlauvpGbViM']/div/div/div[3]</value>
+      <webElementGuid>9e50b966-a6ed-4922-93fa-8aacd445ddd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Valuation History'])[1]/following::div[5]</value>
+      <webElementGuid>28cf048c-e033-4676-b332-8860e05d7fa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[9]</value>
+      <webElementGuid>e4b1961f-7585-4b24-b84a-e5ff0bff25f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]</value>
+      <webElementGuid>c8a98160-c181-4cb2-bfe2-81f7a2b9c259</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Update graphCancel' or . = 'Update graphCancel')]</value>
+      <webElementGuid>55ccbc03-aa68-4efa-a952-55f85e95f1ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

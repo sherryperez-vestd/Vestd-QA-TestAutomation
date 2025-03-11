@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tooltip-txt_Company-valuation-history</name>
+   <tag></tag>
+   <elementGuidId>87c5fe7a-f41c-4f99-8683-01523437bbfe</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popper_xrg6x9mo_ylk37i']/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.v-popper__inner</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph' or . = 'Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;Keep in mind that adjusting the company valuation toggle will instantly update t&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>08fe784d-c1a0-4787-82d7-5dc3aeb22e1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-popper__inner</value>
+      <webElementGuid>fe0a43a3-dffc-4699-b4b7-28084ad34cd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph</value>
+      <webElementGuid>143f01d2-08ab-4bdd-818a-43474885d9a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popper_xrg6x9mo_ylk37i&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]</value>
+      <webElementGuid>dd5006af-2848-4986-9478-56baf07c5453</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popper_xrg6x9mo_ylk37i']/div[2]/div</value>
+      <webElementGuid>9f6c12b4-1875-4ec8-81cb-e1c2a54e00ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
+      <webElementGuid>08541dd3-d5ea-406a-93a9-49912ab89820</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[4]</value>
+      <webElementGuid>b3e5f641-efba-4e6b-8845-d00c27d4f887</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div</value>
+      <webElementGuid>d132fc3f-dbdd-4b72-952a-75f071575f03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph' or . = 'Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph')]</value>
+      <webElementGuid>297a2ea7-92da-4a50-af4a-b025c8f973dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

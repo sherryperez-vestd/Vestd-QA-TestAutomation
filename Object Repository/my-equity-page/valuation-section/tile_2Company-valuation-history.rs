@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tile_2Company-valuation-history</name>
+   <tag></tag>
+   <elementGuidId>d859567a-e328-4d54-b39a-033342b5b0da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Company valuation history Company valuations previously recorded. 10th January 2&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>577ae783-b587-43f9-a385-0fc19ab975b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-12 col-md-6 col-lg-6 pt-2 border-right</value>
+      <webElementGuid>cb4c3a45-a028-407f-aed1-8179b96282d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Company valuation history Company valuations previously recorded. 10th January 2025 - £4,000,000  10th January 2025 - £3,000,000 See more</value>
+      <webElementGuid>6df99e38-3d33-458f-a8ad-11f25022ad8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;col-md-12 mb-3&quot;]/div[@class=&quot;row border rounded bg-white&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-lg-6 pt-2 border-right&quot;]</value>
+      <webElementGuid>37baa361-e7d1-4e30-8c7b-1eee13a75723</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>2ec90f0a-648b-4799-95b8-e4920f4c0194</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter the company’s current value or an estimate to see what your equity is currently worth.'])[1]/following::div[1]</value>
+      <webElementGuid>30383017-d612-4d05-8437-5a3d7444b2e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£'])[3]/following::div[1]</value>
+      <webElementGuid>dda61335-a966-46d8-848d-62d0bef7b531</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>f74ea6a0-78b9-4565-9b21-c7a1f4cb1d47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Company valuation history Company valuations previously recorded. 10th January 2025 - £4,000,000  10th January 2025 - £3,000,000 See more' or . = 'Company valuation history Company valuations previously recorded. 10th January 2025 - £4,000,000  10th January 2025 - £3,000,000 See more')]</value>
+      <webElementGuid>35a9fe3f-45ea-4ac8-a0d7-b58459e912d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

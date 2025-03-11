@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tooltip-icon_Current-valuation</name>
+   <tag></tag>
+   <elementGuidId>dbec920d-7112-46c9-9f6e-f9d2143c7d39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-sm-12.col-md-6.col-lg-6.pt-2.border-right > h5.mb-2 > div.v-popper.v-popper--theme-tooltip.d-inline-flex.align-top.v-info-tip > span.static-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/div/div/h5/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=heading[name=&quot;Current valuation i&quot;i] >> span</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fd2af14c-4487-4999-96d9-bc69df6684f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>static-content</value>
+      <webElementGuid>2f48625c-b8ca-4a3e-943a-9f97921ceec5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;col-md-12 mb-3&quot;]/div[@class=&quot;row border rounded bg-white&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-lg-6 pt-2 border-right&quot;]/h5[@class=&quot;mb-2&quot;]/div[@class=&quot;v-popper v-popper--theme-tooltip d-inline-flex align-top v-info-tip&quot;]/span[@class=&quot;static-content&quot;]</value>
+      <webElementGuid>29cb66e4-caae-434b-9425-bb7f4ca06aa7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/div/div/h5/div/span</value>
+      <webElementGuid>b4021194-2da5-4528-804c-aa3e2468791b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/h5/div/span</value>
+      <webElementGuid>a88b1db8-e704-4048-a60e-489cb11f6fcd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

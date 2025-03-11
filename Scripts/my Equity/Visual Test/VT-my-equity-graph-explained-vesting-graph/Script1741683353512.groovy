@@ -17,5 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.acceptAlert()
+WebUI.callTestCase(findTestCase('user-login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Check EMI vesting schedule'
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+
+WebUI.click(findTestObject('my-equity-page/vesting-schedule_graph-explained/vesting sched - emi/section_vesting-sched'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('EMI Vesting graph section', [])
+
+'Check GS graph'
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370451')
+
+WebUI.click(findTestObject('my-equity-page/vesting-schedule_graph-explained/graph-explained/heading_Your graph explained'))
+
+WebUI.takeFullPageScreenshotAsCheckpoint('GS Graph explained', [])
+
+WebUI.closeBrowser()
 

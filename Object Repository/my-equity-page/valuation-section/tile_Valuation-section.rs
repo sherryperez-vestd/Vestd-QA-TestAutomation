@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tile_Valuation-section</name>
+   <tag></tag>
+   <elementGuidId>b3e448df-1f43-4bbb-b849-54facb39ef3c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.border.rounded.bg-white</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.card-body > .col-md-12 > .row</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9229a0f5-306e-4cce-9e83-3f2ef8570c9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row border rounded bg-white</value>
+      <webElementGuid>9852fd66-1ad4-4d6c-a3c1-4acf1a871c25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Current valuation £Enter the company’s current value or an estimate to see what your equity is currently worth.Company valuation history Company valuations previously recorded. 6th February 2030 - £2,500,000 </value>
+      <webElementGuid>705fa477-c22e-48d3-aa44-6439deed4125</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;col-md-12 mb-3&quot;]/div[@class=&quot;row border rounded bg-white&quot;]</value>
+      <webElementGuid>ac6a8703-a77d-4fb9-bf1c-44e8d41e93fa</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[2]/div</value>
+      <webElementGuid>a3c4592a-d2e6-4c5c-b33f-28d7b4a377f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£...'])[1]/following::div[3]</value>
+      <webElementGuid>b7c66b96-95a3-443f-8c81-87df61932b89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your profit'])[1]/following::div[3]</value>
+      <webElementGuid>d5147b19-91ef-4d41-9a2c-3ae8ca718317</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div/div[2]/div</value>
+      <webElementGuid>642ff71c-5eff-41b8-bf4a-41aeac2da878</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Current valuation £Enter the company’s current value or an estimate to see what your equity is currently worth.Company valuation history Company valuations previously recorded. 6th February 2030 - £2,500,000 ' or . = ' Current valuation £Enter the company’s current value or an estimate to see what your equity is currently worth.Company valuation history Company valuations previously recorded. 6th February 2030 - £2,500,000 ')]</value>
+      <webElementGuid>c25aeda1-f779-43c2-8554-2a2837b14da3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
