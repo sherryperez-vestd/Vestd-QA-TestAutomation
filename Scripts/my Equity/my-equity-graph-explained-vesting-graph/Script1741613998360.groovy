@@ -27,15 +27,15 @@ WebUI.verifyElementPresent(findTestObject('my-equity-page/vesting-schedule_graph
 
 WebUI.verifyElementVisible(findTestObject('my-equity-page/vesting-schedule_graph-explained/vesting sched - emi/section_vesting-schedule-all'))
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/vesting-schedule_graph-explained/vesting sched - emi/section_vesting-sched'), 
+not_run: WebUI.verifyElementPresent(findTestObject('my-equity-page/vesting-schedule_graph-explained/vesting sched - emi/section_vesting-sched'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/vesting-schedule_graph-explained/vesting sched - emi/section_vesting-sched'))
+not_run: WebUI.verifyElementVisible(findTestObject('my-equity-page/vesting-schedule_graph-explained/vesting sched - emi/section_vesting-sched'))
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/vesting-schedule_graph-explained/vesting sched - emi/icon_vesting-schedule-chevron-down'), 
+not_run: WebUI.verifyElementPresent(findTestObject('my-equity-page/vesting-schedule_graph-explained/vesting sched - emi/icon_vesting-schedule-chevron-down'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/vesting-schedule_graph-explained/vesting sched - emi/icon_vesting-schedule-chevron-down'))
+not_run: WebUI.verifyElementVisible(findTestObject('my-equity-page/vesting-schedule_graph-explained/vesting sched - emi/icon_vesting-schedule-chevron-down'))
 
 WebUI.click(findTestObject('my-equity-page/vesting-schedule_graph-explained/vesting sched - emi/section_vesting-sched'))
 

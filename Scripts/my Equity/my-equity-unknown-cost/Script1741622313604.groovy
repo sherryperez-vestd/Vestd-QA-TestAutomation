@@ -19,85 +19,78 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('user-login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/unknown-cost/div_Unknown cost We dont have a record of h_6d6667'), 
-    0)
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/unknown-cost/div_Unknown cost We dont have a record of h_6d6667'))
+'Check Unknown cost section'
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/unknown-cost/div_unknown-cost-section'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/span_Unknown cost'), 
-    'Unknown cost')
+WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/unknown-cost/div_unknown-cost-section'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/p_We dont have a record of how much you pai_4d3790'), 
-    'We don’t have a record of how much you paid for these shareholdings, so we’ve defaulted to nominal value. Update the price you paid for these shares to see your actual profit.')
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/txt-heading_unknown-cost'), 'Unknown cost')
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/td_Price paid'), 
-    'Price paid')
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/txt_unknown-cost-lead-text'), 'We don’t have a record of how much you paid for these shareholdings, so we’ve defaulted to nominal value. Update the price you paid for these shares to see your actual profit.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/td_Details'), 
-    'Details')
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/td_Price paid'), 'Price paid')
 
-WebUI.verifyElementText(findTestObject('null'), 
-    'Update price')
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/td_Details'), 'Details')
 
-WebUI.verifyElementClickable(findTestObject('null'))
+WebUI.verifyElementText(findTestObject('my-equity-page/unknown-cost/a_Update price'), 'Update price')
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/small_0.0001 nominal value'), 
-    '£0.0001 nominal value')
+WebUI.verifyElementClickable(findTestObject('my-equity-page/unknown-cost/a_Update price'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/small_0.0001 nominal value'), '£0.0001 nominal value')
 
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/small_Issued 28th January 2025'), 
     'Issued 28th January 2025')
 
-WebUI.verifyElementText(findTestObject('null'), 
-    '1,000 shares')
+WebUI.verifyElementText(findTestObject('my-equity-page/unknown-cost/b_1,000 shares'), '1,000 shares')
 
-WebUI.click(findTestObject('null'))
+'Check update price link / edit / save cancel CTA'
+WebUI.click(findTestObject('my-equity-page/unknown-cost/a_Update price'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/unknown-cost/div_share1,000 shares at 0.0001 nominal val_2c78ea'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/unknown-cost/label_price-paid-input'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/unknown-cost/div_share1,000 shares at 0.0001 nominal val_2c78ea'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/unknown-cost/label_price-paid-input'))
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.verifyElementVisible(findTestObject('my-equity-page/unknown-cost/button_Cancel'))
 
-WebUI.verifyElementPresent(findTestObject('null'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('my-equity-page/unknown-cost/button_Cancel'), 0)
 
-WebUI.verifyElementText(findTestObject('null'), 
-    'Cancel')
+WebUI.verifyElementText(findTestObject('my-equity-page/unknown-cost/button_Cancel'), 'Cancel')
 
-WebUI.verifyElementPresent(findTestObject('null'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('my-equity-page/unknown-cost/button_Save'), 0)
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.verifyElementVisible(findTestObject('my-equity-page/unknown-cost/button_Save'))
 
-WebUI.verifyElementText(findTestObject('null'), 
-    'Save')
+WebUI.verifyElementText(findTestObject('my-equity-page/unknown-cost/button_Save'), 'Save')
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/span_'), '£')
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/input-label-currency'), '£')
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/span_share'), 
-    '/share')
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/unknown-cost/input-label_per-share'), '/share')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/unknown-cost/input__ZVGphHxntxz6jRc7'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/unknown-cost/input_price-paid'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/unknown-cost/input__ZVGphHxntxz6jRc7'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/unknown-cost/input_price-paid'))
 
-WebUI.setText(findTestObject('Object Repository/my-equity-page/unknown-cost/input__ZVGphHxntxz6jRc7'), 
-    '1')
+WebUI.setText(findTestObject('Object Repository/my-equity-page/unknown-cost/input_price-paid'), '1')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('my-equity-page/unknown-cost/button_Cancel'))
 
-WebUI.verifyElementText(findTestObject('null'), 
-    '£-/shares')
+WebUI.verifyElementText(findTestObject('my-equity-page/unknown-cost/b_-shares'), '£-/shares')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('my-equity-page/unknown-cost/a_Update price'))
 
-WebUI.setText(findTestObject('Object Repository/my-equity-page/unknown-cost/input__dUi7WcQlvuLdEEw0'), 
-    '1')
+WebUI.setText(findTestObject('Object Repository/my-equity-page/unknown-cost/input__dUi7WcQlvuLdEEw0'), '1')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('my-equity-page/unknown-cost/button_Save'))
 
-WebUI.verifyElementText(findTestObject('null'), 
-    '£1.00/shares')
+WebUI.verifyElementText(findTestObject('my-equity-page/unknown-cost/b_1.00shares'), '£1.00/shares')
+
+WebUI.click(findTestObject('my-equity-page/unknown-cost/a_Update price'))
+
+WebUI.setText(findTestObject('my-equity-page/unknown-cost/input__dUi7WcQlvuLdEEw0'), '')
+
+WebUI.click(findTestObject('my-equity-page/unknown-cost/button_Save'))
+
+WebUI.verifyElementVisible(findTestObject('my-equity-page/unknown-cost/b_1.00shares'), FailureHandling.STOP_ON_FAILURE)
 

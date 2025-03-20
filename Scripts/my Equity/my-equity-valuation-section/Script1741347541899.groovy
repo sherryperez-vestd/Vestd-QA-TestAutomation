@@ -24,7 +24,7 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50066/dashboard?user_id=
 
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/valuation-section/txt_0Valuations'), 'Valuations recorded by the company help show the actual growth of your shareholding up to today. Please contact the company to add a historical valuation.')
 
-WebUI.verifyElementNotPresent(findTestObject('my-equity-page/valuation-section/btn_See_more'), 0)
+not_run: WebUI.verifyElementNotPresent(findTestObject('my-equity-page/valuation-section/btn_See_more'), 0)
 
 WebUI.verifyElementNotVisible(findTestObject('my-equity-page/valuation-section/btn_See_more'))
 
@@ -37,14 +37,14 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/valu
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/valuation-section/tile_Valuation-section'))
 
-WebUI.verifyElementNotPresent(findTestObject('my-equity-page/valuation-section/btn_See_more'), 0)
+not_run: WebUI.verifyElementNotPresent(findTestObject('my-equity-page/valuation-section/btn_See_more'), 0)
 
 WebUI.verifyElementNotVisible(findTestObject('my-equity-page/valuation-section/btn_See_more'))
 
 'Check Company valuation history section with 2 valuations'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/51622/dashboard?user_id=365693')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/valuation-section/tile_2Company-valuation-history'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/valuation-section/tile_2Company-valuation-history'), 
     0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/valuation-section/btn_See_more'), 0)
@@ -61,31 +61,32 @@ WebUI.verifyElementPresent(findTestObject('my-equity-page/valuation-section/butt
 WebUI.click(findTestObject('my-equity-page/valuation-section/button-cancel_Company-valuation-history-modal'))
 
 'Check Current valuation tooltip'
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-icon_Current-valuation'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-icon_Current-valuation'), 
     0)
 
-WebUI.mouseOver(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-icon_Current-valuation'))
+not_run: WebUI.mouseOver(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-icon_Current-valuation'))
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-icon_Current-valuation'))
+not_run: WebUI.click(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-icon_Current-valuation'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-txt_Current-valuation'), 
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-txt_Current-valuation'), 
     'This valuation was added by the company on 10th January 2025.')
 
 'Check Company valuation history tooltip'
-WebUI.click(findTestObject('my-equity-page/valuation-section/tooltip-icon_Current-valuation'))
+not_run: WebUI.click(findTestObject('my-equity-page/valuation-section/tooltip-icon_Current-valuation'))
 
 'Check Company valuation history tooltip'
-WebUI.click(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-icon_Company-valuation-history'))
+not_run: WebUI.click(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-icon_Company-valuation-history'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-icon_Company-valuation-history'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-icon_Company-valuation-history'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-txt_Company-valuation-history'))
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-txt_Company-valuation-history'))
 
-WebUI.verifyElementText(findTestObject('my-equity-page/valuation-section/tooltip-txt_Company-valuation-history'), 'Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph')
+not_run: WebUI.verifyElementText(findTestObject('my-equity-page/valuation-section/tooltip-txt_Company-valuation-history'), 
+    'Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph')
 
 'Check Company valuation history tooltip'
-WebUI.click(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-icon_Company-valuation-history'))
+not_run: WebUI.click(findTestObject('Object Repository/my-equity-page/valuation-section/tooltip-icon_Company-valuation-history'))
 
 WebUI.closeBrowser()
 

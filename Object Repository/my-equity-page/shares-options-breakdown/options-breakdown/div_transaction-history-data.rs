@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_transaction-history-data</name>
+   <tag></tag>
+   <elementGuidId>31627ec6-5ba2-4bb1-9a6b-32bada0a4fb5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='c5xy8L36NDPuHDPS']/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col.mb-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;250 Ordinary sharesTransaction: 1Related to: FTest LTest optionShare issue: 250 &quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3216df9a-742d-4faf-af7d-318775a44442</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col mb-2</value>
+      <webElementGuid>0c11b1d5-2099-4e8c-a337-d952f4259e53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>currency-symbol</name>
+      <type>Main</type>
+      <value>£</value>
+      <webElementGuid>bcbe5509-045b-4395-b3c2-e9f7807140a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>country-code</name>
+      <type>Main</type>
+      <value>GB</value>
+      <webElementGuid>359d95fc-86b1-4ed2-a76d-a939e9616782</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>250 Ordinary sharesTransaction: 1Related to: FTest LTest optionShare issue: 250 Ordinary (voting)Shares with equity rights: 0.0050%Price paid per share: £1.00Total price paid: £250.00Issued on: 20th Feb 2025</value>
+      <webElementGuid>ebaef68b-3b34-4dc4-a37e-47d57fb2ab69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;c5xy8L36NDPuHDPS&quot;)/div[@class=&quot;modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;share-issue-transaction&quot;]/div[@class=&quot;col mb-2&quot;]</value>
+      <webElementGuid>edfdbfb2-c838-4997-8ec8-c92c12711422</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='c5xy8L36NDPuHDPS']/div/div/div[2]/div/div</value>
+      <webElementGuid>cb4fbd57-4a79-4cc9-a6c3-fab1a8e9eaf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction History'])[1]/following::div[3]</value>
+      <webElementGuid>b0bd6fee-9460-4fe1-af5a-807b4ab9a9cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[7]</value>
+      <webElementGuid>e788d3a6-9a6f-49f5-9a71-ab77c69fb35a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>518a09f3-b7fa-4fce-a420-89940852d87e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '250 Ordinary sharesTransaction: 1Related to: FTest LTest optionShare issue: 250 Ordinary (voting)Shares with equity rights: 0.0050%Price paid per share: £1.00Total price paid: £250.00Issued on: 20th Feb 2025' or . = '250 Ordinary sharesTransaction: 1Related to: FTest LTest optionShare issue: 250 Ordinary (voting)Shares with equity rights: 0.0050%Price paid per share: £1.00Total price paid: £250.00Issued on: 20th Feb 2025')]</value>
+      <webElementGuid>08588dd0-d937-42ab-9fe2-1b1cfef2d680</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

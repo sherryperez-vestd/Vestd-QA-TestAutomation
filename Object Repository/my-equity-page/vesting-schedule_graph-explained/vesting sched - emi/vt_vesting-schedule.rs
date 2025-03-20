@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>vt_vesting-schedule</name>
+   <tag></tag>
+   <elementGuidId>6f810636-6af8-458c-b6d9-470808edca38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.pt-3 > div.card.overflow-hidden.v-card.bg-white.mb-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Your vesting schedule Full schedule (49 tranches)VestedVesting periodNumber of s&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f3409d06-7d35-430d-9d63-1912f044fe22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card overflow-hidden v-card bg-white mb-3</value>
+      <webElementGuid>7e1f2d5a-397a-4994-9f04-e02ef5226544</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>v-card-component</value>
+      <webElementGuid>0564382e-6b85-4c96-bc9e-c523746baf1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your vesting schedule Full schedule (49 tranches)VestedVesting periodNumber of sharesAgreement nameVested1st Jan 2024500FTest LTest optionYet to vest1st Feb 2024197FTest LTest optionYet to vest1st Mar 2024198FTest LTest optionYet to vest1st Apr 2024198FTest LTest optionYet to vest1st May 2024198FTest LTest optionYet to vest1st Jun 2024198FTest LTest optionYet to vest1st Jul 2024198FTest LTest optionYet to vest1st Aug 2024198FTest LTest optionYet to vest1st Sep 2024198FTest LTest optionYet to vest1st Oct 2024198FTest LTest optionYet to vest1st Nov 2024198FTest LTest optionYet to vest1st Dec 2024198FTest LTest optionYet to vest1st Jan 2025197FTest LTest optionYet to vest1st Feb 2025198FTest LTest optionYet to vest1st Mar 2025198FTest LTest optionYet to vest1st Apr 2025198FTest LTest optionYet to vest1st May 2025198FTest LTest optionYet to vest1st Jun 2025198FTest LTest optionYet to vest1st Jul 2025198FTest LTest optionYet to vest1st Aug 2025198FTest LTest optionYet to vest1st Sep 2025198FTest LTest optionYet to vest1st Oct 2025198FTest LTest optionYet to vest1st Nov 2025198FTest LTest optionYet to vest1st Dec 2025198FTest LTest optionYet to vest1st Jan 2026197FTest LTest optionYet to vest1st Feb 2026198FTest LTest optionYet to vest1st Mar 2026198FTest LTest optionYet to vest1st Apr 2026198FTest LTest optionYet to vest1st May 2026198FTest LTest optionYet to vest1st Jun 2026198FTest LTest optionYet to vest1st Jul 2026198FTest LTest optionYet to vest1st Aug 2026198FTest LTest optionYet to vest1st Sep 2026198FTest LTest optionYet to vest1st Oct 2026198FTest LTest optionYet to vest1st Nov 2026198FTest LTest optionYet to vest1st Dec 2026198FTest LTest optionYet to vest1st Jan 2027197FTest LTest optionYet to vest1st Feb 2027198FTest LTest optionYet to vest1st Mar 2027198FTest LTest optionYet to vest1st Apr 2027198FTest LTest optionYet to vest1st May 2027198FTest LTest optionYet to vest1st Jun 2027198FTest LTest optionYet to vest1st Jul 2027198FTest LTest optionYet to vest1st Aug 2027198FTest LTest optionYet to vest1st Sep 2027198FTest LTest optionYet to vest1st Oct 2027198FTest LTest optionYet to vest1st Nov 2027198FTest LTest optionYet to vest1st Dec 2027198FTest LTest optionYet to vest1st Jan 2028198FTest LTest option</value>
+      <webElementGuid>7bedc88b-6b90-427e-8b0a-1ce2401682ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[1]/div[@class=&quot;pt-3&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]</value>
+      <webElementGuid>b6818666-5f6d-4eaf-8377-46d695504ac9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>4f181a1d-8aff-404d-b96c-8ee44e9433be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overall value'])[1]/following::div[5]</value>
+      <webElementGuid>139f9f5b-37c9-437b-aa7b-35cb5f788a29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Option vesting'])[1]/following::div[5]</value>
+      <webElementGuid>384e9d54-0d45-4106-a01a-1431025d38c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]/div</value>
+      <webElementGuid>bb100fce-40e7-4e6a-86c1-0ae39929c3a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Your vesting schedule Full schedule (49 tranches)VestedVesting periodNumber of sharesAgreement nameVested1st Jan 2024500FTest LTest optionYet to vest1st Feb 2024197FTest LTest optionYet to vest1st Mar 2024198FTest LTest optionYet to vest1st Apr 2024198FTest LTest optionYet to vest1st May 2024198FTest LTest optionYet to vest1st Jun 2024198FTest LTest optionYet to vest1st Jul 2024198FTest LTest optionYet to vest1st Aug 2024198FTest LTest optionYet to vest1st Sep 2024198FTest LTest optionYet to vest1st Oct 2024198FTest LTest optionYet to vest1st Nov 2024198FTest LTest optionYet to vest1st Dec 2024198FTest LTest optionYet to vest1st Jan 2025197FTest LTest optionYet to vest1st Feb 2025198FTest LTest optionYet to vest1st Mar 2025198FTest LTest optionYet to vest1st Apr 2025198FTest LTest optionYet to vest1st May 2025198FTest LTest optionYet to vest1st Jun 2025198FTest LTest optionYet to vest1st Jul 2025198FTest LTest optionYet to vest1st Aug 2025198FTest LTest optionYet to vest1st Sep 2025198FTest LTest optionYet to vest1st Oct 2025198FTest LTest optionYet to vest1st Nov 2025198FTest LTest optionYet to vest1st Dec 2025198FTest LTest optionYet to vest1st Jan 2026197FTest LTest optionYet to vest1st Feb 2026198FTest LTest optionYet to vest1st Mar 2026198FTest LTest optionYet to vest1st Apr 2026198FTest LTest optionYet to vest1st May 2026198FTest LTest optionYet to vest1st Jun 2026198FTest LTest optionYet to vest1st Jul 2026198FTest LTest optionYet to vest1st Aug 2026198FTest LTest optionYet to vest1st Sep 2026198FTest LTest optionYet to vest1st Oct 2026198FTest LTest optionYet to vest1st Nov 2026198FTest LTest optionYet to vest1st Dec 2026198FTest LTest optionYet to vest1st Jan 2027197FTest LTest optionYet to vest1st Feb 2027198FTest LTest optionYet to vest1st Mar 2027198FTest LTest optionYet to vest1st Apr 2027198FTest LTest optionYet to vest1st May 2027198FTest LTest optionYet to vest1st Jun 2027198FTest LTest optionYet to vest1st Jul 2027198FTest LTest optionYet to vest1st Aug 2027198FTest LTest optionYet to vest1st Sep 2027198FTest LTest optionYet to vest1st Oct 2027198FTest LTest optionYet to vest1st Nov 2027198FTest LTest optionYet to vest1st Dec 2027198FTest LTest optionYet to vest1st Jan 2028198FTest LTest option' or . = 'Your vesting schedule Full schedule (49 tranches)VestedVesting periodNumber of sharesAgreement nameVested1st Jan 2024500FTest LTest optionYet to vest1st Feb 2024197FTest LTest optionYet to vest1st Mar 2024198FTest LTest optionYet to vest1st Apr 2024198FTest LTest optionYet to vest1st May 2024198FTest LTest optionYet to vest1st Jun 2024198FTest LTest optionYet to vest1st Jul 2024198FTest LTest optionYet to vest1st Aug 2024198FTest LTest optionYet to vest1st Sep 2024198FTest LTest optionYet to vest1st Oct 2024198FTest LTest optionYet to vest1st Nov 2024198FTest LTest optionYet to vest1st Dec 2024198FTest LTest optionYet to vest1st Jan 2025197FTest LTest optionYet to vest1st Feb 2025198FTest LTest optionYet to vest1st Mar 2025198FTest LTest optionYet to vest1st Apr 2025198FTest LTest optionYet to vest1st May 2025198FTest LTest optionYet to vest1st Jun 2025198FTest LTest optionYet to vest1st Jul 2025198FTest LTest optionYet to vest1st Aug 2025198FTest LTest optionYet to vest1st Sep 2025198FTest LTest optionYet to vest1st Oct 2025198FTest LTest optionYet to vest1st Nov 2025198FTest LTest optionYet to vest1st Dec 2025198FTest LTest optionYet to vest1st Jan 2026197FTest LTest optionYet to vest1st Feb 2026198FTest LTest optionYet to vest1st Mar 2026198FTest LTest optionYet to vest1st Apr 2026198FTest LTest optionYet to vest1st May 2026198FTest LTest optionYet to vest1st Jun 2026198FTest LTest optionYet to vest1st Jul 2026198FTest LTest optionYet to vest1st Aug 2026198FTest LTest optionYet to vest1st Sep 2026198FTest LTest optionYet to vest1st Oct 2026198FTest LTest optionYet to vest1st Nov 2026198FTest LTest optionYet to vest1st Dec 2026198FTest LTest optionYet to vest1st Jan 2027197FTest LTest optionYet to vest1st Feb 2027198FTest LTest optionYet to vest1st Mar 2027198FTest LTest optionYet to vest1st Apr 2027198FTest LTest optionYet to vest1st May 2027198FTest LTest optionYet to vest1st Jun 2027198FTest LTest optionYet to vest1st Jul 2027198FTest LTest optionYet to vest1st Aug 2027198FTest LTest optionYet to vest1st Sep 2027198FTest LTest optionYet to vest1st Oct 2027198FTest LTest optionYet to vest1st Nov 2027198FTest LTest optionYet to vest1st Dec 2027198FTest LTest optionYet to vest1st Jan 2028198FTest LTest option')]</value>
+      <webElementGuid>ada8cd1a-bab9-4696-815d-d8f36ce171df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

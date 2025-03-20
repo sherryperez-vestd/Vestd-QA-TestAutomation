@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>summary-bar-section</name>
+   <tag></tag>
+   <elementGuidId>912998e8-9a82-4038-97d7-c3bd8d694fa8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card.overflow-hidden.v-card.bg-white.mb-3.collapsed</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.card >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7b9134d1-0ed3-48e3-af89-7bf182de669b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card overflow-hidden v-card bg-white mb-3 collapsed</value>
+      <webElementGuid>d5883453-4a01-443d-8268-95451b752aeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>v-card-component</value>
+      <webElementGuid>1c5a56ed-66d0-4ce8-9c21-b41bcbbd08eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My shares1,255My options9,750Current value£409.05Current profit£0.00Projected value£-.--My shares breakdown 1,240 Ordinary shares Average price per share: £0.20161View transactions15 Ordinary shares Average price per share: £0View transactionMy options breakdown EMI Option: 10,000 Ordinary Exercised: 250Vested: 250Unvested: 9,500Granted on: 7th Jan 2025View agreement summaryView transaction</value>
+      <webElementGuid>4e16df12-640e-462e-8bb9-ae89662dd9f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3 collapsed&quot;]</value>
+      <webElementGuid>c96cf1b8-02f2-4f7c-a7eb-892bd6b98010</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div</value>
+      <webElementGuid>ca85e201-b2c4-464b-ac90-b58ace99acd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Equity'])[1]/following::div[5]</value>
+      <webElementGuid>5b578d4d-e267-4ec0-a16f-a3c5da7518fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::div[9]</value>
+      <webElementGuid>715753f5-e1a3-4065-9072-8c4494441fbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div/div/div</value>
+      <webElementGuid>4bee0f33-7084-4df8-a850-c8228c5f00a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'My shares1,255My options9,750Current value£409.05Current profit£0.00Projected value£-.--My shares breakdown 1,240 Ordinary shares Average price per share: £0.20161View transactions15 Ordinary shares Average price per share: £0View transactionMy options breakdown EMI Option: 10,000 Ordinary Exercised: 250Vested: 250Unvested: 9,500Granted on: 7th Jan 2025View agreement summaryView transaction' or . = 'My shares1,255My options9,750Current value£409.05Current profit£0.00Projected value£-.--My shares breakdown 1,240 Ordinary shares Average price per share: £0.20161View transactions15 Ordinary shares Average price per share: £0View transactionMy options breakdown EMI Option: 10,000 Ordinary Exercised: 250Vested: 250Unvested: 9,500Granted on: 7th Jan 2025View agreement summaryView transaction')]</value>
+      <webElementGuid>447ceadc-f5f4-4525-a0cd-740f31cab0f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

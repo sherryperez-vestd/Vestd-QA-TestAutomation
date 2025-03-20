@@ -19,20 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('user-login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Check EMI vesting schedule'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/award-section/div_Award table'), 
-    0)
+'Check Award table'
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/award-section/div_Award table'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/award-section/div_Award table'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/txt_heading-Award (No. of shares)'), 
     'Award (No. of shares)')
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/txt_heading-Total value'), 
-    'Total value')
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/txt_heading-Total value'), 'Total value')
 
+'Check Award Total Value tooltip'
 WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/award-section/tooltip-icon_award-total-value'), 
     0)
 
@@ -51,6 +50,7 @@ WebUI.click(findTestObject('Object Repository/my-equity-page/award-section/toolt
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/txt_heading-Total price to pay'), 
     'Total price to pay')
 
+'Check Award Total Price to Pay tooltip'
 WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/award-section/tooltip-icon_award_total-price-to-pay'), 
     0)
 
@@ -68,9 +68,9 @@ WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-s
 
 WebUI.click(findTestObject('Object Repository/my-equity-page/award-section/tooltip-icon_award_total-price-to-pay'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/txt_heading-Pre-tax profit'), 
-    'Pre-tax profit')
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/txt_heading-Pre-tax profit'), 'Pre-tax profit')
 
+'Check Award Pre-tax profit tooltip'
 WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/award-section/tooltip-icon_award-pre-tax-profit'), 
     0)
 
@@ -88,23 +88,25 @@ WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-s
 
 WebUI.click(findTestObject('Object Repository/my-equity-page/award-section/tooltip-icon_award-pre-tax-profit'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int-award-number-of-shares'), 
-    '9,750')
+'Check Award No of shares value'
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int-award-number-of-shares'), '9,750')
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int-award-total-value'), 
-    '£288.97')
+'Check Award Total value amount'
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int-award-total-value'), '£288.97')
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int_award-total-price-to-pay'), 
-    '£9,750.00')
+'Check Award Total price to pay amount'
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int_award-total-price-to-pay'), '£9,750.00')
 
-WebUI.setText(findTestObject('Object Repository/my-equity-page/award-section/input_estimated-profit-per-share'), 
-    '5')
+'Check change in Estimated profit value updates Total value and Pre tax - profit amount '
+WebUI.setText(findTestObject('Object Repository/my-equity-page/award-section/input_estimated-profit-per-share'), '5')
 
-WebUI.sendKeys(findTestObject('Object Repository/my-equity-page/award-section/input_estimated-profit-per-share'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/my-equity-page/award-section/input_estimated-profit-per-share'), Keys.chord(
+        Keys.ENTER))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int_award-pre-tax-profit'), 
-    '£39,000.00')
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int_award-pre-tax-profit'), '£39,000.00')
+
+'Check Award Total value amount'
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int-award-total-value'), '£48,750.00')
 
 WebUI.closeBrowser()
 

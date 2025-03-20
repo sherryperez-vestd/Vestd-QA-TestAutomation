@@ -4,17 +4,26 @@
    <name>icon_vesting-schedule-chevron-down</name>
    <tag></tag>
    <elementGuidId>398340da-bc88-4493-bd26-efafa53a3c2c</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/i</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>div.pt-3 > div.card.overflow-hidden.v-card.bg-white.mb-3 > div.card-header.d-flex.flex-wrap.flex-column.bg-white.hide-header-separator.cursor-pointer > div.d-flex.align-items-center.text-break.header-main-content.w-100 > div.d-flex.ml-auto.flex-column.align-self-stretch.flex-lg-row.flex-lg-wrap-reverse.align-self-lg-start.align-items-end.align-items-lg-center.text-right.secondary-content > i.vi.vi-sm.mt-auto.ml-lg-2.mt-lg-0.vi-chevron-down</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[1]/div[@class=&quot;pt-3&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;card-header d-flex flex-wrap flex-column bg-white hide-header-separator cursor-pointer&quot;]/div[@class=&quot;d-flex align-items-center text-break header-main-content w-100&quot;]/div[@class=&quot;d-flex ml-auto flex-column align-self-stretch flex-lg-row flex-lg-wrap-reverse align-self-lg-start align-items-end align-items-lg-center text-right secondary-content&quot;]/i[@class=&quot;vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down&quot;][count(. | //i[@class = 'vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down']) = count(//i[@class = 'vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down'])]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/i</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,20 +33,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>c6044848-3b93-45a3-86e2-4e91115ed2c2</webElementGuid>
+      <webElementGuid>6a9ec020-483c-40d8-9f33-18e7e77bc721</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down</value>
-      <webElementGuid>6fdacf0e-f881-4916-b3d5-7f31122d1bac</webElementGuid>
+      <webElementGuid>6b689a2d-a138-47cf-ad3e-20fbcb033673</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[1]/div[@class=&quot;pt-3&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;card-header d-flex flex-wrap flex-column bg-white hide-header-separator cursor-pointer&quot;]/div[@class=&quot;d-flex align-items-center text-break header-main-content w-100&quot;]/div[@class=&quot;d-flex ml-auto flex-column align-self-stretch flex-lg-row flex-lg-wrap-reverse align-self-lg-start align-items-end align-items-lg-center text-right secondary-content&quot;]/i[@class=&quot;vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down&quot;]</value>
-      <webElementGuid>59ea5abe-98e0-4782-b2f1-bd2a7e825313</webElementGuid>
+      <webElementGuid>913fa867-61fc-4493-a280-39dc5e8cc8b3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/div/div[2]/i</value>
-      <webElementGuid>06822ad6-689a-4f69-ab6f-8e24ee09301b</webElementGuid>
+      <webElementGuid>d40be872-2c33-490a-be13-82704057a77c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +70,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/div/div/div[2]/i</value>
-      <webElementGuid>c4000740-21d8-4609-b6bc-39e0616772bd</webElementGuid>
+      <webElementGuid>a7e451d8-0368-43ce-95a9-ba7b0a05483b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

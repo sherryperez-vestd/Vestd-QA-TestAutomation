@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>my-equity-shares-options-breakdown</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>47d8557a-dc6e-49a3-97cf-56a191c8e4f7</testCaseGuid>
+</TestCaseEntity>
