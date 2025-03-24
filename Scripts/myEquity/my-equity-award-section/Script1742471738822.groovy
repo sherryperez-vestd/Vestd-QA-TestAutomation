@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('user-login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('users/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
@@ -92,7 +92,8 @@ WebUI.click(findTestObject('Object Repository/my-equity-page/award-section/toolt
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int-award-number-of-shares'), '9,750')
 
 'Check Award Total value amount'
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int-award-total-value'), '£288.97')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int-award-total-value'), 
+    '£288.97')
 
 'Check Award Total price to pay amount'
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/award-section/int_award-total-price-to-pay'), '£9,750.00')

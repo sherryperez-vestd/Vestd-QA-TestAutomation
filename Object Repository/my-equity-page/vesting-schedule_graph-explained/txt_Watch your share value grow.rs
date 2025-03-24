@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Watch your share value grow</name>
+   <tag></tag>
+   <elementGuidId>6b9e5ec6-a9b2-4cda-9cda-20acaf64830c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.pt-3 > div.card.v-card.bg-white.mb-3 > div.d-flex.flex-column > div.card-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Watch your share value grow! The graph above shows how your Growth Shares are ca&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1aca5e28-b505-4d93-9d02-cce38b95d9b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>3028989b-c5d9-4702-ba0a-3acac80440db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>eb5ca916-3c58-49aa-a5e0-64e9f057f86c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Watch your share value grow! The graph above shows how your Growth Shares are categorised and vest over time.  As soon as you accept your Growth Share invitation, all of your Growth Shares are issued to you. However, they fall into different categories: Unconditional: These shares are fully yours and can’t be taken back or cancelled. Typically, Growth Shares become unconditional once you’ve met the agreed-upon criteria when accepting your Growth Share invitation.Conditional: Conditional Growth Shares are tied to specific milestones or achievements. Once you meet the required criteria, these shares will convert to unconditional shares.Deferred: Deferred Growth Shares have been effectively cancelled. If the criteria tied to your Growth Shares aren’t met, those shares will move to a deferred share class, which holds no rights or value.</value>
+      <webElementGuid>160efcc9-01fd-4fff-926d-95df503a58da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[1]/div[@class=&quot;pt-3&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>34a59d92-977d-4e03-9192-db977bc6df58</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/div[2]/div</value>
+      <webElementGuid>42041858-ca48-45eb-8ddd-c5bdaccddd0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your graph explained'])[1]/following::div[3]</value>
+      <webElementGuid>bca2655c-b76a-410b-a52c-acf5ed32969e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overall value'])[1]/following::div[12]</value>
+      <webElementGuid>0926ad60-3416-4991-a90f-4ccb75d6f8fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]/div/div[2]/div</value>
+      <webElementGuid>d5547fb6-dd74-4750-87c7-0096bb060f52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Watch your share value grow! The graph above shows how your Growth Shares are categorised and vest over time.  As soon as you accept your Growth Share invitation, all of your Growth Shares are issued to you. However, they fall into different categories: Unconditional: These shares are fully yours and can’t be taken back or cancelled. Typically, Growth Shares become unconditional once you’ve met the agreed-upon criteria when accepting your Growth Share invitation.Conditional: Conditional Growth Shares are tied to specific milestones or achievements. Once you meet the required criteria, these shares will convert to unconditional shares.Deferred: Deferred Growth Shares have been effectively cancelled. If the criteria tied to your Growth Shares aren’t met, those shares will move to a deferred share class, which holds no rights or value.' or . = 'Watch your share value grow! The graph above shows how your Growth Shares are categorised and vest over time.  As soon as you accept your Growth Share invitation, all of your Growth Shares are issued to you. However, they fall into different categories: Unconditional: These shares are fully yours and can’t be taken back or cancelled. Typically, Growth Shares become unconditional once you’ve met the agreed-upon criteria when accepting your Growth Share invitation.Conditional: Conditional Growth Shares are tied to specific milestones or achievements. Once you meet the required criteria, these shares will convert to unconditional shares.Deferred: Deferred Growth Shares have been effectively cancelled. If the criteria tied to your Growth Shares aren’t met, those shares will move to a deferred share class, which holds no rights or value.')]</value>
+      <webElementGuid>e19e1e5c-75cb-4cb0-989d-2869fc0362f8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

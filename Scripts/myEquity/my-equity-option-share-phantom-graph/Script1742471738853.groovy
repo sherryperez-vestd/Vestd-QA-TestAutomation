@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('user-login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('users/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Check EMI graph'
+'Check EMI vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
 WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'), 0)
@@ -34,7 +34,7 @@ WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/ca
 
 WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-options'))
 
-'Check UO graph'
+'Check UO vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370417')
 
 WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'), 0)
@@ -49,7 +49,7 @@ WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/ca
 
 WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-options'))
 
-'Check CSOP graph'
+'Check CSOP vesting  graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370432')
 
 WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'), 0)
@@ -64,7 +64,7 @@ WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/ca
 
 WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-options'))
 
-'Check ESOP graph'
+'Check ESOP vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50915/dashboard?user_id=370324')
 
 WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/tab-esop_Option-vesting'), 0)
@@ -79,7 +79,7 @@ WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/ca
 
 WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-esop'))
 
-'Check GS graph'
+'Check GS vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370451')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/graph/vesting-graph/tab_Share-vesting'), 0)
@@ -95,7 +95,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/grap
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/vesting-graph/canvas-graph-options'))
 
-'Check RSA graph'
+'Check RSA vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370580')
 
 WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/tab-link_Share-vesting'), 0)
@@ -110,7 +110,7 @@ WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/ca
 
 WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-shares'))
 
-'Check CS graph'
+'Check CS vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370581')
 
 WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/tab-link_Share-vesting'), 0)
@@ -125,7 +125,7 @@ WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/ca
 
 WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-shares'))
 
-'Check Phantom graph'
+'Check Phantom vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370449')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/vesting-graph/tab_Phantom-shares'))

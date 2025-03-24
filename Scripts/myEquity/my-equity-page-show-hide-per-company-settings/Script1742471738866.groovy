@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('user-login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('users/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
 
@@ -49,9 +49,10 @@ WebUI.click(findTestObject('Object Repository/my-equity-page/show-hide-settings/
 
 WebUI.click(findTestObject('Object Repository/my-equity-page/show-hide-settings/button_Save'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/show-hide-settings/message_Company updated'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/show-hide-settings/message_Company updated'), 
+    0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/show-hide-settings/message_Company updated'), 0)
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/show-hide-settings/message_Company updated'), 'Company updated')
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
@@ -74,14 +75,20 @@ WebUI.click(findTestObject('Object Repository/my-equity-page/show-hide-settings/
 
 WebUI.click(findTestObject('Object Repository/my-equity-page/show-hide-settings/button_Save'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/show-hide-settings/message_Company updated'), 'Company updated')
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/show-hide-settings/message_Company updated'), 
+    0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/show-hide-settings/message_Company updated'), 'Company updated')
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/my-equity-page/show-hide-settings/tab_Overall value'), 
-    0)
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/my-equity-page/show-hide-settings/tab_Overall value'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('my-equity-page/show-hide-settings/link_Overall value'), 0)
+
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
+
+WebUI.click(findTestObject('my-equity-page/show-hide-settings/input_Yes, hide the value graph and the calculator'))
+
+WebUI.click(findTestObject('Object Repository/my-equity-page/show-hide-settings/button_Save'))
 
