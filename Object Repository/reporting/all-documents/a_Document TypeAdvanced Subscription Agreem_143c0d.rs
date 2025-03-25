@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Document TypeAdvanced Subscription Agreem_143c0d</name>
+   <tag></tag>
+   <elementGuidId>30de0e03-47c6-4ca6-92bc-9698e2d52c01</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='multi-dropdown-menu']/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Document Type&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c10b3320-dfe4-4420-adc0-e365ed61e8da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0)</value>
+      <webElementGuid>354e2b68-b1fb-4602-97ae-532a4d9428d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item dropdown-toggle child-filters</value>
+      <webElementGuid>26ff554a-55c9-4305-abc7-d1c16e729608</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Document TypeAdvanced Subscription AgreementArticles of AssociationBalance SheetBeneficial Share CertificateBoard MinutesBusiness PlanCashflow StatementCertificate of IncorporationCompany UpdateConvertible NoteDeed of AdherenceDirector ResolutionEMI Option AgreementEmployment ContractFounder Service AgreementGroup Structure ChartHMRC Annual EMI NotificationHMRC Annual ERS Other NotificationHMRC Initial EMI NotificationInvestor Self Certification FormITEPA_431Non-Disclosure AgreementOption cancellation agreementOption CriteriaOrganisational ChartOtherPitch DeckProfit &amp; Loss StatementRollover agreementRP04 - Correction of SH01Scheme RulesSH01SH02SH03SH04SH06SH08SH10Share CertificateShare Issue CriteriaShare subscription letter/agreementShare Supply AgreementShareholder AgreementShareholder ResolutionShare Purchase AgreementStamp duty proofStock TransferSupplier ContractSyndicate TermsUnapproved Option AgreementWarrant</value>
+      <webElementGuid>51c2ac9e-294c-4135-98e1-35936ad4d116</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;multi-dropdown-menu&quot;)/a[@class=&quot;dropdown-item dropdown-toggle child-filters&quot;]</value>
+      <webElementGuid>7e72c1e1-f207-49c5-822e-c41ee407b264</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='multi-dropdown-menu']/a[2]</value>
+      <webElementGuid>612c1b5b-fa88-4474-8d84-b541b256dcf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Will be filed'])[1]/following::a[1]</value>
+      <webElementGuid>bd872146-74f0-4ab4-ac73-6f82e761b3d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sent for signing'])[1]/following::a[2]</value>
+      <webElementGuid>88639768-9022-48b4-857b-97fee0008dc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:void(0)')])[10]</value>
+      <webElementGuid>460fda75-3486-474a-b313-445231ba41b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/a[2]</value>
+      <webElementGuid>c5eb993d-3d77-44bd-ba7e-9cd6b990b5ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:void(0)' and (text() = 'Document TypeAdvanced Subscription AgreementArticles of AssociationBalance SheetBeneficial Share CertificateBoard MinutesBusiness PlanCashflow StatementCertificate of IncorporationCompany UpdateConvertible NoteDeed of AdherenceDirector ResolutionEMI Option AgreementEmployment ContractFounder Service AgreementGroup Structure ChartHMRC Annual EMI NotificationHMRC Annual ERS Other NotificationHMRC Initial EMI NotificationInvestor Self Certification FormITEPA_431Non-Disclosure AgreementOption cancellation agreementOption CriteriaOrganisational ChartOtherPitch DeckProfit &amp; Loss StatementRollover agreementRP04 - Correction of SH01Scheme RulesSH01SH02SH03SH04SH06SH08SH10Share CertificateShare Issue CriteriaShare subscription letter/agreementShare Supply AgreementShareholder AgreementShareholder ResolutionShare Purchase AgreementStamp duty proofStock TransferSupplier ContractSyndicate TermsUnapproved Option AgreementWarrant' or . = 'Document TypeAdvanced Subscription AgreementArticles of AssociationBalance SheetBeneficial Share CertificateBoard MinutesBusiness PlanCashflow StatementCertificate of IncorporationCompany UpdateConvertible NoteDeed of AdherenceDirector ResolutionEMI Option AgreementEmployment ContractFounder Service AgreementGroup Structure ChartHMRC Annual EMI NotificationHMRC Annual ERS Other NotificationHMRC Initial EMI NotificationInvestor Self Certification FormITEPA_431Non-Disclosure AgreementOption cancellation agreementOption CriteriaOrganisational ChartOtherPitch DeckProfit &amp; Loss StatementRollover agreementRP04 - Correction of SH01Scheme RulesSH01SH02SH03SH04SH06SH08SH10Share CertificateShare Issue CriteriaShare subscription letter/agreementShare Supply AgreementShareholder AgreementShareholder ResolutionShare Purchase AgreementStamp duty proofStock TransferSupplier ContractSyndicate TermsUnapproved Option AgreementWarrant')]</value>
+      <webElementGuid>d18bdd86-effd-4f8a-a387-7b7d6dee13b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

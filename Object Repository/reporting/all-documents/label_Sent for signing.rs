@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Sent for signing</name>
+   <tag></tag>
+   <elementGuidId>ee04ac7d-1f36-43ce-bbfc-3684aa9e8d6f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='multi-dropdown-menu']/a/div/a[7]/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Sent for signing&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>6a278860-9d3b-4008-bf07-b720565b1d3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-label p-2 d-block</value>
+      <webElementGuid>9d6670c8-1130-4ec8-9744-412a4b2ac9ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>status_sent_for_signing</value>
+      <webElementGuid>e00a6c91-463b-4492-b049-9a318697dd45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sent for signing</value>
+      <webElementGuid>f20ff830-1da9-4ba9-a35c-74043bff8110</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;multi-dropdown-menu&quot;)/a[@class=&quot;dropdown-item dropdown-toggle child-filters&quot;]/div[@class=&quot;sub-filters&quot;]/a[@class=&quot;dropdown-item p-0&quot;]/div[@class=&quot;form-check mb-0&quot;]/label[@class=&quot;form-check-label p-2 d-block&quot;]</value>
+      <webElementGuid>e94b8293-3095-4c07-8cc1-a04b676d2a71</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='multi-dropdown-menu']/a/div/a[7]/div/label</value>
+      <webElementGuid>27668161-b1e9-44f8-aaad-f54475e6c3e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sent for filing'])[1]/following::label[1]</value>
+      <webElementGuid>e422d770-f0d6-49ef-b8cd-37efcb7e2c29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Off-platform'])[1]/following::label[2]</value>
+      <webElementGuid>7b6ee66c-f23e-41cb-b71e-bddb18d02b31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Will be filed'])[1]/preceding::label[1]</value>
+      <webElementGuid>97354996-2a57-4364-9b36-dc0a2c79551a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Type'])[1]/preceding::label[2]</value>
+      <webElementGuid>8b46e4f6-f8b7-4330-9cb5-f0951bc0da89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sent for signing']/parent::*</value>
+      <webElementGuid>c728ceeb-0f97-43a0-a2ed-391375e5bfbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[7]/div/label</value>
+      <webElementGuid>f0e12207-dabd-487a-973d-941f97d5e7b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Sent for signing' or . = 'Sent for signing')]</value>
+      <webElementGuid>9d2d9d21-161b-4465-8dd9-9039944d0402</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

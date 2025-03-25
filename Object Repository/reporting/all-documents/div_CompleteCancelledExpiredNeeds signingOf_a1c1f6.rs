@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_CompleteCancelledExpiredNeeds signingOf_a1c1f6</name>
+   <tag></tag>
+   <elementGuidId>622215a7-9f5a-4c80-881b-4627630786f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.sub-filters</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='multi-dropdown-menu']/a/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Status Complete Cancelled Expired Needs signing Off-platform Sent for filing Sent for signing Will be filed&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cd8365d1-ff85-4d54-ac54-f77c21d8c020</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sub-filters</value>
+      <webElementGuid>83cd6dc5-a0b0-4a54-8647-1aa35716c05c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CompleteCancelledExpiredNeeds signingOff-platformSent for filingSent for signingWill be filed</value>
+      <webElementGuid>588d9823-c2ff-4079-aa70-797f674364a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;multi-dropdown-menu&quot;)/a[@class=&quot;dropdown-item dropdown-toggle child-filters&quot;]/div[@class=&quot;sub-filters&quot;]</value>
+      <webElementGuid>25ab5374-f065-456a-9d3b-8644a46273d0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='multi-dropdown-menu']/a/div</value>
+      <webElementGuid>4b41a326-d895-41fb-8239-f9200be995ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::div[1]</value>
+      <webElementGuid>c99c4818-f0c2-419b-9edd-fa1646695c97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add filter'])[1]/following::div[2]</value>
+      <webElementGuid>b126834d-47f5-405b-aa7c-d34c7f45a92d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/div</value>
+      <webElementGuid>ecc7087e-5620-46cb-b810-621e9b4991b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'CompleteCancelledExpiredNeeds signingOff-platformSent for filingSent for signingWill be filed' or . = 'CompleteCancelledExpiredNeeds signingOff-platformSent for filingSent for signingWill be filed')]</value>
+      <webElementGuid>465b019a-224a-4d4a-8e26-eee34a637ac5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
