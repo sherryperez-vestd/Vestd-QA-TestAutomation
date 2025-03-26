@@ -21,10 +21,11 @@ WebUI.callTestCase(findTestCase('users/user-login-staff'), [:], FailureHandling.
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/chevron_summary-bar'))
+WebUI.click(findTestObject('my-equity-page/shares-options-breakdown/chevron_summary-bar'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tile_my-shares-breakdown-section'))
 
+'Check My shares breakdown tooltips and labels\r\n'
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/txt_my-shares-breakdown'), 
     'My shares breakdown')
 
@@ -32,7 +33,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/shar
 
 WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-shares'))
 
-WebUI.verifyElementText(findTestObject('my-equity-page/shares-options-breakdown/shares-breakdown/tooltip-text_my-shares-breakdown-shares'), 
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tooltip-text_my-shares-breakdown-shares'), 
     'Here you\'ll see your total share allocation and the share class it belongs to.')
 
 WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-shares'))
@@ -49,24 +50,21 @@ WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-brea
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/txt_average-price-per-share'), 
     'Average price per share:')
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/button_View transactions'), 
-    'View transactions')
+'Check My shares breakdown transaction history'
+WebUI.verifyElementText(findTestObject('my-equity-page/shares-options-breakdown/button_View transactions'), 'View transactions')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/button_View transactions'))
+WebUI.click(findTestObject('my-equity-page/shares-options-breakdown/button_View transactions'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/txt_Transaction-History'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('my-equity-page/shares-options-breakdown/txt_Transaction-History'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/div_transaction-history-data'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('my-equity-page/shares-options-breakdown/txt_Transaction-History'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/button_Close'))
-
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/button_Close'))
+WebUI.click(findTestObject('my-equity-page/shares-options-breakdown/button_Close'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/tile_My-options-breakdown-section'), 
     0)
 
+'Check My options breakdown tooltips and labels\r\n\r\n'
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/txt_My-options-breakdown'), 
     'My options breakdown')
 
@@ -101,30 +99,4 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/shar
 
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/label_my-optons-breakdown-Granted-on'), 
     'Granted on:')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/button_View transaction'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/button_View transaction'), 
-    'View transaction')
-
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/button_View transaction'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/div_transaction-history-data'), 
-    0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/txt_Transaction-History'), 
-    0)
-
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/button_Close'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/a_View agreement summary'), 
-    'View agreement summary')
-
-not_run: WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/a_View agreement summary'))
-
-not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/h2_Agreement summary'), 
-    0)
-
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/h2_Agreement summary'), 
-    'Agreement summary')
 

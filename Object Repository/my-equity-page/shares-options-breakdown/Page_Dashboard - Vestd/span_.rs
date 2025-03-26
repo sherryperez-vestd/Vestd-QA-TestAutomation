@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_Agreement summary</name>
+   <name>span_</name>
    <tag></tag>
-   <elementGuidId>d7bc76f3-232e-4a0a-a882-47b4da925241</elementGuidId>
+   <elementGuidId>f09b2936-6fa4-4b88-b06c-74f043cce70e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/h2</value>
+         <key>CSS</key>
+         <value>div.modal-header > button.close > span</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h2.h1.mb-3</value>
+         <key>XPATH</key>
+         <value>//div[@id='uYSvIiTQ9VRLZ2CL']/div/div/div/button/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=heading[name=&quot;Agreement summary&quot;i]</value>
+         <value>internal:label=&quot;Close&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,95 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h2</value>
-      <webElementGuid>11f7546d-fde7-4e98-af18-77948299d4c1</webElementGuid>
+      <value>span</value>
+      <webElementGuid>06b4cccf-5f76-4aee-a18f-fa09094d477b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>aria-hidden</name>
       <type>Main</type>
-      <value>h1 mb-3</value>
-      <webElementGuid>7c552999-e703-45b9-aa1f-4fba8d7f295c</webElementGuid>
+      <value>true</value>
+      <webElementGuid>f1f3c035-b909-4f31-a6e4-747c2bcf3651</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Agreement summary</value>
-      <webElementGuid>334d5721-a7ea-4749-b6ff-42872401a40d</webElementGuid>
+      <value>×</value>
+      <webElementGuid>f245b04e-ebaa-4f47-8eb5-6e1571fc969c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h2[@class=&quot;h1 mb-3&quot;]</value>
-      <webElementGuid>33f683e2-dcf9-47b9-835e-5938875d56f9</webElementGuid>
+      <value>id(&quot;uYSvIiTQ9VRLZ2CL&quot;)/div[@class=&quot;modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close&quot;]/span[1]</value>
+      <webElementGuid>3ac37464-9068-437c-8337-20a03490be1b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/h2</value>
-      <webElementGuid>b33be8f1-78c9-4a9b-810b-f8aeb695abb1</webElementGuid>
+      <value>//div[@id='uYSvIiTQ9VRLZ2CL']/div/div/div/button/span</value>
+      <webElementGuid>852ca6b2-bbb4-495a-9f5b-a40220a8c409</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to list of options'])[1]/following::h2[1]</value>
-      <webElementGuid>69d16d04-2292-4881-942d-e851e57b12db</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction History'])[1]/following::span[1]</value>
+      <webElementGuid>9a16d81f-f4ec-46a3-a635-91a652fd9eb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h2[1]</value>
-      <webElementGuid>77ea2528-4090-4023-972e-d7ea11d40e35</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::span[1]</value>
+      <webElementGuid>ba46f47c-92ed-4a26-9847-9a0bf7eb1323</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notify HMRC'])[1]/preceding::h2[1]</value>
-      <webElementGuid>d251d631-d027-4cf3-8450-050f9a4ac419</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction:'])[1]/preceding::span[1]</value>
+      <webElementGuid>d9e7ddb6-aa8e-4cd2-9ff5-54e3052fa31a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start this initial notification'])[1]/preceding::h2[1]</value>
-      <webElementGuid>84a43caa-eda7-4ec4-a82c-13498898914b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Agreement summary']/parent::*</value>
-      <webElementGuid>62b07a43-e004-4b71-9e93-bcc8b096f8ad</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Related to:'])[1]/preceding::span[2]</value>
+      <webElementGuid>deef8e87-0f99-46ea-b5f8-d0b445243ba8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h2</value>
-      <webElementGuid>9ed459b6-fe67-42c3-95f3-0d361792ab44</webElementGuid>
+      <value>//div[2]/div/div/div/button/span</value>
+      <webElementGuid>47904b44-a841-43fb-9fc9-0db026cb693a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h2[(text() = 'Agreement summary' or . = 'Agreement summary')]</value>
-      <webElementGuid>d8d56775-3100-42f3-9ff6-e44bc240a0ff</webElementGuid>
+      <value>//span[(text() = '×' or . = '×')]</value>
+      <webElementGuid>c9a9b7f2-b43a-4756-a900-030e8bdaa0b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
