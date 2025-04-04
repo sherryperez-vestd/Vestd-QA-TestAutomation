@@ -10,47 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>2e2d6b5f-d1bd-4216-8b41-d2e23753c17b</testSuiteGuid>
+   <testSuiteGuid>0fd5bfe7-5150-4d1e-b25c-a7ea8e452dd8</testSuiteGuid>
    <testCaseLink>
       <guid>51c3836a-0dc0-4abe-b806-ba24f2fa9f69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/Visual Test/vt-user-login</testCaseId>
+      <testCaseId>Test Cases/visualTest/login/vt-user-login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c3c4d0b1-5224-4845-a9b2-287fb70e1c18</guid>
+      <guid>a19ddd7a-07bf-46d1-b417-a5b445436274</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/Visual Test/vt-my-equity-graph-explained-vesting-graph</testCaseId>
+      <testCaseId>Test Cases/visualTest/my-equity/vt-my-equity-summary-bar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7b58a414-08d0-43a1-b5d5-e001d02c9435</guid>
+      <guid>5e119dd9-8606-4a8c-adb6-cb18eace8d50</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/Visual Test/vt-my-equity-summary-bar</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3dc845e0-bc6b-481a-b4f5-262c7930fd03</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/Visual Test/vt-projection-graph</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6752fb60-166e-4461-8f91-c64aa4abe525</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/Visual Test/vt-my-equity-graph-explained-vesting-graph</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>232aa808-366b-47cd-b4eb-3e746c9d31b6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/Visual Test/vt-my-equity-shares-options-breakdown</testCaseId>
+      <testCaseId>Test Cases/visualTest/my-equity/vt-my-equity-graph-explained-vesting-graph</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -81,4 +81,11 @@
       <testCaseId>Test Cases/myEquity/my-equity-view-transaction-agreement</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>752fd764-50a4-44e0-af7d-5f84c004e340</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/myEquity/my-equity-cancelledOptions-defferedShares</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

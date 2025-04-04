@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.callTestCase(findTestCase('users/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
@@ -32,9 +30,9 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/grap
 WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tab_overall-value'))
 
 'Check Empty Overall value graph'
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/graph_empty'), 0)
+WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/overall-value-graph/img-empty-graph'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/graph_empty'))
+WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/overall-value-graph/img-empty-graph'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/txt_empty-graph-This is where your potential growth'))
 
@@ -68,15 +66,15 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/grap
     0)
 
 'Check vesting overtime tooltip'
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/overall-value-graph/Page_Dashboard - Vestd/span_Vesting over time_static-content'))
+not_run: WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/overall-value-graph/tooltip-icon_vesting-over-time'))
 
-not_run: WebUI.click(findTestObject('my-equity-page/graph/overall-value-graph/Page_Dashboard - Vestd/span_Vesting over time_static-content'))
+not_run: WebUI.click(findTestObject('my-equity-page/graph/overall-value-graph/tooltip-icon_vesting-over-time'))
 
 not_run: WebUI.delay(0.5)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_vesting-over-time'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_vesting-over-time'))
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_vesting-over-time'), 
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_vesting-over-time'), 
     'Tracks how your options/shares will vest according to the schedule in your agreement.')
 
 not_run: WebUI.click(findTestObject('my-equity-page/graph/overall-value-graph/Page_Dashboard - Vestd/span_Vesting over time_static-content'))
@@ -94,16 +92,16 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/grap
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-icon_vested-until-now'))
 
-not_run: WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-icon_vested-until-now'))
+WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-icon_vested-until-now'))
 
-not_run: WebUI.delay(0.5)
+WebUI.delay(0.5)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_vested-until-now'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_vested-until-now'))
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_vested-until-now'), 
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_vested-until-now'), 
     'Displays only the shares that have already vested.')
 
-not_run: WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-icon_vested-until-now'))
+WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-icon_vested-until-now'))
 
 'Check simulate all radio'
 WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/radio-div_simulate-all'), 
@@ -119,24 +117,24 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/grap
 'Check simulate all tooltip'
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip_simulate-all-vested'))
 
-not_run: WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip_simulate-all-vested'))
+WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip_simulate-all-vested'))
 
-not_run: WebUI.delay(0.5)
+WebUI.delay(0.5)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_simulate-all'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_simulate-all'))
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_simulate-all'), 
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_simulate-all'), 
     'Shows the potential value of your shares once everything has fully vested.')
 
-not_run: WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip_simulate-all-vested'))
+WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip_simulate-all-vested'))
 
-not_run: WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/radio_simulate-all'))
+WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/radio_simulate-all'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/canvas'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/canvas'))
 
-not_run: WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/radio_vested-until-now'))
+WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/radio_vested-until-now'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/canvas'), 0)
 

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Investment round 2 edit</name>
+   <tag></tag>
+   <elementGuidId>da8a7a9b-5651-46c2-bc6c-c3812412b5c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.h3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div[2]/div/div/h1/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Investment round 2 edit&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4c69aa71-5737-435f-96d3-bf0fba324084</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>392b8dce-07c6-407a-b8c5-365a33c413f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Investment round 2 edit</value>
+      <webElementGuid>da1f39ef-ee1e-4ee0-9c80-9fa1f178ec87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col d-flex align-items-end&quot;]/div[@class=&quot;float-md-left&quot;]/h1[@class=&quot;mb-0&quot;]/span[@class=&quot;h3&quot;]</value>
+      <webElementGuid>a532bf3d-d374-4afb-a5e5-fa8d3c2a97f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div[2]/div/div/h1/span</value>
+      <webElementGuid>021a1cf2-9539-4a23-ad82-1b37f6ac43c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt; Back to Investment hub'])[1]/following::span[1]</value>
+      <webElementGuid>f36d5432-fd1b-4b5a-b988-b32d992667b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Investment round 2']/parent::*</value>
+      <webElementGuid>ae11db1d-0b69-4600-8be3-c8f6a908116f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1/span</value>
+      <webElementGuid>a216a48b-6dac-49ce-9072-16ac66835d67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Investment round 2 edit' or . = 'Investment round 2 edit')]</value>
+      <webElementGuid>9168dd30-8456-4f7c-99b1-6797751daf5d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

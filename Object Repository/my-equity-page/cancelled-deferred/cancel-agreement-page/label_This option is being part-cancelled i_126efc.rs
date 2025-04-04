@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_This option is being part-cancelled i_126efc</name>
+   <tag></tag>
+   <elementGuidId>1c74a2de-f4d3-4854-a136-eb05f40396a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='partial-cancel-form']/div[2]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.form-check-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;This option is being part-cancelled in line with the terms of the option agreeme&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>63f2fe25-2b05-4ef7-a9d4-e30449ab3189</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>cancellation_recorded_as_agreement</value>
+      <webElementGuid>965616cf-e0d8-4145-b4ab-c783a0157639</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-label</value>
+      <webElementGuid>6bcbf94a-c8b1-4e87-958b-556e1efbfca4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This option is being part-cancelled in line with the terms of the option agreement (for example criteria not having been fulfilled).</value>
+      <webElementGuid>817bea41-f081-4fde-958d-f1e0152f9d4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;partial-cancel-form&quot;)/div[@class=&quot;form-group form-group--required&quot;]/div[@class=&quot;form-check&quot;]/label[@class=&quot;form-check-label&quot;]</value>
+      <webElementGuid>218ddbd1-dff9-4d57-8590-489a8d02f722</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='partial-cancel-form']/div[2]/div/label</value>
+      <webElementGuid>d4f9e6b2-4d4e-421d-9f9d-6913de53be04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How should the part-cancellation be recorded?'])[1]/following::label[1]</value>
+      <webElementGuid>c9fdf573-3f44-4fdb-a4f6-84707063d469</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Number to cancel'])[1]/following::label[2]</value>
+      <webElementGuid>a82e2a90-5177-4db3-a885-b0ac49470cfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='option cancellation help guide'])[1]/preceding::label[1]</value>
+      <webElementGuid>39c03d48-1101-4743-98a4-cfb2f4645649</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='This option is being part-cancelled in line with the terms of the option agreement (for example criteria not having been fulfilled).']/parent::*</value>
+      <webElementGuid>2912fcfa-5ec2-4de0-99ab-6de54c43bbe5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/label</value>
+      <webElementGuid>df7cbf14-bedf-4dbf-a746-f332c19c10b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'This option is being part-cancelled in line with the terms of the option agreement (for example criteria not having been fulfilled).' or . = 'This option is being part-cancelled in line with the terms of the option agreement (for example criteria not having been fulfilled).')]</value>
+      <webElementGuid>ce2c981e-f7cd-40d2-bb34-1b880b65a6da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

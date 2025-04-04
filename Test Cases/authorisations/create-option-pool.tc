@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>create-option-pool</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8ff1e138-8bec-4adc-9958-3cb0945f5ce0</testCaseGuid>
+</TestCaseEntity>

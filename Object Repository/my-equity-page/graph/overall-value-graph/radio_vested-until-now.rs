@@ -14,14 +14,14 @@
          <value>#vesting-type-all-nowvalue</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:label=&quot;Simulate all vested&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b8ac7421-7b42-45b4-9ebc-29a6b68377bf</webElementGuid>
+      <webElementGuid>497a8b7d-49a3-4350-8bf1-86822d77fa59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
-      <webElementGuid>931ef97a-c94c-43fd-bc4f-1c593467f29c</webElementGuid>
+      <webElementGuid>224ed98b-6bbd-4188-9e36-782877494c80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>e2f87108-8fc1-4e99-aec2-d3d35f413a24</webElementGuid>
+      <webElementGuid>eb10feee-9240-43ef-96b7-f0737d2d1a82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>vesting_typevalue</value>
-      <webElementGuid>71e54c2c-329d-4fd7-b1c3-0d09a9b572ee</webElementGuid>
+      <webElementGuid>297a7f91-abfa-4bac-bd91-0a25444a868e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>id</name>
       <type>Main</type>
       <value>vesting-type-all-nowvalue</value>
-      <webElementGuid>cf029cb6-8e3b-447c-80be-dba6e16006be</webElementGuid>
+      <webElementGuid>3cc6118b-a24d-4f54-9360-da3a5e66cfcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>value</name>
       <type>Main</type>
       <value>all-now</value>
-      <webElementGuid>ad7801bd-3db9-44f2-88df-43fb9a1e4b6f</webElementGuid>
+      <webElementGuid>ba9c2a0f-9ce8-43b9-9348-075420aa705d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vesting-type-all-nowvalue&quot;)</value>
-      <webElementGuid>fb995004-baad-4608-acf1-d32a3bdd97f3</webElementGuid>
+      <webElementGuid>6c944775-513e-4ce9-839c-f7a126c4e58c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='vesting-type-all-nowvalue']</value>
-      <webElementGuid>43dd8e92-d54d-45b1-9bab-d20a4ae1943a</webElementGuid>
+      <webElementGuid>4dcc7f99-089e-4025-b8c2-cbf6fae96cf7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div[3]/input</value>
-      <webElementGuid>f27e12a3-b793-45f3-b004-4b51ae2a2021</webElementGuid>
+      <webElementGuid>a2e6acc9-8a0d-4c13-b9d1-4ab8c5209ad2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/input</value>
-      <webElementGuid>4035018c-9041-4556-b422-7f8900b4bb55</webElementGuid>
+      <webElementGuid>c6cee0e4-8cb6-40f6-894e-57e2ef9f973b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'vesting_typevalue' and @id = 'vesting-type-all-nowvalue']</value>
-      <webElementGuid>33c6ee50-cfc9-42d1-920b-b29a9338b862</webElementGuid>
+      <webElementGuid>d4b08714-c911-4d2c-9334-a2183ae7972d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
