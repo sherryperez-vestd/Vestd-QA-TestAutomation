@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Month_starts_at_month</name>
+   <name>input_Last name_family_name</name>
    <tag></tag>
-   <elementGuidId>4621c84e-04c8-4f7b-9d3e-ec52f4acfb81</elementGuidId>
+   <elementGuidId>e1a7290d-b6c6-4015-a2c3-753b25995799</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#starts-at-month</value>
+         <value>#family_name</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='starts-at-month']</value>
+         <value>//input[@id='family_name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Month&quot;i</value>
+         <value>internal:label=&quot;Last name&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1dc69448-a203-44bb-a156-66f339ca359b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>starts-at-month</value>
-      <webElementGuid>6eaeee01-4c95-4d1b-ae75-057ee69ab234</webElementGuid>
+      <webElementGuid>2acf3209-1957-47d6-89d5-e8a8d2bc22af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,63 +37,63 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>7b653c43-4ed5-487d-b7d4-e8a151cb0f2f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>min</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>34bf6634-eb88-4865-954c-95472a9f98f5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>max</name>
-      <type>Main</type>
-      <value>12</value>
-      <webElementGuid>009b7d5b-09c5-4e5e-81fc-35ccb8639bd1</webElementGuid>
+      <webElementGuid>15bafc95-25a2-4efb-b499-142454081430</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>starts_at_month</value>
-      <webElementGuid>e063cc6d-abc6-48e2-b0b9-793b724086df</webElementGuid>
+      <value>family_name</value>
+      <webElementGuid>b23bd09a-e1db-491b-8464-0404dca437bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>ba65d06f-1ed9-4ee9-b4e6-5c2656b96ded</webElementGuid>
+      <value>text</value>
+      <webElementGuid>eb1298b6-c43f-49ac-8936-188a922b7f62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>family_name</value>
+      <webElementGuid>bd8eccec-eae1-4363-af74-3fd8b25448b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Shares</value>
+      <webElementGuid>1a71aa6a-f493-4dfc-9a7e-23f4ce2ae59c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;starts-at-month&quot;)</value>
-      <webElementGuid>98222a62-3a51-4c0a-9244-387c28e0cd60</webElementGuid>
+      <value>id(&quot;family_name&quot;)</value>
+      <webElementGuid>2ce6762d-363c-4a71-b862-203f0494c0b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='starts-at-month']</value>
-      <webElementGuid>8e69d44e-7395-455c-9f93-3f5b44fce1bf</webElementGuid>
+      <value>//input[@id='family_name']</value>
+      <webElementGuid>632383f4-2cbf-4c08-94f2-3d387cf16dc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/div[4]/div/div[2]/input</value>
-      <webElementGuid>a384705e-8ea9-4cd3-885b-78e9943a3664</webElementGuid>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[2]/input</value>
+      <webElementGuid>c67fcbaa-de91-4f54-89e6-446ad7d7316c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,14 +101,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>fc990bd7-1ac7-43f6-94c1-8212ae576a29</webElementGuid>
+      <webElementGuid>eabc4622-0ddd-47cd-9dac-cdabf0db65fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'starts-at-month' and @name = 'starts_at_month' and @type = 'number']</value>
-      <webElementGuid>900adc17-1ee5-4322-b683-c26435e6a357</webElementGuid>
+      <value>//input[@name = 'family_name' and @type = 'text' and @id = 'family_name']</value>
+      <webElementGuid>6c82a773-7730-48f5-8c88-fc344e4deeba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -66,18 +66,18 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/grap
     0)
 
 'Check vesting overtime tooltip'
-not_run: WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/overall-value-graph/tooltip-icon_vesting-over-time'))
+WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/overall-value-graph/tooltip-icon_vesting-over-time'))
 
-not_run: WebUI.click(findTestObject('my-equity-page/graph/overall-value-graph/tooltip-icon_vesting-over-time'))
+WebUI.click(findTestObject('my-equity-page/graph/overall-value-graph/tooltip-icon_vesting-over-time'))
 
-not_run: WebUI.delay(0.5)
+WebUI.delay(0.5)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_vesting-over-time'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tooltip-txt_vesting-over-time'), 
     'Tracks how your options/shares will vest according to the schedule in your agreement.')
 
-not_run: WebUI.click(findTestObject('my-equity-page/graph/overall-value-graph/Page_Dashboard - Vestd/span_Vesting over time_static-content'))
+WebUI.click(findTestObject('my-equity-page/graph/overall-value-graph/Page_Dashboard - Vestd/span_Vesting over time_static-content'))
 
 'Check vested until now radio'
 WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/radio-div_vested-until-now'), 

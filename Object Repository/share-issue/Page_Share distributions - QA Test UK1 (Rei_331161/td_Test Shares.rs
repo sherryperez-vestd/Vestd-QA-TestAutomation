@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>th_Type</name>
+   <name>td_Test Shares</name>
    <tag></tag>
-   <elementGuidId>dbbd88bc-6e68-4f00-b72c-a9379790698f</elementGuidId>
+   <elementGuidId>a3209ce4-ef84-4f37-bfac-038e00212783</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>th</value>
+         <value>tr.even > td:nth-of-type(3)</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div[4]/div/div/table/thead/tr/th</value>
+         <value>//table[@id='reward-table']/tbody/tr[2]/td[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Type&quot;i]</value>
+         <value>internal:role=gridcell[name=&quot;Test Shares&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,79 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>th</value>
-      <webElementGuid>023713a0-563e-4359-b44d-d295d16f0db2</webElementGuid>
+      <value>td</value>
+      <webElementGuid>d0215fc0-4f10-4fc3-8c8a-359f41b52a0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Type</value>
-      <webElementGuid>3b67bd6b-83f8-48e1-8b3e-aa2a15c78f9a</webElementGuid>
+      <value>Test Shares</value>
+      <webElementGuid>89f02a20-e627-4982-b87b-ebd6d9963096</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover&quot;]/thead[1]/tr[1]/th[1]</value>
-      <webElementGuid>1eebcc28-637b-47ca-94d0-e367e7b4fefb</webElementGuid>
+      <value>id(&quot;reward-table&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[3]</value>
+      <webElementGuid>d5b8ec29-6127-4447-814d-0b67251e2ec3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div[4]/div/div/table/thead/tr/th</value>
-      <webElementGuid>ec2ff5c5-2323-4951-b473-da335a9d54e4</webElementGuid>
+      <value>//table[@id='reward-table']/tbody/tr[2]/td[3]</value>
+      <webElementGuid>e1690522-6a2e-4a8b-a259-16e86d6c9bf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Valuations'])[2]/following::th[1]</value>
-      <webElementGuid>139164bc-857c-41bb-9805-6ae4d70b82a1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share distribution 2'])[1]/following::td[1]</value>
+      <webElementGuid>cf3789a8-bcc0-463f-8ad6-82cf25150d15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Valuation'])[1]/preceding::th[1]</value>
-      <webElementGuid>82ca2ef7-46ad-4ed1-8889-c56359a5157b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£1.00'])[1]/following::td[4]</value>
+      <webElementGuid>afd630a1-c4a3-4e86-bc4f-afd68a60da4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/preceding::th[2]</value>
-      <webElementGuid>22b636cd-bf45-40d1-aa0f-a7c263d10bf9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ordinary (voting)'])[2]/preceding::td[1]</value>
+      <webElementGuid>f89e61a3-4adb-4889-a3ef-2d86d628ddcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Type']/parent::*</value>
-      <webElementGuid>8b779875-0222-4fab-afef-d2113fed57f7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£1.00'])[2]/preceding::td[3]</value>
+      <webElementGuid>0468d440-bb7b-464e-9422-e4ae10599f34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Test Shares']/parent::*</value>
+      <webElementGuid>18bed968-a124-4aeb-b1ae-c43eab8694ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//th</value>
-      <webElementGuid>c9354d57-38c5-47c6-a14c-ae93a4c56dd7</webElementGuid>
+      <value>//tr[2]/td[3]</value>
+      <webElementGuid>5bf0901d-60c6-4d93-8b8e-535ff517f667</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//th[(text() = 'Type' or . = 'Type')]</value>
-      <webElementGuid>68e180a6-e009-4770-b471-7b61d1232412</webElementGuid>
+      <value>//td[(text() = 'Test Shares' or . = 'Test Shares')]</value>
+      <webElementGuid>51688d2a-690a-4c06-a12e-90599e1b1bc4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Company</name>
+   <name>span_Investment round</name>
    <tag></tag>
-   <elementGuidId>928c59fd-8199-4275-a3b0-6471de4bee6b</elementGuidId>
+   <elementGuidId>f8f9745f-b249-4d6c-b807-eb2c11c35d55</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>td</value>
+         <value>span.small</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div[4]/div/div/table/tbody/tr/td</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div[4]/div/div/table/tbody/tr/td[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Company&quot;i] >> nth=0</value>
+         <value>internal:text=&quot;Investment round&quot;s</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,85 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
-      <webElementGuid>8a095b59-2b9d-41ed-9cc8-7a5f43089cfa</webElementGuid>
+      <value>span</value>
+      <webElementGuid>586aea2d-c8fc-432a-b99a-f84df1188964</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>small</value>
+      <webElementGuid>8dd1e02b-2942-4100-a6ab-a1dbf1600889</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                    Company
-                    </value>
-      <webElementGuid>bdf38c7a-0979-454f-a64e-48d3ae5a11cf</webElementGuid>
+      <value>Investment round</value>
+      <webElementGuid>8f66ade4-d58d-4c46-a6e2-ba2718de3690</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[1]/td[1]</value>
-      <webElementGuid>3b8b1399-3e82-42e1-9200-e46f8545830f</webElementGuid>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[1]/td[2]/span[@class=&quot;small&quot;]</value>
+      <webElementGuid>8fce28ef-cefe-4b3f-9203-5dd7a08070cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div[4]/div/div/table/tbody/tr/td</value>
-      <webElementGuid>3f3b6f83-2e2b-4ee9-93ec-85662801db0d</webElementGuid>
+      <value>//div[@id='main-content-wrapper']/div/div/div[4]/div/div/table/tbody/tr/td[2]/span</value>
+      <webElementGuid>b195efe0-29a2-454f-9aa7-4a2944216560</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[1]</value>
-      <webElementGuid>2b9c13fe-54ef-4394-b170-39ad2044bb14</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/following::span[1]</value>
+      <webElementGuid>94c169ed-9a61-44da-b95f-6bd866a57e92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Files'])[1]/following::td[1]</value>
-      <webElementGuid>0e9fb728-de08-498f-8168-1bca2dc52d62</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::span[1]</value>
+      <webElementGuid>2389b403-8ba5-489c-8b40-14fe23605959</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Investment round'])[1]/preceding::td[1]</value>
-      <webElementGuid>13d0fd09-85bc-4136-b2c1-0557ca33f9d7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::span[1]</value>
+      <webElementGuid>703d2c1a-ba44-4984-8078-2136337f36ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Company']/parent::*</value>
-      <webElementGuid>7b771edc-2859-4d36-a05f-1f5481d17119</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Investment round']/parent::*</value>
+      <webElementGuid>8ca4afdf-ab56-4a0b-b902-cbaa099adb09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//td</value>
-      <webElementGuid>44ffc0a6-2851-421f-b1c0-5816219a28cd</webElementGuid>
+      <value>//td[2]/span</value>
+      <webElementGuid>be36efd3-5529-4df5-979a-a253a185bd1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = '
-                    Company
-                    ' or . = '
-                    Company
-                    ')]</value>
-      <webElementGuid>0fd096c7-d9e5-4fe1-b659-aef524f6be02</webElementGuid>
+      <value>//span[(text() = 'Investment round' or . = 'Investment round')]</value>
+      <webElementGuid>1fedac80-4232-45b0-83dc-1a6bf568cae1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

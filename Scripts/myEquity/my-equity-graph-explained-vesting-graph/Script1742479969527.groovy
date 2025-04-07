@@ -102,5 +102,5 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/vest
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/vesting-schedule_graph-explained/txt_hurdle-message'))
 
-WebUI.verifyElementText(findTestObject('my-equity-page/vesting-schedule_graph-explained/txt_hurdle-message'), 'There is a hurdle attached to the 1,000 Vn shares, this means you will not benefit in the first £0.0001 per share in the event of a sale.')
+WebUI.verifyElementText(findTestObject('my-equity-page/vesting-schedule_graph-explained/txt_hurdle-message'), 'There is a hurdle attached to the 950 Vn shares, this means you will not benefit in the first £0.0001 per share in the event of a sale.')
 

@@ -21,22 +21,26 @@ WebUI.callTestCase(findTestCase('users-login/UK/user-login-editor'), [:], Failur
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/valuation/create?type=company')
 
-WebUI.selectOptionByValue(findTestObject('valuations/company-valuation/select_Please selectInvestment roundAccount_d52d9d'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/valuations/company/select_Please selectInvestment roundAccount_d52d9d'), 
     'Investment round', true)
 
-WebUI.setText(findTestObject('valuations/company-valuation/input_Day_starts_at_day'), '1')
+WebUI.setText(findTestObject('Object Repository/valuations/company/input_Whole company valuation_valuation'), '2000000')
 
-WebUI.setText(findTestObject('valuations/company-valuation/input_Month_starts_at_month'), '1')
+WebUI.setText(findTestObject('Object Repository/valuations/company/input_Day_starts_at_day'), '1')
 
-WebUI.setText(findTestObject('valuations/company-valuation/input_Year_starts_at_year'), '2025')
+WebUI.setText(findTestObject('Object Repository/valuations/company/input_Month_starts_at_month'), '1')
 
-WebUI.click(findTestObject('valuations/company-valuation/button_Save'))
+WebUI.setText(findTestObject('Object Repository/valuations/company/input_Year_starts_at_year'), '2025')
 
-WebUI.verifyElementPresent(findTestObject('valuations/company-valuation/td_Company'), 0)
+WebUI.click(findTestObject('Object Repository/valuations/company/button_Save'))
 
-WebUI.verifyElementPresent(findTestObject('valuations/company-valuation/td_1st Jan 2025'), 0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/valuations/company/td_2,000,000 Investment round'))
 
-WebUI.click(findTestObject('valuations/company-valuation/button_Delete'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/valuations/company/td_2,000,000 Investment round'), 0)
 
-WebUI.click(findTestObject('valuations/company-valuation/button_Yes, delete the valuation'))
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/valuations/company/td_2,000,000 Investment round'), '£2,000,000 Investment round')
+
+WebUI.click(findTestObject('Object Repository/valuations/company/button_Delete'))
+
+WebUI.click(findTestObject('Object Repository/valuations/company/button_Yes, delete the valuation'))
 

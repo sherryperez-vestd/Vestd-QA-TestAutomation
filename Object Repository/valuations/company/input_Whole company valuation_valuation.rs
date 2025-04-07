@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Year_starts_at_year</name>
+   <name>input_Whole company valuation_valuation</name>
    <tag></tag>
-   <elementGuidId>575e7565-56b9-4116-9bff-8f2d295f21c4</elementGuidId>
+   <elementGuidId>f248d3d8-0723-4d2d-8dbc-1d1ba12ff926</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#starts-at-year</value>
+         <value>#valuation</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='starts-at-year']</value>
+         <value>//input[@id='valuation']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Year&quot;i</value>
+         <value>internal:label=&quot;Whole company valuation&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a2c60891-a15c-44a1-adb9-de5d1d1be60d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>starts-at-year</value>
-      <webElementGuid>eef44cda-be68-4a55-838b-b0292ce37b4c</webElementGuid>
+      <webElementGuid>05c18772-f338-48fc-80a6-1ff2592a72c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,31 +37,31 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>77a2b04d-d257-4bfa-8cd5-06422f980f4c</webElementGuid>
+      <webElementGuid>86fff708-b9d4-4359-97c7-e2341797c602</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>step</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>e611ecfd-f1a2-4455-b711-a6f7015fcead</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>min</name>
       <type>Main</type>
-      <value>1900</value>
-      <webElementGuid>7189937f-34a3-4169-8a95-a2209dd97292</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>max</name>
-      <type>Main</type>
-      <value>2100</value>
-      <webElementGuid>b184e3e0-eeb8-495f-83d0-78429af5a2a3</webElementGuid>
+      <value>0</value>
+      <webElementGuid>8dfab9ab-98b2-444a-82fc-c16daf1916f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>starts_at_year</value>
-      <webElementGuid>88f9e25a-042c-43de-9993-36aa629d5cbd</webElementGuid>
+      <value>valuation</value>
+      <webElementGuid>76c80de3-b6f2-4128-8aca-4218489593e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,46 +69,54 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>7f0dff99-09f7-444d-b440-8f64c3132bb2</webElementGuid>
+      <webElementGuid>02dd069b-2242-4a9c-a777-ca4080112f80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>valuation</value>
+      <webElementGuid>41aa827d-d514-491f-a1fd-cdd69f4ef90a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;starts-at-year&quot;)</value>
-      <webElementGuid>24e39d28-67b7-416a-9104-70868c911181</webElementGuid>
+      <value>id(&quot;valuation&quot;)</value>
+      <webElementGuid>b0e5fd61-a2f5-4d3d-8aee-45a64a3bee70</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='starts-at-year']</value>
-      <webElementGuid>f6435313-187c-49ec-aa02-85e500db8f4a</webElementGuid>
+      <value>//input[@id='valuation']</value>
+      <webElementGuid>8a6714b9-8435-4c1d-97dc-d3aed603ef8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/div[4]/div/div[3]/input</value>
-      <webElementGuid>78f31f42-41d2-4d77-abc1-f67d9cb848f3</webElementGuid>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/div[3]/input</value>
+      <webElementGuid>ecd8a740-0825-4a1c-8f75-83530da8f531</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[3]/input</value>
-      <webElementGuid>5dd055a3-3a14-4577-8fae-3e7044ddf0be</webElementGuid>
+      <value>//div[3]/input</value>
+      <webElementGuid>398b433c-9972-44a4-b12e-7de314415379</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'starts-at-year' and @name = 'starts_at_year' and @type = 'number']</value>
-      <webElementGuid>04e49204-e33c-43d3-92cd-ccf0859f936b</webElementGuid>
+      <value>//input[@name = 'valuation' and @type = 'number' and @id = 'valuation']</value>
+      <webElementGuid>5f56d6c7-d828-4c99-aca7-b93641a8bfc3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

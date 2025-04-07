@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Day_starts_at_day</name>
+   <name>input_Number of shares_num_shares</name>
    <tag></tag>
-   <elementGuidId>b6a7b7f4-9303-48a7-8ed8-e1c9e7227e9e</elementGuidId>
+   <elementGuidId>908d5f22-5ce1-477e-8b0c-f09df6bdb238</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#starts-at-day</value>
+         <value>#num_shares</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='starts-at-day']</value>
+         <value>//input[@id='num_shares']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Day&quot;i</value>
+         <value>internal:label=&quot;Number of shares&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e613efc7-fdcd-40c7-b74e-0ab460e0c96d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>starts-at-day</value>
-      <webElementGuid>3a0cafe5-289e-4cc1-b418-2500080dc847</webElementGuid>
+      <webElementGuid>e826f0c0-b1b4-4caa-9acf-d0ebc151a955</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,31 +37,15 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>94b76b60-7edb-495c-ae5b-43b221e3761c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>min</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>9e83dcd7-6ce5-4bd8-9b68-656ea8cd0b68</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>max</name>
-      <type>Main</type>
-      <value>31</value>
-      <webElementGuid>9fdc3a85-6ef8-460f-a414-3514676fb13b</webElementGuid>
+      <webElementGuid>a4836086-c278-4d60-af70-0b72db9efccb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>starts_at_day</value>
-      <webElementGuid>01077e6f-e968-4600-ad13-64a80103491c</webElementGuid>
+      <value>num_shares</value>
+      <webElementGuid>9f43b46b-2b9e-42ad-9ed8-249a207fcbce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,46 +53,54 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>ba302157-b00b-4e4d-b9f0-76ffc41aea2c</webElementGuid>
+      <webElementGuid>b5d60915-5609-4cb6-842f-eb612b37bbe2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>num_shares</value>
+      <webElementGuid>beb3f7ee-384a-415f-bce6-76c88f75a2a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;starts-at-day&quot;)</value>
-      <webElementGuid>eaa255f5-03e0-433d-8572-eb893f37f490</webElementGuid>
+      <value>id(&quot;num_shares&quot;)</value>
+      <webElementGuid>733d39d5-dd7d-4704-9f87-c469f64bbe45</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='starts-at-day']</value>
-      <webElementGuid>770958fe-6e8a-43a1-9b41-9b397726fa50</webElementGuid>
+      <value>//input[@id='num_shares']</value>
+      <webElementGuid>7747a11c-c45d-4b16-ad74-8f37830678a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/div[4]/div/div/input</value>
-      <webElementGuid>5bf455bd-e611-4c19-922e-f21e804751de</webElementGuid>
+      <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/form/fieldset[2]/div[2]/input</value>
+      <webElementGuid>1837f54e-bcb2-47dd-a4d4-6e43e8a0e13d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/input</value>
-      <webElementGuid>e99e31ce-3d76-4111-9ef4-4e174c859c02</webElementGuid>
+      <value>//fieldset[2]/div[2]/input</value>
+      <webElementGuid>4235f908-7b6a-475e-bd07-45524daa0dba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'starts-at-day' and @name = 'starts_at_day' and @type = 'number']</value>
-      <webElementGuid>2b4cf9c7-f33e-49d8-b095-26902d57f903</webElementGuid>
+      <value>//input[@name = 'num_shares' and @type = 'number' and @id = 'num_shares']</value>
+      <webElementGuid>861d16d4-df05-459c-90b2-56f101c96360</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

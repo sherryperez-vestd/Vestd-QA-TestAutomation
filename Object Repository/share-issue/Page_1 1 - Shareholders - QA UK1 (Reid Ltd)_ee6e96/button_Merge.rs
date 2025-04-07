@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Yes, delete the valuation</name>
+   <name>button_Merge</name>
    <tag></tag>
-   <elementGuidId>1d74ab5d-55c8-46de-83e4-5515c6dec86e</elementGuidId>
+   <elementGuidId>c2783f81-e2d0-4183-9d4a-a1c7911cfa86</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.swal2-confirm.btn.btn-outline-secondary</value>
+         <value>button.btn.btn-secondary</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Yes, delete the valuation&quot;i]</value>
+         <value>internal:role=button[name=&quot;Merge&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,102 +29,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9df27711-23fc-4a17-9fe4-fcc101fa9c65</webElementGuid>
+      <webElementGuid>3259738d-342b-46a7-9eb8-d1c12ed3d4a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>abd4d3b9-ae3c-4df5-b196-b783cbc54fbb</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>21ec8a2d-a6b1-4ecf-a6e9-a190f6ee5093</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>swal2-confirm btn btn-outline-secondary</value>
-      <webElementGuid>e1dd2e6d-c055-45c7-ab02-96c1e505a1e6</webElementGuid>
+      <value>btn btn-secondary</value>
+      <webElementGuid>927c51e8-f655-46b8-bc8a-831ab156f03e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>return confirm(&quot;Are you sure they are the same person? This cannot be undone.&quot;)</value>
+      <webElementGuid>e451881e-b5cb-40ab-96bd-3b37ac111e4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Yes, delete the valuation</value>
-      <webElementGuid>292dca0b-b78f-4d9d-a432-39d843f22254</webElementGuid>
+      <value>Merge</value>
+      <webElementGuid>8b130ab5-4073-45d9-9257-a4ad756d5bb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;swal2-shown swal2-height-auto&quot;]/body[@class=&quot;swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal cf cf-danger confirm-modal-animation&quot;]/div[@class=&quot;swal2-actions cf-actions flex-row justify-content-between pt-4&quot;]/button[@class=&quot;swal2-confirm btn btn-outline-secondary&quot;]</value>
-      <webElementGuid>da0f2ac0-118d-4ea0-9a94-f69ab7dd6039</webElementGuid>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;card mb-2&quot;]/div[@class=&quot;row card-body&quot;]/div[@class=&quot;col-6 pt-3&quot;]/form[1]/button[@class=&quot;btn btn-secondary&quot;]</value>
+      <webElementGuid>f8b51f26-e850-4e55-867a-ee516fdbbf00</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>ecb526c5-2e57-41db-a4a2-457c622d52fc</webElementGuid>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>cf70d59e-de84-4255-90cc-b754d741496e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div[3]/div/div[2]/form/button</value>
+      <webElementGuid>b3f1ab73-7b3a-471a-aaae-7b0dafa4758a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to delete this valuation?'])[1]/following::button[1]</value>
-      <webElementGuid>f905460b-71f2-4028-ab8e-82900ba3a7a3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ruby Richards'])[1]/following::button[1]</value>
+      <webElementGuid>8ffdffc4-984d-4ca3-9a04-897cc5cc1589</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/following::button[1]</value>
-      <webElementGuid>4415dfc0-726e-4095-b333-c3c8143813de</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shareholdings'])[1]/preceding::button[1]</value>
+      <webElementGuid>177f50b3-5a98-487c-ae44-4f56e527f7d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::button[1]</value>
-      <webElementGuid>fa6b1665-4eed-4035-9247-9537c83897d8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Must sign'])[1]/preceding::button[1]</value>
+      <webElementGuid>47b145dd-92e3-48fe-9cea-aa5a69b3d6b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No, go back'])[1]/preceding::button[2]</value>
-      <webElementGuid>d2149a21-7936-40a4-8aa4-274b58ff6b11</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Yes, delete the valuation']/parent::*</value>
-      <webElementGuid>9ba7fdd2-f28c-4d6d-a3c8-23f236a27912</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Merge']/parent::*</value>
+      <webElementGuid>6445a28e-37a6-4618-94a3-1dbca182377c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/button</value>
-      <webElementGuid>23a1abc9-e16c-424a-b439-2391b95feec4</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>596e130b-041c-43ed-babf-30949b592a8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Yes, delete the valuation' or . = 'Yes, delete the valuation')]</value>
-      <webElementGuid>424ffc98-62c5-4f56-9dc9-688414d78e5b</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = 'Merge' or . = 'Merge')]</value>
+      <webElementGuid>1035a655-fe1d-48df-85d0-aade215364be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

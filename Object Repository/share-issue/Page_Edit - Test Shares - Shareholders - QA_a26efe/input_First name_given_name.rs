@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Whole company valuation_valuation</name>
+   <name>input_First name_given_name</name>
    <tag></tag>
-   <elementGuidId>a2b3cd57-e8d3-40d3-b560-f865d92c0a3c</elementGuidId>
+   <elementGuidId>31a116a7-2d7f-4720-ac33-860af0c21717</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#valuation</value>
+         <value>#given_name</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='valuation']</value>
+         <value>//input[@id='given_name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Whole company valuation&quot;i</value>
+         <value>internal:label=&quot;First name&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ec54c9d8-da45-43fa-bca4-cb3cb8f5bc4b</webElementGuid>
+      <webElementGuid>14fa2b22-6e8f-4c81-9f09-461cfe6cf021</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,86 +37,78 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>01ebb1b5-57c8-4a46-8b38-ec5df1234d4c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>step</name>
-      <type>Main</type>
-      <value>1</value>
-      <webElementGuid>b1ebf1f9-acde-4d2f-b0f8-bd07172f357f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>min</name>
-      <type>Main</type>
-      <value>0</value>
-      <webElementGuid>6f40ef04-e142-4b9c-8f2d-ccf17672c699</webElementGuid>
+      <webElementGuid>a2292987-fdba-429d-9f9f-becb53840a49</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>valuation</value>
-      <webElementGuid>fd60a22b-f4b2-4904-99a4-70324f796da2</webElementGuid>
+      <value>given_name</value>
+      <webElementGuid>89f416b4-bdb1-4911-9ccc-505365b37478</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>785760e7-4e8a-42dd-8de0-39811ee6f4c9</webElementGuid>
+      <value>text</value>
+      <webElementGuid>8340ac3a-8516-48b1-9e4d-8d446070a5e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>valuation</value>
-      <webElementGuid>d3ae22ac-cbf0-46d4-806f-d3eeb218a2d6</webElementGuid>
+      <value>given_name</value>
+      <webElementGuid>52943467-9ca8-4f04-82e7-01f7f598b292</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Test</value>
+      <webElementGuid>ce184f03-84df-4a79-8a29-8b0c6bd08b87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;valuation&quot;)</value>
-      <webElementGuid>dce50668-35a0-42e8-832b-e8ba6ab05da5</webElementGuid>
+      <value>id(&quot;given_name&quot;)</value>
+      <webElementGuid>2a652c09-196c-441c-b194-148dd933b43c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='valuation']</value>
-      <webElementGuid>55afc09f-d82f-4c13-98dd-9254844bfcd5</webElementGuid>
+      <value>//input[@id='given_name']</value>
+      <webElementGuid>dc59c3ce-2faa-4dc5-a677-df91da52025e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/div[3]/input</value>
-      <webElementGuid>ba3e7710-5f51-4cfd-8f7d-49f8baf3a566</webElementGuid>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/input</value>
+      <webElementGuid>14809c24-13a9-4000-b12b-12e9e2430736</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/input</value>
-      <webElementGuid>4318d1ae-484e-44a4-90fc-528171034a80</webElementGuid>
+      <value>//div/input</value>
+      <webElementGuid>93bb0a11-ee9f-4452-a0d5-61e999d58029</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'valuation' and @type = 'number' and @id = 'valuation']</value>
-      <webElementGuid>e34faf39-bd67-47e2-985a-fa4a8af53eb5</webElementGuid>
+      <value>//input[@name = 'given_name' and @type = 'text' and @id = 'given_name']</value>
+      <webElementGuid>0153eb6b-3170-4c36-9781-da59666c1e31</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

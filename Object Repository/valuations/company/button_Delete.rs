@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Please selectInvestment roundAccount_d52d9d</name>
+   <name>button_Delete</name>
    <tag></tag>
-   <elementGuidId>324f9ed6-f8da-4eff-8651-82ca5c54fefc</elementGuidId>
+   <elementGuidId>76680e31-a2ea-4275-9cbd-52f4fe99b018</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#valuation_source</value>
+         <value>button.btn.btn-anchor-link</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//select[@id='valuation_source']</value>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Source&quot;i</value>
+         <value>internal:role=row[name=&quot;Company £2,000,000 Investment round 1st Jan 2025 Edit Delete&quot;i] >> internal:role=button</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,111 +28,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
-      <webElementGuid>b1e4e107-ed2f-4765-b72d-d33c23f5a6a2</webElementGuid>
+      <value>button</value>
+      <webElementGuid>c8d3d9b6-fa88-4f0e-a570-1a29044fe312</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>7922ea07-99a6-4773-ac85-bafa58b4fc7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>2d709100-bc54-4bc7-9374-d59689d2a9ab</webElementGuid>
+      <value>btn btn-anchor-link</value>
+      <webElementGuid>1d1dead5-a94b-4686-ad74-3d3f5b1d1086</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>valuation_source</value>
-      <webElementGuid>1490e4e8-5b92-4cae-a7bd-d4e117ceed7a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>valuation_source</value>
-      <webElementGuid>0306998f-46d7-49db-9520-cecdeb26bd35</webElementGuid>
+      <value>return confirmDeletion(event, &quot;209003&quot;)</value>
+      <webElementGuid>c2bd07f8-ba0a-4610-9d20-56c269cbcff3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Please selectInvestment roundAccountant valuationDebt roundSelf valuation by company</value>
-      <webElementGuid>02805c97-d813-4c34-9c7c-4a8b36c43e4e</webElementGuid>
+      <value>Delete</value>
+      <webElementGuid>5348985f-d263-49f5-88e7-dff82d960246</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;valuation_source&quot;)</value>
-      <webElementGuid>1767b28b-f71b-49ba-9934-353fa7dd8fc0</webElementGuid>
+      <value>id(&quot;delete-valuation-209003&quot;)/button[@class=&quot;btn btn-anchor-link&quot;]</value>
+      <webElementGuid>2dd2eb5f-10ac-4a62-b315-5c7a6faf5b11</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='valuation_source']</value>
-      <webElementGuid>4fc70e25-f0c6-4db1-bec5-5559d85a06f3</webElementGuid>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>deb75838-5734-43c9-9451-a9e3a7471646</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/div/select</value>
-      <webElementGuid>6db07fb4-a710-4348-9300-cf6458953bdf</webElementGuid>
+      <value>//form[@id='delete-valuation-209003']/button</value>
+      <webElementGuid>c985c2a3-c503-4e3a-adfd-2104f916d4b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Source'])[1]/following::select[1]</value>
-      <webElementGuid>d77b9ad5-3ef6-4602-85d5-495de4f2f64e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::button[1]</value>
+      <webElementGuid>8e89885c-02ea-49a4-bb45-2e066351c445</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Record a new company valuation'])[1]/following::select[1]</value>
-      <webElementGuid>f4aae4df-9f02-4802-b471-431e31379311</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Investment round'])[1]/following::button[1]</value>
+      <webElementGuid>c589f2d7-0a91-4d3c-88d5-9bb309e8493a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Currency'])[1]/preceding::select[1]</value>
-      <webElementGuid>3fb95d74-3de7-425a-8575-99dee53e596c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(HMRC approved)'])[1]/preceding::button[1]</value>
+      <webElementGuid>ed67b551-bda1-4eef-a5fd-0e75702ccda8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Whole company valuation'])[1]/preceding::select[2]</value>
-      <webElementGuid>27a87c9e-e5ec-454a-a853-ade88c6d1d0d</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
+      <webElementGuid>53d9c275-963f-47c1-babf-7f797cce4dbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//select</value>
-      <webElementGuid>32746a74-68e1-412b-a8ae-45280afdf553</webElementGuid>
+      <value>//button</value>
+      <webElementGuid>b2293acd-c9ef-40fb-b0ab-b4d98306ce81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//select[@id = 'valuation_source' and @name = 'valuation_source' and (text() = 'Please selectInvestment roundAccountant valuationDebt roundSelf valuation by company' or . = 'Please selectInvestment roundAccountant valuationDebt roundSelf valuation by company')]</value>
-      <webElementGuid>d428b310-15b0-4e2b-9e5a-6b3e1d54f114</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = 'Delete' or . = 'Delete')]</value>
+      <webElementGuid>2a7c646f-78d9-4a57-8888-5b5d35d39ff6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
