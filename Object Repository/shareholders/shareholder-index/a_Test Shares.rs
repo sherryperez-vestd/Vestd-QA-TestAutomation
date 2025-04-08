@@ -10,12 +10,12 @@
          <value></value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='DataTables_Table_0']/tbody/tr[18]/td[3]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[(contains(text(), 'Test Shares') or contains(., 'Test Shares'))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='DataTables_Table_0']/tbody/tr[18]/td[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Please select_multiselect-caret is-open</name>
+   <tag></tag>
+   <elementGuidId>901af2db-2fd0-40cd-a316-ba5f54e70ecb</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.multiselect-caret.is-open</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='stock-transfer-form']/div[2]/div[2]/div/div/span</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'multiselect-search' and @id = 'wWhx5Cj1UHqw8oQY']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.form-group--required > .multiselect > .multiselect-wrapper > .multiselect-caret >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect-search</value>
+      <webElementGuid>2e2b439a-6c25-4645-a3f5-e8b08d3ce8d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>wWhx5Cj1UHqw8oQY</value>
+      <webElementGuid>4ad4a409-e455-49e1-9ac1-211392dbc604</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='stock-transfer-form']/div[2]/div[2]/div/div/span</value>
+      <webElementGuid>737c7d7c-e4a5-4682-8d74-a1069da32b34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span</value>
+      <webElementGuid>4fc51ffe-eb4b-4581-9f48-5c2b348005a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

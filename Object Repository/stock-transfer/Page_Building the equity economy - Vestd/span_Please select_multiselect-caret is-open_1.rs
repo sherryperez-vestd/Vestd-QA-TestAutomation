@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Please select_multiselect-caret is-open_1</name>
+   <tag></tag>
+   <elementGuidId>64142a1e-8fd1-4b79-b8a8-9f41b2ddba42</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.multiselect-caret.is-open</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='stock-transfer-form']/div[2]/div[3]/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(3) > .multiselect > .multiselect-wrapper > .multiselect-caret</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e75ff955-13bc-4c1f-acab-7e7cf53cc3d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect-caret is-open</value>
+      <webElementGuid>edf1c63d-635b-46d1-add0-1067a44bf61c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7343dee4-c7c0-45a3-aa32-1c4295092ae3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;stock-transfer-form&quot;)/div[@class=&quot;stock-transfer-form&quot;]/div[@class=&quot;form-group--required form-control-width-lg form-group multi-select w-100&quot;]/div[@class=&quot;multiselect is-open is-active form-control p-0 m-0&quot;]/div[@class=&quot;multiselect-wrapper&quot;]/span[@class=&quot;multiselect-caret is-open&quot;]</value>
+      <webElementGuid>e66946ef-0ec0-45ac-a0f8-8f1bebaaf3c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='stock-transfer-form']/div[2]/div[3]/div/div/span</value>
+      <webElementGuid>4540d361-b4a2-491b-8bee-e3386a36a9f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/span</value>
+      <webElementGuid>4ef42de0-f488-4e04-9584-cfb25eff3a54</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
