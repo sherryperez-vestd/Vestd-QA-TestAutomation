@@ -81,26 +81,26 @@ not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/share-i
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/shareholder')
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Shareholders - QA Test UK1 (Reid Ltd) - Vestd/a_Test Shares'))
+WebUI.click(findTestObject('Object Repository/shareholders/shareholder-index/a_Test Shares'))
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Test Shares - Shareholders - QA Test U_8ae064/a_Edit'))
+WebUI.click(findTestObject('Object Repository/shareholders/shareholder-index/a_Edit'))
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Edit - Test Shares - Shareholders - QA_a26efe/div_First name  Last name                  _4f9980'))
+WebUI.click(findTestObject('Object Repository/shareholders/shareholders edit details/div_First name  Last name                  _4f9980'))
 
-WebUI.setText(findTestObject('Object Repository/share-issue/Page_Edit - Test Shares - Shareholders - QA_a26efe/input_First name_given_name'), 
+WebUI.setText(findTestObject('Object Repository/shareholders/shareholders edit details/input_First name_given_name'), 
     '1')
 
-WebUI.setText(findTestObject('Object Repository/share-issue/Page_Edit - Test Shares - Shareholders - QA_a26efe/input_Last name_family_name'), 
+WebUI.setText(findTestObject('Object Repository/shareholders/shareholders edit details/input_Last name_family_name'), 
     '1')
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Edit - Test Shares - Shareholders - QA_a26efe/input_Last name_family_name'))
+WebUI.click(findTestObject('Object Repository/shareholders/shareholders edit details/input_Last name_family_name'))
 
-WebUI.setText(findTestObject('Object Repository/share-issue/Page_Edit - Test Shares - Shareholders - QA_a26efe/input_Email_email'), 
+WebUI.setText(findTestObject('Object Repository/shareholders/shareholders edit details/input_Email_email'), 
     '1@vestd.com')
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Edit - Test Shares - Shareholders - QA_a26efe/div_First name  Last name                  _4f9980_1'))
+WebUI.click(findTestObject('Object Repository/shareholders/shareholders edit details/div_First name  Last name                  _4f9980_1'))
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Edit - Test Shares - Shareholders - QA_a26efe/button_Save details'))
+WebUI.click(findTestObject('Object Repository/shareholders/shareholders edit details/button_Save details'))
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/shareholder')
 
@@ -109,20 +109,20 @@ not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/share-i
 not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/share-issue/Page_Share distributions - QA Test UK1 (Rei_331161/td_Test Shares'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Shareholders - QA UK1 (Reid Ltd) - Vestd/a_1 1'))
+WebUI.click(findTestObject('Object Repository/shareholders/shareholder-index/a_1 1'))
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_1 1 - Shareholders - QA UK1 (Reid Ltd)_ee6e96/button_Merge'))
+WebUI.click(findTestObject('Object Repository/shareholders/shareholders details/button_Merge'))
 
 WebUI.acceptAlert()
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_1 1 - Shareholders - QA UK1 (Reid Ltd)_ee6e96/div_Shareholder updated'))
+WebUI.click(findTestObject('Object Repository/shareholders/shareholders details/div_Shareholder updated'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/share-issue/Page_1 1 - Shareholders - QA UK1 (Reid Ltd)_ee6e96/div_Shareholder updated'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/shareholders/shareholders details/div_Shareholder updated'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/share-issue/Page_1 1 - Shareholders - QA UK1 (Reid Ltd)_ee6e96/div_Shareholder updated'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/shareholders/shareholders details/div_Shareholder updated'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/share-issue/Page_1 1 - Shareholders - QA UK1 (Reid Ltd)_ee6e96/div_Shareholder updated'), 
+WebUI.verifyElementText(findTestObject('Object Repository/shareholders/shareholders details/div_Shareholder updated'), 
     'Shareholder updated')
 
 WebUI.closeBrowser()
