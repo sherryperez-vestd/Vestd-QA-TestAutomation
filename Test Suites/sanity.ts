@@ -4,7 +4,7 @@
    <name>sanity</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>sherry.perez@vestd.com;</mailRecipient>
    <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -29,7 +29,7 @@
       <guid>3ffe4800-fc96-4df4-be2d-a8fd3f5944f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/investment/investment-hub</testCaseId>
+      <testCaseId>Test Cases/investment/investment-round</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -50,7 +50,7 @@
       <guid>e633501c-7b91-44d5-a03f-ea54dc1eb618</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Buyback/buyback-treasury</testCaseId>
+      <testCaseId>Test Cases/buyback/buyback-treasury</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>share-issue2</name>
+   <name>investment-round</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>bf4ae1a7-2c83-42ca-becb-681106c3c864</testCaseGuid>
+   <testCaseGuid>eed62696-8bd7-41b2-887e-436c342f304d</testCaseGuid>
 </TestCaseEntity>

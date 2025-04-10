@@ -19,7 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
+not_run: WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
+
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/home')
+
+WebUI.click(findTestObject('Object Repository/navigation/Sec and Admin/a_Secretarial  admin'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/navigation/Sec and Admin/a_Reports'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/navigation/Sec and Admin/a_Reports'), 0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/navigation/Sec and Admin/a_Reports'), 'Reports')
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/navigation/Sec and Admin/a_Reports'))
+
+WebUI.click(findTestObject('Object Repository/navigation/Sec and Admin/a_Reports'))
+
+not_run: WebUI.verifyElementPresent(findTestObject('null'), 
+    0)
+
+not_run: WebUI.verifyElementVisible(findTestObject('null'))
+
+not_run: WebUI.verifyElementText(findTestObject('null'), 
+    'Reporting Beta')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/heading_Reporting Beta'))
 
@@ -67,7 +89,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_Thi
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_Cap table reporting'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_Cap table reporting'), 'Cap table reporting')
+WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_Cap table reporting'), 'Cap table report')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_This will take you to cap table page whe_1fbe13'))
 
@@ -96,11 +118,11 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/reporting/index/l
 WebUI.click(findTestObject('reporting/index/link_Request a custom report here'))
 
 currentWindow = WebUI.getWindowIndex()
-
 //WebUI.switchToWindowIndex(currentWindow)
 WebUI.switchToWindowIndex(currentWindow + 1)
 
 url = WebUI.getUrl()
-
 WebUI.verifyEqual(url, 'https://usabi.li/do/1951db0cc1b3/7cf2')
+
+WebUI.closeBrowser()
 

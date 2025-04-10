@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>investment-hub</name>
+   <name>my-equity-tax-benefits</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>eed62696-8bd7-41b2-887e-436c342f304d</testCaseGuid>
+   <testCaseGuid>89969d59-cd5a-43e7-a1c5-cc60d188dd51</testCaseGuid>
 </TestCaseEntity>

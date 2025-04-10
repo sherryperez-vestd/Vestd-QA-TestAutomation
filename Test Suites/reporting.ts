@@ -4,12 +4,12 @@
    <name>reporting</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>sherry.perez@vestd.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
+   <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>a6c3dd2d-542a-4dfc-b9d6-93d3d92ff51a</testSuiteGuid>
    <testCaseLink>
       <guid>6dcd71c2-4d68-42f0-a775-3fd5e7745163</guid>
