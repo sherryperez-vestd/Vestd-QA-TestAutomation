@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_App - staff</name>
+   <tag></tag>
+   <elementGuidId>837025e9-dbe4-48c8-aaa4-705f98c58a8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.navbar-nav.mb-md-4 > li.nav-item > a.nav-link.text-admin.collapsed</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarCollapse']/ul[2]/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; App - staff &quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9eb7d49a-98d6-498c-a60b-d2a423273218</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link text-admin collapsed</value>
+      <webElementGuid>07203279-f8e8-469a-a6ae-ca194a5c0aa8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#sidebarAdmin</value>
+      <webElementGuid>4383e17c-672d-4a80-ab6c-970f173a9f09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>collapse</value>
+      <webElementGuid>02f27dda-68ad-4b94-a4cb-eb080e0e4f68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8326d475-7154-4e2d-b693-538551b70447</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>sidebarAdmin</value>
+      <webElementGuid>75257a13-f36e-4785-8072-ed8ea07506a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>f6fb301c-a8ba-459c-af81-bab4d97ade49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> App - staff
+                    </value>
+      <webElementGuid>d3215774-4fdf-4938-91e9-f898b695878c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mb-md-4&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link text-admin collapsed&quot;]</value>
+      <webElementGuid>cd45dae1-4bbf-47a6-8864-73f603c7fc85</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebarCollapse']/ul[2]/li[3]/a</value>
+      <webElementGuid>af3c8bba-4553-45fe-baba-1e10ff957f4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'App - staff')]</value>
+      <webElementGuid>bc77f538-58d3-45e3-8ea9-12c634748748</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company settings'])[1]/following::a[1]</value>
+      <webElementGuid>7c55325f-0023-403f-830d-2972998a8654</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Centre'])[1]/following::a[2]</value>
+      <webElementGuid>0dee039c-2b97-4d1a-bafb-dcf4bfbb5423</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[4]/preceding::a[1]</value>
+      <webElementGuid>1079245f-2875-48e2-a496-fe883825b3c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Companies'])[3]/preceding::a[2]</value>
+      <webElementGuid>d50e5041-a0e3-438a-86e8-daf9edc41e9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='App - staff']/parent::*</value>
+      <webElementGuid>b2d79a08-204d-47ae-89e2-8af170c3e94b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#sidebarAdmin')]</value>
+      <webElementGuid>e35f3b1b-2e3c-4c2c-845e-daf4a698f5cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ul[2]/li[3]/a</value>
+      <webElementGuid>ebc7a6e2-35a1-4a66-8d21-8f5bb8d85166</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#sidebarAdmin' and (text() = ' App - staff
+                    ' or . = ' App - staff
+                    ')]</value>
+      <webElementGuid>bd2ff73f-59f5-4b38-9b5e-d5bc2ddda287</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

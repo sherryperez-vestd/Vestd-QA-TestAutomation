@@ -160,3 +160,70 @@ WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/chevron
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/chevron_summary-bar'))
 
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/dashboard?user_id=358612')
+
+WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/span_Overall value'))
+
+WebUI.setText(findTestObject('Object Repository/my-equity-page/summary-bar/input__estimated-profit'), 
+    '1')
+
+WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/input_vesting_overtime_typevalue'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-value'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-value'), 
+    '£3,535.29')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-profit'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-profit'), 
+    '£3,533.49')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-projected-value'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-projected-value'), 
+    '£10,014.43')
+
+WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/input_Vesting over time_vesting_typevalue'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-value'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-value'), 
+    '£3,535.29')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-profit'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-profit'), 
+    '£3,533.49')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-projected-value'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-projected-value'), 
+    '£10,014.43')
+
+WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/input_Vested until now_vesting_typevalue'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-value'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-value'), 
+    '£3,535.29')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-profit'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-profit'), 
+    '£3,533.49')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-projected-value'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-projected-value'), 
+    '£10,014.43')
+

@@ -6,16 +6,16 @@
    <elementGuidId>bc78b568-5ae3-4744-905d-fa350ff8b254</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/div/div/div[2]/i</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.card-body > div.card.v-card.bg-white.mb-3 > div.card-header.d-flex.flex-wrap.flex-column.bg-white.hide-header-separator.cursor-pointer > div.d-flex.align-items-center.text-break.header-main-content.w-100 > div.d-flex.ml-auto.flex-column.align-self-stretch.flex-lg-row.flex-lg-wrap-reverse.align-self-lg-start.align-items-end.align-items-lg-center.text-right.flex-grow-1.justify-content-end.secondary-content > i.vi.vi-sm.mt-auto.ml-lg-2.mt-lg-0.vi-chevron-down</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;card-header d-flex flex-wrap flex-column bg-white hide-header-separator cursor-pointer&quot;]/div[@class=&quot;d-flex align-items-center text-break header-main-content w-100&quot;]/div[@class=&quot;d-flex ml-auto flex-column align-self-stretch flex-lg-row flex-lg-wrap-reverse align-self-lg-start align-items-end align-items-lg-center text-right flex-grow-1 justify-content-end secondary-content&quot;]/i[@class=&quot;vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/div/div/div[2]/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,7 +25,7 @@
          <value>div:nth-child(3) > .card-header > div > div:nth-child(2) > .vi</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>b51e3453-fc5a-463b-837d-4fa448572832</webElementGuid>
+      <webElementGuid>c77d897b-64f9-46aa-be67-d52bacf8122a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down</value>
-      <webElementGuid>02e73a68-4f0c-4cd5-a5b6-863d3fa3af2b</webElementGuid>
+      <webElementGuid>6b0f9fdb-24a2-47e6-864f-40909c074de0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;card-header d-flex flex-wrap flex-column bg-white hide-header-separator cursor-pointer&quot;]/div[@class=&quot;d-flex align-items-center text-break header-main-content w-100&quot;]/div[@class=&quot;d-flex ml-auto flex-column align-self-stretch flex-lg-row flex-lg-wrap-reverse align-self-lg-start align-items-end align-items-lg-center text-right flex-grow-1 justify-content-end secondary-content&quot;]/i[@class=&quot;vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down&quot;]</value>
-      <webElementGuid>5349e364-c0de-4883-b3a1-dc4eb1bfaefd</webElementGuid>
+      <webElementGuid>495b13ed-2334-4f93-a685-76d61637760b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/div/div/div[2]/i</value>
-      <webElementGuid>debb0379-6046-4f68-91f2-9abbc61fe54e</webElementGuid>
+      <webElementGuid>ddf45974-986d-43c2-be92-5c413e5a4e21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,6 +65,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[2]/i</value>
-      <webElementGuid>00b52662-0a81-4291-9e15-cae5d28de963</webElementGuid>
+      <webElementGuid>c0ab22aa-07e4-4d74-8d0a-0e30c226d241</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

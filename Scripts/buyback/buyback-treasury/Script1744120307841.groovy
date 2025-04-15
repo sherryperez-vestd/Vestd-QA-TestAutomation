@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
+not_run: WebUI.callTestCase(findTestCase('users-login/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-buyback/create')
 
 WebUI.click(findTestObject('Object Repository/buyback/buyback-create/input_confirm-company-has-sufficient-profits'))
@@ -29,12 +31,12 @@ WebUI.click(findTestObject('Object Repository/buyback/buyback-create/input_Buyba
 
 WebUI.click(findTestObject('Object Repository/buyback/buyback-create/button Continue_'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_Please select a share classOrdinary _906c60'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_Please select a share class'), 
     '172183', true)
 
 WebUI.click(findTestObject('Object Repository/buyback/buyback-create/button Continue_'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_Please select AdminSuper SP (999990 _5cfab5'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_Please select Shareholder'), 
     '692094', true)
 
 WebUI.click(findTestObject('Object Repository/buyback/buyback-create/button Continue_'))
@@ -43,7 +45,7 @@ WebUI.setText(findTestObject('Object Repository/buyback/buyback-create/input_Num
 
 WebUI.setText(findTestObject('Object Repository/buyback/buyback-create/input_Total_total_price_paid'), '1')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_NoneIncorporationFFRound oneRound two'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_InvestmentRound'), 
     '128377', true)
 
 WebUI.click(findTestObject('Object Repository/buyback/buyback-create/button_Continue__'))

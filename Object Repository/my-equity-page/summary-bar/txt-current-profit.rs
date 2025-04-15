@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt-current-profit</name>
+   <tag></tag>
+   <elementGuidId>0fa7fe5d-5c52-4695-98f9-ab56c81125b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div/div[4]/div/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.mb-0.font-weight-bold.text-success</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>p >> internal:has-text=&quot;£3,533.49&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>1b86ceba-5961-4e89-b8d4-fcbafc2a6b56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-0 font-weight-bold text-success</value>
+      <webElementGuid>6bd17480-aba5-472a-943b-32b763058fb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>£3,533.49</value>
+      <webElementGuid>90ee8dcb-6425-42f7-9336-435db583763f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 collapsed&quot;]/div[@class=&quot;card-header d-flex flex-wrap flex-column bg-white hide-header-separator&quot;]/div[@class=&quot;d-flex align-items-center text-break header-main-content w-100&quot;]/div[@class=&quot;summary-container&quot;]/div[@class=&quot;summary-item&quot;]/div[@class=&quot;summary-details&quot;]/div[@class=&quot;d-flex align-items-center text-break&quot;]/p[@class=&quot;mb-0 font-weight-bold text-success&quot;]</value>
+      <webElementGuid>fed3970a-cbfd-4c9a-a957-2ebde2c99387</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div/div[4]/div/div[2]/p</value>
+      <webElementGuid>c1114aca-5ab2-4242-b62b-4202c9c03bf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current profit'])[1]/following::p[1]</value>
+      <webElementGuid>f688f6bc-d30f-4956-9484-27edcb4353fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current value'])[1]/following::p[2]</value>
+      <webElementGuid>b8f75e08-52fe-42ac-b2bf-0423941ed6c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Projected value'])[1]/preceding::p[1]</value>
+      <webElementGuid>9d1916e5-5b65-424f-89cc-0da1f5aecff5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My shares breakdown'])[1]/preceding::p[2]</value>
+      <webElementGuid>8912391a-44ac-49aa-8321-a6b4283cb00c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='£3,533.49']/parent::*</value>
+      <webElementGuid>d2ff746e-2571-49d2-ba1b-b052febe2b1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/p</value>
+      <webElementGuid>05c2166e-53ec-493a-bb8b-c529c08416d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '£3,533.49' or . = '£3,533.49')]</value>
+      <webElementGuid>39345db1-32b6-41c7-9d4e-adafc46d767b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

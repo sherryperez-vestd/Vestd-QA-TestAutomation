@@ -21,62 +21,62 @@ WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], Failure
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-offer/create')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/share-issue/Page_Distribute - Share distribution - QA T_30de61/select_Please selectIndividualCompany'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/issue-shares/Share-distribution-create/select_Please selectIndividualCompany'), 
     'individual', true)
 
-WebUI.setText(findTestObject('Object Repository/share-issue/Page_Distribute - Share distribution - QA T_30de61/input_First name_given_name'), 
+WebUI.setText(findTestObject('Object Repository/issue-shares/Share-distribution-create/input_First name_given_name'), 
     'Test')
 
-WebUI.setText(findTestObject('Object Repository/share-issue/Page_Distribute - Share distribution - QA T_30de61/input_Last name_family_name'), 
+WebUI.setText(findTestObject('Object Repository/issue-shares/Share-distribution-create/input_Last name_family_name'), 
     'Shares')
 
-WebUI.setText(findTestObject('Object Repository/share-issue/Page_Distribute - Share distribution - QA T_30de61/input_Email_email'), 
+WebUI.setText(findTestObject('Object Repository/issue-shares/Share-distribution-create/input_Email_email'), 
     'sherry.perez+shares@vestd.com')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/share-issue/Page_Distribute - Share distribution - QA T_30de61/select_Please select oneOrdinary share pool_c70f14'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/issue-shares/Share-distribution-create/select_Please select oneOrdinary share pool_c70f14'), 
     '167070', true)
 
-WebUI.setText(findTestObject('Object Repository/share-issue/Page_Distribute - Share distribution - QA T_30de61/input_Number of shares_num_shares'), 
+WebUI.setText(findTestObject('Object Repository/issue-shares/Share-distribution-create/input_Number of shares_num_shares'), 
     '10')
 
-WebUI.setText(findTestObject('Object Repository/share-issue/Page_Distribute - Share distribution - QA T_30de61/input_Price paid_price_per_share'), 
+WebUI.setText(findTestObject('Object Repository/issue-shares/Share-distribution-create/input_Price paid_price_per_share'), 
     '1')
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Distribute - Share distribution - QA T_30de61/input_create one_btn btn-primary'))
+WebUI.click(findTestObject('Object Repository/issue-shares/Share-distribution-create/input_create one_btn btn-primary'))
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Share distribution 2 - Share distribut_cb2c86/button_Issue immediately'))
+WebUI.click(findTestObject('Object Repository/issue-shares/Share-distribution-details/button_Issue immediately'))
 
 WebUI.acceptAlert()
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Share distribution 2 - Share distribut_cb2c86/a_Back to list of share distributions'))
+WebUI.click(findTestObject('Object Repository/issue-shares/Share-distribution-details/a_Back to list of share distributions'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/share-issue/Page_Share distributions - QA Test UK1 (Rei_331161/td_Test Shares'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/issue-shares/share-issues-index/td_Test Shares'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/share-issue/Page_Share distributions - QA Test UK1 (Rei_331161/td_Test Shares'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/issue-shares/share-issues-index/td_Test Shares'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/share-issue/Page_Share distributions - QA Test UK1 (Rei_331161/td_Test Shares'), 
+WebUI.verifyElementText(findTestObject('Object Repository/issue-shares/share-issues-index/td_Test Shares'), 
     'Test Shares')
 
-not_run: WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-offer')
+WebUI.click(findTestObject('Object Repository/issue-shares/share-issues-index/a_Share distribution 1'))
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Share distributions - QA Test UK1 (Rei_331161/a_Share distribution 2'))
+WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Share distribution 2 - Share distribut_cb2c86/a_Share issue 428587'))
+WebUI.click(findTestObject('Object Repository/issue-shares/Share-distribution-details/a_Share issue-staff-link'))
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Share issue - QA Test UK1 (Reid Ltd) - Vestd/button_Delete'))
+WebUI.click(findTestObject('Object Repository/issue-shares/Share-issue-staffpage/button_Delete-share-issue'))
 
 WebUI.acceptAlert()
 
-WebUI.click(findTestObject('Object Repository/share-issue/Page_Share allotment - QA Test UK1 (Reid Lt_dc5613/button_Delete'))
+WebUI.click(findTestObject('Object Repository/issue-shares/Share-allotment-staffpage/button_Delete-share-allotment'))
 
 WebUI.acceptAlert()
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-offer')
 
-not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/share-issue/Page_Share distributions - QA Test UK1 (Rei_331161/td_Test Shares'))
+not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/issue-shares/share-issues-index/td_Test Shares'))
 
-not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/share-issue/Page_Share distributions - QA Test UK1 (Rei_331161/td_Test Shares'), 
+not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/issue-shares/share-issues-index/td_Test Shares'), 
     0)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/shareholder')
@@ -87,29 +87,17 @@ WebUI.click(findTestObject('Object Repository/shareholders/shareholder-index/a_E
 
 WebUI.click(findTestObject('Object Repository/shareholders/shareholders edit details/div_First name  Last name                  _4f9980'))
 
-WebUI.setText(findTestObject('Object Repository/shareholders/shareholders edit details/input_First name_given_name'), 
-    '1')
+WebUI.setText(findTestObject('Object Repository/shareholders/shareholders edit details/input_First name_given_name'), '1')
 
-WebUI.setText(findTestObject('Object Repository/shareholders/shareholders edit details/input_Last name_family_name'), 
-    '1')
+WebUI.setText(findTestObject('Object Repository/shareholders/shareholders edit details/input_Last name_family_name'), '1')
 
 WebUI.click(findTestObject('Object Repository/shareholders/shareholders edit details/input_Last name_family_name'))
 
-WebUI.setText(findTestObject('Object Repository/shareholders/shareholders edit details/input_Email_email'), 
-    '1@vestd.com')
+WebUI.setText(findTestObject('Object Repository/shareholders/shareholders edit details/input_Email_email'), '1@vestd.com')
 
 WebUI.click(findTestObject('Object Repository/shareholders/shareholders edit details/div_First name  Last name                  _4f9980_1'))
 
 WebUI.click(findTestObject('Object Repository/shareholders/shareholders edit details/button_Save details'))
-
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/shareholder')
-
-not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/share-issue/Page_Share distributions - QA Test UK1 (Rei_331161/td_Test Shares'))
-
-not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/share-issue/Page_Share distributions - QA Test UK1 (Rei_331161/td_Test Shares'), 
-    0)
-
-WebUI.click(findTestObject('Object Repository/shareholders/shareholder-index/a_1 1'))
 
 WebUI.click(findTestObject('Object Repository/shareholders/shareholders details/button_Merge'))
 
@@ -122,8 +110,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/shareholders/shareh
 WebUI.verifyElementPresent(findTestObject('Object Repository/shareholders/shareholders details/div_Shareholder updated'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/shareholders/shareholders details/div_Shareholder updated'), 
-    'Shareholder updated')
+WebUI.verifyElementText(findTestObject('Object Repository/shareholders/shareholders details/div_Shareholder updated'), 'Shareholder updated')
 
 WebUI.closeBrowser()
 

@@ -15,14 +15,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=368709')
 
 WebUI.click(findTestObject('Object Repository/my-equity-page/tax-benefits/i_Your tax benefits_vi vi-sm mt-auto ml-lg-_cf48b4'))
+
+WebUI.setText(findTestObject('my-equity-page/tax-benefits/input__NU9uoaRq4tbBNoSa'), '1')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/tax-benefits/p_When you exercise your options, you wont _c4009e'))
 
@@ -30,10 +32,21 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/tax-
     0)
 
 def mes = WebUI.getText(findTestObject('Object Repository/my-equity-page/tax-benefits/p_When you exercise your options, you wont _c4009e'))
-if (!mes.contains('14%')) {
-	KeywordUtil.markFailed("Message does not contain expected text.")
-	}
+
+if (!(mes.contains('14%'))) {
+    KeywordUtil.markFailed('Message does not contain expected text.')
+}
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/tax-benefits/p_When you exercise your options, you wont _367393'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/tax-benefits/p_When you exercise your options, you wont _367393'), 
+    0)
+
+def mes2 = WebUI.getText(findTestObject('Object Repository/my-equity-page/tax-benefits/p_When you exercise your options, you wont _367393'))
+
+if (!(mes2.contains('20%'))) {
+    KeywordUtil.markFailed('Message does not contain expected text.')
+}
+
 WebUI.closeBrowser()
-
-
 

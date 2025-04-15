@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/login')
+WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setText(findTestObject('Object Repository/login-page/input_email'), 'sherry.perez+staff@vestd.com')
+WebUI.setText(findTestObject('Object Repository/login-page/input_email'), GlobalVariable.staff)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/login-page/input_password'), 'BXwrjJCMvIr67Y1Dtu7MbQ==')
+WebUI.setText(findTestObject('Object Repository/login-page/input_password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/login-page/btn_Log in'))
 

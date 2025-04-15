@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992)</name>
+   <tag></tag>
+   <elementGuidId>03980035-29e1-43c8-8564-294f44dce82c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.mb-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarCollapse']/footer/ul/li[3]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ac69931c-7009-49cf-8343-655ca456d50c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-1</value>
+      <webElementGuid>8ad63d51-b4ce-41fb-967a-6f9150a5a087</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).</value>
+      <webElementGuid>d54e482f-e399-4f93-9e17-5c7ae0be2fa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebarCollapse&quot;)/footer[1]/ul[@class=&quot;navbar-nav navbar-footer&quot;]/li[@class=&quot;nav-item mt-2&quot;]/p[@class=&quot;mb-1&quot;]</value>
+      <webElementGuid>69ba5fb1-4966-4b67-9068-e1297dc1f054</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebarCollapse']/footer/ul/li[3]/p</value>
+      <webElementGuid>98ef4808-3f60-4b2c-85c0-35e7113f0768</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::p[1]</value>
+      <webElementGuid>c12a1ab8-32a4-494a-b9e0-dce2f84aca5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::p[1]</value>
+      <webElementGuid>164c8422-5cb9-479c-8d3a-2a9b677bc9d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unapproved options'])[2]/preceding::p[1]</value>
+      <webElementGuid>dbb0d595-bc4f-45db-aee7-9e7d01228343</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).']/parent::*</value>
+      <webElementGuid>3221ec94-ec80-4923-9fbf-62ec5f1611aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>bf0a00ab-5a60-49e7-a11d-959b4a089bc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).' or . = 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')]</value>
+      <webElementGuid>decd283a-fa0b-4b7c-a227-cd9832fbda06</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

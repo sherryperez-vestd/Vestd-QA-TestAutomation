@@ -4,7 +4,7 @@
    <name>reporting</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>sherry.perez@vestd.com;</mailRecipient>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

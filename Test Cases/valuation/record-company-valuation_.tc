@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>record-company-valuation_</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>db60b242-500a-4679-ba71-268dd2d707ff</testCaseGuid>
-</TestCaseEntity>

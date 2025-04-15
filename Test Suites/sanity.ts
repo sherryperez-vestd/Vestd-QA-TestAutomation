@@ -5,17 +5,17 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient>sherry.perez@vestd.com;</mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>1</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>b0814c70-8d6b-4b08-af64-4da0e934cd63</testSuiteGuid>
    <testCaseLink>
-      <guid>94415b69-1dac-4edd-a2ea-bec83694c1cb</guid>
+      <guid>7cd432b0-79e3-4b62-ae13-2ead7a640d87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/navigation/nav-admin-editor</testCaseId>
+      <testCaseId>Test Cases/navigation/nav-recipient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
