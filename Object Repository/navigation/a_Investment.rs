@@ -13,8 +13,14 @@
          <key>XPATH</key>
          <value>//div[@id='sidebarCollapse']/ul/li[4]/div/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://demo.app.vestd.com/company/50934/investment-hub' and (text() = ' Investment
+                        ' or . = ' Investment
+                        ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +35,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>38eab531-b718-4998-ba4b-533305c2589e</webElementGuid>
+      <webElementGuid>825b2ecb-9bc3-4bde-b379-c8cf71564dd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +43,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/investment-hub</value>
-      <webElementGuid>a0a76f17-0d28-42de-baf6-b1d923e5aadb</webElementGuid>
+      <webElementGuid>528e9fdb-5482-4689-a425-85e551acfa99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>external-link</value>
-      <webElementGuid>bb52cb42-66f8-4aec-8d06-e5585fbbeb58</webElementGuid>
+      <webElementGuid>c72a6bb8-bd55-4f34-ba12-0ab68fe09e25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +60,7 @@
       <type>Main</type>
       <value> Investment
                         </value>
-      <webElementGuid>81f70f6c-d491-4071-b2d6-c46b6fc8b9e0</webElementGuid>
+      <webElementGuid>3d108d18-bc44-4018-b4c5-bba854ae523f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +68,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mt-3&quot;]/li[@class=&quot;nav-item&quot;]/div[@class=&quot;is-closed d-flex justify-content-between toggle-link-container&quot;]/a[@class=&quot;external-link&quot;]</value>
-      <webElementGuid>ca997487-0187-466b-9654-09e9152cdba0</webElementGuid>
+      <webElementGuid>f3fa024e-c5f4-4b44-91ff-d5dc0ec84f96</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/ul/li[4]/div/a</value>
-      <webElementGuid>666f98d8-eee6-4df8-967b-94e7a9143217</webElementGuid>
+      <webElementGuid>2628d276-86ad-4e15-a6f9-000f3e28c16e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Initial notifications'])[1]/following::a[1]</value>
-      <webElementGuid>c2b73bc7-5435-432d-877b-20fc5f48e99c</webElementGuid>
+      <webElementGuid>1f926221-b9e2-4c16-9893-45bb1ea5ddfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual notifications'])[1]/following::a[2]</value>
-      <webElementGuid>b91c4ffc-8c0b-451f-92e4-6cb8b1f1e1c7</webElementGuid>
+      <webElementGuid>4c82a7f9-6d21-4752-838e-5b4e87106c0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='investment rounds'])[1]/preceding::a[2]</value>
-      <webElementGuid>c77f7e40-4904-4315-8cb6-5f8b7523140b</webElementGuid>
+      <webElementGuid>240a1ead-e169-47a4-bf28-31d15e23f12d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Investment']/parent::*</value>
-      <webElementGuid>0d1021a8-8a30-4d4c-9710-420ccf03df9e</webElementGuid>
+      <webElementGuid>c1fcef80-281f-4b50-9173-5538006c1989</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +116,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/investment-hub')]</value>
-      <webElementGuid>ee311236-0578-44cc-917b-9d75074de172</webElementGuid>
+      <webElementGuid>06367b33-c190-49eb-914b-5003f64f2cb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +124,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/div/a</value>
-      <webElementGuid>91d4f05c-a40d-487b-bd15-7309dbc900d0</webElementGuid>
+      <webElementGuid>f1ddc904-5aad-48ea-89c1-bd0499942e2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,6 +134,6 @@
       <value>//a[@href = 'https://demo.app.vestd.com/company/50934/investment-hub' and (text() = ' Investment
                         ' or . = ' Investment
                         ')]</value>
-      <webElementGuid>6387a3ab-0a68-4d0b-a8ae-54547a1d6b5d</webElementGuid>
+      <webElementGuid>741f4411-d851-4db1-af91-534f1015ca57</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

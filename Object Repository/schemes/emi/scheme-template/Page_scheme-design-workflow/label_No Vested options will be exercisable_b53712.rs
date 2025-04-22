@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_No Vested options will be exercisable_b53712</name>
+   <tag></tag>
+   <elementGuidId>beec167b-f838-4b76-bad2-e7749192bca9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='js-workflow-form']/fieldset/div/div[2]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;No Vested options will be exercisable if, and only if, an exit event occurs.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>54176ea4-f1bd-4bce-baf4-5f93415cdc6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-block mb-4 flex-grow-1 flex-shrink-1 choice-label</value>
+      <webElementGuid>4d1d0354-da52-4ee8-933c-db3e40556ac8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>no</value>
+      <webElementGuid>c31495ff-eea5-438f-890b-f84e2d920487</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> No Vested options will be exercisable if, and only if, an exit event occurs.</value>
+      <webElementGuid>274b625d-357d-49dc-9501-ec79b23a4a26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-workflow-form&quot;)/fieldset[1]/div[@class=&quot;row mb-4 mt-5&quot;]/div[@class=&quot;col-12 col-sm-6 col-md-4 col-lg-6 d-flex col-xl max-w-xl-choice&quot;]/label[@class=&quot;d-block mb-4 flex-grow-1 flex-shrink-1 choice-label&quot;]</value>
+      <webElementGuid>1c4df8de-9a95-4d51-9f80-36fc864ab884</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='js-workflow-form']/fieldset/div/div[2]/label</value>
+      <webElementGuid>9a344aba-c0d4-443a-a5a1-18b2f767dcf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='If there has not been an exit event after a period of time the vestd options can be exercised.'])[1]/following::label[1]</value>
+      <webElementGuid>4d6c1e09-bc6e-4781-8eff-794850caf1bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::label[1]</value>
+      <webElementGuid>44ee491e-9ea1-43bd-81aa-cca055504c8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label</value>
+      <webElementGuid>b724aad8-01f6-4638-9d46-de5912884062</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' No Vested options will be exercisable if, and only if, an exit event occurs.' or . = ' No Vested options will be exercisable if, and only if, an exit event occurs.')]</value>
+      <webElementGuid>d598c939-5792-47b5-8865-59b646915538</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

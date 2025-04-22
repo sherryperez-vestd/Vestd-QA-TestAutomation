@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Monthly</name>
+   <tag></tag>
+   <elementGuidId>8c1dcaa8-e972-4333-b40c-f8b11cee3899</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='js-workflow-form']/fieldset/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.d-block.mb-4.flex-grow-1.flex-shrink-1.choice-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>label >> internal:has-text=&quot;Monthly&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>071c45c0-d740-488c-b0ae-2139b0ca8833</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-block mb-4 flex-grow-1 flex-shrink-1 choice-label</value>
+      <webElementGuid>78394054-3db1-4c2a-89ca-05c8ce76592c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>monthly</value>
+      <webElementGuid>641343cd-b74a-43a0-b6ec-20926f0b7262</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Monthly</value>
+      <webElementGuid>ed76abdf-3284-4ff9-a199-211b94887116</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-workflow-form&quot;)/fieldset[1]/div[@class=&quot;row mb-4 mt-5&quot;]/div[@class=&quot;col-12 col-sm-6 col-md-4 col-lg-6 d-flex col-xl-3&quot;]/label[@class=&quot;d-block mb-4 flex-grow-1 flex-shrink-1 choice-label&quot;]</value>
+      <webElementGuid>c59d26b1-e602-4ebb-b48c-663377ed8dab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='js-workflow-form']/fieldset/div/div/label</value>
+      <webElementGuid>0bd81b3a-0c41-4bdc-8e0d-9697ac30344d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How frequently do you want the options to vest?'])[1]/following::label[1]</value>
+      <webElementGuid>3367fe16-f380-44b9-83a9-394574b1e612</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt; Back'])[1]/following::label[1]</value>
+      <webElementGuid>5b090e88-9583-4b5e-bcd3-82a84b139861</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quarterly'])[1]/preceding::label[1]</value>
+      <webElementGuid>717762e5-2815-4d1a-8bda-1d6311ef0798</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>3aa04ea4-019f-42db-84e0-e1065dcca9ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Monthly' or . = 'Monthly')]</value>
+      <webElementGuid>42ce3710-e158-43bc-8ef6-3f1b48b04d94</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

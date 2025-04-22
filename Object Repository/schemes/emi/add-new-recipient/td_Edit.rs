@@ -21,7 +21,7 @@
          <value>internal:role=cell[name=&quot;Edit&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>1643e122-8b56-4a95-b8ce-27afebfed2b7</webElementGuid>
+      <webElementGuid>176ec9a8-bcab-46ae-88df-d6bcacd70e06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit</value>
-      <webElementGuid>f19e9265-dae1-494e-abd1-389fedb7ae83</webElementGuid>
+      <webElementGuid>62cdb0c4-cb63-4c94-896b-1b57258f89cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-borderless&quot;]/tbody[1]/tr[1]/td[8]</value>
-      <webElementGuid>f512317d-0b33-402e-889e-a9382f7bc17b</webElementGuid>
+      <webElementGuid>6c5f7763-91e0-41f3-b756-af8abd5478e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td[8]</value>
-      <webElementGuid>d64bebbc-c8eb-457e-81c8-ec50b0449c22</webElementGuid>
+      <webElementGuid>0c1c87d3-82a8-4a97-96c9-10fc65607e5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/following::td[1]</value>
-      <webElementGuid>d53035c2-e77d-4939-9132-a894c539cf8b</webElementGuid>
+      <webElementGuid>62c19d51-c64d-4fa3-87df-ac4cf591e268</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::td[2]</value>
-      <webElementGuid>9c8743c0-ea16-4d50-8048-b0f4a4c69316</webElementGuid>
+      <webElementGuid>e6640ee6-4786-49ac-9b64-060fce567318</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Default criteria'])[1]/preceding::td[1]</value>
-      <webElementGuid>cf92abb3-cc8b-4a79-b633-27eb1a6c47eb</webElementGuid>
+      <webElementGuid>a5323903-87f1-4cdb-9f59-d040eb605b89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[8]</value>
-      <webElementGuid>0bcc7e7a-7cef-4e6d-ae2a-85dad8438f64</webElementGuid>
+      <webElementGuid>0084ec6d-5e89-42a7-8a96-03872ecb241d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>c4f24276-9033-4f63-ba57-ca9305595e18</webElementGuid>
+      <webElementGuid>3eede8ef-7375-4488-a821-4861e7ab8a99</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

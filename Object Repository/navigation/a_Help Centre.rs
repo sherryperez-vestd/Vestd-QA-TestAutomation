@@ -13,8 +13,14 @@
          <key>XPATH</key>
          <value>//div[@id='sidebarCollapse']/ul[2]/li/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Help Centre
+                ' or . = ' Help Centre
+                ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +35,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7d447722-99b4-4501-b32c-d41e50232b29</webElementGuid>
+      <webElementGuid>acd732f4-7325-4434-92bf-d626b8cb5b89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +43,15 @@
       <name>target</name>
       <type>Main</type>
       <value>_blank</value>
-      <webElementGuid>c8875d76-4ab5-4eeb-8307-334c67089366</webElementGuid>
+      <webElementGuid>a91efa57-73eb-41c8-9a36-8831df017738</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://www.vestd.com/help?_gl=1*1lztjkp*_ga*MTM2MjAwOTM2MC4xNzQ0NjYzMjYy*_ga_52CVMT2H7J*MTc0NDY2MzI2Mi4xLjEuMTc0NDY2MzQzMS4yMy4wLjA.</value>
-      <webElementGuid>914fed57-399f-4477-b27c-1e89899df46e</webElementGuid>
+      <webElementGuid>bcb26629-afbe-4e00-b234-a3c4cab530d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +59,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>f68dc35c-2cf9-43e2-9d92-e6b508ffc1fb</webElementGuid>
+      <webElementGuid>1ba0a7b0-701b-4f6c-b3fe-c8c2be583023</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +68,7 @@
       <type>Main</type>
       <value> Help Centre
                 </value>
-      <webElementGuid>e47a578b-a161-41df-bcdc-151ced53a3cf</webElementGuid>
+      <webElementGuid>a2c0f001-7096-4de7-9acb-ad1d4cc32bb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +76,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mb-md-4&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>06fd5d7c-076f-4857-9d4c-164d853d0103</webElementGuid>
+      <webElementGuid>961bcb5a-70d7-4829-b759-839ade7b5b5a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +84,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/ul[2]/li/a</value>
-      <webElementGuid>58d46f72-3aa9-4d5c-99ee-43b3235bf65b</webElementGuid>
+      <webElementGuid>0c1fb839-3ef9-46ee-91a7-85ef043eb36c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +92,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Help Centre')]</value>
-      <webElementGuid>05148ecd-1fe1-44ef-984f-0bc33cead353</webElementGuid>
+      <webElementGuid>a6a8fce8-bcfb-4725-b363-fa884da5325f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company settings'])[1]/preceding::a[1]</value>
-      <webElementGuid>56d397a1-19a5-4e7f-b1cd-ca82e9823c54</webElementGuid>
+      <webElementGuid>8c6e382d-8ef1-4a5c-9b1e-7ce677400412</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='App - staff'])[1]/preceding::a[2]</value>
-      <webElementGuid>eccfc3e5-b457-4169-a4c1-62bd32d08904</webElementGuid>
+      <webElementGuid>9c3237a2-d725-4cae-886e-a10ce1fd7f73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Help Centre']/parent::*</value>
-      <webElementGuid>6afaef10-7bcc-4513-998f-0e350f7cf331</webElementGuid>
+      <webElementGuid>39819234-3f98-49e0-88c3-3fd46aabfeea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +124,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://www.vestd.com/help?_gl=1*1lztjkp*_ga*MTM2MjAwOTM2MC4xNzQ0NjYzMjYy*_ga_52CVMT2H7J*MTc0NDY2MzI2Mi4xLjEuMTc0NDY2MzQzMS4yMy4wLjA.')]</value>
-      <webElementGuid>5cb004ed-15c4-485a-93db-1aa151b6e80e</webElementGuid>
+      <webElementGuid>20a6b229-1288-4d15-8db7-006aa66967f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +132,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul[2]/li/a</value>
-      <webElementGuid>754ab6e8-8329-44c3-b443-027c9cdde7df</webElementGuid>
+      <webElementGuid>3fe4023d-6a96-4097-bd10-53c28fd302cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,6 +142,6 @@
       <value>//a[@href = 'https://www.vestd.com/help?_gl=1*1lztjkp*_ga*MTM2MjAwOTM2MC4xNzQ0NjYzMjYy*_ga_52CVMT2H7J*MTc0NDY2MzI2Mi4xLjEuMTc0NDY2MzQzMS4yMy4wLjA.' and (text() = ' Help Centre
                 ' or . = ' Help Centre
                 ')]</value>
-      <webElementGuid>cf9c2641-cb86-402b-bc18-0b47e26be3a4</webElementGuid>
+      <webElementGuid>a6db2fb4-a97c-428b-82fb-7b17eed80a91</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

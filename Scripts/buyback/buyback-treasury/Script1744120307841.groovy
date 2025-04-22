@@ -36,8 +36,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-crea
 
 WebUI.click(findTestObject('Object Repository/buyback/buyback-create/button Continue_'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_Please select Shareholder'), 
-    '692094', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_Please select Shareholder'), '692094', 
+    true)
 
 WebUI.click(findTestObject('Object Repository/buyback/buyback-create/button Continue_'))
 
@@ -45,8 +45,7 @@ WebUI.setText(findTestObject('Object Repository/buyback/buyback-create/input_Num
 
 WebUI.setText(findTestObject('Object Repository/buyback/buyback-create/input_Total_total_price_paid'), '1')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_InvestmentRound'), 
-    '128377', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_InvestmentRound'), '128377', true)
 
 WebUI.click(findTestObject('Object Repository/buyback/buyback-create/button_Continue__'))
 
@@ -60,7 +59,11 @@ WebUI.refresh()
 
 WebUI.refresh()
 
+WebUI.waitForElementPresent(findTestObject('buyback/buyback-details/a_Confirm transaction date'), 0)
+
 WebUI.click(findTestObject('Object Repository/buyback/buyback-details/a_Confirm transaction date'))
+
+WebUI.waitForElementPresent(findTestObject('buyback/buyback-confirm transaction/confirm-trasction-date-submit-btn'), 0)
 
 WebUI.click(findTestObject('Object Repository/buyback/buyback-confirm transaction/confirm-trasction-date-submit-btn'))
 

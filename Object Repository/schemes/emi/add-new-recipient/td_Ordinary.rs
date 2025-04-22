@@ -21,7 +21,7 @@
          <value>internal:role=cell[name=&quot;Ordinary&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>7018f98e-04d6-4855-92de-9ca74c66e867</webElementGuid>
+      <webElementGuid>ad752afb-4ace-4199-ac30-d7329abed8e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ordinary</value>
-      <webElementGuid>83230e21-38d7-45ba-87bb-c988bac83a5a</webElementGuid>
+      <webElementGuid>d4359100-47fc-4cb0-b47e-72ed68677d23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-borderless&quot;]/tbody[1]/tr[1]/td[3]</value>
-      <webElementGuid>47a0ca9e-b9a5-4562-ab8e-ca742759a58e</webElementGuid>
+      <webElementGuid>3b2dc10e-6847-42c8-b409-8e2011314f67</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td[3]</value>
-      <webElementGuid>8942cf8d-d9aa-4206-8d33-3f7ee6fb8ee3</webElementGuid>
+      <webElementGuid>f93892b6-0868-48c6-9d9f-43bb3721b7cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Not invited'])[1]/following::td[1]</value>
-      <webElementGuid>ab170ecc-f14e-4f1c-8ac7-9c73f72aefcc</webElementGuid>
+      <webElementGuid>36f25965-1de3-4bdc-be21-a6803be1a8ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::td[3]</value>
-      <webElementGuid>8a1b5f25-7270-456c-8f8f-c9e1072c6d2c</webElementGuid>
+      <webElementGuid>0de51d28-f624-4a3d-a59c-a3d85bed41b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::td[4]</value>
-      <webElementGuid>db3a5d1e-5416-42bb-a595-9504ae68b510</webElementGuid>
+      <webElementGuid>d2932c42-8559-45c5-b514-0dd0b5667d4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ordinary']/parent::*</value>
-      <webElementGuid>d0d0243c-fbb4-4afa-8d1e-ed5162134af1</webElementGuid>
+      <webElementGuid>1fab9578-53d5-4502-b46f-f9ccac911c60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]</value>
-      <webElementGuid>71464547-4be8-48b8-88cb-e66c32cdbaeb</webElementGuid>
+      <webElementGuid>0c36553a-1a49-4e6e-8d47-c8ec74bbb84e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Ordinary' or . = 'Ordinary')]</value>
-      <webElementGuid>f8cd6547-0b83-4b15-b77f-30a26b55ff9b</webElementGuid>
+      <webElementGuid>3965f89a-2256-48b7-8d74-2c00ee2c4397</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

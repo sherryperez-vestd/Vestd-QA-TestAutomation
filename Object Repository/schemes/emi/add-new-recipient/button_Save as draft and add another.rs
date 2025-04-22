@@ -21,7 +21,7 @@
          <value>[data-test-id=&quot;button-element&quot;]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>79590703-8df0-4185-9029-702249f22371</webElementGuid>
+      <webElementGuid>06ea9c4a-3b5f-44de-8757-df8999c5fbcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>a9e6cfa6-4329-4622-979b-2ed7f8f2b32c</webElementGuid>
+      <webElementGuid>d60bdd29-3d58-40ca-95bc-5cf12ee83d91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-md btn-primary v-btn</value>
-      <webElementGuid>c07c9b7d-72f4-4a6e-bc6e-10e4f55549e7</webElementGuid>
+      <webElementGuid>e4416529-3124-4422-93a2-f1ced872b789</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>button-element</value>
-      <webElementGuid>ffcd63bc-08b7-4d73-ba0f-1093f3341115</webElementGuid>
+      <webElementGuid>26d322fe-20ea-4458-a7b6-c5351c14e527</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                             Save as draft and add another
                         </value>
-      <webElementGuid>cb137f2e-9831-4df8-8c3a-6377b164e921</webElementGuid>
+      <webElementGuid>58b0701d-4810-4cce-b02e-deb2748400ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;alert bg-light border&quot;]/form[1]/div[@class=&quot;action-object d-lg-flex justify-content-end align-items-start flex-row-reverse&quot;]/div[@class=&quot;action-object___buttons&quot;]/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn btn-md btn-primary v-btn&quot;]</value>
-      <webElementGuid>96987f9b-3398-48fa-a55d-a9352ba85d90</webElementGuid>
+      <webElementGuid>8bb153ef-d82d-458f-b6cf-f13ae999dfb5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>03eed1b8-d697-4a80-a7e5-9b9449cc74d1</webElementGuid>
+      <webElementGuid>2a9ec623-0a3d-433e-8b63-199aaed4fba8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[3]/form/div[4]/div[2]/div/button</value>
-      <webElementGuid>b47fbd9a-450f-4fd8-a55b-8efc0738bc66</webElementGuid>
+      <webElementGuid>66a07564-c04f-4c0d-a0ff-ba41d2a4e88d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unique identifier'])[1]/following::button[1]</value>
-      <webElementGuid>e92a60a3-7039-4312-90d5-a8a3f0110962</webElementGuid>
+      <webElementGuid>54db03b0-3180-4915-bb87-acfc2a627077</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='contact us'])[1]/preceding::button[1]</value>
-      <webElementGuid>706d1e75-6887-45c7-bc01-b26597e30dc6</webElementGuid>
+      <webElementGuid>6e61f3cd-ea80-4656-b564-03a91585778c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Save as draft and add another']/parent::*</value>
-      <webElementGuid>3e55f429-ec17-46bc-b655-578a34d20597</webElementGuid>
+      <webElementGuid>684c6238-bf61-4c7f-9131-650215d566cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>87d4b507-ffe6-4fdb-ac41-cbc3043335bb</webElementGuid>
+      <webElementGuid>0b5d729b-047c-46a8-b338-89c11606251a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +131,6 @@
                         ' or . = '
                             Save as draft and add another
                         ')]</value>
-      <webElementGuid>c53d9e7c-f617-40d7-91dd-b0a9c2721d5d</webElementGuid>
+      <webElementGuid>fdda98f9-18c1-4145-8ac2-d337eb7e2f52</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

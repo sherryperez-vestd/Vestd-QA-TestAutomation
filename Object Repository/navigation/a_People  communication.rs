@@ -13,8 +13,14 @@
          <key>XPATH</key>
          <value>//div[@id='sidebarCollapse']/ul/li[7]/div/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://demo.app.vestd.com/company/50934/people' and (text() = ' People &amp; communication
+                        ' or . = ' People &amp; communication
+                        ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +35,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e8a03b1c-299f-4767-be1b-a86c30d8d5b6</webElementGuid>
+      <webElementGuid>d665891d-c7cc-4dd9-929f-b43e41c76d29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +43,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/people</value>
-      <webElementGuid>7bf39283-3d7c-4bb1-8f0a-8b01a4ff3c6d</webElementGuid>
+      <webElementGuid>ea0f7c78-e3bd-4c9b-97d0-d34346fbf7fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>external-link</value>
-      <webElementGuid>191c6045-1dc4-404c-b15f-74cc728e7359</webElementGuid>
+      <webElementGuid>c852cbc0-c147-4d75-9fdc-82e8e8ccc647</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +60,7 @@
       <type>Main</type>
       <value> People &amp; communication
                         </value>
-      <webElementGuid>a20ca402-77ee-4b06-a564-d2c8a249d798</webElementGuid>
+      <webElementGuid>c9d1b54e-1780-4269-9f3b-1038c01e11bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +68,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mt-3&quot;]/li[@class=&quot;nav-item&quot;]/div[@class=&quot;is-closed d-flex justify-content-between toggle-link-container&quot;]/a[@class=&quot;external-link&quot;]</value>
-      <webElementGuid>321042ef-121b-4faa-8863-44a6e06f93ea</webElementGuid>
+      <webElementGuid>06b58dc2-2c95-404f-818b-4596ee645289</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/ul/li[7]/div/a</value>
-      <webElementGuid>ed1d2a98-4e1c-4884-9926-324555f4bdc6</webElementGuid>
+      <webElementGuid>a16a0c23-d6c1-418f-8d78-4c8bf515ac55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Governance'])[1]/following::a[1]</value>
-      <webElementGuid>7056dddb-3c3e-41d0-9511-9f6140071c6d</webElementGuid>
+      <webElementGuid>121f1dc3-e63d-4dcb-a3fd-e6ef166931c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation statements'])[1]/following::a[2]</value>
-      <webElementGuid>40bdd0b7-cddc-4e47-a6de-d17423c3ee5e</webElementGuid>
+      <webElementGuid>6214f93f-b807-4bd4-8398-4808f96d9ab8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='People'])[1]/preceding::a[2]</value>
-      <webElementGuid>39a24ba5-cca2-4c80-afaf-131cadd8e179</webElementGuid>
+      <webElementGuid>73b21b8e-3a40-47bc-8c40-7a9fdf22bfa4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='People &amp; communication']/parent::*</value>
-      <webElementGuid>14183aa4-79dd-45bd-9ff3-4d51213931ec</webElementGuid>
+      <webElementGuid>773d149b-f4f3-49db-93e7-4bb3b4f56d11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +116,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/people')]</value>
-      <webElementGuid>f9bebf97-732e-4eea-b650-16a9e84508d4</webElementGuid>
+      <webElementGuid>2c996193-fd21-41f5-bd57-be4f8457e90b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +124,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[7]/div/a</value>
-      <webElementGuid>17ab6249-fad3-41f3-935f-29a798e29914</webElementGuid>
+      <webElementGuid>54db7221-6da3-4da9-9c9b-adb0745ab802</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,6 +134,6 @@
       <value>//a[@href = 'https://demo.app.vestd.com/company/50934/people' and (text() = ' People &amp; communication
                         ' or . = ' People &amp; communication
                         ')]</value>
-      <webElementGuid>d2211810-daed-46bd-ab8e-3e4a8bcca0da</webElementGuid>
+      <webElementGuid>b58c6477-4424-4726-b74f-671a36174bb3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

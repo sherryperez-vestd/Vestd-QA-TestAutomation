@@ -21,7 +21,7 @@
          <value>input[name=&quot;starting_at_month&quot;]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c429a3bf-20e4-4a06-bfed-77ac116a4f65</webElementGuid>
+      <webElementGuid>257959c9-18cb-4461-9242-b20f517ff6f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>140d099f-059b-4f35-9035-a4f40bd4218d</webElementGuid>
+      <webElementGuid>60f23658-20a4-4972-8adf-719b6cacc85e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>min</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>b9a3e370-957f-458e-9dac-abdb9b4a42bc</webElementGuid>
+      <webElementGuid>36f5f39d-8dd9-43fa-a735-db63ec9779c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>max</name>
       <type>Main</type>
       <value>12</value>
-      <webElementGuid>185cfba7-0be8-4bab-9948-02061d983c8c</webElementGuid>
+      <webElementGuid>f3d84bf2-38f9-42c5-a3c8-8cca916aea06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>starting_at_month</value>
-      <webElementGuid>3526d967-c627-4df5-87d3-88c68bbbddb9</webElementGuid>
+      <webElementGuid>56e974f4-9d39-4cb5-babe-541c1c64b6ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>9846ac3c-12cd-4f24-89e6-e12e74ecba17</webElementGuid>
+      <webElementGuid>db7f1b30-000c-422e-bd3f-f3144a494014</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;alert bg-light border&quot;]/form[1]/div[@class=&quot;form-row&quot;]/div[@class=&quot;form-group col-lg-2 col-md-3&quot;]/input[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>2b30bfab-bc8f-4cc3-85c7-4b89cb1566d3</webElementGuid>
+      <webElementGuid>44625f31-a733-4928-b279-4806397e8a41</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='starting_at_month']</value>
-      <webElementGuid>6253490e-cf16-44b8-b46f-b117a4dc1aad</webElementGuid>
+      <webElementGuid>615a8eb8-317f-4a80-9229-f03623f8bdff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[3]/form/div[2]/div[3]/input</value>
-      <webElementGuid>052e6d18-68fd-4df9-90c8-7c04eb3d023d</webElementGuid>
+      <webElementGuid>695db53c-f768-474d-ba7a-b36975f02d44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/input</value>
-      <webElementGuid>48261a22-2c18-42a7-8389-c3f547151df7</webElementGuid>
+      <webElementGuid>a21a3d7e-31d9-468a-9ce1-da1809bb9a5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'starting_at_month' and @type = 'number']</value>
-      <webElementGuid>5cadc615-b92f-40e5-9612-3a10c891b325</webElementGuid>
+      <webElementGuid>9c3fd08b-5230-46c1-b5de-20ff0e73bb09</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

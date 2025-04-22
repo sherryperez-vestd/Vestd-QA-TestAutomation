@@ -13,8 +13,14 @@
          <key>XPATH</key>
          <value>//div[@id='sidebarCollapse']/ul/li[2]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://demo.app.vestd.com/company/50934/home' and (text() = ' Home
+                       ' or . = ' Home
+                       ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +35,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ab9d4868-d16d-4a47-a9ef-60aae928f209</webElementGuid>
+      <webElementGuid>996d2de5-f917-4138-a2cf-678d10681162</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +43,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/home</value>
-      <webElementGuid>9ab47a51-db8a-41a2-bd3f-23df21cd3058</webElementGuid>
+      <webElementGuid>027fa267-01c3-46a0-b830-e59772aab65b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>4ca1176a-b333-48f8-ad96-4d9adabc57bc</webElementGuid>
+      <webElementGuid>c36caa5c-df39-444a-aeac-1aad644f6dba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +60,7 @@
       <type>Main</type>
       <value> Home
                        </value>
-      <webElementGuid>b1cf9dcd-0989-44f9-91e6-6e7f0ae983c9</webElementGuid>
+      <webElementGuid>80aeb331-9bdb-40c4-8018-dbcc2581e18a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +68,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mt-3&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>c293d43e-ec20-4c67-8e10-5f307b6e71a3</webElementGuid>
+      <webElementGuid>aa05f952-d181-4cd9-92f4-b31374998c79</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/ul/li[2]/a</value>
-      <webElementGuid>ee2ed127-3da0-4af5-ad1a-dbc7d3afffca</webElementGuid>
+      <webElementGuid>479f12d6-cbee-4015-bc95-2d7c7f2ac462</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +84,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Home')]</value>
-      <webElementGuid>f7442bbf-a53d-4856-9302-748431dcb945</webElementGuid>
+      <webElementGuid>79f5dfdc-5db3-4697-819a-6a90d0e85cf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My equity'])[1]/following::a[1]</value>
-      <webElementGuid>2b99e359-e057-44ce-a91e-7ce366fe455f</webElementGuid>
+      <webElementGuid>0d14bb73-7a37-430f-aa0d-92636ae6e03a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Incorporate a new company'])[2]/following::a[2]</value>
-      <webElementGuid>2ad9ca65-870a-46ad-b672-d1fc313b2f28</webElementGuid>
+      <webElementGuid>9deaef3e-7244-4afe-af96-2e88d2edb4b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share schemes'])[1]/preceding::a[1]</value>
-      <webElementGuid>54713a9b-e8b0-4e9c-a5c4-39b24fb6ce03</webElementGuid>
+      <webElementGuid>1ae46cf2-b050-4ad8-ac10-892427a9e390</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Schemes'])[1]/preceding::a[2]</value>
-      <webElementGuid>d490add5-34b0-4543-994f-8189fc0c78cb</webElementGuid>
+      <webElementGuid>22dea57c-ba2d-4ad5-b7f4-d8fba52b6a26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Home']/parent::*</value>
-      <webElementGuid>02cad1a3-ea08-4325-83b0-bc184ac3d6f5</webElementGuid>
+      <webElementGuid>c8f40ace-ac9c-4860-9f31-362c95c5e471</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +132,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/home')]</value>
-      <webElementGuid>47a44560-39eb-465f-9140-a0e5ab55089f</webElementGuid>
+      <webElementGuid>36bf6dc2-59c8-42c1-a59b-2e97d8c0329f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +140,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[2]/a</value>
-      <webElementGuid>5e979488-2696-4ca0-991d-31831f48ae39</webElementGuid>
+      <webElementGuid>a0d3c135-9ed7-46f9-a8b6-e0e05288d2f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,6 +150,6 @@
       <value>//a[@href = 'https://demo.app.vestd.com/company/50934/home' and (text() = ' Home
                        ' or . = ' Home
                        ')]</value>
-      <webElementGuid>83ef3a9c-0669-4b8b-a752-f6838dccc89c</webElementGuid>
+      <webElementGuid>52fa6e48-17e6-41b8-9621-a569db1087c4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

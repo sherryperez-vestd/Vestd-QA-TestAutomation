@@ -21,7 +21,7 @@
          <value>internal:label=&quot;Unique identifier&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>05cef358-400c-4221-806f-20bdb46dfe3f</webElementGuid>
+      <webElementGuid>65abec6d-310d-42c3-b4b0-ec98f498e76e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>318851a3-529b-4648-8db2-e1457bb19fd3</webElementGuid>
+      <webElementGuid>3984bdc3-6025-4593-8e38-03327de303aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>name</name>
       <type>Main</type>
       <value>customer_unique_identifier</value>
-      <webElementGuid>f3cb999f-2b2f-4d3b-aa79-02f04face061</webElementGuid>
+      <webElementGuid>7ead12f6-0aa7-4566-a1f2-c3fbf955a149</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>customer_unique_identifier</value>
-      <webElementGuid>c9106bca-b5e2-4408-a5be-97d29a07a0ea</webElementGuid>
+      <webElementGuid>4db0ce2d-425d-4b92-b004-e12b82156558</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>ef8e302b-7a23-4cbe-b033-06bbf6d957e6</webElementGuid>
+      <webElementGuid>9fcde660-2552-4f71-996c-ab31354a2666</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;customer_unique_identifier&quot;)</value>
-      <webElementGuid>d6781966-6114-4e3c-8c3f-dcc5302d909f</webElementGuid>
+      <webElementGuid>c950064c-441f-46e7-968b-180b5a67d98d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='customer_unique_identifier']</value>
-      <webElementGuid>1a523918-47e4-4e41-80c0-13d2a877ca1c</webElementGuid>
+      <webElementGuid>49fc936d-3456-47a8-bc6c-ab05685ee144</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[3]/form/div[3]/div/div/div[2]/div[7]/input</value>
-      <webElementGuid>94e793fb-6869-4b5f-acef-adcdd44ed99a</webElementGuid>
+      <webElementGuid>53ef4755-f02e-41fb-af6a-b18cbf6ba231</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/input</value>
-      <webElementGuid>676c63f9-29d0-4508-9935-5ae6b353f403</webElementGuid>
+      <webElementGuid>99b0f287-0af1-4ab7-aa18-526400cfddbe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'customer_unique_identifier' and @id = 'customer_unique_identifier']</value>
-      <webElementGuid>078c46f8-49b3-476e-b83a-bbc1c7ae57f4</webElementGuid>
+      <webElementGuid>e41299c1-df3e-4a51-9e4d-18accbcfa018</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

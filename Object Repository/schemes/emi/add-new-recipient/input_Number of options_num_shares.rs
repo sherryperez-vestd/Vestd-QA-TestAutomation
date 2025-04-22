@@ -21,7 +21,7 @@
          <value>internal:label=&quot;Number of options&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b97d448f-89d9-4d1e-b8a5-b88657000ad9</webElementGuid>
+      <webElementGuid>9eda75c6-b334-49c3-8151-63a30b38a58c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>632bdc4b-b9b9-4ad3-ad54-c478fb6a7d3e</webElementGuid>
+      <webElementGuid>f7913527-a51b-40fc-8f42-563c1f8736de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>num_shares</value>
-      <webElementGuid>a80e94de-f77c-4cac-909a-71dd1398c9e8</webElementGuid>
+      <webElementGuid>cc98ac4d-c585-4524-9068-dd046543581b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>num_shares</value>
-      <webElementGuid>954c3f72-28d0-4fc9-a6db-20f5877af83c</webElementGuid>
+      <webElementGuid>8a693e81-f8e9-44b9-8be4-ca8afc66e2fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>2163d89b-34fa-4a14-a68a-34f8cbc7c337</webElementGuid>
+      <webElementGuid>d2cdb529-5a76-4f96-ba2a-352bfa503299</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;num_shares&quot;)</value>
-      <webElementGuid>99cb1cb1-3b54-4597-baf8-97f666b9bff6</webElementGuid>
+      <webElementGuid>d363572f-edaa-4e1a-9698-7f7ec92c6ca8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='num_shares']</value>
-      <webElementGuid>c0ba56e0-ac8d-4724-9082-fcc8ba99aa95</webElementGuid>
+      <webElementGuid>c2ba7061-09b6-40fd-8521-82f2f4de64ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[3]/form/div[3]/div/div/div[2]/div[4]/input</value>
-      <webElementGuid>03b58891-265c-43c4-8486-395a0e4632ea</webElementGuid>
+      <webElementGuid>644f995e-071e-4b16-8dcf-86fd5b5a0531</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div[4]/input</value>
-      <webElementGuid>82ec743e-e3f4-4065-98b9-aa2c2322c7f1</webElementGuid>
+      <webElementGuid>55beb1b8-ecc9-4668-84c0-44bf4ec7a420</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'number' and @id = 'num_shares' and @name = 'num_shares']</value>
-      <webElementGuid>8fc1c07c-8de4-4d22-bff7-6c68d5be27e3</webElementGuid>
+      <webElementGuid>d782d708-8983-4cb2-b7ad-6238fe028ad9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

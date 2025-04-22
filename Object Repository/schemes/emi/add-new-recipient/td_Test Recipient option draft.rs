@@ -21,7 +21,7 @@
          <value>internal:role=cell[name=&quot;Test Recipient option draft&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>d63c7f4f-e487-4bf4-8fd4-9dc12a0264d0</webElementGuid>
+      <webElementGuid>332a799d-d82f-44fc-8da9-d165a11278d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Test Recipient option draft</value>
-      <webElementGuid>73d86399-cf0e-4514-bb57-9e825ec3cf4d</webElementGuid>
+      <webElementGuid>76b1d1c8-ffd5-496b-af90-f9e612439637</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-borderless&quot;]/tbody[1]/tr[1]/td[1]</value>
-      <webElementGuid>421c0202-2152-4e56-bf7b-5947b5fcae0e</webElementGuid>
+      <webElementGuid>aeb1741c-9277-4ac8-b251-56f51304a097</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td</value>
-      <webElementGuid>29598b9a-9ad9-4e12-a252-51a316d0f1bc</webElementGuid>
+      <webElementGuid>5f4ec505-e74d-45f6-b60b-4a38c45b12dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exercised'])[1]/following::td[1]</value>
-      <webElementGuid>962188f6-385b-4006-aeeb-94e4522dc4b4</webElementGuid>
+      <webElementGuid>c8064793-04e3-4fec-86d0-fdc033bc105b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vested'])[1]/following::td[1]</value>
-      <webElementGuid>cdeec306-63bb-4cd4-a930-250159f373bf</webElementGuid>
+      <webElementGuid>da4e6847-66f9-46a9-9510-6ef82355cb5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td</value>
-      <webElementGuid>74d2bd37-9aed-457b-aef5-fc5144a4fc0c</webElementGuid>
+      <webElementGuid>e6440ebe-653f-4708-b389-d21d3050d84e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Test Recipient option draft' or . = 'Test Recipient option draft')]</value>
-      <webElementGuid>c8f1501e-2be1-4b79-a93f-b5a8e7aabf4f</webElementGuid>
+      <webElementGuid>3e51896d-a952-464a-8c33-da4cd032b9c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

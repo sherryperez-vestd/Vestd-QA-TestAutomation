@@ -13,8 +13,14 @@
          <key>XPATH</key>
          <value>//div[@id='sidebarCollapse']/ul/li[8]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#sidebarCompanyAdmin' and (text() = ' Company - staff
+                        ' or . = ' Company - staff
+                        ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +35,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>64e81d5b-8551-44a3-86d3-375d2e278452</webElementGuid>
+      <webElementGuid>65b50b83-3661-468f-ac08-a8006ceb65d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>toggle-btn text-admin nav-link collapsed</value>
-      <webElementGuid>5fa6ec45-f3a3-4d63-9db1-53e6e1212dc5</webElementGuid>
+      <webElementGuid>9180a0a4-1457-4f57-aea9-2ebd058f191d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +51,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#sidebarCompanyAdmin</value>
-      <webElementGuid>1a7582f4-ee30-47cc-ad04-884d49de99a3</webElementGuid>
+      <webElementGuid>c0f97cf1-332c-473d-b758-e9ad24fc4d73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +59,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>e61ba158-42bc-4e68-8dad-7332db87eda4</webElementGuid>
+      <webElementGuid>61c781c6-aa00-48fd-8c97-0b5874690ef8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +67,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>dc38ec2e-988c-4949-9dc3-fdcb115e62db</webElementGuid>
+      <webElementGuid>8d58c58d-ca46-4596-9996-f4dc2a9a1ff1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +75,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>sidebarCompanyAdmin</value>
-      <webElementGuid>65ec1aa0-a3d5-472e-a152-190eae194815</webElementGuid>
+      <webElementGuid>c0a9fec2-582e-4135-b3af-7dc46e984950</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +83,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>44124c2f-1746-42f4-89f4-238bd397bd38</webElementGuid>
+      <webElementGuid>3d81b94f-73e6-45d7-8257-57586b064523</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +92,7 @@
       <type>Main</type>
       <value> Company - staff
                         </value>
-      <webElementGuid>3f3c011b-3421-4215-9d0b-c7dea534945e</webElementGuid>
+      <webElementGuid>156c20a2-2506-47cb-ba11-3d4821fe0160</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +100,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mt-3&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;toggle-btn text-admin nav-link collapsed&quot;]</value>
-      <webElementGuid>3f8e0c80-0db9-41b0-b801-9efa7911d7d3</webElementGuid>
+      <webElementGuid>093c4e65-aa50-4745-940e-ae9f81fc0e29</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +108,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/ul/li[8]/a</value>
-      <webElementGuid>3f803390-6f7e-49b8-8c7f-07a09a6e25b6</webElementGuid>
+      <webElementGuid>1ab1dd94-a9c7-45d6-aa89-26346b28c9d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[2]/following::a[2]</value>
-      <webElementGuid>7f993d82-3b09-4b2a-a450-6dbf4b384255</webElementGuid>
+      <webElementGuid>da49838a-ab3d-41cd-b980-32b69a7e0156</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Company - staff']/parent::*</value>
-      <webElementGuid>f55ba1ad-bc53-416d-82c1-50b8bdd1e3f5</webElementGuid>
+      <webElementGuid>9ff1d63f-7302-4a2d-aee0-09de2e4df88b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +132,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#sidebarCompanyAdmin')]</value>
-      <webElementGuid>9ae707ec-fce8-49c7-b5e3-635c51a71f59</webElementGuid>
+      <webElementGuid>9331df4d-658d-4032-9447-d6b2ba6fb11e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +140,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[8]/a</value>
-      <webElementGuid>26864b1e-3ae3-4407-a0e0-48459d49b466</webElementGuid>
+      <webElementGuid>66a883ca-6e4a-4b18-bbf7-0739e1f04ff0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,6 +150,6 @@
       <value>//a[@href = '#sidebarCompanyAdmin' and (text() = ' Company - staff
                         ' or . = ' Company - staff
                         ')]</value>
-      <webElementGuid>abe39dad-e332-4a5e-ab41-9e56caf371a3</webElementGuid>
+      <webElementGuid>d5b66d32-852c-4e63-b8c0-a0defc6689a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

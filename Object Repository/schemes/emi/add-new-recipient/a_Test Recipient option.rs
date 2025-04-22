@@ -21,7 +21,7 @@
          <value>internal:role=link[name=&quot;Test Recipient option&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e12d76de-622e-41a9-94f4-ac0d3c154b6c</webElementGuid>
+      <webElementGuid>61e227a6-63e3-4325-8a72-aee4aedc5547</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/option/464406?redirect_url=%2Fcompany%2F50934%2Freward-template%2F40375%3Fshare_approval_id%3D167068%26starting_at%3D2024-01-01</value>
-      <webElementGuid>eca22fa1-1eea-4c55-a1a0-20afe543574b</webElementGuid>
+      <webElementGuid>390a40c1-7237-4965-b216-87148e3dbdbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>title</name>
       <type>Main</type>
       <value>View option</value>
-      <webElementGuid>66b6d0b7-f016-4637-84ae-573c81fc7f5b</webElementGuid>
+      <webElementGuid>f1f92168-4d4b-4d35-bfc6-11cfca26fe82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Test Recipient option</value>
-      <webElementGuid>796519fc-818c-47d4-90e7-3380c9ef3ce5</webElementGuid>
+      <webElementGuid>4c2633a9-3688-4b27-905f-60d0b8d67006</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-borderless&quot;]/tbody[1]/tr[1]/td[1]/a[1]</value>
-      <webElementGuid>cd252232-ce55-4fa3-9259-04937729d2fd</webElementGuid>
+      <webElementGuid>998b964c-1c2f-481d-980e-5d3703ba3412</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td/a</value>
-      <webElementGuid>14c443df-6e5a-48a5-8ee3-5c300e05a65c</webElementGuid>
+      <webElementGuid>d90182d7-ca8e-4c97-8dad-a4b45d5240ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Test Recipient option')]</value>
-      <webElementGuid>c8938dc9-1bd2-403e-82dd-6535eaef5443</webElementGuid>
+      <webElementGuid>9996bf04-9984-4415-ae8f-66effb452f8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exercised'])[1]/following::a[1]</value>
-      <webElementGuid>5cbbb2b9-fda8-4aed-89c8-a452c01f35a8</webElementGuid>
+      <webElementGuid>be596eae-46db-46e2-a5f9-1bd36ae6aeb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vested'])[1]/following::a[1]</value>
-      <webElementGuid>815e16bf-87a3-4870-bb8b-40843b1ca621</webElementGuid>
+      <webElementGuid>f9d9d57f-2f3f-4d79-b515-ab03e8b2bd74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='draft'])[1]/preceding::a[1]</value>
-      <webElementGuid>0971e1ca-f9b5-4027-8a3a-d415110864cf</webElementGuid>
+      <webElementGuid>755dfc59-1415-46ec-9c9a-01541dcbd431</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Test Recipient option']/parent::*</value>
-      <webElementGuid>0a4e8520-7b46-4d12-b153-c8468f70e794</webElementGuid>
+      <webElementGuid>1946960b-65cf-4b6f-8861-34a2806ea547</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/option/464406?redirect_url=%2Fcompany%2F50934%2Freward-template%2F40375%3Fshare_approval_id%3D167068%26starting_at%3D2024-01-01')]</value>
-      <webElementGuid>c38f0265-ad0a-46be-9921-90b39c5cd26b</webElementGuid>
+      <webElementGuid>7d0f87f9-6a52-4e22-b624-bd95de2139ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/a</value>
-      <webElementGuid>553b2c62-a62f-4567-af0a-1216cd8987d5</webElementGuid>
+      <webElementGuid>c3faa98e-9d78-48b7-a51a-2db49940e482</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://demo.app.vestd.com/company/50934/option/464406?redirect_url=%2Fcompany%2F50934%2Freward-template%2F40375%3Fshare_approval_id%3D167068%26starting_at%3D2024-01-01' and @title = 'View option' and (text() = 'Test Recipient option' or . = 'Test Recipient option')]</value>
-      <webElementGuid>19224a04-f152-4c77-8787-f5c9360fe25a</webElementGuid>
+      <webElementGuid>1b5ac2a3-029a-48e8-af17-7c3b68d0d334</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

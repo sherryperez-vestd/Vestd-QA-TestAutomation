@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Delete&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>72e95d78-0860-4c78-9d08-712f619515fe</webElementGuid>
+      <webElementGuid>88a05c6f-4113-4823-a800-ba78f3b8c4aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>a1d014a1-331c-4309-a642-4db8a526b064</webElementGuid>
+      <webElementGuid>ab6ede01-5f06-4353-90e7-a73dd216d43f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-sm btn-danger</value>
-      <webElementGuid>ef71d67f-853c-4153-ad43-9a1ef58e298b</webElementGuid>
+      <webElementGuid>c83f80d9-a2db-4f79-ad1c-d2a19617b3f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Delete option</value>
-      <webElementGuid>1c7f45b2-bd31-4a4b-b94c-1a302127163d</webElementGuid>
+      <webElementGuid>d138f387-ec66-46df-ad4c-373beec59ac4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>return confirm(&quot;Confirm delete?&quot;)</value>
-      <webElementGuid>106f4741-4180-41e0-93b0-3b926e40df27</webElementGuid>
+      <webElementGuid>44227a7a-06ad-4924-84a1-05e497900a47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>bd15c87a-7541-482e-962f-a39c0fcd832b</webElementGuid>
+      <webElementGuid>d2d36617-76d6-471c-af9c-45ab31f8880e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;actions&quot;)/div[@class=&quot;card-body bg-light&quot;]/form[1]/button[@class=&quot;btn btn-sm btn-danger&quot;]</value>
-      <webElementGuid>7e5b4293-54c3-4695-a7ab-8e5985cf95b2</webElementGuid>
+      <webElementGuid>7c9f8bc1-a0fb-4d6a-81ad-e44d619ae439</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>586bec83-410f-4345-814c-3f937e28967f</webElementGuid>
+      <webElementGuid>534c1890-159b-4048-ab3e-7b8acd1e11c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='actions']/div/form/button</value>
-      <webElementGuid>119132f8-6e80-4a5e-b412-2530bffa3f77</webElementGuid>
+      <webElementGuid>be298940-7925-4211-9a51-e1fee4f2a379</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete this option agreement'])[1]/following::button[1]</value>
-      <webElementGuid>f956f0cd-e3ef-4bc1-ab7e-57da215f4ca1</webElementGuid>
+      <webElementGuid>6c330f6b-3adf-4c5d-9954-adafd3ee66ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Option leaver'])[1]/following::button[1]</value>
-      <webElementGuid>01cdd5e6-93c8-41ac-af11-550c8733fc39</webElementGuid>
+      <webElementGuid>9d62f060-d670-476c-be18-9dd674af4d83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Option agreement documents'])[1]/preceding::button[1]</value>
-      <webElementGuid>b65c9aec-5182-407d-8ccb-5bcf7bec3d27</webElementGuid>
+      <webElementGuid>7b065b5e-e391-4bb8-901f-93a23eb97207</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Recipient EMI Agreement (draft)'])[1]/preceding::button[1]</value>
-      <webElementGuid>e90cadf9-cacd-447c-b879-99e352c9b789</webElementGuid>
+      <webElementGuid>6a437840-dcee-4f36-953e-b4a7c3803c17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
-      <webElementGuid>4b1245f9-8f25-4a74-ac1c-919033adc7a4</webElementGuid>
+      <webElementGuid>dab61dbd-8853-444d-9eca-2f5687a6f23a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>2aaee929-ae56-494b-a39f-f4820f26efa6</webElementGuid>
+      <webElementGuid>c847d1ee-7a7f-4d04-aa43-19e0439133fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and @title = 'Delete option' and (text() = 'Delete' or . = 'Delete')]</value>
-      <webElementGuid>2afc34f7-42ce-4470-ba45-403d3d4fb09e</webElementGuid>
+      <webElementGuid>3cf6c272-3781-4502-9a2d-80194fa60110</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
