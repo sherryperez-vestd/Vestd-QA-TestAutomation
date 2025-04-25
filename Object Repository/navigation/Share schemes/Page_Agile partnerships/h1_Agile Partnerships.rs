@@ -6,12 +6,12 @@
    <elementGuidId>294cc029-24a5-4755-9d40-52e1fa23a05b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Agile Partnerships&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>623aaf1e-812f-40ae-9b84-ffb83c5f8bdd</webElementGuid>
+      <webElementGuid>1ec77751-b9a0-4601-801b-200cff02c00a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Agile Partnerships</value>
-      <webElementGuid>28e52e9f-1e6c-41f7-a8ee-3ba41c4b3681</webElementGuid>
+      <webElementGuid>8e07e17e-753b-4648-b30b-c75f0113fb4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>9af55108-0bb3-435f-90b4-d2c12bbf174d</webElementGuid>
+      <webElementGuid>e719d24d-6c5b-4366-b488-b1eabe5a9b76</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>a1d383f6-1f46-4247-9d79-f8141de4aac4</webElementGuid>
+      <webElementGuid>0ab62c01-4b5a-4ee0-bdea-420bca1aef75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>8979eac2-4da5-41ba-80ba-2ab84f58d9a6</webElementGuid>
+      <webElementGuid>ea81056c-2b94-4336-ba81-76eb12b1ba01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>4878a542-0466-490e-b446-5e0cd803589c</webElementGuid>
+      <webElementGuid>9e0d35c6-3674-46fe-b3f5-7b2954ecb230</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Read our guide on Agile Partnerships'])[1]/preceding::h1[1]</value>
-      <webElementGuid>e78b013b-777c-45ca-8aef-6c4e0d9ad7e1</webElementGuid>
+      <webElementGuid>770cb935-f633-43cd-a352-d1194fc7da46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Adopt Vestd Articles'])[1]/preceding::h1[1]</value>
-      <webElementGuid>69b35ef9-47e8-492b-855f-8e84ea39f89a</webElementGuid>
+      <webElementGuid>ce80d06e-a28c-41af-b016-f2f1e6266632</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Agile Partnerships']/parent::*</value>
-      <webElementGuid>c0970f13-9c47-43af-abcb-8c916f6e6354</webElementGuid>
+      <webElementGuid>6344fa00-e48a-4ea3-84ce-067b506aac94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>f23de3bf-1186-46ac-a3b0-c566e8b66c2b</webElementGuid>
+      <webElementGuid>daaab6fe-5e89-4f67-b285-3d4fefd1f330</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Agile Partnerships' or . = 'Agile Partnerships')]</value>
-      <webElementGuid>78af9db4-47be-4fdc-a59e-e74b8b811613</webElementGuid>
+      <webElementGuid>c5c9d602-ab1d-4cb3-8840-84833da51b88</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

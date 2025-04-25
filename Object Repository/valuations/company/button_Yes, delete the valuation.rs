@@ -6,12 +6,12 @@
    <elementGuidId>8c0c1f85-f94b-4b55-8c27-32d1bcd5d100</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.swal2-confirm.btn.btn-outline-secondary</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.swal2-confirm.btn.btn-outline-secondary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Yes, delete the valuation&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>13cf0a98-f327-4dcd-aa41-60c11f8ea9f0</webElementGuid>
+      <webElementGuid>0411c80e-2f5d-4a85-9174-474ad3a85cf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b6dfb094-ec13-4dd1-a26c-4ce81202d8af</webElementGuid>
+      <webElementGuid>6f589d4b-6182-4eda-b660-3412f2b4e1ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-confirm btn btn-outline-secondary</value>
-      <webElementGuid>6de26b9d-3b46-4da3-ac5a-4ff91abaa894</webElementGuid>
+      <webElementGuid>9fa16f3f-8acc-4380-8d59-48ece0e65fd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes, delete the valuation</value>
-      <webElementGuid>89c589c5-842f-439c-a984-8797a7772565</webElementGuid>
+      <webElementGuid>06687e91-5e53-4a5e-9076-a5f566be0fca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;swal2-shown swal2-height-auto&quot;]/body[@class=&quot;swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal cf cf-danger confirm-modal-animation&quot;]/div[@class=&quot;swal2-actions cf-actions flex-row justify-content-between pt-4&quot;]/button[@class=&quot;swal2-confirm btn btn-outline-secondary&quot;]</value>
-      <webElementGuid>e5d59ef5-f624-4ab8-b051-6ae975620b5e</webElementGuid>
+      <webElementGuid>ff2f3483-2e40-4646-966a-7228ceaf187b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>b08e02b3-143a-4616-ac29-f052e0fc0345</webElementGuid>
+      <webElementGuid>0fa7447e-ae05-4278-a358-f0eb87795689</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to delete this valuation?'])[1]/following::button[1]</value>
-      <webElementGuid>44b45a62-5e91-414a-ad70-0c3c8585a309</webElementGuid>
+      <webElementGuid>6334469a-b68b-47a1-be5f-bceb860fe531</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/following::button[1]</value>
-      <webElementGuid>e208625a-7e3b-4ba1-a799-09e0e7768fee</webElementGuid>
+      <webElementGuid>9c903a64-8b44-4d45-9187-7b49fefb0f41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::button[1]</value>
-      <webElementGuid>555c93c7-2d87-45e8-8ff8-ea4fd189efc2</webElementGuid>
+      <webElementGuid>dd9f2e5c-464d-4b5c-92f6-e79065574f69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No, go back'])[1]/preceding::button[2]</value>
-      <webElementGuid>f1111974-7849-434f-bc37-c20d3d8406c3</webElementGuid>
+      <webElementGuid>afa19746-6f24-4a0f-bec4-78589e91f363</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Yes, delete the valuation']/parent::*</value>
-      <webElementGuid>75d90185-fd7f-4e32-98f4-b2ee52f85f16</webElementGuid>
+      <webElementGuid>31503d02-0d84-424b-8087-fcea40b38b34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/button</value>
-      <webElementGuid>922c540d-5ca2-4f79-b432-266c5d47ef86</webElementGuid>
+      <webElementGuid>0e25ba24-d88a-4f73-94aa-bf2cea9f5c33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Yes, delete the valuation' or . = 'Yes, delete the valuation')]</value>
-      <webElementGuid>76f2a826-8d71-411a-8604-a27d540bc5c2</webElementGuid>
+      <webElementGuid>cb3f2c5e-82a4-4545-8b8d-e62eb25a108c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

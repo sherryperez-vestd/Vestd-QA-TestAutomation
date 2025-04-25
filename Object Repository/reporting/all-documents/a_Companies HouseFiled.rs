@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void(0)' and (text() = 'Companies HouseFiled' or . = 'Companies HouseFiled')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='multi-dropdown-menu']/a[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f173297a-7ce8-408a-8775-0a13e4ff2320</webElementGuid>
+      <webElementGuid>a3c78dd7-134e-4949-95cc-6e6cabc283e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +40,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
-      <webElementGuid>06e80c2b-e120-48f4-a5bd-97264a88f49c</webElementGuid>
+      <webElementGuid>61339742-62a3-42cf-b10e-0734f6006ee3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +48,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-item dropdown-toggle child-filters</value>
-      <webElementGuid>12153e1b-3dde-4b51-acba-476c95541700</webElementGuid>
+      <webElementGuid>f0d8a627-f728-4e81-b73d-9a0e2b152636</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +56,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Companies HouseFiled</value>
-      <webElementGuid>4e015a5d-5627-4051-aefa-eda1b720324b</webElementGuid>
+      <webElementGuid>5a45bc15-6231-452a-9676-f90794e67f57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;multi-dropdown-menu&quot;)/a[@class=&quot;dropdown-item dropdown-toggle child-filters&quot;]</value>
-      <webElementGuid>a4626f41-ae10-46a8-9d7f-fae4205ef266</webElementGuid>
+      <webElementGuid>895d0b3b-2ddc-4e15-bc31-65e8fc608067</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='multi-dropdown-menu']/a[3]</value>
-      <webElementGuid>0f0c76cc-b38e-42ff-9025-0b9b38c89d7b</webElementGuid>
+      <webElementGuid>d31a8f8f-6b7c-4066-a86a-9aac54524b9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Warrant'])[1]/following::a[1]</value>
-      <webElementGuid>657a1dc3-277a-4238-aa8d-6aae942d6895</webElementGuid>
+      <webElementGuid>f6a21fc7-1b05-4f6d-b582-41aa5d3848c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unapproved Option Agreement'])[1]/following::a[2]</value>
-      <webElementGuid>bf604c30-cfe2-4bbf-9e8a-2b375377871a</webElementGuid>
+      <webElementGuid>c5119932-bf47-40b1-bae2-9764c3e69a42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:void(0)')])[62]</value>
-      <webElementGuid>95396f33-178b-4d9c-a343-e9baa9869d2f</webElementGuid>
+      <webElementGuid>a9840e74-12cb-4d1b-8232-63bb2886efb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/a[3]</value>
-      <webElementGuid>052439b8-9f1d-4562-9fac-5e693cd64eca</webElementGuid>
+      <webElementGuid>724a5e9c-b24e-43cd-b28c-107095f3fa14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +112,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:void(0)' and (text() = 'Companies HouseFiled' or . = 'Companies HouseFiled')]</value>
-      <webElementGuid>015c8bef-a428-4859-9695-a50cfaa1bfb1</webElementGuid>
+      <webElementGuid>af032de9-1815-4282-befa-da311ef47654</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

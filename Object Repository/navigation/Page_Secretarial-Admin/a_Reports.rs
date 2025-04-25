@@ -6,12 +6,11 @@
    <elementGuidId>a32a0d30-d828-407f-a74f-3c2757b16704</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='sidebarSecretarial']/ul/li[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +20,7 @@
          <value>internal:role=link[name=&quot;Reports&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>08daec61-f3f8-4868-823f-a8fda28da07a</webElementGuid>
+      <webElementGuid>872b6344-5a43-4ddc-ac6f-94d4b5d05896</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/reports</value>
-      <webElementGuid>d58f8900-362c-437b-ab1b-d682d9bed791</webElementGuid>
+      <webElementGuid>0432c348-64f0-4894-9908-820c3f6c2580</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>7751268b-7200-4554-a923-e73571b46177</webElementGuid>
+      <webElementGuid>49810c79-1b4f-46b2-9ff8-f1528bb9bae9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <value>
                                                 Reports
                                             </value>
-      <webElementGuid>7fe05849-5722-41bd-aa42-a1a4e0de683c</webElementGuid>
+      <webElementGuid>aa68c18a-dd0c-437e-9c2c-13f86e5203e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSecretarial&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>4bd8e04b-8e2f-40b1-a44d-d990c9a798d9</webElementGuid>
+      <webElementGuid>b7dad300-1344-455c-a9ec-681b7784d389</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSecretarial']/ul/li[4]/a</value>
-      <webElementGuid>37900a47-efbb-4191-98df-3b9b2bc6ab05</webElementGuid>
+      <webElementGuid>6b27ab39-4f75-4460-a95b-f5c52290b9ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Reports')]</value>
-      <webElementGuid>12bd7c0c-dd70-4c5d-af51-21405ea7b16d</webElementGuid>
+      <webElementGuid>7966f4e5-0cc1-4671-8966-1e82ddcb924f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Document signing'])[3]/following::a[1]</value>
-      <webElementGuid>9ca78f54-8a46-4254-b125-f9d6657e4a06</webElementGuid>
+      <webElementGuid>988a28f8-366f-44be-8ec8-9bbfdd9834ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All documents'])[1]/following::a[2]</value>
-      <webElementGuid>758da6dc-a917-4408-afeb-58b381b287eb</webElementGuid>
+      <webElementGuid>cacbb570-34c7-4b12-9d4e-f49f528094a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Business document templates'])[1]/preceding::a[1]</value>
-      <webElementGuid>ea609c18-bc93-415d-ab81-7f1876592cc7</webElementGuid>
+      <webElementGuid>3f076341-65ad-4abc-91e4-109dd93ab128</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Resolutions'])[1]/preceding::a[2]</value>
-      <webElementGuid>b1dbc875-613e-4dbe-a7de-4e40eb79e723</webElementGuid>
+      <webElementGuid>8dcb1933-3353-40d3-8199-6cb0eecbf375</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Reports']/parent::*</value>
-      <webElementGuid>a0339db0-f739-4877-90c1-cbc137103773</webElementGuid>
+      <webElementGuid>fa75f7d1-ada2-4ebf-942d-e805c115f91c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +126,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/reports')]</value>
-      <webElementGuid>5cd9cc18-edbc-4315-9778-5dfdf6183b3a</webElementGuid>
+      <webElementGuid>34ac5e1b-3e56-4906-a4fb-459fade77944</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[6]/div/ul/li[4]/a</value>
-      <webElementGuid>4b10327a-c8e3-45e3-a04b-1b623724cf5b</webElementGuid>
+      <webElementGuid>c4975cc0-f881-4825-b19f-fbc9107c6ca0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,6 +146,6 @@
                                             ' or . = '
                                                 Reports
                                             ')]</value>
-      <webElementGuid>446fcba0-897a-4dd0-a1e3-a18e53de9875</webElementGuid>
+      <webElementGuid>c5c4101e-dfa1-4111-9210-490a5a8656df</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

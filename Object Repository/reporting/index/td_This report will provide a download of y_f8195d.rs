@@ -21,7 +21,7 @@
          <value>internal:role=cell[name=&quot;This report will provide a download of your shareholders names, emails and other basic information.&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>77b57ba2-e31d-42fe-9622-c60ca01cc4b6</webElementGuid>
+      <webElementGuid>ed106a22-f801-455e-bb9e-53836e3ea1d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>This report will provide a download of your shareholders names, emails and other basic information.</value>
-      <webElementGuid>e4050b90-2203-4313-a88f-9a3f7fdd0fbf</webElementGuid>
+      <webElementGuid>4696e81e-cff9-4e3e-9546-2358fa590b1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[1]/td[2]</value>
-      <webElementGuid>9fa2008b-51f9-47aa-8d49-78c92a0dac63</webElementGuid>
+      <webElementGuid>3045a6f5-951b-4027-8ca4-1823392974be</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/table/tbody/tr/td[2]</value>
-      <webElementGuid>a11a3d4b-0bd1-4a2c-85ab-90330297ef9e</webElementGuid>
+      <webElementGuid>f238cd42-8805-4ad8-8dd3-2f0ca10a6f03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shareholders report'])[1]/following::td[1]</value>
-      <webElementGuid>7b084a4e-7b05-45ea-9c46-2c76ea82cf29</webElementGuid>
+      <webElementGuid>f0658a9e-d8ee-41c2-95dd-9e1e26c27749</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[2]</value>
-      <webElementGuid>c33dd7e6-036f-427c-94fc-b10fa4b46e06</webElementGuid>
+      <webElementGuid>b2745f53-670c-4973-9658-2f2731cecd87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate'])[1]/preceding::td[1]</value>
-      <webElementGuid>db573e4e-7640-41f0-9124-022725c88d7f</webElementGuid>
+      <webElementGuid>82b43155-f8a0-486c-b03e-efd3ce74521c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Financial report'])[1]/preceding::td[2]</value>
-      <webElementGuid>59aa30eb-2450-4ba6-ba55-8d8bc3ed3976</webElementGuid>
+      <webElementGuid>b37ccb64-7ac8-4bf6-9895-80c432c9d0ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='This report will provide a download of your shareholders names, emails and other basic information.']/parent::*</value>
-      <webElementGuid>4b772ef2-a77a-43a2-b28a-957665db68ae</webElementGuid>
+      <webElementGuid>5a1d9dba-7f6f-4445-b906-1da09c754781</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]</value>
-      <webElementGuid>2259f4a3-3a91-483e-ac6c-3b57c5e4e0a1</webElementGuid>
+      <webElementGuid>5b301977-7410-45d1-aa9d-0da1e75631f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'This report will provide a download of your shareholders names, emails and other basic information.' or . = 'This report will provide a download of your shareholders names, emails and other basic information.')]</value>
-      <webElementGuid>515526cf-8923-4110-9f3f-b84b7460b655</webElementGuid>
+      <webElementGuid>618e16fb-a132-411d-aa19-15990a3173a7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

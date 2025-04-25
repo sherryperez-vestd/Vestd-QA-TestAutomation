@@ -21,7 +21,7 @@
          <value>internal:role=row[name=&quot;Shareholders report This report will provide a download of your shareholders names, emails and other basic information. Generate&quot;i] >> internal:role=link</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8af0e562-c0ff-42ec-8344-d01a08499c9d</webElementGuid>
+      <webElementGuid>a5404592-8612-4eb8-8c13-f28c737f20b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50135/reports/shareholders-report</value>
-      <webElementGuid>0a6bf039-aaad-486d-953d-fcdcc61a76e5</webElementGuid>
+      <webElementGuid>fb05162d-7535-43b1-b089-d6ef2010d4e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Generate</value>
-      <webElementGuid>20bbe95b-4d5b-4443-b37a-a706f2eb43ee</webElementGuid>
+      <webElementGuid>a94becf4-d06b-486c-8cc6-92f8dc1ad08a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[1]/td[3]/a[1]</value>
-      <webElementGuid>436af8e9-0030-48bb-9211-7a9fffb302b0</webElementGuid>
+      <webElementGuid>13b02118-1017-4f56-913d-368ec734b47d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/table/tbody/tr/td[3]/a</value>
-      <webElementGuid>f084836a-ad41-4c44-b1fa-2c60e27883f2</webElementGuid>
+      <webElementGuid>42af1501-fb8c-471e-8ea5-b1d39527ae8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Generate')]</value>
-      <webElementGuid>064b983d-612c-48b8-b1f6-48ecba789d76</webElementGuid>
+      <webElementGuid>4f6cbb83-83db-43e3-9a62-ed3ca5cfcdc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shareholders report'])[1]/following::a[1]</value>
-      <webElementGuid>d492799c-ebf9-40f9-8ca6-f3154299a55f</webElementGuid>
+      <webElementGuid>9daef049-c908-4384-9ffe-b9ff2dc19fa8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::a[1]</value>
-      <webElementGuid>e81ec246-05ad-4512-a7ca-8a47c0eb6574</webElementGuid>
+      <webElementGuid>9761d6e2-d48c-4ccb-a4b1-90307ea6e1d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Financial report'])[1]/preceding::a[1]</value>
-      <webElementGuid>f4da3c31-8d2e-4f91-ba32-59dac67a739b</webElementGuid>
+      <webElementGuid>cb1dfbf1-8901-480c-8259-1c1c680960e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate'])[2]/preceding::a[1]</value>
-      <webElementGuid>e99f344b-ea21-413f-93bb-216856f351b4</webElementGuid>
+      <webElementGuid>1ca37422-1078-4370-98b9-fa3f39973eca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Generate']/parent::*</value>
-      <webElementGuid>59debd54-f852-450d-9895-f4d8650ea535</webElementGuid>
+      <webElementGuid>483c249a-b49d-430b-a5fe-4942570494db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50135/reports/shareholders-report')]</value>
-      <webElementGuid>1cd2d05b-85fc-4f22-a77e-f01dc4180383</webElementGuid>
+      <webElementGuid>bf157d6f-137f-4256-8a22-a4e083b47dd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/a</value>
-      <webElementGuid>d81c03fe-ead5-498f-b773-389ee291ba87</webElementGuid>
+      <webElementGuid>a3d6607c-85cf-4001-ad66-df476b80842c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://demo.app.vestd.com/company/50135/reports/shareholders-report' and (text() = 'Generate' or . = 'Generate')]</value>
-      <webElementGuid>ebe79230-7e6e-4cd6-b9d3-f607ce19fe51</webElementGuid>
+      <webElementGuid>d9487576-95fd-408c-9400-22a1da4909f2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

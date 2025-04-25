@@ -6,12 +6,11 @@
    <elementGuidId>bd927c10-422d-4950-a55b-f9c5b491e575</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='multi-dropdown-menu']/a/div/a[3]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +20,7 @@
          <value>internal:role=link[name=&quot;Expired&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>66c3b0c2-a74f-4753-bfb7-65e086a7d2cc</webElementGuid>
+      <webElementGuid>00bab89d-b842-4397-9566-667e3c253670</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-label p-2 d-block</value>
-      <webElementGuid>4c25d110-0fb8-443e-a61f-4dbfd44e21c3</webElementGuid>
+      <webElementGuid>2a4ad461-82b9-44b7-aebb-38287d0503da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>for</name>
       <type>Main</type>
       <value>status_expired</value>
-      <webElementGuid>73ed4da2-c3cb-4a5f-9b49-32bd00f877e1</webElementGuid>
+      <webElementGuid>d0be4bdd-eca9-4849-b097-9590061268b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Expired</value>
-      <webElementGuid>e02df61c-dbec-4aa5-98f0-1bf6ad868ed0</webElementGuid>
+      <webElementGuid>f69991bf-007a-4c79-8895-e6fe2481235d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;multi-dropdown-menu&quot;)/a[@class=&quot;dropdown-item dropdown-toggle child-filters&quot;]/div[@class=&quot;sub-filters&quot;]/a[@class=&quot;dropdown-item p-0&quot;]/div[@class=&quot;form-check mb-0&quot;]/label[@class=&quot;form-check-label p-2 d-block&quot;]</value>
-      <webElementGuid>2a519018-3ad6-4bf9-b7b8-33c4601c2450</webElementGuid>
+      <webElementGuid>0e720c8b-858d-4cd5-9672-00935efc747c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='multi-dropdown-menu']/a/div/a[3]/div/label</value>
-      <webElementGuid>0f9168b8-4eae-4bf7-b7bc-e83f69fa4251</webElementGuid>
+      <webElementGuid>89043300-9834-49ae-8b1e-db660cb6af2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelled'])[1]/following::label[1]</value>
-      <webElementGuid>ddd1f671-1caa-4910-b813-42ee8720a4d8</webElementGuid>
+      <webElementGuid>29a300d6-9413-4bc8-9545-5b4db7eb5952</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Complete'])[1]/following::label[2]</value>
-      <webElementGuid>fbd6d9ef-1b3c-4ec9-a444-f6de6950687d</webElementGuid>
+      <webElementGuid>a12b4985-2f11-4ca6-96c7-cb91f5f3705b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Needs signing'])[1]/preceding::label[1]</value>
-      <webElementGuid>1e04a08e-f6f7-4f4f-82f3-ddc26773fa0f</webElementGuid>
+      <webElementGuid>8a04224a-9720-43b4-a628-996582de4a9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Off-platform'])[1]/preceding::label[2]</value>
-      <webElementGuid>3fa60d8f-1284-4b7b-b3ab-32e80a980062</webElementGuid>
+      <webElementGuid>006132d3-2a0b-4288-ad11-043b89b82429</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Expired']/parent::*</value>
-      <webElementGuid>3c6fe5b0-aa5b-4818-a0c6-0e1723f8c36f</webElementGuid>
+      <webElementGuid>deb0cb43-42cc-42db-9aaf-33353468ef62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[3]/div/label</value>
-      <webElementGuid>1c16e204-e4b9-482a-b1ab-4c28691d06ca</webElementGuid>
+      <webElementGuid>fa009603-fee6-41f6-a156-54884d44aef8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +124,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Expired' or . = 'Expired')]</value>
-      <webElementGuid>e959d9f0-faf9-4557-b3ae-565d9a22f018</webElementGuid>
+      <webElementGuid>834811fb-718f-41aa-811d-e8d68768e794</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

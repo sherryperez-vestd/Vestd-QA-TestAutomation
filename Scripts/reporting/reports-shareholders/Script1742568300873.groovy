@@ -27,7 +27,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/sharehold
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/shareholders/h1_Shareholders Report'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/shareholders/h1_Shareholders Report'), 'Shareholders Report')
+WebUI.verifyElementText(findTestObject('Object Repository/reporting/shareholders/h1_Shareholders Report'), 'Shareholders report')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/shareholders/p_Click the corresponding download button'))
 
@@ -45,8 +45,11 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/reporting/shareho
 WebUI.click(findTestObject('Object Repository/reporting/shareholders/btn_Download Report'))
 
 url = WebUI.getUrl()
+
 split_url = url.split('/')
+
 removedurlchars = (split_url[(split_url.size() - 1)])
+
 partial_url = url.minus(removedurlchars)
 
 WebUI.verifyEqual(partial_url, 'https://demo.app.vestd.com/company/50135/job-monitor/')

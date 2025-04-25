@@ -6,12 +6,12 @@
    <elementGuidId>bac6f486-cfcf-4340-bff7-e72b5098aad3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.swal2-confirm.btn.btn-outline-secondary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Yes, cancel 40 shares&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>87c500d8-ad11-448e-a431-3866d10e3148</webElementGuid>
+      <webElementGuid>2ba953d9-9c63-4ce6-8041-7652c7fea0cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1554b776-a172-42a8-96d2-8aec6e926a8b</webElementGuid>
+      <webElementGuid>abedfbd3-354d-409c-b7c7-d1b292f19a24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-confirm btn btn-outline-secondary</value>
-      <webElementGuid>1dd39771-ddae-406d-8efc-658e475fe0f4</webElementGuid>
+      <webElementGuid>ee50c9bf-da1a-4c35-8121-bc8f2c6fdb4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes, cancel 40 shares</value>
-      <webElementGuid>6b36f610-d755-4b1e-b2e8-88f4df89e7bf</webElementGuid>
+      <webElementGuid>5131a4cc-dbf5-4f02-b50f-17800358841b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;swal2-shown swal2-height-auto&quot;]/body[@class=&quot;swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal cf cf-warning confirm-modal-animation&quot;]/div[@class=&quot;swal2-actions cf-actions flex-row justify-content-between pt-4&quot;]/button[@class=&quot;swal2-confirm btn btn-outline-secondary&quot;]</value>
-      <webElementGuid>0b56a42d-577b-41be-9963-7e7413554962</webElementGuid>
+      <webElementGuid>731b6a62-42eb-40a3-9a0e-53553f26f60c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>5306ce6a-2f3e-4014-8240-8df644cbe00f</webElementGuid>
+      <webElementGuid>f92e8577-444c-4ca9-9dd1-426b1f8abdcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to cancel 40 shares?'])[1]/following::button[1]</value>
-      <webElementGuid>00780caa-1fed-49ac-9090-e758ebdc8b5c</webElementGuid>
+      <webElementGuid>41a72228-94e9-4b71-bd16-518436961432</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/following::button[1]</value>
-      <webElementGuid>2324dd96-8d37-4be8-9f42-cdc5151345d2</webElementGuid>
+      <webElementGuid>bffbf9d5-5fc1-4e0d-a816-021be8925e5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::button[1]</value>
-      <webElementGuid>a1de8b73-57dc-4db0-a8ea-50bd9bd75247</webElementGuid>
+      <webElementGuid>b0a0fbfd-11db-4c69-a652-c37718dbe3ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No, go back'])[1]/preceding::button[2]</value>
-      <webElementGuid>8d39c859-3c3e-40cc-a7cf-396c667ddd25</webElementGuid>
+      <webElementGuid>a4e5186c-1842-4916-ae7a-e7f73c9d896e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Yes, cancel 40 shares']/parent::*</value>
-      <webElementGuid>008faf01-8945-42a3-99f9-c2302462071f</webElementGuid>
+      <webElementGuid>2a745d20-f9de-4941-bd51-f698051bdcd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/button</value>
-      <webElementGuid>400dd146-1f83-44cd-a94c-f34c11f34654</webElementGuid>
+      <webElementGuid>98962729-8e0e-4875-8e30-fc00fe3bce9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Yes, cancel 40 shares' or . = 'Yes, cancel 40 shares')]</value>
-      <webElementGuid>69291516-0676-43aa-a27a-43d226d0aa91</webElementGuid>
+      <webElementGuid>3db81ab4-f5f3-42d8-b53a-69880301883b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

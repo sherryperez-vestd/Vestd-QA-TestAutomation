@@ -6,12 +6,12 @@
    <elementGuidId>b76f22ba-27d9-4efe-8c5d-84a5f842b82a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#starts-at-day</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='starts-at-day']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#starts-at-day</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:label=&quot;Day&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c29b0b34-e64a-4eb7-bd4a-feec95f33094</webElementGuid>
+      <webElementGuid>14c63935-1090-4dbc-9619-2d96bc4d7fe2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>starts-at-day</value>
-      <webElementGuid>21f51874-65ae-4b23-9ae5-ae646012984e</webElementGuid>
+      <webElementGuid>3d8111b5-71d1-405f-b2b8-33b5dae9228a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>2dab2002-7871-4043-988d-4b492a05916e</webElementGuid>
+      <webElementGuid>2e877896-3222-4b4b-9605-04973aaf2ef1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>min</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>45981194-6ddd-4375-bafb-594f45f66a06</webElementGuid>
+      <webElementGuid>e9b77007-9664-4386-a108-d38c3939709d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>max</name>
       <type>Main</type>
       <value>31</value>
-      <webElementGuid>debdd795-eb34-4eb3-8430-f9e9f9727138</webElementGuid>
+      <webElementGuid>a7598a27-897d-48ed-b085-c97d48c5dc76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>name</name>
       <type>Main</type>
       <value>starts_at_day</value>
-      <webElementGuid>a614913b-7947-4e93-bddb-7f0583d251cf</webElementGuid>
+      <webElementGuid>d96c3bb8-3cca-42cf-9313-fea28d717304</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>86e8aa97-422e-4bc2-913c-5e9f5ee2790b</webElementGuid>
+      <webElementGuid>c3db56ce-c12d-4aea-ae5b-8d22403f0bfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;starts-at-day&quot;)</value>
-      <webElementGuid>1df6ef46-5b5f-4fe9-a242-ad13b0487ad4</webElementGuid>
+      <webElementGuid>79d96493-e330-487f-adef-f5766dbc546a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='starts-at-day']</value>
-      <webElementGuid>3cd26a3f-0089-428a-a650-3046494b8a97</webElementGuid>
+      <webElementGuid>8917254f-64fd-43db-be1c-df90680ff56a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/div[4]/div/div/input</value>
-      <webElementGuid>37a0dc6e-d095-4992-9f7a-d8de2820bbd9</webElementGuid>
+      <webElementGuid>58437158-b601-47c4-b9a7-83c91cffa532</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/input</value>
-      <webElementGuid>296c3e9b-cf3c-4d2e-b906-4f743f876430</webElementGuid>
+      <webElementGuid>9c59093a-574c-486c-9a80-34ef747ed747</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'starts-at-day' and @name = 'starts_at_day' and @type = 'number']</value>
-      <webElementGuid>b633c35c-7a3b-4a6c-9e6c-64739f92bd85</webElementGuid>
+      <webElementGuid>220dc6c7-4382-49a7-97af-01d0d9a4b467</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

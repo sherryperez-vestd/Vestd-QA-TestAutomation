@@ -21,7 +21,7 @@
          <value>internal:text=&quot;Access detailed reports tailored to your needs. Can't find what you're looking f&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>04e878c9-acd4-4461-b7b5-9427deeb26d9</webElementGuid>
+      <webElementGuid>9845db51-2daa-45de-b0b7-e7589e9833c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>lead</value>
-      <webElementGuid>08c07699-f55d-4be3-9ca3-97b49594b204</webElementGuid>
+      <webElementGuid>c86066b8-e748-4be2-a638-b5344e2dd020</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <value>
         Access detailed reports tailored to your needs. Can't find what you're looking for? Request a custom report here.
     </value>
-      <webElementGuid>fdae672a-41c1-4c8f-8b44-c0d8aa889827</webElementGuid>
+      <webElementGuid>c213e905-1818-49d6-ad71-38e956ab008f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/p[@class=&quot;lead&quot;]</value>
-      <webElementGuid>f242b8b6-e017-4080-b6b2-c5e5ebdfd7bb</webElementGuid>
+      <webElementGuid>644d2112-72ac-4ed0-b14a-22a2878893b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/p</value>
-      <webElementGuid>2eb1c0f5-bb81-4166-9f8d-e910b3554131</webElementGuid>
+      <webElementGuid>614435f4-fb95-40fb-a730-4326834324d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Beta'])[1]/following::p[1]</value>
-      <webElementGuid>833cf77d-8bed-40ab-9f3a-ad8c47b956ed</webElementGuid>
+      <webElementGuid>5abe5f7f-26ea-4145-8e12-2ac8b9560384</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Report name'])[1]/preceding::p[1]</value>
-      <webElementGuid>60ceba0d-89b9-48e4-be19-be56ef10227d</webElementGuid>
+      <webElementGuid>a3e4bdf2-b897-4841-9568-0a297d34b05b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/p</value>
-      <webElementGuid>96e3c242-e7ce-468b-abf2-7d7d087814f3</webElementGuid>
+      <webElementGuid>78ecdbb5-3e9d-4af3-94ff-16e21ceba29f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,6 @@
     &quot;) or . = concat(&quot;
         Access detailed reports tailored to your needs. Can&quot; , &quot;'&quot; , &quot;t find what you&quot; , &quot;'&quot; , &quot;re looking for? Request a custom report here.
     &quot;))]</value>
-      <webElementGuid>8cff8562-06c7-471b-81e1-09aa9988e713</webElementGuid>
+      <webElementGuid>938d3e95-9615-416e-ad35-0006a01e3497</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

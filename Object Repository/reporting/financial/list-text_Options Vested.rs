@@ -6,12 +6,12 @@
    <elementGuidId>ff10fa5f-4593-4bb0-9512-2a62bc7466c6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.report-guidelines > ul > li</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div/div/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.report-guidelines > ul > li</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:text=&quot;Options Vested: View all stock options that vested within the selected time fram&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>c8ef87da-2c88-410e-a7ae-1e5147fa6748</webElementGuid>
+      <webElementGuid>fd0b801f-8619-4e7a-b95d-e7283d64648d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Options Vested: View all stock options that vested within the selected time frame.</value>
-      <webElementGuid>ddca3ea3-954c-41b8-8606-79d56dd1d0b6</webElementGuid>
+      <webElementGuid>b21633a0-a1c6-43eb-a16e-27e8be2d5b09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;report-guidelines&quot;]/ul[1]/li[1]</value>
-      <webElementGuid>6ec40280-a753-4c2d-8eaf-cec209439a39</webElementGuid>
+      <webElementGuid>22b21ded-78d1-42cf-b358-c6a0ae187dd7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div/div/ul/li</value>
-      <webElementGuid>d94bbb96-8831-4801-8077-b6d5e6aef0c3</webElementGuid>
+      <webElementGuid>df6dc9ed-bcda-4f5d-9874-d84f7811aaba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Information provided in the report:'])[1]/following::li[1]</value>
-      <webElementGuid>7ace0d31-1786-491d-830f-34093f60df7b</webElementGuid>
+      <webElementGuid>079c2524-1057-4022-a1d1-2ac1a8ad4d06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Report'])[1]/following::li[1]</value>
-      <webElementGuid>a9076e1e-76ad-4d3a-a485-2718c6224519</webElementGuid>
+      <webElementGuid>ed19511b-7348-4eeb-b7c2-58d3adebf4f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='View all stock options that vested within the selected time frame.']/parent::*</value>
-      <webElementGuid>aa9572ab-c7dd-4355-9847-88fc6dbc8bb3</webElementGuid>
+      <webElementGuid>d019cfa3-436e-465b-9659-0ce10702895b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/ul/li</value>
-      <webElementGuid>6a3b3917-005d-44f8-a7dd-01885d090751</webElementGuid>
+      <webElementGuid>cec8d05f-3afb-48bf-ab5e-bb830f340fb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Options Vested: View all stock options that vested within the selected time frame.' or . = 'Options Vested: View all stock options that vested within the selected time frame.')]</value>
-      <webElementGuid>5bdbe937-99e1-4dba-a299-228d3e96bb2e</webElementGuid>
+      <webElementGuid>b3250241-a8e6-45e4-961d-3886dfed8567</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

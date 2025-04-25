@@ -6,12 +6,12 @@
    <elementGuidId>7f488657-156b-4c88-9ee7-22b0f5bc2f38</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-sm.btn-outline-secondary.v-btn</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-sm.btn-outline-secondary.v-btn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>[data-test-id=&quot;button-element&quot;]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5b1138f8-a77f-40cf-b394-0117459886d2</webElementGuid>
+      <webElementGuid>78fc366c-9775-43c3-a316-75acf1961368</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>362417d4-d0c8-43a2-95b6-938e98ec5854</webElementGuid>
+      <webElementGuid>7f052c51-0f15-4960-b078-389c15d15781</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-sm btn-outline-secondary v-btn</value>
-      <webElementGuid>3bd82c1e-ce15-45d5-871a-6538d8187180</webElementGuid>
+      <webElementGuid>bb7a44b2-7b2a-44f3-9a39-2d805c1a5a46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>button-element</value>
-      <webElementGuid>94247fab-b523-4b66-b704-d472ab673b3c</webElementGuid>
+      <webElementGuid>39868176-162a-4b2a-9432-4c723d2cd9a5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Download documents</value>
-      <webElementGuid>84af167e-8489-490c-b1f5-492615ae0879</webElementGuid>
+      <webElementGuid>61b91212-0e31-450e-a7d9-1369ecd0f727</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[1]/form[1]/fieldset[1]/div[@class=&quot;d-inline-block float-right&quot;]/button[@class=&quot;btn btn-sm btn-outline-secondary v-btn&quot;]</value>
-      <webElementGuid>d8858a6c-8892-4edd-8cfb-af4a59c43f18</webElementGuid>
+      <webElementGuid>d85c8f52-9f13-4dbd-82c0-2991ca9ceed4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>ce637950-66a1-45bd-8650-1ad06a0e2d45</webElementGuid>
+      <webElementGuid>1f6bc0fd-66c2-46c4-9b4a-8b4de120ea17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/form/fieldset/div/button</value>
-      <webElementGuid>018ec1b7-0a58-479b-a724-af55dad93092</webElementGuid>
+      <webElementGuid>3caf970a-451e-4279-b384-42db61578148</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter and search'])[1]/following::button[1]</value>
-      <webElementGuid>a496f08f-7d51-4448-a626-818883802dc5</webElementGuid>
+      <webElementGuid>3458da2f-316d-4c31-9ba1-0e076aa60bb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Activity view'])[1]/following::button[1]</value>
-      <webElementGuid>bad2234f-0f63-4c15-929f-e9c932d7db32</webElementGuid>
+      <webElementGuid>4c4209be-204b-478f-8e05-c47add08504b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add filter'])[1]/preceding::button[1]</value>
-      <webElementGuid>d70a9c57-d049-4629-959b-27343bffec48</webElementGuid>
+      <webElementGuid>009493d3-9a4b-4f60-93b0-c2b8152eb6a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/preceding::button[2]</value>
-      <webElementGuid>64f2d877-5a4a-48b3-8440-2ee1f1178384</webElementGuid>
+      <webElementGuid>0a50c32e-07db-4670-8468-804993801097</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Download documents']/parent::*</value>
-      <webElementGuid>7e3550b0-071a-4c1a-a53e-b39f018f6c9b</webElementGuid>
+      <webElementGuid>aa830423-a81d-4787-814d-451414539943</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>7516760a-5a88-4c95-b24d-1827df923acb</webElementGuid>
+      <webElementGuid>13cee75b-a0b0-47b0-aeca-e049f7e80941</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Download documents' or . = 'Download documents')]</value>
-      <webElementGuid>34f15798-2000-4868-9635-70b04f7a4c69</webElementGuid>
+      <webElementGuid>77d7d488-5be2-4a15-883c-2d63b0c9606b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

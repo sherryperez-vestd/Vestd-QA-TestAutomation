@@ -6,12 +6,12 @@
    <elementGuidId>1edffee5-55d7-47cc-95de-cff9ba039aa3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#multi-dropdown-menu</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='multi-dropdown-menu']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#multi-dropdown-menu</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>#multi-dropdown-menu</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>54f8dd79-628f-4460-ba44-bea660204cb6</webElementGuid>
+      <webElementGuid>cdf40cd3-9644-400c-94e1-d43d3b85ccb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-menu</value>
-      <webElementGuid>4284abdf-34fe-4569-b916-8bbf71d53a1e</webElementGuid>
+      <webElementGuid>bc537479-321a-4af0-a25e-1158067cb393</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>multi-dropdown-menu</value>
-      <webElementGuid>d0fdba2c-d687-4424-bbdb-ba1a65a992e3</webElementGuid>
+      <webElementGuid>0272c214-170b-4de4-8351-e65089fe1281</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>StatusCompleteCancelledExpiredNeeds signingOff-platformSent for filingSent for signingWill be filedDocument TypeAdvanced Subscription AgreementArticles of AssociationBalance SheetBeneficial Share CertificateBoard MinutesBusiness PlanCashflow StatementCertificate of IncorporationCompany UpdateConvertible NoteDeed of AdherenceDirector ResolutionEMI Option AgreementEmployment ContractFounder Service AgreementGroup Structure ChartHMRC Annual EMI NotificationHMRC Annual ERS Other NotificationHMRC Initial EMI NotificationInvestor Self Certification FormITEPA_431Non-Disclosure AgreementOption cancellation agreementOption CriteriaOrganisational ChartOtherPitch DeckProfit &amp; Loss StatementRollover agreementRP04 - Correction of SH01Scheme RulesSH01SH02SH03SH04SH06SH08SH10Share CertificateShare Issue CriteriaShare subscription letter/agreementShare Supply AgreementShareholder AgreementShareholder ResolutionShare Purchase AgreementStamp duty proofStock TransferSupplier ContractSyndicate TermsUnapproved Option AgreementWarrantCompanies HouseFiled</value>
-      <webElementGuid>c77e0ba2-35e7-4d70-914b-1b352dfd32d9</webElementGuid>
+      <webElementGuid>8114a546-ea3b-4b00-a3c9-79aecf265d19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;multi-dropdown-menu&quot;)</value>
-      <webElementGuid>d38e355a-de9d-4446-9d90-3e049337925a</webElementGuid>
+      <webElementGuid>143ade6f-9387-49bb-b7b4-78b3887ef046</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='multi-dropdown-menu']</value>
-      <webElementGuid>1a28e5c2-0d1b-41b4-a309-52ea0f348846</webElementGuid>
+      <webElementGuid>e9a86f81-3140-4320-97a8-670d95de2af3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[2]/div/div/div/div/div</value>
-      <webElementGuid>04ab0dab-2e23-4dfc-8c3e-694a667698da</webElementGuid>
+      <webElementGuid>358a8e8b-3566-4844-9c7f-f9ade8d55f90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add filter'])[1]/following::div[1]</value>
-      <webElementGuid>6b540d88-c28b-4bc3-b832-3c5786715417</webElementGuid>
+      <webElementGuid>eb24ed57-614c-497e-b8a5-15480eaa9756</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div/div/div/div[2]/div/div/div/div/div</value>
-      <webElementGuid>6b4c5213-7e31-4128-af26-30461fc0f27d</webElementGuid>
+      <webElementGuid>c8a06e44-2088-46bb-9921-ad17c06cfb79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'multi-dropdown-menu' and (text() = 'StatusCompleteCancelledExpiredNeeds signingOff-platformSent for filingSent for signingWill be filedDocument TypeAdvanced Subscription AgreementArticles of AssociationBalance SheetBeneficial Share CertificateBoard MinutesBusiness PlanCashflow StatementCertificate of IncorporationCompany UpdateConvertible NoteDeed of AdherenceDirector ResolutionEMI Option AgreementEmployment ContractFounder Service AgreementGroup Structure ChartHMRC Annual EMI NotificationHMRC Annual ERS Other NotificationHMRC Initial EMI NotificationInvestor Self Certification FormITEPA_431Non-Disclosure AgreementOption cancellation agreementOption CriteriaOrganisational ChartOtherPitch DeckProfit &amp; Loss StatementRollover agreementRP04 - Correction of SH01Scheme RulesSH01SH02SH03SH04SH06SH08SH10Share CertificateShare Issue CriteriaShare subscription letter/agreementShare Supply AgreementShareholder AgreementShareholder ResolutionShare Purchase AgreementStamp duty proofStock TransferSupplier ContractSyndicate TermsUnapproved Option AgreementWarrantCompanies HouseFiled' or . = 'StatusCompleteCancelledExpiredNeeds signingOff-platformSent for filingSent for signingWill be filedDocument TypeAdvanced Subscription AgreementArticles of AssociationBalance SheetBeneficial Share CertificateBoard MinutesBusiness PlanCashflow StatementCertificate of IncorporationCompany UpdateConvertible NoteDeed of AdherenceDirector ResolutionEMI Option AgreementEmployment ContractFounder Service AgreementGroup Structure ChartHMRC Annual EMI NotificationHMRC Annual ERS Other NotificationHMRC Initial EMI NotificationInvestor Self Certification FormITEPA_431Non-Disclosure AgreementOption cancellation agreementOption CriteriaOrganisational ChartOtherPitch DeckProfit &amp; Loss StatementRollover agreementRP04 - Correction of SH01Scheme RulesSH01SH02SH03SH04SH06SH08SH10Share CertificateShare Issue CriteriaShare subscription letter/agreementShare Supply AgreementShareholder AgreementShareholder ResolutionShare Purchase AgreementStamp duty proofStock TransferSupplier ContractSyndicate TermsUnapproved Option AgreementWarrantCompanies HouseFiled')]</value>
-      <webElementGuid>489df9b1-7b46-4d0c-b76e-55db0e444018</webElementGuid>
+      <webElementGuid>d50e3e85-6057-42bf-97ef-85ee5f5de203</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

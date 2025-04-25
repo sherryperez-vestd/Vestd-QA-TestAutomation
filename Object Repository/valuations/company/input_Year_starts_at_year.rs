@@ -6,12 +6,12 @@
    <elementGuidId>cb6b3b06-fc36-43c2-b487-162bb51dce47</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#starts-at-year</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='starts-at-year']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#starts-at-year</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:label=&quot;Year&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d5119454-23ef-4757-9ef2-5f8cb9ebfbbd</webElementGuid>
+      <webElementGuid>5f0cdc34-3a04-48a4-99a3-946bffa1814b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>starts-at-year</value>
-      <webElementGuid>111f89f8-40f1-4551-a3bd-9a93824ba6e3</webElementGuid>
+      <webElementGuid>4b759c36-040f-4762-9e29-f5d5a0e077df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>71a08aa4-4d38-4f16-af27-d7bc82d97531</webElementGuid>
+      <webElementGuid>faee4755-3a8f-4733-bd4c-52a418287240</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>min</name>
       <type>Main</type>
       <value>1900</value>
-      <webElementGuid>3835256c-e57b-44bb-b0cb-feec9687392e</webElementGuid>
+      <webElementGuid>8c9af2f0-183f-4916-bd49-c16f742876dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>max</name>
       <type>Main</type>
       <value>2100</value>
-      <webElementGuid>f0e1d769-b32f-4e09-9b91-83496c79ee2e</webElementGuid>
+      <webElementGuid>65393e2d-7ee2-4937-b274-c8dac287d99a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>name</name>
       <type>Main</type>
       <value>starts_at_year</value>
-      <webElementGuid>64966766-f72f-46f2-8896-a87538572047</webElementGuid>
+      <webElementGuid>efc9db85-e2d1-4c7d-ba6b-eacf5e1d0720</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>0362cafd-b1a5-41a5-a1f9-0751f1e4dd65</webElementGuid>
+      <webElementGuid>187f0ce2-bb63-4887-abe2-e3d4747b01cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;starts-at-year&quot;)</value>
-      <webElementGuid>32c60953-017d-4595-a849-8cb5110698b4</webElementGuid>
+      <webElementGuid>94b46397-78a6-44dc-847a-ecd86d19ba10</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='starts-at-year']</value>
-      <webElementGuid>b854c7d7-e14b-4ef5-a2cb-6bec673939e1</webElementGuid>
+      <webElementGuid>a988be7f-d036-4411-99d8-9d15bbeb9529</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/div[4]/div/div[3]/input</value>
-      <webElementGuid>b58f6ec3-2eb1-4f8f-a078-300374efa6ac</webElementGuid>
+      <webElementGuid>187eea81-e880-4858-9c93-a6b886d66b04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[3]/input</value>
-      <webElementGuid>03937a38-a640-4300-90aa-bd47fde4ba3f</webElementGuid>
+      <webElementGuid>f939c132-8b95-4027-b0da-2fdfbacf8714</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'starts-at-year' and @name = 'starts_at_year' and @type = 'number']</value>
-      <webElementGuid>514b62e2-6fd7-4ef2-bf43-24c0f7fb09dc</webElementGuid>
+      <webElementGuid>07d86f4d-2bb1-41e9-b734-8badb878363b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

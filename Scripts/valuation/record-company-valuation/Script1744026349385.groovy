@@ -44,3 +44,5 @@ WebUI.click(findTestObject('Object Repository/valuations/company/button_Delete')
 
 WebUI.click(findTestObject('Object Repository/valuations/company/button_Yes, delete the valuation'))
 
+WebUI.closeBrowser()
+

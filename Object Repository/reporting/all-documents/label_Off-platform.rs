@@ -6,12 +6,11 @@
    <elementGuidId>146eca16-826a-44f2-9c73-e30fed1446ce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='multi-dropdown-menu']/a/div/a[5]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +20,7 @@
          <value>internal:role=link[name=&quot;Off-platform&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>96534bc7-0d96-43a4-9b43-76f233bec298</webElementGuid>
+      <webElementGuid>d7409ecb-20a5-4ca9-9225-71622b3c8554</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-label p-2 d-block</value>
-      <webElementGuid>c560c05c-f4d9-49e3-8a93-5fc231483b85</webElementGuid>
+      <webElementGuid>a9a0d3a8-3280-4a41-9a82-f4c928c5ff3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>for</name>
       <type>Main</type>
       <value>status_off_platform</value>
-      <webElementGuid>610456bd-a540-4c6c-b1b2-55d6f536c2bf</webElementGuid>
+      <webElementGuid>c23de7f0-39a7-4d41-995a-ed8793c42f66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Off-platform</value>
-      <webElementGuid>4fd0ecd5-e2d8-487f-92b6-b0a39982d0ed</webElementGuid>
+      <webElementGuid>21519e34-edfb-4b3d-b6f0-7c2f90277685</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;multi-dropdown-menu&quot;)/a[@class=&quot;dropdown-item dropdown-toggle child-filters&quot;]/div[@class=&quot;sub-filters&quot;]/a[@class=&quot;dropdown-item p-0&quot;]/div[@class=&quot;form-check mb-0&quot;]/label[@class=&quot;form-check-label p-2 d-block&quot;]</value>
-      <webElementGuid>b117a96e-05a1-4d68-a5c2-1560f8d39c62</webElementGuid>
+      <webElementGuid>1d071ca0-ead2-49fa-9770-f15b97c6d7ef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='multi-dropdown-menu']/a/div/a[5]/div/label</value>
-      <webElementGuid>ea4bdabe-e22b-4fdc-92a5-f073082b8ba2</webElementGuid>
+      <webElementGuid>624439d3-0834-44ea-b332-934b775236a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Needs signing'])[1]/following::label[1]</value>
-      <webElementGuid>7ca6c77f-4a39-4383-98fc-630e0b0ab772</webElementGuid>
+      <webElementGuid>7773d320-fae5-4369-8c4a-cc802ce265d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Expired'])[1]/following::label[2]</value>
-      <webElementGuid>f06b63c0-98ee-4de7-b16a-f31a1ecec4c7</webElementGuid>
+      <webElementGuid>3df4e31e-c854-441b-b2e5-57d80cf83ef4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sent for filing'])[1]/preceding::label[1]</value>
-      <webElementGuid>bc3f68c9-51a1-4ab9-b975-28f74239a938</webElementGuid>
+      <webElementGuid>02505297-c6ac-4827-990a-3779661dffc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sent for signing'])[1]/preceding::label[2]</value>
-      <webElementGuid>98408b30-06d1-463a-9c73-c0ada93c3cbd</webElementGuid>
+      <webElementGuid>3b646f54-ca91-423c-804b-e10e538ca772</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Off-platform']/parent::*</value>
-      <webElementGuid>40a9a208-92c0-49b6-bfa3-9c849a5f61a9</webElementGuid>
+      <webElementGuid>0150020f-8cec-4f09-ab81-03eadc73b653</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[5]/div/label</value>
-      <webElementGuid>21aabc4e-7479-4a6c-a0f6-85da13d3dca4</webElementGuid>
+      <webElementGuid>f6c61bf7-f703-4926-9a3f-dc4e37eb0992</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +124,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Off-platform' or . = 'Off-platform')]</value>
-      <webElementGuid>4ff9246d-2daa-46b4-a6e3-4b0ab8785e95</webElementGuid>
+      <webElementGuid>23d50da3-27a3-4ced-a901-a2cb7346fd87</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

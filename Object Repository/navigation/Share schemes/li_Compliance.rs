@@ -6,20 +6,19 @@
    <elementGuidId>96df2fbd-684e-44cc-ba88-1d1974f7981f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[11]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = '
                                         Compliance
                                 ' or . = '
                                         Compliance
                                 ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarSchemes']/ul/li[11]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +28,7 @@
          <value>internal:text=&quot;Compliance&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>ebb76308-6d6b-480b-b814-0bf83428cf33</webElementGuid>
+      <webElementGuid>e3f275bb-8c94-44bd-8857-d94336be6077</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-item nav-heading</value>
-      <webElementGuid>0b1ad2ab-6d6b-4f22-b380-a14777a8a4f9</webElementGuid>
+      <webElementGuid>6f0e5010-c08b-40a5-a1d2-59cd41ad95e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <value>
                                         Compliance
                                 </value>
-      <webElementGuid>536c94ca-02cd-412f-9e0a-7c8b5de34d66</webElementGuid>
+      <webElementGuid>19b1b75c-2868-4f4d-9f74-c76114176c50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item nav-heading&quot;]</value>
-      <webElementGuid>1214a774-c4df-4563-8a5f-9969d30169c7</webElementGuid>
+      <webElementGuid>cd6db443-ef8f-4c0f-a167-01c1b2169be0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[11]</value>
-      <webElementGuid>aa174e8a-85a7-4b14-8700-e0119606dee7</webElementGuid>
+      <webElementGuid>ec796697-906b-41da-a836-2879dfbe8e62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agile Partnership'])[1]/following::li[1]</value>
-      <webElementGuid>25f8980c-aa7b-4dc4-b54e-81e6568877b2</webElementGuid>
+      <webElementGuid>d3127552-7dcc-444a-8b2c-313b941b22f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RSAs'])[1]/following::li[2]</value>
-      <webElementGuid>0153b828-47d9-4360-bacf-6b8b0dd92b4e</webElementGuid>
+      <webElementGuid>42262f32-b72f-4256-93a4-ca04f18b4eeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Valuations'])[1]/preceding::li[1]</value>
-      <webElementGuid>6d0fe14a-ba23-4988-8eff-bf8e4d5d3c0f</webElementGuid>
+      <webElementGuid>519a0b5f-9c0b-4960-a73e-a0b06b1c48bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share pools'])[1]/preceding::li[2]</value>
-      <webElementGuid>c0b1523c-abf1-4312-994c-38fec84bed8f</webElementGuid>
+      <webElementGuid>934a352d-f2b7-4010-bdc0-b2c459d9aee7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Compliance']/parent::*</value>
-      <webElementGuid>3cd448c7-f6a4-4590-adf3-d638ac437ef9</webElementGuid>
+      <webElementGuid>fb84a5a3-ff02-4945-966d-235c0848b507</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[11]</value>
-      <webElementGuid>4119b255-eec2-4281-b533-041d5a0e5d87</webElementGuid>
+      <webElementGuid>34d87ee0-8fad-43e3-8f5d-250999c4728e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,6 +130,6 @@
                                 ' or . = '
                                         Compliance
                                 ')]</value>
-      <webElementGuid>c6575e0a-52e2-4fb7-ab79-e9d6ef7eb604</webElementGuid>
+      <webElementGuid>938f2509-7aa8-435b-badf-40edf5538b6c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

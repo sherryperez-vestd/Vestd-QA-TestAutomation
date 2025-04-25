@@ -6,12 +6,12 @@
    <elementGuidId>3b56eb06-860b-43aa-9864-90ebadf0b307</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#valuation_source</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='valuation_source']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#valuation_source</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:label=&quot;Source&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>cc254db3-b7ad-4648-828e-7517ae705da3</webElementGuid>
+      <webElementGuid>c683ccae-727f-4298-8aea-ae714c95ce0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>b3318ec3-dda8-44bf-8cc5-f26b7ba7cdc9</webElementGuid>
+      <webElementGuid>3b58517a-d892-4714-ac2c-8ecb0129cb05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>valuation_source</value>
-      <webElementGuid>38116209-d900-4860-9bed-102caf79f6dd</webElementGuid>
+      <webElementGuid>418d220b-aec0-4c43-a46d-138272adceb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>valuation_source</value>
-      <webElementGuid>07c279d3-e8e7-4437-bff9-67e1940267ce</webElementGuid>
+      <webElementGuid>e340c872-46bb-4da1-984c-336b32093e76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Please selectInvestment roundAccountant valuationDebt roundSelf valuation by company</value>
-      <webElementGuid>34224034-44d7-4aa6-b35b-3d0f03ebb1cd</webElementGuid>
+      <webElementGuid>9426ede2-975a-4d6f-98b6-6c631b4ddd7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;valuation_source&quot;)</value>
-      <webElementGuid>5f9529cd-6c3e-49ae-a2a3-5b15dc33f3ef</webElementGuid>
+      <webElementGuid>71b43f1d-80a9-4bae-8ecc-35a846166b59</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='valuation_source']</value>
-      <webElementGuid>57a4befa-ad31-4ed0-b4d0-62632e3a8adf</webElementGuid>
+      <webElementGuid>3c713471-7817-419c-a72d-f795a2a8dbe7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/div/select</value>
-      <webElementGuid>5aec0825-d88e-4278-9521-9e98101929a6</webElementGuid>
+      <webElementGuid>d157d904-483d-457a-83cd-78b8e6030c29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Source'])[1]/following::select[1]</value>
-      <webElementGuid>1e635fed-f575-4bc7-8395-af98413093fd</webElementGuid>
+      <webElementGuid>4b5e13bf-c590-41f7-848d-3833e7f4d73c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Record a new company valuation'])[1]/following::select[1]</value>
-      <webElementGuid>417f65f5-1e60-4172-af42-51f30a1c9a61</webElementGuid>
+      <webElementGuid>e2e794d8-7b6f-489e-a29f-31529c894e87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Currency'])[1]/preceding::select[1]</value>
-      <webElementGuid>0dccf175-97a2-482d-a83e-9710ba7dd0bb</webElementGuid>
+      <webElementGuid>080a935f-49c5-4a7d-8bcf-57271955df16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Whole company valuation'])[1]/preceding::select[2]</value>
-      <webElementGuid>456502df-176e-4f5f-bcb2-c2dc94187951</webElementGuid>
+      <webElementGuid>07fc71fb-1ab9-4b23-be95-37aa4266263a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>788b1343-76df-4911-a163-438f1c496290</webElementGuid>
+      <webElementGuid>647b99d2-5c2d-4094-a507-13de89b44914</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'valuation_source' and @name = 'valuation_source' and (text() = 'Please selectInvestment roundAccountant valuationDebt roundSelf valuation by company' or . = 'Please selectInvestment roundAccountant valuationDebt roundSelf valuation by company')]</value>
-      <webElementGuid>f34cda00-6998-4a2c-85f2-aed3c045e68f</webElementGuid>
+      <webElementGuid>0b621e2f-97c0-4628-9bc8-f9b36564447b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

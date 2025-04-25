@@ -6,20 +6,20 @@
    <elementGuidId>afd53dc9-96cc-4c62-9f04-2cd9f161dc88</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[13]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://demo.app.vestd.com/company/50934/share-approval' and (text() = '
                                             Share pools
                                         ' or . = '
                                             Share pools
                                         ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarSchemes']/ul/li[13]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +29,7 @@
          <value>internal:role=link[name=&quot;Share pools&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>81083b90-c338-46a0-93ce-603accf9db7f</webElementGuid>
+      <webElementGuid>2243575d-4078-4167-a892-f47d1ce2d5c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/share-approval</value>
-      <webElementGuid>1d068398-372b-469b-b503-9447373b7026</webElementGuid>
+      <webElementGuid>9c143a40-4973-45c0-a588-1c12fd321185</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>76e8628a-f46a-4815-ae61-6d39e31e838b</webElementGuid>
+      <webElementGuid>05bd0e7d-8432-413f-9cd7-34da27b3603e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                                             Share pools
                                         </value>
-      <webElementGuid>9097b02e-2884-4eca-9697-375bc1462669</webElementGuid>
+      <webElementGuid>f9b151cf-f9b4-404b-ae59-57b59d2927d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>c71a9a25-a90a-4de6-a6d0-7efe3bea553e</webElementGuid>
+      <webElementGuid>2fd7b236-926f-4ff0-943b-bedf72ecb676</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[13]/a</value>
-      <webElementGuid>77ea5e0b-d7d3-486a-92ea-239be78b315b</webElementGuid>
+      <webElementGuid>8b5ad841-98e9-49f5-b911-6806e67bcf4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Share pools')]</value>
-      <webElementGuid>cdcdce7c-54da-4829-8923-20a863f667ef</webElementGuid>
+      <webElementGuid>3b0486ee-99f8-4c0d-b4e2-aca6ee2c616d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Valuations'])[1]/following::a[1]</value>
-      <webElementGuid>712daf20-e36b-4f9d-946f-d5bee5145f6f</webElementGuid>
+      <webElementGuid>ee504967-56bc-4065-ba29-3a5454de1099</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Compliance'])[1]/following::a[2]</value>
-      <webElementGuid>ef5efd86-0c9b-4023-957d-95cbc0f0b888</webElementGuid>
+      <webElementGuid>507d460c-3710-4419-abbc-ae7b9d19f818</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual notifications'])[1]/preceding::a[1]</value>
-      <webElementGuid>3294d65d-f0ca-4464-99aa-8ccb7577cb90</webElementGuid>
+      <webElementGuid>2cc52430-1d68-43f6-a926-8c1245686eaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Initial notifications'])[1]/preceding::a[2]</value>
-      <webElementGuid>54966e93-13d6-4fe7-9041-60c097f1ba8a</webElementGuid>
+      <webElementGuid>2588ecf8-5cbd-476e-9ecb-ca3861960709</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Share pools']/parent::*</value>
-      <webElementGuid>02ec6265-d573-418e-bf9d-3fb4db08f0d4</webElementGuid>
+      <webElementGuid>dcb835cd-e002-4cc3-b9e6-1f2e50e6208f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/share-approval')]</value>
-      <webElementGuid>a39a4cf7-5ae9-4621-8d89-8dd3a574751c</webElementGuid>
+      <webElementGuid>955e4221-1d85-4409-92c8-4b1cc80a0fd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[13]/a</value>
-      <webElementGuid>d516e275-4f71-4697-b2d7-ccc68e5f4c59</webElementGuid>
+      <webElementGuid>dc8e78c4-bece-4648-b4e8-f5982eba07d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,6 +155,6 @@
                                         ' or . = '
                                             Share pools
                                         ')]</value>
-      <webElementGuid>fdb6c4ae-7a2d-4cf9-85dd-f007f4c1a2ad</webElementGuid>
+      <webElementGuid>53425b4c-1167-4ae2-a554-247fe12e70c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

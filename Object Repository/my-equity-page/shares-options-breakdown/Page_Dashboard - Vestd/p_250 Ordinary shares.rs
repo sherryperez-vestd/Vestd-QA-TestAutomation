@@ -6,12 +6,12 @@
    <elementGuidId>aa8406d9-e460-4be3-90e6-4f109b518039</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.col.mb-2 > p.mb-1.font-weight-bolder</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction History'])[1]/following::p[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='uYSvIiTQ9VRLZ2CL']/div/div/div[2]/div/div/p</value>
+         <key>CSS</key>
+         <value>div.col.mb-2 > p.mb-1.font-weight-bolder</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +20,7 @@
          <value>internal:text=&quot;Month&quot;i >> nth=0</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>cc0b5249-5102-40af-b4e0-5c645b418b78</webElementGuid>
+      <webElementGuid>ef41a6f6-1975-4d47-ae6c-49b52ca0e35e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>for</name>
       <type>Main</type>
       <value>from-date-month</value>
-      <webElementGuid>7a794a0c-3d9f-4d45-964a-81bd6382c83d</webElementGuid>
+      <webElementGuid>6e6430d6-ff67-4a7c-bbc7-55ceb3755a2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Month</value>
-      <webElementGuid>da2fc616-03c2-4750-829e-b08da7982c37</webElementGuid>
+      <webElementGuid>999ed412-9fa6-4af8-a115-628b312dda9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/form[1]/fieldset[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;d-flex flex-wrap&quot;]/div[@class=&quot;mr-3&quot;]/label[1]</value>
-      <webElementGuid>3595e40c-4ccd-4897-b338-85b25ab24612</webElementGuid>
+      <webElementGuid>13c4fbc8-4799-4d8c-9f37-0f12ad0a88b4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div/div/div/div[2]/label</value>
-      <webElementGuid>56dfea61-a296-4f70-bbc1-c21309a8d017</webElementGuid>
+      <webElementGuid>2a5925d2-55c5-488e-bf51-c9d8dc82b322</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='From Date'])[1]/following::label[2]</value>
-      <webElementGuid>ed20cbce-c8ee-4fdb-be00-b95d1b07ec0d</webElementGuid>
+      <webElementGuid>c64f86ea-2e36-45e0-9b1a-559132b30837</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fetch records from this date'])[1]/preceding::label[2]</value>
-      <webElementGuid>c9602ed9-0d4a-45fc-b5ee-04ace76373d5</webElementGuid>
+      <webElementGuid>953c1cd7-c316-4cc8-a75c-224febdb8997</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Month']/parent::*</value>
-      <webElementGuid>dbd36645-2027-4ef8-b20d-ebf67df0ef08</webElementGuid>
+      <webElementGuid>2edf8e42-849f-489e-a9d8-efbbc746ccd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/label</value>
-      <webElementGuid>6e480746-f309-4610-9405-45f133a55489</webElementGuid>
+      <webElementGuid>c3ff67dc-e8db-4030-a8ff-600c6b4135d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Month' or . = 'Month')]</value>
-      <webElementGuid>cadcbbfe-79ab-4bf1-bb8a-001c81b2d641</webElementGuid>
+      <webElementGuid>d8207b91-4f30-42da-b578-23d3fd7cd675</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

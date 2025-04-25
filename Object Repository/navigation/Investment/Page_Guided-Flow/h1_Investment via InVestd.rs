@@ -6,12 +6,12 @@
    <elementGuidId>d8abce3b-e583-4924-b003-e7604fbb558c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Investment via InVestd&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>ef39e57c-234a-4f44-96f2-d012cdde1802</webElementGuid>
+      <webElementGuid>24872040-b83c-497a-a395-57c62bbb6c94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Investment via InVestd</value>
-      <webElementGuid>4d6de678-7f43-4144-bcb1-b89716998f6f</webElementGuid>
+      <webElementGuid>7f8202e0-5bed-4dea-9513-f499c2a5bea3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>0bc3fc32-913c-475b-b9b8-ac8e7306fc6e</webElementGuid>
+      <webElementGuid>8fe26441-4b07-4022-9746-c36228f4abd4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>05ec5961-cdbf-4eb1-be64-44dff18b70b2</webElementGuid>
+      <webElementGuid>4f2f74e8-2ec3-4d9e-a00b-793fa4c16762</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>25f51ecb-de4f-4444-9a03-79721e551136</webElementGuid>
+      <webElementGuid>e783d25c-03e9-44b4-b021-140c938323d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>ab0e88d2-039f-4343-86cc-53644e167556</webElementGuid>
+      <webElementGuid>6002fcb6-6193-4ba7-8249-e32e1bb3008f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prepare'])[1]/preceding::h1[1]</value>
-      <webElementGuid>bf011bfe-af86-48b5-93c6-9b908689912e</webElementGuid>
+      <webElementGuid>b1c7d5fc-d361-4d2e-bdfb-e9cab19a5a37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Investment via InVestd']/parent::*</value>
-      <webElementGuid>3a428b05-f37b-41e9-9f42-1befd88e2590</webElementGuid>
+      <webElementGuid>1f9e67cb-f445-4962-9573-3b2c070983ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>4ad3118e-7107-4d64-aa53-eb33988a6754</webElementGuid>
+      <webElementGuid>939c76a1-d3cd-431d-85a2-e800c87b0ce3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Investment via InVestd' or . = 'Investment via InVestd')]</value>
-      <webElementGuid>e917a910-4334-4c51-a121-e7eb92a3bf96</webElementGuid>
+      <webElementGuid>513c8708-f90a-4dcd-bbc3-cc933997f1ef</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>83aec3ee-055e-4fdc-ab92-5f4081b11ac1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Annual notifications&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>081ae864-b0f7-420f-865a-778d197333b0</webElementGuid>
+      <webElementGuid>e22b4799-b29c-44fc-a918-b03d71db3dad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Annual notifications</value>
-      <webElementGuid>365746b8-e36e-4ae7-ac24-f5f8b91da15b</webElementGuid>
+      <webElementGuid>b4e07ba7-7cca-4afb-abc4-f55b0c2f515c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>e3e3109b-ba74-4fcf-b958-26b70f568a58</webElementGuid>
+      <webElementGuid>1e4c1502-f44b-4031-9341-0ddd488e306d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>5e89b96c-747a-4e63-881d-5a642f49e9e0</webElementGuid>
+      <webElementGuid>d5f9eb73-e283-4fb3-88b7-f197db381c01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>5f1c3c4d-d48b-45b3-8ee0-dfb72ffd1a77</webElementGuid>
+      <webElementGuid>f53a042c-f913-4a71-8e28-e72886eb63ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>24c88440-084b-4f1c-9c27-cb1e9fbea614</webElementGuid>
+      <webElementGuid>414edcd1-62e2-45c2-8fee-473c3c2cbbe3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax year ending 5th April'])[1]/preceding::h1[1]</value>
-      <webElementGuid>55978adf-0a7a-4eb9-8f0a-edb45e6e4060</webElementGuid>
+      <webElementGuid>bda44bd1-e682-456f-ba28-7aba7f8850e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax year ending'])[1]/preceding::h1[1]</value>
-      <webElementGuid>f3cc0e14-bf7a-40d6-a7c5-c95d3aa7afe8</webElementGuid>
+      <webElementGuid>a00079d7-48e5-437f-a425-df4b007b6171</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>3a4d2b58-d7e2-414e-a9a8-e0c1cc5e1560</webElementGuid>
+      <webElementGuid>2905117d-481b-4528-b829-fea6dc8695f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Annual notifications' or . = 'Annual notifications')]</value>
-      <webElementGuid>4deaad23-fb1a-44b7-9d17-5bcc2bb941a1</webElementGuid>
+      <webElementGuid>a0ae420b-32c7-460b-aa33-856f65ef3dbe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

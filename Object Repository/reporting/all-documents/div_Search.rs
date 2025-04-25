@@ -6,12 +6,11 @@
    <elementGuidId>d16e5cee-bca8-434b-9984-92a54541fb70</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='vestd-table-search mr-0']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +20,7 @@
          <value>[id=&quot;vestd-table-search\ mr-0&quot;]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b00bfacd-ede1-4cb9-8955-d653c7328b7c</webElementGuid>
+      <webElementGuid>91afe9ae-8be0-4130-9b1b-619eb5c9c992</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>id</name>
       <type>Main</type>
       <value>vestd-table-search mr-0</value>
-      <webElementGuid>ea66abe7-e191-470f-b966-f29e25203931</webElementGuid>
+      <webElementGuid>47660ced-9ef6-47f7-9ea5-27f675f02b81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-inline</value>
-      <webElementGuid>9dbb7a70-ed81-4940-bc9e-a63bb9062049</webElementGuid>
+      <webElementGuid>7506f904-517a-4e67-b715-4102896028d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Search:   </value>
-      <webElementGuid>ef64e4b7-213e-475f-a128-d83ab75c1112</webElementGuid>
+      <webElementGuid>2dd294bc-c56b-4ea7-bd99-f9ecdc2179de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vestd-table-search mr-0&quot;)</value>
-      <webElementGuid>2e8e34e8-7f57-4c23-b488-3b70208da01b</webElementGuid>
+      <webElementGuid>bb474988-1479-4dfa-86c2-f0959b4d2b8e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='vestd-table-search mr-0']</value>
-      <webElementGuid>59fcff60-48ae-451b-9470-b04a596447c9</webElementGuid>
+      <webElementGuid>7054900d-3044-4da8-846d-3f8f83bac720</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[2]/div/div/div[2]/div</value>
-      <webElementGuid>c6faf00e-f56b-49b0-9928-95b811902b1b</webElementGuid>
+      <webElementGuid>980394b7-caf3-4516-aed9-432f54c38f1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filed'])[1]/following::div[2]</value>
-      <webElementGuid>ca501eb9-d3cc-472b-be34-2ef969075119</webElementGuid>
+      <webElementGuid>71885605-8f24-475d-b20d-46d51d4133ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Companies House'])[1]/following::div[4]</value>
-      <webElementGuid>8cc2289f-ea5d-4bf8-816b-b419a64dc72f</webElementGuid>
+      <webElementGuid>ff5d8eb7-84b4-4785-8b6b-c9aaecf26d4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search:'])[2]/preceding::div[3]</value>
-      <webElementGuid>e2d2a290-ed4f-4606-988d-2f5b508d8623</webElementGuid>
+      <webElementGuid>fbb6de05-e7ad-44da-97c6-1ae5f0de6bc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div</value>
-      <webElementGuid>e8405d99-2842-48d9-95bd-539ecb13e149</webElementGuid>
+      <webElementGuid>1292db27-e2bd-471f-b8f6-df67994b618b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +116,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'vestd-table-search mr-0' and (text() = 'Search:   ' or . = 'Search:   ')]</value>
-      <webElementGuid>2da5d847-142f-4896-9fbf-966687a6de6b</webElementGuid>
+      <webElementGuid>908f010c-9202-4635-a7e2-5cb8e84267e3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

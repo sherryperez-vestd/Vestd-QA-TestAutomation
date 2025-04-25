@@ -6,12 +6,12 @@
    <elementGuidId>bbbd2387-854f-45e2-9f21-a3fab062cec0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.form-control-feedback.my-1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div/div/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.form-control-feedback.my-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=group >> internal:text=&quot;The from date must be a date before or equal to today.&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>1c4acbe8-a295-4729-8841-7db15da1828b</webElementGuid>
+      <webElementGuid>dd3b6301-0642-49d4-96ef-243f6d6065e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control-feedback my-1</value>
-      <webElementGuid>f4057abb-730f-4149-8cdf-c97d9ba10fc9</webElementGuid>
+      <webElementGuid>e02616d2-cd4a-47ee-b7da-1faa0a09ed99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>The from date must be a date before or equal to today.</value>
-      <webElementGuid>ee5db4fc-8411-4afc-a935-abb456bdcde3</webElementGuid>
+      <webElementGuid>582c0250-6c1f-458c-9ab7-864369b2ac76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/form[1]/fieldset[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;form-group has-danger&quot;]/p[@class=&quot;form-control-feedback my-1&quot;]</value>
-      <webElementGuid>ddc6b013-86ea-4ed7-92f1-72939e2b4306</webElementGuid>
+      <webElementGuid>dd9c9be3-c632-4096-a332-3b42549133e6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div/div/p[2]</value>
-      <webElementGuid>9ab306d7-631a-403f-822b-9f07d54aad8f</webElementGuid>
+      <webElementGuid>9bfe1b2b-9d6e-422c-99b0-fe4bf0bf6997</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fetch records from this date'])[1]/following::p[1]</value>
-      <webElementGuid>93fb1008-561e-4726-a2cd-c922c86b0921</webElementGuid>
+      <webElementGuid>a1e3990d-6854-4cc3-b097-2ab159bda583</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='To Date'])[1]/preceding::p[1]</value>
-      <webElementGuid>843d5327-54b1-4c0d-968e-f799c083f430</webElementGuid>
+      <webElementGuid>be905e4f-975c-49f7-8f24-a9ce00fc50bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[2]</value>
-      <webElementGuid>f8ff3e2c-d8ca-4215-9d7e-2657cf9dbddc</webElementGuid>
+      <webElementGuid>b5a54821-b739-47e9-a20c-37fd8a0ff7ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'The from date must be a date before or equal to today.' or . = 'The from date must be a date before or equal to today.')]</value>
-      <webElementGuid>37fb0f88-e559-498e-9ccb-6b46fafdfa4d</webElementGuid>
+      <webElementGuid>d2399213-3213-4a64-ba5e-f8103ea7df59</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

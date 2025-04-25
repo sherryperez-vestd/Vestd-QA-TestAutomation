@@ -6,12 +6,12 @@
    <elementGuidId>0d7992aa-0fac-4841-85ac-c63e236fcfad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#BXMxuD1EMQHpNAav</value>
+         <key>XPATH</key>
+         <value>//div[@id='vestd-table-search mr-0']/div/div/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='BXMxuD1EMQHpNAav']</value>
+         <key>CSS</key>
+         <value>#BXMxuD1EMQHpNAav</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=textbox</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>becba313-628b-4eda-8329-ca3e8064bd3d</webElementGuid>
+      <webElementGuid>f4958263-f942-4ddf-b7cf-d8607d896d6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>e98824cc-ece6-4c2f-9c3e-821578b8da0a</webElementGuid>
+      <webElementGuid>3a1539d5-35ee-468d-b934-919111201e25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>e3f76d71-9017-4b36-a2a2-761a96feee96</webElementGuid>
+      <webElementGuid>f4241f60-feaf-477e-867c-f83715d88f7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>BXMxuD1EMQHpNAav</value>
-      <webElementGuid>63ac5ce2-32ba-48a8-939b-16a8f4545b87</webElementGuid>
+      <webElementGuid>3942fe1e-1c09-4c1f-9b56-27f092845e2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>table-search</value>
-      <webElementGuid>7af46a97-5e15-4af2-b9da-ba340aa2bc26</webElementGuid>
+      <webElementGuid>59fab4ff-4a6d-4b18-8837-c23572b307f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;BXMxuD1EMQHpNAav&quot;)</value>
-      <webElementGuid>43eb7bb1-e34d-4985-8d1a-35243df4801d</webElementGuid>
+      <webElementGuid>5ee6570c-d794-4988-8fc2-dc4372d5cd74</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='BXMxuD1EMQHpNAav']</value>
-      <webElementGuid>55e07976-2aeb-46e9-a5c3-b307a9e1a93d</webElementGuid>
+      <webElementGuid>1844ea61-abff-411a-9744-ca055aa49c87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vestd-table-search mr-0']/div/div/input</value>
-      <webElementGuid>43e9bec0-214b-48c9-b12b-ebacbe183f96</webElementGuid>
+      <webElementGuid>3be7fec0-d55f-479b-82f5-3cc2cab4c1d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/input</value>
-      <webElementGuid>19125476-f291-4411-89e4-cbb14a1a5063</webElementGuid>
+      <webElementGuid>c5d21d70-8c8a-4ba2-b788-eefcb4f46d41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'BXMxuD1EMQHpNAav' and @name = 'table-search']</value>
-      <webElementGuid>ecf3a53a-504b-4409-bde2-a2569cd66b6a</webElementGuid>
+      <webElementGuid>4cf84475-273c-4472-a5a9-549886b50877</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

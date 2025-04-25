@@ -6,20 +6,20 @@
    <elementGuidId>694f630f-5162-4028-a724-b572b2905198</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[5]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://demo.app.vestd.com/company/50934/scheme-template/csop/dashboard' and (text() = '
                                         CSOP
                                     ' or . = '
                                         CSOP
                                     ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarSchemes']/ul/li[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +29,7 @@
          <value>internal:role=link[name=&quot;CSOP&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>076fe502-c756-4081-b43a-5ef7d1f653ad</webElementGuid>
+      <webElementGuid>8d1b6a1a-d4d1-4bea-b4d3-1e5d4ac971d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/scheme-template/csop/dashboard</value>
-      <webElementGuid>b1b3397e-881e-439a-b1f3-5f8771ca4566</webElementGuid>
+      <webElementGuid>049625a6-1936-42ae-bf01-66d9e7eedb85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>43417936-cc9c-475c-868e-767f5a932726</webElementGuid>
+      <webElementGuid>9f4e8eef-3510-4cac-a9cd-7d2c86b6fb45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                                         CSOP
                                     </value>
-      <webElementGuid>d34e77d9-77f8-464e-b2bb-6ae61616acce</webElementGuid>
+      <webElementGuid>3b36ca17-e40d-4f4e-b027-a9ea5860971e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>3209c812-6f40-4610-a72d-8f0e079974ff</webElementGuid>
+      <webElementGuid>a57371e6-6561-4566-a780-6d570f1a782b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[5]/a</value>
-      <webElementGuid>3633c832-9624-40f2-8102-0c0e3edac853</webElementGuid>
+      <webElementGuid>1bd2373b-fe97-4e48-a229-923a8e17b20f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'CSOP')]</value>
-      <webElementGuid>da95ceda-3f62-4990-a8b3-90cb6cdb379f</webElementGuid>
+      <webElementGuid>07507d35-f062-446c-8204-4cba17a1e99d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unapproved options'])[1]/following::a[1]</value>
-      <webElementGuid>887ba6d9-a5ab-4386-aa1c-0bb7d1d11652</webElementGuid>
+      <webElementGuid>c09a0f73-5afa-435d-a47c-4517c4629288</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EMI'])[1]/following::a[2]</value>
-      <webElementGuid>a4d5ce44-9307-41ea-b372-8a7ef786b433</webElementGuid>
+      <webElementGuid>64675a5e-4340-4c4c-ab91-4e8c73ee5c8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phantom shares'])[1]/preceding::a[1]</value>
-      <webElementGuid>a1c7f6da-3f7f-4064-a082-4d196bc3694b</webElementGuid>
+      <webElementGuid>ff206e9b-3f83-4789-b703-384b92c91eba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All option agreements'])[1]/preceding::a[2]</value>
-      <webElementGuid>f49d82a3-0fff-48bd-9e4b-c867a69c715c</webElementGuid>
+      <webElementGuid>9d448ab0-06ca-4387-b0b5-83e6e4913db9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CSOP']/parent::*</value>
-      <webElementGuid>ecdec192-c213-435c-a97a-15a2f3de4e21</webElementGuid>
+      <webElementGuid>3e869532-d25e-42a5-80ff-c9348d5185f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/scheme-template/csop/dashboard')]</value>
-      <webElementGuid>384c8608-d996-497f-b3db-e5de9c4b95a5</webElementGuid>
+      <webElementGuid>58ecd2c3-f1d0-4901-bb03-7d8712cb5018</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[5]/a</value>
-      <webElementGuid>96e8121a-e608-4698-a28a-d8ef68ea970b</webElementGuid>
+      <webElementGuid>97b41c39-6b4d-4f8b-bd78-6e2c9348be4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,6 +155,6 @@
                                     ' or . = '
                                         CSOP
                                     ')]</value>
-      <webElementGuid>9bb03f07-19f4-4df0-8cf1-62b65697a35b</webElementGuid>
+      <webElementGuid>66e1572f-c996-4b37-a167-3810df423339</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

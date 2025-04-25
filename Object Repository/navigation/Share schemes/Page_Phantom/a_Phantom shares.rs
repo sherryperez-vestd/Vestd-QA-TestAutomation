@@ -6,20 +6,20 @@
    <elementGuidId>2078a0f3-d7e1-4340-bff8-36b1384795de</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[6]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://demo.app.vestd.com/company/50934/scheme-template/phantom/dashboard' and (text() = '
                                             Phantom shares
                                         ' or . = '
                                             Phantom shares
                                         ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarSchemes']/ul/li[6]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +29,7 @@
          <value>internal:role=link[name=&quot;Phantom shares&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f2506c43-6559-4148-b757-968dc2bc1872</webElementGuid>
+      <webElementGuid>dddac9e9-a615-4ec0-ba55-6b56981b972c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/scheme-template/phantom/dashboard</value>
-      <webElementGuid>6cc90ea3-3b3c-4aee-8d9c-f6128fa82a66</webElementGuid>
+      <webElementGuid>57e1f719-aa64-4c4f-845b-688f85543e9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>54022539-d7d0-4e5e-8dbd-eedb99b2ca49</webElementGuid>
+      <webElementGuid>097aa0b2-ff21-44ec-8818-79e3fbd09e9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                                             Phantom shares
                                         </value>
-      <webElementGuid>b6840101-f9b3-4a69-b747-d309047a91a4</webElementGuid>
+      <webElementGuid>73722cd6-e495-49fc-9362-5b71ee12db9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>573721c6-dede-490d-82ab-0e43779a5c89</webElementGuid>
+      <webElementGuid>29168a05-4170-433c-a6b9-159300000a9a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[6]/a</value>
-      <webElementGuid>f4d2be22-706e-45cf-95bd-8a958f688cda</webElementGuid>
+      <webElementGuid>4faedef8-8d67-44bb-aba6-f0b8f2ba57c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Phantom shares')]</value>
-      <webElementGuid>0435519a-e0df-4e7b-8b55-db0780c27274</webElementGuid>
+      <webElementGuid>d32019ac-3ce5-41c0-a889-afac759db05f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CSOP'])[1]/following::a[1]</value>
-      <webElementGuid>9d53b5b1-8e86-470d-aed8-7e9a5b102b93</webElementGuid>
+      <webElementGuid>5292654e-3782-4022-9f33-58ca83e65be3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unapproved options'])[1]/following::a[2]</value>
-      <webElementGuid>e2fe2620-39f5-4ac8-94e1-a0ddac24e944</webElementGuid>
+      <webElementGuid>aa64484c-b538-477f-8445-fc93b0aee6d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All option agreements'])[1]/preceding::a[1]</value>
-      <webElementGuid>8596a58a-6811-4ea7-affb-a1c6dd7cebc4</webElementGuid>
+      <webElementGuid>45feec44-de97-4343-99be-8a3c0b0ddd7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Growth shares'])[1]/preceding::a[2]</value>
-      <webElementGuid>edf6243b-fe03-42a4-809a-2a4cba1f9133</webElementGuid>
+      <webElementGuid>98ea5861-c36f-4f0d-86bf-9b8c090a9daf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Phantom shares']/parent::*</value>
-      <webElementGuid>5790f6da-4c79-40f3-a615-6e5adf5be35f</webElementGuid>
+      <webElementGuid>351d9cab-0be9-474f-a337-5b60e0dd3158</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/scheme-template/phantom/dashboard')]</value>
-      <webElementGuid>d7e68a76-7824-46c4-afb3-9e5073f91e13</webElementGuid>
+      <webElementGuid>049c75e2-12cc-4582-8077-b6eeddb86613</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[6]/a</value>
-      <webElementGuid>cef623f2-fed4-4ebd-968f-d52cbe97f80e</webElementGuid>
+      <webElementGuid>8307b149-124c-49a7-b2ac-84aa4022d846</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,6 +155,6 @@
                                         ' or . = '
                                             Phantom shares
                                         ')]</value>
-      <webElementGuid>3df128b8-d57c-45b0-83f4-bc1a7e280f56</webElementGuid>
+      <webElementGuid>29b9d24c-c254-4382-b272-42aee462b785</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

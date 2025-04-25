@@ -10,6 +10,10 @@
          <value>#option_leaver_clause</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'option_leaver_clause' and @name = 'option_leaver_clause' and (text() = 'Please select oneKeep vested optionsAllow vested options to be exercisedLose everythingComplete discretion' or . = 'Please select oneKeep vested optionsAllow vested options to be exercisedLose everythingComplete discretion')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='option_leaver_clause']</value>
       </entry>
@@ -21,7 +25,7 @@
          <value>internal:label=&quot;Employee leaver clause&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>33551c44-b794-49e6-89e1-6eb0fcb36237</webElementGuid>
+      <webElementGuid>33d74b26-a831-4f10-849a-f02829cd0175</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>56492634-d030-4d3c-b0fe-ab8e3e2c2011</webElementGuid>
+      <webElementGuid>f91fc1dd-d01c-4005-a270-52dc14527bfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>option_leaver_clause</value>
-      <webElementGuid>9707fc37-6bcd-4ff1-abe9-e62f03a670e5</webElementGuid>
+      <webElementGuid>088a0a7b-d5a4-44ca-981a-df3960a3627c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>option_leaver_clause</value>
-      <webElementGuid>62c654b1-2dbc-4c94-bc35-85739e620d25</webElementGuid>
+      <webElementGuid>10afd57b-807b-414f-8c51-ec0179883396</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Please select oneKeep vested optionsAllow vested options to be exercisedLose everythingComplete discretion</value>
-      <webElementGuid>4a3144b5-e89d-4d38-87bf-181e18d57ad4</webElementGuid>
+      <webElementGuid>a4a62767-c739-48f1-b68e-80ca214996d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;option_leaver_clause&quot;)</value>
-      <webElementGuid>325675f9-f488-427f-bd6c-c09c7cfb07e9</webElementGuid>
+      <webElementGuid>1c80b8f4-8f8e-4935-a723-9e04fa12cb46</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='option_leaver_clause']</value>
-      <webElementGuid>3e12cff0-c4bd-4173-b597-61bc784a34ff</webElementGuid>
+      <webElementGuid>39145e94-7332-419f-b4cb-2e2a5d5428dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/form/fieldset[4]/div/select</value>
-      <webElementGuid>cca47703-2740-459b-ae92-89251067c876</webElementGuid>
+      <webElementGuid>b1daf5d1-dd64-4fc3-84c1-74b56e072f2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee leaver clause'])[1]/following::select[1]</value>
-      <webElementGuid>4707354d-c880-4755-89ba-671348b20585</webElementGuid>
+      <webElementGuid>cf160f01-d258-40f5-9d9f-73250454d22e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Good leaver / bad leaver'])[1]/following::select[1]</value>
-      <webElementGuid>3f192522-e18f-44ce-bf51-f015a41c262b</webElementGuid>
+      <webElementGuid>58798ce6-7c71-48bd-9185-7d53a62d4cca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Keep vested options'])[2]/preceding::select[1]</value>
-      <webElementGuid>c983cbf0-4b54-471e-b7a3-886cfdb232f9</webElementGuid>
+      <webElementGuid>75432a20-d73b-4bfd-be51-188c19609ad7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Allow vested options to be exercised'])[2]/preceding::select[1]</value>
-      <webElementGuid>bd2d6b0d-b3f7-480a-9be2-8722d415ba1e</webElementGuid>
+      <webElementGuid>1c9be5d1-8b88-4a56-9b3e-cd6cbc08140b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset[4]/div/select</value>
-      <webElementGuid>6924a3c5-6f64-42ea-a05a-7a88bacdfe55</webElementGuid>
+      <webElementGuid>824048e6-2c62-4b5c-9d78-4030ed0704c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'option_leaver_clause' and @name = 'option_leaver_clause' and (text() = 'Please select oneKeep vested optionsAllow vested options to be exercisedLose everythingComplete discretion' or . = 'Please select oneKeep vested optionsAllow vested options to be exercisedLose everythingComplete discretion')]</value>
-      <webElementGuid>de0b18c2-de7c-4ef8-bfdd-71824c682860</webElementGuid>
+      <webElementGuid>773623a4-0fb4-4238-b838-311e9a094b1b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

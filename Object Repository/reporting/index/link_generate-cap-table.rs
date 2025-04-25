@@ -6,15 +6,19 @@
    <elementGuidId>255a557b-bfaa-470f-a72a-b390d0ba2600</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(3) > td:nth-of-type(3) > a</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/table/tbody/tr[3]/td[3]/a</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>tr:nth-of-type(3) > td:nth-of-type(3) > a</value>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://demo.app.vestd.com/company/50934/cap-table' and (text() = 'Generate' or . = 'Generate')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,20 +28,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d31d4967-f539-4a1e-a5b0-a2b474f33659</webElementGuid>
+      <webElementGuid>54d3cc07-b8b6-40d9-aa46-8389886301f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://demo.app.vestd.com/company/50135/cap-table</value>
-      <webElementGuid>e986a493-bb2d-48e6-a26f-e76e1c24c9cb</webElementGuid>
+      <value>https://demo.app.vestd.com/company/50934/cap-table</value>
+      <webElementGuid>9005e0e9-c030-435a-a2dd-18f40e3b2ee4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Generate</value>
-      <webElementGuid>d19f092e-a938-4aae-8ede-76f7f09fa41c</webElementGuid>
+      <webElementGuid>fbffb834-61c4-4c9a-8496-492c8487cad4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[3]/td[3]/a[1]</value>
-      <webElementGuid>5d18d9a8-602a-47d8-9140-06a2f80f3d68</webElementGuid>
+      <webElementGuid>636313cc-f056-4f7b-84e4-63e88c433d8e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/table/tbody/tr[3]/td[3]/a</value>
-      <webElementGuid>6bbf6d0c-4ab9-4cdf-96fa-11e476e18c4c</webElementGuid>
+      <webElementGuid>037bc078-3fa4-4762-9ca7-ec4c447a6c81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Generate')])[3]</value>
-      <webElementGuid>c4e8d1e8-a8e4-4623-a3c5-a969006d0916</webElementGuid>
+      <webElementGuid>71cf47ef-2b71-427c-ba56-bcca4da00375</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cap table reporting'])[1]/following::a[1]</value>
-      <webElementGuid>c7633f88-546e-4b7c-85cb-c27f19457e3f</webElementGuid>
+      <webElementGuid>376d89d2-1a77-433a-9792-a459fd940d1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate'])[2]/following::a[1]</value>
-      <webElementGuid>ba216499-c6fd-4386-adef-7ff5b11bd3cd</webElementGuid>
+      <webElementGuid>4a6559a1-be51-4e28-9d53-b8f62b6343f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Option agreement report'])[1]/preceding::a[1]</value>
-      <webElementGuid>26f7ec08-9aee-495c-91d1-a3a8865c3e8a</webElementGuid>
+      <webElementGuid>51321e99-2bc5-4253-ba74-fab2ba27119c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate'])[4]/preceding::a[1]</value>
-      <webElementGuid>c010cb50-8d0e-42ed-9687-d5277a171d1b</webElementGuid>
+      <webElementGuid>746774f4-58a5-43f8-ac3a-7a0a77c1a70c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'https://demo.app.vestd.com/company/50135/cap-table')])[3]</value>
-      <webElementGuid>bd6945fe-bb0d-4e51-8342-3148583f43d0</webElementGuid>
+      <webElementGuid>d817d68b-0e33-4f67-8ac8-1295942561b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[3]/a</value>
-      <webElementGuid>df05a6f8-e3de-48fc-9432-00e689429afd</webElementGuid>
+      <webElementGuid>d224ac94-8c83-46e1-9899-fe63463933cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://demo.app.vestd.com/company/50135/cap-table' and (text() = 'Generate' or . = 'Generate')]</value>
-      <webElementGuid>9b62e577-fa03-4c5d-85b8-c63abcd7765d</webElementGuid>
+      <webElementGuid>2835b952-78d7-4379-b76e-19f901dd5f50</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

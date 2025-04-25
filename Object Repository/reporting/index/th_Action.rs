@@ -21,7 +21,7 @@
          <value>internal:role=columnheader[name=&quot;Action&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>th</value>
-      <webElementGuid>4fd1658d-2fdf-4389-baa9-bd8977993099</webElementGuid>
+      <webElementGuid>2fabe138-2306-4503-936d-d9af97ff7503</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-md-2</value>
-      <webElementGuid>6051a4aa-a999-4d94-8377-5c4fc80fedde</webElementGuid>
+      <webElementGuid>8e20ce05-eb89-410d-b11b-f9c388d0bc3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>scope</name>
       <type>Main</type>
       <value>col</value>
-      <webElementGuid>83abca33-cc98-4257-af9a-828e254eaa14</webElementGuid>
+      <webElementGuid>3ade0d4a-5d4b-4b4a-a2c7-1103852defaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>id</name>
       <type>Main</type>
       <value>action</value>
-      <webElementGuid>381bc9b0-ef05-48de-843d-635b0895ed73</webElementGuid>
+      <webElementGuid>97e79f08-6c39-481c-9266-5a94abf93fa6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Action</value>
-      <webElementGuid>bef09316-15b4-4fc2-98c3-a9efdca8c754</webElementGuid>
+      <webElementGuid>0adc09ae-0f66-44ae-8289-094a94041d5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;action&quot;)</value>
-      <webElementGuid>744da3f2-e93e-4f7d-a42b-fb6949221adc</webElementGuid>
+      <webElementGuid>46633c43-1326-4f1f-9c53-ed14b35ed5d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//th[@id='action']</value>
-      <webElementGuid>ff92f9ce-a04e-40fa-a661-bbdfa2963f2e</webElementGuid>
+      <webElementGuid>0b55f14c-9084-425a-a90d-c5971e756dbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/table/thead/tr/th[3]</value>
-      <webElementGuid>8b29c04e-6d25-4a48-90d5-4998da733c1b</webElementGuid>
+      <webElementGuid>a401a978-7b58-4a1b-b0ae-9678165fd6aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::th[1]</value>
-      <webElementGuid>11326fa1-83c2-40c2-b658-6020286b6fc8</webElementGuid>
+      <webElementGuid>a71104ed-9861-459d-8c6e-7ef37e388225</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Report name'])[1]/following::th[2]</value>
-      <webElementGuid>18d9cae0-d2f3-4c7d-9c48-7430235bc6a3</webElementGuid>
+      <webElementGuid>07c6853c-8d59-46cb-8e77-69d2d66c31ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shareholders report'])[1]/preceding::th[1]</value>
-      <webElementGuid>17b6d197-7a5e-483e-b848-f1f68a34c9f3</webElementGuid>
+      <webElementGuid>1db2fc48-0b70-4ca6-8d6b-d6105952250f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate'])[1]/preceding::th[1]</value>
-      <webElementGuid>b75f3546-5524-479e-bc71-a5f2ceeace00</webElementGuid>
+      <webElementGuid>8fc313cb-5607-4ccf-9283-0b6c4812e84d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Action']/parent::*</value>
-      <webElementGuid>267be1af-d626-4864-b992-a2667f5fde2a</webElementGuid>
+      <webElementGuid>e498f234-9b8f-43bf-8e3e-6989cb92e027</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//th[3]</value>
-      <webElementGuid>d76231f6-95fd-486b-99a8-6f848dd3de7d</webElementGuid>
+      <webElementGuid>65e4fbb2-572e-4c0e-9aee-84540ae6981d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//th[@id = 'action' and (text() = 'Action' or . = 'Action')]</value>
-      <webElementGuid>228257c7-dfe6-46cc-91e7-d7304ea53f95</webElementGuid>
+      <webElementGuid>68d8c945-be9c-4b51-b0e2-2f5617afdff4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

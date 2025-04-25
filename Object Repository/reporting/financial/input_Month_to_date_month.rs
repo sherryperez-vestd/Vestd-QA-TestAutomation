@@ -21,7 +21,7 @@
          <value>#to-date-month</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>5b3600f6-b830-4944-a8ac-12544307a7ad</webElementGuid>
+      <webElementGuid>5516dae0-42ad-475b-b922-8389a95c3303</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>to-date-month</value>
-      <webElementGuid>61a7772b-ef8c-41a4-bebb-91b2c60e1bb7</webElementGuid>
+      <webElementGuid>0de87e6a-8e07-4a76-97c5-9f569c9c45c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control form-control-fixed-width-xs</value>
-      <webElementGuid>e58153e5-a0de-4786-a957-a3b5648d5f56</webElementGuid>
+      <webElementGuid>58c34f9b-72bd-4d52-9a15-3a5e1b6e2b70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>min</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>309a818b-42de-4d7a-8814-be50e66b6d18</webElementGuid>
+      <webElementGuid>3ce49409-367b-439b-93ce-e3696299ddc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>max</name>
       <type>Main</type>
       <value>12</value>
-      <webElementGuid>13c3f756-60d7-478e-8549-cea615552960</webElementGuid>
+      <webElementGuid>896ecaec-3ef9-47a9-b23c-d9462dfba8e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>name</name>
       <type>Main</type>
       <value>to_date_month</value>
-      <webElementGuid>3c762bcc-c879-4281-b6d7-a3ccd4fe794d</webElementGuid>
+      <webElementGuid>9c6854bb-7ebe-4acc-960b-1758b6155560</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>53557f6c-e22d-4eb4-9b3e-32e7719bf9de</webElementGuid>
+      <webElementGuid>c78a6744-4fe0-4cc4-9c53-ef49ce470c3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;to-date-month&quot;)</value>
-      <webElementGuid>ab187434-5716-4a4a-963f-07346b199802</webElementGuid>
+      <webElementGuid>a7d5eaa8-a7ae-4e57-85de-931b75598432</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='to-date-month']</value>
-      <webElementGuid>8ea326f3-a4f0-4e79-896c-04516b7720ce</webElementGuid>
+      <webElementGuid>7cbcafe8-7dfe-46e3-80b5-b8be6b2f891e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div[2]/div/div/div[2]/input</value>
-      <webElementGuid>2004c7cf-bc1d-4a84-80a4-82e6496c9f4b</webElementGuid>
+      <webElementGuid>979fbea6-4abb-423d-9c07-f056a754be68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/input</value>
-      <webElementGuid>957d2779-35d7-4743-9aa4-af7e87daa985</webElementGuid>
+      <webElementGuid>a128f33b-2d17-4701-a8fd-784c86d20401</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'to-date-month' and @name = 'to_date_month' and @type = 'number']</value>
-      <webElementGuid>0e68f64a-21ae-4b07-b22a-12a45bb60905</webElementGuid>
+      <webElementGuid>47d4366c-cb03-48db-b247-7fdf89b4aac5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

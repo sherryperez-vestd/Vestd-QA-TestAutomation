@@ -6,12 +6,12 @@
    <elementGuidId>7ead5167-73fe-4372-883e-dfb92c5f90f4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li:nth-of-type(4) > span.text-muted</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Share issue:'])[1]/following::span[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='uYSvIiTQ9VRLZ2CL']/div/div/div[2]/div/div/ul/li[4]/span</value>
+         <key>CSS</key>
+         <value>li:nth-of-type(4) > span.text-muted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>232fd5e6-41ef-4f69-a3e2-26fe36891f39</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>strong.text-cancelled</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:text=&quot;40&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>strong</value>
-      <webElementGuid>64aa9d47-c60f-4ed4-8842-8a5d15330442</webElementGuid>
+      <webElementGuid>df16900c-83d8-40dc-a15f-34de561329d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-cancelled</value>
-      <webElementGuid>14fe015d-729d-4b2c-a27a-a75678cea1aa</webElementGuid>
+      <webElementGuid>ac36ce1c-aad2-40ef-b97f-249da5409fe9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>40</value>
-      <webElementGuid>2bb2f5e1-e48a-41a4-b283-ef81aba228f8</webElementGuid>
+      <webElementGuid>d3890210-046c-4139-be1f-cd8eef711360</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 expanded&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;align-cards-sidewise align-items-stretch&quot;]/div[@class=&quot;card v-card bg-white mb-3 adjust-options-card&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;d-flex&quot;]/ul[@class=&quot;list-inline&quot;]/li[@class=&quot;list-inline-item&quot;]/strong[@class=&quot;text-cancelled&quot;]</value>
-      <webElementGuid>8c4c7817-1a14-4785-96c9-a7d917fd1d41</webElementGuid>
+      <webElementGuid>4411da75-1536-4dc9-b58a-a77d3667ebec</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
-      <webElementGuid>ce087481-e0fb-4599-8958-4f7cb7c1cd8e</webElementGuid>
+      <webElementGuid>5ca0b794-d964-4c66-bbce-0445a0d04d49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelled:'])[1]/following::strong[1]</value>
-      <webElementGuid>f9871a29-9bf3-467f-baed-cb884e2b9237</webElementGuid>
+      <webElementGuid>788f7db9-2680-44dc-b022-e1a2b0ed6e90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unvested:'])[1]/following::strong[2]</value>
-      <webElementGuid>1be6b2fb-3101-4f11-a5e5-a3943c65e4ee</webElementGuid>
+      <webElementGuid>f44c9f81-1319-4d93-8a37-8eb043704a33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Granted on:'])[1]/preceding::strong[1]</value>
-      <webElementGuid>892ae8e6-4938-4f88-9748-348771e6cd6a</webElementGuid>
+      <webElementGuid>52b180c0-f48c-455a-9267-6b9c6f257591</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View agreement summary'])[1]/preceding::strong[2]</value>
-      <webElementGuid>a6a54f31-c975-4d66-8c6d-4e18c9735b89</webElementGuid>
+      <webElementGuid>7bd76dc7-1bba-4843-9418-66ea7f46dbeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='40']/parent::*</value>
-      <webElementGuid>98fe1b87-c3a3-4a89-8ff4-0644508ab873</webElementGuid>
+      <webElementGuid>34e8e6f0-fa9c-4177-be44-98307061f27d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/strong</value>
-      <webElementGuid>8381339c-1719-4abe-9b21-8e3fdc5cf0af</webElementGuid>
+      <webElementGuid>25a36ffc-b870-4d3d-a75b-5103c4673d31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//strong[(text() = '40' or . = '40')]</value>
-      <webElementGuid>cde7a2f9-168a-48d8-b360-5724da21a7ad</webElementGuid>
+      <webElementGuid>9307ca35-6c22-4cab-a5a0-34ff81109f99</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

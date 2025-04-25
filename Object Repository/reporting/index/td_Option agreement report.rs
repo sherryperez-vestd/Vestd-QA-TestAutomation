@@ -21,7 +21,7 @@
          <value>internal:role=cell[name=&quot;Option agreement report&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>69834c9b-1de9-4445-bd5b-fc627c104787</webElementGuid>
+      <webElementGuid>807fc76a-a9da-467b-bf01-895ff4964580</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Option agreement report</value>
-      <webElementGuid>130da024-d045-4a61-831a-eb7605e83f67</webElementGuid>
+      <webElementGuid>15349a83-053d-4c18-ad49-fad6c59a31e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[4]/td[1]</value>
-      <webElementGuid>e70d78ad-d8f5-4b55-9010-8b3928af2378</webElementGuid>
+      <webElementGuid>75d94d6d-b1f6-41d0-9506-3368b26166e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/table/tbody/tr[4]/td</value>
-      <webElementGuid>7eade38b-4116-415e-899b-add1e6af0fe4</webElementGuid>
+      <webElementGuid>7c8bc19f-be5b-465a-a79b-271e86988e7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate'])[3]/following::td[1]</value>
-      <webElementGuid>fb727827-21bd-496b-9f92-28a8b65ed852</webElementGuid>
+      <webElementGuid>41b1c4fe-1520-45cd-bc21-ad09834710c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cap table reporting'])[1]/following::td[3]</value>
-      <webElementGuid>71a3a9fc-b9ba-4234-b3c7-d3267df2dd7d</webElementGuid>
+      <webElementGuid>92f3642e-7dce-4185-916b-d3a8da41c1d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate'])[4]/preceding::td[2]</value>
-      <webElementGuid>18111385-7c5b-49cb-8e1d-826b4e80e61a</webElementGuid>
+      <webElementGuid>f78ff543-5406-4491-9671-a73bd3c7ca5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::td[3]</value>
-      <webElementGuid>c89f236b-ef4b-442d-809b-aa8757c0153d</webElementGuid>
+      <webElementGuid>549e6db0-3981-4946-bb9f-ae3f65778bb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Option agreement report']/parent::*</value>
-      <webElementGuid>6c26d2a2-548d-4691-9873-c6776ede623c</webElementGuid>
+      <webElementGuid>b0c3238a-a033-4d05-ba4c-112475c1a0b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[4]/td</value>
-      <webElementGuid>db1536f2-4721-4f29-8be8-855dc5adcb19</webElementGuid>
+      <webElementGuid>165bc72c-dead-4076-86a6-756e53056d98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Option agreement report' or . = 'Option agreement report')]</value>
-      <webElementGuid>4dbaf49e-f0a3-47e1-a076-be2bc996c5ff</webElementGuid>
+      <webElementGuid>afacd783-ecbc-4c48-a1eb-8b080a1db965</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

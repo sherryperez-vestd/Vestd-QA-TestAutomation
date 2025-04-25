@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Shareholders Report&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>56ef09ce-97a0-4b8d-bba0-72d75ec56080</webElementGuid>
+      <webElementGuid>d47c7752-63ff-4fb6-b906-1d557904f727</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Shareholders Report</value>
-      <webElementGuid>95ec35a1-2f76-401b-9934-060a579229a0</webElementGuid>
+      <webElementGuid>1b2536d2-a8f3-4f1f-953b-42f676b0eab5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>8dc99c99-6629-42c3-8f27-4e0998547f52</webElementGuid>
+      <webElementGuid>68e0f2bb-af5a-49fc-a1b3-2f9f005e4e4c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>26ff6d3e-3065-4c44-b172-80376390f108</webElementGuid>
+      <webElementGuid>3f5ad951-fed2-4228-9f65-b770ad933922</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>797d4a94-448a-4547-9f45-3182f8f9e30e</webElementGuid>
+      <webElementGuid>219ee225-c421-47be-9fce-60196ef90db5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>402deb64-3e81-4bca-bd33-e6b6e15b6abe</webElementGuid>
+      <webElementGuid>134c4600-4c93-4951-bb38-e10d4d0d0cf6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Report'])[1]/preceding::h1[1]</value>
-      <webElementGuid>fcee8ce4-4346-4ffd-bafe-74573197d8bc</webElementGuid>
+      <webElementGuid>e52fde4e-e1de-45b5-8fc4-826e18afee5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::h1[1]</value>
-      <webElementGuid>39f6d112-bbe0-4217-9cf7-9440ad1d6d3a</webElementGuid>
+      <webElementGuid>6a8231dd-ce31-471e-8995-a12d98e45f2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Shareholders Report']/parent::*</value>
-      <webElementGuid>f732476c-093a-4d7d-826b-e5016c14bedf</webElementGuid>
+      <webElementGuid>79ddfa07-77c1-4379-a3e1-4a23b7ba8c98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>304d65bb-7959-4aa9-97ea-024c9889cccc</webElementGuid>
+      <webElementGuid>0f33adf5-5f97-41d7-988f-e336867ef8b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Shareholders Report' or . = 'Shareholders Report')]</value>
-      <webElementGuid>66504e05-8fd5-4af5-ab00-e57b2af56fd1</webElementGuid>
+      <webElementGuid>509dcefe-77c5-4dce-a434-afc32184c33e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

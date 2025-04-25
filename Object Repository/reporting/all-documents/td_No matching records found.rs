@@ -6,12 +6,12 @@
    <elementGuidId>eb9a23f3-c98e-4c37-9799-14ac8efd9760</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td.dataTables_empty</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//table[@id='DataTables_Table_0']/tbody/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.dataTables_empty</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=cell[name=&quot;No matching records found&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>ecc37e56-082a-41db-b0a1-1bea91881d75</webElementGuid>
+      <webElementGuid>a588bb8b-dce8-4bab-82f3-60d564e871dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>valign</name>
       <type>Main</type>
       <value>top</value>
-      <webElementGuid>c6a9070c-f120-4a18-975f-0d302a6874d4</webElementGuid>
+      <webElementGuid>2e55a27b-0c64-4acb-895e-8e734f82c720</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>colspan</name>
       <type>Main</type>
       <value>6</value>
-      <webElementGuid>b0b578da-974a-4405-a961-6123494ca526</webElementGuid>
+      <webElementGuid>dd4a9c6b-3fd1-452b-8936-cee388fac9f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>dataTables_empty</value>
-      <webElementGuid>58133646-e010-4476-bef5-8198be0f9089</webElementGuid>
+      <webElementGuid>f5349d69-cc0c-4c3a-950c-f58c2adab257</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>No matching records found</value>
-      <webElementGuid>4e225ab2-95ea-408d-840f-5a7a36f6a437</webElementGuid>
+      <webElementGuid>2fccec16-90a4-440f-b1a7-c53002d1b0b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;DataTables_Table_0&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;dataTables_empty&quot;]</value>
-      <webElementGuid>22786d35-ac27-4ac0-aeef-4866a695240d</webElementGuid>
+      <webElementGuid>4c1d39e5-869d-44aa-9a36-049286d95bae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='DataTables_Table_0']/tbody/tr/td</value>
-      <webElementGuid>e7a57dbf-05c8-487e-a3ba-d46c8327870c</webElementGuid>
+      <webElementGuid>addfff32-cfb8-477a-9795-a39c07c6cf3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[1]</value>
-      <webElementGuid>adb46046-748a-48ba-83c4-98a8224ad3ef</webElementGuid>
+      <webElementGuid>095f4a03-3848-4782-958d-c3d016aa5d99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[2]/following::td[1]</value>
-      <webElementGuid>6ca297ff-de54-4762-b710-c117372eaaa3</webElementGuid>
+      <webElementGuid>e81aa994-bc5f-400a-92ce-83dac5a2e312</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::td[1]</value>
-      <webElementGuid>d223c13d-9212-4236-a8a3-f12039a45dd3</webElementGuid>
+      <webElementGuid>4fd4a04b-32ac-4452-b716-f33849bd96d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='No matching records found']/parent::*</value>
-      <webElementGuid>574360c7-f6d1-4ae3-8cad-5c11eeacd69c</webElementGuid>
+      <webElementGuid>75c2b88b-7ba7-4ea6-ab7f-e7e6f3885e3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td</value>
-      <webElementGuid>0d33032c-e67c-45df-af06-712c0e17193a</webElementGuid>
+      <webElementGuid>80cb4971-56fd-4661-a137-019df560e2a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'No matching records found' or . = 'No matching records found')]</value>
-      <webElementGuid>edcacd36-6580-4fd5-b595-8d2b1a82ca45</webElementGuid>
+      <webElementGuid>a81b897a-d99b-4be9-8d20-81e25d59fa86</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

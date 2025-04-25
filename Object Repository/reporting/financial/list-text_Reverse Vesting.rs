@@ -6,12 +6,12 @@
    <elementGuidId>d830ff45-c051-4f5e-9650-f89b6a461eba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.report-guidelines > ul > li:nth-of-type(4)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div/div/ul/li[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.report-guidelines > ul > li:nth-of-type(4)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:text=&quot;Reverse Vesting: List any reverse vesting events within the date range.&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>5fa5ca4b-2adc-4c97-b699-3f3f820cea88</webElementGuid>
+      <webElementGuid>d204127f-4d50-4cbb-9022-da0bc2295c95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Reverse Vesting: List any reverse vesting events within the date range.</value>
-      <webElementGuid>d48a529e-9755-457e-ad5c-80799a5828a1</webElementGuid>
+      <webElementGuid>cbe56ea6-06b9-4191-bb36-1668c3b2935a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;report-guidelines&quot;]/ul[1]/li[4]</value>
-      <webElementGuid>f611f460-a4d9-4716-bf84-744ecc73d945</webElementGuid>
+      <webElementGuid>849a5b46-5d71-47c2-ab11-c042d4e490a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div/div/ul/li[4]</value>
-      <webElementGuid>3155ef10-0dff-4089-9a40-cb2e4041d1f0</webElementGuid>
+      <webElementGuid>4dd8e016-7816-4d50-8e7b-046109ee44d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Options Exercised:'])[1]/following::li[1]</value>
-      <webElementGuid>89e683ec-2bc6-4deb-840d-d7c12d313567</webElementGuid>
+      <webElementGuid>4cdccdd2-8d8f-40cf-b30f-7cb4653a1621</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='List any reverse vesting events within the date range.']/parent::*</value>
-      <webElementGuid>c065e278-e8c6-4c53-b1c3-43be95ebacd2</webElementGuid>
+      <webElementGuid>54d80a73-9bcd-438a-8ef7-c8d23dedf876</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/ul/li[4]</value>
-      <webElementGuid>e4719cbf-a905-4ecc-9721-2ef5b16b81fd</webElementGuid>
+      <webElementGuid>68949cb6-edf8-45d3-878d-c5547aabb648</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Reverse Vesting: List any reverse vesting events within the date range.' or . = 'Reverse Vesting: List any reverse vesting events within the date range.')]</value>
-      <webElementGuid>fda1f0dc-42c4-4ba5-8bf6-d04524525131</webElementGuid>
+      <webElementGuid>b5ac7549-f3ba-45d8-b402-ff858316137c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

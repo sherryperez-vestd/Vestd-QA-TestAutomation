@@ -6,12 +6,12 @@
    <elementGuidId>6a02ed09-80b3-43da-8fc0-c033e743d463</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.v-popper__inner</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='popper_j5in5tc8_ylk37f']/div[2]/div</value>
+         <key>CSS</key>
+         <value>div.v-popper__inner</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>6a86514e-7f1a-4799-9fe7-25d6a55c6a5b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1.mr-2.mb-4</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.mr-2.mb-4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;RSAs&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>791b2239-d136-48f4-8f04-0f5bac5825b6</webElementGuid>
+      <webElementGuid>d816b6e1-fe72-4bc2-8aa0-50ec1012ff22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-2 mb-4</value>
-      <webElementGuid>215b295a-e3a3-424a-b308-8e6e9fd0d04b</webElementGuid>
+      <webElementGuid>9f802354-afa9-4447-9645-34f6fea3909e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>RSAs</value>
-      <webElementGuid>8409cbca-1812-4cf7-b353-25065c2e8979</webElementGuid>
+      <webElementGuid>34776ea0-e017-4ec5-a7ec-2cf981584a6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;d-lg-flex justify-content-between&quot;]/div[@class=&quot;d-lg-flex align-items-baseline&quot;]/h1[@class=&quot;mr-2 mb-4&quot;]</value>
-      <webElementGuid>ebba0219-1eeb-4cf1-8e6b-61f6c6d5c169</webElementGuid>
+      <webElementGuid>b252480c-805a-4d9c-a09a-99f32ba7d1d3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/h1</value>
-      <webElementGuid>a989c420-d32f-42c4-b9fe-1e48126249f1</webElementGuid>
+      <webElementGuid>f3443873-e4c0-4c00-82c0-4ade2a52d87c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>d3de6b71-c103-4d8d-b846-159b9fd19671</webElementGuid>
+      <webElementGuid>6b2599fd-6c12-413c-9d8d-cb3ce7e5a019</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>1717fa56-98e1-430b-841e-c34ce7d1a68c</webElementGuid>
+      <webElementGuid>3879c130-76eb-4b1b-8482-88d8db5be8c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Staff actions'])[1]/preceding::h1[1]</value>
-      <webElementGuid>7840c54e-44a9-44c6-aac6-d8fc3bb4b027</webElementGuid>
+      <webElementGuid>ac016a2b-6891-404c-a2ef-8d9ea485091a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulk upload EMI options'])[1]/preceding::h1[1]</value>
-      <webElementGuid>942939fe-fed9-46d9-b6d0-cda80c9d44d0</webElementGuid>
+      <webElementGuid>3e29509a-2a1e-4406-8db6-521d603ba284</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>3a6cf87f-8d35-4041-b3ba-043e61ec958e</webElementGuid>
+      <webElementGuid>784c5ec0-88e1-41d2-97d6-cd3482da3a34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'RSAs' or . = 'RSAs')]</value>
-      <webElementGuid>8f381cc5-82a2-42ee-99a2-67f4962fd15f</webElementGuid>
+      <webElementGuid>11a6318e-9968-409a-b4cf-2b89fbf9aa3a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

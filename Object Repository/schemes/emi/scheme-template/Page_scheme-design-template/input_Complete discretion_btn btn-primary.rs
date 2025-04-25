@@ -10,6 +10,10 @@
          <value>input.btn.btn-primary</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@value='Save']</value>
       </entry>
@@ -21,7 +25,7 @@
          <value>internal:role=button[name=&quot;Save&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9eb87f64-acd2-4619-91be-39a578c91b51</webElementGuid>
+      <webElementGuid>d7478b60-10b5-4abf-baa6-62fa729693b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>e6df9472-a395-4fa9-be3b-1e1b0969762f</webElementGuid>
+      <webElementGuid>726bb383-8387-42ce-b5ce-6acb34b71e48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>d3131660-ceb9-4e9c-a811-47e967d40275</webElementGuid>
+      <webElementGuid>a2675206-357c-427c-a62a-8ea5ac6e6c8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>74b8afbd-4f77-4ae7-a4d2-fb84edcbf671</webElementGuid>
+      <webElementGuid>7b299c44-5869-4976-9513-3c8103921eed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-lg-10&quot;]/form[1]/div[@class=&quot;form-group mb-0&quot;]/input[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>efff2462-bbd3-4530-94b9-e4d4c532dca3</webElementGuid>
+      <webElementGuid>1a436a31-217e-45c3-8bad-f57becdedad1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Save']</value>
-      <webElementGuid>1d0c7bd7-39b4-4cc8-bc48-d3ab2585ef3a</webElementGuid>
+      <webElementGuid>26c72487-5592-49f8-b77c-ab431fc627b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/form/div[3]/input</value>
-      <webElementGuid>0e451d6b-3ea0-40a4-923f-c283a035bfa1</webElementGuid>
+      <webElementGuid>61ed5a2d-7aeb-468f-9c1d-70551dd633ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/input</value>
-      <webElementGuid>4f2eaf12-f73a-405d-9cfe-b421e961189d</webElementGuid>
+      <webElementGuid>45b1a923-3d7e-40b2-aa51-59cdcf3240ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit']</value>
-      <webElementGuid>1af483a7-7d82-4a00-8a48-96db8b48ab05</webElementGuid>
+      <webElementGuid>484aecd1-972e-4f99-ae9c-13955343617e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

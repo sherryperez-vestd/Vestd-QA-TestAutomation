@@ -6,12 +6,12 @@
    <elementGuidId>d104eca5-0e51-482e-9903-b7e21077fc79</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.mb-0 > li:nth-of-type(2)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/ul/li[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.mb-0 > li:nth-of-type(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>li >> internal:has-text=&quot;The to date must be a date after or equal to from date.&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>71f27290-8e48-4d6b-9876-bd8087a2e76a</webElementGuid>
+      <webElementGuid>6fa0095c-fad1-4a06-8e13-e55605a926d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>The to date must be a date after or equal to from date.</value>
-      <webElementGuid>69781815-91c0-4c73-8862-69ae128966da</webElementGuid>
+      <webElementGuid>7c0ea875-6bd1-49dd-8318-0a2c64c74eba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;alert alert-danger&quot;]/ul[@class=&quot;mb-0&quot;]/li[2]</value>
-      <webElementGuid>3c536851-cb3e-45e3-b8a8-03f6da3b56a5</webElementGuid>
+      <webElementGuid>ff1ac5f9-82c3-4469-afb2-9eb14cc3916b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/ul/li[2]</value>
-      <webElementGuid>16c9b01e-2bc4-4fc8-a1a3-45da829f7630</webElementGuid>
+      <webElementGuid>5d7bf2f0-15d3-4c67-a85c-c496fdb9be0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='The from date must be a date before or equal to today.'])[1]/following::li[1]</value>
-      <webElementGuid>013a622a-d25e-4e88-88de-3826f58ce9d3</webElementGuid>
+      <webElementGuid>d2703674-a4a0-485b-9435-152aeb72143a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Financial Report'])[1]/following::li[2]</value>
-      <webElementGuid>a5c2e640-3277-4bfd-bd9b-a34104a3bd22</webElementGuid>
+      <webElementGuid>9e9a308f-74b6-4b85-aa70-b898b192c332</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='From Date'])[1]/preceding::li[1]</value>
-      <webElementGuid>b1b2c6d9-cb9e-4fd8-a734-1c3055ec4f59</webElementGuid>
+      <webElementGuid>6b88094f-157d-4fdf-bb0c-667864b4fc62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='The to date must be a date after or equal to from date.']/parent::*</value>
-      <webElementGuid>d0853f93-5777-4be9-9e33-ebf4ced5a3d4</webElementGuid>
+      <webElementGuid>882d607b-7af1-4195-9242-1d910b9458f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/ul/li[2]</value>
-      <webElementGuid>6a953f1d-fec8-48aa-9505-7121189a926e</webElementGuid>
+      <webElementGuid>16791cf7-77a1-40db-90ce-c123af6c15cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'The to date must be a date after or equal to from date.' or . = 'The to date must be a date after or equal to from date.')]</value>
-      <webElementGuid>5141b8c9-9262-4cc6-8884-0f24d1885f6a</webElementGuid>
+      <webElementGuid>6cd90507-513f-4c45-8ee2-24c680bf6922</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

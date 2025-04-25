@@ -10,6 +10,10 @@
          <value>#document_template_id</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'document_template_id' and @name = 'document_template_id' and (text() = 'Please selectDefault Vestd agreement' or . = 'Please selectDefault Vestd agreement')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='document_template_id']</value>
       </entry>
@@ -21,7 +25,7 @@
          <value>internal:label=&quot;Document template&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>0e0110d4-f81f-4ad8-b4ae-eb3f92d7c2fc</webElementGuid>
+      <webElementGuid>2499863a-4807-415c-ae26-0d39c0446d65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>5d2a1dd2-fcbe-4755-930e-dc4efd4c4008</webElementGuid>
+      <webElementGuid>2021ae54-d0cf-4a38-9be8-5b95ebe4523e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>document_template_id</value>
-      <webElementGuid>4abfae60-b64b-4fbd-900b-d09dce170ac9</webElementGuid>
+      <webElementGuid>a7c220ee-0fe8-47f8-b17c-dc8b626388f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>document_template_id</value>
-      <webElementGuid>110d0f11-10d8-42a7-9a3b-f5eb9b5cd4bd</webElementGuid>
+      <webElementGuid>70342cc0-28e8-4424-8d5a-06bf2fcd63d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Please selectDefault Vestd agreement</value>
-      <webElementGuid>88f996d8-8c21-415e-81aa-7f06a04b3a16</webElementGuid>
+      <webElementGuid>212ae5fb-d68b-47ef-8397-8c26766a187a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;document_template_id&quot;)</value>
-      <webElementGuid>05ed2fc8-40f9-4ce6-bf06-5558cdf9a140</webElementGuid>
+      <webElementGuid>4404e803-5090-47e7-95e3-69df510ac1cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='document_template_id']</value>
-      <webElementGuid>f5f6cb3d-83b1-48d5-b404-7d5cb05a6d5f</webElementGuid>
+      <webElementGuid>66c2592d-6ef5-4e64-91e8-651501a8f91d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/form/div[2]/select</value>
-      <webElementGuid>8780d59c-6835-40c6-8b50-27657957f553</webElementGuid>
+      <webElementGuid>344194e5-cedf-47fe-bd00-5d90e2cf52a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Document template'])[1]/following::select[1]</value>
-      <webElementGuid>05a2eff1-1456-47e9-9245-c98179ddd023</webElementGuid>
+      <webElementGuid>664e372a-2a80-4cba-a5a6-09c08ad79bd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reference'])[1]/following::select[1]</value>
-      <webElementGuid>9f3b9b2f-6d54-40a9-97fb-f0db2a52b7b6</webElementGuid>
+      <webElementGuid>c2cc5eb4-c8bc-48be-a9b5-5fd84942a36d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share conditions'])[1]/preceding::select[1]</value>
-      <webElementGuid>c68ae900-d87c-4cf9-b4c2-23fd0014c8b9</webElementGuid>
+      <webElementGuid>97f4734f-8536-404a-9189-6ba52063ce2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exercise price'])[1]/preceding::select[1]</value>
-      <webElementGuid>96098441-adc0-4eee-8721-b89f9d40e802</webElementGuid>
+      <webElementGuid>d3e73e0e-b58b-43bd-b046-090c989a6ad9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>55ce3f22-5302-4e0b-9355-d50d5ae6e4e2</webElementGuid>
+      <webElementGuid>93ef768d-a234-4541-9f50-6d73f5c5b158</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'document_template_id' and @name = 'document_template_id' and (text() = 'Please selectDefault Vestd agreement' or . = 'Please selectDefault Vestd agreement')]</value>
-      <webElementGuid>ffbc4e11-86a1-4ab2-949b-103d9c36b2f9</webElementGuid>
+      <webElementGuid>9cd9fb5f-0358-4306-bf4e-8afe5c2b1417</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

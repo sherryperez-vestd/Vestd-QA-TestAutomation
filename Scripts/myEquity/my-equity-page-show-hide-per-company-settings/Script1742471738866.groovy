@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], Failure
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/show-hide-settings/label_Hide My Equity calculator and graph'), 
+WebUI.verifyElementPresent(findTestObject('my-equity-page/show-hide-settings/label_Hide My Equity calculator and graph2'), 
     0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/show-hide-settings/label_Hide My Equity calculator and graph2'), 

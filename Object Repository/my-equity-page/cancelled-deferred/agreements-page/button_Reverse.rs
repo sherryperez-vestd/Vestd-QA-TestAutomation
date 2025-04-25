@@ -6,12 +6,12 @@
    <elementGuidId>4229a868-85e2-451a-9722-12afc759d5a4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='submit'])[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>td:nth-of-type(4) > form > button.btn.btn-outline-admin.btn-sm</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Reverse&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>34429099-f2f3-493a-bf43-be723488308e</webElementGuid>
+      <webElementGuid>e922206f-7f71-4c57-b944-d09efe56bcdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>fb716573-fbb8-47be-8f86-74cbb6c495d9</webElementGuid>
+      <webElementGuid>8834bc21-f2ab-48f9-815e-665d62f22581</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-outline-admin btn-sm</value>
-      <webElementGuid>f496a5f6-7977-425b-8265-529109438843</webElementGuid>
+      <webElementGuid>1444f1b9-88c1-4853-af69-80c0a93b694d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>return confirm(&quot;Confirm?&quot;)</value>
-      <webElementGuid>2b1177ab-293e-405b-840a-30355f73bb19</webElementGuid>
+      <webElementGuid>517d2aca-11af-4482-9731-ab657a6b056c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Reverse</value>
-      <webElementGuid>888991c4-de16-4a0f-b5fe-5f339e99683d</webElementGuid>
+      <webElementGuid>2eff51cc-2285-45e7-97fb-ec653106340a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8&quot;]/div[@class=&quot;card mt-4 border-admin&quot;]/div[@class=&quot;card-body bg-light&quot;]/table[@class=&quot;table table-sm&quot;]/tbody[1]/tr[2]/td[4]/form[1]/button[@class=&quot;btn btn-outline-admin btn-sm&quot;]</value>
-      <webElementGuid>cdf069a6-1891-481e-9d71-c9f736106f6b</webElementGuid>
+      <webElementGuid>a344d2df-3d61-4b3d-ac28-d56178a45f74</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='submit'])[3]</value>
-      <webElementGuid>00b9d0ef-2486-4a6e-949a-caa7252e2fd7</webElementGuid>
+      <webElementGuid>f6e553b8-a534-4e95-ae37-56d49b0f2d29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/div[5]/div/table[2]/tbody/tr[2]/td[4]/form/button</value>
-      <webElementGuid>8f524503-e5d2-4994-bf2f-6129dabfeb52</webElementGuid>
+      <webElementGuid>df544fb1-e862-430e-9268-eb06eaad73f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Discretion'])[1]/following::button[1]</value>
-      <webElementGuid>742823ab-ce44-4be3-ae55-443ac91f957b</webElementGuid>
+      <webElementGuid>4e907ddc-c181-4dcd-a11d-8d19e24b8835</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reason'])[2]/following::button[1]</value>
-      <webElementGuid>f46e56a9-c8e8-4fd0-8da7-b7f46f039d0d</webElementGuid>
+      <webElementGuid>20b14ab9-6ddc-485e-a2ab-ac947408140c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reverse vesting'])[1]/preceding::button[1]</value>
-      <webElementGuid>5d82f245-fb6e-4395-8480-339a6a2ba9aa</webElementGuid>
+      <webElementGuid>1ac4eb9f-ff87-48e8-b5fb-1eb7d937fcde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Number to reverse vest'])[1]/preceding::button[1]</value>
-      <webElementGuid>5a32d12d-70de-4375-9df4-652d883214c2</webElementGuid>
+      <webElementGuid>b66baf36-a381-4ced-8422-a143cb2b3d08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Reverse']/parent::*</value>
-      <webElementGuid>5f7047f1-ab24-4104-abef-7d3970b80559</webElementGuid>
+      <webElementGuid>1c6e8744-f099-4cde-b1cc-b5d640400d6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]/form/button</value>
-      <webElementGuid>1e922f8e-f625-4381-af22-f42ee2afa312</webElementGuid>
+      <webElementGuid>2ea2943e-7556-4122-9daf-3761451fe28e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Reverse' or . = 'Reverse')]</value>
-      <webElementGuid>6f2c5de6-bb48-4162-87d4-2b15f0e4b404</webElementGuid>
+      <webElementGuid>b9373e52-673e-426a-b614-c225da73e7b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>c3421a55-6bd9-4089-932a-bc40dc872435</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.report-guidelines > ul > li:nth-of-type(5)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div/div/ul/li[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.report-guidelines > ul > li:nth-of-type(5)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:text=&quot;Leavers Processed: Review leavers whose options were processed during the select&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>f77239ba-cdb6-4291-a50d-1297fccfb5fd</webElementGuid>
+      <webElementGuid>436566da-0099-4840-8a70-3e4b38e117be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Leavers Processed: Review leavers whose options were processed during the selected period.</value>
-      <webElementGuid>d39d0f5a-ec90-468b-9fc3-97ea33525a90</webElementGuid>
+      <webElementGuid>018a0b81-caff-42a3-9234-01625f7d0d22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;report-guidelines&quot;]/ul[1]/li[5]</value>
-      <webElementGuid>bfc8bb45-c21b-443c-b195-1bb525fdd0d7</webElementGuid>
+      <webElementGuid>da016694-55a9-48e5-9f8b-a98f939f81ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div/div/ul/li[5]</value>
-      <webElementGuid>ca875f7c-f162-4f18-bdae-d2ac1e8269eb</webElementGuid>
+      <webElementGuid>388ba5ee-4ba6-4064-882f-3d3829b522d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reverse Vesting:'])[1]/following::li[1]</value>
-      <webElementGuid>9cce714a-2e8f-4403-9ebe-0f23d0b7b146</webElementGuid>
+      <webElementGuid>3e7f7a66-fe66-4993-b553-dcdaf68201a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Review leavers whose options were processed during the selected period.']/parent::*</value>
-      <webElementGuid>e2f0b8e8-3692-4b9c-9cc0-8edb6cd520b3</webElementGuid>
+      <webElementGuid>15ca1258-9ded-448c-a029-f3f905e1bdfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/ul/li[5]</value>
-      <webElementGuid>601ec9b8-90b6-4698-aaff-68a3a08abaf6</webElementGuid>
+      <webElementGuid>3c5493c3-ea82-44fd-b260-f3c16ed31b6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Leavers Processed: Review leavers whose options were processed during the selected period.' or . = 'Leavers Processed: Review leavers whose options were processed during the selected period.')]</value>
-      <webElementGuid>c7568ab5-a976-4c0d-a45d-4c98ffbdc62e</webElementGuid>
+      <webElementGuid>d602ca82-dd1b-4ba6-b12d-0401e04bea84</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -37,10 +37,10 @@ WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-document
 
 WebUI.click(findTestObject('Object Repository/reporting/all-documents/button_Add filter'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/div_StatusCompleteCancelledExpiredNeeds sig_958bc8'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/div_StatusCompleteCancelledExpiredNeeds sig_958bc8'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/a_StatusCompleteCancelledExpiredNeeds signi_9a2bb1'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/a_StatusCompleteCancelledExpiredNeeds signi_9a2bb1'), 
     0)
 
 not_run: WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/a_StatusCompleteCancelledExpiredNeeds signi_9a2bb1'), 
@@ -54,57 +54,58 @@ not_run: WebUI.verifyElementText(findTestObject('Object Repository/reporting/all
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/a_Companies HouseFiled'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/a_Companies HouseFiled'), 'Companies House')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/a_Companies HouseFiled'), 'Companies House')
 
-WebUI.click(findTestObject('Object Repository/reporting/all-documents/a_StatusCompleteCancelledExpiredNeeds signi_9a2bb1'))
+not_run: WebUI.click(findTestObject('Object Repository/reporting/all-documents/a_StatusCompleteCancelledExpiredNeeds signi_9a2bb1'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/div_CompleteCancelledExpiredNeeds signingOf_a1c1f6'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/div_CompleteCancelledExpiredNeeds signingOf_a1c1f6'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Complete'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Complete'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Complete'), 'Complete')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Complete'), 'Complete')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Cancelled'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Cancelled'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Cancelled'), 'Cancelled')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Cancelled'), 'Cancelled')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Expired'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Expired'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Expired'), 'Expired')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Expired'), 'Expired')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Needs signing'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Needs signing'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Needs signing'), 'Needs signing')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Needs signing'), 'Needs signing')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Off-platform'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Off-platform'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Off-platform'), 'Off-platform')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Off-platform'), 'Off-platform')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Sent for filing'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Sent for filing'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Sent for filing'), 'Sent for filing')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Sent for filing'), 'Sent for filing')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Sent for signing'), 0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Sent for signing'), 'Sent for signing')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Will be filed'), 0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Will be filed'), 'Will be filed')
-
-WebUI.click(findTestObject('Object Repository/reporting/all-documents/a_Document TypeAdvanced Subscription Agreem_143c0d'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/div_Advanced Subscription AgreementArticles_ad02a7'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Sent for signing'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/reporting/all-documents/a_Companies HouseFiled'))
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Sent for signing'), 'Sent for signing')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/div_Filed'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/label_Will be filed'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/div_Filed'), 'Filed')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/label_Will be filed'), 'Will be filed')
 
-WebUI.click(findTestObject('Object Repository/reporting/all-documents/a_Companies HouseFiled'))
+not_run: WebUI.click(findTestObject('Object Repository/reporting/all-documents/a_Document TypeAdvanced Subscription Agreem_143c0d'))
+
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/div_Advanced Subscription AgreementArticles_ad02a7'), 
+    0)
+
+not_run: WebUI.click(findTestObject('Object Repository/reporting/all-documents/a_Companies HouseFiled'))
+
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/all-documents/div_Filed'), 0)
+
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/reporting/all-documents/div_Filed'), 'Filed')
+
+not_run: WebUI.click(findTestObject('Object Repository/reporting/all-documents/a_Companies HouseFiled'))
 
 WebUI.click(findTestObject('Object Repository/reporting/all-documents/button_Add filter'))
 

@@ -6,11 +6,11 @@
    <elementGuidId>221d1bed-434d-421e-bfdf-3e00da2c70e9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div[2]/div/p/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,7 +20,7 @@
          <value>internal:text=&quot;Fetch records up to this date&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e0743d6b-5104-4610-91d3-cdc1337cc71f</webElementGuid>
+      <webElementGuid>9eab1411-c29c-471d-afcb-4908c529b5cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +36,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Fetch records up to this date</value>
-      <webElementGuid>50c6a395-6c0f-4860-a47a-772056c2fdc6</webElementGuid>
+      <webElementGuid>f7fa3a13-32c7-402c-8014-a9b8f791fd40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/form[1]/fieldset[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;form-group&quot;]/p[@class=&quot;form-text&quot;]/span[1]</value>
-      <webElementGuid>f17dd2b1-ef55-4a47-9986-c6117327a69d</webElementGuid>
+      <webElementGuid>e44e32e6-e651-4258-9d3d-b89a3f3a239b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -52,7 +52,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div[2]/div/p/span</value>
-      <webElementGuid>83f58be2-1e05-4360-b4d7-eec2a4129cf1</webElementGuid>
+      <webElementGuid>67c6f617-ad63-45ff-ae41-076ba4d590b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Report'])[1]/preceding::span[1]</value>
-      <webElementGuid>d7ff839e-c278-4c18-98e3-c32f03dd363d</webElementGuid>
+      <webElementGuid>f6110929-c65c-405d-8f9d-577e4d3cb1cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Information provided in the report:'])[1]/preceding::span[1]</value>
-      <webElementGuid>6a58732b-e7dc-47c0-96d3-95cff9ffae7a</webElementGuid>
+      <webElementGuid>4e1cb4d7-5919-4ad6-90df-683476f285dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Fetch records up to this date']/parent::*</value>
-      <webElementGuid>1326f627-c426-48fa-be15-88b85ca39836</webElementGuid>
+      <webElementGuid>b9b32b2f-4c35-4463-ac2f-b9ba084fbb7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/p/span</value>
-      <webElementGuid>50752b13-2482-4b25-a2e5-c1b974b91c02</webElementGuid>
+      <webElementGuid>493e2b97-f561-426e-b02b-db9cd90cbe6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +92,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Fetch records up to this date' or . = 'Fetch records up to this date')]</value>
-      <webElementGuid>78dd89f1-2b3e-4d5a-b794-814122c0fc6b</webElementGuid>
+      <webElementGuid>9ba67905-f1d3-4c4b-95d8-6654dab32fe4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

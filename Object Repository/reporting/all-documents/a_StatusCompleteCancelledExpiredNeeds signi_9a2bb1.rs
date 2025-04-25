@@ -10,11 +10,15 @@
          <value>a.dropdown-item.dropdown-toggle.child-filters</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'javascript:void(0)' and @class = 'dropdown-item dropdown-toggle child-filters']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='multi-dropdown-menu']/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,12 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b7ff2fa1-87e3-45e8-b391-86ecbe34a454</webElementGuid>
+      <webElementGuid>55f430d9-33df-468b-97cf-7007808ae144</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,23 +41,23 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:void(0)</value>
-      <webElementGuid>99c895ff-1d2d-4497-9135-874954cfc1fb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>dropdown-item dropdown-toggle child-filters</value>
-      <webElementGuid>53c7faee-d28a-4cd0-a7cd-253faf72def8</webElementGuid>
+      <webElementGuid>738d8f91-baa1-4cbd-a2c2-d1a347072c7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item dropdown-toggle child-filters</value>
+      <webElementGuid>f68fff26-bfaf-48d4-ba30-e76c9f16e46b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>StatusCompleteCancelledExpiredNeeds signingOff-platformSent for filingSent for signingWill be filed</value>
-      <webElementGuid>fe34e1ac-38a5-4302-8bee-47270ed6640b</webElementGuid>
+      <webElementGuid>412197d8-1408-4257-b75b-1bf0e5d8a648</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;multi-dropdown-menu&quot;)/a[@class=&quot;dropdown-item dropdown-toggle child-filters&quot;]</value>
-      <webElementGuid>6fb206ff-b1c7-475e-b160-1775bf8de6bd</webElementGuid>
+      <webElementGuid>0597fcf9-a93a-45b6-8755-a12bfa4b3a5d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='multi-dropdown-menu']/a</value>
-      <webElementGuid>43d0d750-ebd9-4508-b7ad-2f79b0312d65</webElementGuid>
+      <webElementGuid>14df3ed0-c1ea-4729-8962-9d9823fa6d8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add filter'])[1]/following::a[1]</value>
-      <webElementGuid>02527ac9-b920-4159-a92a-77d42cfecddc</webElementGuid>
+      <webElementGuid>440f702c-b535-46bb-8edb-dfaa67cb8cb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'javascript:void(0)')]</value>
-      <webElementGuid>ad3f16d5-9182-430d-ac3c-6e6236ff8f90</webElementGuid>
+      <webElementGuid>019e83d6-de9f-4dc1-9741-4833f673cb5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/a</value>
-      <webElementGuid>c76376de-ff32-499b-afad-706e8525f921</webElementGuid>
+      <webElementGuid>7c666b31-df9a-4f80-a509-be04a4756425</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'javascript:void(0)' and (text() = 'StatusCompleteCancelledExpiredNeeds signingOff-platformSent for filingSent for signingWill be filed' or . = 'StatusCompleteCancelledExpiredNeeds signingOff-platformSent for filingSent for signingWill be filed')]</value>
-      <webElementGuid>1f45f019-16fd-486e-99bf-f6fbd84d08f4</webElementGuid>
+      <webElementGuid>ec0b09e2-aaac-485e-bb0c-9943a7438a12</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

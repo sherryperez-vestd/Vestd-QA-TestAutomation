@@ -6,12 +6,12 @@
    <elementGuidId>dd7e61d8-d94d-437c-9ad5-60417fd7ca51</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;EMI initial notifications to HMRC&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>9b164963-21c9-4e2a-ad50-9255418e3381</webElementGuid>
+      <webElementGuid>f2103746-bc9a-4e0b-80dd-31f52edbbe98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>EMI initial notifications to HMRC</value>
-      <webElementGuid>9e6176b3-5e4f-4061-8adb-c0e13d3384e4</webElementGuid>
+      <webElementGuid>abf241f5-426a-40f9-8ed0-e39cbc3b67e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>fb4493ea-8d8d-4677-a11a-f29202c01678</webElementGuid>
+      <webElementGuid>c9c53890-5372-48e2-af0b-4727dac6e84f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>5b1a2970-b72d-4161-8485-aeb09b176b2a</webElementGuid>
+      <webElementGuid>cc9ccd03-ebf6-4619-9384-f62427d120c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt; back to the options'])[1]/following::h1[1]</value>
-      <webElementGuid>1dc04e3f-9e90-4a8d-b7d8-3c8b2bcab026</webElementGuid>
+      <webElementGuid>fa57cb30-c773-43d2-bfbf-30b19c6b80fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>3e0c6f25-194e-4988-81ee-5ccf111c4c63</webElementGuid>
+      <webElementGuid>c5884d3c-0fd3-4e24-9f69-94038506e2c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='registered an EMI scheme'])[1]/preceding::h1[1]</value>
-      <webElementGuid>f331c822-ca49-4a95-95eb-72bf93875d78</webElementGuid>
+      <webElementGuid>4e832f05-5103-413f-a9c3-e84905b1ae72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='EMI initial notifications to HMRC']/parent::*</value>
-      <webElementGuid>ee604cd4-f040-4689-8a81-ceafbd302d87</webElementGuid>
+      <webElementGuid>01f04fe2-c145-487e-b234-d1ee85890406</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>d323e9bc-d8f4-430e-a2e4-3493d763361b</webElementGuid>
+      <webElementGuid>051d6579-6968-49bb-b841-98dab4cf3cc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'EMI initial notifications to HMRC' or . = 'EMI initial notifications to HMRC')]</value>
-      <webElementGuid>4c4987bd-49b3-474b-b84f-793c014f962e</webElementGuid>
+      <webElementGuid>326c17cf-ff38-4ba1-8149-670b9d4f2cd4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

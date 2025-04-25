@@ -6,12 +6,12 @@
    <elementGuidId>ede3ec60-d235-47a1-a8bc-2af770414d28</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.row.justify-content-md-center</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.justify-content-md-center</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>#main-content-wrapper div >> internal:has-text=&quot;Source Please selectInvestment roundAccountant valuationDebt roundSelf valuation&quot;i >> nth=2</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1a5c1aee-ce05-400c-a20d-3937d1785fea</webElementGuid>
+      <webElementGuid>f2a03896-ba9e-4dd7-8904-048069793ab7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row justify-content-md-center</value>
-      <webElementGuid>7360ba6b-612a-415a-bf3c-559d3a492917</webElementGuid>
+      <webElementGuid>99b343c2-568a-4e57-b425-20b5df5e1136</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
         Provide an optional commentary to give context to this valuation.
         This will be displayed as an explanation for the valuation to all option holders.
      Who do you want to notify about this valuation? Email all shareholders Email all option holders Sample email  Save</value>
-      <webElementGuid>93eb2ef1-011e-44af-8fb3-f878ff24271d</webElementGuid>
+      <webElementGuid>1fa8e3a9-abdc-4718-8723-94b5e8413917</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]</value>
-      <webElementGuid>51b8ef25-54b5-4e7e-ad15-95b64139d2a3</webElementGuid>
+      <webElementGuid>259b413d-ee6a-49ef-9430-0cf960d6e141</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div</value>
-      <webElementGuid>819af638-fadb-40d2-86c1-0304fd4e67dc</webElementGuid>
+      <webElementGuid>c966b890-2b15-4ca1-8bcc-a0e10ac48eee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Record a new company valuation'])[1]/following::div[1]</value>
-      <webElementGuid>2c7e02a8-4aa5-4bec-8a21-1669cf3c8a3b</webElementGuid>
+      <webElementGuid>c383f43b-c5d3-408e-a1a5-525e52d27613</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company settings'])[1]/following::div[6]</value>
-      <webElementGuid>e96d8af7-93ae-4820-a88f-36748829f33a</webElementGuid>
+      <webElementGuid>02548477-39be-44cd-a391-747288612904</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div</value>
-      <webElementGuid>92941708-fef9-4ffc-895f-6ca471c791e8</webElementGuid>
+      <webElementGuid>be046554-d231-4521-869f-975300d5e6b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
         Provide an optional commentary to give context to this valuation.
         This will be displayed as an explanation for the valuation to all option holders.
      Who do you want to notify about this valuation? Email all shareholders Email all option holders Sample email  Save&quot;))]</value>
-      <webElementGuid>eda299ae-a499-41b2-b3df-3031a83c3a52</webElementGuid>
+      <webElementGuid>b10d0762-b300-4643-b64c-772a6ad87a24</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

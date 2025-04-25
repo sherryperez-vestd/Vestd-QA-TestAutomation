@@ -10,6 +10,10 @@
          <value>#grant_on_accept</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'grant_on_accept' and @name = 'grant_on_accept' and (text() = 'Grant all options on a specified date Grant as each option is accepted Grant the day before the valuation expires' or . = 'Grant all options on a specified date Grant as each option is accepted Grant the day before the valuation expires')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='grant_on_accept']</value>
       </entry>
@@ -21,7 +25,7 @@
          <value>internal:label=&quot;When should the options be granted?&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>712e85f9-aa0e-46b6-b6b8-3eb4f1ed4926</webElementGuid>
+      <webElementGuid>0475501b-6e5f-4a6c-ba3a-14332f4e60c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>ded39912-1a47-47bc-a578-a01ed5d53859</webElementGuid>
+      <webElementGuid>fb050017-c8b0-42dc-b461-05c69257e3eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>grant_on_accept</value>
-      <webElementGuid>757b653b-e73a-4d71-9191-805f8ae86122</webElementGuid>
+      <webElementGuid>8a19a853-ad04-4bc9-ba8d-27f169d91424</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>grant_on_accept</value>
-      <webElementGuid>ccceb00f-2930-4b4b-a56c-7f7666bfd92f</webElementGuid>
+      <webElementGuid>6b3b6d3c-b24c-4aee-a5cc-51bd3a249eb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Grant all options on a specified date Grant as each option is accepted Grant the day before the valuation expires</value>
-      <webElementGuid>4d01363a-ee9f-416d-9c9a-a90573058164</webElementGuid>
+      <webElementGuid>e3fa494d-915c-4ee0-80e3-60f7413a0bef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;grant_on_accept&quot;)</value>
-      <webElementGuid>1805303e-2bcc-405c-8910-2e9328fad321</webElementGuid>
+      <webElementGuid>6164b3f2-7228-4ac5-960f-eef6b21cdc3d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='grant_on_accept']</value>
-      <webElementGuid>f670c178-ae52-4ef9-9ba0-80f9242032a4</webElementGuid>
+      <webElementGuid>8d1942ad-0082-4b80-880c-9c4a571c0db7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/form/fieldset[3]/div/select</value>
-      <webElementGuid>45daeac1-4c2a-4ad8-a9f0-a894fc05b1ec</webElementGuid>
+      <webElementGuid>486b5239-ca36-41a7-839f-4bde4f587155</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='When should the options be granted?'])[1]/following::select[1]</value>
-      <webElementGuid>3d1674da-ea28-43ca-b51a-ce8189aac2a3</webElementGuid>
+      <webElementGuid>d8b596f7-c383-4b29-ae43-cdbddf2b932c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grant dates'])[1]/following::select[1]</value>
-      <webElementGuid>6c0d8f87-b07d-421c-af1a-015da5c008df</webElementGuid>
+      <webElementGuid>a7df00c7-95c3-44a1-940f-46db12264ded</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BADR'])[1]/preceding::select[1]</value>
-      <webElementGuid>86bfc3e6-8ec5-49bf-bd0b-9066f852f7e4</webElementGuid>
+      <webElementGuid>347aa210-5000-4f4d-b10d-d01f4055ad9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Grant date - Day'])[1]/preceding::select[1]</value>
-      <webElementGuid>b03c6895-b624-4aaa-b82c-51c561047fa4</webElementGuid>
+      <webElementGuid>3d6da9b9-0e6c-479b-bf40-9f04c2663ed0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset[3]/div/select</value>
-      <webElementGuid>6619d4c8-a94c-4aaf-90c5-a9537d31e667</webElementGuid>
+      <webElementGuid>b0ce4e16-9144-4091-93fb-da752f2b7c36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'grant_on_accept' and @name = 'grant_on_accept' and (text() = 'Grant all options on a specified date Grant as each option is accepted Grant the day before the valuation expires' or . = 'Grant all options on a specified date Grant as each option is accepted Grant the day before the valuation expires')]</value>
-      <webElementGuid>c1b388a5-19bd-4ff0-bb7e-ad4f68d19589</webElementGuid>
+      <webElementGuid>e61b620b-09a4-4278-82ee-04e5a6806ab3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

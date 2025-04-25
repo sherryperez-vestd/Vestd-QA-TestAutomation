@@ -6,12 +6,12 @@
    <elementGuidId>05c2c33d-6fdc-4425-abb1-ef4e9d9d5406</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.nav-item.nav-heading</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='sidebarSchemes']/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.nav-item.nav-heading</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:text=&quot;Schemes&quot;s</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>31e81f99-3e4e-4c9d-83f0-89f9bf27f8a2</webElementGuid>
+      <webElementGuid>2f1f1c57-0480-4ec3-8ee6-2974e32edd61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-item nav-heading</value>
-      <webElementGuid>402a8d1a-d714-4c21-8f40-0e4311a1fe5a</webElementGuid>
+      <webElementGuid>3c4fc09c-20dc-4e5c-83d9-e524a525aee3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <value>
                                         Schemes
                                 </value>
-      <webElementGuid>4a8fdbd2-a99f-4156-a9a3-64cc2b12d04b</webElementGuid>
+      <webElementGuid>e94cf662-54ef-498c-a2e1-8a0e7b82ff83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item nav-heading&quot;]</value>
-      <webElementGuid>216dda4e-afa1-4858-9705-d142aad02efb</webElementGuid>
+      <webElementGuid>73af0b74-3748-42e3-a96a-4ebf2268114e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li</value>
-      <webElementGuid>5e618e57-a601-414d-9e47-7ed80d5ce76f</webElementGuid>
+      <webElementGuid>32a335cc-049d-4749-9884-7d980101b5bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share schemes'])[1]/following::li[1]</value>
-      <webElementGuid>9f4dd1c8-a4cf-4fdb-b1a1-56bc4e322a02</webElementGuid>
+      <webElementGuid>1812aca3-9de2-469e-ab6a-f289aa6e2814</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::li[2]</value>
-      <webElementGuid>451416bb-3415-497d-8d50-723cecca7d36</webElementGuid>
+      <webElementGuid>8f13f72f-362a-4a08-b265-6e5f958d3c39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Existing scheme uploads'])[1]/preceding::li[1]</value>
-      <webElementGuid>8af9de19-1d50-4076-9507-2b49edfeb03a</webElementGuid>
+      <webElementGuid>db7fa41c-4ca1-4991-bad6-34b2a6e7c91a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EMI'])[1]/preceding::li[2]</value>
-      <webElementGuid>425d4adc-a3b1-416a-9935-a3d8161eca0e</webElementGuid>
+      <webElementGuid>4d74ecef-1091-4114-9885-7aeb27deb5b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Schemes']/parent::*</value>
-      <webElementGuid>e6518da7-11df-41cf-8c64-bfd997003b46</webElementGuid>
+      <webElementGuid>3415c3d2-adc8-46d9-a4f2-9bd667988f32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li</value>
-      <webElementGuid>51e6fa71-df5d-450a-8e94-a6899678c9ba</webElementGuid>
+      <webElementGuid>ae0e0f22-a155-4443-96fd-6120a36bb46d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,6 +123,6 @@
                                 ' or . = '
                                         Schemes
                                 ')]</value>
-      <webElementGuid>5765517b-4dae-4cdc-992e-e0a5098fb728</webElementGuid>
+      <webElementGuid>fdf21ae8-7774-49e7-bb56-292c54af3196</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

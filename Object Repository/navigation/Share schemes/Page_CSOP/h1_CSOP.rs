@@ -6,12 +6,12 @@
    <elementGuidId>a207f888-8572-44b8-8bd8-305c37440b64</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1.mb-0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.mb-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;CSOP&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>275cb297-cb47-4f4b-94d6-ef58a038be21</webElementGuid>
+      <webElementGuid>e10e7ecf-5cf1-4d76-b181-18bdbfc41638</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-0</value>
-      <webElementGuid>63724d90-6b5c-4f42-a57d-f46849b453a1</webElementGuid>
+      <webElementGuid>86d1954f-b162-4a18-9ce4-9b759aa0c9cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CSOP</value>
-      <webElementGuid>52458851-b605-4cb5-b8eb-92b8c19f3a7e</webElementGuid>
+      <webElementGuid>eb3bd993-4982-40a1-9217-05da4815ed44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;float-md-left&quot;]/h1[@class=&quot;mb-0&quot;]</value>
-      <webElementGuid>395f438d-446d-4a1e-935f-34e99015069a</webElementGuid>
+      <webElementGuid>1c526278-096b-4dba-b7f0-3fc473303fb0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/h1</value>
-      <webElementGuid>1b7e80eb-f1cd-4535-8728-3d54bdf48fef</webElementGuid>
+      <webElementGuid>c70be36c-6639-4472-ab1e-fc7722340e4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>701c1818-23e4-46b3-ba2b-a31d4642e9c4</webElementGuid>
+      <webElementGuid>0a8f85b2-1e4e-4c7d-9de3-b65057662d85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>85412353-b5aa-474c-a308-6adc4a01a90a</webElementGuid>
+      <webElementGuid>5977f39a-51cb-4ecf-a8c3-0054532a4934</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='How can we help?'])[1]/preceding::h1[1]</value>
-      <webElementGuid>51acb04d-6348-4473-ad10-eccf141b03ec</webElementGuid>
+      <webElementGuid>a45ef5de-cb45-47d0-81c4-691209bc5889</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='What is a Company Share Option Plan (CSOP)?'])[1]/preceding::h1[1]</value>
-      <webElementGuid>12f2d571-925f-4bd8-84f5-a5e9b5e73808</webElementGuid>
+      <webElementGuid>7d3330cc-ffa9-45c7-915f-517a6f9a4c7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>67c80fc8-d62f-4c99-a0bb-1cb9c49456ee</webElementGuid>
+      <webElementGuid>3ef7e4e0-5453-4b3c-8ff8-afcad3f55878</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'CSOP' or . = 'CSOP')]</value>
-      <webElementGuid>f128b232-19c0-41b0-900f-ad43da116a67</webElementGuid>
+      <webElementGuid>35d4fc03-f37b-4686-bfa8-d9a8e2aca7c6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

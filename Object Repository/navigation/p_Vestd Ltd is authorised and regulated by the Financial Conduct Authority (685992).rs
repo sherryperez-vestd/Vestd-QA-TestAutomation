@@ -6,12 +6,12 @@
    <elementGuidId>03980035-29e1-43c8-8564-294f44dce82c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.mb-1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='sidebarCollapse']/footer/ul/li[3]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.mb-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:text=&quot;Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>ac69931c-7009-49cf-8343-655ca456d50c</webElementGuid>
+      <webElementGuid>a7287358-cfa3-488b-a9a7-66a6974462ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-1</value>
-      <webElementGuid>8ad63d51-b4ce-41fb-967a-6f9150a5a087</webElementGuid>
+      <webElementGuid>2961eac8-150a-4972-b5cc-358f0bd15d5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).</value>
-      <webElementGuid>d54e482f-e399-4f93-9e17-5c7ae0be2fa3</webElementGuid>
+      <webElementGuid>ce21f4f9-0fc6-43e0-af93-dc5f652a500f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/footer[1]/ul[@class=&quot;navbar-nav navbar-footer&quot;]/li[@class=&quot;nav-item mt-2&quot;]/p[@class=&quot;mb-1&quot;]</value>
-      <webElementGuid>69ba5fb1-4966-4b67-9068-e1297dc1f054</webElementGuid>
+      <webElementGuid>6b7ccd37-23b3-4570-b577-32c96d66b3e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/footer/ul/li[3]/p</value>
-      <webElementGuid>98ef4808-3f60-4b2c-85c0-35e7113f0768</webElementGuid>
+      <webElementGuid>b4ccabb4-3954-4018-91a9-7e3ff94f8b2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::p[1]</value>
-      <webElementGuid>c12a1ab8-32a4-494a-b9e0-dce2f84aca5e</webElementGuid>
+      <webElementGuid>463f82e0-7223-47d3-beef-98a0b224a479</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::p[1]</value>
-      <webElementGuid>164c8422-5cb9-479c-8d3a-2a9b677bc9d4</webElementGuid>
+      <webElementGuid>73d34479-417d-4a0a-915f-951225cc721c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unapproved options'])[2]/preceding::p[1]</value>
-      <webElementGuid>dbb0d595-bc4f-45db-aee7-9e7d01228343</webElementGuid>
+      <webElementGuid>119b7937-70b0-4b96-87e7-3d2f805c8a1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).']/parent::*</value>
-      <webElementGuid>3221ec94-ec80-4923-9fbf-62ec5f1611aa</webElementGuid>
+      <webElementGuid>af6a218b-9aaf-4fd6-83eb-3334a5552486</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>bf0a00ab-5a60-49e7-a11d-959b4a089bc3</webElementGuid>
+      <webElementGuid>966f1dcd-9571-43e4-a396-7320a9d20ac9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).' or . = 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')]</value>
-      <webElementGuid>decd283a-fa0b-4b7c-a227-cd9832fbda06</webElementGuid>
+      <webElementGuid>a64299c2-b473-46cb-bb12-d6e07f37a103</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

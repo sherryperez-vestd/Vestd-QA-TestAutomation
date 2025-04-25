@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
-
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/home')
 
 WebUI.click(findTestObject('navigation/a_Secretarial  admin'))
@@ -79,9 +77,9 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_
 WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_This report will provide options vested,_5db3b1'), 
     'This report will provide options vested, options lapsed, options exercised, reversed options and exercise requests. You will be able to select the start and end date on the next page.')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_Cap table reporting'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_Cap table report'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_Cap table reporting'), 'Cap table report')
+WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_Cap table report'), 'Cap table report')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_This will take you to cap table page whe_1fbe13'))
 

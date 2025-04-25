@@ -6,12 +6,12 @@
    <elementGuidId>feaa0890-64b2-47a0-9f28-d6164d7dfb85</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.nav-link.active</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='investmentHub']/ul/a[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-link.active</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=link[name=&quot;All share issues&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>29417ba4-34fe-4b5a-bd4a-460f3c846b4b</webElementGuid>
+      <webElementGuid>e527c565-8aa5-4aa2-9fb5-c9df469369b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/share-movement</value>
-      <webElementGuid>6c4ca7dc-d5e9-4d24-baad-1987898e68ba</webElementGuid>
+      <webElementGuid>0b6bd6d0-23d5-4c25-8a1b-6ef6b04ae50a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>95f7f585-b614-4c15-893b-feae20337671</webElementGuid>
+      <webElementGuid>4cad6c06-5cb3-45a0-8086-46156dd053ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <value>
                                         All share issues
                                     </value>
-      <webElementGuid>f4ae80b9-2249-4c46-9c3b-99a2b7ea1e3c</webElementGuid>
+      <webElementGuid>c608fa84-d0d5-4406-8589-8100926e0ef4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;investmentHub&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>58884d2c-258c-4c8d-b379-9e1a79f11c1a</webElementGuid>
+      <webElementGuid>6e0984fc-dd28-4e8a-a37f-a84703a84cd8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='investmentHub']/ul/a[3]</value>
-      <webElementGuid>1d43b9be-1549-4b69-89b3-ec9733b66afb</webElementGuid>
+      <webElementGuid>77cfe482-9bf2-4c3f-bacf-86dc4eb88caf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Related tools'])[1]/following::a[1]</value>
-      <webElementGuid>42a40424-83a9-4f4c-9911-3edb6e911da3</webElementGuid>
+      <webElementGuid>598c59b7-9e64-43b0-a79d-68b4513ed816</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='All share issues']/parent::*</value>
-      <webElementGuid>bace283e-50ec-4509-a345-425c548064db</webElementGuid>
+      <webElementGuid>300c4e5a-ef9c-4870-87b2-c72709df6906</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/share-movement')]</value>
-      <webElementGuid>c284d69d-8882-45d7-bf84-9f02bd7f80e3</webElementGuid>
+      <webElementGuid>c1f8afd2-794a-49a0-8efc-afc094946b2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul/a[3]</value>
-      <webElementGuid>3fceb2e2-89e8-4c28-8f8f-6220ccbd0e53</webElementGuid>
+      <webElementGuid>fe60080e-73da-4bab-a29f-42969999061e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
                                     ' or . = '
                                         All share issues
                                     ')]</value>
-      <webElementGuid>8f021a53-6187-4106-b0db-5bf15c06964f</webElementGuid>
+      <webElementGuid>29badfde-bcfd-409c-8549-d3a91ba2d59a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

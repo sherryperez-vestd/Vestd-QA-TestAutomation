@@ -21,36 +21,48 @@ WebUI.callTestCase(findTestCase('users-login/UK/user-login-editor'), [:], Failur
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-approval/create?type=options')
 
-WebUI.setText(findTestObject('Object Repository/authorisations/option-pool/Page_Create a share approval - QA Test UK1 _833193/input_Reference_name'), 
+WebUI.setText(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool/input_Reference_name'), 
     'Option pool test')
 
-WebUI.setText(findTestObject('Object Repository/authorisations/option-pool/Page_Create a share approval - QA Test UK1 _833193/input_Pool size_share_pool_size'), 
+WebUI.setText(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool/input_Pool size_share_pool_size'), 
     '2000000')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/authorisations/option-pool/Page_Create a share approval - QA Test UK1 _833193/select_Please selectOrdinary (voting) (0.00_0f5091'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool/select_Please selectOrdinary (voting) (0.00_0f5091'), 
     '172183', true)
 
-WebUI.click(findTestObject('Object Repository/authorisations/option-pool/Page_Create a share approval - QA Test UK1 _833193/button_Next'))
+WebUI.waitForElementVisible(findTestObject('authorisations/option-pool/Page_Create Option pool/button_Next'), 0)
 
-WebUI.click(findTestObject('Object Repository/authorisations/option-pool/Page_Share approval - QA Test UK1 (Reid Ltd_061f24/button_Confirm'))
+WebUI.click(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/authorisations/option-pool/Page_Share approval - QA Test UK1 (Reid Ltd_061f24/button_Yes, confirm'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/authorisations/option-pool/Page_Share approval - QA Test UK1 (Reid Ltd_061f24/h1_Option pool test                        _22f63e'), 
+WebUI.waitForElementVisible(findTestObject('authorisations/option-pool/Page_Create Option pool confirm details/button_Confirm'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/authorisations/option-pool/Page_Share approval - QA Test UK1 (Reid Ltd_061f24/h1_Option pool test                        _22f63e'))
+WebUI.click(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool confirm details/button_Confirm'))
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/authorisations/option-pool/Page_Share approval - QA Test UK1 (Reid Ltd_061f24/h1_Option pool test                        _22f63e'), 
+WebUI.waitForElementVisible(findTestObject('authorisations/option-pool/Page_Create Option pool confirm details/button_Yes, confirm'), 
+    0)
+
+WebUI.click(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool confirm details/button_Yes, confirm'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool confirm details/h1_Option pool test                        _22f63e'), 
+    0)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool confirm details/h1_Option pool test                        _22f63e'))
+
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool confirm details/h1_Option pool test                        _22f63e'), 
     'Option pool test\r \nEdit')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/authorisations/option-pool/Page_Share approval - QA Test UK1 (Reid Ltd_061f24/dd_2,000,000'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool confirm details/dd_2,000,000'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/authorisations/option-pool/Page_Share approval - QA Test UK1 (Reid Ltd_061f24/dd_2,000,000'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool confirm details/dd_2,000,000'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/authorisations/option-pool/Page_Share approval - QA Test UK1 (Reid Ltd_061f24/dd_2,000,000'), 
+WebUI.verifyElementText(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool confirm details/dd_2,000,000'), 
     '2,000,000')
 
-WebUI.click(findTestObject('Object Repository/authorisations/option-pool/Page_Share approval - QA Test UK1 (Reid Ltd_061f24/button_Delete'))
+WebUI.click(findTestObject('Object Repository/authorisations/option-pool/Page_Create Option pool confirm details/button_Delete'))
+
+WebUI.acceptAlert()
+
+WebUI.closeBrowser()
 

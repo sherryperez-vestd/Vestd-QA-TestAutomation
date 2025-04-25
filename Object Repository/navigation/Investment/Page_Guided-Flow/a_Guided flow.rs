@@ -6,12 +6,12 @@
    <elementGuidId>6603da82-9280-4883-bb77-d79d98a31d37</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.nav-link.active</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='investmentHub']/ul/a[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-link.active</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=link[name=&quot;Guided flow&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>30e1f037-c385-4a53-a350-e0eba32a5dce</webElementGuid>
+      <webElementGuid>e6301442-f273-4423-88b9-fcc246e57d83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/investd</value>
-      <webElementGuid>f4ff087b-7fdb-4773-b8cf-4d6184436ecf</webElementGuid>
+      <webElementGuid>bf1fef52-67fe-40e9-984c-8b490f99fccc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>90dbf2aa-366b-4661-a0b2-9345b3c1c9e9</webElementGuid>
+      <webElementGuid>34baddef-2e04-466a-9908-39facbcc2079</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <value>
                                         Guided flow
                                     </value>
-      <webElementGuid>c12a27cb-90f8-4079-aeaf-11becfeedd8a</webElementGuid>
+      <webElementGuid>5fe5d988-f06f-4aec-89b1-36e55a346a9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;investmentHub&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>67d9d6cf-7da7-4afb-bddb-304c98d84c40</webElementGuid>
+      <webElementGuid>2f1ed6d8-c34b-4ee0-a79f-e8522de34e90</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='investmentHub']/ul/a[2]</value>
-      <webElementGuid>6afc929c-fea9-4f78-9159-ffb262e54ac9</webElementGuid>
+      <webElementGuid>549e95de-e999-429a-bebc-ddc61969fbcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='investment rounds'])[1]/following::a[2]</value>
-      <webElementGuid>57dfe6ad-5c3a-4287-b436-da0665fe160c</webElementGuid>
+      <webElementGuid>8e7254d2-120c-4161-8694-e77a12905d02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Related tools'])[1]/preceding::a[1]</value>
-      <webElementGuid>6460caae-ee9c-4264-beb6-c4d47284640e</webElementGuid>
+      <webElementGuid>b045daa9-0dd3-4d4d-80e0-92464be4771c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Guided flow']/parent::*</value>
-      <webElementGuid>c1cd16cb-5fff-41f4-a9f8-c9d3abe3dd6c</webElementGuid>
+      <webElementGuid>be6539f0-eab2-4896-a6cb-003356443cf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/investd')]</value>
-      <webElementGuid>21e2b441-51e3-4c08-b5e4-99f379a7b8f8</webElementGuid>
+      <webElementGuid>ecfbec03-a7e6-448b-aff3-ebc9e341acc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul/a[2]</value>
-      <webElementGuid>b8f3113e-f390-4b3e-bf54-39cd08ae57a9</webElementGuid>
+      <webElementGuid>96b51782-03ad-474c-a8f4-21136057b45c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,6 +123,6 @@
                                     ' or . = '
                                         Guided flow
                                     ')]</value>
-      <webElementGuid>7bc58c8b-5dab-4a33-82bb-570dba6c8e8f</webElementGuid>
+      <webElementGuid>65f66cb7-384e-493c-8f10-28c999cdf30a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

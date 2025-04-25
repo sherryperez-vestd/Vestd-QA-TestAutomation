@@ -6,12 +6,12 @@
    <elementGuidId>1b46922a-9287-4072-97e5-87d288b4b74d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.nav-link.active</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='investmentHub']/ul/a[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-link.active</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=link[name=&quot;SEIS &amp; EIS&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1a45833a-38a7-41f2-90da-ee5c8f191d70</webElementGuid>
+      <webElementGuid>70bb6af4-526d-4f28-b63b-a2da69b61dba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/investment-scheme</value>
-      <webElementGuid>ac61489c-cfec-4136-8614-44c565cc447b</webElementGuid>
+      <webElementGuid>6a694e3f-862d-44d1-865f-941982243158</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>6ab84044-b4b9-4d73-9c5d-16e12702f7d7</webElementGuid>
+      <webElementGuid>f68bca1e-e785-4153-a681-5f656972f907</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <value>
                                         SEIS &amp; EIS
                                     </value>
-      <webElementGuid>91f21bd3-6fba-42d9-ad21-53d89fb8287d</webElementGuid>
+      <webElementGuid>661dd47b-7e35-4f7a-aec6-1895da57cb25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;investmentHub&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>893ec0b5-2d9a-4ce7-b4ca-4f4fe7c0466f</webElementGuid>
+      <webElementGuid>ba8a3100-312b-4796-b479-b06bf2705b71</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='investmentHub']/ul/a[5]</value>
-      <webElementGuid>bf95cad1-4fb4-4f04-83c2-3958d361203e</webElementGuid>
+      <webElementGuid>c7f0d122-88e2-4c9a-a1d4-603fc49bfeb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share capital'])[1]/preceding::a[2]</value>
-      <webElementGuid>35d473c0-ba04-4711-9788-ca10d36d7661</webElementGuid>
+      <webElementGuid>12e2da71-89e0-4e11-8a82-13d08386b1af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='SEIS &amp; EIS']/parent::*</value>
-      <webElementGuid>3bab20d3-f065-4449-9e6c-8570a25b1345</webElementGuid>
+      <webElementGuid>03e835ec-5dbd-4e46-bbe3-d8812b8fbfd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/investment-scheme')]</value>
-      <webElementGuid>f3374626-0690-4dce-b06c-bd3c95aec380</webElementGuid>
+      <webElementGuid>b2a307d5-1c67-4102-a4c2-099973316b4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul/a[5]</value>
-      <webElementGuid>5e79484e-fbe7-4d08-a75a-9abcea5e0c5b</webElementGuid>
+      <webElementGuid>3196444e-c0b2-4a4d-a8f4-9c82ec225866</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +115,6 @@
                                     ' or . = '
                                         SEIS &amp; EIS
                                     ')]</value>
-      <webElementGuid>91837ec7-5fa5-4f17-8916-0c5f0059e622</webElementGuid>
+      <webElementGuid>fceec626-fb45-4019-82d0-69f2db82a2aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

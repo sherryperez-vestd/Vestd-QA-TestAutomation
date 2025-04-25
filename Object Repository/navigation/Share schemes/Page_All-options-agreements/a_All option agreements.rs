@@ -6,20 +6,20 @@
    <elementGuidId>aa6a0801-878a-4151-9549-5e0486a8d081</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[7]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://demo.app.vestd.com/company/50934/distribution' and (text() = '
                                         All option agreements
                                     ' or . = '
                                         All option agreements
                                     ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarSchemes']/ul/li[7]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +29,7 @@
          <value>internal:role=link[name=&quot;All option agreements&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8f0ae084-b541-4544-a81a-dc92b7c42d36</webElementGuid>
+      <webElementGuid>fe5e9ea3-ed16-4459-a3c5-b2840d96f9dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/distribution</value>
-      <webElementGuid>afb201ee-cc4d-450b-a0f6-e809c913f539</webElementGuid>
+      <webElementGuid>fa83e8aa-5cbb-46c5-9c50-4f0c6c22fb12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>497b497c-7294-4050-af02-1eade68d94a5</webElementGuid>
+      <webElementGuid>905e0ca9-1515-4b44-9871-764731cbec3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                                         All option agreements
                                     </value>
-      <webElementGuid>15b84b57-1129-4548-a503-bbea904d9ed6</webElementGuid>
+      <webElementGuid>544a655c-eee8-4961-876f-c57aa20df6ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>a8e42df4-511d-4186-b4dc-e30168f76583</webElementGuid>
+      <webElementGuid>15b4d05c-4871-462a-a147-613c6adc64fd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[7]/a</value>
-      <webElementGuid>ba92a4e0-0872-4e7c-bd13-22cc739584e9</webElementGuid>
+      <webElementGuid>70d07567-c46a-495f-989f-aac8fc773e46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'All option agreements')]</value>
-      <webElementGuid>367f40f5-87eb-4ef5-bbcb-d29e9bdf3394</webElementGuid>
+      <webElementGuid>916ed3a4-bdf2-438a-8752-6ea14837448b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phantom shares'])[1]/following::a[1]</value>
-      <webElementGuid>ccea3674-c264-4f01-b297-e8b9e8a568d8</webElementGuid>
+      <webElementGuid>3c55dc83-d2df-4e89-8465-dc8dd240b494</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CSOP'])[1]/following::a[2]</value>
-      <webElementGuid>5b8ce32d-4f7c-432e-8a7b-41c256fa8fbf</webElementGuid>
+      <webElementGuid>ff5b3c15-c046-41f2-9179-ac5a02f58e71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Growth shares'])[1]/preceding::a[1]</value>
-      <webElementGuid>56386815-95c9-42d7-82fd-e8214ecbcd78</webElementGuid>
+      <webElementGuid>468c855f-c7cd-449c-8b9f-19400cfee765</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RSAs'])[1]/preceding::a[2]</value>
-      <webElementGuid>d6055f23-5d65-4b92-89bf-1b9a95794c7c</webElementGuid>
+      <webElementGuid>d6586c04-d57a-4739-84ab-4d0e1b232716</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='All option agreements']/parent::*</value>
-      <webElementGuid>716a09bf-2493-4095-81d3-2c3c5162da5a</webElementGuid>
+      <webElementGuid>64b5e985-a45b-4353-acd9-da5d4bb36b15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/distribution')]</value>
-      <webElementGuid>baf1b284-4a19-4089-8f10-dfacb359698c</webElementGuid>
+      <webElementGuid>62c4c48c-2d3d-4553-a779-e0101498fd69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[7]/a</value>
-      <webElementGuid>34c77acb-bb6a-440a-a4ba-33ff46f41d58</webElementGuid>
+      <webElementGuid>c041e226-d7be-474a-8623-3479c786a488</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,6 +155,6 @@
                                     ' or . = '
                                         All option agreements
                                     ')]</value>
-      <webElementGuid>32394b76-0ace-4c77-ac86-64d430bcc069</webElementGuid>
+      <webElementGuid>1e45c77d-f513-456f-be4b-0ef7afdf0f25</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

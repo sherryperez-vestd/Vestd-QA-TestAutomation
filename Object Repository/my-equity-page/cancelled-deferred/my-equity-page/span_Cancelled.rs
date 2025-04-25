@@ -6,12 +6,11 @@
    <elementGuidId>1aeaaa10-ce9d-4af6-9146-fdc7663b2fca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +20,7 @@
          <value>internal:text=&quot;Cancelled:&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>374db05f-1d95-40b1-ad7f-7dde5e867782</webElementGuid>
+      <webElementGuid>58aeca9a-fe29-4504-a463-a283bf37f19e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-muted</value>
-      <webElementGuid>52671c67-1658-4aff-b09b-4e6b9e612f3d</webElementGuid>
+      <webElementGuid>3429ee33-394b-468f-83da-97f0db0c746d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cancelled: </value>
-      <webElementGuid>8afbb4ef-89cc-4d3c-b115-72ec3dbb84d1</webElementGuid>
+      <webElementGuid>e6fed8d3-0b88-491c-be95-ecf1686593da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 expanded&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;align-cards-sidewise align-items-stretch&quot;]/div[@class=&quot;card v-card bg-white mb-3 adjust-options-card&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;d-flex&quot;]/ul[@class=&quot;list-inline&quot;]/li[@class=&quot;list-inline-item&quot;]/span[@class=&quot;text-muted&quot;]</value>
-      <webElementGuid>84735352-16a8-42ab-ac1b-e8bac17c5647</webElementGuid>
+      <webElementGuid>ac943061-7a4e-454d-8d9b-7bfcb686369a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/span</value>
-      <webElementGuid>92f91fae-aa0c-4679-8136-fe81f07f54ce</webElementGuid>
+      <webElementGuid>28a3ecf4-aa59-48fa-9efb-446fa0305493</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unvested:'])[1]/following::span[1]</value>
-      <webElementGuid>ec0f4265-fcc4-4ac7-99a5-125e8e86468f</webElementGuid>
+      <webElementGuid>3df8fd6c-408c-4e52-ad17-97af4f53f13b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vested:'])[1]/following::span[2]</value>
-      <webElementGuid>1aa4cc90-96d5-4899-b91c-9092c309afd1</webElementGuid>
+      <webElementGuid>c00af714-492b-4601-bad4-9d9f8d6644fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Granted on:'])[1]/preceding::span[2]</value>
-      <webElementGuid>47364d1d-7061-4411-8766-d53962a18409</webElementGuid>
+      <webElementGuid>064da71a-162a-43d0-97a6-4d190b62057c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View agreement summary'])[1]/preceding::span[3]</value>
-      <webElementGuid>48e78d82-c954-4ad7-820c-25db73655820</webElementGuid>
+      <webElementGuid>e8e4a9fe-c0e8-4c33-ac15-2a879c176581</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cancelled:']/parent::*</value>
-      <webElementGuid>28c39e89-513f-431c-922c-48d0fbe50595</webElementGuid>
+      <webElementGuid>d91955e9-649b-4b00-b121-737492f91afc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/span</value>
-      <webElementGuid>f17d548b-1c5a-4ed1-bdeb-10a7a1bd505a</webElementGuid>
+      <webElementGuid>ae151759-73be-41b8-bd37-9798e6a4a0ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +116,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Cancelled: ' or . = 'Cancelled: ')]</value>
-      <webElementGuid>0ef72364-ffb6-47f7-a96b-0cb3a81c1c6b</webElementGuid>
+      <webElementGuid>9f986943-3bc6-47cb-ba84-10962e7d3a18</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

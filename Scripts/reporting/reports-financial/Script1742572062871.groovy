@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports/financial-
 
 WebUI.verifyElementPresent(findTestObject('reporting/financial/heading_Financial Report'), 0)
 
-WebUI.verifyElementText(findTestObject('reporting/financial/heading_Financial Report'), 'Financial Report')
+WebUI.verifyElementText(findTestObject('reporting/financial/heading_Financial Report'), 'Financial report')
 
 WebUI.verifyElementPresent(findTestObject('reporting/financial/text_To generate reports, first enter a start and end date'), 
     0)

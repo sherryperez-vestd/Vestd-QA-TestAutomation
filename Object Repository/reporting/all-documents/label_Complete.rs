@@ -6,12 +6,12 @@
    <elementGuidId>9374e851-8c50-4f6b-b452-528691620c98</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>label.form-check-label.p-2.d-block</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='multi-dropdown-menu']/a/div/a/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.form-check-label.p-2.d-block</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=link[name=&quot;Complete&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>b39c09bc-5d77-454b-bb62-e8056f2fb366</webElementGuid>
+      <webElementGuid>f9973b38-b133-4480-b7ba-f8206930ff1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-label p-2 d-block</value>
-      <webElementGuid>41d72269-79f4-4499-a95e-bd9a14e1c106</webElementGuid>
+      <webElementGuid>cd532bf4-6976-4e67-aa0a-82bc2e4358ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>for</name>
       <type>Main</type>
       <value>status_complete</value>
-      <webElementGuid>b6aa74a5-cb97-4a7f-a1bf-ac2eaf064c69</webElementGuid>
+      <webElementGuid>420f884c-f714-4e10-92bf-2af2eeeaea0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Complete</value>
-      <webElementGuid>eff7b2da-f51c-47de-b391-c5f2a27c3378</webElementGuid>
+      <webElementGuid>e4e6bdd6-9bf9-4d76-8728-0b177f2e0cd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;multi-dropdown-menu&quot;)/a[@class=&quot;dropdown-item dropdown-toggle child-filters&quot;]/div[@class=&quot;sub-filters&quot;]/a[@class=&quot;dropdown-item p-0&quot;]/div[@class=&quot;form-check mb-0&quot;]/label[@class=&quot;form-check-label p-2 d-block&quot;]</value>
-      <webElementGuid>26820d04-420a-49d2-b724-864fe9c641f9</webElementGuid>
+      <webElementGuid>454c7809-19ac-49b7-928a-cffbad067819</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='multi-dropdown-menu']/a/div/a/div/label</value>
-      <webElementGuid>48e2bfb3-a24a-4e3d-90ec-e2b79663c894</webElementGuid>
+      <webElementGuid>4d795172-9bc7-4743-9655-75cb1812cce9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::label[1]</value>
-      <webElementGuid>9f571ef7-b18f-4af8-8cea-9ebcf3094ffa</webElementGuid>
+      <webElementGuid>1e5e6c2e-f0f7-4b5e-9f4c-338fcecf0b92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add filter'])[1]/following::label[1]</value>
-      <webElementGuid>e6ff6617-0f23-4128-9fdb-e1e9754b3565</webElementGuid>
+      <webElementGuid>4cc13752-b1a7-485a-8703-c804a615bbb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelled'])[1]/preceding::label[1]</value>
-      <webElementGuid>6b9a8c35-77ab-47fb-9664-f86e8bf770c9</webElementGuid>
+      <webElementGuid>608d5b50-163a-48bb-9e61-2ace2ea1c26f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Expired'])[1]/preceding::label[2]</value>
-      <webElementGuid>8d4e855c-699d-4f9d-aa25-985387ae3f2a</webElementGuid>
+      <webElementGuid>b66c73a5-cdfd-4e06-904d-31c122250ed2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Complete']/parent::*</value>
-      <webElementGuid>75e1e1b4-32f4-425a-b6cc-2cb1817637e9</webElementGuid>
+      <webElementGuid>78a47238-5408-47ba-98d2-1f79b0d8ceac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label</value>
-      <webElementGuid>4ff25ee6-1553-40ca-a8bc-18e4eb990114</webElementGuid>
+      <webElementGuid>f596f7c5-c695-4683-ad61-2a629dd3713c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Complete' or . = 'Complete')]</value>
-      <webElementGuid>35130b56-1ba3-4d78-8c42-a3dbcbe77284</webElementGuid>
+      <webElementGuid>360df975-3159-49aa-8a47-77fdbbc39999</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>e5ad7218-976b-4ebb-9ab8-6a08ea0f486a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Communication&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>f29ccae1-7e2b-4022-aa92-2a776fc71795</webElementGuid>
+      <webElementGuid>bc85659d-bc1f-4c75-b3eb-b060488e46ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Communication</value>
-      <webElementGuid>cd6868fc-5684-473d-977c-12e5be6d1345</webElementGuid>
+      <webElementGuid>91b51ab5-a04e-42bf-bb1d-12e1723eac5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>aef4c49b-6319-45a0-9b16-bcf3ec6d13fe</webElementGuid>
+      <webElementGuid>3f6efc11-8adb-434d-be64-cc08beeb1fb8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>c6d925f9-88d1-411a-acca-69628e4821c5</webElementGuid>
+      <webElementGuid>28eb76f7-7bcb-422b-a941-fe9dbf356760</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Centre'])[1]/following::h1[1]</value>
-      <webElementGuid>13a795fa-22da-4ddb-a13c-eeaddddc3108</webElementGuid>
+      <webElementGuid>33484649-11dd-47bc-aac0-b2c3b020d95c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::h1[1]</value>
-      <webElementGuid>b374a403-d575-4ae6-8814-50e795fcba14</webElementGuid>
+      <webElementGuid>6499549d-794e-4d6d-97ef-06f1a1f674a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[2]/preceding::h1[1]</value>
-      <webElementGuid>0aca9c0a-d77e-4eeb-b0a7-0f13028ecc88</webElementGuid>
+      <webElementGuid>8eaf23c9-f35b-4033-8dfc-ac44961d06d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>46771e31-736b-40cd-a1f8-413edcce45bf</webElementGuid>
+      <webElementGuid>b6c3c746-834d-44dc-af28-1ba95af3638e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Communication' or . = 'Communication')]</value>
-      <webElementGuid>5bb1cbf6-7660-4336-997b-c9777617f398</webElementGuid>
+      <webElementGuid>773fcef4-ed03-44ed-98a2-0359263b841a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

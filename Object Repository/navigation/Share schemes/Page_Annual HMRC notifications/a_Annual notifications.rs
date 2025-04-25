@@ -6,20 +6,20 @@
    <elementGuidId>7699352e-49be-4a75-9413-4e66d68c72ad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[14]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://demo.app.vestd.com/company/50934/annual-hmrc-notification' and (text() = '
                                                 Annual notifications
                                             ' or . = '
                                                 Annual notifications
                                             ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarSchemes']/ul/li[14]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +29,7 @@
          <value>internal:role=link[name=&quot;Annual notifications&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>be9ab748-7164-4eaa-b3cf-8cddcc251f94</webElementGuid>
+      <webElementGuid>56771f57-9d93-4474-bab3-897ed7218069</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/annual-hmrc-notification</value>
-      <webElementGuid>711776de-5045-4937-924f-d50e74972c3c</webElementGuid>
+      <webElementGuid>0b9f34d1-3f29-49d3-9d0a-0cf5b421876d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>ad872407-8cc9-43cb-b5db-df93458b0bfa</webElementGuid>
+      <webElementGuid>c1cd559b-4afd-46e2-ac88-ed971efdcd4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                                                 Annual notifications
                                             </value>
-      <webElementGuid>5d0e8b89-f771-465e-aae6-8307c5434ecd</webElementGuid>
+      <webElementGuid>1b22bf7a-7f8f-4f19-a309-24f66866531f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>8a9260a8-1661-4882-90bd-aeba5d142a42</webElementGuid>
+      <webElementGuid>266643b9-31f2-435b-a585-1ffdc3c82f5c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[14]/a</value>
-      <webElementGuid>d588380c-bbbd-4718-a104-b35fa0de8276</webElementGuid>
+      <webElementGuid>37d6e077-479f-484d-992c-73560e9eddd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Annual notifications')]</value>
-      <webElementGuid>e49d35c5-8f3a-4a63-af9c-d38de003061f</webElementGuid>
+      <webElementGuid>cc8ff679-f3c7-4a7f-b789-0f5c58a3e74d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share pools'])[1]/following::a[1]</value>
-      <webElementGuid>6ddca3c9-953a-4b40-8340-e045cea3f5a7</webElementGuid>
+      <webElementGuid>d7acb71b-3e38-4074-9aad-bcc36f8e8e39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Valuations'])[1]/following::a[2]</value>
-      <webElementGuid>187c395f-f83b-4069-bf9c-a2e021effeac</webElementGuid>
+      <webElementGuid>e4afda83-d97a-43a6-9bbe-8437df86eedd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Initial notifications'])[1]/preceding::a[1]</value>
-      <webElementGuid>533c00ea-1456-491c-bd52-1ad77a63d85b</webElementGuid>
+      <webElementGuid>83494eb8-bdad-4057-93da-5c4f53a924e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Annual notifications']/parent::*</value>
-      <webElementGuid>8cb0bfb8-99c6-448c-a220-b91e61a5aff3</webElementGuid>
+      <webElementGuid>af8efc35-5a94-4ad7-8dc8-ace11dea3dad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/annual-hmrc-notification')]</value>
-      <webElementGuid>834fa0bf-11ce-4cdc-a3e3-58fbc823a8c4</webElementGuid>
+      <webElementGuid>d49d363e-aec0-454a-aa73-d19d199c2bcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[14]/a</value>
-      <webElementGuid>a0759080-8d10-40c9-a9e9-825fed43c860</webElementGuid>
+      <webElementGuid>601a2cfb-7836-4d6c-8cb7-8735ea834ece</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,6 +147,6 @@
                                             ' or . = '
                                                 Annual notifications
                                             ')]</value>
-      <webElementGuid>e817291b-b978-4c9f-97c4-9061c23f96bb</webElementGuid>
+      <webElementGuid>a8e47809-614a-4dd5-910b-3b62e678bd68</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

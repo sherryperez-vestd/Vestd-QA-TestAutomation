@@ -6,12 +6,12 @@
    <elementGuidId>f8f9745f-b249-4d6c-b807-eb2c11c35d55</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.small</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div[4]/div/div/table/tbody/tr/td[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.small</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:text=&quot;Investment round&quot;s</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>586aea2d-c8fc-432a-b99a-f84df1188964</webElementGuid>
+      <webElementGuid>72137938-a3ad-4e12-bf86-2a9d3897c6f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>small</value>
-      <webElementGuid>8dd1e02b-2942-4100-a6ab-a1dbf1600889</webElementGuid>
+      <webElementGuid>1b4a30a6-fe15-4a12-87b9-389216433b6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Investment round</value>
-      <webElementGuid>8f66ade4-d58d-4c46-a6e2-ba2718de3690</webElementGuid>
+      <webElementGuid>f7f045ca-2528-4621-bc94-36fdc71d8d42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[1]/td[2]/span[@class=&quot;small&quot;]</value>
-      <webElementGuid>8fce28ef-cefe-4b3f-9203-5dd7a08070cb</webElementGuid>
+      <webElementGuid>93c605d5-59f7-4ce5-b23b-a43c58e0a12a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[4]/div/div/table/tbody/tr/td[2]/span</value>
-      <webElementGuid>b195efe0-29a2-454f-9aa7-4a2944216560</webElementGuid>
+      <webElementGuid>6279e194-d033-48e5-a72b-1a7dee3e7599</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/following::span[1]</value>
-      <webElementGuid>94c169ed-9a61-44da-b95f-6bd866a57e92</webElementGuid>
+      <webElementGuid>86572464-509d-457f-bc66-57ecbee7ab83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::span[1]</value>
-      <webElementGuid>2389b403-8ba5-489c-8b40-14fe23605959</webElementGuid>
+      <webElementGuid>00a41e12-1212-46f6-9699-6e41f3a87222</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::span[1]</value>
-      <webElementGuid>703d2c1a-ba44-4984-8078-2136337f36ea</webElementGuid>
+      <webElementGuid>e3f8a405-7791-4846-8bdb-63edb5f98e15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Investment round']/parent::*</value>
-      <webElementGuid>8ca4afdf-ab56-4a0b-b902-cbaa099adb09</webElementGuid>
+      <webElementGuid>d49a13d5-ea5d-494c-8df6-c16eef2dca6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]/span</value>
-      <webElementGuid>be36efd3-5529-4df5-979a-a253a185bd1f</webElementGuid>
+      <webElementGuid>30ba44bc-e28c-4461-b104-25f0064e7072</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Investment round' or . = 'Investment round')]</value>
-      <webElementGuid>1fedac80-4232-45b0-83dc-1a6bf568cae1</webElementGuid>
+      <webElementGuid>981f6cb2-ace3-4b71-b9ec-23dec3128283</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>7517bca7-194f-4655-9012-3c5dfd863132</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Financial Report&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>af2a7002-3ebb-4b1b-a077-06573795983f</webElementGuid>
+      <webElementGuid>8f9c3c9a-789d-492d-99d5-0b5e7932e3ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Financial Report</value>
-      <webElementGuid>eee60a92-9cf5-45ad-a4ef-8fbaf97ae589</webElementGuid>
+      <webElementGuid>81c2df57-870e-4996-899b-5786d11ace51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>d451c659-4c5e-4b08-ba87-14ed48329783</webElementGuid>
+      <webElementGuid>ddebdba7-d50e-4418-906f-c3a82b4bc3fb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>fe316665-6fb2-4536-86bf-ba4233b79067</webElementGuid>
+      <webElementGuid>85d4878d-20df-4b92-9a41-c30a9e6a64f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>5c44924c-f072-4c1b-8b2c-d5d96fd9a88f</webElementGuid>
+      <webElementGuid>de2ed3f5-4643-40f5-a374-5085d190fbaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>c48d22fd-72ce-4457-bc4c-cc1371dfd27a</webElementGuid>
+      <webElementGuid>a4feacc6-f0f3-4938-8833-755b0b6dd153</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='From Date'])[1]/preceding::h1[1]</value>
-      <webElementGuid>b1ec8f2d-f628-4892-a492-30af1d13c25e</webElementGuid>
+      <webElementGuid>08f56279-8381-415e-8688-a50fcac75b2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Financial Report']/parent::*</value>
-      <webElementGuid>d63ddb69-d36d-4cb5-94d4-2c65ea21c385</webElementGuid>
+      <webElementGuid>abf17a49-02db-42dd-92ee-5923728461ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>f24e025c-3838-40b9-b5c5-ca1b9ea15e2b</webElementGuid>
+      <webElementGuid>182b5943-b623-48b3-b9bc-ef2fb8d1fa86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Financial Report' or . = 'Financial Report')]</value>
-      <webElementGuid>b9837619-a6d7-4bd8-a138-e0c6e3b5a5ff</webElementGuid>
+      <webElementGuid>2c2c68ad-c4b8-4a56-af66-4d5c00cabda4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

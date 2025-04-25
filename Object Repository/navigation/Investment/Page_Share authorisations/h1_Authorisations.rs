@@ -6,12 +6,12 @@
    <elementGuidId>d46f347d-18a6-4e40-a3e3-597f13ce63e2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Authorisations&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>9ca453da-696d-4e5c-8267-7ccabfef91dd</webElementGuid>
+      <webElementGuid>013fe894-579b-402c-bddf-933a922ce921</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Authorisations</value>
-      <webElementGuid>f179ed40-5517-44cb-a05b-a374bc10bc88</webElementGuid>
+      <webElementGuid>cb08db31-bdf1-4788-975e-803f032b3ec6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>3222d94a-4fbb-48d0-aefb-af624758704f</webElementGuid>
+      <webElementGuid>48f69491-73cd-4532-abb2-da9444beda32</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>0a1796be-578c-4fd6-8185-6b1f7013a3de</webElementGuid>
+      <webElementGuid>9994d38a-4f31-41bb-be56-3b47f54f7659</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>5b372ae9-87ed-4320-b631-dcd1eb2bcf74</webElementGuid>
+      <webElementGuid>60d778ab-d323-431f-b186-10eba3fcf281</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>15abc304-e013-422c-9461-50676e6288a7</webElementGuid>
+      <webElementGuid>4aa5fa33-b69e-4868-832f-6324a5a96c0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a new option pool'])[1]/preceding::h1[1]</value>
-      <webElementGuid>96c24780-6c0e-4178-b929-dab4c641f910</webElementGuid>
+      <webElementGuid>a81d5fca-87eb-4089-acea-69d9985d0325</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a new growth share authorisation'])[1]/preceding::h1[1]</value>
-      <webElementGuid>3729b26b-660d-45c7-9072-4dea5b353cdd</webElementGuid>
+      <webElementGuid>7f316dc9-04a4-4a42-b9ec-fcfd842de1c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Authorisations']/parent::*</value>
-      <webElementGuid>05f0c024-8ccc-43c5-afdc-9eb2895a38dc</webElementGuid>
+      <webElementGuid>a87c716b-4085-450a-8627-6a95b5b83a5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>066458ed-668d-4a4f-9205-c588c6974f30</webElementGuid>
+      <webElementGuid>f1c96b5a-94f6-415c-bcad-e0564084dabc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Authorisations' or . = 'Authorisations')]</value>
-      <webElementGuid>3db73fe9-4af5-4a80-99bc-20ec626e1a9a</webElementGuid>
+      <webElementGuid>d2c3b5d2-dbc5-4db0-aa22-ee13f0db2500</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

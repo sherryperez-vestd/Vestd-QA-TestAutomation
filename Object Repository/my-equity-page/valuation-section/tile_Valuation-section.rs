@@ -6,12 +6,12 @@
    <elementGuidId>b3e448df-1f43-4bbb-b849-54facb39ef3c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.row.border.rounded.bg-white</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='£...'])[1]/following::div[3]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[2]/div</value>
+         <key>CSS</key>
+         <value>div.row.border.rounded.bg-white</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

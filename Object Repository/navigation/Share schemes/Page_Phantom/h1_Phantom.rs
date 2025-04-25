@@ -6,12 +6,12 @@
    <elementGuidId>f7bc9abb-1b5c-45d4-94bf-6a597a80b454</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1.mb-0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.mb-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Phantom&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>258a6f5d-8a1e-402f-87b4-5e634ae1f11b</webElementGuid>
+      <webElementGuid>800a84d9-7b3a-4615-ac4e-43b4dcceee9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-0</value>
-      <webElementGuid>8ef4d7a0-c9b1-4566-a0af-7b3cb3cac718</webElementGuid>
+      <webElementGuid>5e56ba75-ff00-45a8-a97e-4ab5aaf2787e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Phantom</value>
-      <webElementGuid>258c93b6-316f-49d9-9a9b-bb7180069d9e</webElementGuid>
+      <webElementGuid>286623af-7818-4f96-92a7-d7e55229b4d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;float-md-left&quot;]/h1[@class=&quot;mb-0&quot;]</value>
-      <webElementGuid>12eef0e4-9265-4ee6-9212-764a8935c8dd</webElementGuid>
+      <webElementGuid>f2fa4a37-5cd1-4434-8b5c-198973103589</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/h1</value>
-      <webElementGuid>a3960f5c-e899-48c2-b722-1d6b28c8ac87</webElementGuid>
+      <webElementGuid>86aea280-c615-4d90-84a6-607f804b77e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>501ae957-a41c-4c8d-8ea3-1592825f1055</webElementGuid>
+      <webElementGuid>ebe08010-86eb-4f7d-a79a-54db46739317</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>b6a694a8-6450-4f03-a61e-7f6316bd9460</webElementGuid>
+      <webElementGuid>735e814d-196f-47a0-9a09-b8c63a645838</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View all'])[2]/preceding::h1[1]</value>
-      <webElementGuid>30b10ed9-3b95-480d-aa59-538c3a7ff77b</webElementGuid>
+      <webElementGuid>cfb19171-a35e-4a95-9a11-6e8f7a9cf1ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Phantom']/parent::*</value>
-      <webElementGuid>7cd4f236-2d63-4e39-9fc2-d97f3ef0512c</webElementGuid>
+      <webElementGuid>3cea10cd-c62d-4609-808a-4e086d60ce93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>faf8bfce-b146-487d-99b3-fcc2c584b16c</webElementGuid>
+      <webElementGuid>35cf1b04-10db-4bc5-9e40-3983f32fd938</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Phantom' or . = 'Phantom')]</value>
-      <webElementGuid>00deee00-8f1f-4732-bd85-000a7bfc6ee5</webElementGuid>
+      <webElementGuid>5391895a-269e-4584-88ce-4688d56842b7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Reporting Beta i&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>5727f0d1-370c-43a9-9921-ec18346b1c4e</webElementGuid>
+      <webElementGuid>a6d9c933-b4a5-4237-a933-d299a1014737</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +40,7 @@
         Reporting
         
             Beta</value>
-      <webElementGuid>47a5de56-ac28-4641-84ea-f235a372ed89</webElementGuid>
+      <webElementGuid>61a29a46-204b-414d-9727-7c2b2f980f54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +48,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>ae222cd7-e432-4b79-9cc4-c0b0269bfbed</webElementGuid>
+      <webElementGuid>e8a30a7f-87b7-4aee-a309-d1688691676c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>f44d0ada-1a05-4e9b-9f6c-9bea5370a65a</webElementGuid>
+      <webElementGuid>e44c6a53-2d8f-4bdd-8dd7-06c9df393748</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>43cc0244-26a3-43fe-a62f-214fda0b0d33</webElementGuid>
+      <webElementGuid>758c2247-11f4-4250-bedf-32a7e9195c3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>d13b4494-5feb-4c5a-8572-ed0a704a44be</webElementGuid>
+      <webElementGuid>c6294712-8bb1-48ae-9b70-6924d913c7c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Request a custom report here'])[1]/preceding::h1[1]</value>
-      <webElementGuid>70a1a3de-3f6a-4314-836b-7a28873d53c4</webElementGuid>
+      <webElementGuid>d2d21e6e-c97a-4ddc-b1d0-679c9993b3fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Reporting']/parent::*</value>
-      <webElementGuid>1d5dd2ed-48b5-4554-b206-0a19404b30be</webElementGuid>
+      <webElementGuid>a6d34e23-914a-4106-a16b-3ead648ffbef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>635b0051-adea-4248-b49a-82cf99962980</webElementGuid>
+      <webElementGuid>f73eee8b-2e55-4f04-a3f8-891959ef0be9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
         Reporting
         
             Beta')]</value>
-      <webElementGuid>4a2a0f32-a41b-4f65-b1f7-72357e666cfd</webElementGuid>
+      <webElementGuid>85604d6f-47ef-42ee-a439-1bf2df081878</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

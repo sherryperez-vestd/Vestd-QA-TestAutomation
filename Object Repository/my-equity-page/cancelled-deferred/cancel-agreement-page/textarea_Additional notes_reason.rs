@@ -6,12 +6,12 @@
    <elementGuidId>df657c1b-0066-4c55-a37f-d968a2976a04</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='reason']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#reason</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='reason']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:label=&quot;Additional notes&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>60f1c619-70e8-4f27-9263-2c503996d468</webElementGuid>
+      <webElementGuid>7e42bf19-b28e-4b3a-9324-427d089f5a72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>13a3c44c-f345-4a5c-9a10-71e26671b703</webElementGuid>
+      <webElementGuid>f414c350-83c6-40bb-9176-febd0efac2c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>2</value>
-      <webElementGuid>bc30093f-1933-4bfe-802e-66c551e2c9e9</webElementGuid>
+      <webElementGuid>4c51e739-e059-4fe2-a007-e85508c2ef01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>1000</value>
-      <webElementGuid>3273db24-2732-4b9b-a6de-2fc3269255c5</webElementGuid>
+      <webElementGuid>45e6b020-9ad4-4b44-8874-91e4350da931</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>reason</value>
-      <webElementGuid>e4ad3229-5518-4caf-8b4f-49ac63148063</webElementGuid>
+      <webElementGuid>313d26c7-778f-4070-983f-28ec6f483619</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>cols</name>
       <type>Main</type>
       <value>50</value>
-      <webElementGuid>7a9cc4c7-cea1-4b43-af1f-348dce85b6ca</webElementGuid>
+      <webElementGuid>d680bb1c-a961-4540-a04c-5ae032da82bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>id</name>
       <type>Main</type>
       <value>reason</value>
-      <webElementGuid>520778e0-d006-4c7e-9ccb-2a6d17f919ad</webElementGuid>
+      <webElementGuid>6cc2b7f4-986c-4aac-879d-3ad52ea5b382</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;reason&quot;)</value>
-      <webElementGuid>d5b2a6b4-0ceb-47be-ba56-4577c792cf56</webElementGuid>
+      <webElementGuid>7b2419e1-01cf-424d-b005-003ada2d1ef4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='reason']</value>
-      <webElementGuid>e51a6732-edf3-4f9c-9bae-af2d3d69ba2a</webElementGuid>
+      <webElementGuid>d384ba48-aaa4-490d-8b98-d83fb5bc2ad9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='partial-cancel-form']/div[3]/textarea</value>
-      <webElementGuid>671a329c-4251-4814-bab5-55fe25db53bb</webElementGuid>
+      <webElementGuid>399ed1e9-7f65-4eed-93c1-be0f385a95a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>ae176562-3c2d-4e32-ab53-dd99ed4c5caa</webElementGuid>
+      <webElementGuid>1247efbd-7948-4baf-892a-c5dc554e7de2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@name = 'reason' and @id = 'reason']</value>
-      <webElementGuid>196def72-10f7-4b5b-b2b0-5ac424088b1a</webElementGuid>
+      <webElementGuid>6576cd9f-6c05-4305-a1c9-e9e2adc5f809</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

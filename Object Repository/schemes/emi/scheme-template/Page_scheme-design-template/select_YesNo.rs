@@ -10,6 +10,10 @@
          <value>#time_based_vesting</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'time_based_vesting' and @name = 'time_based_vesting' and (text() = 'YesNo' or . = 'YesNo')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//select[@id='time_based_vesting']</value>
       </entry>
@@ -21,7 +25,7 @@
          <value>internal:label=&quot;Use time based vesting?&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>309b8e4c-6078-41e4-b9b4-2f2280c6f99a</webElementGuid>
+      <webElementGuid>11e6d549-217f-4562-8d4e-eb1ef63a1c61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>940174d6-d356-4604-8ae5-cb7d1c1729be</webElementGuid>
+      <webElementGuid>ab716889-2a7d-4cae-b45c-ee9bb4bf851b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>time_based_vesting</value>
-      <webElementGuid>0778a611-02f0-4623-8980-e9d3f8482838</webElementGuid>
+      <webElementGuid>e682c144-b716-45a6-bc00-d2e8418e9766</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>time_based_vesting</value>
-      <webElementGuid>1be91360-3a0a-40e7-898c-c78cc67c01c2</webElementGuid>
+      <webElementGuid>b8c59422-b668-4dc5-91fc-98f608a07a8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>YesNo</value>
-      <webElementGuid>ad8e79f5-7506-4d6e-b6bb-4725dc1d9301</webElementGuid>
+      <webElementGuid>8b723792-0c7f-4d6a-bc0f-588936a1db89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;time_based_vesting&quot;)</value>
-      <webElementGuid>2bd523b5-5da5-4f98-b30e-c09136dec1e5</webElementGuid>
+      <webElementGuid>71ac5811-885b-4905-8a4a-20bad1b21cd8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='time_based_vesting']</value>
-      <webElementGuid>f4742b26-2759-4e5e-8167-31ab452efccd</webElementGuid>
+      <webElementGuid>8722edc9-1e43-46c4-b70c-7300f92690bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[3]/div/form/fieldset[2]/div/select</value>
-      <webElementGuid>aad46138-67d7-44ed-b789-80e118732923</webElementGuid>
+      <webElementGuid>28f2bba0-36d9-4388-9071-f0e58fd3c963</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Use time based vesting?'])[1]/following::select[1]</value>
-      <webElementGuid>cbb91b61-1093-488a-9a09-e1a91638d6c1</webElementGuid>
+      <webElementGuid>e7a502b3-678e-491d-9b32-b5a0143b9ede</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vesting'])[1]/following::select[1]</value>
-      <webElementGuid>9361c5cc-330f-4806-8364-5fdff186316a</webElementGuid>
+      <webElementGuid>bcfe4d2e-00e7-4abd-b6f6-9b1b40b16b44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start date'])[1]/preceding::select[1]</value>
-      <webElementGuid>6b517565-ee2d-4d38-b1f0-e153f8373e7d</webElementGuid>
+      <webElementGuid>e00ef40d-b133-496c-af6d-f5c06e356874</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vesting duration'])[1]/preceding::select[1]</value>
-      <webElementGuid>c9750baf-70c5-4e06-84f9-8769a2c2978f</webElementGuid>
+      <webElementGuid>6d32a701-6221-4abb-92ef-ec381ed3f90f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset[2]/div/select</value>
-      <webElementGuid>7ca18f99-81d8-4634-854d-730de585b278</webElementGuid>
+      <webElementGuid>da9a5fff-e5dc-4477-9afb-512fdb22b90a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'time_based_vesting' and @name = 'time_based_vesting' and (text() = 'YesNo' or . = 'YesNo')]</value>
-      <webElementGuid>7c2c681c-3a94-4c5f-91e9-8761295a9e01</webElementGuid>
+      <webElementGuid>17a1cdd0-e37d-4e8b-9efa-f5aa9f58977f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

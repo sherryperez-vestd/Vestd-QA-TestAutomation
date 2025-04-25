@@ -6,12 +6,12 @@
    <elementGuidId>491980e5-04c0-4ded-93b1-8ea917bc8a2d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;EMI&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>4618cf73-bde0-4ceb-bb2d-a13898ce08ab</webElementGuid>
+      <webElementGuid>4fa54da1-11a9-41d2-936e-fc127bdb7a55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>EMI</value>
-      <webElementGuid>5109fa19-2d79-4c82-90d7-595e8e71f3de</webElementGuid>
+      <webElementGuid>f74e8768-b4cb-4963-a1da-6dd656a66212</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col&quot;]/h1[1]</value>
-      <webElementGuid>a80ca586-e1cf-4845-aaf3-b81d972167ea</webElementGuid>
+      <webElementGuid>4409c723-25c7-4c75-9ccf-8f62067b7040</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/h1</value>
-      <webElementGuid>a6d7b243-fb53-4c6b-ada9-8c275557c60a</webElementGuid>
+      <webElementGuid>a57d098c-7679-421f-a265-ecc82cf42bcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>d11da099-b086-495b-bd67-d66742157f03</webElementGuid>
+      <webElementGuid>142dff5d-abd3-4e73-a0fd-f1b13ec01117</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>878d6583-b606-41ae-a21d-012dddf9d586</webElementGuid>
+      <webElementGuid>3da4f797-d667-44bd-b5eb-ae882356451f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='You have 1 EMI option agreement in draft.'])[1]/preceding::h1[1]</value>
-      <webElementGuid>2336b9ca-5466-4f00-8743-c10dd3038546</webElementGuid>
+      <webElementGuid>a733638b-823f-444d-bd43-c4bc414f187f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/preceding::h1[1]</value>
-      <webElementGuid>12eb778e-5607-4720-a0b5-8d8178b8445a</webElementGuid>
+      <webElementGuid>ebacf44a-e3ed-4a86-9372-a0934c1d4875</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>c124e7a0-4c67-4734-b3d0-3b0143f844e4</webElementGuid>
+      <webElementGuid>76a01f81-b483-44c9-9288-d233be9ceb9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'EMI' or . = 'EMI')]</value>
-      <webElementGuid>8a79c486-5e83-47a7-941c-500c371e6300</webElementGuid>
+      <webElementGuid>1b9a037e-7646-4044-a3b6-6e55f7ac81e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

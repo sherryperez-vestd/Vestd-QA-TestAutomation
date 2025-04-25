@@ -24,14 +24,11 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-offer/create
 WebUI.selectOptionByValue(findTestObject('Object Repository/issue-shares/Share-distribution-create/select_Please selectIndividualCompany'), 
     'individual', true)
 
-WebUI.setText(findTestObject('Object Repository/issue-shares/Share-distribution-create/input_First name_given_name'), 
-    'Test')
+WebUI.setText(findTestObject('Object Repository/issue-shares/Share-distribution-create/input_First name_given_name'), 'Test')
 
-WebUI.setText(findTestObject('Object Repository/issue-shares/Share-distribution-create/input_Last name_family_name'), 
-    'Shares')
+WebUI.setText(findTestObject('Object Repository/issue-shares/Share-distribution-create/input_Last name_family_name'), 'Shares')
 
-WebUI.setText(findTestObject('Object Repository/issue-shares/Share-distribution-create/input_Email_email'), 
-    'sherry.perez+shares@vestd.com')
+WebUI.setText(findTestObject('Object Repository/issue-shares/Share-distribution-create/input_Email_email'), 'sherry.perez+shares@vestd.com')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/issue-shares/Share-distribution-create/select_Please select oneOrdinary share pool_c70f14'), 
     '167070', true)
@@ -52,15 +49,15 @@ WebUI.click(findTestObject('Object Repository/issue-shares/Share-distribution-de
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/issue-shares/share-issues-index/td_Test Shares'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/issue-shares/share-issues-index/td_Test Shares'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/issue-shares/share-issues-index/td_Test Shares'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/issue-shares/share-issues-index/td_Test Shares'), 
-    'Test Shares')
+WebUI.verifyElementText(findTestObject('Object Repository/issue-shares/share-issues-index/td_Test Shares'), 'Test Shares')
 
 WebUI.click(findTestObject('Object Repository/issue-shares/share-issues-index/a_Share distribution 1'))
 
 WebUI.refresh()
+
+WebUI.waitForElementPresent(findTestObject('issue-shares/Share-distribution-details/a_Share issue-staff-link'), 0)
 
 WebUI.click(findTestObject('Object Repository/issue-shares/Share-distribution-details/a_Share issue-staff-link'))
 
@@ -111,6 +108,12 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/shareholders/shareh
     0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/shareholders/shareholders details/div_Shareholder updated'), 'Shareholder updated')
+
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-certificate')
+
+WebUI.click(findTestObject('share-certificates/button_Delete'))
+
+WebUI.acceptAlert()
 
 WebUI.closeBrowser()
 

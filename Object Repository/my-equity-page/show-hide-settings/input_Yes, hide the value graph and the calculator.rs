@@ -6,12 +6,12 @@
    <elementGuidId>8d493506-85b3-44d7-b94c-8e2dec7b9750</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='feature_recipient_dashboard_hide_calculator_and_graph_no']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#feature_recipient_dashboard_hide_calculator_and_graph_no</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='feature_recipient_dashboard_hide_calculator_and_graph_no']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:label=&quot;No, show the value graph and calculator to the recipients&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>eeac5e64-29b7-4964-809e-82f03f3156bb</webElementGuid>
+      <webElementGuid>9e881ef3-679d-4ce1-be85-d2f647ee7ea8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>feature_recipient_dashboard_hide_calculator_and_graph_no</value>
-      <webElementGuid>288bcfb0-8d1f-4cea-af6b-9404d992feea</webElementGuid>
+      <webElementGuid>15fa723f-a79a-4f3d-af0e-536b4d2f6653</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
-      <webElementGuid>ac53d4f0-b445-4ada-8359-f904e827a34e</webElementGuid>
+      <webElementGuid>926e8aff-222f-467a-8482-bd82d909e475</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>feature_recipient_dashboard_hide_calculator_and_graph</value>
-      <webElementGuid>460f4a40-d748-4c8c-bb92-b13155b0202d</webElementGuid>
+      <webElementGuid>717b0d56-569b-4a11-baf3-981e21e05b20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>5e28b4b2-b86a-4b3f-962c-aa82c455c026</webElementGuid>
+      <webElementGuid>1ff145e6-5db9-4f08-8778-7c3ddf95725e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;feature_recipient_dashboard_hide_calculator_and_graph_no&quot;)</value>
-      <webElementGuid>0359e415-1dff-431e-8b34-2d05079183a2</webElementGuid>
+      <webElementGuid>0253c583-e734-4dfd-98a7-87fa2a803699</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='feature_recipient_dashboard_hide_calculator_and_graph_no']</value>
-      <webElementGuid>06f17446-11b2-4321-ad06-0996caa4e067</webElementGuid>
+      <webElementGuid>60b95657-1aeb-4231-868c-c84f7ed9dbb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div[10]/div[2]/div[2]/input</value>
-      <webElementGuid>50a4e8d0-beeb-4a06-a72f-814c96cd56cd</webElementGuid>
+      <webElementGuid>246a63b1-4b81-43a2-8ab7-ebf21c5462d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div[2]/div[2]/input</value>
-      <webElementGuid>7eaf8baa-c6c3-487a-b0e4-e9a71f6294a6</webElementGuid>
+      <webElementGuid>2c638805-6d29-4408-bcce-46ed73dd907e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'feature_recipient_dashboard_hide_calculator_and_graph_no' and @name = 'feature_recipient_dashboard_hide_calculator_and_graph' and @type = 'radio']</value>
-      <webElementGuid>b91920ea-46af-4bbd-a2b8-65e9062ee471</webElementGuid>
+      <webElementGuid>a9beec65-a2ae-4504-988e-3f2723af0c4c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>fefdd695-8e59-4320-89eb-4a53c1305b4a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Valuations&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>c3d51588-bca1-4d68-a4f1-0a345298e0df</webElementGuid>
+      <webElementGuid>e08a9280-3e98-44a3-856b-6a610592a845</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Valuations</value>
-      <webElementGuid>c820d449-4314-4c24-81cd-35e711fd65b9</webElementGuid>
+      <webElementGuid>f3df2a01-4bb9-49d6-a1e3-43a104fa31b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;d-md-flex justify-content-between align-items-start&quot;]/h1[1]</value>
-      <webElementGuid>cc957929-3267-4d58-8f17-43fef9c2dce5</webElementGuid>
+      <webElementGuid>f1af5888-b46f-4461-ab51-0b5023ea0bbc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/h1</value>
-      <webElementGuid>5680725e-74ef-4e16-ab12-6fb29dae8d6c</webElementGuid>
+      <webElementGuid>40147373-e972-43f9-a9a4-fb25819f2c54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>d9e80967-be33-4cf6-b7b8-e88903678f64</webElementGuid>
+      <webElementGuid>31770123-7e6e-443f-9dc1-1f22a4d82eb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>7ac05b37-00e0-4d69-87f4-29703b583196</webElementGuid>
+      <webElementGuid>6e9fb172-d1cb-4cb3-9c8e-1a171b6c0b0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/preceding::h1[1]</value>
-      <webElementGuid>9b6b7d0b-aa08-42db-97ab-d894bfec1906</webElementGuid>
+      <webElementGuid>3b59970e-43c4-4f71-b1e7-456029c1ec26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>4a4c1bcf-87f0-44d1-a2bb-e9ddf818d386</webElementGuid>
+      <webElementGuid>e4e61d05-ea7c-4cba-85dc-5e667e6ae06a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Valuations' or . = 'Valuations')]</value>
-      <webElementGuid>4679d79c-3c92-4f95-95ff-b7fb165233ac</webElementGuid>
+      <webElementGuid>a104889d-f09a-477b-8578-ee2e5823c702</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

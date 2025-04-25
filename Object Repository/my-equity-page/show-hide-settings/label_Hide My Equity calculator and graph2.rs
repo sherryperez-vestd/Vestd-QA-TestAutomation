@@ -6,15 +6,18 @@
    <elementGuidId>7a102607-df4f-49e4-a0a6-06d48f8728a1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/form/div[10]/div/label</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//label[(text() = 'Hide “My Equity calculator and graph” (recipient dashboard) from the recipients' or . = 'Hide “My Equity calculator and graph” (recipient dashboard) from the recipients')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,12 +27,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>d3574aeb-57af-463c-9e49-37dc0f42ab0e</webElementGuid>
+      <webElementGuid>98408a41-4f91-4471-aa3f-234c101fb7f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>for</name>
       <type>Main</type>
       <value>feature_recipient_dashboard_hide_calculator_and_graph</value>
-      <webElementGuid>1d45241e-bf1b-4900-93d3-7c93b961f0d4</webElementGuid>
+      <webElementGuid>0f817cd0-efe8-4640-8503-1b9e63344915</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Hide “My Equity calculator and graph” (recipient dashboard) from the recipients</value>
-      <webElementGuid>93993f8f-4ea8-4ad8-b975-68278a5ff20e</webElementGuid>
+      <webElementGuid>2dbf1181-b424-43be-b3d8-6a8820e31a66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-check-label&quot;]/label[1]</value>
-      <webElementGuid>8f1c78d5-8eb7-49d1-8965-556fff06d790</webElementGuid>
+      <webElementGuid>baf9731e-6065-462b-bcc1-c70d66b32778</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div[10]/div/label</value>
-      <webElementGuid>6a31f8e2-ac10-4e91-ad89-b1ddd7155bd8</webElementGuid>
+      <webElementGuid>92e56686-72ad-4fc2-a41a-7233d723a2c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No, only show non diluted numbers on the My Equity page'])[1]/following::label[1]</value>
-      <webElementGuid>dc139d3e-e859-4f44-b83e-8e5799744d68</webElementGuid>
+      <webElementGuid>7a09559b-c7a3-4a7c-b63a-9e4dfeffc553</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[5]/following::label[2]</value>
-      <webElementGuid>75aa829f-ff67-4396-ab35-d7ec4bc28cb0</webElementGuid>
+      <webElementGuid>ea7c524d-40da-4f5a-80a0-773d0e5bdf30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes, hide the value graph and the calculator from the recipients'])[1]/preceding::label[1]</value>
-      <webElementGuid>6db73b4d-3505-4208-989b-f973b3e80152</webElementGuid>
+      <webElementGuid>a5a9884d-5efb-4882-aa7c-3b9e379faaf0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No, show the value graph and calculator to the recipients'])[1]/preceding::label[2]</value>
-      <webElementGuid>15e85b21-d388-4cbd-9c95-470de5deec97</webElementGuid>
+      <webElementGuid>b7194600-e5df-4169-86d9-f7a38b9be406</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Hide “My Equity calculator and graph” (recipient dashboard) from the recipients']/parent::*</value>
-      <webElementGuid>35bd7f07-fb28-4ca2-af94-6aa05430b56f</webElementGuid>
+      <webElementGuid>f4c99e6c-255e-46fa-a29a-fd099976de9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div/label</value>
-      <webElementGuid>7b549bb8-12f2-4767-9c53-7b3826793291</webElementGuid>
+      <webElementGuid>c99dbcad-5236-40d1-a199-d0e3cdac31bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +120,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Hide “My Equity calculator and graph” (recipient dashboard) from the recipients' or . = 'Hide “My Equity calculator and graph” (recipient dashboard) from the recipients')]</value>
-      <webElementGuid>7f65045d-aa77-4479-b73b-de80286abd60</webElementGuid>
+      <webElementGuid>7c7e239d-d4fd-46d8-81da-0cf51d03aa81</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

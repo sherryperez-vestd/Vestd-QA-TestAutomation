@@ -6,12 +6,12 @@
    <elementGuidId>dc0a1711-1232-478f-bfcd-d99f75db2608</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.form-text > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div/div/p/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.form-text > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:text=&quot;Fetch records from this date&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d765a754-a146-4238-9972-b8f0d254988e</webElementGuid>
+      <webElementGuid>b489672d-25f8-4427-803f-fdf646c501d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Fetch records from this date</value>
-      <webElementGuid>6c25835a-a194-47b9-8a13-93964c62ba1f</webElementGuid>
+      <webElementGuid>7f73c6e8-9c01-40a6-abf0-d96ca5b4df66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/form[1]/fieldset[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;form-group&quot;]/p[@class=&quot;form-text&quot;]/span[1]</value>
-      <webElementGuid>2259313b-7830-4728-908e-0e975ec9487c</webElementGuid>
+      <webElementGuid>014a59b1-9e03-4e3d-a2df-12fabce225af</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div/div/p/span</value>
-      <webElementGuid>a010e01f-a2c9-4261-8e52-f2faed7c3aee</webElementGuid>
+      <webElementGuid>d5274a7a-0517-416f-a78b-bbbab2b58e6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='To Date'])[1]/preceding::span[1]</value>
-      <webElementGuid>6a57b8c2-6b89-43f0-8175-fb68309126a6</webElementGuid>
+      <webElementGuid>da839379-c55e-45a5-a50e-35bccbfeb41c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Fetch records from this date']/parent::*</value>
-      <webElementGuid>801d2a47-7e5a-499c-9e72-cd26e8b2ce20</webElementGuid>
+      <webElementGuid>a3d923d7-a7fb-4104-a823-feda9f31bfa9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p/span</value>
-      <webElementGuid>02e9ea00-871a-4513-a090-4022f97e0fa0</webElementGuid>
+      <webElementGuid>ad8deaec-4c61-4fa1-bd5b-59c0ee4149d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Fetch records from this date' or . = 'Fetch records from this date')]</value>
-      <webElementGuid>82240207-8249-41e0-9cc4-34497742cc98</webElementGuid>
+      <webElementGuid>6473a5dd-3ba7-4677-8c1d-73340c427231</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

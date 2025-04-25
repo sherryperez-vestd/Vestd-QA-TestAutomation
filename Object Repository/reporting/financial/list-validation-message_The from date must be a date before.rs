@@ -6,12 +6,12 @@
    <elementGuidId>47bca49b-f4fe-42c8-a547-8582d6cb2ecb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.mb-0 > li</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.mb-0 > li</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>li >> internal:has-text=&quot;The from date must be a date before or equal to today.&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>e2f79ab5-92c0-4bfc-ad4d-77163a6b3903</webElementGuid>
+      <webElementGuid>8c9da1bb-d030-4207-b276-0eafc9b37856</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>The from date must be a date before or equal to today.</value>
-      <webElementGuid>393d046d-0be7-43b3-9b54-6db2cb38134e</webElementGuid>
+      <webElementGuid>96d50787-5d5e-4b56-b5f6-0bfbce5066a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;alert alert-danger&quot;]/ul[@class=&quot;mb-0&quot;]/li[1]</value>
-      <webElementGuid>4c9fbed9-8034-49f9-a5bc-0c80b2cee6a5</webElementGuid>
+      <webElementGuid>e813a2b9-4c03-4358-a109-f42455b17b98</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/ul/li</value>
-      <webElementGuid>b09ffc78-98f9-4df4-9780-2611d47161db</webElementGuid>
+      <webElementGuid>7fee34ed-b7b9-4f37-8eb8-947e8b884133</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Financial Report'])[1]/following::li[1]</value>
-      <webElementGuid>02b5dde4-73ab-4220-a170-18332f193341</webElementGuid>
+      <webElementGuid>c8ca161b-c8ce-44b8-8c21-0e298ac9ea16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::li[4]</value>
-      <webElementGuid>0295db95-2ff3-4a9c-af2f-07b7102bd956</webElementGuid>
+      <webElementGuid>be3016ac-8b9a-47b5-8a34-461dc97a211a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='The to date must be a date after or equal to from date.'])[1]/preceding::li[1]</value>
-      <webElementGuid>308efac3-ed16-4de7-9fd6-85926acddc18</webElementGuid>
+      <webElementGuid>2d4c773e-d05a-4f28-a73e-3eaefe654287</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='From Date'])[1]/preceding::li[2]</value>
-      <webElementGuid>31e5c9fd-bb56-4447-ade2-f8766261b509</webElementGuid>
+      <webElementGuid>9921a835-9bc6-4779-8393-7238c33bf4ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='The from date must be a date before or equal to today.']/parent::*</value>
-      <webElementGuid>11cb8965-be5a-409e-96db-71d325b76174</webElementGuid>
+      <webElementGuid>12316778-c5e0-47d0-8d4a-665956376cf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/ul/li</value>
-      <webElementGuid>32723cf6-7d75-4645-bde4-912dc80eb661</webElementGuid>
+      <webElementGuid>eaff6dd4-ca56-4a55-a8e0-0e633f80c0c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'The from date must be a date before or equal to today.' or . = 'The from date must be a date before or equal to today.')]</value>
-      <webElementGuid>8344aa4c-ae0a-490f-95b7-e0b1a16a109d</webElementGuid>
+      <webElementGuid>77c1d76c-9bab-4372-9737-f86072bdb235</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

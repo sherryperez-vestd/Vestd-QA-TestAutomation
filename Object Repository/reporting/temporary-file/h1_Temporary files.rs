@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Temporary files&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>f5f700fa-1597-4258-8dad-474fd0715b90</webElementGuid>
+      <webElementGuid>429020b6-d1ef-49a9-9173-7ab45f4d8d5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Temporary files</value>
-      <webElementGuid>c635a696-7e6a-46a6-96bf-cc6601b2d2ca</webElementGuid>
+      <webElementGuid>ce6eca2e-9733-48cd-a11f-68333f9e2c15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>e235bfc4-9b3b-4d62-b1ed-6aadb84b0c6b</webElementGuid>
+      <webElementGuid>dd92f05b-7793-4128-8ce4-d6ec288d3866</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>7065e4ec-9294-418a-9f08-334bb7642518</webElementGuid>
+      <webElementGuid>5662ca6e-8830-47f1-97f3-a3491ce6cef5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>21c6ca94-8208-48a0-8403-9df770262322</webElementGuid>
+      <webElementGuid>909c0816-7ed8-46ab-ae53-c474674e7776</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/preceding::h1[1]</value>
-      <webElementGuid>e302c7b9-fd0e-4a54-a36f-9391ad24fa02</webElementGuid>
+      <webElementGuid>9ea5f20e-89fb-46c7-a666-597df8d87c00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Generated'])[1]/preceding::h1[1]</value>
-      <webElementGuid>6e9d9361-f7af-40f9-8c23-f8984a69af20</webElementGuid>
+      <webElementGuid>c82625f5-5827-42f1-b1e6-9e9901693c99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Temporary files']/parent::*</value>
-      <webElementGuid>2c0409dd-b580-4600-a87d-21ecb989bd48</webElementGuid>
+      <webElementGuid>a31c9cd1-5069-485b-8a12-0c24b83d3782</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>c26e520e-1760-43c4-97e0-8418de9870d1</webElementGuid>
+      <webElementGuid>24d994c6-36a4-4321-bdee-38637a8b9fe1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Temporary files' or . = 'Temporary files')]</value>
-      <webElementGuid>0856702a-4c32-479f-9f91-2899a8d6f986</webElementGuid>
+      <webElementGuid>3a6be5a8-2349-43a0-8de3-9e06b7253011</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

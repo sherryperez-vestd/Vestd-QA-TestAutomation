@@ -6,22 +6,26 @@
    <elementGuidId>b7da5c52-1f14-434c-af51-f223da1a4f89</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;empty-graph-placeholder&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/img</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>img[alt=&quot;empty-graph-placeholder&quot;]</value>
+         <key>BASIC</key>
+         <value>//*[@alt = 'empty-graph-placeholder']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:role=img[name=&quot;empty-graph-placeholder&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>fa488f71-60ad-4908-bee2-9ff6a2ede616</webElementGuid>
+      <webElementGuid>13b54a75-ee00-40c7-b44e-321ec2b8e0c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
       <value>/img/content/empty-graph-placeholder.svg</value>
-      <webElementGuid>f10ddab4-4c8e-4766-8b47-a0c8c15871a6</webElementGuid>
+      <webElementGuid>765dbc47-d428-4aa8-9ddd-30db3df20fc3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>empty-graph-placeholder</value>
-      <webElementGuid>a87e1e0b-c350-47fc-aebe-09c117873847</webElementGuid>
+      <webElementGuid>4bf1a2ac-904d-45ac-b7bb-fa91c7de5b04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[2]/div[@class=&quot;card overflow-hidden v-card bg-light card-muted mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;p-sm-5 d-flex flex-column justify-content-center align-items-center&quot;]/img[1]</value>
-      <webElementGuid>bc4afb9e-6df7-4c8b-80cf-f571ff2bf01c</webElementGuid>
+      <webElementGuid>9bba89ac-8b1c-4c46-9da1-608c60cbd42a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/img</value>
-      <webElementGuid>0db395c8-e5d9-4e0b-b1c0-8994a979815a</webElementGuid>
+      <webElementGuid>60e114b6-4c4b-4334-9be8-0e622995c939</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='empty-graph-placeholder']</value>
-      <webElementGuid>1c22fcf7-686a-448d-948e-0c6ee5550e9a</webElementGuid>
+      <webElementGuid>4bf11645-b27f-4679-9fd8-720ddb1619e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/img</value>
-      <webElementGuid>e2f9ea31-d396-4be5-a1c3-9a2f04b7eef7</webElementGuid>
+      <webElementGuid>97d42dcf-4774-43f0-8632-70e4cafa58b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/img/content/empty-graph-placeholder.svg' and @alt = 'empty-graph-placeholder']</value>
-      <webElementGuid>28007e5b-6670-4c99-81d8-3dc64d37da58</webElementGuid>
+      <webElementGuid>e33ef448-6bfd-45a0-9603-6d6520c3cb07</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

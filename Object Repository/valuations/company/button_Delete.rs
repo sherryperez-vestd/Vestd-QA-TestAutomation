@@ -6,12 +6,12 @@
    <elementGuidId>76680e31-a2ea-4275-9cbd-52f4fe99b018</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-anchor-link</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-anchor-link</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=row[name=&quot;Company £2,000,000 Investment round 1st Jan 2025 Edit Delete&quot;i] >> internal:role=button</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c8d3d9b6-fa88-4f0e-a570-1a29044fe312</webElementGuid>
+      <webElementGuid>e9d23743-84dd-4730-ae76-a0f9763e72d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>7922ea07-99a6-4773-ac85-bafa58b4fc7a</webElementGuid>
+      <webElementGuid>73ebffe2-9f28-4db8-8d1b-31944bf9a3b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-anchor-link</value>
-      <webElementGuid>1d1dead5-a94b-4686-ad74-3d3f5b1d1086</webElementGuid>
+      <webElementGuid>f87554e0-cefc-4af0-a554-f67ce4345b09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>return confirmDeletion(event, &quot;209003&quot;)</value>
-      <webElementGuid>c2bd07f8-ba0a-4610-9d20-56c269cbcff3</webElementGuid>
+      <webElementGuid>10a9b02d-5010-478c-8dab-ea4be10603ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>5348985f-d263-49f5-88e7-dff82d960246</webElementGuid>
+      <webElementGuid>eb30c635-0f30-4602-aa32-81274a39dcb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;delete-valuation-209003&quot;)/button[@class=&quot;btn btn-anchor-link&quot;]</value>
-      <webElementGuid>2dd2eb5f-10ac-4a62-b315-5c7a6faf5b11</webElementGuid>
+      <webElementGuid>d8bd2dbc-7e44-4f7c-b284-3a42cb8338a1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>deb75838-5734-43c9-9451-a9e3a7471646</webElementGuid>
+      <webElementGuid>62c50f11-55da-4726-8fde-65d30124010c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='delete-valuation-209003']/button</value>
-      <webElementGuid>c985c2a3-c503-4e3a-adfd-2104f916d4b1</webElementGuid>
+      <webElementGuid>63cd5bed-c7b1-4ccc-ada2-d8d440966118</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::button[1]</value>
-      <webElementGuid>8e89885c-02ea-49a4-bb45-2e066351c445</webElementGuid>
+      <webElementGuid>00d806f9-f8d8-419f-9408-3582b815fb4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Investment round'])[1]/following::button[1]</value>
-      <webElementGuid>c589f2d7-0a91-4d3c-88d5-9bb309e8493a</webElementGuid>
+      <webElementGuid>10d75f97-41ec-4474-ae23-5ef6278e384c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(HMRC approved)'])[1]/preceding::button[1]</value>
-      <webElementGuid>ed67b551-bda1-4eef-a5fd-0e75702ccda8</webElementGuid>
+      <webElementGuid>c88cdd4c-e4ff-4c0e-b3f4-30ca77a46ee9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
-      <webElementGuid>53d9c275-963f-47c1-babf-7f797cce4dbf</webElementGuid>
+      <webElementGuid>37341a48-3cfd-420c-b9fa-7ec9876777be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>b2293acd-c9ef-40fb-b0ab-b4d98306ce81</webElementGuid>
+      <webElementGuid>a0efecd5-ef4a-4ec3-a511-292cc844ec8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Delete' or . = 'Delete')]</value>
-      <webElementGuid>2a7c646f-78d9-4a57-8888-5b5d35d39ff6</webElementGuid>
+      <webElementGuid>9921f1dc-a6a6-4c8d-a7d5-7ceb5fd5e78c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

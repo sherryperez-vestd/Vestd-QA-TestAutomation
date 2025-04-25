@@ -6,20 +6,20 @@
    <elementGuidId>6e1de0a8-24bf-4f64-8fbe-4f62640eb79c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[2]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://demo.app.vestd.com/company/50934/existing-scheme-upload' and (text() = '
                                             Existing scheme uploads
                                         ' or . = '
                                             Existing scheme uploads
                                         ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarSchemes']/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +29,7 @@
          <value>internal:role=link[name=&quot;Existing scheme uploads&quot;s]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b50f1ede-f882-4c5a-bb22-96ae264b41ba</webElementGuid>
+      <webElementGuid>8ad7abe7-ce93-43f8-b056-199242fb223d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/existing-scheme-upload</value>
-      <webElementGuid>8c3b8c74-ebe6-48f7-9a86-33f0c6d4759d</webElementGuid>
+      <webElementGuid>83a1e7e3-0384-4779-9d04-59b881426754</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>526c0adc-adba-44ca-9c60-54308feb554d</webElementGuid>
+      <webElementGuid>b91cd41a-30a6-41c5-a498-b2a7460be4a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                                             Existing scheme uploads
                                         </value>
-      <webElementGuid>589beaef-fc18-455d-bfb0-ff9f0327ceff</webElementGuid>
+      <webElementGuid>40c248ff-39db-40f9-acaa-c03221a1d5ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>d094c391-a290-48fb-bda8-4e810ba1caf7</webElementGuid>
+      <webElementGuid>c781bda7-4bcc-477b-b861-10f5cefd8b01</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[2]/a</value>
-      <webElementGuid>2e1d9e48-0a19-4f6c-83eb-2a3794ec5043</webElementGuid>
+      <webElementGuid>e1b038d6-e208-493c-a325-64ecba7bbaf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Existing scheme uploads')]</value>
-      <webElementGuid>c1ab808a-4d77-4704-86e0-613321fad725</webElementGuid>
+      <webElementGuid>8db56523-6399-4a25-99a7-de294b0a2b16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Schemes'])[1]/following::a[1]</value>
-      <webElementGuid>02816955-0f3d-4a17-bc6a-be74e722b425</webElementGuid>
+      <webElementGuid>c1be34c2-d4e0-4f55-8d19-a654fca222b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share schemes'])[1]/following::a[1]</value>
-      <webElementGuid>14acdfde-7c8e-482d-a5c7-0ff6ba8204b8</webElementGuid>
+      <webElementGuid>309c6aec-a64c-4b11-b78e-83f5aab526e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EMI'])[1]/preceding::a[1]</value>
-      <webElementGuid>d8e72c4f-23aa-4abe-a764-eb35215d13c8</webElementGuid>
+      <webElementGuid>62324f34-53e0-4604-9d6d-27e630047f38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unapproved options'])[1]/preceding::a[2]</value>
-      <webElementGuid>74c298cf-9d6d-42cb-b06a-db982fdda945</webElementGuid>
+      <webElementGuid>e8ee4a85-bdf8-4bb3-a2c5-1167d703fe07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Existing scheme uploads']/parent::*</value>
-      <webElementGuid>53bc96f6-89c8-4e45-851c-3afbe9f83738</webElementGuid>
+      <webElementGuid>07f151b9-07b0-4503-a6e8-a02f925b1b87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/existing-scheme-upload')]</value>
-      <webElementGuid>fee20fb5-92a5-42d7-afb7-c1f54b67cc94</webElementGuid>
+      <webElementGuid>25ad6ee8-279e-4e3a-8e90-dae9925606ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[2]/a</value>
-      <webElementGuid>bd4fd31c-0bab-4f39-891a-bfeaf34f3179</webElementGuid>
+      <webElementGuid>377b596a-69a7-46bf-b34b-62d6f00c842c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,6 +155,6 @@
                                         ' or . = '
                                             Existing scheme uploads
                                         ')]</value>
-      <webElementGuid>6a4f5ef8-8ab7-4bc8-a9a8-42e9a8bc00ed</webElementGuid>
+      <webElementGuid>8ebef79a-1400-4c07-87b5-cdbe9af0900f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>6908536e-169b-41c1-ac1d-77ea19589091</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p:nth-of-type(4)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div/div/p[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p:nth-of-type(4)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:text=&quot;Once the date range is selected, click the corresponding download button to gene&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>d75fa3e0-9e26-4bcf-aa05-7d2e92004f1b</webElementGuid>
+      <webElementGuid>82808b91-e7fc-490f-be7b-c264bacd22d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Once the date range is selected, click the corresponding download button to generate and download the report in Excel (xslx) format.</value>
-      <webElementGuid>9ae0575e-95b6-4193-8bec-5fbefe9b8707</webElementGuid>
+      <webElementGuid>7159cd9f-fee3-4088-ac17-d8f70ad99a29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;report-guidelines&quot;]/p[4]</value>
-      <webElementGuid>e13120c1-78ec-4677-a052-04b6bd74622e</webElementGuid>
+      <webElementGuid>b6e12e91-8291-4567-9c1e-ec9abe829f91</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div/div/p[4]</value>
-      <webElementGuid>d6c794b3-fadf-4ec8-848d-2eed9c25843d</webElementGuid>
+      <webElementGuid>1818177c-76d4-4d0b-99be-63e8d3547ea8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exercise Requests:'])[1]/following::p[2]</value>
-      <webElementGuid>6b7eda78-d10c-4f43-8a67-269bf33f39d8</webElementGuid>
+      <webElementGuid>0c071afb-b86b-48dc-a5f6-792f7972fe81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::p[1]</value>
-      <webElementGuid>52fbf7f2-994e-4d21-8e57-65cb05eabcfe</webElementGuid>
+      <webElementGuid>455d2c16-1077-403a-af7d-b4a0625f47e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[2]/preceding::p[1]</value>
-      <webElementGuid>312b1563-dcd8-4d8a-86fc-49b50b4a5dff</webElementGuid>
+      <webElementGuid>46fb4f2d-bf1d-41d4-8aa9-29fe2bd23dfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Once the date range is selected, click the corresponding download button to generate and download the report in Excel (xslx) format.']/parent::*</value>
-      <webElementGuid>c3eb1089-0b5c-4471-a99f-a045cf9477f0</webElementGuid>
+      <webElementGuid>92f58ea7-36e5-4a52-b27a-6ff7f2589dc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[4]</value>
-      <webElementGuid>e8c6a533-faac-46f9-a8c9-f9f72f6dd7cf</webElementGuid>
+      <webElementGuid>dc038c9b-3c05-4d30-a55c-0a43311c23b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Once the date range is selected, click the corresponding download button to generate and download the report in Excel (xslx) format.' or . = 'Once the date range is selected, click the corresponding download button to generate and download the report in Excel (xslx) format.')]</value>
-      <webElementGuid>907b70ad-5a7a-4a6c-8274-1f55ea054539</webElementGuid>
+      <webElementGuid>495fb33a-f184-4d58-9aa5-ac44ff057138</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

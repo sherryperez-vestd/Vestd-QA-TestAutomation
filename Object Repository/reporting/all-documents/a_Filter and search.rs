@@ -6,12 +6,11 @@
    <elementGuidId>c37bbc43-04e2-4eaa-8389-031235a09483</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +20,7 @@
          <value>internal:role=tab[name=&quot;Filter and search&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c6118e93-637a-4195-bbe1-6e12295ea496</webElementGuid>
+      <webElementGuid>ae5c4596-328b-4750-a446-a581e62dd934</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50135/legal-doc/filtered-view</value>
-      <webElementGuid>803e8ea2-5a38-4dd6-a41d-bf9bd0096bcc</webElementGuid>
+      <webElementGuid>8450d780-a1e3-42c4-8d94-1d17d4222e84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>3800af15-60cc-4046-b468-f837262e6aa5</webElementGuid>
+      <webElementGuid>a8a29a10-9eb7-4e3f-b240-513c040c0f96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>047b7da9-cbd9-4b1c-9fed-82c4fc6fdcaa</webElementGuid>
+      <webElementGuid>dc592f5d-4d85-4f89-9a83-d850663a79a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Filter and search</value>
-      <webElementGuid>4ef2a2bf-1653-4b6b-a59e-86681dbb9789</webElementGuid>
+      <webElementGuid>1b2ed3e0-c717-4c60-bac6-c11cc8e5ecc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/ul[@class=&quot;nav nav-sub-tabs&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>7874cb5f-b827-4ba8-ac18-0b2bb28dde1e</webElementGuid>
+      <webElementGuid>400116e5-e0e2-4391-89bd-649dba8b1388</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/ul/li[2]/a</value>
-      <webElementGuid>98abab1b-d3db-45dc-930d-ed2baa0e44c4</webElementGuid>
+      <webElementGuid>72b570be-619a-43d6-a799-7afe5ab3b5af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Filter and search')]</value>
-      <webElementGuid>e4066915-ef37-43c9-b39b-8e804cf10eef</webElementGuid>
+      <webElementGuid>28a617a9-a36e-4471-8860-ef9c71c078e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Activity view'])[1]/following::a[1]</value>
-      <webElementGuid>b60b3064-7492-451c-b7cd-ab55409191b8</webElementGuid>
+      <webElementGuid>7b344349-0ae2-4760-9107-cd8bbaa2e2f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload new'])[1]/following::a[2]</value>
-      <webElementGuid>e494b36a-54d0-42bd-8c32-7d4a887f3b4a</webElementGuid>
+      <webElementGuid>d717a07b-6ac6-46b8-9687-0d6bcc7d9661</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View temporary files for download'])[1]/preceding::a[1]</value>
-      <webElementGuid>9ec1d6b3-f182-46ea-b25c-fea601f19b0e</webElementGuid>
+      <webElementGuid>4d1afeb5-0e95-44cb-99ae-13218f235695</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Board Minutes'])[1]/preceding::a[2]</value>
-      <webElementGuid>4cdd8633-232c-484d-b98e-73fc569f31ac</webElementGuid>
+      <webElementGuid>fe5e2039-1321-41b2-a6c7-c3e3dbb7c89d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Filter and search']/parent::*</value>
-      <webElementGuid>aaa83312-7957-4643-9116-dcc3d645ca7a</webElementGuid>
+      <webElementGuid>589938e5-9670-4180-a280-6564ff674a9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +132,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50135/legal-doc/filtered-view')]</value>
-      <webElementGuid>3aa6967b-c7c9-4699-917b-ee9b8ffce11b</webElementGuid>
+      <webElementGuid>3997fb03-48ea-45fc-bafd-7eab6d41c93b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +140,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/ul/li[2]/a</value>
-      <webElementGuid>ae4707f3-f28a-4a74-96e8-23d4b676505f</webElementGuid>
+      <webElementGuid>87bd416e-26b2-427e-b0f5-b9f024c6ee73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +148,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://demo.app.vestd.com/company/50135/legal-doc/filtered-view' and (text() = 'Filter and search' or . = 'Filter and search')]</value>
-      <webElementGuid>9fda2d9a-ea54-473f-9721-d2c7da331e6f</webElementGuid>
+      <webElementGuid>08b1e7d3-026d-4f85-89e5-cf771e0e9b15</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

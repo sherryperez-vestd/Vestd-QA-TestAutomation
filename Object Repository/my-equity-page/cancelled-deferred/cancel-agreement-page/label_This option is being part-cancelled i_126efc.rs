@@ -6,12 +6,12 @@
    <elementGuidId>1c74a2de-f4d3-4854-a136-eb05f40396a9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='partial-cancel-form']/div[2]/div/label</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>label.form-check-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='partial-cancel-form']/div[2]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:text=&quot;This option is being part-cancelled in line with the terms of the option agreeme&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>63f2fe25-2b05-4ef7-a9d4-e30449ab3189</webElementGuid>
+      <webElementGuid>f14c217d-0a48-4890-8074-1e424c7b541b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>for</name>
       <type>Main</type>
       <value>cancellation_recorded_as_agreement</value>
-      <webElementGuid>965616cf-e0d8-4145-b4ab-c783a0157639</webElementGuid>
+      <webElementGuid>a5aac3df-7645-402a-8f25-317d1c43136b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-label</value>
-      <webElementGuid>6bcbf94a-c8b1-4e87-958b-556e1efbfca4</webElementGuid>
+      <webElementGuid>ed22fbe5-c000-475c-9ec0-5adcd7f9cc10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>This option is being part-cancelled in line with the terms of the option agreement (for example criteria not having been fulfilled).</value>
-      <webElementGuid>817bea41-f081-4fde-958d-f1e0152f9d4b</webElementGuid>
+      <webElementGuid>42d5310e-26ff-44eb-b915-9d43b02d04f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;partial-cancel-form&quot;)/div[@class=&quot;form-group form-group--required&quot;]/div[@class=&quot;form-check&quot;]/label[@class=&quot;form-check-label&quot;]</value>
-      <webElementGuid>218ddbd1-dff9-4d57-8590-489a8d02f722</webElementGuid>
+      <webElementGuid>a111f88c-861a-4c6d-aac1-8dfb06ef43ba</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='partial-cancel-form']/div[2]/div/label</value>
-      <webElementGuid>d4f9e6b2-4d4e-421d-9f9d-6913de53be04</webElementGuid>
+      <webElementGuid>22369412-8f76-485e-a722-76f2788c3f3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='How should the part-cancellation be recorded?'])[1]/following::label[1]</value>
-      <webElementGuid>c9fdf573-3f44-4fdb-a4f6-84707063d469</webElementGuid>
+      <webElementGuid>bd41569c-c688-4e61-ab03-6adc33d1586a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Number to cancel'])[1]/following::label[2]</value>
-      <webElementGuid>a82e2a90-5177-4db3-a885-b0ac49470cfe</webElementGuid>
+      <webElementGuid>c013ddda-cb9d-4058-8931-dc3c830ac25d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='option cancellation help guide'])[1]/preceding::label[1]</value>
-      <webElementGuid>39c03d48-1101-4743-98a4-cfb2f4645649</webElementGuid>
+      <webElementGuid>4556a456-e1f6-4789-baea-c5d2edb635a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='This option is being part-cancelled in line with the terms of the option agreement (for example criteria not having been fulfilled).']/parent::*</value>
-      <webElementGuid>2912fcfa-5ec2-4de0-99ab-6de54c43bbe5</webElementGuid>
+      <webElementGuid>ed973aea-00f1-4ee0-8907-74fc6114d4d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/label</value>
-      <webElementGuid>df7cbf14-bedf-4dbf-a746-f332c19c10b7</webElementGuid>
+      <webElementGuid>05f1d7fc-aec8-4f6b-983b-506ea3b37237</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'This option is being part-cancelled in line with the terms of the option agreement (for example criteria not having been fulfilled).' or . = 'This option is being part-cancelled in line with the terms of the option agreement (for example criteria not having been fulfilled).')]</value>
-      <webElementGuid>ce2c981e-f7cd-40d2-bb34-1b880b65a6da</webElementGuid>
+      <webElementGuid>8e9a44da-12e8-44db-85df-17a23431850a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

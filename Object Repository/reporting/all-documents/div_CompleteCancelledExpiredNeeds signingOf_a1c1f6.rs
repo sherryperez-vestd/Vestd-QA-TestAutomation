@@ -6,12 +6,12 @@
    <elementGuidId>622215a7-9f5a-4c80-881b-4627630786f1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.sub-filters</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='multi-dropdown-menu']/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sub-filters</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=link[name=&quot;Status Complete Cancelled Expired Needs signing Off-platform Sent for filing Sent for signing Will be filed&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>cd8365d1-ff85-4d54-ac54-f77c21d8c020</webElementGuid>
+      <webElementGuid>c13c4038-e2de-4dd3-809c-f5e754bf38b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sub-filters</value>
-      <webElementGuid>83cd6dc5-a0b0-4a54-8647-1aa35716c05c</webElementGuid>
+      <webElementGuid>a1e49106-22f7-48d3-beae-3d3793a8949a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CompleteCancelledExpiredNeeds signingOff-platformSent for filingSent for signingWill be filed</value>
-      <webElementGuid>588d9823-c2ff-4079-aa70-797f674364a3</webElementGuid>
+      <webElementGuid>ac964121-1cd1-4c11-9ed1-b836ac163bb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;multi-dropdown-menu&quot;)/a[@class=&quot;dropdown-item dropdown-toggle child-filters&quot;]/div[@class=&quot;sub-filters&quot;]</value>
-      <webElementGuid>25ab5374-f065-456a-9d3b-8644a46273d0</webElementGuid>
+      <webElementGuid>9fb4aa63-355e-4730-b869-ff1f234b05da</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='multi-dropdown-menu']/a/div</value>
-      <webElementGuid>4b41a326-d895-41fb-8239-f9200be995ea</webElementGuid>
+      <webElementGuid>94d7a7c2-cd25-40e4-b1d8-b3eabbec8056</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::div[1]</value>
-      <webElementGuid>c99c4818-f0c2-419b-9edd-fa1646695c97</webElementGuid>
+      <webElementGuid>4e6ef067-e542-4d4d-9256-142a3be0c1bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add filter'])[1]/following::div[2]</value>
-      <webElementGuid>b126834d-47f5-405b-aa7c-d34c7f45a92d</webElementGuid>
+      <webElementGuid>b72128e2-58aa-4f45-9c1f-2ff3dce6abaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a/div</value>
-      <webElementGuid>ecc7087e-5620-46cb-b810-621e9b4991b7</webElementGuid>
+      <webElementGuid>a5075f5f-26eb-4594-9388-b79e4654b382</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'CompleteCancelledExpiredNeeds signingOff-platformSent for filingSent for signingWill be filed' or . = 'CompleteCancelledExpiredNeeds signingOff-platformSent for filingSent for signingWill be filed')]</value>
-      <webElementGuid>465b019a-224a-4d4a-8e26-eee34a637ac5</webElementGuid>
+      <webElementGuid>33a177d8-e21c-4525-9ebc-49a5317630d2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

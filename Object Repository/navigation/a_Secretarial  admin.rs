@@ -6,18 +6,17 @@
    <elementGuidId>48cc1611-58eb-4521-9051-cc45b44c212c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarCollapse']/ul/li[6]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = '#sidebarSecretarial' and (text() = ' Secretarial &amp; admin
                         ' or . = ' Secretarial &amp; admin
                         ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarCollapse']/ul/li[6]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +26,7 @@
          <value>internal:role=button[name=&quot; Secretarial &amp; admin &quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +34,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>d9f5dc5d-bc90-440a-8530-dd971c47a13e</webElementGuid>
+      <webElementGuid>a38ba284-0336-477b-8963-c144a1ccf01d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link collapsed</value>
-      <webElementGuid>40760691-ad20-465b-901e-60a1d185f87a</webElementGuid>
+      <webElementGuid>58e70a79-cdcf-4502-bb4d-3ec9a33211e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +50,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#sidebarSecretarial</value>
-      <webElementGuid>f34713e9-3f52-4125-b016-c646b6acd4e3</webElementGuid>
+      <webElementGuid>772301de-8c0b-4a35-9f46-651e5e571567</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +58,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>dd42ce78-18b5-4083-89d6-58cc66d81976</webElementGuid>
+      <webElementGuid>d912e514-1da9-42ef-bd64-d754f3f9685f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3a725ca3-e256-47b0-8761-631a4c313a97</webElementGuid>
+      <webElementGuid>3acbf0d5-50c1-47fe-969b-2363ae896cda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +74,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>sidebarSecretarial</value>
-      <webElementGuid>547c13e4-91c0-47c6-ac7c-862f7c6de6c2</webElementGuid>
+      <webElementGuid>be4973ef-c3c8-4fa9-973c-edc1fb48795b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,7 +82,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ba6ca856-c405-46dc-951c-584aae79621e</webElementGuid>
+      <webElementGuid>3b8f0ea3-5e91-4ab4-a145-e3ce68abdb3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,7 +91,7 @@
       <type>Main</type>
       <value> Secretarial &amp; admin
                         </value>
-      <webElementGuid>796c38d5-2172-42aa-a197-4a968bb39174</webElementGuid>
+      <webElementGuid>3d97fabf-3ebd-46c4-93c1-199d173caaf7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +99,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mt-3&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link collapsed&quot;]</value>
-      <webElementGuid>a1d76efc-6595-4c99-9cde-02d8a092fce6</webElementGuid>
+      <webElementGuid>c1a14cdb-2ecf-440f-aee0-97d0d541f42a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -108,7 +107,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/ul/li[6]/a</value>
-      <webElementGuid>b5da6d3a-33a5-439c-b663-0d33230bfb20</webElementGuid>
+      <webElementGuid>222fc35f-bc8a-4299-9b24-9b1193ef6356</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +115,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Secretarial &amp; admin')]</value>
-      <webElementGuid>8f5c8410-fa62-4a21-b925-dd90c2969633</webElementGuid>
+      <webElementGuid>bf069915-8d70-445a-8ce7-5c5ce2518ab2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share movement history'])[1]/following::a[1]</value>
-      <webElementGuid>871c9475-be6c-4455-96a6-5018c28f1059</webElementGuid>
+      <webElementGuid>7c2ee309-d3bd-43d9-a14c-c3ebc0dd2a46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,7 +131,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share class conversions'])[1]/following::a[2]</value>
-      <webElementGuid>87db5176-9c87-4353-8187-6d0d7349e4e6</webElementGuid>
+      <webElementGuid>3c0fef57-8f2e-4479-b77a-1fc15098bd07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,7 +139,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Documents'])[1]/preceding::a[1]</value>
-      <webElementGuid>0ff4e734-2217-406d-96b9-99acbc14c5ff</webElementGuid>
+      <webElementGuid>3221a10b-cf1b-47f0-9b9f-0f6ed1c29fa5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -148,7 +147,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All documents'])[1]/preceding::a[1]</value>
-      <webElementGuid>bddccd64-5adf-4848-a06e-5383349e129d</webElementGuid>
+      <webElementGuid>45fc7780-f059-454c-8884-7979c8cf8d9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -156,7 +155,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Secretarial &amp; admin']/parent::*</value>
-      <webElementGuid>2941b98f-11f3-4ead-b578-2a2a43421ea6</webElementGuid>
+      <webElementGuid>6a077443-ddec-42c4-a7e3-2bba2d74cac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -164,7 +163,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#sidebarSecretarial')]</value>
-      <webElementGuid>742ee6eb-fe07-4951-b0bf-f8dcc7abe602</webElementGuid>
+      <webElementGuid>c345a596-f554-4dac-b2a1-4d64f439646c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -172,7 +171,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[6]/a</value>
-      <webElementGuid>e7dba22b-ee68-4fe3-9e41-963f7843aab8</webElementGuid>
+      <webElementGuid>e6cef52f-fd2a-455c-96ce-28c73b8ec65b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -182,6 +181,6 @@
       <value>//a[@href = '#sidebarSecretarial' and (text() = ' Secretarial &amp; admin
                         ' or . = ' Secretarial &amp; admin
                         ')]</value>
-      <webElementGuid>cd299b2f-6edd-4fac-8d1a-51240cc7beb9</webElementGuid>
+      <webElementGuid>e0a32dd0-68ea-4200-a0c5-321009bcf948</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>36bc348c-56ee-4d07-bd62-ae8bd2b87639</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Existing scheme uploads&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>ba39a2d0-0a45-4098-b979-075c5c4d9193</webElementGuid>
+      <webElementGuid>b7f5c30f-7f1d-4f50-8864-962f8d49a656</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Existing scheme uploads</value>
-      <webElementGuid>2093d803-a040-48dc-8662-c71c627e122b</webElementGuid>
+      <webElementGuid>76c620c5-da03-468a-b6e7-74a01fd8dd0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>7e28a302-be21-4382-9930-0a66818ca023</webElementGuid>
+      <webElementGuid>8c3baaf7-fad5-4fb2-97b6-34a64a6665b4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>a05f5c2e-bd90-4eab-af62-e3aa2c578cac</webElementGuid>
+      <webElementGuid>6af742b9-7abd-4377-86d4-be1abad875c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>4d1b1c2f-6ac9-4ad2-9eec-82fd2a35d052</webElementGuid>
+      <webElementGuid>e79d532e-9a37-4d60-83dc-a034a80ea85d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>846d78bd-4e7e-4690-9840-34b8ab8fb014</webElementGuid>
+      <webElementGuid>caec7194-4001-4b97-97e2-be2b97422d20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a new scheme'])[1]/preceding::h1[1]</value>
-      <webElementGuid>d4f9d8ce-9c53-4511-a9f1-7a651f58aa00</webElementGuid>
+      <webElementGuid>210b6fbb-f17d-4e52-a94a-194b5ae2a766</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reference'])[1]/preceding::h1[1]</value>
-      <webElementGuid>ed65d71c-7a28-4751-a468-cc87f3afb8a7</webElementGuid>
+      <webElementGuid>d8eee025-efa7-44d2-b50c-8a9cd86cb808</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>7d36355b-df10-4abe-87cd-4580002d7b57</webElementGuid>
+      <webElementGuid>a6fd6252-a2fb-4dec-ada0-7d0d2fb57150</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Existing scheme uploads' or . = 'Existing scheme uploads')]</value>
-      <webElementGuid>299504db-2c0c-48c1-962c-732a4411dd6d</webElementGuid>
+      <webElementGuid>cf35de98-3687-4313-ab00-311538a565cc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

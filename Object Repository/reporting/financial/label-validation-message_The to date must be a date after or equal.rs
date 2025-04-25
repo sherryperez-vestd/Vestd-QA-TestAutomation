@@ -6,11 +6,11 @@
    <elementGuidId>e68032e2-6db0-49a8-b79f-74e7ce624f8a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div[2]/div/p[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,7 +20,7 @@
          <value>internal:role=group >> internal:text=&quot;The to date must be a date after or equal to from date.&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>d0ec56ac-7ee7-43c0-9a8a-a0702f6e6d1c</webElementGuid>
+      <webElementGuid>c80d3635-dee7-4be1-84e9-796ff4b97142</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control-feedback my-1</value>
-      <webElementGuid>2ab24bc1-ac61-4971-9b49-21dc55a73b9b</webElementGuid>
+      <webElementGuid>4b325c02-378c-40aa-ad30-87a42f652964</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>The to date must be a date after or equal to from date.</value>
-      <webElementGuid>3a7784d6-ac4f-4d7d-8dd9-2ed2514fdc45</webElementGuid>
+      <webElementGuid>290166e3-e507-4a6d-8ee6-f758497ea318</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/form[1]/fieldset[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;form-group has-danger&quot;]/p[@class=&quot;form-control-feedback my-1&quot;]</value>
-      <webElementGuid>7eb42a69-d0fb-499e-b0ee-d64ceac499a4</webElementGuid>
+      <webElementGuid>cd4cfcc3-1297-4373-849f-17cf21fa7285</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div[2]/div/p[2]</value>
-      <webElementGuid>fa9ae5d2-815d-427d-a472-1e20df93e903</webElementGuid>
+      <webElementGuid>abc43e29-6e04-4c85-b47f-07b1f5c9f5bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fetch records up to this date'])[1]/following::p[1]</value>
-      <webElementGuid>bfa1c28d-54e7-453d-a7ba-ed4263e7a562</webElementGuid>
+      <webElementGuid>a277988c-866d-4106-aec0-3475b0a2d0b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Report'])[1]/preceding::p[1]</value>
-      <webElementGuid>f6bb89d3-0355-4fc7-bf3f-5ce45c3cfaf5</webElementGuid>
+      <webElementGuid>90a0bb5d-5054-48a6-a2a1-90296c15660d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Information provided in the report:'])[1]/preceding::p[2]</value>
-      <webElementGuid>cfdf5b29-d31a-4b5a-9446-5c506196fa5b</webElementGuid>
+      <webElementGuid>6d2dd112-865c-49e8-bb4d-bd98c19497b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/p[2]</value>
-      <webElementGuid>4dcd4388-8977-4926-8731-b76ddd5f0a76</webElementGuid>
+      <webElementGuid>5cf239e0-48d7-46c9-acd0-32e148f8e7a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'The to date must be a date after or equal to from date.' or . = 'The to date must be a date after or equal to from date.')]</value>
-      <webElementGuid>76b2b15c-47a1-43b6-b893-aa475be590b3</webElementGuid>
+      <webElementGuid>0930327c-156f-48b0-a32b-1a81f19d5d3c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

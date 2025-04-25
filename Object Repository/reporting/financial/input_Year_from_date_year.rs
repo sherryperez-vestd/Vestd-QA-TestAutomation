@@ -21,7 +21,7 @@
          <value>#from-date-year</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8b8602a9-4c6c-450f-8f65-4199b4dae937</webElementGuid>
+      <webElementGuid>f5628a75-fd2d-498f-bca9-89465e66ece6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>from-date-year</value>
-      <webElementGuid>7aa276f9-d157-482f-9af8-f7e0cf1fce9d</webElementGuid>
+      <webElementGuid>e932c335-583c-490d-88d4-a02343849a6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control form-control-fixed-width-sm</value>
-      <webElementGuid>faae5449-7cf1-450a-a555-ecab73ee2980</webElementGuid>
+      <webElementGuid>32adc1aa-d994-40f3-8d5b-083d2817bf39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>min</name>
       <type>Main</type>
       <value>1900</value>
-      <webElementGuid>727c397c-492a-4b93-9466-6b3fe8dd6440</webElementGuid>
+      <webElementGuid>349885e0-8aaf-4f20-87ee-823085387581</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>max</name>
       <type>Main</type>
       <value>2100</value>
-      <webElementGuid>66d4deec-ce54-4a26-b84e-2bded1e95c9f</webElementGuid>
+      <webElementGuid>8cdab45b-689f-4785-9fb4-47e0d4acdad6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>name</name>
       <type>Main</type>
       <value>from_date_year</value>
-      <webElementGuid>a41efd14-d62c-440e-ad7e-49c24aaac523</webElementGuid>
+      <webElementGuid>804ca372-116b-45fa-ba6e-3c1df3dd0837</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>4d69d9b4-3459-4792-b1f2-25c729721a11</webElementGuid>
+      <webElementGuid>c6a271b8-af61-4879-ac58-10935848d6a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;from-date-year&quot;)</value>
-      <webElementGuid>125a0770-f24a-4572-8b58-12bcc96b8867</webElementGuid>
+      <webElementGuid>98066427-107a-48a5-b252-187b3dec7a37</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='from-date-year']</value>
-      <webElementGuid>a1126783-dfc1-4e81-8564-ef6254d18add</webElementGuid>
+      <webElementGuid>0733eae5-8311-4493-9728-4195e67f69ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div/div/div/div[3]/input</value>
-      <webElementGuid>b4d8efbb-45ce-4920-9e84-05aa89de532f</webElementGuid>
+      <webElementGuid>6663ec4e-591a-4fd2-834d-1dbfdaafd47a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/input</value>
-      <webElementGuid>4c8c106e-a92d-4ff2-9920-4ad558397e0f</webElementGuid>
+      <webElementGuid>8c5e3f8d-2160-4ce2-9d25-871e71d24048</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'from-date-year' and @name = 'from_date_year' and @type = 'number']</value>
-      <webElementGuid>ffdab611-d24a-4383-a74e-36a82ead51e1</webElementGuid>
+      <webElementGuid>f79fb04e-b991-452c-80dd-25c97730a512</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

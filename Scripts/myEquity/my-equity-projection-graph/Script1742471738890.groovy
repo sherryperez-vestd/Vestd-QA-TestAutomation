@@ -29,6 +29,8 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/grap
 
 WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/tab_overall-value'))
 
+WebUI.clearText(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/input_estimated-profit'), FailureHandling.STOP_ON_FAILURE)
+
 'Check Empty Overall value graph'
 WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/overall-value-graph/img-empty-graph'), 0)
 
@@ -139,4 +141,6 @@ WebUI.click(findTestObject('Object Repository/my-equity-page/graph/overall-value
 WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/canvas'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/overall-value-graph/canvas'))
+
+WebUI.closeBrowser()
 

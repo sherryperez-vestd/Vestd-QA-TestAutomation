@@ -6,12 +6,12 @@
    <elementGuidId>b46795fd-7047-4595-8d12-1dbbf2be9b7f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='number_to_cancel']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#number_to_cancel</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='number_to_cancel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:label=&quot;Number to cancel&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a0670e91-ad12-4ad5-98c5-9baccc74e323</webElementGuid>
+      <webElementGuid>bb9e6a21-44d8-44c8-b986-39b950ef30f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>0d8e3875-e63c-4c99-8b62-25d6782ca247</webElementGuid>
+      <webElementGuid>eca5d15e-5865-4194-9254-d071fdf06866</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>min</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>616380c5-c91e-43b4-b936-0bb15aecb613</webElementGuid>
+      <webElementGuid>4c130afc-ab1c-492c-99bc-58e6c4b3ecbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>max</name>
       <type>Main</type>
       <value>749</value>
-      <webElementGuid>7ee204b7-41ab-4bf7-ba49-a8bfef694a76</webElementGuid>
+      <webElementGuid>5b67ee12-6f24-42d4-949c-504c6df32a0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>number_to_cancel</value>
-      <webElementGuid>bf4bd60c-43cb-45b4-aeb0-9ca1495475c1</webElementGuid>
+      <webElementGuid>1bf95571-3173-4862-aded-5b626b252a45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>646b4413-792b-4537-9527-05807c1a9977</webElementGuid>
+      <webElementGuid>f71fe08c-297d-489a-8291-e1c7272cbe9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>id</name>
       <type>Main</type>
       <value>number_to_cancel</value>
-      <webElementGuid>8245af46-f73a-46ab-904f-7b8ade0c19bf</webElementGuid>
+      <webElementGuid>5e320138-e476-40a8-a405-01f90051da4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;number_to_cancel&quot;)</value>
-      <webElementGuid>225547ff-0726-4605-8d4c-cc1ceaf5c1e2</webElementGuid>
+      <webElementGuid>60eb7a7b-a59f-4a60-a93b-2a373501f1b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='number_to_cancel']</value>
-      <webElementGuid>92158fa1-23dc-4513-9e19-f992e4dc8494</webElementGuid>
+      <webElementGuid>69ff8ab0-09d4-49cb-b369-fe2eee040e23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='partial-cancel-form']/div/input</value>
-      <webElementGuid>f0376433-912b-45d5-8e7f-d4c47ba8573e</webElementGuid>
+      <webElementGuid>ad6c3fef-0eb1-4fdf-8e72-2de7308f3a55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>85bf669d-b94c-4215-b0c5-c3a65de2e2d2</webElementGuid>
+      <webElementGuid>b57e4d4d-be78-4b4b-98ed-573010dc2539</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'number_to_cancel' and @type = 'number' and @id = 'number_to_cancel']</value>
-      <webElementGuid>f8a1adb4-9a7b-4632-bfcf-ce9af1f7bbe6</webElementGuid>
+      <webElementGuid>49b1607f-92d0-44aa-b0d0-5a2474099d3e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

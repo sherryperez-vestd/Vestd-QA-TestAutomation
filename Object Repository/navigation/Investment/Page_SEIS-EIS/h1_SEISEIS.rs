@@ -6,12 +6,12 @@
    <elementGuidId>485b0d97-6d14-4d25-92bd-18be8fd7ca58</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;SEIS/EIS&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>072626b2-2dfe-43d5-9a8b-397aece19cf1</webElementGuid>
+      <webElementGuid>b8a8a019-7f1e-4e54-8ffb-7dab6d334874</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <value>
         SEIS/EIS
     </value>
-      <webElementGuid>17f36efb-e11f-4fee-a1d6-de18547f4e79</webElementGuid>
+      <webElementGuid>89db2f3e-a838-4b72-be82-452ba80a3d1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>3af63b67-9495-49e1-bfd5-d5c362348888</webElementGuid>
+      <webElementGuid>d0c8854b-a1f1-4024-a5f4-0ee4b5537377</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>b79e7828-fc70-43af-b082-c3cceee7d52a</webElementGuid>
+      <webElementGuid>61abcbf5-e92a-47cd-b510-687b56e7d29d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>e7fba1eb-b043-4338-b1f4-710146ae1779</webElementGuid>
+      <webElementGuid>39cdd19d-1ba1-4abb-96e3-34836f227d06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>86fff79d-997b-4d3f-84cd-719e078e421b</webElementGuid>
+      <webElementGuid>f406a675-9952-4544-8589-4e3039ff9f3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start a new application'])[1]/preceding::h1[1]</value>
-      <webElementGuid>0cc2d90b-e28b-4b14-a445-af8cc8ec7f36</webElementGuid>
+      <webElementGuid>0339b082-48c2-4e2e-964c-51adb9221959</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='What we do for you'])[1]/preceding::h1[1]</value>
-      <webElementGuid>1a30c32d-ef92-4dcf-9b6c-4afcf2b13d86</webElementGuid>
+      <webElementGuid>de8acff1-aa03-4065-8b9f-9e5f2f66c766</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>e2abc03b-af29-4f91-8e48-c61fffc241fb</webElementGuid>
+      <webElementGuid>ce8ffc19-aa2b-4da4-98c2-a692ae1a6367</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +107,6 @@
     ' or . = '
         SEIS/EIS
     ')]</value>
-      <webElementGuid>d09f73d3-2710-48cf-b448-9bbeac794032</webElementGuid>
+      <webElementGuid>d987a59b-a24f-43b4-ba3e-b2e70aa00413</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

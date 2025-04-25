@@ -21,7 +21,7 @@
          <value>internal:role=link[name=&quot;Request a custom report here&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>98902273-451f-4521-82dd-dbfa9dc7ee8d</webElementGuid>
+      <webElementGuid>c8d5d7d1-ffd0-4ae6-bfa9-e2dd0418dd8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://usabi.li/do/1951db0cc1b3/7cf2</value>
-      <webElementGuid>b6f42d25-0e10-465a-a12e-aa5493e5508d</webElementGuid>
+      <webElementGuid>e4be6a6f-f1e5-48c2-9b01-ce90cbad860a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_blank</value>
-      <webElementGuid>9827146f-9cdc-450e-8356-5634f7a6de4c</webElementGuid>
+      <webElementGuid>9295a09f-b1bc-4971-912a-65f6cff0a502</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Request a custom report here</value>
-      <webElementGuid>215ab962-d2f1-43f1-9b07-5c681fa87348</webElementGuid>
+      <webElementGuid>466bbf19-4170-4a08-a69f-8e39949e3c04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/p[@class=&quot;lead&quot;]/a[1]</value>
-      <webElementGuid>6c2e2e17-db52-421a-9483-7a2bf15ab90f</webElementGuid>
+      <webElementGuid>2f3b24dc-67e7-49bf-b2d3-6328e830f59f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/p/a</value>
-      <webElementGuid>3fb97ed1-9a9a-4fbc-b5d5-d0bfcbaf16eb</webElementGuid>
+      <webElementGuid>a79485b1-265a-4718-9e2e-4a88474e6396</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Request a custom report here')]</value>
-      <webElementGuid>9d902005-5bdf-4504-b162-6d28b27918df</webElementGuid>
+      <webElementGuid>f4a44d82-7908-4880-b6af-748be29104ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Beta'])[1]/following::a[1]</value>
-      <webElementGuid>1135dac3-769c-4912-9178-871e096897d0</webElementGuid>
+      <webElementGuid>81836d2b-8cce-4b74-8ae3-4b65a29683bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Report name'])[1]/preceding::a[1]</value>
-      <webElementGuid>2313010f-bd82-4542-a854-4101cf23336c</webElementGuid>
+      <webElementGuid>211602ef-d53e-41f0-8909-a28867b7eea5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/preceding::a[1]</value>
-      <webElementGuid>6d14d48a-536b-4ab3-a8ad-51451316c559</webElementGuid>
+      <webElementGuid>d3eebd87-edfd-4d28-bd6f-57f245f2f2cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Request a custom report here']/parent::*</value>
-      <webElementGuid>6b95638a-bb2b-4485-a37e-6206cef3e2ea</webElementGuid>
+      <webElementGuid>7864937d-9303-4bae-abf8-a614f860fa2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://usabi.li/do/1951db0cc1b3/7cf2')]</value>
-      <webElementGuid>d329d590-fb7c-4748-ab1d-0e5e53a8dfdb</webElementGuid>
+      <webElementGuid>e3272c5a-1b2f-4bf4-a8c0-16c212ff40a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p/a</value>
-      <webElementGuid>6057644d-9890-4380-8943-1083d2349286</webElementGuid>
+      <webElementGuid>0fa40dd3-8fd2-4674-8451-4fcfd54f3116</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://usabi.li/do/1951db0cc1b3/7cf2' and (text() = 'Request a custom report here' or . = 'Request a custom report here')]</value>
-      <webElementGuid>9cfdafda-26d6-4e5d-a8f7-6fb825130372</webElementGuid>
+      <webElementGuid>c6d4663e-0c0e-4f88-90d5-e883521b4820</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,18 +6,18 @@
    <elementGuidId>ac46d7b7-2c81-4ae4-b40b-909e33de89e2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://demo.app.vestd.com/company/50934/home' and (text() = ' Home
+                       ' or . = ' Home
+                       ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.nav-link.active</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='sidebarCollapse']/ul/li[2]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'https://demo.app.vestd.com/company/50934/home' and (text() = ' Home
-                       ' or . = ' Home
-                       ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
          <value>internal:role=link[name=&quot; Home&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>996d2de5-f917-4138-a2cf-678d10681162</webElementGuid>
+      <webElementGuid>9f273cff-75fc-4632-9d47-8f67092cc232</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/home</value>
-      <webElementGuid>027fa267-01c3-46a0-b830-e59772aab65b</webElementGuid>
+      <webElementGuid>9319591b-5c04-4464-bc56-c58b73500019</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>c36caa5c-df39-444a-aeac-1aad644f6dba</webElementGuid>
+      <webElementGuid>e8db8b10-6fc9-4e1d-9d84-668ab04fa832</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <type>Main</type>
       <value> Home
                        </value>
-      <webElementGuid>80aeb331-9bdb-40c4-8018-dbcc2581e18a</webElementGuid>
+      <webElementGuid>034f058c-4c17-4268-88dc-da87b2e6ab7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mt-3&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>aa05f952-d181-4cd9-92f4-b31374998c79</webElementGuid>
+      <webElementGuid>0e16265e-2a3d-4506-b8d7-c74cced8e7b8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/ul/li[2]/a</value>
-      <webElementGuid>479f12d6-cbee-4015-bc95-2d7c7f2ac462</webElementGuid>
+      <webElementGuid>d7a3842b-5e01-4cec-b903-90fd720e1d95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Home')]</value>
-      <webElementGuid>79f5dfdc-5db3-4697-819a-6a90d0e85cf3</webElementGuid>
+      <webElementGuid>7bfc8629-e516-4a8f-bd18-849cffd610ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My equity'])[1]/following::a[1]</value>
-      <webElementGuid>0d14bb73-7a37-430f-aa0d-92636ae6e03a</webElementGuid>
+      <webElementGuid>a8b85fb8-18db-4943-86e8-cf91bb2cef07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Incorporate a new company'])[2]/following::a[2]</value>
-      <webElementGuid>9deaef3e-7244-4afe-af96-2e88d2edb4b3</webElementGuid>
+      <webElementGuid>29b8fb67-fae4-4c9c-a93d-dba67a4e7296</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share schemes'])[1]/preceding::a[1]</value>
-      <webElementGuid>1ae46cf2-b050-4ad8-ac10-892427a9e390</webElementGuid>
+      <webElementGuid>efda928a-0311-4b7d-8940-ee6f74838beb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Schemes'])[1]/preceding::a[2]</value>
-      <webElementGuid>22dea57c-ba2d-4ad5-b7f4-d8fba52b6a26</webElementGuid>
+      <webElementGuid>f31424af-084b-4d2d-aa0f-b95316f0192a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Home']/parent::*</value>
-      <webElementGuid>c8f40ace-ac9c-4860-9f31-362c95c5e471</webElementGuid>
+      <webElementGuid>e3f2dc76-972f-4c98-98c1-469b634061c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/home')]</value>
-      <webElementGuid>36bf6dc2-59c8-42c1-a59b-2e97d8c0329f</webElementGuid>
+      <webElementGuid>11ea5ee5-25ff-4b98-bf21-459f55ab4f3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[2]/a</value>
-      <webElementGuid>a0d3c135-9ed7-46f9-a8b6-e0e05288d2f2</webElementGuid>
+      <webElementGuid>20e9523a-b732-4d87-9b1e-dd8c0a5d07c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <value>//a[@href = 'https://demo.app.vestd.com/company/50934/home' and (text() = ' Home
                        ' or . = ' Home
                        ')]</value>
-      <webElementGuid>52fa6e48-17e6-41b8-9621-a569db1087c4</webElementGuid>
+      <webElementGuid>8548349b-55f9-4cfb-a85f-91b3d8d3bb93</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

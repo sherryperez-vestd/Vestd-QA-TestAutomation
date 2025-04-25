@@ -6,12 +6,12 @@
    <elementGuidId>dfa41246-ee00-4ef7-bbc6-ce5c99762f9c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/div[4]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.progress-bar.bg-cancelled</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=progressbar >> nth=3</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>caaf2c7e-0718-4ae3-9c2c-8e2a601a40b7</webElementGuid>
+      <webElementGuid>3ca48ddf-997f-411b-8556-676c90cfcbda</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>progress-bar bg-cancelled</value>
-      <webElementGuid>982a7aa1-ae69-47d3-9f9c-2c35981a22f5</webElementGuid>
+      <webElementGuid>52f5199a-35ac-41b8-9e67-624a55f4519a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>progressbar</value>
-      <webElementGuid>7bad5763-9740-4e3c-b2d0-6edc3ac6e81e</webElementGuid>
+      <webElementGuid>64376a8e-a25f-42d8-b00c-5131698b6525</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 expanded&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;align-cards-sidewise align-items-stretch&quot;]/div[@class=&quot;card v-card bg-white mb-3 adjust-options-card&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;progress&quot;]/div[@class=&quot;progress-bar bg-cancelled&quot;]</value>
-      <webElementGuid>ea986b95-1bab-4cfc-a936-4a769cf8860d</webElementGuid>
+      <webElementGuid>027e1171-b436-4832-8ac6-cbb3b668df52</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/div[4]</value>
-      <webElementGuid>1d5b134f-44ad-45db-9a50-befed30029b4</webElementGuid>
+      <webElementGuid>3980c9f1-98e1-4495-a489-c755c1f533cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,6 +69,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[4]</value>
-      <webElementGuid>f1155056-1036-4816-8030-9fffb837e7bf</webElementGuid>
+      <webElementGuid>d0de92ec-ca2c-4d21-8ebb-1e7ffefb5ac1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

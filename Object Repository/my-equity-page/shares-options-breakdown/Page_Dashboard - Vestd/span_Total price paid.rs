@@ -6,12 +6,12 @@
    <elementGuidId>3f9a49db-2a72-4d90-a6e6-dd2e9607e7a5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li:nth-of-type(6) > span.text-muted</value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='£1.00'])[1]/following::span[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='uYSvIiTQ9VRLZ2CL']/div/div/div[2]/div/div/ul/li[6]/span</value>
+         <key>CSS</key>
+         <value>li:nth-of-type(6) > span.text-muted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

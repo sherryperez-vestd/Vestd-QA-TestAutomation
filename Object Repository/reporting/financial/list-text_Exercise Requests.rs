@@ -6,12 +6,12 @@
    <elementGuidId>da3db5ce-0986-4ce0-9583-acc024e1787f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.report-guidelines > ul > li:nth-of-type(6)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div/div/ul/li[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.report-guidelines > ul > li:nth-of-type(6)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:text=&quot;Exercise Requests: Track all exercise requests made within the time frame.&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>a94d63ca-d1cb-4ef9-bca1-ad5f3ff9368d</webElementGuid>
+      <webElementGuid>7732f364-9f37-47f3-8e55-81011d2c8f44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Exercise Requests: Track all exercise requests made within the time frame.</value>
-      <webElementGuid>b68dc507-162c-435f-bf74-b4abe29b8a99</webElementGuid>
+      <webElementGuid>85a40a52-5cdf-4a56-be16-3d5c93899170</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;report-guidelines&quot;]/ul[1]/li[6]</value>
-      <webElementGuid>44098db8-45c8-4741-98ec-b34b36682cc1</webElementGuid>
+      <webElementGuid>8e4b0719-2c03-4437-ae4a-9dc463f484f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div/div/ul/li[6]</value>
-      <webElementGuid>70761af1-e939-488d-b5a0-bc6668028bcc</webElementGuid>
+      <webElementGuid>019726fc-ade5-4aa5-aa21-b0e7191a8002</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leavers Processed:'])[1]/following::li[1]</value>
-      <webElementGuid>b14401cb-5972-4f7a-a2bc-320d8dd314ec</webElementGuid>
+      <webElementGuid>024ff3d1-916f-40af-8682-def73e550076</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::li[1]</value>
-      <webElementGuid>2ba0a2a3-7bf0-45d5-98c3-a5e1abf418d4</webElementGuid>
+      <webElementGuid>1c23cf0a-eb78-4118-b823-722ce0a0c5d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Track all exercise requests made within the time frame.']/parent::*</value>
-      <webElementGuid>a14c323e-ce1c-47f5-8487-7e033e170655</webElementGuid>
+      <webElementGuid>a8ec6a24-7764-4a4d-a1e1-869edb05fd13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/ul/li[6]</value>
-      <webElementGuid>6deaccff-4029-45d7-9e91-d3bc0adabc7c</webElementGuid>
+      <webElementGuid>3fcd8a38-fb70-4e25-8e79-b3c032014658</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Exercise Requests: Track all exercise requests made within the time frame.' or . = 'Exercise Requests: Track all exercise requests made within the time frame.')]</value>
-      <webElementGuid>fccad0ad-3f0c-4d5c-a39e-f462b7b0ea35</webElementGuid>
+      <webElementGuid>bff9c274-3d56-4c86-bca5-271c42debb74</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

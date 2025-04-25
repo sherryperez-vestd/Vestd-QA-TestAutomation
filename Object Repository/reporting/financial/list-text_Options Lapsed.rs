@@ -6,12 +6,12 @@
    <elementGuidId>f5665528-ba08-4129-87fc-6780c4a6cca1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.report-guidelines > ul > li:nth-of-type(2)</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div/div/ul/li[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.report-guidelines > ul > li:nth-of-type(2)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:text=&quot;Options Lapsed: View all options that lapsed during the period.&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>e77ca86b-aaf6-415a-9c4c-c0b9e3580f14</webElementGuid>
+      <webElementGuid>1981e42c-f1fa-4747-9093-112ea6c0d83c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Options Lapsed: View all options that lapsed during the period.</value>
-      <webElementGuid>d19cffed-b228-4eaa-9375-49628f94fea0</webElementGuid>
+      <webElementGuid>9a3823e1-378b-4fcb-83a5-0b484564d1ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;report-guidelines&quot;]/ul[1]/li[2]</value>
-      <webElementGuid>4ca00441-39d9-43c5-8708-66717ef35ab8</webElementGuid>
+      <webElementGuid>c00e44f2-2257-447e-9cb7-f23675c92e38</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div/div/ul/li[2]</value>
-      <webElementGuid>53125abb-b319-44c2-a39e-186f4aeb454d</webElementGuid>
+      <webElementGuid>ca03b67e-ff1b-44e4-ad58-083919fe2f72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Options Vested:'])[1]/following::li[1]</value>
-      <webElementGuid>b41fa306-a8bd-4f50-8221-1cdea3a8ea97</webElementGuid>
+      <webElementGuid>f6d8c52a-098b-471d-ae6b-27c5229374b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='View all options that lapsed during the period.']/parent::*</value>
-      <webElementGuid>0353de6e-c0af-44c3-a612-e2b0358abcbe</webElementGuid>
+      <webElementGuid>8e9f3acf-91f8-44c9-8045-1cd78b84d73b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/ul/li[2]</value>
-      <webElementGuid>eeb2e10c-cb0e-47ea-a258-f0b6b8bb20a7</webElementGuid>
+      <webElementGuid>ad604d85-079e-4576-a7fc-06ed2ddc77ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Options Lapsed: View all options that lapsed during the period.' or . = 'Options Lapsed: View all options that lapsed during the period.')]</value>
-      <webElementGuid>68b70268-b0e1-4e6b-bc5e-9ec9f718ee14</webElementGuid>
+      <webElementGuid>0c7131ae-0a32-4b54-adac-00e72a360adb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

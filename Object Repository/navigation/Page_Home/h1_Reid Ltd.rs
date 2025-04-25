@@ -6,12 +6,12 @@
    <elementGuidId>044c09b8-3984-4759-96e8-83c52153371e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=heading[name=&quot;Reid Ltd&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>8a4e31f5-fd1e-4877-96e3-9a42f05fcc59</webElementGuid>
+      <webElementGuid>9a68566a-b5b6-4061-af66-b9aef9b5fb33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <value>
         Reid Ltd
     </value>
-      <webElementGuid>c399d3e8-a2ff-4ef9-9b39-67a50673120a</webElementGuid>
+      <webElementGuid>7fa23152-5b9e-4ffe-813a-08318c179360</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>0be51f07-d1b7-4258-bc6f-64c05d251eea</webElementGuid>
+      <webElementGuid>9e44bf41-f889-498c-88c6-603ede2bb4ce</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>3310c2f6-f591-4075-b892-cab5baa9502f</webElementGuid>
+      <webElementGuid>b1c9c47e-0174-4c4a-a17e-f3b6f8a1e63e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>a5292e02-bd09-4a62-b95e-e96874cebabf</webElementGuid>
+      <webElementGuid>45246788-602b-4a7e-b347-dac6ad1f1949</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>0f178f44-adf7-4195-9a11-ba1a2b7b34b5</webElementGuid>
+      <webElementGuid>288dc4f8-e1e8-4a32-bd3e-2106e95f4b1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a self-assessed valuation'])[1]/preceding::h1[1]</value>
-      <webElementGuid>71c7668f-cb37-43aa-95ca-d3a3abcee2e8</webElementGuid>
+      <webElementGuid>7c7850ca-544e-4cc4-9fcf-5cfa8fbc1e1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£'])[1]/preceding::h1[1]</value>
-      <webElementGuid>e92efd2b-a893-4995-838b-1cf173f5aa2a</webElementGuid>
+      <webElementGuid>20d8793b-945c-4c4d-9d64-d6b9f29e6282</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>58b6a6bb-f422-4d6f-8426-7f4769f8d157</webElementGuid>
+      <webElementGuid>6cd9373d-08ad-4959-87d0-751ad0ba4d4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +107,6 @@
     ' or . = '
         Reid Ltd
     ')]</value>
-      <webElementGuid>994154a9-491d-4b4a-94a4-481cd3d177e8</webElementGuid>
+      <webElementGuid>039a87a4-a49e-4d74-b876-a37e991b8d31</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

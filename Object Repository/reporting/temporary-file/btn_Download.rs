@@ -6,15 +6,19 @@
    <elementGuidId>94108bd3-77ba-46e0-a9f0-c294a3daa6de</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-sm.btn-outline-primary.mb-0</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/table/tbody/tr/td[3]/a</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-sm.btn-outline-primary.mb-0</value>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Download' or . = 'Download')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,20 +28,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c408eaeb-9791-47a3-9c0c-0fb66d3f1a2c</webElementGuid>
+      <webElementGuid>9897f610-7298-43bb-81c7-e24910713c22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50135/temporary-file/548/download</value>
-      <webElementGuid>c9c65728-6f65-429a-9dc6-e8fff1ba1b74</webElementGuid>
+      <webElementGuid>2af96dc2-9878-49eb-8794-e0866fa2bbb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_blank</value>
-      <webElementGuid>300a13e5-41f3-47e2-95b7-1fe9bdd81fb4</webElementGuid>
+      <webElementGuid>7a0bcab0-f3a0-448e-a517-7c567a6604e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-sm btn-outline-primary mb-0</value>
-      <webElementGuid>d775fe58-cb43-4aec-ab52-4eb17f4c050d</webElementGuid>
+      <webElementGuid>5e0346f8-6f9c-4e35-9534-6c22adbfe032</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Download</value>
-      <webElementGuid>8526ec62-312e-4f10-bcb5-5dc4cf7e87d8</webElementGuid>
+      <webElementGuid>ff85285c-ffa6-41d4-b35f-0a3b830dd2d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/table[@class=&quot;table table-sm table-hover&quot;]/tbody[1]/tr[1]/td[@class=&quot;align-middle text-right&quot;]/a[@class=&quot;btn btn-sm btn-outline-primary mb-0&quot;]</value>
-      <webElementGuid>01f4cd99-01c4-404d-95cd-66e44bc94cbd</webElementGuid>
+      <webElementGuid>b125968f-a927-4842-944f-537de9744f16</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/table/tbody/tr/td[3]/a</value>
-      <webElementGuid>5da33fa3-311c-4db4-8c0b-9c88fbec27b9</webElementGuid>
+      <webElementGuid>c452e122-253a-434a-af62-259eda9684ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Download')]</value>
-      <webElementGuid>2f9e2bad-410e-4243-b3a5-434bf5882ea2</webElementGuid>
+      <webElementGuid>5cc78086-3e88-4285-a41f-aece700403f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Expires in 23 hours'])[1]/following::a[1]</value>
-      <webElementGuid>6217a582-f22e-4428-add7-407acc13ba99</webElementGuid>
+      <webElementGuid>081bdaac-a7df-4230-a941-332733fe8ce9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Co shareholders 21-03-2025.xlsx'])[1]/following::a[1]</value>
-      <webElementGuid>cfd84035-e2c4-472b-ae55-488c95f5ab7e</webElementGuid>
+      <webElementGuid>a724cc15-31f8-4b38-b47a-2c8c60439040</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Co agreements 21-03-2025.xlsx'])[1]/preceding::a[1]</value>
-      <webElementGuid>310cf3a6-4063-4719-82c9-55bf3adc9ed8</webElementGuid>
+      <webElementGuid>f8581a5a-405d-4943-bcd1-ea67d4049b07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Download']/parent::*</value>
-      <webElementGuid>a8c5350c-2869-4b6e-ae9b-d1dbd5742428</webElementGuid>
+      <webElementGuid>bac76de0-42cf-4c11-a8d3-5056c9012d7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50135/temporary-file/548/download')]</value>
-      <webElementGuid>9f928bbc-2d39-4b8e-b171-68adee8d36f2</webElementGuid>
+      <webElementGuid>74f0597a-3179-444b-a83c-f1fee86da8c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/a</value>
-      <webElementGuid>7be933e8-e59f-416f-9dbb-a6320084fe83</webElementGuid>
+      <webElementGuid>82681183-6130-45fc-8507-df5abbb5e84d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +145,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://demo.app.vestd.com/company/50135/temporary-file/548/download' and (text() = 'Download' or . = 'Download')]</value>
-      <webElementGuid>d288d38f-4773-4ffb-ac7d-7afeb73f4147</webElementGuid>
+      <webElementGuid>e6c3e565-0ca7-4248-9166-ceebb8690b04</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

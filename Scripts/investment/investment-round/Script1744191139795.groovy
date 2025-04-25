@@ -21,46 +21,44 @@ WebUI.callTestCase(findTestCase('users-login/UK/user-login-editor'), [:], Failur
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/investment-hub')
 
-WebUI.click(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/button_New round'))
+WebUI.click(findTestObject('Object Repository/investment/Page_Investment/button_New round'))
 
-WebUI.click(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/button_Add an investor'))
+not_run: WebUI.click(findTestObject('Object Repository/investment/Page_Investment/button_Add an investor'))
 
-WebUI.setText(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/input__HtluOwj0MCM2M3NV'), 
-    '10,000')
+not_run: WebUI.setText(findTestObject('Object Repository/investment/Page_Investment/input__investment'), '10,000')
 
-WebUI.setText(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/input__icI0PfMsjcHlTkzj'), 
-    '1')
+not_run: WebUI.setText(findTestObject('Object Repository/investment/Page_Investment/input__price per share'), '1')
 
-WebUI.setText(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/input_Percent of company_piSHaxpFRVAgh7Nt'), 
-    '1')
+not_run: WebUI.setText(findTestObject('Object Repository/investment/Page_Investment/input_Percent of company'), '1')
 
-WebUI.setText(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/input_Percent of round_x4p6ZBbWUva0WDZT'), 
-    '1')
+not_run: WebUI.setText(findTestObject('Object Repository/investment/Page_Investment/input_Percent of round'), '1')
 
-WebUI.click(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/button_Im done editing this investor'))
+not_run: WebUI.click(findTestObject('Object Repository/investment/Page_Investment/button_Im done editing this investor'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/div_Unknown investor Draft'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/investment/Page_Investment/div_Unknown investor Draft'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/div_Unknown investor Draft'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/investment/Page_Investment/div_Unknown investor Draft'), 
     0)
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/div_Unknown investor Draft'), 
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/investment/Page_Investment/div_Unknown investor Draft'), 
     'Unknown investor Draft')
 
-WebUI.click(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/a_Remove'))
+not_run: WebUI.click(findTestObject('Object Repository/investment/Page_Investment/a_Remove'))
 
-WebUI.click(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/button_Yes, remove Unknown investor'))
+not_run: WebUI.click(findTestObject('Object Repository/investment/Page_Investment/button_Yes, remove Unknown investor'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/span_Investment round 2 edit'))
+not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/investment/Page_Investment/span_Investment round 2 edit'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/span_Investment round 2 edit'), 
+not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/investment/Page_Investment/span_Investment round 2 edit'), 
     0)
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/span_Investment round 2 edit'), 
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/investment/Page_Investment/span_Investment round 2 edit'), 
     'Investment round 2 edit')
 
-WebUI.click(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/button_delete'))
+WebUI.click(findTestObject('Object Repository/investment/Page_Investment/button_delete'))
 
-WebUI.click(findTestObject('Object Repository/investment/Page_Investment - QA Test UK1 (Reid Ltd) - Vestd/button_Yes, delete the round'))
+WebUI.click(findTestObject('Object Repository/investment/Page_Investment/button_Yes, delete the round'))
+
+WebUI.closeBrowser()
 
