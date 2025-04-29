@@ -17,58 +17,58 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('users-login/UK/user-login-recipient'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-recipient'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard')
 
-WebUI.verifyElementPresent(findTestObject('navigation/a_My equity'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_My equity'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/a_My equity'), 'My equity')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/a_My equity'), 'My equity')
 
-WebUI.click(findTestObject('navigation/Page_MyEquity/h1_My Equity'))
+WebUI.click(findTestObject('navigation/side-nav/Page_MyEquity/h1_My Equity'))
 
-WebUI.verifyElementPresent(findTestObject('navigation/Page_MyEquity/h1_My Equity'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Page_MyEquity/h1_My Equity'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/Page_MyEquity/h1_My Equity'), 'My Equity')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/Page_MyEquity/h1_My Equity'), 'My Equity')
 
-WebUI.verifyElementPresent(findTestObject('navigation/a_Communication'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Communication'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/a_Communication'), 'Communication')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Communication'), 'Communication')
 
-WebUI.click(findTestObject('navigation/a_Communication'))
+WebUI.click(findTestObject('navigation/side-nav/a_Communication'))
 
-WebUI.verifyElementPresent(findTestObject('navigation/Page_Communication/h1_Communication'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Page_Communication/h1_Communication'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/Page_Communication/h1_Communication'), 'Communication')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/Page_Communication/h1_Communication'), 'Communication')
 
-WebUI.verifyElementNotPresent(findTestObject('navigation/a_Home'), 0)
+WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Home'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('navigation/a_Share schemes'), 0)
+WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Share schemes'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('navigation/a_Investment'), 0)
+WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Investment'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('navigation/a_Share capital'), 0)
+WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Share capital'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('navigation/a_Secretarial  admin'), 0)
+WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Secretarial  admin'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('navigation/a_People  communication'), 0)
+WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_People  communication'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('navigation/a_Company - staff'), 0)
+WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Company - staff'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('navigation/a_Company settings'), 0)
+WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Company settings'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('navigation/a_App - staff'), 0)
+WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_App - staff'), 0)
 
-WebUI.verifyElementPresent(findTestObject('navigation/a_Help Centre'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Help Centre'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/a_Help Centre'), 'Help Centre')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Help Centre'), 'Help Centre')
 
-WebUI.verifyElementPresent(findTestObject('navigation/img'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/img'), 0)
 
-WebUI.verifyElementPresent(findTestObject('navigation/p_Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992)'), 
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992)'), 
     0)
 
-WebUI.verifyElementText(findTestObject('navigation/p_Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992)'), 
+WebUI.verifyElementText(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992)'), 
     'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
 
 WebUI.closeBrowser()

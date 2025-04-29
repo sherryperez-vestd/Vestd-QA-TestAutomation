@@ -17,128 +17,128 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Check EMI vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/tab_Option-vesting'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/tab_Option-vesting'))
 
-WebUI.verifyElementClickable(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'))
+WebUI.verifyElementClickable(findTestObject('myEquity/graph/vesting-graph/tab_Option-vesting'))
 
-WebUI.click(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'))
+WebUI.click(findTestObject('myEquity/graph/vesting-graph/tab_Option-vesting'))
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-options'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/canvas-graph-options'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-options'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/canvas-graph-options'))
 
 'Check UO vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370417')
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/tab_Option-vesting'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/tab_Option-vesting'))
 
-WebUI.verifyElementClickable(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'))
+WebUI.verifyElementClickable(findTestObject('myEquity/graph/vesting-graph/tab_Option-vesting'))
 
-WebUI.click(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'))
+WebUI.click(findTestObject('myEquity/graph/vesting-graph/tab_Option-vesting'))
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-options'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/canvas-graph-options'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-options'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/canvas-graph-options'))
 
 'Check CSOP vesting  graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370432')
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/tab_Option-vesting'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/tab_Option-vesting'))
 
-WebUI.verifyElementClickable(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'))
+WebUI.verifyElementClickable(findTestObject('myEquity/graph/vesting-graph/tab_Option-vesting'))
 
-WebUI.click(findTestObject('my-equity-page/graph/vesting-graph/tab_Option-vesting'))
+WebUI.click(findTestObject('myEquity/graph/vesting-graph/tab_Option-vesting'))
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-options'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/canvas-graph-options'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-options'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/canvas-graph-options'))
 
 'Check ESOP vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50915/dashboard?user_id=370324')
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/tab-esop_Option-vesting'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/tab-esop_Option-vesting'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/tab-esop_Option-vesting'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/tab-esop_Option-vesting'))
 
-WebUI.verifyElementClickable(findTestObject('my-equity-page/graph/vesting-graph/tab-esop_Option-vesting'))
+WebUI.verifyElementClickable(findTestObject('myEquity/graph/vesting-graph/tab-esop_Option-vesting'))
 
-WebUI.click(findTestObject('my-equity-page/graph/vesting-graph/tab-esop_Option-vesting'))
+WebUI.click(findTestObject('myEquity/graph/vesting-graph/tab-esop_Option-vesting'))
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-esop'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/canvas-graph-esop'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-esop'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/canvas-graph-esop'))
 
 'Check GS vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370451')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/graph/vesting-graph/tab_Share-vesting'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/graph/vesting-graph/tab_Share-vesting'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/vesting-graph/tab_Share-vesting'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/graph/vesting-graph/tab_Share-vesting'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/my-equity-page/graph/vesting-graph/tab_Share-vesting'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/myEquity/graph/vesting-graph/tab_Share-vesting'))
 
-WebUI.click(findTestObject('my-equity-page/graph/vesting-graph/tab_Share-vesting'))
+WebUI.click(findTestObject('myEquity/graph/vesting-graph/tab_Share-vesting'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/graph/vesting-graph/canvas-graph-options'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/graph/vesting-graph/canvas-graph-options'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/vesting-graph/canvas-graph-options'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/graph/vesting-graph/canvas-graph-options'))
 
 'Check RSA vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370580')
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/tab-link_Share-vesting'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/tab-link_Share-vesting'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'))
 
-WebUI.verifyElementClickable(findTestObject('my-equity-page/graph/vesting-graph/tab-link_Share-vesting'))
+WebUI.verifyElementClickable(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'))
 
-WebUI.click(findTestObject('my-equity-page/graph/vesting-graph/tab-link_Share-vesting'))
+WebUI.click(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'))
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-shares'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/canvas-graph-shares'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-shares'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/canvas-graph-shares'))
 
 'Check CS vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370581')
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/tab-link_Share-vesting'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/tab-link_Share-vesting'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'))
 
-WebUI.verifyElementClickable(findTestObject('my-equity-page/graph/vesting-graph/tab-link_Share-vesting'))
+WebUI.verifyElementClickable(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'))
 
-WebUI.click(findTestObject('my-equity-page/graph/vesting-graph/tab-link_Share-vesting'))
+WebUI.click(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'))
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-shares'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/canvas-graph-shares'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-shares'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/canvas-graph-shares'))
 
 'Check Phantom vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370449')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/graph/vesting-graph/tab_Phantom-shares'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/graph/vesting-graph/tab_Phantom-shares'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/my-equity-page/graph/vesting-graph/tab_Phantom-shares'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/myEquity/graph/vesting-graph/tab_Phantom-shares'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/graph/vesting-graph/tab_Phantom-shares'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/graph/vesting-graph/tab_Phantom-shares'), 0)
 
-WebUI.click(findTestObject('my-equity-page/graph/vesting-graph/tab_Phantom-shares'))
+WebUI.click(findTestObject('myEquity/graph/vesting-graph/tab_Phantom-shares'))
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-phantom'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/canvas-graph-phantom'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/graph/vesting-graph/canvas-graph-phantom'))
+WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/canvas-graph-phantom'))
 
 WebUI.closeBrowser()
 

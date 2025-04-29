@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('users-login/UK/user-login-view-only'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-view-only'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/users/dashboard/a_View'))
 

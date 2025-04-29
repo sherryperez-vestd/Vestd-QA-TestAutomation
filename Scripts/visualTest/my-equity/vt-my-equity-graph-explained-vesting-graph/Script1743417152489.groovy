@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Check vesting schedule'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.click(findTestObject('my-equity-page/vesting-schedule_graph-explained/chevron_Your vesting schedule'))
+WebUI.click(findTestObject('myEquity/vesting-schedule_graph-explained/chevron_Your vesting schedule'))
 
-WebUI.takeElementScreenshotAsCheckpoint('Option vesting graph', findTestObject('my-equity-page/vesting-schedule_graph-explained/div_Your vesting schedule Full schedule (49_e2e3a5'))
+WebUI.takeElementScreenshotAsCheckpoint('Option vesting graph', findTestObject('myEquity/vesting-schedule_graph-explained/div_Your vesting schedule Full schedule (49_e2e3a5'))
 
 'Check graph explained'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370451')
 
-WebUI.click(findTestObject('my-equity-page/vesting-schedule_graph-explained/chevron_Your vesting schedule'))
+WebUI.click(findTestObject('myEquity/vesting-schedule_graph-explained/chevron_Your vesting schedule'))
 
-WebUI.takeElementScreenshotAsCheckpoint('Share graph explained', findTestObject('my-equity-page/vesting-schedule_graph-explained/heading_Your graph explained'))
+WebUI.takeElementScreenshotAsCheckpoint('Share graph explained', findTestObject('myEquity/vesting-schedule_graph-explained/heading_Your graph explained'))
 
 WebUI.closeBrowser()
 

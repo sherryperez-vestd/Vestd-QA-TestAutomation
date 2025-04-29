@@ -17,56 +17,56 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/stock-transfer/create?record-type=on-platform')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/select_share-class'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/select_share-class'), 
     '172183', true)
 
-WebUI.click(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/select_To'))
+WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/select_To'))
 
-WebUI.click(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/span_AdminSuper SP (999,990 shares)'))
+WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/span_AdminSuper SP (999,990 shares)'))
 
-WebUI.click(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/span_Please select_multiselect-caret is-open_1'))
+WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/span_Please select_multiselect-caret is-open_1'))
 
-WebUI.click(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/li_Barry Saunders'))
+WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/li_Barry Saunders'))
 
-WebUI.setText(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/input_Number of shares_QhorUmmXeybowrrh'), 
+WebUI.setText(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_Number of shares_QhorUmmXeybowrrh'), 
     '5')
 
-WebUI.setText(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/input_Cash consideration (total for all sha_20407e'), 
+WebUI.setText(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_Cash consideration (total for all sha_20407e'), 
     '1')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/select_Please selectNoYes'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/select_Please selectNoYes'), 
     '0', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/select_NoneIncorporationFFRound oneRound two'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/select_NoneIncorporationFFRound oneRound two'), 
     '128377', true)
 
-WebUI.click(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/input_create one_btn btn-primary'))
+WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_create one_btn btn-primary'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/h1_New stock transfer'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/h1_New stock transfer'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/h1_New stock transfer'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/h1_New stock transfer'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/h1_New stock transfer'), 
+WebUI.verifyElementText(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/h1_New stock transfer'), 
     'New stock transfer')
 
-WebUI.click(findTestObject('Object Repository/stock-transfer/Page_Stock transfer create/input_Select Stamp duty confirmation_btn bt_1d2ef7'))
+WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_Select Stamp duty confirmation_btn bt_1d2ef7'))
 
-WebUI.click(findTestObject('Object Repository/stock-transfer/Page_Stock transfer details/div_Stock transfer created'))
+WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer details/div_Stock transfer created'))
 
-WebUI.rightClick(findTestObject('Object Repository/stock-transfer/Page_Stock transfer details/div_Stock transfer created_1'))
+WebUI.rightClick(findTestObject('Object Repository/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'))
 
-WebUI.click(findTestObject('Object Repository/stock-transfer/Page_Stock transfer details/div_Stock transfer created.      Back to li_f96178'))
+WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer details/div_Stock transfer created.      Back to li_f96178'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/stock-transfer/Page_Stock transfer details/div_Stock transfer created_1_2'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1_2'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/stock-transfer/Page_Stock transfer details/div_Stock transfer created_1_2'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1_2'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/stock-transfer/Page_Stock transfer details/div_Stock transfer created_1_2'), 
+WebUI.verifyElementText(findTestObject('Object Repository/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1_2'), 
     'Stock transfer created.')
 

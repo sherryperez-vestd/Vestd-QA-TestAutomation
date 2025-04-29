@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tooltip-text_my-shares-breakdown-average-price-per-share</name>
+   <tag></tag>
+   <elementGuidId>6fcc136b-bcd9-4fb6-9711-469b5b836684</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.v-popper__inner > div > div > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popper_e6gcv1ao_fs7n98']/div[2]/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = concat(&quot;Here, you&quot; , &quot;'&quot; , &quot;ll see the weighted average price paid per share at issuance. Note: Payments are handled outside Vestd and should be settled before shares are issued.&quot;) or . = concat(&quot;Here, you&quot; , &quot;'&quot; , &quot;ll see the weighted average price paid per share at issuance. Note: Payments are handled outside Vestd and should be settled before shares are issued.&quot;))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Here, you'll see the weighted average price paid per share at issuance. Note: Pa&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d940fa32-5efe-4a1d-985d-e27608abf65a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Here, you'll see the weighted average price paid per share at issuance. Note: Payments are handled outside Vestd and should be settled before shares are issued.</value>
+      <webElementGuid>f5ccb306-a7d4-489e-88ef-9781fc55ec55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popper_e6gcv1ao_fs7n98&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]/div[1]/div[1]/span[1]</value>
+      <webElementGuid>3059d990-fd4c-4dec-a506-2c88adb31278</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popper_e6gcv1ao_fs7n98']/div[2]/div/div/div/span</value>
+      <webElementGuid>5c2b4a9a-a191-4b44-b0ff-a2002688bcb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::span[1]</value>
+      <webElementGuid>926d7089-6ea6-4c94-9b44-d12c040df989</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::span[1]</value>
+      <webElementGuid>1c9e9625-d5d2-4dc1-9e98-d8aef9aa9480</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/span</value>
+      <webElementGuid>1ddd4c91-5597-456e-8291-4a756d8be184</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = concat(&quot;Here, you&quot; , &quot;'&quot; , &quot;ll see the weighted average price paid per share at issuance. Note: Payments are handled outside Vestd and should be settled before shares are issued.&quot;) or . = concat(&quot;Here, you&quot; , &quot;'&quot; , &quot;ll see the weighted average price paid per share at issuance. Note: Payments are handled outside Vestd and should be settled before shares are issued.&quot;))]</value>
+      <webElementGuid>f1326f98-28e1-4aab-941b-28eef35344c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

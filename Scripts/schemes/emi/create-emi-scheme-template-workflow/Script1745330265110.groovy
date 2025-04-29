@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('users-login/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/option/emi')
 
@@ -115,9 +115,18 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/schemes/emi/add-new
 
 WebUI.click(findTestObject('schemes/emi/add-new-recipient/a_Back to list of templates'))
 
+WebUI.waitForElementPresent(findTestObject('schemes/emi/scheme-template/Page_Option-templates-index/input_Edit_text-danger'), 
+    0)
+
+WebUI.delay(5)
+
 WebUI.click(findTestObject('schemes/emi/scheme-template/Page_Option-templates-index/input_Edit_text-danger'))
 
+WebUI.delay(5)
+
 WebUI.acceptAlert()
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

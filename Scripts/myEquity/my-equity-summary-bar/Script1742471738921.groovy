@@ -17,213 +17,213 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/summary-bar-section'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/myEquity/summary-bar/summary-bar-section'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/summary-bar-section'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/summary-bar-section'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/summary-bar-section'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/summary-bar-section'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/summary-bar-section'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/summary-bar-section'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/tile_my-shares'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/myEquity/summary-bar/tile_my-shares'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tile_my-shares'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tile_my-shares'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tile_my-shares'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tile_my-shares'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tile_my-options'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tile_my-options'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tile_my-options'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tile_my-options'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tile_current-value'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tile_current-value'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tile_current-value'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tile_current-value'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tile_current-profit'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tile_current-profit'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tile_current-profit'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tile_current-profit'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tile_projected-value'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tile_projected-value'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tile_projected-value'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tile_projected-value'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/chevron_summary-bar'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/chevron_summary-bar'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/chevron_summary-bar'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/chevron_summary-bar'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/img_my-shares'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/img_my-shares'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/img_my-shares'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/img_my-shares'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/label_My-shares'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/label_My-shares'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/label_My-shares'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/label_My-shares'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_My-shares'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_My-shares'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_My-shares'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_My-shares'))
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_My-shares'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_My-shares'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-txt_my-shares'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_my-shares'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-txt_my-shares'), 'This total includes all shares issued to you, both conditional and unconditional. Note: Exercised options are counted as unconditional shares.')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_my-shares'), 'This total includes all shares issued to you, both conditional and unconditional. Note: Exercised options are counted as unconditional shares.')
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/img_My shares_mr-2'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/img_My shares_mr-2'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/img_My shares_mr-2'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/img_My shares_mr-2'))
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_My-shares'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_My-shares'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/label_My-options'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/label_My-options'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/label_My-options'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/label_My-options'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_my-options'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_my-options'), 0)
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_my-options'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_my-options'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-txt_my-options'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_my-options'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-txt_my-options'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_my-options'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-txt_my-options'), 'This shows the total number of options you’re eligible to receive (depending on the terms of your option agreements)')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_my-options'), 'This shows the total number of options you’re eligible to receive (depending on the terms of your option agreements)')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_my-options'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_my-options'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/img_current-value'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/img_current-value'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/img_current-value'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/img_current-value'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/label_Current-value'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/label_Current-value'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_Current-value'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_Current-value'))
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_Current-value'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_Current-value'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltop-txt_Current-value'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltop-txt_Current-value'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltop-txt_Current-value'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltop-txt_Current-value'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/tooltop-txt_Current-value'), 'The current value reflects your total options and shares, based on the company’s most recent valuation')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/tooltop-txt_Current-value'), 'The current value reflects your total options and shares, based on the company’s most recent valuation')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_Current-value'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_Current-value'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/img_Current-profit'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/img_Current-profit'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/label_Current-profit'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/label_Current-profit'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_Current-profit'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_Current-profit'))
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_Current-profit'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_Current-profit'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-txt_Current-profit'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_Current-profit'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-txt_Current-profit'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_Current-profit'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-txt_Current-profit'), 'Current profit represents the total profit you could make from selling your shares and exercised options today, including the cost to purchase.')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_Current-profit'), 'Current profit represents the total profit you could make from selling your shares and exercised options today, including the cost to purchase.')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_Current-profit'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_Current-profit'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/img_projected-value'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/img_projected-value'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/label_Projected-value'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/label_Projected-value'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_Projected-value'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_Projected-value'))
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_Projected-value'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_Projected-value'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-txt_Projected-value'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_Projected-value'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-txt_Projected-value'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_Projected-value'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-txt_Projected-value'), 'Here\'s a sneak peek at what your overall equity allocation could be worth! The value you see is based on the figure you enter in the \'future value of the company\' bar below. Go ahead and explore the potential!')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_Projected-value'), 'Here\'s a sneak peek at what your overall equity allocation could be worth! The value you see is based on the figure you enter in the \'future value of the company\' bar below. Go ahead and explore the potential!')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/tooltip-icon_Projected-value'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_Projected-value'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/chevron_summary-bar'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/chevron_summary-bar'))
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/chevron_summary-bar'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/chevron_summary-bar'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/chevron_summary-bar'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/chevron_summary-bar'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/label_My-shares-breakdown'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/label_My-shares-breakdown'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/label_My-shares-breakdown'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/label_My-shares-breakdown'))
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/chevron_summary-bar'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/chevron_summary-bar'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/summary-bar/chevron_summary-bar'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/chevron_summary-bar'))
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/dashboard?user_id=358612')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/span_Overall value'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/span_Overall value'))
 
-WebUI.setText(findTestObject('Object Repository/my-equity-page/summary-bar/input__estimated-profit'), 
+WebUI.setText(findTestObject('Object Repository/myEquity/summary-bar/input__estimated-profit'), 
     '1')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/input_vesting_overtime_typevalue'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/input_vesting_overtime_typevalue'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-value'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-value'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 
     '£3,535.29')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-profit'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-profit'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 
     '£3,533.49')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-projected-value'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-projected-value'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 
     '£10,014.43')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/input_Vesting over time_vesting_typevalue'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/input_Vesting over time_vesting_typevalue'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-value'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-value'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 
     '£3,535.29')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-profit'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-profit'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 
     '£3,533.49')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-projected-value'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-projected-value'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 
     '£10,014.43')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/summary-bar/input_Vested until now_vesting_typevalue'))
+WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/input_Vested until now_vesting_typevalue'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-value'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-value'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 
     '£3,535.29')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-profit'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-current-profit'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 
     '£3,533.49')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/summary-bar/txt-projected-value'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/summary-bar/txt-projected-value'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 
     '£10,014.43')
 

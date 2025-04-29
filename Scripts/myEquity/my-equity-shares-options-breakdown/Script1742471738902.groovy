@@ -17,86 +17,88 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.click(findTestObject('my-equity-page/shares-options-breakdown/chevron_summary-bar'))
+WebUI.click(findTestObject('myEquity/shares-options-breakdown/chevron_summary-bar'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tile_my-shares-breakdown-section'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/shares-options-breakdown/shares-breakdown/tile_my-shares-breakdown-section'))
 
 'Check My shares breakdown tooltips and labels\r\n'
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/txt_my-shares-breakdown'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/shares-options-breakdown/shares-breakdown/txt_my-shares-breakdown'), 
     'My shares breakdown')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-shares'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-shares'))
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-shares'))
+WebUI.click(findTestObject('Object Repository/myEquity/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-shares'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tooltip-text_my-shares-breakdown-shares'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/shares-options-breakdown/shares-breakdown/tooltip-text_my-shares-breakdown-shares'), 
     'Here you\'ll see your total share allocation and the share class it belongs to.')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-shares'))
+WebUI.click(findTestObject('Object Repository/myEquity/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-shares'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-average-price-per-share'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-average-price-per-share'))
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-average-price-per-share'))
+WebUI.click(findTestObject('Object Repository/myEquity/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-average-price-per-share'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tooltip-text_my-shares-breakdown-average-price-per-share'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/shares-options-breakdown/shares-breakdown/tooltip-text_my-shares-breakdown-average-price-per-share'), 
     'Here, you\'ll see the weighted average price paid per share at issuance. Note: Payments are handled outside Vestd and should be settled before shares are issued.')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-average-price-per-share'))
+WebUI.click(findTestObject('Object Repository/myEquity/shares-options-breakdown/shares-breakdown/tooltip-icon_my-shares-breakdown-average-price-per-share'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/shares-breakdown/txt_average-price-per-share'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/shares-options-breakdown/shares-breakdown/txt_average-price-per-share'), 
     'Average price per share:')
 
 'Check My shares breakdown transaction history'
-WebUI.verifyElementText(findTestObject('my-equity-page/shares-options-breakdown/button_View transactions'), 'View transactions')
+WebUI.verifyElementText(findTestObject('myEquity/shares-options-breakdown/button_View transactions'), 'View transactions')
 
-WebUI.click(findTestObject('my-equity-page/shares-options-breakdown/button_View transactions'))
+WebUI.click(findTestObject('myEquity/shares-options-breakdown/button_View transactions'))
 
-WebUI.verifyElementPresent(findTestObject('my-equity-page/shares-options-breakdown/txt_Transaction-History'), 0)
+WebUI.verifyElementPresent(findTestObject('myEquity/shares-options-breakdown/txt_Transaction-History'), 0)
 
-WebUI.verifyElementVisible(findTestObject('my-equity-page/shares-options-breakdown/txt_Transaction-History'))
+WebUI.verifyElementVisible(findTestObject('myEquity/shares-options-breakdown/txt_Transaction-History'))
 
-WebUI.click(findTestObject('my-equity-page/shares-options-breakdown/button_Close'))
+WebUI.click(findTestObject('myEquity/shares-options-breakdown/button_Close'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/tile_My-options-breakdown-section'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/tile_My-options-breakdown-section'), 
     0)
 
 'Check My options breakdown tooltips and labels\r\n\r\n'
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/txt_My-options-breakdown'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/txt_My-options-breakdown'), 
     'My options breakdown')
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/txt_EMI Option 10,000 Ordinary'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/txt_EMI Option 10,000 Ordinary'), 
     'EMI Option: 10,000 Ordinary')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/tooltip-icon_My-options-breakdown'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/tooltip-icon_My-options-breakdown'))
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/tooltip-icon_My-options-breakdown'))
+WebUI.click(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/tooltip-icon_My-options-breakdown'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/tooltip-text_My-options-breakdown'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/tooltip-text_My-options-breakdown'), 
     'Here, you can view the number of options granted to you under the selected agreement.')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/tooltip-icon_My-options-breakdown'))
+WebUI.click(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/tooltip-icon_My-options-breakdown'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/label_Exercised-Vested-Unvested'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/label_Exercised-Vested-Unvested'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/label_Exercised-Vested-Unvested'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/label_Exercised-Vested-Unvested'), 
     'Exercised: 250Vested: 250Unvested: 9,500')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/tooltip-icon_My-options-breakdown-Exercised-Vested-Unvested'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/tooltip-icon_My-options-breakdown-Exercised-Vested-Unvested'))
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/tooltip-icon_My-options-breakdown-Exercised-Vested-Unvested'))
+WebUI.click(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/tooltip-icon_My-options-breakdown-Exercised-Vested-Unvested'))
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/tooltip-text_my-options-breakdown-Exercised-Vested-Unvested'), 
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/tooltip-text_my-options-breakdown-Exercised-Vested-Unvested'), 
     'Here\'s how your options are categorised: Exercised, Vested, and Unvested.')
 
-WebUI.click(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/tooltip-icon_My-options-breakdown-Exercised-Vested-Unvested'))
+WebUI.click(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/tooltip-icon_My-options-breakdown-Exercised-Vested-Unvested'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/progress-bar_my-options-breakdown'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/progress-bar_my-options-breakdown'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/my-equity-page/shares-options-breakdown/options-breakdown/label_my-optons-breakdown-Granted-on'), 
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/shares-options-breakdown/options-breakdown/label_my-optons-breakdown-Granted-on'), 
     'Granted on:')
+
+not_run: WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 

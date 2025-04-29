@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.takeElementScreenshotAsCheckpoint('my-equity-summary-bar', findTestObject('my-equity-page/summary-bar/summary-bar-section'))
+WebUI.takeElementScreenshotAsCheckpoint('my-equity-summary-bar', findTestObject('myEquity/summary-bar/summary-bar-section'))
 
 WebUI.closeBrowser()
 

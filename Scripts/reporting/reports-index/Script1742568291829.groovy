@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('users-login/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/home')
 
-WebUI.click(findTestObject('navigation/a_Secretarial  admin'))
+WebUI.click(findTestObject('navigation/side-nav/a_Secretarial  admin'))
 
-WebUI.verifyElementVisible(findTestObject('navigation/Page_Secretarial-Admin/a_Reports'))
+WebUI.verifyElementVisible(findTestObject('navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
 
-WebUI.verifyElementPresent(findTestObject('navigation/Page_Secretarial-Admin/a_Reports'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Page_Secretarial-Admin/a_Reports'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/Page_Secretarial-Admin/a_Reports'), 'Reports')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/Page_Secretarial-Admin/a_Reports'), 'Reports')
 
-WebUI.verifyElementClickable(findTestObject('navigation/Page_Secretarial-Admin/a_Reports'))
+WebUI.verifyElementClickable(findTestObject('navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
 
-WebUI.click(findTestObject('navigation/Page_Secretarial-Admin/a_Reports'))
+WebUI.click(findTestObject('navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/heading_Reporting Beta'))
 
