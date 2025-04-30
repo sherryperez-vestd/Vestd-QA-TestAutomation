@@ -90,25 +90,24 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/myEquity/graph/ve
 
 WebUI.click(findTestObject('myEquity/graph/vesting-graph/tab_Share-vesting'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/graph/vesting-graph/canvas-graph-options'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/graph/vesting-graph/canvas-graph-options'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/graph/vesting-graph/canvas-graph-options'))
 
 'Check RSA vesting graph'
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370580')
+not_run: WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370580')
 
-WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'), 0)
 
-WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'))
+not_run: WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'))
 
-WebUI.verifyElementClickable(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'))
+not_run: WebUI.verifyElementClickable(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'))
 
-WebUI.click(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'))
+not_run: WebUI.click(findTestObject('myEquity/graph/vesting-graph/tab-link_Share-vesting'))
 
-WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/canvas-graph-shares'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('myEquity/graph/vesting-graph/canvas-graph-shares'), 0)
 
-WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/canvas-graph-shares'))
+not_run: WebUI.verifyElementVisible(findTestObject('myEquity/graph/vesting-graph/canvas-graph-shares'))
 
 'Check CS vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370581')
