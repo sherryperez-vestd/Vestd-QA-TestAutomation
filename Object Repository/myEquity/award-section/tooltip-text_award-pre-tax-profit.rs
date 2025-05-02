@@ -6,22 +6,26 @@
    <elementGuidId>fe1fec38-df7e-4286-9210-c9798a1a0d2c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popper_mbwqiz5t_4ewo52']/div[2]/div</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.v-popper__inner</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='popper_mbwqiz5t_4ewo52']/div[2]/div</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'This amount shows the total value of your options after the exercise price is deducted, but before taxes are applied' or . = 'This amount shows the total value of your options after the exercise price is deducted, but before taxes are applied')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=&quot;This amount shows the total value of your options after the exercise price is de&quot;i >> nth=2</value>
+         <value>//div[@id='popper_mbwqiz5t_4ewo52']/div[2]/div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>af3e0b4d-80ab-4d05-805d-c6a900fe1471</webElementGuid>
+      <webElementGuid>f99a040a-db8b-48c1-83e1-fc8c7bee71c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-popper__inner</value>
-      <webElementGuid>46477e99-05e4-4490-ae35-c0552893ba21</webElementGuid>
+      <webElementGuid>480426e5-0dae-4a8a-810a-be16f6f25a8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>This amount shows the total value of your options after the exercise price is deducted, but before taxes are applied</value>
-      <webElementGuid>4e545462-f0b0-4e0b-a1dd-19107d43a5af</webElementGuid>
+      <webElementGuid>3ae99055-edfd-4bd8-b2d6-5e6f1c815228</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_mbwqiz5t_4ewo52&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]</value>
-      <webElementGuid>73275766-c5bb-46d3-af08-9c9b0af005c9</webElementGuid>
+      <webElementGuid>b79107db-6587-4f16-b7d1-afba78995ff9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_mbwqiz5t_4ewo52']/div[2]/div</value>
-      <webElementGuid>e69880a2-a33f-45b2-a4ff-dcf4134eed85</webElementGuid>
+      <webElementGuid>c047f0d6-20fe-4b7f-9d09-0707cadd4523</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
-      <webElementGuid>dc5f584f-81b9-4722-b406-212ac1609123</webElementGuid>
+      <webElementGuid>873da719-021c-4c6f-98d8-bd4e3a122665</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[4]</value>
-      <webElementGuid>2c94d3e6-ab05-4ccf-a1ed-9c7b1abfbad1</webElementGuid>
+      <webElementGuid>8503bffc-85af-4073-b9d0-d2bc7df76515</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>45bddc3d-71ed-4d78-983a-23dc1adf7ce5</webElementGuid>
+      <webElementGuid>1ca8794e-4566-4446-a933-f287946f4f30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'This amount shows the total value of your options after the exercise price is deducted, but before taxes are applied' or . = 'This amount shows the total value of your options after the exercise price is deducted, but before taxes are applied')]</value>
-      <webElementGuid>f94829fd-a9b8-4ce0-a315-d61310e0e200</webElementGuid>
+      <webElementGuid>e50c426a-3ce2-466f-ae12-0ff0943bd744</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

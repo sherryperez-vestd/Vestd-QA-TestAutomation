@@ -6,22 +6,26 @@
    <elementGuidId>6ae99d78-ddad-4b99-8a8e-82164e9ec6fe</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div[2]/i</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>i.vi.vi-sm.mt-auto.ml-lg-2.mt-lg-0.vi-chevron-down</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div[2]/i</value>
+         <key>BASIC</key>
+         <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 collapsed&quot;]/div[@class=&quot;card-header d-flex flex-wrap flex-column bg-white hide-header-separator&quot;]/div[@class=&quot;d-flex align-items-center text-break header-main-content w-100&quot;]/div[@class=&quot;d-flex ml-auto flex-column align-self-stretch flex-lg-row flex-lg-wrap-reverse align-self-lg-start align-items-end align-items-lg-center text-right flex-grow-1 justify-content-end secondary-content&quot;]/i[@class=&quot;vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div:nth-child(2) > .vi >> nth=0</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div[2]/i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>46342832-8f46-4033-9ddc-a94c83279af9</webElementGuid>
+      <webElementGuid>a3e3b286-c405-4d45-8814-2812c061e6fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down</value>
-      <webElementGuid>5defb062-6ae5-4cc4-80c8-031074d075a8</webElementGuid>
+      <webElementGuid>54cd8f28-de88-4ee4-b806-8ac286e22d7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 collapsed&quot;]/div[@class=&quot;card-header d-flex flex-wrap flex-column bg-white hide-header-separator&quot;]/div[@class=&quot;d-flex align-items-center text-break header-main-content w-100&quot;]/div[@class=&quot;d-flex ml-auto flex-column align-self-stretch flex-lg-row flex-lg-wrap-reverse align-self-lg-start align-items-end align-items-lg-center text-right flex-grow-1 justify-content-end secondary-content&quot;]/i[@class=&quot;vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down&quot;]</value>
-      <webElementGuid>5be7622e-08d7-47c0-a9a7-b245cc1059ad</webElementGuid>
+      <webElementGuid>bd079042-b1de-45d3-bae6-8d669adf682d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div[2]/i</value>
-      <webElementGuid>f04546d6-9b79-457e-a20a-ad020973bdf1</webElementGuid>
+      <webElementGuid>d1b553dc-93ec-474e-9894-c749343049ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +65,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/i</value>
-      <webElementGuid>f5a46226-003c-4b73-98f8-324fa933e1b4</webElementGuid>
+      <webElementGuid>7fa25369-9a95-4b99-84da-f2eb3d71a528</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

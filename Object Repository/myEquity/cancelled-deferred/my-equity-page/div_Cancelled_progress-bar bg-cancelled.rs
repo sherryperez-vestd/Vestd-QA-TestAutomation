@@ -6,22 +6,26 @@
    <elementGuidId>dfa41246-ee00-4ef7-bbc6-ce5c99762f9c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/div[4]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.progress-bar.bg-cancelled</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/div[4]</value>
+         <key>BASIC</key>
+         <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 expanded&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;align-cards-sidewise align-items-stretch&quot;]/div[@class=&quot;card v-card bg-white mb-3 adjust-options-card&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;progress&quot;]/div[@class=&quot;progress-bar bg-cancelled&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=progressbar >> nth=3</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/div[4]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>3ca48ddf-997f-411b-8556-676c90cfcbda</webElementGuid>
+      <webElementGuid>bc754ea3-d71b-4532-8541-4e4135d6beaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>progress-bar bg-cancelled</value>
-      <webElementGuid>52f5199a-35ac-41b8-9e67-624a55f4519a</webElementGuid>
+      <webElementGuid>198ad897-5a04-487d-8aaa-cf59f7522a2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>role</name>
       <type>Main</type>
       <value>progressbar</value>
-      <webElementGuid>64376a8e-a25f-42d8-b00c-5131698b6525</webElementGuid>
+      <webElementGuid>075f3538-654d-40a0-bfaa-081bb8dfe601</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 expanded&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;align-cards-sidewise align-items-stretch&quot;]/div[@class=&quot;card v-card bg-white mb-3 adjust-options-card&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;progress&quot;]/div[@class=&quot;progress-bar bg-cancelled&quot;]</value>
-      <webElementGuid>027e1171-b436-4832-8ac6-cbb3b668df52</webElementGuid>
+      <webElementGuid>90cf7f4e-2eb5-4cdf-acef-03a6a9bfb653</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/div[4]</value>
-      <webElementGuid>3980c9f1-98e1-4495-a489-c755c1f533cf</webElementGuid>
+      <webElementGuid>006b0901-79c8-4c26-bc97-5bc92efc14e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,6 +73,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[4]</value>
-      <webElementGuid>d0de92ec-ca2c-4d21-8ebb-1e7ffefb5ac1</webElementGuid>
+      <webElementGuid>91dea912-5242-436a-9366-bc6e3cfc8691</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

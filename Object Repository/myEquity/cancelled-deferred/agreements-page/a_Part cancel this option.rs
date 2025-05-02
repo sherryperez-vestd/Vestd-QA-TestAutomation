@@ -6,37 +6,41 @@
    <elementGuidId>c664cb13-8d19-4d34-bfa7-c942631eb088</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='actions']/div/p[2]/a[2]</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Part cancel this option' or . = 'Part cancel this option')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Part cancel this option>&quot;i]</value>
+         <value>//div[@id='actions']/div/p[2]/a[2]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>bee875bf-ff3f-42fa-819c-a257dcd95e62</webElementGuid>
+      <webElementGuid>dadf6e4a-27dc-485b-b28c-1799187bf7e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50135/option/461060/cancellation/partial</value>
-      <webElementGuid>b2fb17a3-83e1-4424-b218-b14a23612d18</webElementGuid>
+      <webElementGuid>634f5e04-916d-40f6-8daa-38f268221dac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +48,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-sm btn-secondary btn-not-submit</value>
-      <webElementGuid>177d171e-4a78-474b-9f93-a5d8dfeb03cc</webElementGuid>
+      <webElementGuid>4aa47688-54c1-4865-8af4-1d8689f98e33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +56,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Part cancel this option</value>
-      <webElementGuid>0b5d22a8-1d73-4379-b9c5-7a3cffaaaa6f</webElementGuid>
+      <webElementGuid>640b5c8d-56ed-45f4-86ba-59df22de391b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;actions&quot;)/div[@class=&quot;card-body bg-light&quot;]/p[2]/a[@class=&quot;btn btn-sm btn-secondary btn-not-submit&quot;]</value>
-      <webElementGuid>ed9eb01c-cc3d-495b-902d-4de38b79c924</webElementGuid>
+      <webElementGuid>8b0569fa-ca67-45c3-ac3d-eb7741dd9b91</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -68,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='actions']/div/p[2]/a[2]</value>
-      <webElementGuid>55287c7d-a8c2-4dac-af4a-e23a8d76e083</webElementGuid>
+      <webElementGuid>ad249115-682c-4305-95da-92e860c11c47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +80,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Part cancel this option')]</value>
-      <webElementGuid>77612dd7-fd4f-4058-acdc-8c6ce6b27e1f</webElementGuid>
+      <webElementGuid>9d59d032-0a17-45a7-9288-df5eb092e9f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel this option'])[1]/following::a[1]</value>
-      <webElementGuid>9265b08c-102c-477d-8a18-8fc3c4410e89</webElementGuid>
+      <webElementGuid>ad699162-99c3-4e02-9dcf-7e26e1349a7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel this option agreement'])[1]/following::a[2]</value>
-      <webElementGuid>c2e822bc-2b0b-451a-a95f-08660401f977</webElementGuid>
+      <webElementGuid>f866df3d-a929-44a1-803f-2295d61e6d4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test emi2 will no longer be an employee'])[1]/preceding::a[1]</value>
-      <webElementGuid>0dad99d5-9c65-4aec-b42f-2494987d6bd5</webElementGuid>
+      <webElementGuid>7daf1133-362f-4a60-a4a7-add1c49e2f73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='What happens to an employee’s shares or options when they leave the company?'])[1]/preceding::a[2]</value>
-      <webElementGuid>84909b40-0929-4470-b386-f70c4c7a20a2</webElementGuid>
+      <webElementGuid>c4052a30-6c4b-455b-b512-4a4ce3f35444</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +120,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Part cancel this option']/parent::*</value>
-      <webElementGuid>a642e1dd-ebdf-44ec-80e0-ee9c5a8d5ac1</webElementGuid>
+      <webElementGuid>57f7bdcf-a982-4ef7-b6e9-7748a3d7c7d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,7 +128,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50135/option/461060/cancellation/partial')]</value>
-      <webElementGuid>da95384f-043d-475e-8d18-6e07c4240fd6</webElementGuid>
+      <webElementGuid>bf429aed-c945-48b7-afc0-5f00fa64317b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,7 +136,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[2]/a[2]</value>
-      <webElementGuid>f22a6e3e-ba71-42f5-95f7-2888889cbcfd</webElementGuid>
+      <webElementGuid>b118c56f-216a-4487-b194-e572bfd1905a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,6 +144,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://demo.app.vestd.com/company/50135/option/461060/cancellation/partial' and (text() = 'Part cancel this option' or . = 'Part cancel this option')]</value>
-      <webElementGuid>c7da50e1-912f-483b-b0cd-4264ee530e6d</webElementGuid>
+      <webElementGuid>f1985843-c889-4f2c-b59b-cd2dfe8f24ac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

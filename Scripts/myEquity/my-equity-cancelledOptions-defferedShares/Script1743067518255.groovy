@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370193')
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370192')
 
 WebUI.click(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/i_Projected value_vi vi-sm mt-auto ml-lg-2 _17a5ba'))
 
@@ -28,16 +28,13 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/cancelled-
 WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 
-    'Cancelled:')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 'Cancelled:')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/strong_40'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/strong_40'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/strong_40'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/strong_40'), 
-    '40')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/strong_40'), '40')
 
 WebUI.click(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/a_View agreement summary'))
 
@@ -78,14 +75,11 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/cancelled-
 WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 
-    'Cancelled:')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 'Cancelled:')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/strong_40'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/strong_40'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/strong_40'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/strong_40'), 
-    '40')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/cancelled-deferred/my-equity-page/strong_40'), '40')
 

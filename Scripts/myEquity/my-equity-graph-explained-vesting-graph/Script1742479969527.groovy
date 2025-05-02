@@ -43,8 +43,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/vesting-sc
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/vesting-schedule_graph-explained/div_Your vesting schedule Full schedule (49_e2e3a5'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/vesting-schedule_graph-explained/th_Vested'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/vesting-schedule_graph-explained/th_Vested'), 0)
 
 WebUI.rightClick(findTestObject('Object Repository/myEquity/vesting-schedule_graph-explained/th_Vesting period'))
 

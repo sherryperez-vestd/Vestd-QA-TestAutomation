@@ -6,22 +6,26 @@
    <elementGuidId>f88e83a1-b2a5-4069-9ee9-e1636c3c1368</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popper_xsqmgjwd_4ewo51']/div[2]/div</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.v-popper__inner</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='popper_xsqmgjwd_4ewo51']/div[2]/div</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Total Price to Pay is the total amount you’ll need to pay to exercise your options. It’s calculated by multiplying the exercise price (the fixed price per share) by the number of options you’re exercising.' or . = 'Total Price to Pay is the total amount you’ll need to pay to exercise your options. It’s calculated by multiplying the exercise price (the fixed price per share) by the number of options you’re exercising.')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=&quot;Total Price to Pay is the total amount you’ll need to pay to exercise your optio&quot;i >> nth=2</value>
+         <value>//div[@id='popper_xsqmgjwd_4ewo51']/div[2]/div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>eb74176e-0d64-4419-8bff-51d667a50a95</webElementGuid>
+      <webElementGuid>d17fe2b2-bba6-438a-bfaf-9f4a270391c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-popper__inner</value>
-      <webElementGuid>dd0cc1f5-d769-45bf-a4b8-06c9dc6b86d1</webElementGuid>
+      <webElementGuid>5d49db8b-e2ee-45d9-bfff-f334ac9e10f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Total Price to Pay is the total amount you’ll need to pay to exercise your options. It’s calculated by multiplying the exercise price (the fixed price per share) by the number of options you’re exercising.</value>
-      <webElementGuid>1d027d06-9f26-4ca8-8c63-65b580be5696</webElementGuid>
+      <webElementGuid>1392546c-eb4f-4fcc-8822-399b699011e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_xsqmgjwd_4ewo51&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]</value>
-      <webElementGuid>fdd50a7d-ced6-4219-a895-5409548e2850</webElementGuid>
+      <webElementGuid>1106ba44-a5e7-447f-af0b-67c380a23e3f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_xsqmgjwd_4ewo51']/div[2]/div</value>
-      <webElementGuid>a1bffcdb-6964-4e63-a6d0-1eea58a28bb2</webElementGuid>
+      <webElementGuid>93d5a3b2-523d-4b13-9859-34bdd13bb42c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
-      <webElementGuid>f20ccca1-69e4-42ea-86aa-78e7a269ae0b</webElementGuid>
+      <webElementGuid>310d4a10-be66-4e81-b9a2-de3c8aeec264</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[4]</value>
-      <webElementGuid>25b6b471-c256-48d7-8f04-e9f6366f2751</webElementGuid>
+      <webElementGuid>a04ce5da-5e84-4b2a-8ee4-a98747f59989</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>5cc43946-8ad6-4539-96dc-01a74228e102</webElementGuid>
+      <webElementGuid>24d11e2e-dcdb-4234-b521-45e85b027176</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Total Price to Pay is the total amount you’ll need to pay to exercise your options. It’s calculated by multiplying the exercise price (the fixed price per share) by the number of options you’re exercising.' or . = 'Total Price to Pay is the total amount you’ll need to pay to exercise your options. It’s calculated by multiplying the exercise price (the fixed price per share) by the number of options you’re exercising.')]</value>
-      <webElementGuid>a49e8e4c-ff06-4c30-8485-9457c3529a87</webElementGuid>
+      <webElementGuid>f37cb207-52e1-4014-9f50-95772325906f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

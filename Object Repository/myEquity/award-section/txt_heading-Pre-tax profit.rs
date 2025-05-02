@@ -6,22 +6,26 @@
    <elementGuidId>18a82140-c912-4bc3-9515-9719e8ff4417</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/thead/tr/th[4]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.col-12 > div.table-responsive > table.table > thead > tr > th:nth-of-type(4)</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/thead/tr/th[4]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Pre-tax profit ' or . = 'Pre-tax profit ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Pre-tax profit i&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/thead/tr/th[4]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>th</value>
-      <webElementGuid>cb6e95c9-595f-4ee3-b602-15888d195cc3</webElementGuid>
+      <webElementGuid>9564bf47-d4fe-4760-99bd-5a8bf0608fff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pre-tax profit </value>
-      <webElementGuid>81028872-8eac-496d-a915-1af72ce85b1a</webElementGuid>
+      <webElementGuid>38d56174-0154-430d-8690-631c95eb95b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[1]/div[@class=&quot;col-12&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/thead[1]/tr[1]/th[4]</value>
-      <webElementGuid>03d8af03-02e1-436c-b83e-f235da945351</webElementGuid>
+      <webElementGuid>344a0cde-0594-426b-9424-a2acdf538461</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/thead/tr/th[4]</value>
-      <webElementGuid>768c20a2-4e93-4428-9c27-cbccbbc2efb3</webElementGuid>
+      <webElementGuid>bad2d151-4183-4a25-9cbb-3ea4342552f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total price to pay'])[1]/following::th[1]</value>
-      <webElementGuid>4956399f-9108-4587-ad04-07942d4e6eda</webElementGuid>
+      <webElementGuid>361a36dc-3eec-4bd1-b654-4035807d06b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total value'])[2]/following::th[2]</value>
-      <webElementGuid>3067c791-070e-4545-b84c-db84bd685366</webElementGuid>
+      <webElementGuid>d49c6170-4f82-473b-84f9-ba2d7783647a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£288.97'])[1]/preceding::th[1]</value>
-      <webElementGuid>3ec3dd99-10bb-4022-a687-a9be828a8372</webElementGuid>
+      <webElementGuid>c7f81489-371c-4edf-b0e8-5832d628b0b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£9,750.00'])[1]/preceding::th[1]</value>
-      <webElementGuid>75ac7ae2-4742-47a4-9a35-791527e41c5e</webElementGuid>
+      <webElementGuid>956a1885-f46e-4e1a-b29f-c32884ffe929</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Pre-tax profit']/parent::*</value>
-      <webElementGuid>0cccd505-2e98-4bfc-9e58-8dca7c7f8808</webElementGuid>
+      <webElementGuid>79882b74-cf79-416e-96c1-3110bbe26167</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/table/thead/tr/th[4]</value>
-      <webElementGuid>63111821-c8c4-4fb4-86dc-d94266d20986</webElementGuid>
+      <webElementGuid>9f7cdb4c-f967-4408-86b5-af4ea52fa2a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//th[(text() = 'Pre-tax profit ' or . = 'Pre-tax profit ')]</value>
-      <webElementGuid>c17ea3e6-1747-445b-a5ca-125d62542cf8</webElementGuid>
+      <webElementGuid>cd3e95e3-641b-428f-b2b4-5aa8072975fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

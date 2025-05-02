@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>th</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Vested' or . = 'Vested')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>th</value>
-      <webElementGuid>c02d3a1f-7811-44a7-82e1-fbd860a070c5</webElementGuid>
+      <webElementGuid>8e32034b-4d99-4872-8a1a-7609d5c17efb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Vested</value>
-      <webElementGuid>8d6daf0e-1e8e-4053-98c5-6f146076021e</webElementGuid>
+      <webElementGuid>6da6b9ee-ad6b-4e0e-a741-3d0d21c31e90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[1]/div[@class=&quot;pt-3&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table vesting-graph-explained-table&quot;]/thead[1]/tr[1]/th[1]</value>
-      <webElementGuid>aaf63d07-1783-4a74-9c78-e311dde987e2</webElementGuid>
+      <webElementGuid>66dd7a68-47aa-435d-91c9-bdb58920424d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/table/thead/tr/th</value>
-      <webElementGuid>0f3fae19-b27c-46df-aacd-3b439ec60c8a</webElementGuid>
+      <webElementGuid>856c38c4-3021-49f9-9824-00d5eacd0c15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Full schedule (49 tranches)'])[1]/following::th[1]</value>
-      <webElementGuid>21864611-3ad7-44ac-a3c2-9e126c4e9091</webElementGuid>
+      <webElementGuid>da39dcf1-1d30-4fd7-b2f2-f44d8488cb5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your vesting schedule'])[1]/following::th[1]</value>
-      <webElementGuid>f7d310a9-77b1-490f-831a-83203de7250b</webElementGuid>
+      <webElementGuid>1944d36a-1e6a-4bc6-ac2b-516608cb1d18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vesting period'])[1]/preceding::th[1]</value>
-      <webElementGuid>826f516f-40da-4011-a1a3-1d3030cc2b9b</webElementGuid>
+      <webElementGuid>64efece0-cda6-4abf-8409-07ab73f9bdc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Number of shares'])[1]/preceding::th[2]</value>
-      <webElementGuid>9e277054-5831-49dd-aca8-685b45d8b5d3</webElementGuid>
+      <webElementGuid>41b36f9b-43bd-41ea-a252-58e8e7d8bee6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Vested']/parent::*</value>
-      <webElementGuid>fc28f08c-2a86-40b3-ad66-4f0e02b0d063</webElementGuid>
+      <webElementGuid>155ca975-d097-419c-9546-eca9773d0f9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//th</value>
-      <webElementGuid>e6a2e45e-74d0-4076-a303-8f206ac946e8</webElementGuid>
+      <webElementGuid>307e5f3a-129a-4870-81b2-80b213c34537</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//th[(text() = 'Vested' or . = 'Vested')]</value>
-      <webElementGuid>bcf95d61-58f8-425f-b846-0c422c739387</webElementGuid>
+      <webElementGuid>e88bd334-0131-4aca-950b-4d2999e9fb7a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

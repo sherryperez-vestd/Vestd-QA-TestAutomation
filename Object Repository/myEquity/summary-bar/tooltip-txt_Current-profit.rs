@@ -13,15 +13,19 @@
          <key>CSS</key>
          <value>div.v-popper__inner</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Current profit represents the total profit you could make from selling your shares and exercised options today, including the cost to purchase.' or . = 'Current profit represents the total profit you could make from selling your shares and exercised options today, including the cost to purchase.')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=&quot;Current profit represents the total profit you could make from selling your shar&quot;i >> nth=2</value>
+         <value>//div[@id='popper_fsb9k8fu_7e8s3d']/div[2]/div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2c70a0d0-bf53-4de8-bcaa-38178d66a076</webElementGuid>
+      <webElementGuid>eabce277-430c-48cd-a514-b55977faa5bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-popper__inner</value>
-      <webElementGuid>1c6f88fe-4450-4b24-99c2-e8d00195921e</webElementGuid>
+      <webElementGuid>d3c02579-609f-4255-ba45-4ad118ed8759</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Current profit represents the total profit you could make from selling your shares and exercised options today, including the cost to purchase.</value>
-      <webElementGuid>4569b8c7-20ce-401e-a01e-701770ca1571</webElementGuid>
+      <webElementGuid>f0b9146f-1ba3-434b-b495-349345d5c159</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_fsb9k8fu_7e8s3d&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]</value>
-      <webElementGuid>9e43e30a-f82f-46db-9ae1-5804d3df52b4</webElementGuid>
+      <webElementGuid>c5dca9e1-ffc9-47c1-b1f0-84667585883b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_fsb9k8fu_7e8s3d']/div[2]/div</value>
-      <webElementGuid>5b5443a5-e206-4c21-8677-89e91ed6d3fc</webElementGuid>
+      <webElementGuid>f8b7ace7-ceac-4141-87ac-9186dae2308b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
-      <webElementGuid>0d23c1e3-9a12-4094-b889-bb6cc4ec80b2</webElementGuid>
+      <webElementGuid>50165a5b-7b8c-4dfd-af89-b5c5fcf46db4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[4]</value>
-      <webElementGuid>e7fb9226-1b9f-4bb7-b411-b3fb5f5f9061</webElementGuid>
+      <webElementGuid>99342288-3303-411b-8297-42bd9f85cdba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>2a7cc6a0-a631-4ceb-a8f4-b5259da9e77d</webElementGuid>
+      <webElementGuid>1cc68338-b23f-4c17-89fe-59bf158223f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Current profit represents the total profit you could make from selling your shares and exercised options today, including the cost to purchase.' or . = 'Current profit represents the total profit you could make from selling your shares and exercised options today, including the cost to purchase.')]</value>
-      <webElementGuid>3410a4b4-72b9-41d0-8419-b957f4b04928</webElementGuid>
+      <webElementGuid>e3f49778-82f9-4c12-b467-e54c9036df88</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

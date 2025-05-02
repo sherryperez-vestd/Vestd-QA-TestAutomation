@@ -13,15 +13,19 @@
          <key>CSS</key>
          <value>div.v-popper__inner</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'The current value reflects your total options and shares, based on the company’s most recent valuation' or . = 'The current value reflects your total options and shares, based on the company’s most recent valuation')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=&quot;The current value reflects your total options and shares, based on the company’s&quot;i >> nth=2</value>
+         <value>//div[@id='popper_nvyjvut4_7e8s3c']/div[2]/div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d74695e0-7884-4d94-acb1-e1ffff4c7200</webElementGuid>
+      <webElementGuid>240dd811-2179-44dc-95c4-a2e4e057fa15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-popper__inner</value>
-      <webElementGuid>8804b98e-2fef-45ea-b05b-9d58bf103b69</webElementGuid>
+      <webElementGuid>f3eed81a-f094-49b3-8bd4-0163eee60119</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>The current value reflects your total options and shares, based on the company’s most recent valuation</value>
-      <webElementGuid>f84854f9-d05d-4f07-b03d-58483e30805b</webElementGuid>
+      <webElementGuid>a04f3e8f-796c-43c3-b641-0ebc5da72aaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_nvyjvut4_7e8s3c&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]</value>
-      <webElementGuid>ce1b3986-4995-4808-9c49-0773afef7cc8</webElementGuid>
+      <webElementGuid>5a4bd4aa-fa44-4b44-97b5-0927c85ae002</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_nvyjvut4_7e8s3c']/div[2]/div</value>
-      <webElementGuid>099380db-6a1f-426f-b77d-b2cf58fbdeda</webElementGuid>
+      <webElementGuid>4801a8bc-6a2a-4b1f-9af4-e7fde792c183</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
-      <webElementGuid>1642f390-c882-42d0-99a2-a9a44c1c88bb</webElementGuid>
+      <webElementGuid>58b66174-6d2b-4fd9-bf84-79558f5ae689</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[4]</value>
-      <webElementGuid>560260ca-f3ef-4c9e-9ca8-83ec06edde2a</webElementGuid>
+      <webElementGuid>7e8ea04f-5ec5-453e-99b0-e6ba5ff2b4ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>b9dda57c-dc36-40dd-bf15-b68bedb28674</webElementGuid>
+      <webElementGuid>91fb387e-1cda-4d31-949d-816a7963c6e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'The current value reflects your total options and shares, based on the company’s most recent valuation' or . = 'The current value reflects your total options and shares, based on the company’s most recent valuation')]</value>
-      <webElementGuid>487b7beb-2a29-4520-a023-f0fb2a8e4b71</webElementGuid>
+      <webElementGuid>0c1ea013-45eb-4bb1-ab78-1739aa2cd106</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

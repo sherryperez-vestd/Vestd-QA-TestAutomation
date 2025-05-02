@@ -26,29 +26,27 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/award-sect
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/award-section/div_Award table'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/txt_heading-Award (No. of shares)'), 
-    'Award (No. of shares)')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/txt_heading-Award (No. of shares)'), 'Award (No. of shares)')
+
+'Check Award table'
+WebUI.verifyElementPresent(findTestObject('myEquity/award-section/txt_heading-Total value'), 0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/txt_heading-Total value'), 'Total value')
 
 'Check Award Total Value tooltip'
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/award-section/tooltip-icon_award-total-value'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/award-section/tooltip-icon_award-total-value'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/award-section/tooltip-icon_award-total-value'))
 
 WebUI.click(findTestObject('Object Repository/myEquity/award-section/tooltip-icon_award-total-value'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/award-section/tooltip-text_award-total-value'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/award-section/tooltip-text_award-total-value'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/tooltip-text_award-total-value'), 
-    'This amount shows the total value of your options before any tax or exercise price deductions')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/tooltip-text_award-total-value'), 'This amount shows the total value of your options before any tax or exercise price deductions')
 
 WebUI.click(findTestObject('Object Repository/myEquity/award-section/tooltip-icon_award-total-value'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/txt_heading-Total price to pay'), 
-    'Total price to pay')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/txt_heading-Total price to pay'), 'Total price to pay')
 
 'Check Award Total Price to Pay tooltip'
 WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/award-section/tooltip-icon_award_total-price-to-pay'), 
@@ -58,13 +56,11 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/award-sect
 
 WebUI.click(findTestObject('Object Repository/myEquity/award-section/tooltip-icon_award_total-price-to-pay'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/award-section/tooltip-text_total-price-to-pay'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/award-section/tooltip-text_total-price-to-pay'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/award-section/tooltip-text_total-price-to-pay'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/tooltip-text_total-price-to-pay'), 
-    'Total Price to Pay is the total amount you’ll need to pay to exercise your options. It’s calculated by multiplying the exercise price (the fixed price per share) by the number of options you’re exercising.')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/tooltip-text_total-price-to-pay'), 'Total Price to Pay is the total amount you’ll need to pay to exercise your options. It’s calculated by multiplying the exercise price (the fixed price per share) by the number of options you’re exercising.')
 
 WebUI.click(findTestObject('Object Repository/myEquity/award-section/tooltip-icon_award_total-price-to-pay'))
 
@@ -83,8 +79,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/award-sect
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/award-section/tooltip-text_award-pre-tax-profit'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/tooltip-text_award-pre-tax-profit'), 
-    'This amount shows the total value of your options after the exercise price is deducted, but before taxes are applied')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/tooltip-text_award-pre-tax-profit'), 'This amount shows the total value of your options after the exercise price is deducted, but before taxes are applied')
 
 WebUI.click(findTestObject('Object Repository/myEquity/award-section/tooltip-icon_award-pre-tax-profit'))
 
@@ -92,8 +87,7 @@ WebUI.click(findTestObject('Object Repository/myEquity/award-section/tooltip-ico
 WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/int-award-number-of-shares'), '9,750')
 
 'Check Award Total value amount'
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/int-award-total-value'), 
-    '£288.97')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/int-award-total-value'), '£288.97')
 
 'Check Award Total price to pay amount'
 WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/int_award-total-price-to-pay'), '£9,750.00')
@@ -101,8 +95,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section
 'Check change in Estimated profit value updates Total value and Pre tax - profit amount '
 WebUI.setText(findTestObject('Object Repository/myEquity/award-section/input_estimated-profit-per-share'), '5')
 
-WebUI.sendKeys(findTestObject('Object Repository/myEquity/award-section/input_estimated-profit-per-share'), Keys.chord(
-        Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/myEquity/award-section/input_estimated-profit-per-share'), Keys.chord(Keys.ENTER))
 
 WebUI.verifyElementText(findTestObject('Object Repository/myEquity/award-section/int_award-pre-tax-profit'), '£39,000.00')
 

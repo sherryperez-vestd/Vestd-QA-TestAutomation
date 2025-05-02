@@ -6,22 +6,26 @@
    <elementGuidId>d583d09d-9a9e-406a-9e12-41cf9d707659</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/tbody/tr/td[4]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.col-12 > div.table-responsive > table.table > tbody > tr > td:nth-of-type(4)</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/tbody/tr/td[4]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '£39,000.00' or . = '£39,000.00')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;£39,000.00&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/tbody/tr/td[4]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>751a217f-c65e-4e19-bb2b-92a0b09d7ad1</webElementGuid>
+      <webElementGuid>174866e1-5078-409d-8cc0-9e8b94f27a37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>£39,000.00</value>
-      <webElementGuid>50a7301a-86ae-4901-93ce-9624e6faf458</webElementGuid>
+      <webElementGuid>3c95fafa-e450-4142-8cb3-f1bbfba35fb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[1]/div[@class=&quot;col-12&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[4]</value>
-      <webElementGuid>51634f4d-585d-4d7c-8279-40e1db66c60f</webElementGuid>
+      <webElementGuid>805ea26c-359f-45f9-80ba-241249450f08</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/tbody/tr/td[4]</value>
-      <webElementGuid>828f68a1-7f5a-4c8a-b5b8-82471d5869c8</webElementGuid>
+      <webElementGuid>47564cec-c075-4acf-9799-dcff2c8c0e7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£9,750.00'])[1]/following::td[1]</value>
-      <webElementGuid>adf06808-9144-45e4-850a-15e84ec898f4</webElementGuid>
+      <webElementGuid>4272201f-c3fb-4d92-90ff-d67233e216b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£48,750.00'])[1]/following::td[2]</value>
-      <webElementGuid>ff1d32be-84a6-49a7-9889-70e454293e61</webElementGuid>
+      <webElementGuid>48760797-e652-43d1-8d58-c5d03e7d3c1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vesting over time'])[1]/preceding::td[1]</value>
-      <webElementGuid>34de1c1d-be5b-420e-a7a9-76f5477b4771</webElementGuid>
+      <webElementGuid>959e1a4a-95a3-4248-8824-f8a8f5060377</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vested until now'])[1]/preceding::td[1]</value>
-      <webElementGuid>1b58b0f4-1e73-42ea-9b5e-bf6765b279d2</webElementGuid>
+      <webElementGuid>55f319d5-82c2-4197-b5b7-b783673c790c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='£39,000.00']/parent::*</value>
-      <webElementGuid>ab2cc969-130a-4c3d-be7f-8c0621bf6721</webElementGuid>
+      <webElementGuid>2ae91883-d7af-420f-bae9-1ef72b9e788d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/table/tbody/tr/td[4]</value>
-      <webElementGuid>0c488bd3-77e9-4465-b761-54e01c71cc2a</webElementGuid>
+      <webElementGuid>d593d7fa-9d9a-4c40-ab52-93dc2db4fc7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '£39,000.00' or . = '£39,000.00')]</value>
-      <webElementGuid>1cc63c79-02f5-4c29-a2c2-53ffcd7cb7fe</webElementGuid>
+      <webElementGuid>d49b7b63-6bcb-4933-99e7-f77333330b7e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

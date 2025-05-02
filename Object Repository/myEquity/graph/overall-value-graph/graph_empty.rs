@@ -13,15 +13,19 @@
          <key>CSS</key>
          <value>div.p-sm-5.d-flex.flex-column.justify-content-center.align-items-center</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'This is where your potential growth statistics will appear! Use the calculator to visualise your future values. ' or . = 'This is where your potential growth statistics will appear! Use the calculator to visualise your future values. ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;This is where your potential growth statistics will appear! Use the calculator t&quot;i</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>07e02d09-3180-4add-b8f2-67fdb622dd9d</webElementGuid>
+      <webElementGuid>c17df9b6-7ae0-4bfa-8e48-51227ebc3d82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>p-sm-5 d-flex flex-column justify-content-center align-items-center</value>
-      <webElementGuid>f46bc1be-81fd-46cd-91fa-0f54f6ef9fbe</webElementGuid>
+      <webElementGuid>459556e4-d961-4b0f-be97-ab9ba40cfef5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>This is where your potential growth statistics will appear! Use the calculator to visualise your future values. </value>
-      <webElementGuid>8b5d7f08-68fb-49a4-8e58-e027f34d6570</webElementGuid>
+      <webElementGuid>186f63bb-0422-4f45-b102-6751b3871fd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[2]/div[@class=&quot;card overflow-hidden v-card bg-light card-muted mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;p-sm-5 d-flex flex-column justify-content-center align-items-center&quot;]</value>
-      <webElementGuid>ecbfd08a-0113-4e4c-8781-20bbf28b620f</webElementGuid>
+      <webElementGuid>7fa708ad-0877-4fbb-bd42-25fbf143de0e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div</value>
-      <webElementGuid>9e7898ca-943f-43a7-945c-b6f9d70271b5</webElementGuid>
+      <webElementGuid>fbec5479-a362-445e-ab10-e8ea6afec441</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[15]/following::div[5]</value>
-      <webElementGuid>0ad3811f-38c7-4a7f-b1b1-d29129d5fdba</webElementGuid>
+      <webElementGuid>a9c2b129-841f-4b92-9009-5d1d546c7854</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£9,750.00'])[1]/following::div[5]</value>
-      <webElementGuid>d017113c-f7b6-4797-be75-13a615300764</webElementGuid>
+      <webElementGuid>64c52a9a-66aa-47d0-a97f-06e9872aa946</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total shares'])[1]/preceding::div[1]</value>
-      <webElementGuid>3a4ad267-eb35-457d-932d-c991827dab29</webElementGuid>
+      <webElementGuid>40e366de-0b40-4012-a521-6d0e3fe05175</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/div[2]/div/div/div/div</value>
-      <webElementGuid>01ff1869-1700-4b5d-8014-71371d4ed96a</webElementGuid>
+      <webElementGuid>b5102730-2dea-4743-a4de-f6184482d833</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'This is where your potential growth statistics will appear! Use the calculator to visualise your future values. ' or . = 'This is where your potential growth statistics will appear! Use the calculator to visualise your future values. ')]</value>
-      <webElementGuid>dff0e83e-4f64-40b8-b9e8-bdd7c55158c5</webElementGuid>
+      <webElementGuid>b9c60bf4-252f-43b3-95d6-79b994a37b29</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,22 +6,26 @@
    <elementGuidId>232fd5e6-41ef-4f69-a3e2-26fe36891f39</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>strong.text-cancelled</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '40' or . = '40')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;40&quot;i</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>strong</value>
-      <webElementGuid>df16900c-83d8-40dc-a15f-34de561329d1</webElementGuid>
+      <webElementGuid>accb7799-182c-4251-ab1e-61fd3ff2ff2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-cancelled</value>
-      <webElementGuid>ac36ce1c-aad2-40ef-b97f-249da5409fe9</webElementGuid>
+      <webElementGuid>44984042-ee15-48c4-8a27-f6722061181e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>40</value>
-      <webElementGuid>d3890210-046c-4139-be1f-cd8eef711360</webElementGuid>
+      <webElementGuid>5f223436-de2f-4086-b570-a9456971e975</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 expanded&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;align-cards-sidewise align-items-stretch&quot;]/div[@class=&quot;card v-card bg-white mb-3 adjust-options-card&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;d-flex&quot;]/ul[@class=&quot;list-inline&quot;]/li[@class=&quot;list-inline-item&quot;]/strong[@class=&quot;text-cancelled&quot;]</value>
-      <webElementGuid>4411da75-1536-4dc9-b58a-a77d3667ebec</webElementGuid>
+      <webElementGuid>697e4f02-d256-490b-9ce1-d729ffcebb46</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
-      <webElementGuid>5ca0b794-d964-4c66-bbce-0445a0d04d49</webElementGuid>
+      <webElementGuid>cf3f52ef-5727-4f8d-a6e8-4fc252ebbf8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelled:'])[1]/following::strong[1]</value>
-      <webElementGuid>788f7db9-2680-44dc-b022-e1a2b0ed6e90</webElementGuid>
+      <webElementGuid>740e4d42-2242-4fee-8851-2e202c3046f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unvested:'])[1]/following::strong[2]</value>
-      <webElementGuid>f44c9f81-1319-4d93-8a37-8eb043704a33</webElementGuid>
+      <webElementGuid>53a73dca-dfef-4a82-bbd7-89a5499aeb37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Granted on:'])[1]/preceding::strong[1]</value>
-      <webElementGuid>52b180c0-f48c-455a-9267-6b9c6f257591</webElementGuid>
+      <webElementGuid>155ec048-b271-4e53-a5c3-090d2e4cd17f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View agreement summary'])[1]/preceding::strong[2]</value>
-      <webElementGuid>7bd76dc7-1bba-4843-9418-66ea7f46dbeb</webElementGuid>
+      <webElementGuid>6f29f5e5-174a-4381-abb9-b509246c870d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='40']/parent::*</value>
-      <webElementGuid>34e8e6f0-fa9c-4177-be44-98307061f27d</webElementGuid>
+      <webElementGuid>f744c2dc-74a7-451b-a25b-5e0da7a9fd6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/strong</value>
-      <webElementGuid>25a36ffc-b870-4d3d-a75b-5103c4673d31</webElementGuid>
+      <webElementGuid>21bbef53-e439-4ba5-8232-8f2b3f1c4fde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//strong[(text() = '40' or . = '40')]</value>
-      <webElementGuid>9307ca35-6c22-4cab-a5a0-34ff81109f99</webElementGuid>
+      <webElementGuid>f42126f4-e90b-4203-9288-34593b40e58e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

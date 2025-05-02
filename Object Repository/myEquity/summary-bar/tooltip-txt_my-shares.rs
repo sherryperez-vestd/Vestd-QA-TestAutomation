@@ -13,15 +13,19 @@
          <key>CSS</key>
          <value>div.v-popper__inner > div > div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'This total includes all shares issued to you, both conditional and unconditional. Note: Exercised options are counted as unconditional shares.' or . = 'This total includes all shares issued to you, both conditional and unconditional. Note: Exercised options are counted as unconditional shares.')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=&quot;This total includes all shares issued to you, both conditional and unconditional&quot;i >> nth=4</value>
+         <value>//div[@id='popper_28k7lwwe_7e8s3a']/div[2]/div/div/div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>59d3c1fe-b7d1-4280-9f68-50ccfb5e3d86</webElementGuid>
+      <webElementGuid>97ff6f14-4bf5-4ee7-ae8b-dd08c6b8ec86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>This total includes all shares issued to you, both conditional and unconditional. Note: Exercised options are counted as unconditional shares.</value>
-      <webElementGuid>e1e8cc8a-89e7-4c5b-aa29-8167c3297c2f</webElementGuid>
+      <webElementGuid>93bcd8f2-5105-4b3a-b7a8-417b8b862f60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_28k7lwwe_7e8s3a&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]/div[1]/div[1]</value>
-      <webElementGuid>679d5986-3ab1-46bc-9512-834d736dfea2</webElementGuid>
+      <webElementGuid>c16e33ad-ace0-4e2b-ad26-8f537b8eab1e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_28k7lwwe_7e8s3a']/div[2]/div/div/div</value>
-      <webElementGuid>ebe33954-2163-4fd9-80f9-e57ce2555f12</webElementGuid>
+      <webElementGuid>83aac8b3-0ddf-4890-8444-d29a3895880d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[6]</value>
-      <webElementGuid>0a22e952-34b5-4e9f-8872-e146cb2477d2</webElementGuid>
+      <webElementGuid>085f43e4-3922-4534-9eaf-4f1e2a1477ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[6]</value>
-      <webElementGuid>adcdee00-4f61-4528-87bf-e513b93bc6f9</webElementGuid>
+      <webElementGuid>7700e478-90cb-42f8-94a4-1ed1cd2ffad1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div/div/div</value>
-      <webElementGuid>bfced29e-5125-408c-b8e6-95aa82e1deae</webElementGuid>
+      <webElementGuid>d14cf23c-bf2c-4a37-b6de-3d3716c2f1e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'This total includes all shares issued to you, both conditional and unconditional. Note: Exercised options are counted as unconditional shares.' or . = 'This total includes all shares issued to you, both conditional and unconditional. Note: Exercised options are counted as unconditional shares.')]</value>
-      <webElementGuid>6a3a5948-06c3-4d2a-bf14-08d74c861017</webElementGuid>
+      <webElementGuid>05574850-5519-4f7b-9b27-1bd5eca73174</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

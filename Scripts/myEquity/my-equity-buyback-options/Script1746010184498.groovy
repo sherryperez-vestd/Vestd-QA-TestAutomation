@@ -35,11 +35,13 @@ WebUI.verifyElementText(findTestObject('myEquity/shares-options-breakdown/option
 
 WebUI.click(findTestObject('myEquity/shares-options-breakdown/options-breakdown/span_Cancelled_static-content'))
 
-WebUI.verifyElementPresent(findTestObject('myEquity/shares-options-breakdown/options-breakdown/li_Buyback These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you'), 
+WebUI.waitForElementPresent(findTestObject('myEquity/shares-options-breakdown/options-breakdown/li_Buyback tooltip text'), 
     0)
 
-WebUI.verifyElementText(findTestObject('myEquity/shares-options-breakdown/options-breakdown/li_Buyback These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you'), 
-    'Buyback: These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you.')
+WebUI.verifyElementPresent(findTestObject('myEquity/shares-options-breakdown/options-breakdown/li_Buyback tooltip text'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('myEquity/shares-options-breakdown/options-breakdown/li_Buyback tooltip text'), 'Buyback: These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you.')
 
 WebUI.closeBrowser()
 

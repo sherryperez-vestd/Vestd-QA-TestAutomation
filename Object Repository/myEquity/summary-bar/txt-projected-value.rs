@@ -11,10 +11,13 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), '£10,') or contains(., '£10,'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>ab4248b1-737e-41bc-8d56-49a28f9481bc</webElementGuid>
+      <webElementGuid>a58a96db-9f8e-4e97-b58a-535e01c67160</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +40,15 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-0 font-weight-bold text-</value>
-      <webElementGuid>6f5f48ce-8e3f-4802-b9fe-a40f19d5f7f0</webElementGuid>
+      <webElementGuid>2c63fdff-fbd2-4269-b29f-ec761e7901d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>£10,014.43</value>
-      <webElementGuid>e166b7ac-b5ab-41e4-a762-7c5127640360</webElementGuid>
+      <value>£10,</value>
+      <webElementGuid>0357ccdf-7734-4046-897d-64d57aa3ef67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 collapsed&quot;]/div[@class=&quot;card-header d-flex flex-wrap flex-column bg-white hide-header-separator&quot;]/div[@class=&quot;d-flex align-items-center text-break header-main-content w-100&quot;]/div[@class=&quot;summary-container&quot;]/div[@class=&quot;summary-item&quot;]/div[@class=&quot;summary-details&quot;]/div[@class=&quot;d-flex align-items-center text-break&quot;]/p[@class=&quot;mb-0 font-weight-bold text-&quot;]</value>
-      <webElementGuid>9ed52997-3268-4382-9754-56d7957f2f3e</webElementGuid>
+      <webElementGuid>0964ae5e-5a54-4e47-861a-e5a174480e50</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div/div[5]/div/div[2]/p</value>
-      <webElementGuid>a46f9ee5-9a93-4aa5-9196-191fb1da9b70</webElementGuid>
+      <webElementGuid>87747e46-9add-43a9-801f-589cd26555e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Projected value'])[1]/following::p[1]</value>
-      <webElementGuid>4b709d9c-f59d-497b-80f2-20f3fc72bbe9</webElementGuid>
+      <webElementGuid>f9b43564-6957-4b92-a62d-1067824c8618</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Current profit'])[1]/following::p[2]</value>
-      <webElementGuid>64bc38df-614e-45fa-8351-a7ba2650cd32</webElementGuid>
+      <webElementGuid>b4c00032-1561-489c-9d02-434348e31bcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My shares breakdown'])[1]/preceding::p[1]</value>
-      <webElementGuid>0564649f-b6f4-46aa-acc8-5edafbb60421</webElementGuid>
+      <webElementGuid>9dbf5209-4a69-46dc-8093-a432e57dbc94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Average price per share:'])[1]/preceding::p[2]</value>
-      <webElementGuid>6d09509a-544b-4eb4-8a7c-efbcc9c5d693</webElementGuid>
+      <webElementGuid>2d8635b2-9db8-4954-bdd3-b75e31f2983d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='£10,014.43']/parent::*</value>
-      <webElementGuid>13b7029e-bc78-4edd-932c-ff25b222c174</webElementGuid>
+      <webElementGuid>cddffacb-f647-4e75-b1dd-455fa6415fd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[2]/p</value>
-      <webElementGuid>6d478364-b4a4-400b-86c6-285ffbc839a7</webElementGuid>
+      <webElementGuid>9d24136b-e826-400f-a75c-d498a4d5ea8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +120,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = '£10,014.43' or . = '£10,014.43')]</value>
-      <webElementGuid>8f458a37-6333-47e2-9b60-148c504e2fcf</webElementGuid>
+      <webElementGuid>99e1ab72-2e33-4a96-a20e-7864f2cd4251</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

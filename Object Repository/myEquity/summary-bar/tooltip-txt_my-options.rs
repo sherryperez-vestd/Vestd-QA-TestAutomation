@@ -13,15 +13,19 @@
          <key>CSS</key>
          <value>div.v-popper__inner</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'This shows the total number of options you’re eligible to receive (depending on the terms of your option agreements)' or . = 'This shows the total number of options you’re eligible to receive (depending on the terms of your option agreements)')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=&quot;This shows the total number of options you’re eligible to receive (depending on &quot;i >> nth=2</value>
+         <value>//div[@id='popper_xo7axf86_7e8s3b']/div[2]/div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>5c33bef2-3f02-4971-8035-553125aace02</webElementGuid>
+      <webElementGuid>fa4a4577-2d30-4cf4-998d-471d9e9ab3ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-popper__inner</value>
-      <webElementGuid>1dfe8c0e-bd78-4d6f-85d0-0bae2a258337</webElementGuid>
+      <webElementGuid>4b3af842-6130-400b-ac35-043314472b3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>This shows the total number of options you’re eligible to receive (depending on the terms of your option agreements)</value>
-      <webElementGuid>43e0dc16-0912-4fb5-a763-c63b8f8ef0b2</webElementGuid>
+      <webElementGuid>1e32af82-a68b-4d4e-b593-c831f0526af5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_xo7axf86_7e8s3b&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]</value>
-      <webElementGuid>4b903d92-cd36-429d-bf9f-210d4b5ada8b</webElementGuid>
+      <webElementGuid>241d1e92-9950-427e-812b-c3816e4fcc27</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_xo7axf86_7e8s3b']/div[2]/div</value>
-      <webElementGuid>34f990a7-0edd-4428-985d-2306bfec9d4d</webElementGuid>
+      <webElementGuid>c81ffe3f-e235-47c5-93a6-51a0acf8e6e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
-      <webElementGuid>4776206a-dc3b-4300-a998-c5eb41f79ff8</webElementGuid>
+      <webElementGuid>f13b6a1f-c88c-4471-9974-581dc73d6239</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[4]</value>
-      <webElementGuid>5c359ddc-42cd-45fb-8e26-a792321c718c</webElementGuid>
+      <webElementGuid>6552be7c-362b-4c0f-ab08-8e5fddffda49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>c1982e09-0276-436b-9f81-0949a99d1dca</webElementGuid>
+      <webElementGuid>c1e40bec-a9a8-4ab2-bad9-7c59e3643df3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'This shows the total number of options you’re eligible to receive (depending on the terms of your option agreements)' or . = 'This shows the total number of options you’re eligible to receive (depending on the terms of your option agreements)')]</value>
-      <webElementGuid>862628fb-ee3c-49b5-a4bc-926d14798375</webElementGuid>
+      <webElementGuid>6437aaf1-df2e-4da2-93c2-69dc0afcf2be</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

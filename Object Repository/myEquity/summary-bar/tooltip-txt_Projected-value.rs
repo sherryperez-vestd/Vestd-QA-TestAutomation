@@ -13,15 +13,19 @@
          <key>CSS</key>
          <value>div.v-popper__inner</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = concat(&quot;Here&quot; , &quot;'&quot; , &quot;s a sneak peek at what your overall equity allocation could be worth! The value you see is based on the figure you enter in the &quot; , &quot;'&quot; , &quot;future value of the company&quot; , &quot;'&quot; , &quot; bar below. Go ahead and explore the potential!&quot;) or . = concat(&quot;Here&quot; , &quot;'&quot; , &quot;s a sneak peek at what your overall equity allocation could be worth! The value you see is based on the figure you enter in the &quot; , &quot;'&quot; , &quot;future value of the company&quot; , &quot;'&quot; , &quot; bar below. Go ahead and explore the potential!&quot;))]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=&quot;Here's a sneak peek at what your overall equity allocation could be worth! The v&quot;i >> nth=2</value>
+         <value>//div[@id='popper_nnfsgl98_7e8s3d']/div[2]/div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b2c16eb1-199d-4ee1-8791-654c4f8ec23a</webElementGuid>
+      <webElementGuid>aba541ad-dfee-460f-9ef0-66c894c6c069</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-popper__inner</value>
-      <webElementGuid>b64f2a31-b5b7-4235-9cca-2b81094fb63d</webElementGuid>
+      <webElementGuid>f50f5004-8e7e-4bd7-a9c8-65a2dad485f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Here's a sneak peek at what your overall equity allocation could be worth! The value you see is based on the figure you enter in the 'future value of the company' bar below. Go ahead and explore the potential!</value>
-      <webElementGuid>69786075-1bad-4ab5-bbf3-cd1ee4fb3c5a</webElementGuid>
+      <webElementGuid>d2d14017-c9dc-4220-9c71-a6461b29645a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_nnfsgl98_7e8s3d&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]</value>
-      <webElementGuid>6be6156c-8890-4b09-8efb-78f183dc6165</webElementGuid>
+      <webElementGuid>8cc4c717-ab10-4e9f-aa9c-c1e874276f36</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_nnfsgl98_7e8s3d']/div[2]/div</value>
-      <webElementGuid>c70dab5b-da65-4b59-a7b4-4367ab3c9b24</webElementGuid>
+      <webElementGuid>a2313e50-b339-4f2f-9ff1-acc91887aa65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
-      <webElementGuid>fa400967-5698-4847-951a-e75c6065d2de</webElementGuid>
+      <webElementGuid>15c95aa7-1f39-47d8-b779-3c59dd35ef7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[4]</value>
-      <webElementGuid>333c415a-2b0b-4f8e-a038-48a4679b7890</webElementGuid>
+      <webElementGuid>e52ac310-7557-4576-9997-10ba7d8f3a5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>c57d785f-6aec-4ab6-86f6-c4514462f073</webElementGuid>
+      <webElementGuid>b712e509-02ac-43ea-b453-b45cb7467a62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = concat(&quot;Here&quot; , &quot;'&quot; , &quot;s a sneak peek at what your overall equity allocation could be worth! The value you see is based on the figure you enter in the &quot; , &quot;'&quot; , &quot;future value of the company&quot; , &quot;'&quot; , &quot; bar below. Go ahead and explore the potential!&quot;) or . = concat(&quot;Here&quot; , &quot;'&quot; , &quot;s a sneak peek at what your overall equity allocation could be worth! The value you see is based on the figure you enter in the &quot; , &quot;'&quot; , &quot;future value of the company&quot; , &quot;'&quot; , &quot; bar below. Go ahead and explore the potential!&quot;))]</value>
-      <webElementGuid>ed04462b-c9f9-4b44-a129-179964c4d64e</webElementGuid>
+      <webElementGuid>c12a1413-aac8-46b5-89f9-493d3de16ed6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

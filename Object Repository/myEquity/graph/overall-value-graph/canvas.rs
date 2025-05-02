@@ -6,22 +6,26 @@
    <elementGuidId>58b85e56-ec7d-4c26-8b87-607fd88c4ba7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div/canvas</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.p-2 > div.chart-container > canvas</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div/canvas</value>
+         <key>BASIC</key>
+         <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[2]/div[@class=&quot;row mb-2&quot;]/div[@class=&quot;col-sm-12 col-md-12 p-2&quot;]/div[@class=&quot;graph bg-light mb-2&quot;]/div[@class=&quot;p-2&quot;]/div[@class=&quot;chart-container&quot;]/canvas[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>canvas >> nth=1</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div/canvas</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>canvas</value>
-      <webElementGuid>3563ead6-5885-4390-b6f3-231f24189703</webElementGuid>
+      <webElementGuid>bf7bfb98-08bf-4a63-b6dd-309ae159ebc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>fd3bbe41-3e1d-4aa5-a257-6ba1bf7b46eb</webElementGuid>
+      <webElementGuid>1a7d7ab3-93e0-485e-a54f-359628227d36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>chart-id</name>
       <type>Main</type>
       <value>projection-graph</value>
-      <webElementGuid>7a918092-fc02-49f0-a972-652e328489bb</webElementGuid>
+      <webElementGuid>16a5137b-f90e-4775-8c43-3be14c0f5b7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>height</name>
       <type>Main</type>
       <value>600</value>
-      <webElementGuid>5355c74a-1fde-4518-8f1e-fdbe4531e0a6</webElementGuid>
+      <webElementGuid>ba1746bd-4ff1-4d49-b944-dd6f69b243a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>width</name>
       <type>Main</type>
       <value>1396</value>
-      <webElementGuid>ab12ce5e-9dd5-43e0-bdcb-111231b66116</webElementGuid>
+      <webElementGuid>b2312709-4512-4f53-b6b7-92987372a8fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[2]/div[@class=&quot;row mb-2&quot;]/div[@class=&quot;col-sm-12 col-md-12 p-2&quot;]/div[@class=&quot;graph bg-light mb-2&quot;]/div[@class=&quot;p-2&quot;]/div[@class=&quot;chart-container&quot;]/canvas[1]</value>
-      <webElementGuid>a7265898-b032-451a-9bc0-3d552a77b460</webElementGuid>
+      <webElementGuid>6c0bef3e-b6a0-462c-a9c0-24c4a3945eb9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/div/canvas</value>
-      <webElementGuid>8f4af03d-97e6-4268-a5f9-bc15368abff9</webElementGuid>
+      <webElementGuid>2366988c-868d-4a11-924d-6f0571a032c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£0.00'])[2]/following::canvas[1]</value>
-      <webElementGuid>15334d95-94fc-4e9e-8210-721947995d0e</webElementGuid>
+      <webElementGuid>f0e2f728-2743-4822-9206-ce5efa492e4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£9,750.00'])[2]/following::canvas[1]</value>
-      <webElementGuid>d6102699-f48f-4972-8e56-e43e16468be7</webElementGuid>
+      <webElementGuid>a7f58d64-34ed-4a27-9d6f-0fdd3da04ae0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vesting over time'])[1]/preceding::canvas[1]</value>
-      <webElementGuid>7ee5dc71-a1ec-47a7-a914-b270377e5e18</webElementGuid>
+      <webElementGuid>8e34f409-69d7-4e69-8976-764bdfe94f10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vested until now'])[1]/preceding::canvas[1]</value>
-      <webElementGuid>31347206-dbbd-413b-b0e1-b27dda842362</webElementGuid>
+      <webElementGuid>42df7234-2e73-40ef-906d-39f200d6bc47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/div/canvas</value>
-      <webElementGuid>ec3eca58-b4c3-4ff9-ac90-1553dba8da5a</webElementGuid>
+      <webElementGuid>efc5b196-f4af-4f0c-b5ef-617c2c1e477a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
