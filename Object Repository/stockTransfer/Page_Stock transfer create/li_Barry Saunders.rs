@@ -13,23 +13,27 @@
          <key>XPATH</key>
          <value>//li[@id='EBtRFQk1BSOhV6BM-multiselect-option-692109']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = 'Barry Saunders' or . = 'Barry Saunders')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Barry Saunders&quot;s</value>
+         <value>//li[@id='EBtRFQk1BSOhV6BM-multiselect-option-692109']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>2dc5792d-079a-4fd4-896b-53bd7e856d6e</webElementGuid>
+      <webElementGuid>f37fd353-c770-4a12-b21e-944a5763eb89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +41,15 @@
       <name>class</name>
       <type>Main</type>
       <value>multiselect-option is-pointed</value>
-      <webElementGuid>fe3ef8f3-190b-450b-9a99-e8e0ae2f26ef</webElementGuid>
+      <webElementGuid>3be300f7-43a7-4265-b25a-9ff4c0669304</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>EBtRFQk1BSOhV6BM-multiselect-option-692109</value>
-      <webElementGuid>7a947920-3e45-4de7-b066-4df5a6039dfe</webElementGuid>
+      <webElementGuid>6bc35328-b8a2-44b4-916b-16d1c35066a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>58c720dc-26f1-41fc-a1d6-63b3fae4a071</webElementGuid>
+      <webElementGuid>79de709d-84c1-418b-9418-d7a60bc66a96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Barry Saunders</value>
-      <webElementGuid>0b3682bf-9352-47e1-ad51-117d78ce6337</webElementGuid>
+      <webElementGuid>8cc32a20-ecf6-448b-bdd0-f85121fa83ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>4b9fc580-5160-4c15-bf7a-cb1b4a61dfde</webElementGuid>
+      <webElementGuid>04d303da-8423-4ce4-9c3e-7157b5d785f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>data-pointed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>32658a47-1748-450c-8357-5ba839f4f5bd</webElementGuid>
+      <webElementGuid>0a238cc9-5d0f-4a0f-886c-dd067beefc43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Barry Saunders</value>
-      <webElementGuid>2bcfe7b5-8470-45b5-acae-2881e4673a64</webElementGuid>
+      <webElementGuid>cc2367bc-a2ad-45ea-9d59-73da73dcafcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;EBtRFQk1BSOhV6BM-multiselect-option-692109&quot;)</value>
-      <webElementGuid>039615b8-16b4-42a3-8f5d-becb38dfd4c1</webElementGuid>
+      <webElementGuid>80d42794-3595-48b5-be39-9a445bbc1929</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//li[@id='EBtRFQk1BSOhV6BM-multiselect-option-692109']</value>
-      <webElementGuid>6747eb37-72a8-4e12-a97d-fc8b191b4d82</webElementGuid>
+      <webElementGuid>4a2a86b0-095a-464b-9421-b266d1da2e98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='EBtRFQk1BSOhV6BM-multiselect-options']/li[4]</value>
-      <webElementGuid>2366573a-4f4a-4784-8625-067d7d29d074</webElementGuid>
+      <webElementGuid>17a32ed8-a236-43c6-957f-7b1d9e13af00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AdminSuper SP'])[1]/following::li[1]</value>
-      <webElementGuid>859383c7-06f2-43c4-9cb6-7b32d6ccb8a4</webElementGuid>
+      <webElementGuid>e02cd531-ba8d-4e0f-8dd4-825ad199397b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select...'])[6]/following::li[3]</value>
-      <webElementGuid>b9269f69-be3c-40e4-bf1f-900ab2aefd50</webElementGuid>
+      <webElementGuid>fadc0507-d0cc-4c15-b5cd-1171b5b0bbd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Brice-Sonny Mertz-Becker'])[1]/preceding::li[1]</value>
-      <webElementGuid>44232649-7fa8-495f-8dce-d5b78ae35b46</webElementGuid>
+      <webElementGuid>b2d4c110-0b17-4952-a057-5581ce0ad0fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/ul/li[4]</value>
-      <webElementGuid>5273e1fc-4f12-47af-b00b-c0c3ac00316c</webElementGuid>
+      <webElementGuid>f720a5ed-8383-4603-b2f7-5736b6ffb0cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +153,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[@id = 'EBtRFQk1BSOhV6BM-multiselect-option-692109' and (text() = 'Barry Saunders' or . = 'Barry Saunders')]</value>
-      <webElementGuid>37bd83ff-575f-4368-97cc-bd32cb91d772</webElementGuid>
+      <webElementGuid>09a7e705-e85b-4f7a-9bd5-aef4ed661acd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

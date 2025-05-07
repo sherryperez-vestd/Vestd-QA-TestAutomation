@@ -13,15 +13,23 @@
          <key>XPATH</key>
          <value>//ul[@id='staff-menu']/li[2]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://demo.app.vestd.com/company' and (text() = '
+            Companies
+        ' or . = '
+            Companies
+        ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Companies&quot;i]</value>
+         <value>//ul[@id='staff-menu']/li[2]/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8ec40d73-1275-4352-a160-75c18b4a6809</webElementGuid>
+      <webElementGuid>3c208614-ef97-4748-a5d6-580b0784ac89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-admin</value>
-      <webElementGuid>ebba6931-a363-4e70-a6c1-ddd8175f1eb2</webElementGuid>
+      <webElementGuid>e4ad6e44-c71c-49e1-84a0-8e644ecbe15e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +53,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company</value>
-      <webElementGuid>ec2dcd44-0d06-4029-bca8-868ab5b84865</webElementGuid>
+      <webElementGuid>8ed03b5a-aede-42b5-aa35-3a56abebfa87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +63,7 @@
       <value>
             Companies
         </value>
-      <webElementGuid>cfbe7b0f-9e83-44c4-99eb-3580e43510f3</webElementGuid>
+      <webElementGuid>dfcbf1c7-2592-4ec7-a780-16b177f268ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;staff-menu&quot;)/li[2]/a[@class=&quot;text-admin&quot;]</value>
-      <webElementGuid>625034ae-c637-4286-94b8-32d3c8fdfe88</webElementGuid>
+      <webElementGuid>a702299c-6388-4177-991c-6830ef69c3ef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='staff-menu']/li[2]/a</value>
-      <webElementGuid>380ff556-15f6-4791-9c59-abbe7781aecd</webElementGuid>
+      <webElementGuid>842ed84a-7690-403c-852b-f89dad6c8e41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Companies')])[2]</value>
-      <webElementGuid>c4f9f28d-e2b3-459a-acd4-3257dee64c7b</webElementGuid>
+      <webElementGuid>870d2e9b-b1ff-4b43-a9f7-5faa578d7008</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[3]/following::a[1]</value>
-      <webElementGuid>28a4ce69-57d4-4cf4-aca7-75a923c314f5</webElementGuid>
+      <webElementGuid>7120011f-0e76-48dc-bf91-8fb8674a35f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::a[2]</value>
-      <webElementGuid>0112a8f3-ab2c-44c4-b54e-3f468193e58a</webElementGuid>
+      <webElementGuid>108f4fe9-5d4d-4b58-9b4c-07c1227e11f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Incorporations'])[2]/preceding::a[1]</value>
-      <webElementGuid>0747a160-1277-473d-886a-18309e48b6ee</webElementGuid>
+      <webElementGuid>91ecc2ba-193f-4225-a776-618ab7b6481f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Legal docs'])[2]/preceding::a[2]</value>
-      <webElementGuid>29e41a13-be83-4c61-b080-b10c262ef442</webElementGuid>
+      <webElementGuid>558522c3-4e11-4ac3-91a1-51ea9f4decfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +127,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'https://demo.app.vestd.com/company')])[8]</value>
-      <webElementGuid>6e201804-2e8e-403c-9da9-3cb4beb10e62</webElementGuid>
+      <webElementGuid>43f7a8b8-915b-4eec-856e-456471666ca1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +135,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul[2]/li[2]/a</value>
-      <webElementGuid>12859267-4644-493d-9937-f8dc587c6d81</webElementGuid>
+      <webElementGuid>e2e518cf-ec9f-4849-9ef1-ab7561c42900</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,6 +147,6 @@
         ' or . = '
             Companies
         ')]</value>
-      <webElementGuid>e3a8c8e0-bdb2-41b6-b0da-5cc36b311844</webElementGuid>
+      <webElementGuid>21ec3130-7ddc-470f-a88e-638088710ca3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

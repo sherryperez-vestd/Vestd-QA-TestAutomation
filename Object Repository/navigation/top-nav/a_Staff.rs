@@ -13,15 +13,23 @@
          <key>XPATH</key>
          <value>//div[@id='top-nav-user']/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#staff-menu' and (text() = '
+                    Staff
+                ' or . = '
+                    Staff
+                ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Toggle staff menu&quot;i</value>
+         <value>//div[@id='top-nav-user']/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b37a276c-d603-4f10-b147-28b365ee29a1</webElementGuid>
+      <webElementGuid>fd90ebf4-0382-4c9e-8110-a8bd0cbc5936</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#staff-menu</value>
-      <webElementGuid>15fd3523-4401-4a2c-b400-cd2027849b6f</webElementGuid>
+      <webElementGuid>f8169592-a861-4d36-9271-7c747d95e945</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>has-chevron text-admin d-none d-sm-flex</value>
-      <webElementGuid>c8c8f7b5-6107-41d2-b83a-7b5d6e5fccc2</webElementGuid>
+      <webElementGuid>a7c2f911-277a-432b-af78-174b0b619c95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +61,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b6a1b7dc-b05b-454e-9940-590550ce8884</webElementGuid>
+      <webElementGuid>ca6e3b9b-6413-46a3-8f72-98720e5acd45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +69,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>ac03a4f5-8b22-4542-bff9-079ac55d59af</webElementGuid>
+      <webElementGuid>678693fd-31a7-408f-8e51-07ab3a69904f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +77,7 @@
       <name>data-target</name>
       <type>Main</type>
       <value>#staff-menu</value>
-      <webElementGuid>e9c02764-46b7-4910-8022-c2d442cd9f27</webElementGuid>
+      <webElementGuid>6508b6a2-bae8-4972-988b-8d7fd4fb849a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +85,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>143e44a5-0f03-4c0c-9f98-43602b5ef6e6</webElementGuid>
+      <webElementGuid>10d677b6-7812-485f-bb26-b0abf5958b6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +93,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>staff-menu</value>
-      <webElementGuid>4a2ccbec-1daa-4011-b5df-9e2c430795a0</webElementGuid>
+      <webElementGuid>1bee5912-95db-48e7-9f78-98fe0948c8ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +101,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Toggle staff menu</value>
-      <webElementGuid>d39b8e20-af12-4713-882a-e22b9f02d63d</webElementGuid>
+      <webElementGuid>bd134260-b22c-4677-b9af-e0ef880c1e84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -103,7 +111,7 @@
       <value>
                     Staff
                 </value>
-      <webElementGuid>a9b5b860-7a27-4f84-a766-98fbdee88cd7</webElementGuid>
+      <webElementGuid>899125df-8c1e-4cfd-9216-c9327856428b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -111,7 +119,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;top-nav-user&quot;)/a[@class=&quot;has-chevron text-admin d-none d-sm-flex&quot;]</value>
-      <webElementGuid>ff3b45c2-4556-4575-9030-6e366573b449</webElementGuid>
+      <webElementGuid>67a114b8-d5ca-49e0-8e7b-fad89eafe0cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -119,7 +127,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='top-nav-user']/a</value>
-      <webElementGuid>d093468a-c74e-42d4-a933-c47436ea0d5b</webElementGuid>
+      <webElementGuid>845b0d73-1b26-414f-bd19-ce7ef40d5490</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +135,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Staff')]</value>
-      <webElementGuid>daed5365-dd36-4f71-a247-2b7efb4333eb</webElementGuid>
+      <webElementGuid>26b6e248-46eb-4b6d-ae3b-54b36fa62dd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +143,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[1]</value>
-      <webElementGuid>1cc35d98-5f13-4d75-b89d-ace4de15d78d</webElementGuid>
+      <webElementGuid>c6b75fe0-03c4-44b2-83eb-bd5a58230923</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +151,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View all'])[1]/preceding::a[4]</value>
-      <webElementGuid>5a5468ba-0aab-4d7e-928a-84afe9996451</webElementGuid>
+      <webElementGuid>03fc588f-0957-4fb4-8702-f0c082cf5810</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,7 +159,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reid Ltd'])[1]/preceding::a[5]</value>
-      <webElementGuid>d3b55507-92cf-44db-819c-371a8391bef7</webElementGuid>
+      <webElementGuid>42d49d01-a91f-48ca-b08e-055eb04f8d50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -159,7 +167,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Staff']/parent::*</value>
-      <webElementGuid>6e3e1b07-b26a-4429-a794-fd2c5c7a7997</webElementGuid>
+      <webElementGuid>f9224f0f-65c2-4f16-af04-f4432ce239d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -167,7 +175,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#staff-menu')]</value>
-      <webElementGuid>2cf257eb-751a-4a92-93fa-90ae8820a99f</webElementGuid>
+      <webElementGuid>25b60274-f3d8-4067-8a5c-3c0036c19e51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -175,7 +183,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a</value>
-      <webElementGuid>8a887b50-5aee-4674-bd1d-08b27967b9d1</webElementGuid>
+      <webElementGuid>de85145b-cb9f-415e-b9d6-f0c4c64b9ba4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -187,6 +195,6 @@
                 ' or . = '
                     Staff
                 ')]</value>
-      <webElementGuid>00002b7b-a6e8-44e7-8ab7-7f76ca8f308c</webElementGuid>
+      <webElementGuid>f3eca663-f582-4cca-a99d-d462b03c421e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

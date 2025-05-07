@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = '#sidebarCompanyAdmin' and (text() = ' Company - staff
+         <value>//a[@href = '#sidebarCompanyAdmin' and (text() = ' Company - staff
                         ' or . = ' Company - staff
                         ')]</value>
       </entry>
@@ -24,18 +24,18 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot; Company - staff &quot;i]</value>
+         <value>//div[@id='sidebarCollapse']/ul/li[8]/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>bbb18349-c35b-4b3e-984e-c7cd6b9271e9</webElementGuid>
+      <webElementGuid>11ba02db-764d-4750-857b-46991a611a94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>toggle-btn text-admin nav-link collapsed</value>
-      <webElementGuid>b14ec131-a488-486e-a7de-983e32c43b7c</webElementGuid>
+      <webElementGuid>75c6838e-cc50-4e27-a06a-5540a18a0558</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#sidebarCompanyAdmin</value>
-      <webElementGuid>a75ec285-ff93-4a49-a483-26eb80080033</webElementGuid>
+      <webElementGuid>a37a3fa9-d1d7-4863-8f63-9d8fb51442e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>7d0309bd-5b9a-4475-8934-72b1fed77927</webElementGuid>
+      <webElementGuid>9d25acb2-8743-4797-b15e-782d732928cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>41b1f762-8e3c-42ec-bd67-4e9bbc0935f0</webElementGuid>
+      <webElementGuid>26f16767-da9b-4ded-9166-9738d9cd3671</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>sidebarCompanyAdmin</value>
-      <webElementGuid>e868ea80-097f-4f2e-99cf-0871d0ecd38c</webElementGuid>
+      <webElementGuid>07e5887c-ba4f-4099-b5cd-25e2f2c31aae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,7 +83,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8e867f17-f8db-4057-be27-9c019d6d3a2d</webElementGuid>
+      <webElementGuid>5590076d-2c14-45d8-af41-7959a783bffe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,7 +92,7 @@
       <type>Main</type>
       <value> Company - staff
                         </value>
-      <webElementGuid>2de98b5b-9e47-4248-9e55-d4102695776d</webElementGuid>
+      <webElementGuid>587bc2b0-833e-4472-982d-62772a4eca66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mt-3&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;toggle-btn text-admin nav-link collapsed&quot;]</value>
-      <webElementGuid>0358dae9-43d2-42df-be0c-9bbd076b19ed</webElementGuid>
+      <webElementGuid>a4bf0dd9-dce8-4557-937d-117c42ed0d43</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -108,7 +108,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/ul/li[8]/a</value>
-      <webElementGuid>2e46f0bd-2640-4db1-9723-5956d0826091</webElementGuid>
+      <webElementGuid>80c5d40d-dcf0-4743-ab44-d432809af86b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='More'])[2]/following::a[2]</value>
-      <webElementGuid>8b309000-87ae-46fd-b060-3184e30a3b09</webElementGuid>
+      <webElementGuid>998ee202-04bb-4852-91d1-c5736e44fc20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Company - staff']/parent::*</value>
-      <webElementGuid>ff932318-c4d3-4705-a9f6-81ff9206d9ff</webElementGuid>
+      <webElementGuid>5f10b5f3-bb37-4f79-a477-938aa5779143</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#sidebarCompanyAdmin')]</value>
-      <webElementGuid>75ad91d1-b39e-4f10-8835-695e09d98922</webElementGuid>
+      <webElementGuid>872b447c-8155-4a1b-b42a-9b5217998b04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[8]/a</value>
-      <webElementGuid>191ec596-87b8-4c44-a771-1b3e1f0afc30</webElementGuid>
+      <webElementGuid>9f3370a3-3b7b-4f28-8083-9638ecbba232</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <value>//a[@href = '#sidebarCompanyAdmin' and (text() = ' Company - staff
                         ' or . = ' Company - staff
                         ')]</value>
-      <webElementGuid>4630ecf4-4116-4512-a047-94cc60d4b68e</webElementGuid>
+      <webElementGuid>aa375524-86d8-4f1f-bc87-c7da2cb56fc0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

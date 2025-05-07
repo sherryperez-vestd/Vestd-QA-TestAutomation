@@ -10,22 +10,22 @@
          <value>#exercise_price</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@name = 'exercise_price' and @type = 'number' and @id = 'exercise_price']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='exercise_price']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'exercise_price' and @type = 'number' and @id = 'exercise_price']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Exercise price&quot;i</value>
+         <value>//input[@id='exercise_price']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>378eb6bb-78ae-4784-a62f-7058b043ba32</webElementGuid>
+      <webElementGuid>d866d10e-1332-40ab-90f1-d58fb2549267</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>bc6fd108-5970-477b-9186-79642a269a0a</webElementGuid>
+      <webElementGuid>3d36e3ce-cfef-473a-a6eb-d95df9a6dd9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>step</name>
       <type>Main</type>
       <value>0.0000000000001</value>
-      <webElementGuid>4f1c1f5a-f93a-498d-8148-d27bfc136c99</webElementGuid>
+      <webElementGuid>fd03660b-ea0b-47d8-b98b-55fbefb2d914</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>min</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>8e19987d-5281-4f89-a00e-e7de48996ca2</webElementGuid>
+      <webElementGuid>61bfe23c-bb95-4ea7-8b74-dd86efb20fb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>name</name>
       <type>Main</type>
       <value>exercise_price</value>
-      <webElementGuid>2ccc901f-c3fa-45fa-94b3-88f01baac147</webElementGuid>
+      <webElementGuid>47bb9269-52e3-4646-8897-0e0c53076bf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>fe1f2418-ee67-4774-8d00-d9b37de6893c</webElementGuid>
+      <webElementGuid>5a258192-778d-4b24-8580-4989afa9e7da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
       <name>id</name>
       <type>Main</type>
       <value>exercise_price</value>
-      <webElementGuid>10fd8bfd-1357-440b-a3e2-173ca8468c14</webElementGuid>
+      <webElementGuid>67483554-4993-401a-bcaa-24dcb5fa25d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;exercise_price&quot;)</value>
-      <webElementGuid>2edff3bc-2d9b-47af-9b38-83a2c5415898</webElementGuid>
+      <webElementGuid>e42d03b0-5f9e-4547-be71-00b605965da5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='exercise_price']</value>
-      <webElementGuid>12978324-cd5d-42a3-8d6f-8f4f23cceba3</webElementGuid>
+      <webElementGuid>4886c21c-cdad-4a35-baff-91ea3411bd55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/form/fieldset/div/div[2]/input</value>
-      <webElementGuid>019f33ef-7ed7-4f02-a023-f78777fcf6f6</webElementGuid>
+      <webElementGuid>22cdecbd-32f8-4fb2-93d2-3514a2e6dc2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>2ddad573-7ceb-4423-81f6-db3de9781a59</webElementGuid>
+      <webElementGuid>ef97011c-b734-424a-ba65-a7c683239b63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'exercise_price' and @type = 'number' and @id = 'exercise_price']</value>
-      <webElementGuid>5f33f701-d465-48aa-a3d0-13b13d6d2cce</webElementGuid>
+      <webElementGuid>14bb15bc-0804-4810-ad5f-7934e3eb7171</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,22 +6,26 @@
    <elementGuidId>4f6e1746-7e17-4aab-b3ac-4fc03b7195e6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>p > a</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/p/a</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>p > a</value>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://demo.app.vestd.com/company/50934/reward-template?type=emi' and (text() = 'Back to list of templates' or . = 'Back to list of templates')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Back to list of templates&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/p/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f6accb70-c18e-4d52-a808-ecde0c3b9cea</webElementGuid>
+      <webElementGuid>8f7b0199-c314-4532-8e2c-af7abe92c983</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/reward-template?type=emi</value>
-      <webElementGuid>279e6c24-0a8f-4e5c-920f-d2d028a1c5d6</webElementGuid>
+      <webElementGuid>57a932c4-768e-4214-9071-92771202c479</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Back to list of templates</value>
-      <webElementGuid>04746422-d8db-416d-8598-c9731c2f33e9</webElementGuid>
+      <webElementGuid>34d0dbe7-2d48-4922-9a21-b7b5690e08cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/p[1]/a[1]</value>
-      <webElementGuid>91910980-ed64-4a4e-9fb1-cddbc00f8110</webElementGuid>
+      <webElementGuid>fa38f6a5-8f41-4a75-a341-42596d50f045</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/p/a</value>
-      <webElementGuid>1dc4fb33-0be4-49f6-916b-ec6c5ac2ba10</webElementGuid>
+      <webElementGuid>ec045492-a915-47c5-9b2c-aa694b8da495</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Back to list of templates')]</value>
-      <webElementGuid>181ee184-7d43-4e11-b8d1-19f3cb648364</webElementGuid>
+      <webElementGuid>0629f8fd-40e8-4be6-9fce-d78c1e11cd2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::a[1]</value>
-      <webElementGuid>6216fffb-a951-49ee-9ecb-8a8bb00e2d1c</webElementGuid>
+      <webElementGuid>483197d8-9e0f-4b6e-b95c-9a503690c667</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::a[2]</value>
-      <webElementGuid>fcbffb1b-d30d-4856-91d9-d9de052893f6</webElementGuid>
+      <webElementGuid>5b2245be-1557-4d74-9828-5150c73b229a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='April 2025 EMI Scheme'])[1]/preceding::a[1]</value>
-      <webElementGuid>c4d7e88c-b8dd-4368-92ed-69ec9e0003b8</webElementGuid>
+      <webElementGuid>99517475-6849-4826-bd59-5ece1ad941ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::a[1]</value>
-      <webElementGuid>e2dc15fd-019c-4dac-815d-a7d91fbb950f</webElementGuid>
+      <webElementGuid>a9935aed-13ab-4af3-a8d1-d2b918a97c00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Back to list of templates']/parent::*</value>
-      <webElementGuid>b3617475-0aed-4643-b371-fd5a7832ba6e</webElementGuid>
+      <webElementGuid>c6d80643-bf83-4a43-afa8-17edec981067</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/reward-template?type=emi')]</value>
-      <webElementGuid>15dc5218-e06a-4630-8bc5-479807a66808</webElementGuid>
+      <webElementGuid>bf180641-cfda-4f42-b6ca-0e95c1c63b33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p/a</value>
-      <webElementGuid>a032b9b0-3314-44da-a82a-fd9d942fd3a4</webElementGuid>
+      <webElementGuid>680230f6-1af1-49ad-8ff2-b916e9ce0822</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://demo.app.vestd.com/company/50934/reward-template?type=emi' and (text() = 'Back to list of templates' or . = 'Back to list of templates')]</value>
-      <webElementGuid>31dd129a-7d45-463e-b4d8-5c107ebca5fe</webElementGuid>
+      <webElementGuid>9244eea8-4c9d-4ae7-bd8e-f5457f3cf95d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

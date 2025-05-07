@@ -6,38 +6,42 @@
    <elementGuidId>8148e166-5747-4a06-8f77-8294565fb760</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#name</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='name']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#name</value>
+         <key>BASIC</key>
+         <value>//input[@class = 'form-control' and @name = 'name' and @type = 'text']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Reference&quot;i</value>
+         <value>//input[@id='name']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>59826779-530d-4bc6-8412-6fed041827e3</webElementGuid>
+      <webElementGuid>6674a9c6-3d53-4300-8100-329b081a0068</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>b6d7a809-6fef-4deb-a547-8d72f6411b7f</webElementGuid>
+      <webElementGuid>a33eaa35-4591-4745-8fbd-c72153b6cbb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>name</value>
-      <webElementGuid>5a2d4af9-c69e-4d0a-8fab-90498d48e930</webElementGuid>
+      <webElementGuid>d9a3a3c0-f6a0-4691-8541-decf8fb5a4e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,15 +57,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f3f92591-1f55-4252-8adb-ee7a67e65c38</webElementGuid>
+      <webElementGuid>50856eb3-8838-43cc-af70-96886cdec718</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>name</value>
-      <webElementGuid>e41766ad-b77f-4ef3-adcc-f8602c10f6e8</webElementGuid>
+      <webElementGuid>1b7fb8b8-ccc9-4594-9782-cbe5e3445588</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Option pool 3</value>
-      <webElementGuid>dba9efff-bd52-4d39-8c5e-ea4bc1a68c61</webElementGuid>
+      <webElementGuid>0175bd29-fd83-42c6-93e2-8158105ee7a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;name&quot;)</value>
-      <webElementGuid>4e194e77-8950-49e9-9e1b-6da1c9f4081c</webElementGuid>
+      <webElementGuid>5a4c58fb-c64a-42e2-93cd-270e54b414f6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='name']</value>
-      <webElementGuid>2aec7bd8-23ef-4d9b-a936-b887e51b658d</webElementGuid>
+      <webElementGuid>abff418a-fdbe-4a04-bc0b-77c27c473efc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='js-share-approval-form']/div/input</value>
-      <webElementGuid>ca5406d7-bbe9-4746-85c6-65f2d53428c7</webElementGuid>
+      <webElementGuid>a8b8d882-3ce8-4456-a570-0acbd59f0c79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>77805030-8782-4613-a89b-923c878e569c</webElementGuid>
+      <webElementGuid>dafe43ef-31e7-4462-a962-3480e137ab00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'name' and @type = 'text' and @id = 'name']</value>
-      <webElementGuid>33befcfc-c2c0-4b5d-8d14-2abd94381b86</webElementGuid>
+      <webElementGuid>0f41d3d6-3135-4907-ac00-1ac687110c7c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

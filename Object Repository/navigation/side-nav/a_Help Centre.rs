@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = ' Help Centre
+         <value>//a[@class = 'nav-link' and (text() = ' Help Centre
                 ' or . = ' Help Centre
                 ')]</value>
       </entry>
@@ -24,18 +24,18 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot; Help Centre&quot;i]</value>
+         <value>//div[@id='sidebarCollapse']/ul[2]/li/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b81d6291-4b72-41cb-88c8-3be5f5244308</webElementGuid>
+      <webElementGuid>12d7c935-92c5-42a9-b4d9-c36b2bef75f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,7 +43,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_blank</value>
-      <webElementGuid>43fdefae-3794-497a-9462-df181b778364</webElementGuid>
+      <webElementGuid>65c0aff6-5200-47c5-9957-03a63eca8a30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -51,15 +51,15 @@
       <name>href</name>
       <type>Main</type>
       <value>https://www.vestd.com/help?_gl=1*1lztjkp*_ga*MTM2MjAwOTM2MC4xNzQ0NjYzMjYy*_ga_52CVMT2H7J*MTc0NDY2MzI2Mi4xLjEuMTc0NDY2MzQzMS4yMy4wLjA.</value>
-      <webElementGuid>14aa33ac-b800-43ac-bdee-7045b4dec58b</webElementGuid>
+      <webElementGuid>f15c8b1a-52bd-439e-8b31-62939c6efff1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>d83ed67b-5468-4eab-8135-d9a6724bd426</webElementGuid>
+      <webElementGuid>d459cabb-053b-4718-b6ad-254563353941</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,7 +68,7 @@
       <type>Main</type>
       <value> Help Centre
                 </value>
-      <webElementGuid>d9489d0e-5f34-4bea-8a87-6f2a226b0db5</webElementGuid>
+      <webElementGuid>d96e54a2-c2a8-4156-a359-5f7d492cf0a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mb-md-4&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>6a156f80-bc00-481b-989c-f7a91407badb</webElementGuid>
+      <webElementGuid>aeb9a068-6663-40e3-9948-1d3375a65bd7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/ul[2]/li/a</value>
-      <webElementGuid>d02fcdb7-6f13-45c6-9d60-9aba2a60a27b</webElementGuid>
+      <webElementGuid>f3cea6da-842f-4de4-bb44-9f3407861fb6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Help Centre')]</value>
-      <webElementGuid>9e7eff53-d889-47a1-a514-57df2eadf573</webElementGuid>
+      <webElementGuid>6c57b23c-c476-4b03-86d9-6baa7a18a52d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company settings'])[1]/preceding::a[1]</value>
-      <webElementGuid>bd081a72-3930-4ae9-91fb-bb6a619116a0</webElementGuid>
+      <webElementGuid>5dda9586-dd6b-420f-a6aa-f9b23c0414e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='App - staff'])[1]/preceding::a[2]</value>
-      <webElementGuid>cc4f381e-e5e7-43dc-9f32-9fd914797ecd</webElementGuid>
+      <webElementGuid>ca7c522a-f0e3-4764-95cd-6c12d1256a43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Help Centre']/parent::*</value>
-      <webElementGuid>ac8308fe-0f63-421b-b060-4649ab935fc7</webElementGuid>
+      <webElementGuid>f7166a7a-1621-44fe-9004-211788a4d2e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://www.vestd.com/help?_gl=1*1lztjkp*_ga*MTM2MjAwOTM2MC4xNzQ0NjYzMjYy*_ga_52CVMT2H7J*MTc0NDY2MzI2Mi4xLjEuMTc0NDY2MzQzMS4yMy4wLjA.')]</value>
-      <webElementGuid>5d86ce75-843d-445c-97fc-45d63fbea7b5</webElementGuid>
+      <webElementGuid>9e9b5218-e0df-4ef7-accc-a9deb9ad5332</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul[2]/li/a</value>
-      <webElementGuid>6f7c73bc-4fad-4aad-8e04-b6cf7ce28705</webElementGuid>
+      <webElementGuid>cba0d8bb-2bbc-493e-819c-b426e91a89e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +142,6 @@
       <value>//a[@href = 'https://www.vestd.com/help?_gl=1*1lztjkp*_ga*MTM2MjAwOTM2MC4xNzQ0NjYzMjYy*_ga_52CVMT2H7J*MTc0NDY2MzI2Mi4xLjEuMTc0NDY2MzQzMS4yMy4wLjA.' and (text() = ' Help Centre
                 ' or . = ' Help Centre
                 ')]</value>
-      <webElementGuid>64e16300-2b00-4f65-ade6-3d93f30a3b03</webElementGuid>
+      <webElementGuid>1e8372aa-bb30-4d32-a993-55181dc4b522</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

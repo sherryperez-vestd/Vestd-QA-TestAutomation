@@ -26,10 +26,10 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Existing scheme uploads&quot;s]</value>
+         <value>//div[@id='sidebarSchemes']/ul/li[2]/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>8ad7abe7-ce93-43f8-b056-199242fb223d</webElementGuid>
+      <webElementGuid>802c0d63-8b0e-41d5-bb4c-03ddc5ec743b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/existing-scheme-upload</value>
-      <webElementGuid>83a1e7e3-0384-4779-9d04-59b881426754</webElementGuid>
+      <webElementGuid>23cb329c-bee5-4e64-9621-f83f8c1733a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>b91cd41a-30a6-41c5-a498-b2a7460be4a7</webElementGuid>
+      <webElementGuid>f11a4c7d-9877-4740-8765-56d3914c4d57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                                             Existing scheme uploads
                                         </value>
-      <webElementGuid>40c248ff-39db-40f9-acaa-c03221a1d5ae</webElementGuid>
+      <webElementGuid>79fca2d3-1e2a-4b90-b96d-74c98af250c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>c781bda7-4bcc-477b-b861-10f5cefd8b01</webElementGuid>
+      <webElementGuid>001779ed-d7c9-4e26-8110-182acd6dcb7b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[2]/a</value>
-      <webElementGuid>e1b038d6-e208-493c-a325-64ecba7bbaf8</webElementGuid>
+      <webElementGuid>9491f278-0d7a-4dfe-86ee-af43e09167f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Existing scheme uploads')]</value>
-      <webElementGuid>8db56523-6399-4a25-99a7-de294b0a2b16</webElementGuid>
+      <webElementGuid>f376bd8a-9725-4f8c-bd51-5bb04641511a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Schemes'])[1]/following::a[1]</value>
-      <webElementGuid>c1be34c2-d4e0-4f55-8d19-a654fca222b2</webElementGuid>
+      <webElementGuid>501650c2-927e-4df1-8002-ce2d11cb298e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share schemes'])[1]/following::a[1]</value>
-      <webElementGuid>309c6aec-a64c-4b11-b78e-83f5aab526e2</webElementGuid>
+      <webElementGuid>9513b8c4-8bc4-4f87-8c55-34a7b45a82a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EMI'])[1]/preceding::a[1]</value>
-      <webElementGuid>62324f34-53e0-4604-9d6d-27e630047f38</webElementGuid>
+      <webElementGuid>6375dff8-ae45-4ee4-ac88-289fdd7b1f0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unapproved options'])[1]/preceding::a[2]</value>
-      <webElementGuid>e8ee4a85-bdf8-4bb3-a2c5-1167d703fe07</webElementGuid>
+      <webElementGuid>efa36cae-a4f0-46b5-ba28-d5195a7d8876</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Existing scheme uploads']/parent::*</value>
-      <webElementGuid>07f151b9-07b0-4503-a6e8-a02f925b1b87</webElementGuid>
+      <webElementGuid>48c48ea7-2214-4c6f-8f7e-93b24811240a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/existing-scheme-upload')]</value>
-      <webElementGuid>25ad6ee8-279e-4e3a-8e90-dae9925606ed</webElementGuid>
+      <webElementGuid>6ab356b7-9051-433f-a7d3-1437680a18d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[2]/a</value>
-      <webElementGuid>377b596a-69a7-46bf-b34b-62d6f00c842c</webElementGuid>
+      <webElementGuid>c4ddc06c-23bf-4490-b65f-625e0c3dd5ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,6 +155,6 @@
                                         ' or . = '
                                             Existing scheme uploads
                                         ')]</value>
-      <webElementGuid>8ebef79a-1400-4c07-87b5-cdbe9af0900f</webElementGuid>
+      <webElementGuid>e247d2f4-b5ae-4710-b239-ca1247c2ed4e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

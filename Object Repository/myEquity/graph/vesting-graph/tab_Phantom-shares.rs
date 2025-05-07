@@ -6,22 +6,26 @@
    <elementGuidId>d734aad2-20d3-4902-bcb4-fb0fe46a5059</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>a.active.nav-link > span</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/ul/li/a/span</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>a.active.nav-link > span</value>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Phantom shares' or . = ' Phantom shares')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;x Phantom shares&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/ul/li/a/span</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>6fb1d277-b4e8-4915-be74-db50d17b8d93</webElementGuid>
+      <webElementGuid>177ff228-6042-422e-a3fd-3b4ce2d1fef7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Phantom shares</value>
-      <webElementGuid>d049f560-4162-4335-bb5c-e4298c717ca5</webElementGuid>
+      <webElementGuid>8de5dddd-5884-4be0-beb5-e722e0bfb628</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/ul[@class=&quot;nav nav-sub-tabs&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;active nav-link&quot;]/span[1]</value>
-      <webElementGuid>cfc1fbb9-af09-4102-b4c6-30a55ed20ba9</webElementGuid>
+      <webElementGuid>7ed743fc-a6dd-4f90-b268-eda02ea5ec10</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/ul/li/a/span</value>
-      <webElementGuid>858b19e5-9c03-4b9e-a43f-b1c76a455add</webElementGuid>
+      <webElementGuid>ac085d26-48f1-43c3-9aac-536a7dfc42e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='A simple way to track, manage, and understand your equity journey'])[1]/following::span[1]</value>
-      <webElementGuid>3cc4d079-1808-4385-86cb-f675c1631b6b</webElementGuid>
+      <webElementGuid>178e5a82-fb4e-41f2-9efa-5f05af72185a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Equity Overview'])[1]/following::span[1]</value>
-      <webElementGuid>617bea3f-ce26-4155-8158-64dae8698682</webElementGuid>
+      <webElementGuid>107f6337-4f87-49df-8963-14eff06f13f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Overall value'])[1]/preceding::span[1]</value>
-      <webElementGuid>92ec0b57-9030-4554-be93-d17f2d3baf37</webElementGuid>
+      <webElementGuid>d3bade17-96c3-4a5f-8e41-222a4315ef36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your vesting schedule'])[1]/preceding::span[2]</value>
-      <webElementGuid>301318a1-6aaa-4137-9f18-e764cbfba8cd</webElementGuid>
+      <webElementGuid>047e49d0-06cb-4d06-b1a3-e618b5caeeaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a/span</value>
-      <webElementGuid>3b034535-ec9a-4c5f-9247-dc4de8c3fa19</webElementGuid>
+      <webElementGuid>45741a15-2602-4e75-9ae6-45e3949f824e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Phantom shares' or . = ' Phantom shares')]</value>
-      <webElementGuid>c1b73ec4-ee87-4e46-854b-3fb3d95b0289</webElementGuid>
+      <webElementGuid>133a44f8-1868-40df-9e34-be1bb178299b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

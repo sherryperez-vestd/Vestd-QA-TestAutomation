@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Your tax benefits_</name>
+   <tag></tag>
+   <elementGuidId>bc78b568-5ae3-4744-905d-fa350ff8b254</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body > div.card.v-card.bg-white.mb-3 > div.card-header.d-flex.flex-wrap.flex-column.bg-white.hide-header-separator.cursor-pointer > div.d-flex.align-items-center.text-break.header-main-content.w-100 > div.d-flex.ml-auto.flex-column.align-self-stretch.flex-lg-row.flex-lg-wrap-reverse.align-self-lg-start.align-items-end.align-items-lg-center.text-right.flex-grow-1.justify-content-end.secondary-content > i.vi.vi-sm.mt-auto.ml-lg-2.mt-lg-0.vi-chevron-down</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/div/div/div[2]/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/div/div/div[2]/i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>612e7fa2-fb4b-44ff-8364-bb00fd96be02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down</value>
+      <webElementGuid>6c238b71-d64f-479f-8c6f-286a0f6195a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;card-header d-flex flex-wrap flex-column bg-white hide-header-separator cursor-pointer&quot;]/div[@class=&quot;d-flex align-items-center text-break header-main-content w-100&quot;]/div[@class=&quot;d-flex ml-auto flex-column align-self-stretch flex-lg-row flex-lg-wrap-reverse align-self-lg-start align-items-end align-items-lg-center text-right flex-grow-1 justify-content-end secondary-content&quot;]/i[@class=&quot;vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down&quot;]</value>
+      <webElementGuid>80ed3a50-e91a-4f7d-a255-bca45cd09c13</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/div/div/div[2]/i</value>
+      <webElementGuid>1407f4da-3554-4d28-b0e3-531277ae2201</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[2]/i</value>
+      <webElementGuid>a9f901e1-ab32-473b-8755-e1423de7b1a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -26,10 +26,10 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Annual notifications&quot;i]</value>
+         <value>//div[@id='sidebarSchemes']/ul/li[14]/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>56771f57-9d93-4474-bab3-897ed7218069</webElementGuid>
+      <webElementGuid>ec4f6a92-1e20-4a7b-98ba-c7f0111908ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/annual-hmrc-notification</value>
-      <webElementGuid>0b9f34d1-3f29-49d3-9d0a-0cf5b421876d</webElementGuid>
+      <webElementGuid>283566e4-7076-491b-a383-d1510362bde9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>c1cd559b-4afd-46e2-ac88-ed971efdcd4b</webElementGuid>
+      <webElementGuid>e9918f3a-0e99-4f11-b370-830ee482cb15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                                                 Annual notifications
                                             </value>
-      <webElementGuid>1b22bf7a-7f8f-4f19-a309-24f66866531f</webElementGuid>
+      <webElementGuid>d22071b4-2442-4fa1-9b40-7291314e56de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>266643b9-31f2-435b-a585-1ffdc3c82f5c</webElementGuid>
+      <webElementGuid>f4276ede-6a8c-406c-bfe4-0bcf4a87df53</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[14]/a</value>
-      <webElementGuid>37d6e077-479f-484d-992c-73560e9eddd7</webElementGuid>
+      <webElementGuid>166d89f4-3295-424c-b1f3-0964368052a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Annual notifications')]</value>
-      <webElementGuid>cc8ff679-f3c7-4a7f-b789-0f5c58a3e74d</webElementGuid>
+      <webElementGuid>b880eef0-2f03-4e8a-ab6c-a3098457d02f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share pools'])[1]/following::a[1]</value>
-      <webElementGuid>d7acb71b-3e38-4074-9aad-bcc36f8e8e39</webElementGuid>
+      <webElementGuid>1bbf339b-8fdc-40c1-81d7-eb5aa40345c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Valuations'])[1]/following::a[2]</value>
-      <webElementGuid>e4afda83-d97a-43a6-9bbe-8437df86eedd</webElementGuid>
+      <webElementGuid>81bc9a49-d12b-47cc-b43c-9ab46bdc2fd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Initial notifications'])[1]/preceding::a[1]</value>
-      <webElementGuid>83494eb8-bdad-4057-93da-5c4f53a924e6</webElementGuid>
+      <webElementGuid>5e2279df-b142-46ff-bfaf-97b29f43e437</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Annual notifications']/parent::*</value>
-      <webElementGuid>af8efc35-5a94-4ad7-8dc8-ace11dea3dad</webElementGuid>
+      <webElementGuid>b37ca35b-4c29-4987-9a2a-b889a08393ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/annual-hmrc-notification')]</value>
-      <webElementGuid>d49d363e-aec0-454a-aa73-d19d199c2bcb</webElementGuid>
+      <webElementGuid>ceaedfdb-b6aa-45d8-acd6-fe8b11d5a0f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[14]/a</value>
-      <webElementGuid>601a2cfb-7836-4d6c-8cb7-8735ea834ece</webElementGuid>
+      <webElementGuid>18bba631-5204-4c25-bb22-122845ab1600</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,6 +147,6 @@
                                             ' or . = '
                                                 Annual notifications
                                             ')]</value>
-      <webElementGuid>a8e47809-614a-4dd5-910b-3b62e678bd68</webElementGuid>
+      <webElementGuid>7ede6145-a3b8-4709-92f5-ffa38768c968</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

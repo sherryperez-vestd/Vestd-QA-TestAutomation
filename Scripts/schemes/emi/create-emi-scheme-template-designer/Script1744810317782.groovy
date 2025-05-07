@@ -58,5 +58,7 @@ WebUI.click(findTestObject('schemes/emi/scheme-template/Page_Option-templates-in
 
 WebUI.acceptAlert()
 
+WebUI.refresh()
+
 WebUI.closeBrowser()
 

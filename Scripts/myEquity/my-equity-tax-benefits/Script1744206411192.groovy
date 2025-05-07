@@ -20,9 +20,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=368709')
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370192')
 
-WebUI.click(findTestObject('Object Repository/myEquity/tax-benefits/i_Your tax benefits_vi vi-sm mt-auto ml-lg-_cf48b4'))
+WebUI.click(findTestObject('Object Repository/myEquity/tax-benefits/i_Your tax benefits_'))
 
 WebUI.setText(findTestObject('myEquity/tax-benefits/input__NU9uoaRq4tbBNoSa'), '1')
 

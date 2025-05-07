@@ -13,23 +13,27 @@
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and @class = 'btn btn-primary mb-0 g-recaptcha' and (text() = 'Join' or . = 'Join')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Join&quot;i]</value>
+         <value>//button[@type='submit']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a19498fa-cfd2-4fbf-953c-291c889a6c14</webElementGuid>
+      <webElementGuid>133a4f86-2352-4077-aaaa-b271fd499b04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +41,15 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>75a4b41b-7dbd-461f-a417-39c50af6916c</webElementGuid>
+      <webElementGuid>1e8b4fbb-5b02-4b01-938a-fed892370de8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary mb-0 g-recaptcha</value>
-      <webElementGuid>82291268-5f92-401a-9462-a91a171e150f</webElementGuid>
+      <webElementGuid>8dcdf9b6-3530-461e-a8be-0213d94eb871</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>data-sitekey</name>
       <type>Main</type>
       <value>6LekHKwaAAAAAL29LzNZCYYNG-qFWvEfIl7HGSbi</value>
-      <webElementGuid>0e6b155f-6e4d-40d4-a54b-33e1061abaa7</webElementGuid>
+      <webElementGuid>6243ab63-7be7-4789-b1f0-dba78f36284e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>data-callback</name>
       <type>Main</type>
       <value>onSubmit</value>
-      <webElementGuid>4fc46e5e-6ac6-4857-99d7-ac59457ed3fb</webElementGuid>
+      <webElementGuid>17397f8c-da27-4269-ae0d-5c07f68381f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-action</name>
       <type>Main</type>
       <value>registration</value>
-      <webElementGuid>4034ffc9-c1f8-450a-9cc1-7a081bfe42a0</webElementGuid>
+      <webElementGuid>c58a6eb4-4ace-47ef-83d5-c2e8b4e980e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Join</value>
-      <webElementGuid>899604ea-1000-4fc4-9341-4fb21cfbd507</webElementGuid>
+      <webElementGuid>428c5870-d765-4e42-a601-fcf5b9b74e54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;register-form&quot;)/div[@class=&quot;form-group mt-4&quot;]/button[@class=&quot;btn btn-primary mb-0 g-recaptcha&quot;]</value>
-      <webElementGuid>1ab526dc-edb2-4d44-850c-65d6ae7d6ba4</webElementGuid>
+      <webElementGuid>1986c275-7322-4e9e-a1b1-1fbba03703e9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>48e48d37-d87a-4513-b82f-ac15d4855b9d</webElementGuid>
+      <webElementGuid>37d1271b-3399-431b-a2e0-4e685c98535c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='register-form']/div[8]/button</value>
-      <webElementGuid>d376219e-d0d6-4c9a-9c70-a9d42aefb582</webElementGuid>
+      <webElementGuid>f54a70ff-eb2b-4943-b96b-866bfe7fa7f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes, occasionally email me info about my equity and product updates.'])[1]/following::button[1]</value>
-      <webElementGuid>0d231b29-1fe4-492d-800a-e66c0137ca38</webElementGuid>
+      <webElementGuid>70344433-111c-47e4-bc19-599d97f51582</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Participant Terms'])[1]/following::button[1]</value>
-      <webElementGuid>8eedddcf-3170-48d9-8dc6-18dc0b8f17cc</webElementGuid>
+      <webElementGuid>39508e07-d756-4250-9e4f-21958b2d4ec8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[2]/preceding::button[1]</value>
-      <webElementGuid>acb93d39-59bd-485f-a895-9abd9d62ed48</webElementGuid>
+      <webElementGuid>2b2b09eb-6fbc-42f7-83c5-a46986fd2d32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of Service'])[1]/preceding::button[1]</value>
-      <webElementGuid>05bf01e4-fc31-40b7-8b96-16256bb2c9fd</webElementGuid>
+      <webElementGuid>89cbb012-d53e-4c47-a8d1-54739e388884</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>cedbac89-38f3-4cc4-b088-96cc3131fba4</webElementGuid>
+      <webElementGuid>280f3983-837f-4a16-83ee-7b9ee295d6e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +153,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Join' or . = 'Join')]</value>
-      <webElementGuid>03eb1553-bdb8-4907-b8ea-b887c55370aa</webElementGuid>
+      <webElementGuid>8b6354a3-9214-4caf-8d6a-27bbd48dabed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

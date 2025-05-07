@@ -13,15 +13,19 @@
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/ul/li/a/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Share vesting' or . = ' Share vesting')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;x Share vesting&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/ul/li/a/span</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>05933e8b-8c29-4bf7-a2ce-35e5dd1e9aac</webElementGuid>
+      <webElementGuid>06d1f66e-2e4e-47f2-8db0-8530c535dc9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Share vesting</value>
-      <webElementGuid>7ead5666-9f62-4204-9627-f0bf2ba8e57d</webElementGuid>
+      <webElementGuid>be039816-7cab-4fdf-a70e-7a22fd8f4abf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/ul[@class=&quot;nav nav-sub-tabs&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;active nav-link&quot;]/span[1]</value>
-      <webElementGuid>d1586114-56a8-4dcc-af05-243fbb6b4a32</webElementGuid>
+      <webElementGuid>333d2de2-965a-4137-b131-835a9d799d0f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/ul/li/a/span</value>
-      <webElementGuid>4bef2c3b-1715-4f0d-a1ea-2691e78d20ea</webElementGuid>
+      <webElementGuid>8b46f888-6df6-41d4-be44-9464d6205ac8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='A simple way to track, manage, and understand your equity journey'])[1]/following::span[1]</value>
-      <webElementGuid>cf2a4af2-4a73-4af8-b4bf-bcc468a520b0</webElementGuid>
+      <webElementGuid>d4f17200-8061-4efb-a662-9994c00eb4d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Equity Overview'])[1]/following::span[1]</value>
-      <webElementGuid>d944f640-585a-4463-9266-f127151e57f7</webElementGuid>
+      <webElementGuid>0eda89ee-7a4c-4409-9721-dc819036216b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Overall value'])[1]/preceding::span[1]</value>
-      <webElementGuid>9e3a813e-ec29-4d32-9045-366102011cae</webElementGuid>
+      <webElementGuid>eee4087f-5ceb-4d9f-80e8-dc4b24d57be1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your graph explained'])[1]/preceding::span[2]</value>
-      <webElementGuid>5fe7a45f-83fe-4789-b3a2-3467b0603666</webElementGuid>
+      <webElementGuid>7757b436-92af-4ee5-acdd-fd7b2df41cad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Share vesting']/parent::*</value>
-      <webElementGuid>eb189e51-eaf7-4cd9-a725-f2f46b7fb1d3</webElementGuid>
+      <webElementGuid>caadb83b-ac77-4906-b229-691495245b38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a/span</value>
-      <webElementGuid>3b58697d-f496-4d24-8480-73ce9b7bd6ad</webElementGuid>
+      <webElementGuid>2ca99c76-16bc-4866-9dd0-307ad00ca640</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Share vesting' or . = ' Share vesting')]</value>
-      <webElementGuid>f047d92e-7312-4d8d-9a94-9574ec30c22b</webElementGuid>
+      <webElementGuid>cc212956-d2f2-423a-9233-66a8ad623aef</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

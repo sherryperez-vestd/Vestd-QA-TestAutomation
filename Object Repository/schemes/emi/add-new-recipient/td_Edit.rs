@@ -13,15 +13,19 @@
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td[8]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Edit' or . = 'Edit')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Edit&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td[8]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>176ec9a8-bcab-46ae-88df-d6bcacd70e06</webElementGuid>
+      <webElementGuid>09c4f123-86a1-4cc3-a5fd-171580d062ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit</value>
-      <webElementGuid>62cdb0c4-cb63-4c94-896b-1b57258f89cb</webElementGuid>
+      <webElementGuid>d6fa5cf9-033b-4d95-81aa-23835e5a04a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-borderless&quot;]/tbody[1]/tr[1]/td[8]</value>
-      <webElementGuid>6c5f7763-91e0-41f3-b756-af8abd5478e4</webElementGuid>
+      <webElementGuid>9e128317-40d2-4ef8-a7cb-98cce8ef62f2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td[8]</value>
-      <webElementGuid>0c1c87d3-82a8-4a97-96c9-10fc65607e5a</webElementGuid>
+      <webElementGuid>29060281-537b-449c-a79c-8e1e102315cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/following::td[1]</value>
-      <webElementGuid>62c19d51-c64d-4fa3-87df-ac4cf591e268</webElementGuid>
+      <webElementGuid>fb8a0337-6d46-442b-9bca-fa5babc6c2a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::td[2]</value>
-      <webElementGuid>e6640ee6-4786-49ac-9b64-060fce567318</webElementGuid>
+      <webElementGuid>9b502f1f-0ad1-4d2b-8398-e528830a0af2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Default criteria'])[1]/preceding::td[1]</value>
-      <webElementGuid>a5323903-87f1-4cdb-9f59-d040eb605b89</webElementGuid>
+      <webElementGuid>5450ce6a-9624-485d-875a-a4a76f5158d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[8]</value>
-      <webElementGuid>0084ec6d-5e89-42a7-8a96-03872ecb241d</webElementGuid>
+      <webElementGuid>dce9e0cb-9d1a-4daf-86be-14e13a628e20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>3eede8ef-7375-4488-a821-4861e7ab8a99</webElementGuid>
+      <webElementGuid>70dbac3a-b5f9-42c9-a9e9-97fdc6b55ea6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

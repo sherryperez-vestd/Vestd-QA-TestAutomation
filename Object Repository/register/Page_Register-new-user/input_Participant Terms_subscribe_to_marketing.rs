@@ -13,15 +13,19 @@
          <key>XPATH</key>
          <value>//input[@id='subscribe_to_marketing']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'subscribe_to_marketing' and @name = 'subscribe_to_marketing' and @type = 'checkbox']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Yes, occasionally email me info about my equity and product updates.&quot;i</value>
+         <value>//input[@id='subscribe_to_marketing']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>7cc80722-bca7-49ac-87f3-28520c29d821</webElementGuid>
+      <webElementGuid>9b2c6c54-e5e5-4766-8bcf-9ef32cee1121</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
-      <webElementGuid>bc45f79f-6723-494f-81fe-4801b7f0f04d</webElementGuid>
+      <webElementGuid>3ab234dd-9619-4416-9a5f-a0edce8e6a64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>subscribe_to_marketing</value>
-      <webElementGuid>32b48568-358e-4674-81a1-57fc2f681695</webElementGuid>
+      <webElementGuid>8f5f1f46-ed42-4220-a243-5406f5502a9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>subscribe_to_marketing</value>
-      <webElementGuid>9c945d54-6d59-419b-8cd5-631ad6d90ab3</webElementGuid>
+      <webElementGuid>f6650b09-3995-43bf-ac70-e15ad6015222</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>776f0ad9-d1b1-4325-b519-fb405db2839c</webElementGuid>
+      <webElementGuid>9ed43ec4-270f-43c5-98f1-b9a35977dbf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>value</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>ed28e052-1904-46e8-8c81-db2da0536d81</webElementGuid>
+      <webElementGuid>d478dbf2-6477-4f39-be78-2ae403a623f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;subscribe_to_marketing&quot;)</value>
-      <webElementGuid>7b50d83f-0d34-45ea-84ab-dd04d1644ce3</webElementGuid>
+      <webElementGuid>7ffba181-8c2e-43d1-af13-f2add6c669df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='subscribe_to_marketing']</value>
-      <webElementGuid>da6ed5bb-95f3-42da-9ef5-a14c5b4e9003</webElementGuid>
+      <webElementGuid>981dd1ca-9508-4e7f-b4a9-ec6afc9e6823</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='register-form']/div[7]/input</value>
-      <webElementGuid>2c02e5a3-1915-49de-a1bd-d4053d60c6d0</webElementGuid>
+      <webElementGuid>fb52c44e-8bc2-4591-8f66-ba5ee106b34d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/input</value>
-      <webElementGuid>68b91e4b-7b7c-415e-bc8a-a620a4c2e9da</webElementGuid>
+      <webElementGuid>f1961ac0-e4d0-4029-8c28-233dc731e758</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'subscribe_to_marketing' and @name = 'subscribe_to_marketing' and @type = 'checkbox']</value>
-      <webElementGuid>50bf5262-f55b-486d-8c78-f7844b3fb0d7</webElementGuid>
+      <webElementGuid>3512caec-33c7-4fb1-a3d4-e327c9bfb069</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

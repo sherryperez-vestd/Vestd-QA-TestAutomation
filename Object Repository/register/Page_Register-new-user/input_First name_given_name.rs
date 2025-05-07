@@ -13,31 +13,35 @@
          <key>XPATH</key>
          <value>//input[@id='BTXJQ5oYYcwCjpNn']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@class = 'form-control' and @type = 'text' and @name = 'given_name']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;First name&quot;i</value>
+         <value>//input[@id='BTXJQ5oYYcwCjpNn']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>24973236-c3fb-4dbb-b155-06595b78c917</webElementGuid>
+      <webElementGuid>bacb82b3-8a35-4d53-b789-2eba5083a953</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>65ff51b8-af3a-455f-be90-6cfc71007aa8</webElementGuid>
+      <webElementGuid>13a06ed7-f9a8-4528-8595-19f94cfe7b76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,15 +49,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b0e592d4-0d4c-481a-ac40-6a7b268ce7fc</webElementGuid>
+      <webElementGuid>5db89cd3-b617-48aa-967e-f2d70402b3e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>BTXJQ5oYYcwCjpNn</value>
-      <webElementGuid>9e5cc906-0c0a-4c26-a687-92119d766a00</webElementGuid>
+      <webElementGuid>f7d1e81a-1bb3-46a9-a639-e287ab398f8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>name</name>
       <type>Main</type>
       <value>given_name</value>
-      <webElementGuid>97e24d7a-4e07-4c14-b6c5-df3327b4399e</webElementGuid>
+      <webElementGuid>d5154137-674b-4e56-988e-2ce12f26a64a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;BTXJQ5oYYcwCjpNn&quot;)</value>
-      <webElementGuid>7c3ca268-b4f5-4776-803b-c50543d99bc9</webElementGuid>
+      <webElementGuid>69775ea5-eac9-49cd-8a9a-0c7c3d10a81b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='BTXJQ5oYYcwCjpNn']</value>
-      <webElementGuid>d29a1435-b57b-43fd-a8fc-37af6dc5ced4</webElementGuid>
+      <webElementGuid>f474f0a8-99a7-42a4-850d-823bf271ac37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='register-form']/div/div/input</value>
-      <webElementGuid>02e95291-50d4-4f02-802c-99fdb687a22c</webElementGuid>
+      <webElementGuid>ab330dd9-d225-4b74-ad05-667c21002ebc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>d4841a16-7845-4a42-bb6e-d67192f00839</webElementGuid>
+      <webElementGuid>494b93b5-706b-4a99-b242-2d4bb9880c30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'BTXJQ5oYYcwCjpNn' and @name = 'given_name']</value>
-      <webElementGuid>c34e03b3-b54f-4020-a5a2-435fe40ac703</webElementGuid>
+      <webElementGuid>0b16423d-51b0-445a-96f3-cf0646b1d1b6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

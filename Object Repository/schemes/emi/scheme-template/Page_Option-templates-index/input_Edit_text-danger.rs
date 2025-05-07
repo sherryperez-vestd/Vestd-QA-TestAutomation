@@ -18,7 +18,7 @@
          <value>//input[@class = 'text-danger' and @onclick = 'return confirm(&quot;Delete the scheme template, the individual options will not be removed. Confirm delete?&quot;)' and @type = 'submit' and @value = 'Delete']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4683b49d-5c5b-420d-bcb7-95880e7b86fd</webElementGuid>
+      <webElementGuid>6fcfd56e-43f8-424b-bd15-b248d0b4b187</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-danger</value>
-      <webElementGuid>98f7769a-7be8-47b1-95cb-9084e0d91921</webElementGuid>
+      <webElementGuid>b72b0645-a14c-4b3a-baf6-a3a5e24bc0c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>return confirm(&quot;Delete the scheme template, the individual options will not be removed. Confirm delete?&quot;)</value>
-      <webElementGuid>96795c21-1b9e-48f4-a5c7-e13b5e24a974</webElementGuid>
+      <webElementGuid>25ed29ec-fe18-4048-aef6-38689ac51a65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>21e02c50-8c89-45e4-80a0-68dfb75f0ed6</webElementGuid>
+      <webElementGuid>bdb74e39-b980-473f-aa0d-e62bedd5c4bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>0e232525-3711-45b8-b868-d33016a2d062</webElementGuid>
+      <webElementGuid>0ffc72c3-87c4-4dd5-8ed3-d84faa9cd2a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[3]/td[3]/form[2]/input[@class=&quot;text-danger&quot;]</value>
-      <webElementGuid>5d8aba08-7723-48a0-9adc-2ce173dc2f66</webElementGuid>
+      <webElementGuid>bc5cfdad-e3df-4cba-b777-f89263a08ce7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@value='Delete'])[3]</value>
-      <webElementGuid>9dcbad95-edab-4ee5-a06c-1a9ce8c06323</webElementGuid>
+      <webElementGuid>3d7dec5c-31a3-44d9-8397-a12d77d7c066</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/div/table/tbody/tr[3]/td[3]/form[2]/input[3]</value>
-      <webElementGuid>3c0a94dd-c8cf-446f-bbd9-e570cdbf6da8</webElementGuid>
+      <webElementGuid>e066ce14-5b58-43f4-bce3-37f74b91ecd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form[2]/input[3]</value>
-      <webElementGuid>2f804c0d-1188-4c94-91af-3cc7f44269f6</webElementGuid>
+      <webElementGuid>e8523fda-62d3-4e80-8aa0-1cf89e831ec4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit']</value>
-      <webElementGuid>8d7db57c-df85-49d8-840e-e0ed3710f70e</webElementGuid>
+      <webElementGuid>d08f8dd0-bab7-4acf-8e32-278919ba33fa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

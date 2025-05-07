@@ -10,25 +10,25 @@
          <value>a.active.nav-link</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/ul/li/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@href = '#' and (text() = ' Share vesting' or . = ' Share vesting')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/ul/li/a</value>
+         <key>IMAGE</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;x Share vesting&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/ul/li/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>685995e8-90b1-4d4e-a9a0-c5cf89f56733</webElementGuid>
+      <webElementGuid>5e21b996-b115-4cfa-ace9-851f542eae37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>active nav-link</value>
-      <webElementGuid>e4e6266f-4f48-4582-803a-0c84ca72bbf8</webElementGuid>
+      <webElementGuid>b188dc27-e9d7-4077-9ff6-98a093ff2c7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +52,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>eebff3b4-6b13-4f4c-a05c-08b1703803af</webElementGuid>
+      <webElementGuid>5ea1a223-e5aa-4983-9c5f-7320bbbbb9b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Share vesting</value>
-      <webElementGuid>76e35b7b-351a-4eab-aaac-cce1ecd0b9c6</webElementGuid>
+      <webElementGuid>e3959dad-c46b-43f6-b646-b680906af388</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/ul[@class=&quot;nav nav-sub-tabs&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;active nav-link&quot;]</value>
-      <webElementGuid>8305de76-334d-4ab7-bba9-0bcd45252574</webElementGuid>
+      <webElementGuid>b6af2b16-69da-41cd-87df-c701e25fa997</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/ul/li/a</value>
-      <webElementGuid>612d3079-3548-486e-8048-a0c6e4df7031</webElementGuid>
+      <webElementGuid>0a0c7ac7-ea5f-4142-8436-6fb481a1efc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='A simple way to track, manage, and understand your equity journey'])[1]/following::a[1]</value>
-      <webElementGuid>1f707f9a-3473-4c92-84c6-762c13115dfb</webElementGuid>
+      <webElementGuid>f1ea6bf9-0f8a-4d7c-840a-66820ea7399a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Equity Overview'])[1]/following::a[1]</value>
-      <webElementGuid>ea6c9eb9-90ff-4787-9055-83eec177abbe</webElementGuid>
+      <webElementGuid>e81d9019-8d43-40e5-b695-914d1a8a2958</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Overall value'])[1]/preceding::a[1]</value>
-      <webElementGuid>b53396af-52bf-4e45-b3a1-7e87bdfc7399</webElementGuid>
+      <webElementGuid>4994c081-80cf-450d-85fd-055045017775</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[22]</value>
-      <webElementGuid>8b7a0c8d-96cc-4894-ae42-7250f4b9f087</webElementGuid>
+      <webElementGuid>b9da47da-2050-4eb9-81ed-c053a7ac8adb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/ul/li/a</value>
-      <webElementGuid>41f70e9d-cd6f-4eb0-85d8-7ff25c5c60b3</webElementGuid>
+      <webElementGuid>0a3a35a1-5214-4f8d-888c-244e826c1c4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,6 +124,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = ' Share vesting' or . = ' Share vesting')]</value>
-      <webElementGuid>6cec02cc-0525-476e-b18c-9ca0d5710633</webElementGuid>
+      <webElementGuid>c3d78b62-a1cf-4bfe-8ed7-a2f68fd657bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

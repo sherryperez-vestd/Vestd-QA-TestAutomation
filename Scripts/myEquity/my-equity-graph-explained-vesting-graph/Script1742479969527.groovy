@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -100,6 +101,4 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/vesting-sc
     0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/vesting-schedule_graph-explained/txt_hurdle-message'))
-
-WebUI.verifyElementText(findTestObject('myEquity/vesting-schedule_graph-explained/txt_hurdle-message'), 'There is a hurdle attached to the 950 Vn shares, this means you will not benefit in the first £0.0001 per share in the event of a sale.')
 

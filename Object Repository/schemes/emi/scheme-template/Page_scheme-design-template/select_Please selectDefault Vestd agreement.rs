@@ -10,22 +10,22 @@
          <value>#document_template_id</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'document_template_id' and @name = 'document_template_id' and (text() = 'Please selectDefault Vestd agreement' or . = 'Please selectDefault Vestd agreement')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='document_template_id']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'form-control' and @id = 'document_template_id' and @name = 'document_template_id']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Document template&quot;i</value>
+         <value>//select[@id='document_template_id']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>2499863a-4807-415c-ae26-0d39c0446d65</webElementGuid>
+      <webElementGuid>c9531e91-651e-49c0-b634-539425dd1278</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>2021ae54-d0cf-4a38-9be8-5b95ebe4523e</webElementGuid>
+      <webElementGuid>fdc2d25f-17b9-4355-bf42-00c6dea24429</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>document_template_id</value>
-      <webElementGuid>a7c220ee-0fe8-47f8-b17c-dc8b626388f2</webElementGuid>
+      <webElementGuid>9e5e3146-9132-4f7e-9bb0-0d0ad522c735</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,15 +57,15 @@
       <name>name</name>
       <type>Main</type>
       <value>document_template_id</value>
-      <webElementGuid>70342cc0-28e8-4424-8d5a-06bf2fcd63d5</webElementGuid>
+      <webElementGuid>fbfd7872-61a1-449d-9e02-989462f23822</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Please selectDefault Vestd agreement</value>
-      <webElementGuid>212ae5fb-d68b-47ef-8397-8c26766a187a</webElementGuid>
+      <webElementGuid>fa465312-bc8c-47bf-b57f-a5cb0a8679b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;document_template_id&quot;)</value>
-      <webElementGuid>4404e803-5090-47e7-95e3-69df510ac1cd</webElementGuid>
+      <webElementGuid>d62049f9-2929-43f5-b049-b5a07541050b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='document_template_id']</value>
-      <webElementGuid>66c2592d-6ef5-4e64-91e8-651501a8f91d</webElementGuid>
+      <webElementGuid>9ff0d502-3bbb-4872-9fb5-857a74a56a34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/form/div[2]/select</value>
-      <webElementGuid>344194e5-cedf-47fe-bd00-5d90e2cf52a6</webElementGuid>
+      <webElementGuid>b595bb8b-0977-49f3-98c6-49970216139a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Document template'])[1]/following::select[1]</value>
-      <webElementGuid>664e372a-2a80-4cba-a5a6-09c08ad79bd2</webElementGuid>
+      <webElementGuid>2db72fa8-152e-4ea9-8f81-4b041f539ed3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reference'])[1]/following::select[1]</value>
-      <webElementGuid>c2cc5eb4-c8bc-48be-a9b5-5fd84942a36d</webElementGuid>
+      <webElementGuid>2c38dae1-4fee-4f9b-82cf-4806f2f8de80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share conditions'])[1]/preceding::select[1]</value>
-      <webElementGuid>97f4734f-8536-404a-9189-6ba52063ce2f</webElementGuid>
+      <webElementGuid>42a84116-9d57-4608-b6c1-250f6c510179</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exercise price'])[1]/preceding::select[1]</value>
-      <webElementGuid>d3e73e0e-b58b-43bd-b046-090c989a6ad9</webElementGuid>
+      <webElementGuid>7f265a09-bd58-498e-8568-547842da8afc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>93ef768d-a234-4541-9f50-6d73f5c5b158</webElementGuid>
+      <webElementGuid>6205893f-a98c-412a-b6b3-068c726bb857</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'document_template_id' and @name = 'document_template_id' and (text() = 'Please selectDefault Vestd agreement' or . = 'Please selectDefault Vestd agreement')]</value>
-      <webElementGuid>9cd9fb5f-0358-4306-bf4e-8afe5c2b1417</webElementGuid>
+      <webElementGuid>ed10a8b0-7e56-46d0-8826-4ac09ba97e9c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

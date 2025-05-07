@@ -13,15 +13,25 @@
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td[4]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+
+                                                            1,000
+                                                    ' or . = '
+
+                                                            1,000
+                                                    ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;1,000&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td[4]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +39,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>fa05db94-177b-47eb-b8dc-7857d6ce8658</webElementGuid>
+      <webElementGuid>98f46e73-d8ba-4563-be10-f4d99f6f074f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +50,7 @@
 
                                                             1,000
                                                     </value>
-      <webElementGuid>36f59920-72df-4c29-a029-f5a9d148cd05</webElementGuid>
+      <webElementGuid>8818118a-9b12-4a33-b546-e21932a0cca9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-borderless&quot;]/tbody[1]/tr[1]/td[4]</value>
-      <webElementGuid>a104b1c1-ade2-47b0-9fee-c5c0a68faafe</webElementGuid>
+      <webElementGuid>df39adcb-01cd-4ef6-9ebe-65efc72d2cd9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +66,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td[4]</value>
-      <webElementGuid>ec3b82e5-71e2-4afc-a75f-609abbc79979</webElementGuid>
+      <webElementGuid>d3ecf1a5-428c-46d0-9fa3-9a67620ca315</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ordinary'])[1]/following::td[1]</value>
-      <webElementGuid>f0798359-2926-4292-b785-afe1c1de0921</webElementGuid>
+      <webElementGuid>fc0c5e42-178d-447e-9f7f-075a83cae049</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Not invited'])[1]/following::td[2]</value>
-      <webElementGuid>c8040c15-3baf-4f1e-82b0-bcc3bc452ae6</webElementGuid>
+      <webElementGuid>2fb6a911-cf2e-4fcd-93d0-d95e71fec713</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::td[2]</value>
-      <webElementGuid>460355cd-b914-4b7e-b5d2-a53f4abf0dac</webElementGuid>
+      <webElementGuid>0d01d702-8f02-4487-9680-46da21b6fbcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::td[3]</value>
-      <webElementGuid>d243a3bf-7067-4d41-831c-3d8f124052e9</webElementGuid>
+      <webElementGuid>5950b5ed-f13b-40ca-8591-6b09e8d5eb06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='1,000']/parent::*</value>
-      <webElementGuid>b0546d52-ed38-4cc0-82fd-a1aeecde5ee2</webElementGuid>
+      <webElementGuid>04bbefc4-077b-4c1b-a327-bd5813d467c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +114,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]</value>
-      <webElementGuid>0e896b56-6ae7-46a6-840a-cee7e9767d81</webElementGuid>
+      <webElementGuid>7c02695d-19d2-4852-8054-a83b0c0794b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +128,6 @@
 
                                                             1,000
                                                     ')]</value>
-      <webElementGuid>67b00731-ca58-4329-94cf-e0086e017021</webElementGuid>
+      <webElementGuid>9b50d00c-5d23-4281-86a3-92862419c21a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

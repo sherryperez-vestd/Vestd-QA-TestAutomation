@@ -6,22 +6,26 @@
    <elementGuidId>8fef0554-86a3-4afb-a273-c50acc002b78</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#share_pool_size</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='share_pool_size']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#share_pool_size</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'share_pool_size' and @type = 'number' and @id = 'share_pool_size']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Pool size&quot;i</value>
+         <value>//input[@id='share_pool_size']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0c6cc762-4dec-49cc-b624-202afb5343b2</webElementGuid>
+      <webElementGuid>5b36ec34-af0d-4442-8442-c9a6c7107a79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>8c7d1009-c686-419b-be2f-80bd458ab39f</webElementGuid>
+      <webElementGuid>8358f4b6-924b-4fb3-8412-37441adb9f09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>share_pool_size</value>
-      <webElementGuid>4f21d74f-35e7-443c-b3ea-d3c5090f7dec</webElementGuid>
+      <webElementGuid>3f698006-269b-4091-945f-f85e7a0a44eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>d495e5fc-1d30-4560-bdfb-4f8e546596c5</webElementGuid>
+      <webElementGuid>bc57e7bf-5bb5-463d-85f0-84255368a99a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>id</name>
       <type>Main</type>
       <value>share_pool_size</value>
-      <webElementGuid>34d810d7-f785-48ce-8e89-be37dfe12479</webElementGuid>
+      <webElementGuid>5e2517ca-cda9-4859-87ed-5e9d26947cf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;share_pool_size&quot;)</value>
-      <webElementGuid>45a0164b-f725-4af5-ad1f-21662ada662a</webElementGuid>
+      <webElementGuid>4fa5ef48-3825-433d-abf3-ad6155241748</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='share_pool_size']</value>
-      <webElementGuid>2736d947-c3e9-4b56-aa05-1950f46dfe30</webElementGuid>
+      <webElementGuid>b1bd87c9-8697-40a6-a0cd-237f093156cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='js-share-approval-form']/div[2]/input</value>
-      <webElementGuid>93bdac12-3ad1-447f-b760-f570f35fec31</webElementGuid>
+      <webElementGuid>dd87f233-ff75-4c2a-a635-e860b032e2d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>36472bef-c1e3-4056-8d46-affad286e8be</webElementGuid>
+      <webElementGuid>a3b691fb-d590-42d4-a54e-a98ce99a27f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'share_pool_size' and @type = 'number' and @id = 'share_pool_size']</value>
-      <webElementGuid>76a2b5d0-41cf-454d-9ff5-c03c7ddad894</webElementGuid>
+      <webElementGuid>ea16f919-173c-41d4-a54c-a6db48a519b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

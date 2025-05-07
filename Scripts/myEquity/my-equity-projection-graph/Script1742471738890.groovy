@@ -29,7 +29,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/graph/over
 
 WebUI.click(findTestObject('Object Repository/myEquity/graph/overall-value-graph/tab_overall-value'))
 
-WebUI.clearText(findTestObject('Object Repository/myEquity/graph/overall-value-graph/input_estimated-profit'), FailureHandling.STOP_ON_FAILURE)
+WebUI.clearText(findTestObject('Object Repository/myEquity/graph/overall-value-graph/input_estimated-profit'))
 
 'Check Empty Overall value graph'
 WebUI.verifyElementPresent(findTestObject('myEquity/graph/overall-value-graph/img-empty-graph'), 0)

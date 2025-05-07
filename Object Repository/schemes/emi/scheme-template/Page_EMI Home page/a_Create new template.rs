@@ -6,38 +6,42 @@
    <elementGuidId>57b70841-a0a3-4f55-9726-b052d66b5f59</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-md.btn-secondary.btn-not-submit.mb-0</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div[4]/div/div/div/div[3]/div[2]/a</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-md.btn-secondary.btn-not-submit.mb-0</value>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Create new template' or . = 'Create new template')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Create new template>&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div[4]/div/div/div/div[3]/div[2]/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>a9190a29-ea3c-4b67-9a26-65a278128ca3</webElementGuid>
+      <webElementGuid>719e4ce4-570c-40fc-a04c-46ebb023c1bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/workflow/option-scheme-design/create</value>
-      <webElementGuid>2944ad20-4603-4b4f-8748-d37f4e671959</webElementGuid>
+      <webElementGuid>78348d9d-aa44-441a-975b-dbe4064d5bcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-md btn-secondary btn-not-submit mb-0</value>
-      <webElementGuid>2340cd9d-0130-4665-8307-c646d9caf3a0</webElementGuid>
+      <webElementGuid>aa979b3f-3424-4084-ae7a-a8665a18cb9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Create new template</value>
-      <webElementGuid>b036979d-7a8f-478f-a1f6-043fc838ecff</webElementGuid>
+      <webElementGuid>06ed69fa-8478-4152-a456-365e040dc861</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;card mb-4&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 text-right&quot;]/a[@class=&quot;btn btn-md btn-secondary btn-not-submit mb-0&quot;]</value>
-      <webElementGuid>39a863b4-fb33-4bc5-8b00-b2ddb3e342a6</webElementGuid>
+      <webElementGuid>ca4b7a3c-cdd5-40d1-bf7b-3c6903a70166</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div[4]/div/div/div/div[3]/div[2]/a</value>
-      <webElementGuid>654f8d55-d876-4b9e-9997-ae78507acbaf</webElementGuid>
+      <webElementGuid>7eb3a57e-5604-4f6e-a59d-c8c1bb1d5526</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Create new template')]</value>
-      <webElementGuid>f2cc6e86-0173-4b4a-b507-0ba554d18191</webElementGuid>
+      <webElementGuid>83008ce1-a24b-4d1a-8668-16a76703caef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='And 1 more'])[1]/following::a[1]</value>
-      <webElementGuid>6201717c-51ff-4305-8089-704b406267a7</webElementGuid>
+      <webElementGuid>9cce246e-66c4-4381-9ba8-65521f15d647</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unnamed template'])[1]/following::a[2]</value>
-      <webElementGuid>6bdfdc57-5edd-42ee-bb0a-6a45f776ec47</webElementGuid>
+      <webElementGuid>b4a42584-d3f1-4b48-b3e8-3f57b464d597</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View all'])[5]/preceding::a[1]</value>
-      <webElementGuid>0ce9b6ed-8f37-4245-b1de-977679063461</webElementGuid>
+      <webElementGuid>153405d6-aa63-4b11-964e-b95ba62cc399</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Option vesting'])[1]/preceding::a[2]</value>
-      <webElementGuid>e0e66fff-3857-40bb-8638-20cd9ed03326</webElementGuid>
+      <webElementGuid>50db1469-2d5e-4b66-8c2c-3fd271f18ccf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Create new template']/parent::*</value>
-      <webElementGuid>879387e6-801c-43e7-abc6-0777eb874a9e</webElementGuid>
+      <webElementGuid>1e59250f-0386-4c99-8295-d9054f7d27a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/workflow/option-scheme-design/create')]</value>
-      <webElementGuid>2523ddf2-5179-444e-8319-8dffe77df11a</webElementGuid>
+      <webElementGuid>bfe3a549-2b0f-4314-b166-6c40fe329111</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/a</value>
-      <webElementGuid>cfa9535d-5117-49ac-a129-d0dbb4ce68f2</webElementGuid>
+      <webElementGuid>6186d4c2-4f19-4f18-aec4-29ba693c1664</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +145,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://demo.app.vestd.com/company/50934/workflow/option-scheme-design/create' and (text() = 'Create new template' or . = 'Create new template')]</value>
-      <webElementGuid>6f302a31-d8e7-4b28-a7b5-e7299526bf76</webElementGuid>
+      <webElementGuid>d4009c36-5195-400d-9c11-46b11ca528bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

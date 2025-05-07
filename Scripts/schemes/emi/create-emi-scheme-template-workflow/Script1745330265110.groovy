@@ -25,11 +25,11 @@ WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_E
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_Vestd option agreement template Most _34cc47'))
+WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_Vestd option agreement template Most'))
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_Over time This is the most common app_5d4bea'))
+WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_Over time This is the most common app'))
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
@@ -41,11 +41,11 @@ WebUI.setText(findTestObject('Object Repository/schemes/emi/scheme-template/Page
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/span_Options will regularly vest in tranche_879dcc'))
+WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/span_Options will regularly vest in tranche'))
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_No cliff Options will start vesting o_2d0e5e'))
+WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_No cliff Options will start vesting o'))
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
@@ -57,7 +57,7 @@ WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_s
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_Yes Options will vest regularly over _6b8c6b'))
+WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_Yes Options will vest regularly over'))
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
@@ -69,48 +69,48 @@ WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_s
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_As soon as the option is accepted Eac_0c9b85'))
+WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_As soon as the option is accepted Eac'))
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_Exit event When the business is sold,_14cf4b'))
+WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_Exit event When the business is sold,'))
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/span_If there has not been an exit event af_c489be'))
+WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/span_If there has not been an exit event af'))
 
-WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_No Vested options will be exercisable_b53712'))
-
-WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
+WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_No Vested options will be exercisable'))
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
-WebUI.setText(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/input_What will the exercise price be_UhIIi_fb356f'), 
+WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
+
+WebUI.setText(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/input_What will the exercise price be'), 
     '1')
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_All done, nothing more to add Most co_864bad'))
+WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_All done, nothing more to add Most co'))
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
-WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_Allow vested options to be exercised _57b0fc'))
+WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/label_Allow vested options to be exercised'))
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
 WebUI.click(findTestObject('Object Repository/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Confirm details and create option scheme'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/schemes/emi/add-new-recipient/div_Template created, you can now begin add_c0bb11'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/schemes/emi/add-new-recipient/div_Template created, you can now begin add_'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/schemes/emi/add-new-recipient/div_Template created, you can now begin add_c0bb11'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/schemes/emi/add-new-recipient/div_Template created, you can now begin add_'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/schemes/emi/add-new-recipient/div_Template created, you can now begin add_c0bb11'), 
+WebUI.verifyElementText(findTestObject('Object Repository/schemes/emi/add-new-recipient/div_Template created, you can now begin add_'), 
     'Template created, you can now begin adding recipient details')
 
-WebUI.click(findTestObject('Object Repository/schemes/emi/add-new-recipient/div_Template created, you can now begin add_c0bb11_1'))
+WebUI.click(findTestObject('Object Repository/schemes/emi/add-new-recipient/div_Template created, you can now begin add'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/schemes/emi/add-new-recipient/div_Template created, you can now begin add_c0bb11_1'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/schemes/emi/add-new-recipient/div_Template created, you can now begin add'), 
     0)
 
 WebUI.click(findTestObject('schemes/emi/add-new-recipient/a_Back to list of templates'))

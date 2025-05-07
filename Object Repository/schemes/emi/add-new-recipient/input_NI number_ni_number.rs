@@ -13,31 +13,35 @@
          <key>XPATH</key>
          <value>//input[@id='okhcUrIbmEUAwKVl']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@class = 'form-control' and @type = 'text' and @name = 'ni_number']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;NI number&quot;i</value>
+         <value>//input[@id='okhcUrIbmEUAwKVl']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>40c2735d-961f-454c-901f-285d52ff67a3</webElementGuid>
+      <webElementGuid>858c8c50-788f-46ef-a1e8-19a263f613de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>771c48ba-2118-466f-8928-d63e850cb994</webElementGuid>
+      <webElementGuid>2be61443-181a-40cd-9a24-e5d5f0e49bbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,15 +49,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>3a2b319c-b119-48e5-a453-e26cd4a2f535</webElementGuid>
+      <webElementGuid>3d6a6629-933e-4619-b5f5-5f2884cec19a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>okhcUrIbmEUAwKVl</value>
-      <webElementGuid>fb87dcc3-148a-4413-b761-ccb01f571db9</webElementGuid>
+      <webElementGuid>22b7e8a9-a33f-4c3c-b3e5-ef333c065784</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>name</name>
       <type>Main</type>
       <value>ni_number</value>
-      <webElementGuid>ca46fa2f-6f6d-44ce-8a2a-a870c546c7d7</webElementGuid>
+      <webElementGuid>87ee705b-e92e-4157-a7ba-36a0c4636a42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;okhcUrIbmEUAwKVl&quot;)</value>
-      <webElementGuid>8cec60d7-4f62-4b88-82d7-efd97674e5f2</webElementGuid>
+      <webElementGuid>3bb205bd-50f5-486d-adb7-076ebe820350</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='okhcUrIbmEUAwKVl']</value>
-      <webElementGuid>94b7108c-d80f-47a5-9335-0a3296c8a020</webElementGuid>
+      <webElementGuid>15576ec7-14b7-45fd-9da6-7188d3d9e5a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[3]/form/div[3]/div/div/div[2]/div[6]/div/div/input</value>
-      <webElementGuid>33a76472-daad-43de-8cf4-802b78f3fc69</webElementGuid>
+      <webElementGuid>a4af08a5-29f9-458e-bc1a-c64cb106106c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/div/input</value>
-      <webElementGuid>3a0cd4b2-49e8-4957-b4e5-0edff3a9b5e4</webElementGuid>
+      <webElementGuid>6e108411-dbe9-4f05-b9ff-e71a25895043</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'okhcUrIbmEUAwKVl' and @name = 'ni_number']</value>
-      <webElementGuid>d66fa9a8-7764-4d23-98fd-f23722a91726</webElementGuid>
+      <webElementGuid>dfe996b9-fd0a-4957-822a-d04115a6bb58</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

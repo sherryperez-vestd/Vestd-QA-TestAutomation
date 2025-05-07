@@ -7,21 +7,24 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//form[@id='register-form']/div[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Last name' or . = 'Last name')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=/^Last name$/</value>
+         <value>//form[@id='register-form']/div[2]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bdd5617b-1f06-4a04-9bda-8ac6232178c9</webElementGuid>
+      <webElementGuid>c24434ff-894f-41fd-9c74-09589ead6e47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-group form-group--required</value>
-      <webElementGuid>79caf18f-472f-40af-9ddf-085d6d2cca56</webElementGuid>
+      <webElementGuid>35be7b20-7a55-4c00-a6b2-fe39c723ff52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Last name</value>
-      <webElementGuid>aa57544b-58cf-4a42-8fe5-a484afdd9cf4</webElementGuid>
+      <webElementGuid>27b57d3b-f0e7-4d78-9989-8fae3b05605e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;register-form&quot;)/div[@class=&quot;form-group form-group--required&quot;]</value>
-      <webElementGuid>1cbe0dc6-ed5f-4be7-b47e-79e1d1f295a9</webElementGuid>
+      <webElementGuid>55bef9ae-8914-4cb8-a47a-ba4f48126441</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='register-form']/div[2]</value>
-      <webElementGuid>e8d07c28-0838-4878-9f83-43a87e93c89c</webElementGuid>
+      <webElementGuid>4723970e-ef20-488c-bfcf-1fe7f709d9a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div[2]</value>
-      <webElementGuid>69774220-c3c5-47f3-a874-92d2a0fbc1e6</webElementGuid>
+      <webElementGuid>52c1fbb1-76f8-4c5b-9370-10caed113b19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +80,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Last name' or . = 'Last name')]</value>
-      <webElementGuid>f850ff4b-6b58-4241-a729-2623b953259c</webElementGuid>
+      <webElementGuid>ae9e8f5f-f94c-4984-828f-aaa0845ea3ed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

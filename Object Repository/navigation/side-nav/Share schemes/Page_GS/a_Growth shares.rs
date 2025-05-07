@@ -26,10 +26,10 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Growth shares&quot;s]</value>
+         <value>//div[@id='sidebarSchemes']/ul/li[8]/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6e6019ab-dda3-47a1-b5d6-389bd97a1bc8</webElementGuid>
+      <webElementGuid>bb2a8518-e842-45dc-9094-37acb3af7db4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/reward</value>
-      <webElementGuid>2558379b-5eda-4083-b0fb-a4963ed36da1</webElementGuid>
+      <webElementGuid>8c3d01bd-db03-44fb-98a8-6a57c3a6bb66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>4bacafe0-6515-4403-9592-8249e5c19593</webElementGuid>
+      <webElementGuid>cceb2f9f-7fb5-49bc-a7d5-54ab11bce923</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                                             Growth shares
                                         </value>
-      <webElementGuid>5be67216-39d6-40bf-9480-0c371c611e2e</webElementGuid>
+      <webElementGuid>a36f20d2-842d-41e7-b0ce-cc876e6aa180</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>9efb0b8c-df71-4330-a4aa-621c8133c135</webElementGuid>
+      <webElementGuid>e3ef8871-31e4-4398-8157-c377cf4dfcbe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[8]/a</value>
-      <webElementGuid>1f187100-9b93-4642-868a-cad33e4e5031</webElementGuid>
+      <webElementGuid>db50a6c4-5841-42bf-add0-24454a84fbe8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Growth shares')]</value>
-      <webElementGuid>debdf1c2-ffc9-4cfb-b115-ae46b48e9893</webElementGuid>
+      <webElementGuid>0d3dd6e3-2165-40de-a630-76b0391a2fd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All option agreements'])[1]/following::a[1]</value>
-      <webElementGuid>f455d709-708c-4520-b2ae-dd83941267f9</webElementGuid>
+      <webElementGuid>ed46c884-11b3-4bb1-969d-e255aa0d70b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phantom shares'])[1]/following::a[2]</value>
-      <webElementGuid>5b7f52ff-2f2f-4b1e-a271-bd08fd0b7e6e</webElementGuid>
+      <webElementGuid>08e57cb8-39f8-440b-8e90-fd66545ab093</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RSAs'])[1]/preceding::a[1]</value>
-      <webElementGuid>280b6f66-9039-4571-818e-d32a59c9d117</webElementGuid>
+      <webElementGuid>0cc68148-9d88-438a-900f-23ea29411905</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agile Partnership'])[1]/preceding::a[2]</value>
-      <webElementGuid>83919bdd-5e41-41b2-9b2d-8ab05e9297f8</webElementGuid>
+      <webElementGuid>afe7dc03-f9fe-4bc0-be08-54c33910d0bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Growth shares']/parent::*</value>
-      <webElementGuid>46b80b13-092f-4359-bb6c-b8aabb92442e</webElementGuid>
+      <webElementGuid>f7a63aa0-88be-4c2e-9927-c708b2dbfa89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/reward')]</value>
-      <webElementGuid>812590ea-1d49-4132-a9cb-22d09b7a4ba8</webElementGuid>
+      <webElementGuid>d239096c-5d0c-4174-bd41-2a315b31ff62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[8]/a</value>
-      <webElementGuid>38085b45-f886-4b80-acb1-1653af60bd92</webElementGuid>
+      <webElementGuid>eb351acf-f0e8-4bf7-8add-bf968a9017a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,6 +155,6 @@
                                         ' or . = '
                                             Growth shares
                                         ')]</value>
-      <webElementGuid>19ed1725-702c-4767-bed6-a2cabea87e34</webElementGuid>
+      <webElementGuid>4f8292b8-f4a0-4dce-bd97-25faf1660a1f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

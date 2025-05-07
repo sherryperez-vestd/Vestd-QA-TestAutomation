@@ -26,15 +26,15 @@ WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfers
 WebUI.selectOptionByIndex(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/select_share-class'), 
     '1', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_From_L95fPejezWwDnpOu'))
+WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_shareholder-From'))
 
-WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/li_AdminSuper SP (999,980 shares)'))
+WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/li_AdminSuper SP'))
 
 WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/select_To'))
 
 WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/li_Barry Saunders'))
 
-WebUI.setText(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_Number of shares_n8HK4GBtbRhhdQ9v'), 
+WebUI.setText(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_Number of shares'), 
     '10')
 
 WebUI.setText(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_Cash consideration (total for all sha_20407e'), 

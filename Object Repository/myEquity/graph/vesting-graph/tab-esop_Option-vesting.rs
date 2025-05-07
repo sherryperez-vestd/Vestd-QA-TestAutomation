@@ -11,22 +11,26 @@
          <value>a.active.nav-link > span</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value>Screenshots/Targets/Page_Dashboard - Vestd/span_Option vesting.png</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/div/ul/li/a/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Option vesting' or . = ' Option vesting')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value>Screenshots/Targets/Page_Dashboard - Vestd/span_Option vesting.png</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;x Option vesting&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/div/ul/li/a/span</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +38,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b215eeb5-559f-42bc-9b2b-487f04b5bd48</webElementGuid>
+      <webElementGuid>e5c93911-f599-4f81-bc93-fafc0bba4527</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Option vesting</value>
-      <webElementGuid>00134d08-eb86-4f73-9048-817934c618a2</webElementGuid>
+      <webElementGuid>e9565a71-3fa0-4cbd-9864-2396f717b50e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/ul[@class=&quot;nav nav-sub-tabs&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;active nav-link&quot;]/span[1]</value>
-      <webElementGuid>2543f929-5f05-4587-8833-1b913a12285f</webElementGuid>
+      <webElementGuid>95236099-4105-42b9-a24f-a70bc9318d86</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -58,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/div/ul/li/a/span</value>
-      <webElementGuid>b47c1514-8d2c-483f-9aac-e78f65b5a13e</webElementGuid>
+      <webElementGuid>62e80d5e-33a0-47ac-9d56-cb87302e6b2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='A simple way to track, manage, and understand your equity journey'])[1]/following::span[1]</value>
-      <webElementGuid>b1e55d13-4007-4a0a-b9b1-511dd84ac2e2</webElementGuid>
+      <webElementGuid>3b78062c-abff-48a0-9e5c-b847491eb674</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Equity Overview'])[1]/following::span[1]</value>
-      <webElementGuid>85d744ea-4160-4c46-838a-35520cc0d070</webElementGuid>
+      <webElementGuid>0928e25f-d254-40b0-a347-a0f4adc5bbf9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Overall value'])[1]/preceding::span[1]</value>
-      <webElementGuid>08fd0646-b650-4d55-b5f5-9a73b4b6660a</webElementGuid>
+      <webElementGuid>beb5587c-821c-440a-b573-6c594dd72302</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your vesting schedule'])[1]/preceding::span[2]</value>
-      <webElementGuid>d65d77e0-eecb-4df1-bc1b-02f193e320bf</webElementGuid>
+      <webElementGuid>ebe07a32-d1be-4e07-a4c1-f32bd3ef30eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Option vesting']/parent::*</value>
-      <webElementGuid>0bd4fb0c-ca81-445d-ab60-bb23bbc30c30</webElementGuid>
+      <webElementGuid>78453758-bde5-43ad-a237-eedcff0e7f56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a/span</value>
-      <webElementGuid>68e45b10-91bc-48e5-82ca-1426fa93b53b</webElementGuid>
+      <webElementGuid>e9c3fa13-a5a1-4ac0-b4c5-23f48b025bcf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Option vesting' or . = ' Option vesting')]</value>
-      <webElementGuid>d46b61e1-e9ac-4b3f-a24d-1dbee486dabc</webElementGuid>
+      <webElementGuid>9c339024-8b64-4c8c-a00d-877226727f9d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

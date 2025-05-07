@@ -6,38 +6,42 @@
    <elementGuidId>e06ffefc-9ab0-4363-bd9a-885db44c24ff</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>canvas</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/div/div/div/div/canvas</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>canvas</value>
+         <key>BASIC</key>
+         <value>//canvas[@role = 'img']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>canvas</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/div/div/div/div/canvas</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>canvas</value>
-      <webElementGuid>b5436c6d-b5e1-4002-83ec-5b90b87c244b</webElementGuid>
+      <webElementGuid>2b1d9a39-f94d-412b-ae1d-3858d8ea442d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>34db7d83-bc85-4052-88b6-9343672752ba</webElementGuid>
+      <webElementGuid>5ae1d74c-6528-4250-be0d-0e481a28419f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>height</name>
       <type>Main</type>
       <value>600</value>
-      <webElementGuid>f43105fd-87db-49c5-8d79-3e7bb250fd1a</webElementGuid>
+      <webElementGuid>d335b054-4f55-46d7-bc9d-0f8d70ebc4a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,15 +57,15 @@
       <name>width</name>
       <type>Main</type>
       <value>1405</value>
-      <webElementGuid>f91daaa4-457d-4d0a-944a-f2aa84ff66f7</webElementGuid>
+      <webElementGuid>8a824f8c-9e22-4cc7-a22b-5f12bc35ff28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[1]/div[@class=&quot;graph bg-light mb-2&quot;]/div[@class=&quot;chart-container&quot;]/canvas[1]</value>
-      <webElementGuid>2090bfe5-895d-4333-bb66-c0524de0cac4</webElementGuid>
+      <webElementGuid>8d88d77f-eb0a-40bc-b95e-18baf63c61e8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div/div[2]/div/div/div/div/canvas</value>
-      <webElementGuid>7c2b4968-f092-490d-a270-c749b1b20881</webElementGuid>
+      <webElementGuid>4698f98e-e72c-4f1a-a863-98411ad911bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Overall value'])[1]/following::canvas[1]</value>
-      <webElementGuid>b13a685b-0be2-43e1-9659-343d6dda536f</webElementGuid>
+      <webElementGuid>84ae7fdb-5327-440f-9d2c-d3edf5785d9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Option vesting'])[1]/following::canvas[1]</value>
-      <webElementGuid>bd99451c-428c-4218-a163-21476f5592eb</webElementGuid>
+      <webElementGuid>d1957dd4-45e7-4417-a509-dac21d3db2a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your vesting schedule'])[1]/preceding::canvas[1]</value>
-      <webElementGuid>f2bb1160-7599-4c00-ad63-29467846fa02</webElementGuid>
+      <webElementGuid>6e67486f-8417-4746-bdff-c7b279059122</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Full schedule (37 tranches)'])[1]/preceding::canvas[1]</value>
-      <webElementGuid>3f666e79-7c3b-4d84-bc25-639db2616d9f</webElementGuid>
+      <webElementGuid>46df425c-a7dd-48c1-9b24-a0db155797a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//canvas</value>
-      <webElementGuid>8aeedc3a-ace7-4d75-a8e9-5fde8381257e</webElementGuid>
+      <webElementGuid>8409fae9-f336-4fc1-b204-d7aa4409e1cb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

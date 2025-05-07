@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>navigation-items-admin-no-access</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0a30878b-a383-4c4d-9a6e-058cddf8331d</testCaseGuid>
+</TestCaseEntity>

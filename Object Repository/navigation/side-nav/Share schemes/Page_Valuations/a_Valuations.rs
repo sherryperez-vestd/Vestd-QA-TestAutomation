@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = 'https://demo.app.vestd.com/company/50934/valuation' and (text() = '
+         <value>//a[@href = 'https://demo.app.vestd.com/company/50934/valuation' and (text() = '
                                             Valuations
                                         ' or . = '
                                             Valuations
@@ -26,18 +26,18 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Valuations&quot;s]</value>
+         <value>//div[@id='sidebarSchemes']/ul/li[12]/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>80574aef-825e-4fb9-8e24-31a809eade2e</webElementGuid>
+      <webElementGuid>9e3ab3a9-28cb-4090-bbba-5d8e2e2905c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/valuation</value>
-      <webElementGuid>9c1bf43d-f9f6-4491-b2e0-c0b73016b6da</webElementGuid>
+      <webElementGuid>2acf6c26-5df9-44a0-9f52-e72357732b75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>002828ac-aa67-487f-b3e6-383ff269fe77</webElementGuid>
+      <webElementGuid>8b461219-de5b-4bde-9c98-d87d82744d93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                                             Valuations
                                         </value>
-      <webElementGuid>d903de11-ef27-42ec-bc4f-1643a4f5f699</webElementGuid>
+      <webElementGuid>0199e55e-fe02-4953-9eee-c6bf69413437</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>56b7c1ee-906d-41e8-9dcd-3a0425677258</webElementGuid>
+      <webElementGuid>1538c5ec-e929-414d-8eff-ab070307349f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[12]/a</value>
-      <webElementGuid>215a459f-2f8c-4474-b552-0d1d7a48e236</webElementGuid>
+      <webElementGuid>262c04fb-551a-4b7d-badf-a3b1e7369127</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Valuations')]</value>
-      <webElementGuid>a29d821c-e9c0-4b35-8577-10b08d200083</webElementGuid>
+      <webElementGuid>76c521d0-464d-4474-a28c-3b77e308601f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Compliance'])[1]/following::a[1]</value>
-      <webElementGuid>67e7add9-13bf-4736-b8e1-f57e6e055ee5</webElementGuid>
+      <webElementGuid>5e218d97-3e16-48ef-a2e5-5158faab4d5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agile Partnership'])[1]/following::a[1]</value>
-      <webElementGuid>a8272499-6c86-4c5a-951a-a715de2b552d</webElementGuid>
+      <webElementGuid>78177a7c-523f-4a73-b01f-bc7935b88a2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share pools'])[1]/preceding::a[1]</value>
-      <webElementGuid>a4a556b2-59f3-4cde-9582-576ba1d423ab</webElementGuid>
+      <webElementGuid>7a67e981-fd84-4ce3-9a32-d09840bcb7f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual notifications'])[1]/preceding::a[2]</value>
-      <webElementGuid>e13e6a59-c6aa-4a05-b9a9-040b595464e5</webElementGuid>
+      <webElementGuid>0c6b5792-a038-412d-ac06-eb48069c4fba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Valuations']/parent::*</value>
-      <webElementGuid>2396bf87-888a-42c1-8ded-8052ce8796be</webElementGuid>
+      <webElementGuid>a022655c-3321-4908-9b43-f9252ecf18bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/valuation')]</value>
-      <webElementGuid>f5421be1-fccd-44b4-9eac-716beadd55c6</webElementGuid>
+      <webElementGuid>8c0363d5-0a01-481d-9a29-9d37e21a5c26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[12]/a</value>
-      <webElementGuid>42dc8f19-f9da-4ac8-905b-e70f39b58e51</webElementGuid>
+      <webElementGuid>2afc247d-7b8b-4a41-9a30-dff471c074b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,6 +155,6 @@
                                         ' or . = '
                                             Valuations
                                         ')]</value>
-      <webElementGuid>213b9d30-46c3-4260-9a52-b87a8b789ee5</webElementGuid>
+      <webElementGuid>b0697eed-0b30-4acc-a1bf-cef161478296</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

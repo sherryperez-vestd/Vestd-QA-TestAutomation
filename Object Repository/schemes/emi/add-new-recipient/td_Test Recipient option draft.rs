@@ -13,15 +13,19 @@
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Test Recipient option draft' or . = 'Test Recipient option draft')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Test Recipient option draft&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>332a799d-d82f-44fc-8da9-d165a11278d2</webElementGuid>
+      <webElementGuid>e8985db6-bcf8-4595-b58f-d58bcfb82563</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Test Recipient option draft</value>
-      <webElementGuid>76b1d1c8-ffd5-496b-af90-f9e612439637</webElementGuid>
+      <webElementGuid>e0aff796-0960-4797-9a4f-d95bccd37d4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-borderless&quot;]/tbody[1]/tr[1]/td[1]</value>
-      <webElementGuid>aeb1741c-9277-4ac8-b251-56f51304a097</webElementGuid>
+      <webElementGuid>e7a94ba5-6630-4ab5-9689-5a1383d3b3f2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td</value>
-      <webElementGuid>5f4ec505-e74d-45f6-b60b-4a38c45b12dd</webElementGuid>
+      <webElementGuid>7b7c047b-3b38-49c1-b99d-0ccfd5145cc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exercised'])[1]/following::td[1]</value>
-      <webElementGuid>c8064793-04e3-4fec-86d0-fdc033bc105b</webElementGuid>
+      <webElementGuid>4c8691d9-f7c4-49c8-9f32-71419f4939cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vested'])[1]/following::td[1]</value>
-      <webElementGuid>da4e6847-66f9-46a9-9510-6ef82355cb5d</webElementGuid>
+      <webElementGuid>d64c1c7f-9d33-40a6-a53e-0c3b6bba8b1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td</value>
-      <webElementGuid>e6440ebe-653f-4708-b389-d21d3050d84e</webElementGuid>
+      <webElementGuid>b5345e6e-6e49-4629-8ac1-f6dfc2f910d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Test Recipient option draft' or . = 'Test Recipient option draft')]</value>
-      <webElementGuid>3e51896d-a952-464a-8c33-da4cd032b9c6</webElementGuid>
+      <webElementGuid>a16eda85-b098-455f-9b6e-cc0ea4e14f02</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

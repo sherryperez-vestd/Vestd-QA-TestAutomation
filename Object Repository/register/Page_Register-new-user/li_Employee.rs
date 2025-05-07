@@ -13,15 +13,19 @@
          <key>XPATH</key>
          <value>//li[@id='dJKJtN2aVhwgNfgP-multiselect-option-Employee']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Employee' or . = 'Employee')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:label=&quot;Employee&quot;i</value>
+         <value>//li[@id='dJKJtN2aVhwgNfgP-multiselect-option-Employee']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>ab393202-c550-448a-a833-5973bdb6488e</webElementGuid>
+      <webElementGuid>9be98883-f6d3-459f-9bc6-2d6206557de4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +41,15 @@
       <name>class</name>
       <type>Main</type>
       <value>multiselect-option is-pointed</value>
-      <webElementGuid>8b493396-cffa-4b06-ac00-34948d5f3215</webElementGuid>
+      <webElementGuid>55395d7a-7899-4b2f-ab26-a6f5465bfcfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>dJKJtN2aVhwgNfgP-multiselect-option-Employee</value>
-      <webElementGuid>662f62fa-2806-445c-8332-d283aa6e1123</webElementGuid>
+      <webElementGuid>8495e16b-de3b-42c5-91cc-d2da0cdb546a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fad187f5-44f3-413e-b4ef-626d6a002d7d</webElementGuid>
+      <webElementGuid>5dde8b5d-94fc-413f-a843-c8da52d20a09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Employee</value>
-      <webElementGuid>8d9ce1ec-411f-44bd-b77e-27ad99541a9b</webElementGuid>
+      <webElementGuid>61a43326-4742-42af-90c7-5b7be78ff798</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>ea9098e0-464e-489f-84d6-a7a1c0b88620</webElementGuid>
+      <webElementGuid>385cfab2-4499-4c10-8bb7-8aec801c6450</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>data-pointed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cda53283-bc15-4427-af51-45b0479d6c4b</webElementGuid>
+      <webElementGuid>cbf42f2d-d965-4373-adb7-56b88c05e3e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Employee</value>
-      <webElementGuid>bc30e3d2-4ffa-4404-96c9-a7275cb9d2d0</webElementGuid>
+      <webElementGuid>cd0618ff-d762-4f5e-ad79-4e5e028d804a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dJKJtN2aVhwgNfgP-multiselect-option-Employee&quot;)</value>
-      <webElementGuid>9edc1b25-a33c-4023-a587-4dcd0eb1063d</webElementGuid>
+      <webElementGuid>1bb8f441-6a10-4e95-87b5-34970f2f203b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//li[@id='dJKJtN2aVhwgNfgP-multiselect-option-Employee']</value>
-      <webElementGuid>863b5020-2083-48de-8a3f-7b9ddf953d41</webElementGuid>
+      <webElementGuid>c32dd8df-f484-4d70-b8af-aea8e943165d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='dJKJtN2aVhwgNfgP-multiselect-options']/li[2]</value>
-      <webElementGuid>fae1ce70-7112-4e5a-9fa9-4dbc9bae82db</webElementGuid>
+      <webElementGuid>5e112cbb-89e6-415f-be5b-06afefa9273e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Founder'])[1]/following::li[1]</value>
-      <webElementGuid>45c7e7f5-9f07-4e1d-a211-5c62199b8732</webElementGuid>
+      <webElementGuid>a6556fbe-47fa-4255-816a-991ec416d088</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Investor'])[1]/preceding::li[1]</value>
-      <webElementGuid>df08adf8-0fdf-45a2-b356-8f94bfc2c38c</webElementGuid>
+      <webElementGuid>9dffbffc-ca2f-4cdd-9fcf-da758233d6cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]</value>
-      <webElementGuid>7b9933f4-f7c1-40a7-9c20-f85ded84047a</webElementGuid>
+      <webElementGuid>71f2ff54-d528-40c2-8b47-e7fca584185a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +145,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[@id = 'dJKJtN2aVhwgNfgP-multiselect-option-Employee' and (text() = 'Employee' or . = 'Employee')]</value>
-      <webElementGuid>ae126f68-aad0-4e68-8273-820f2be859da</webElementGuid>
+      <webElementGuid>193a840e-15c3-408d-a569-e558ba6b000e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

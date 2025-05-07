@@ -10,22 +10,22 @@
          <value>#expiry-event</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'expiry-event' and @name = 'option_expiry_event' and (text() = 'Please selectExercisableExit only' or . = 'Please selectExercisableExit only')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='expiry-event']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'expiry-event' and @name = 'option_expiry_event' and (text() = 'Please selectExercisableExit only' or . = 'Please selectExercisableExit only')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>#expiry-event</value>
+         <value>//select[@id='expiry-event']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>da380369-1f25-4783-8551-99e24ad74dc3</webElementGuid>
+      <webElementGuid>b1411d0e-b8ba-433b-89f8-7687e60ba420</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>4bf1b7a9-fe83-4f0a-bfc9-15c1d0cfb9c0</webElementGuid>
+      <webElementGuid>d7552c03-6be1-469c-a1ab-5441180da30f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>expiry-event</value>
-      <webElementGuid>de06d4d4-b057-465d-bad9-bfe354105a6f</webElementGuid>
+      <webElementGuid>49263efe-ea6f-49b5-a6f6-6605fcb9eda7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>option_expiry_event</value>
-      <webElementGuid>ee2f9cc7-218c-4a80-b3b4-efa8e28e1e0e</webElementGuid>
+      <webElementGuid>9cbe3008-49d9-4e3e-996f-8f3c44897d8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Please selectExercisableExit only</value>
-      <webElementGuid>76648d96-6a32-4a8c-b212-5ea8a3d256b5</webElementGuid>
+      <webElementGuid>35e24be7-d342-4a48-b4c1-c5afc90cbc36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;expiry-event&quot;)</value>
-      <webElementGuid>72260d5f-b361-49cc-8edf-90a86c8956fb</webElementGuid>
+      <webElementGuid>3a991c03-8a6e-41b7-8dd6-47e1ca079f04</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='expiry-event']</value>
-      <webElementGuid>8a08c0e1-2719-41ed-a700-058212ce9b10</webElementGuid>
+      <webElementGuid>7b32f321-09d8-4319-b80c-0073e58a9a56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/form/fieldset/div[2]/select</value>
-      <webElementGuid>9e35a739-6dba-4c25-b805-bddbb003fe1d</webElementGuid>
+      <webElementGuid>aac41a93-77cb-4bd1-884b-20b9be092155</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exercise condition'])[1]/following::select[1]</value>
-      <webElementGuid>c810a170-0225-4622-b6ca-2e649f5a7505</webElementGuid>
+      <webElementGuid>97eb92b0-4ddf-4334-bb87-23868b9e3de7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='per share'])[1]/following::select[1]</value>
-      <webElementGuid>680475fb-ee36-42ee-97f4-42631c4d765e</webElementGuid>
+      <webElementGuid>8597cba5-d623-470f-bf23-e511fb0bcc6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Convert to exercisable after'])[1]/preceding::select[1]</value>
-      <webElementGuid>0d495171-708f-4d9c-9b1d-696d6f920b8e</webElementGuid>
+      <webElementGuid>8dcc2782-1c2b-4d68-98c9-2e131e3a2c98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Duration'])[1]/preceding::select[2]</value>
-      <webElementGuid>51f9b972-b92b-4057-ad97-bd36453cb166</webElementGuid>
+      <webElementGuid>3c311657-47f1-4252-92d1-4a340d819c20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset/div[2]/select</value>
-      <webElementGuid>7ab0bf43-e575-4928-a69f-99de9202c6d2</webElementGuid>
+      <webElementGuid>4152c32c-dcb1-4a62-98ed-ab83dc9c616c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'expiry-event' and @name = 'option_expiry_event' and (text() = 'Please selectExercisableExit only' or . = 'Please selectExercisableExit only')]</value>
-      <webElementGuid>7601d20e-cfb7-4eac-aced-40bb86b4d90c</webElementGuid>
+      <webElementGuid>e3eacbce-2d3f-409d-bb7d-6421da64dd06</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

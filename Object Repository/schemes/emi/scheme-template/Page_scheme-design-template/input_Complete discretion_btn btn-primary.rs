@@ -10,22 +10,22 @@
          <value>input.btn.btn-primary</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@value='Save']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Save&quot;i]</value>
+         <value>//input[@value='Save']</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d7478b60-10b5-4abf-baa6-62fa729693b1</webElementGuid>
+      <webElementGuid>602af594-ba61-47fd-a5b1-7a40a6453fdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>726bb383-8387-42ce-b5ce-6acb34b71e48</webElementGuid>
+      <webElementGuid>bed85b81-ef41-41c7-90bb-4cd42c398876</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>a2675206-357c-427c-a62a-8ea5ac6e6c8e</webElementGuid>
+      <webElementGuid>471c9948-df10-4dd6-832c-581992eafaee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>7b299c44-5869-4976-9513-3c8103921eed</webElementGuid>
+      <webElementGuid>349c1ad3-9765-4a7a-a99c-c76892ed0ef0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-lg-10&quot;]/form[1]/div[@class=&quot;form-group mb-0&quot;]/input[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>1a436a31-217e-45c3-8bad-f57becdedad1</webElementGuid>
+      <webElementGuid>af88bafb-be54-48cc-b63a-8286274e0959</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Save']</value>
-      <webElementGuid>26c72487-5592-49f8-b77c-ab431fc627b5</webElementGuid>
+      <webElementGuid>bd849d02-0d58-46cc-b2a9-c55134fe03c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/form/div[3]/input</value>
-      <webElementGuid>61ed5a2d-7aeb-468f-9c1d-70551dd633ee</webElementGuid>
+      <webElementGuid>632e574b-408e-4240-add7-e2325639c0e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/input</value>
-      <webElementGuid>45b1a923-3d7e-40b2-aa51-59cdcf3240ad</webElementGuid>
+      <webElementGuid>d7f91b4c-b31d-4e6f-b6f8-d295cc0aebc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit']</value>
-      <webElementGuid>484aecd1-972e-4f99-ae9c-13955343617e</webElementGuid>
+      <webElementGuid>4d1f5641-adbb-4530-8091-796425c805bf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

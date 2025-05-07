@@ -13,15 +13,23 @@
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+        My Equity
+    ' or . = '
+        My Equity
+    ')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=heading[name=&quot;My Equity&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>354b2c9d-749d-4aab-a7a0-d5cf2caaffb6</webElementGuid>
+      <webElementGuid>6c9aa0b0-b7fa-47ef-bbb7-e41502243d43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +47,7 @@
       <value>
         My Equity
     </value>
-      <webElementGuid>4c3f4042-7c01-4024-8d25-6a4120fc3901</webElementGuid>
+      <webElementGuid>5096e7a1-9364-4444-a4b2-ff6f5374c17a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>8c51101f-138c-4557-a330-547c3e33302f</webElementGuid>
+      <webElementGuid>120c7609-ddb1-43e7-8289-9a25cf44393c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>eec77480-441f-4a56-b51a-1fec1f288c9b</webElementGuid>
+      <webElementGuid>a40b08e7-9840-4a4a-990a-0307deffae77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Centre'])[1]/following::h1[1]</value>
-      <webElementGuid>78773e0c-5b9b-44ab-a8ae-ce4db6b77d8c</webElementGuid>
+      <webElementGuid>7125ee6e-f3ff-4c01-a3ff-f31aed2c1bae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My options'])[1]/preceding::h1[1]</value>
-      <webElementGuid>9ae5de4e-710d-4c0d-8d00-f3810fb4d050</webElementGuid>
+      <webElementGuid>a452e21e-b8b5-4455-8181-d03451e2f1b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Current value'])[1]/preceding::h1[1]</value>
-      <webElementGuid>f14b1a1f-275b-4949-8022-93e1863f29cd</webElementGuid>
+      <webElementGuid>6fa8c106-350d-4b43-830a-b3de077a927a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='My Equity']/parent::*</value>
-      <webElementGuid>cc2f9def-e1ca-4cd4-a529-77cc3fd0642f</webElementGuid>
+      <webElementGuid>a0fd7f4f-81bb-4481-b7f4-cf05a1e0afcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>4245aec7-5b9c-4879-94e8-31da8d2560dd</webElementGuid>
+      <webElementGuid>977ef12d-0ad4-4773-8d83-0acb7f7938fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,6 +115,6 @@
     ' or . = '
         My Equity
     ')]</value>
-      <webElementGuid>0521afa0-facf-48ff-8a94-fdceb4cf9441</webElementGuid>
+      <webElementGuid>5545f209-2bb9-4554-b00a-b3477273cac9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

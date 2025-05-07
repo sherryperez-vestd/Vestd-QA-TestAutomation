@@ -10,12 +10,12 @@
          <value>#agreed_to_terms</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'agreed_to_terms' and @name = 'agreed_to_terms' and @type = 'checkbox']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='agreed_to_terms']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'agreed_to_terms' and @name = 'agreed_to_terms' and @type = 'checkbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3abc2590-fff6-4b92-b574-c0d52468f414</webElementGuid>
+      <webElementGuid>d1ec7db8-7c91-45dd-a946-0eb9e70dc094</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
-      <webElementGuid>c7151144-cf75-473c-8d4d-78c7dfbffa34</webElementGuid>
+      <webElementGuid>248921db-4e6c-4540-8122-4cdbd232187e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>agreed_to_terms</value>
-      <webElementGuid>edd3c3d1-86ca-4cb4-a2d7-ab9136137d25</webElementGuid>
+      <webElementGuid>5da9e57e-2bcb-4dea-a8e6-49b40144aa43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>agreed_to_terms</value>
-      <webElementGuid>48d90bb3-d87a-42ca-a824-e2ca4b47548c</webElementGuid>
+      <webElementGuid>4de75830-9c60-46b9-8bef-d570a4c43aa4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>b6ef4455-6c0e-4518-8bdc-31feba8c8f91</webElementGuid>
+      <webElementGuid>3e525a74-495b-4cb4-86dc-c94270607c88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>value</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>633f573c-e646-48e3-94f8-2cfc05244d57</webElementGuid>
+      <webElementGuid>90547061-1e8c-4f7c-b32b-2e2eee648066</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;agreed_to_terms&quot;)</value>
-      <webElementGuid>d1baa8eb-47a1-4fe1-83e2-7a342d0c0273</webElementGuid>
+      <webElementGuid>c10d073f-a9d9-412f-bf1c-f1f80b604ade</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='agreed_to_terms']</value>
-      <webElementGuid>9a9b9f50-851a-4c57-a9e4-6e7b1af00761</webElementGuid>
+      <webElementGuid>e03e1451-132a-4adb-80bc-14c3c0a49d19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='register-form']/div[6]/input</value>
-      <webElementGuid>743315af-cde1-4762-bb01-27eb3db9b087</webElementGuid>
+      <webElementGuid>7beeb89a-cd4d-4e9e-a867-89e07c054ec5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/input</value>
-      <webElementGuid>3c2212b3-ba43-4986-96a1-f88723ebcdf6</webElementGuid>
+      <webElementGuid>f7783813-cdaa-4bdf-91d6-98c8a3774ca6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'agreed_to_terms' and @name = 'agreed_to_terms' and @type = 'checkbox']</value>
-      <webElementGuid>866401c6-cb0b-43bd-b0dc-ec5b6bd18d6b</webElementGuid>
+      <webElementGuid>8d12fe61-58d8-4950-8663-542f6bc35cf7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

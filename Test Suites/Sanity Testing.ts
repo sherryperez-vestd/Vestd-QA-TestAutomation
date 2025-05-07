@@ -15,21 +15,21 @@
       <guid>cfcb7f2e-b3e6-4ec0-96fc-5d2d215630ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/navigation/nav-staff</testCaseId>
+      <testCaseId>Test Cases/navigationMenu/navigation-items-staff</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c8c0b793-265a-456e-b0ff-1c8eafb11155</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/navigation/nav-admin-editor</testCaseId>
+      <testCaseId>Test Cases/navigationMenu/navigation-items-admin-editor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7cd432b0-79e3-4b62-ae13-2ead7a640d87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/navigation/nav-recipient</testCaseId>
+      <testCaseId>Test Cases/navigationMenu/navigation-items-recipient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
