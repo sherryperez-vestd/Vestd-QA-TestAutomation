@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Completed_feather icon-eye</name>
+   <tag></tag>
+   <elementGuidId>69312379-16ce-430b-aab3-ccdc6a777b09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='DataTables_Table_0']/tbody/tr[2]/td[7]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr.even > td:nth-of-type(7) > a > i.feather.icon-eye</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>1b9d5129-f523-4da9-977c-a6da54923ebd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>feather icon-eye</value>
+      <webElementGuid>e9e600f2-3089-4796-a25d-af77e7443401</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;DataTables_Table_0&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[7]/a[1]/i[@class=&quot;feather icon-eye&quot;]</value>
+      <webElementGuid>c4a59dad-bf6a-4f18-ac8b-1e8e8d0b36ad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='DataTables_Table_0']/tbody/tr[2]/td[7]/a/i</value>
+      <webElementGuid>7761b7e2-3bdc-4c03-b745-4d9b2c204497</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[7]/a/i</value>
+      <webElementGuid>75445145-a231-4ddf-af51-3f3c5f7462b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td[8]</value>
+         <value>//td[(text() = 'Edit' or . = 'Edit')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Edit' or . = 'Edit')]</value>
+         <value>//*[(contains(text(), 'Edit') or contains(., 'Edit'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>09c4f123-86a1-4cc3-a5fd-171580d062ba</webElementGuid>
+      <webElementGuid>8f62070a-dc7d-402c-93d8-83092458444e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Edit</value>
-      <webElementGuid>d6fa5cf9-033b-4d95-81aa-23835e5a04a1</webElementGuid>
+      <webElementGuid>03852018-a5c4-4f3a-bb2e-0f7ef8972357</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-borderless&quot;]/tbody[1]/tr[1]/td[8]</value>
-      <webElementGuid>9e128317-40d2-4ef8-a7cb-98cce8ef62f2</webElementGuid>
+      <webElementGuid>78c3cd52-aa06-4844-a0a0-c4793064b0ce</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td[8]</value>
-      <webElementGuid>29060281-537b-449c-a79c-8e1e102315cf</webElementGuid>
+      <webElementGuid>b1442e0a-db7e-4cdf-b919-18d39d6cdfa7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/following::td[1]</value>
-      <webElementGuid>fb8a0337-6d46-442b-9bca-fa5babc6c2a1</webElementGuid>
+      <webElementGuid>1616a6d0-a024-4bc1-96cb-415e3c674597</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::td[2]</value>
-      <webElementGuid>9b502f1f-0ad1-4d2b-8398-e528830a0af2</webElementGuid>
+      <webElementGuid>5ea38ab9-3314-473d-87b4-248c2759088a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Default criteria'])[1]/preceding::td[1]</value>
-      <webElementGuid>5450ce6a-9624-485d-875a-a4a76f5158d9</webElementGuid>
+      <webElementGuid>67be2e58-7076-48e8-9c71-252290ace6a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[8]</value>
-      <webElementGuid>dce9e0cb-9d1a-4daf-86be-14e13a628e20</webElementGuid>
+      <webElementGuid>52f5251d-66d8-43a7-980b-2b145a6aa249</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>70dbac3a-b5f9-42c9-a9e9-97fdc6b55ea6</webElementGuid>
+      <webElementGuid>dec1de41-6243-4417-b8e6-a221a668b038</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

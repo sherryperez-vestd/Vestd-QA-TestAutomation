@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>my-equity-tax-benefits</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>89969d59-cd5a-43e7-a1c5-cc60d188dd51</testCaseGuid>
-</TestCaseEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>dbec920d-7112-46c9-9f6e-f9d2143c7d39</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/div/div/h5/div/span</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.col-sm-12.col-md-6.col-lg-6.pt-2.border-right > h5.mb-2 > div.v-popper.v-popper--theme-tooltip.d-inline-flex.align-top.v-info-tip > span.static-content</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/div/div/h5/div/span</value>
+         <key>BASIC</key>
+         <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;col-md-12 mb-3&quot;]/div[@class=&quot;row border rounded bg-white&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-lg-6 pt-2 border-right&quot;]/h5[@class=&quot;mb-2&quot;]/div[@class=&quot;v-popper v-popper--theme-tooltip d-inline-flex align-top v-info-tip&quot;]/span[@class=&quot;static-content&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>fd2af14c-4487-4999-96d9-bc69df6684f7</webElementGuid>
+      <webElementGuid>f58da96c-2a97-4467-8fe3-d7895023dd0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>static-content</value>
-      <webElementGuid>2f48625c-b8ca-4a3e-943a-9f97921ceec5</webElementGuid>
+      <webElementGuid>26a92d01-3f29-4547-89bc-51426aa9ba01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;col-md-12 mb-3&quot;]/div[@class=&quot;row border rounded bg-white&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-lg-6 pt-2 border-right&quot;]/h5[@class=&quot;mb-2&quot;]/div[@class=&quot;v-popper v-popper--theme-tooltip d-inline-flex align-top v-info-tip&quot;]/span[@class=&quot;static-content&quot;]</value>
-      <webElementGuid>29cb66e4-caae-434b-9425-bb7f4ca06aa7</webElementGuid>
+      <webElementGuid>556571a5-934b-43e3-a1e0-e9c3a6466fcc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/div/div/h5/div/span</value>
-      <webElementGuid>b4021194-2da5-4528-804c-aa3e2468791b</webElementGuid>
+      <webElementGuid>1a3ab958-02b5-4e77-bc73-e83f37a9f591</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +65,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/h5/div/span</value>
-      <webElementGuid>a88b1db8-e704-4048-a60e-489cb11f6fcd</webElementGuid>
+      <webElementGuid>ce22baca-dd11-4cbd-869b-8929a0f7690f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

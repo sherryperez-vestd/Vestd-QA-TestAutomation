@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>div.row.border.rounded.bg-white</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Current valuation £Enter the company’s current value or an estimate to see what your equity is currently worth.Company valuation history Company valuations previously recorded. 6th February 2030 - £2,500,000 ' or . = ' Current valuation £Enter the company’s current value or an estimate to see what your equity is currently worth.Company valuation history Company valuations previously recorded. 6th February 2030 - £2,500,000 ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9229a0f5-306e-4cce-9e83-3f2ef8570c9f</webElementGuid>
+      <webElementGuid>2c864ec9-b587-4449-afa2-58c4cc1ca384</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>row border rounded bg-white</value>
-      <webElementGuid>9852fd66-1ad4-4d6c-a3c1-4acf1a871c25</webElementGuid>
+      <webElementGuid>87278a71-0b7c-49f2-971f-0278bb6c3f63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Current valuation £Enter the company’s current value or an estimate to see what your equity is currently worth.Company valuation history Company valuations previously recorded. 6th February 2030 - £2,500,000 </value>
-      <webElementGuid>705fa477-c22e-48d3-aa44-6439deed4125</webElementGuid>
+      <webElementGuid>98f405bd-5828-4909-a554-0ff2af4f544a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;col-md-12 mb-3&quot;]/div[@class=&quot;row border rounded bg-white&quot;]</value>
-      <webElementGuid>ac6a8703-a77d-4fb9-bf1c-44e8d41e93fa</webElementGuid>
+      <webElementGuid>5890932f-b51b-46d7-b5d9-563ea0ba04b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>a3c4592a-d2e6-4c5c-b33f-28d7b4a377f6</webElementGuid>
+      <webElementGuid>e700e485-cebd-443e-a26e-28389fe05219</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£...'])[1]/following::div[3]</value>
-      <webElementGuid>b7c66b96-95a3-443f-8c81-87df61932b89</webElementGuid>
+      <webElementGuid>f3fa5aba-cb3f-4ee3-b4f5-c8081a661079</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your profit'])[1]/following::div[3]</value>
-      <webElementGuid>d5147b19-91ef-4d41-9a2c-3ae8ca718317</webElementGuid>
+      <webElementGuid>6a803b6b-ad5c-4d34-a428-56eed1d735da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[2]/div/div[2]/div</value>
-      <webElementGuid>642ff71c-5eff-41b8-bf4a-41aeac2da878</webElementGuid>
+      <webElementGuid>0f966acb-ea56-4a88-9bba-19082b736fef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Current valuation £Enter the company’s current value or an estimate to see what your equity is currently worth.Company valuation history Company valuations previously recorded. 6th February 2030 - £2,500,000 ' or . = ' Current valuation £Enter the company’s current value or an estimate to see what your equity is currently worth.Company valuation history Company valuations previously recorded. 6th February 2030 - £2,500,000 ')]</value>
-      <webElementGuid>c25aeda1-f779-43c2-8554-2a2837b14da3</webElementGuid>
+      <webElementGuid>784a034f-980d-4f8d-bd97-98ebdb336778</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

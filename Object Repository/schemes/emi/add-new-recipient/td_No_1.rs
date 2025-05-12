@@ -15,11 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '
-                                                                    No
-                                                            ' or . = '
-                                                                    No
-                                                            ')]</value>
+         <value>//*[(contains(text(), 'No') or contains(., 'No'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -37,17 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>1a73cb22-a8b2-44bf-a0b1-f8d7184bb031</webElementGuid>
+      <webElementGuid>50a66af6-bafd-4185-9cf2-1ac69ece812a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                                                                    No
-                                                            </value>
-      <webElementGuid>256815e9-3808-4bd3-9584-ab9663d2c00e</webElementGuid>
+      <value>No</value>
+      <webElementGuid>624bf323-df22-4913-b8b5-f04f16895f22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-borderless&quot;]/tbody[1]/tr[1]/td[7]</value>
-      <webElementGuid>500f914e-b3ab-4046-99eb-9c66cd338cae</webElementGuid>
+      <webElementGuid>eacd11b6-6e0b-4bac-b643-6edc8d2439f6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td[7]</value>
-      <webElementGuid>601fb1e6-af7e-4ae1-9318-de5cf035b41a</webElementGuid>
+      <webElementGuid>b484088d-4961-4cd6-959b-a6351cf17c18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::td[1]</value>
-      <webElementGuid>37c6dff5-7016-4728-b557-264be492e4dd</webElementGuid>
+      <webElementGuid>06c3605f-1360-4047-b526-bc6a06972c2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ordinary'])[1]/following::td[4]</value>
-      <webElementGuid>37895cd7-b666-4bf8-bd82-c32578009100</webElementGuid>
+      <webElementGuid>ef121ad8-f158-48a2-bf6e-c1f9fb3d1dc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/preceding::td[1]</value>
-      <webElementGuid>56d36d4d-51f4-4799-bf71-fc5866ac7614</webElementGuid>
+      <webElementGuid>a18ad4d0-f289-4a2a-bd04-c0bca3a19a8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Default criteria'])[1]/preceding::td[2]</value>
-      <webElementGuid>a10359f4-3ff2-479e-a207-ec08041d39b0</webElementGuid>
+      <webElementGuid>d0bcde08-81dc-41dc-91ac-ccdbdaf79c21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[7]</value>
-      <webElementGuid>14253256-44c6-4cbb-beeb-e8dfd2bcb646</webElementGuid>
+      <webElementGuid>533f784a-4f1f-4c08-b3fd-aab7cc8f8099</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +109,6 @@
                                                             ' or . = '
                                                                     No
                                                             ')]</value>
-      <webElementGuid>7c103e7b-5040-45dc-bda6-c231925c4a21</webElementGuid>
+      <webElementGuid>8c8fea7f-89f7-4e50-b9f9-b5319a33dfbd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

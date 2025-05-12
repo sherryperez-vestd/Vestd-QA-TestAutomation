@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Ordinary' or . = 'Ordinary')]</value>
+         <value>//*[(contains(text(), 'Ordinary') or contains(., 'Ordinary'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>3409969a-7def-4082-9f1f-d827d9940c62</webElementGuid>
+      <webElementGuid>f88a8471-49ec-480c-9903-8e992fec29d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Ordinary</value>
-      <webElementGuid>f65acd95-b163-4363-9603-2f9a1adc74d1</webElementGuid>
+      <webElementGuid>fedc20c2-8e24-4b20-ab83-7988bed8eee5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-borderless&quot;]/tbody[1]/tr[1]/td[3]</value>
-      <webElementGuid>0b1f61ee-bc19-480c-bde8-fbe1bcee4fb6</webElementGuid>
+      <webElementGuid>f992505c-9743-46e7-bf36-198c674ec9bb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[5]/table/tbody/tr/td[3]</value>
-      <webElementGuid>b35cbe2e-59e4-4623-8d98-61801a9501af</webElementGuid>
+      <webElementGuid>951a859d-7164-4485-84ca-0c937872de3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Not invited'])[1]/following::td[1]</value>
-      <webElementGuid>0fee6168-5271-46cd-b2a6-d5837042491d</webElementGuid>
+      <webElementGuid>f1be1b62-6e19-434b-9c19-88636320a516</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::td[3]</value>
-      <webElementGuid>2b1f247d-e6e1-4edc-9b85-0016c12a83aa</webElementGuid>
+      <webElementGuid>975ed737-e2ac-4e2c-9af8-cd4087e4094e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::td[4]</value>
-      <webElementGuid>2e4615b5-928e-49aa-8219-3df3320df174</webElementGuid>
+      <webElementGuid>6df49628-e380-44b0-ab1b-b6ad6efea20b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ordinary']/parent::*</value>
-      <webElementGuid>85004f64-c944-45c7-8248-dc444796a6ea</webElementGuid>
+      <webElementGuid>6e95e138-a872-42ab-8c4e-f3fb03ff883a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]</value>
-      <webElementGuid>ff54d05c-d298-4f40-8059-2afa13efe23e</webElementGuid>
+      <webElementGuid>9b24687d-2e5a-488c-882d-32716c2ca2d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Ordinary' or . = 'Ordinary')]</value>
-      <webElementGuid>447e3e65-2a59-4eb8-941f-886abc0b2cba</webElementGuid>
+      <webElementGuid>422b2bf2-da54-4172-9f4d-ce1d5dc6a302</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

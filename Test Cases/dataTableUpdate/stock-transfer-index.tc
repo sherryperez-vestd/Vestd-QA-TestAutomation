@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>stock-transfer-index</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>bce2b0a1-4919-4cf6-aa7d-ddbef7977784</testCaseGuid>
-</TestCaseEntity>

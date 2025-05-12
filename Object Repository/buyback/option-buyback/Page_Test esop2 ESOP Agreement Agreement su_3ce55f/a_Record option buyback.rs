@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Record option buyback</name>
+   <tag></tag>
+   <elementGuidId>2d733ef4-57be-4c7a-9b66-b39d1d7965ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div[5]/div/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-sm.btn-secondary.btn-not-submit</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>79d945ef-85a7-4d65-9614-a65ec1e8aa74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://demo.app.vestd.com/company/50915/option-buyback/create/distribution/6244?redirect_url=%2Fcompany%2F50915%2Fdistribution%2F6244</value>
+      <webElementGuid>6bf2a8b1-fd99-47bc-bfba-6ade1a3bd6d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-secondary btn-not-submit</value>
+      <webElementGuid>1d2e9e58-af48-43f5-bd67-e6291364a370</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Record option buyback</value>
+      <webElementGuid>67cef712-887a-4b03-8565-d5aac5688444</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-8&quot;]/div[@class=&quot;card mt-4&quot;]/div[@class=&quot;card-body bg-light&quot;]/div[2]/a[@class=&quot;btn btn-sm btn-secondary btn-not-submit&quot;]</value>
+      <webElementGuid>eb903bf0-6ce1-4b8f-9568-1c71f77435f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div[5]/div/div[2]/a</value>
+      <webElementGuid>59230401-e276-4df0-9db3-37351ae110b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Record option buyback')]</value>
+      <webElementGuid>804696f1-70ec-4992-83d6-957638872ad7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buyback options'])[2]/following::a[1]</value>
+      <webElementGuid>e795eb41-cee8-4b98-a071-50dbc77d2153</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹250.00'])[1]/following::a[1]</value>
+      <webElementGuid>479ac6d6-a558-47e2-beb7-a14a901b342b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel this agreement'])[1]/preceding::a[1]</value>
+      <webElementGuid>fc55035e-36d2-40b0-ae1b-8d03ac89f8a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel this agreement'])[2]/preceding::a[1]</value>
+      <webElementGuid>cbc98ce5-ba0b-4543-aca6-6c6b7c69adfa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Record option buyback']/parent::*</value>
+      <webElementGuid>ac085046-b306-4490-a3e1-dfa3e33d5cee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50915/option-buyback/create/distribution/6244?redirect_url=%2Fcompany%2F50915%2Fdistribution%2F6244')]</value>
+      <webElementGuid>1f852724-1b74-4838-85f8-da85b07f40fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/a</value>
+      <webElementGuid>c47d321f-4a74-484d-bcd1-43266df02dbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://demo.app.vestd.com/company/50915/option-buyback/create/distribution/6244?redirect_url=%2Fcompany%2F50915%2Fdistribution%2F6244' and (text() = 'Record option buyback' or . = 'Record option buyback')]</value>
+      <webElementGuid>08bf1670-05d7-4854-b9d6-12892dc389f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,8 +6,12 @@
    <elementGuidId>ca5b3772-1e1d-4916-9f15-0ec8d493df30</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Displays only the shares that have already vested.' or . = 'Displays only the shares that have already vested.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='popper_lw9as7uv_5y058x']/div[2]/div</value>
+         <value>//*[(text() = 'Displays only the shares that have already vested.')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,10 +22,10 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=&quot;Displays only the shares that have already vested.&quot;i >> nth=2</value>
+         <value>//div[@id='popper_lw9as7uv_5y058x']/div[2]/div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2ef58a7d-397d-4e3d-8bd4-edb70290b1ba</webElementGuid>
+      <webElementGuid>98bb36ff-f123-46a5-83df-b58cac69a162</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-popper__inner</value>
-      <webElementGuid>83d9f053-aac0-41d1-8615-f3eac325500e</webElementGuid>
+      <webElementGuid>19fe93c6-631c-4e33-83ef-6dd791f55c2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Displays only the shares that have already vested.</value>
-      <webElementGuid>8b8faab7-4324-40d0-a576-7859dfa57fcb</webElementGuid>
+      <webElementGuid>09165f73-73c5-4f6a-af37-863143185c87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_lw9as7uv_5y058x&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]</value>
-      <webElementGuid>4e2995b1-e8e4-4fb8-a887-81dccfd6cfdd</webElementGuid>
+      <webElementGuid>abee39d7-eaea-49f4-8ef6-c9bc8c69b1bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_lw9as7uv_5y058x']/div[2]/div</value>
-      <webElementGuid>982f9a20-e12a-4b9d-bc09-753028a4497a</webElementGuid>
+      <webElementGuid>fa7cddc4-bd60-4cb7-95e8-a9b82756c49e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
-      <webElementGuid>b807f315-c912-4100-9357-6f4c900d95c0</webElementGuid>
+      <webElementGuid>777a3ee1-bcaf-4176-9a3c-838dcfbd1771</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[4]</value>
-      <webElementGuid>e8488622-7443-43f8-94c0-4ac5690afc69</webElementGuid>
+      <webElementGuid>ca5845e1-68e5-4d99-b24a-c3eb2c769ece</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>0f263912-6b09-4179-b0d8-2b6d64e0c3e6</webElementGuid>
+      <webElementGuid>1b6d6346-def6-463b-b0c7-c9af0e9f0832</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Displays only the shares that have already vested.' or . = 'Displays only the shares that have already vested.')]</value>
-      <webElementGuid>02caa542-d3b4-4849-8ad9-ee937c3833a9</webElementGuid>
+      <webElementGuid>89f62214-2086-4904-8f28-3704e8b01e64</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

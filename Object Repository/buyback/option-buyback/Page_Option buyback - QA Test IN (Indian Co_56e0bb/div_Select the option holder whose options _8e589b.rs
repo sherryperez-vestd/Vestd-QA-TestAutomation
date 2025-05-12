@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select the option holder whose options _8e589b</name>
+   <tag></tag>
+   <elementGuidId>58485b3e-e14f-48d4-aee5-f188ba73118c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='select-form']/fieldset/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d685b1ec-fe2e-4dc0-9c75-d321038d350c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>9735186c-4cf0-4741-91a1-320e7ab3e10e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select the option holder whose options are being bought backIN ShareholderIN ShareholderTest esop2IN ShareholderSelect the option agreement under which these options were grantedIN Shareholder ESOP AgreementIN Shareholder ESOP AgreementIN Shareholder ESOP Agreement Continue</value>
+      <webElementGuid>1251144c-295d-4d88-8e5e-6b90f1600d95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select-form&quot;)/fieldset[1]/div[@class=&quot;row&quot;]</value>
+      <webElementGuid>a5f3c066-7c75-4e54-9ca5-1374e7a02fd1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='select-form']/fieldset/div</value>
+      <webElementGuid>f71ab75f-d33c-4ec7-bd0d-e4fe0ce703b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buyback options'])[2]/following::div[1]</value>
+      <webElementGuid>1ff2d12e-1b99-4880-918f-012051c25542</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt; Back to buyback'])[1]/following::div[1]</value>
+      <webElementGuid>4a55b20f-d457-499d-a4c3-1c18ef7c585f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset/div</value>
+      <webElementGuid>0f512bef-85d2-4dca-8c4a-1bd9f51ebbf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select the option holder whose options are being bought backIN ShareholderIN ShareholderTest esop2IN ShareholderSelect the option agreement under which these options were grantedIN Shareholder ESOP AgreementIN Shareholder ESOP AgreementIN Shareholder ESOP Agreement Continue' or . = 'Select the option holder whose options are being bought backIN ShareholderIN ShareholderTest esop2IN ShareholderSelect the option agreement under which these options were grantedIN Shareholder ESOP AgreementIN Shareholder ESOP AgreementIN Shareholder ESOP Agreement Continue')]</value>
+      <webElementGuid>657d81db-ad94-4601-afb4-fb6af401d945</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

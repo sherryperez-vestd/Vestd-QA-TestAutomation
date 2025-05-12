@@ -6,16 +6,16 @@
    <elementGuidId>f84378f8-75f7-4f3c-80f3-e9990e5e9475</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#whF9bBj1ErBHFiwB</value>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control'])[1]</value>
+         <value>(//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control'])[2]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control']</value>
+         <key>CSS</key>
+         <value>#whF9bBj1ErBHFiwB</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bf3297b8-395d-41e4-a798-5ff5f22b277c</webElementGuid>
+      <webElementGuid>ce6f6b45-4155-482d-a6a7-3bae76f99de8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>06e6fbd1-b6d4-41e6-bdde-0d2d9e6c051c</webElementGuid>
+      <webElementGuid>fa63fa95-a7bf-4777-a0a9-99b28b9259d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>form-number-input</value>
-      <webElementGuid>07b7ed2d-a352-4cd4-b08f-36f45d795ff2</webElementGuid>
+      <webElementGuid>750a2ad8-a758-4910-b026-8663feaefbec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>334120ea-0540-4bcd-a7a5-06b562364ce5</webElementGuid>
+      <webElementGuid>36951820-5fa2-4ba9-bba4-685a1194853c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>id</name>
       <type>Main</type>
       <value>whF9bBj1ErBHFiwB</value>
-      <webElementGuid>cc982a44-997a-460b-894b-bf5ad6c1c658</webElementGuid>
+      <webElementGuid>5a98af10-a7f1-4b06-9b6e-9465b6d3b062</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>d1e16cdc-daee-439d-9778-af0f0e4a74c7</webElementGuid>
+      <webElementGuid>de06d2a5-72aa-4a21-ae41-d505db5313b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,6 +81,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;whF9bBj1ErBHFiwB&quot;)</value>
-      <webElementGuid>340b202e-1ba4-4135-b8d1-b0b2c327504a</webElementGuid>
+      <webElementGuid>6bae7d50-c4b1-4ca0-bd7a-08ddfe866bae</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

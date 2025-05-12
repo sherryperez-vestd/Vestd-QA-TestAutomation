@@ -4,26 +4,24 @@
    <name>tooltip-txt_Company-valuation-history</name>
    <tag></tag>
    <elementGuidId>87c5fe7a-f41c-4f99-8683-01523437bbfe</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
-      <entry>
-         <key>IMAGE</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='popper_xrg6x9mo_ylk37i']/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph' or . = 'Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.v-popper__inner</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph' or . = 'Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph')]</value>
+         <key>IMAGE</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -38,7 +36,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>08fe784d-c1a0-4787-82d7-5dc3aeb22e1d</webElementGuid>
+      <webElementGuid>99e2e1ee-9e41-42d7-8069-131da6578d96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-popper__inner</value>
-      <webElementGuid>fe0a43a3-dffc-4699-b4b7-28084ad34cd1</webElementGuid>
+      <webElementGuid>5ac623d0-14d2-4242-bb11-095dea1fb89c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +52,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph</value>
-      <webElementGuid>143f01d2-08ab-4bdd-818a-43474885d9a8</webElementGuid>
+      <webElementGuid>79eea626-1360-4a46-9f2c-4dead256a2c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +60,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_xrg6x9mo_ylk37i&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]</value>
-      <webElementGuid>dd5006af-2848-4986-9478-56baf07c5453</webElementGuid>
+      <webElementGuid>ca5b21d1-150b-4a51-a0e7-dd63d3a69011</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +68,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_xrg6x9mo_ylk37i']/div[2]/div</value>
-      <webElementGuid>9f6c12b4-1875-4ec8-81cb-e1c2a54e00ef</webElementGuid>
+      <webElementGuid>163c1a5b-c0b3-4f4c-9d5e-2d657d36ede2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
-      <webElementGuid>08541dd3-d5ea-406a-93a9-49912ab89820</webElementGuid>
+      <webElementGuid>4c5350f7-0cff-46ba-a7bc-7966c3003870</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[4]</value>
-      <webElementGuid>b3e5f641-efba-4e6b-8845-d00c27d4f887</webElementGuid>
+      <webElementGuid>7612e022-2b68-4e2c-88ac-baafd21af275</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>d132fc3f-dbdd-4b72-952a-75f071575f03</webElementGuid>
+      <webElementGuid>cbceeb62-e944-4eb6-bde2-4b6d683b3a58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph' or . = 'Keep in mind that adjusting the company valuation toggle will instantly update the figures displayed on the graph')]</value>
-      <webElementGuid>297a2ea7-92da-4a50-af4a-b025c8f973dc</webElementGuid>
+      <webElementGuid>d0e96f93-efc9-49bf-a899-b2e628f4a361</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

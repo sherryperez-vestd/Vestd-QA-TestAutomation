@@ -6,22 +6,26 @@
    <elementGuidId>d5eb36fc-552a-478e-9a56-2190acd3ae02</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='c5xy8L36NDPuHDPS']/div/div/div/h5</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Transaction History' or . = 'Transaction History')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>h5.modal-title</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='c5xy8L36NDPuHDPS']/div/div/div/h5</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=heading[name=&quot;Transaction History&quot;i]</value>
+         <value>//div[@id='c5xy8L36NDPuHDPS']/div/div/div/h5</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>ee8a45ee-e5ac-477b-a0dd-427a3e624a98</webElementGuid>
+      <webElementGuid>de456876-52b2-4b3f-af30-d65297e54db1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>modal-title</value>
-      <webElementGuid>23354acc-a309-4fc8-bb04-c4d27bef4a51</webElementGuid>
+      <webElementGuid>7d441032-6beb-4894-a87a-7b8f42e17c79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Transaction History</value>
-      <webElementGuid>04c74cf8-28a8-4644-963f-7f5b0d4a09aa</webElementGuid>
+      <webElementGuid>32d4d5c1-8f4a-47ba-af08-1b17a5a05525</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;c5xy8L36NDPuHDPS&quot;)/div[@class=&quot;modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/h5[@class=&quot;modal-title&quot;]</value>
-      <webElementGuid>f45088fb-b472-4d6f-a8d3-faf4d85fd8ac</webElementGuid>
+      <webElementGuid>dcf22d62-4a15-4eed-a224-89e3d55353d1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='c5xy8L36NDPuHDPS']/div/div/div/h5</value>
-      <webElementGuid>a13e5af1-ee87-45db-95ab-60eb98e8ca66</webElementGuid>
+      <webElementGuid>72baf33e-d3d9-44e8-9719-cc3ae936607d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::h5[1]</value>
-      <webElementGuid>908c86f2-b3b5-4b88-b1a3-2dab8fe6eb92</webElementGuid>
+      <webElementGuid>106a577b-0833-4f28-a3aa-c96f32813da9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::h5[1]</value>
-      <webElementGuid>0672e1a2-438c-487a-b98c-20ad0200fd02</webElementGuid>
+      <webElementGuid>6e77728d-788f-44a5-947a-acef41af5f34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction:'])[1]/preceding::h5[1]</value>
-      <webElementGuid>da4d4a83-bd6c-41e6-a30f-f2b9e0aa3fe5</webElementGuid>
+      <webElementGuid>fe0d78dd-884c-4c99-a906-57a9d01ba8fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Related to:'])[1]/preceding::h5[1]</value>
-      <webElementGuid>297dd569-a3e5-49b2-8e7f-c46390a9be10</webElementGuid>
+      <webElementGuid>12cda6ab-b5e5-4d4b-a2d2-8e1badadb6d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Transaction History']/parent::*</value>
-      <webElementGuid>1a3c2197-9fad-41cc-8e4d-19fa373f049f</webElementGuid>
+      <webElementGuid>ebe0e594-e342-4f98-9b54-e41647ddde99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/h5</value>
-      <webElementGuid>e551d30e-d3f3-430f-ab25-9ee779b33ef9</webElementGuid>
+      <webElementGuid>d669aac7-6d0f-4c94-841f-0a1b0383c58c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = 'Transaction History' or . = 'Transaction History')]</value>
-      <webElementGuid>95937132-72ed-4d1e-94f9-a95cd664bf3a</webElementGuid>
+      <webElementGuid>5c646183-c1d0-4c06-a55a-a67226858d60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

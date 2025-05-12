@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>on-platform-stock-transfer</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>b3fcb2d9-64db-4fbe-96bb-5790bcbc20dd</testCaseGuid>
-</TestCaseEntity>

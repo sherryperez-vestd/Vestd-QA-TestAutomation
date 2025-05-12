@@ -6,15 +6,18 @@
    <elementGuidId>46a0306a-7793-40f0-9d42-1daca317e842</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/div/div[2]/h5/div/span</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;col-md-12 mb-3&quot;]/div[@class=&quot;row border rounded bg-white&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-lg-6 pt-2 border-right&quot;]/h5[@class=&quot;mb-2&quot;]/div[@class=&quot;v-popper v-popper--theme-tooltip d-inline-flex align-top v-info-tip&quot;]/span[@class=&quot;static-content&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7adeb44a-f55c-4f91-9b8b-79f40385d738</webElementGuid>
+      <webElementGuid>ecfe2177-d863-47aa-922c-10e3883debbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>static-content</value>
-      <webElementGuid>aaaca7a4-349b-445a-9063-bdea0dad298e</webElementGuid>
+      <webElementGuid>e0f19bbd-5f37-4051-9ee2-35c73d2ddc2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +48,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;col-md-12 mb-3&quot;]/div[@class=&quot;row border rounded bg-white&quot;]/div[@class=&quot;col-sm-12 col-md-6 col-lg-6 pt-2 border-right&quot;]/h5[@class=&quot;mb-2&quot;]/div[@class=&quot;v-popper v-popper--theme-tooltip d-inline-flex align-top v-info-tip&quot;]/span[@class=&quot;static-content&quot;]</value>
-      <webElementGuid>a3ff1773-9f42-43ab-a632-f5ed7876c118</webElementGuid>
+      <webElementGuid>e02ae03b-7977-4dee-bc4e-993b03ee7859</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +56,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/div/div[2]/h5/div/span</value>
-      <webElementGuid>78fcd1ae-ee15-403d-b9df-b1ba0313b927</webElementGuid>
+      <webElementGuid>700a81c5-83b1-40b2-abe6-59cf7ef5884d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +64,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/h5/div/span</value>
-      <webElementGuid>fd22299c-fb46-4c31-ae22-b12ba9e266de</webElementGuid>
+      <webElementGuid>d220d378-9e78-4769-a5ed-d59c1273960e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

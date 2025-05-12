@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>my-equity-cancelledOptions-defferedShares</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>60e5413b-274a-46e8-b3e7-1358a292a31c</testCaseGuid>
-</TestCaseEntity>

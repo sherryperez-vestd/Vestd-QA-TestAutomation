@@ -6,8 +6,12 @@
    <elementGuidId>f918184f-7cc8-4931-bb7d-a1c78705b2b3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Tracks how your options/shares will vest according to the schedule in your agreement.' or . = 'Tracks how your options/shares will vest according to the schedule in your agreement.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='popper_0h95o2s3_5y058x']/div[2]/div</value>
+         <value>//*[(text() = 'Tracks how your options/shares will vest according to the schedule in your agreement.')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,10 +22,10 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=&quot;Tracks how your options/shares will vest according to the schedule in your agree&quot;i >> nth=2</value>
+         <value>//div[@id='popper_0h95o2s3_5y058x']/div[2]/div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>95f9758f-2ded-4c5a-8304-dd62bca58a04</webElementGuid>
+      <webElementGuid>304cc198-8f5a-4f4e-94f3-1f8e0b03ee0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-popper__inner</value>
-      <webElementGuid>4dfed94f-a0d4-4624-83c9-eb51d328140f</webElementGuid>
+      <webElementGuid>de96699e-b908-478a-a6ad-c5c82dfd5de3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tracks how your options/shares will vest according to the schedule in your agreement.</value>
-      <webElementGuid>fc8d55bc-1978-44b7-a30f-e11634110752</webElementGuid>
+      <webElementGuid>27ff8ef3-1ab5-4b6b-9c73-e7d7d916e86d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_0h95o2s3_5y058x&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]</value>
-      <webElementGuid>40641a66-2660-4425-bfb6-457c55c0ffd1</webElementGuid>
+      <webElementGuid>40e789fc-b48e-49cc-bd2a-a7c91a78650a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_0h95o2s3_5y058x']/div[2]/div</value>
-      <webElementGuid>f4919871-2a8f-45e9-96ef-6a67e1e3f8de</webElementGuid>
+      <webElementGuid>0e9bc595-c05a-4101-a9f5-d4473888ef11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
-      <webElementGuid>beba0b76-09e9-46d2-8394-7b41e033feaf</webElementGuid>
+      <webElementGuid>846e1261-47d8-4ce0-8e64-00ce49d7ed40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[4]</value>
-      <webElementGuid>41c3e684-aba2-4d33-b643-f10e8100448b</webElementGuid>
+      <webElementGuid>6c45d7fd-b1dc-4b6a-adff-1a05af8a4a88</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>4152c2e1-94c4-4d11-aa98-d539774feab5</webElementGuid>
+      <webElementGuid>12945de0-3356-4986-8f19-30e155c9d2d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Tracks how your options/shares will vest according to the schedule in your agreement.' or . = 'Tracks how your options/shares will vest according to the schedule in your agreement.')]</value>
-      <webElementGuid>0759c9b7-128a-4dbd-8e69-1df604c0020b</webElementGuid>
+      <webElementGuid>32157ede-c47a-4cda-8e59-587f08c337b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,8 +6,12 @@
    <elementGuidId>539a836b-5086-4da3-bc0e-9b260c2abcdb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Shows the potential value of your shares once everything has fully vested.' or . = 'Shows the potential value of your shares once everything has fully vested.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='popper_6rf6y5l3_5y058y']/div[2]/div</value>
+         <value>//*[(text() = 'Shows the potential value of your shares once everything has fully vested.')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,10 +22,10 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=&quot;Shows the potential value of your shares once everything has fully vested.&quot;i >> nth=2</value>
+         <value>//div[@id='popper_6rf6y5l3_5y058y']/div[2]/div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9a502dbf-0841-413b-9669-8783d6600301</webElementGuid>
+      <webElementGuid>654d1f51-1f8d-4546-9d45-3f4898f37c05</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-popper__inner</value>
-      <webElementGuid>4dbb9e6e-09cb-4b2a-9e12-cf48abcf005d</webElementGuid>
+      <webElementGuid>e540d8e0-f271-425e-8cf3-e8b8dc515dbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Shows the potential value of your shares once everything has fully vested.</value>
-      <webElementGuid>bafbcc12-9e2f-4c5f-a7df-ad04a024967b</webElementGuid>
+      <webElementGuid>9e88430d-05a8-4154-9fe5-c1177cece70d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_6rf6y5l3_5y058y&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]</value>
-      <webElementGuid>1e234996-5844-4a08-8708-8c169d451d7c</webElementGuid>
+      <webElementGuid>a3991851-314d-411d-841f-eac4ba4b49b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_6rf6y5l3_5y058y']/div[2]/div</value>
-      <webElementGuid>cf3de147-5ce0-483f-a9e0-1ac03c698fe8</webElementGuid>
+      <webElementGuid>df7cd3d7-b841-4224-9975-1739618571bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
-      <webElementGuid>e559eda8-937e-45b1-8582-4fc5b9703d1d</webElementGuid>
+      <webElementGuid>13eaa76e-456d-4d84-ac9e-9211f3b3fda9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[4]</value>
-      <webElementGuid>2bf13042-aff2-4d24-b652-cda9f6c66dab</webElementGuid>
+      <webElementGuid>59f73703-aaff-4b96-bd57-897effaeaf0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>8c243f6f-2f18-469b-885a-78f5ed15366a</webElementGuid>
+      <webElementGuid>28477922-f9ab-48c9-a326-f4f3e40a1e47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Shows the potential value of your shares once everything has fully vested.' or . = 'Shows the potential value of your shares once everything has fully vested.')]</value>
-      <webElementGuid>8f1b1c03-142b-4352-a30e-8697cf6e8ddc</webElementGuid>
+      <webElementGuid>f987e8d2-c29d-4078-a0e7-05918297bc91</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

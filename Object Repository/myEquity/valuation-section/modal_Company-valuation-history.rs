@@ -6,15 +6,19 @@
    <elementGuidId>e1d070a0-edb4-4fce-a1dc-78f93317bfc9</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='EfwtdLlauvpGbViM']/div/div/div[3]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.modal-footer.justify-content-between</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='EfwtdLlauvpGbViM']/div/div/div[3]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Update graphCancel' or . = 'Update graphCancel')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>4d98b934-f59b-411e-b85f-86a90658dd00</webElementGuid>
+      <webElementGuid>95141782-16d4-4772-914d-d256f392a9d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>modal-footer justify-content-between</value>
-      <webElementGuid>0770d07d-e5d7-4baa-979a-a465373400cb</webElementGuid>
+      <webElementGuid>5157e24c-4bb3-4117-8571-1435c02d229e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Update graphCancel</value>
-      <webElementGuid>61d47364-1fb0-40be-a87f-e4321d49e1a1</webElementGuid>
+      <webElementGuid>0fc96fa1-3f52-4dd6-a193-3ae1c062b438</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;EfwtdLlauvpGbViM&quot;)/div[@class=&quot;modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer justify-content-between&quot;]</value>
-      <webElementGuid>6c9bacc9-c48a-4f4d-b9b1-4dd506583ab2</webElementGuid>
+      <webElementGuid>29ae79f7-9eb8-4d4c-b749-df9c2edf6bbe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='EfwtdLlauvpGbViM']/div/div/div[3]</value>
-      <webElementGuid>9e50b966-a6ed-4922-93fa-8aacd445ddd2</webElementGuid>
+      <webElementGuid>cb11387e-a02d-4985-b8fe-279d6265609e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Valuation History'])[1]/following::div[5]</value>
-      <webElementGuid>28cf048c-e033-4676-b332-8860e05d7fa4</webElementGuid>
+      <webElementGuid>1cc0beb3-f5aa-4083-8415-a18503095fc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[9]</value>
-      <webElementGuid>e4b1961f-7585-4b24-b84a-e5ff0bff25f5</webElementGuid>
+      <webElementGuid>a0e80d1b-0383-44cb-bce2-42bc31e76437</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[3]</value>
-      <webElementGuid>c8a98160-c181-4cb2-bfe2-81f7a2b9c259</webElementGuid>
+      <webElementGuid>2798ba8f-86e4-4240-b64e-219d3fe90bf0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Update graphCancel' or . = 'Update graphCancel')]</value>
-      <webElementGuid>55ccbc03-aa68-4efa-a952-55f85e95f1ac</webElementGuid>
+      <webElementGuid>0e58ff08-09da-4db4-921e-e3efe75a3e88</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,19 +6,19 @@
    <elementGuidId>327d4d41-c488-4198-9d83-1fbf631663fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.form-check.form-check-inline > div.v-popper.v-popper--theme-tooltip.d-inline-flex.align-top.v-info-tip > span.static-content</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[2]/div[@class=&quot;row mb-2&quot;]/div[@class=&quot;col-sm-12 col-md-12 p-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-12 col-xl-12 text-md-center&quot;]/div[@class=&quot;graph-options&quot;]/div[@class=&quot;form-check form-check-inline&quot;]/div[@class=&quot;v-popper v-popper--theme-tooltip d-inline-flex align-top v-info-tip&quot;]/span[@class=&quot;static-content&quot;]</value>
+         <value>//*[@class = 'static-content']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/div/span</value>
+         <value>(//div[(@class='v-popper v-popper--theme-tooltip d-inline-flex align-top v-info-tip')])[13]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-check.form-check-inline > div.v-popper.v-popper--theme-tooltip.d-inline-flex.align-top.v-info-tip > span.static-content</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,23 +33,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>bcb37e94-ed87-429f-98df-ef5cf2824160</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>static-content</value>
-      <webElementGuid>e02c7119-de6a-48a0-b9b3-3df38a088294</webElementGuid>
+      <webElementGuid>ff6b2683-054a-4926-892d-2c0dd45b76f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>static-content</value>
+      <webElementGuid>3742b5bc-0905-4af9-9b66-4397f7c4cdfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[2]/div[@class=&quot;row mb-2&quot;]/div[@class=&quot;col-sm-12 col-md-12 p-2&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 col-md-12 col-xl-12 text-md-center&quot;]/div[@class=&quot;graph-options&quot;]/div[@class=&quot;form-check form-check-inline&quot;]/div[@class=&quot;v-popper v-popper--theme-tooltip d-inline-flex align-top v-info-tip&quot;]/span[@class=&quot;static-content&quot;]</value>
-      <webElementGuid>b68dafb6-2080-4bfe-92b5-c05e758d4fec</webElementGuid>
+      <webElementGuid>e589591d-b9d6-444a-bfa5-6d1468cb33f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div/div/span</value>
-      <webElementGuid>6a5bb62e-b710-42ee-b17e-98a2100bc4f5</webElementGuid>
+      <webElementGuid>e757f168-d272-4975-8e3e-54db754bcfab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,6 +65,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/div[2]/div/div/div/div/span</value>
-      <webElementGuid>3e22fe08-fe1a-407d-b8a9-e98ecf3344b2</webElementGuid>
+      <webElementGuid>6e9e62f4-d3a3-4b51-a011-806e3e8fafdf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

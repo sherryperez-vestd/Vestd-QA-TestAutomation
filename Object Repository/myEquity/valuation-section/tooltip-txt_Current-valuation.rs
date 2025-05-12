@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>div.v-popper__inner</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'This valuation was added by the company on 10th January 2025.' or . = 'This valuation was added by the company on 10th January 2025.')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ac1b2204-cb6a-4cc5-a598-fbfb70ddf090</webElementGuid>
+      <webElementGuid>ee48f67d-da0a-498f-ba50-bee4cdabe3e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>v-popper__inner</value>
-      <webElementGuid>5f3b4d48-b9ba-4f1a-b0d0-3684b0f36166</webElementGuid>
+      <webElementGuid>8a8fc80e-8864-4957-aa84-f765eeabe8e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>This valuation was added by the company on 10th January 2025.</value>
-      <webElementGuid>00336b80-c8b3-41ff-b9cc-2a2766ac2e6e</webElementGuid>
+      <webElementGuid>5cbdf6e6-9ec0-4b25-a8ed-7ad14d72f592</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_j5in5tc8_ylk37f&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]</value>
-      <webElementGuid>51884b40-35ba-49a0-a8a8-725f48bc1066</webElementGuid>
+      <webElementGuid>9d572f7d-def8-4691-9895-110a2ad35ebc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_j5in5tc8_ylk37f']/div[2]/div</value>
-      <webElementGuid>ed5581ae-a794-4153-a90f-cc357644a16c</webElementGuid>
+      <webElementGuid>261068e3-96ad-4f65-a11c-095806d3b571</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::div[4]</value>
-      <webElementGuid>d34cf2c6-caee-470d-9353-72fbb039621a</webElementGuid>
+      <webElementGuid>41e45afc-0251-478f-bb07-2357d800ef5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::div[4]</value>
-      <webElementGuid>35d71630-5ae2-43b2-b26d-aa803d793bea</webElementGuid>
+      <webElementGuid>dc7d2950-a692-4d11-bd17-c1ae61fd9592</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>89e33379-daa8-4721-9ab0-f1911727b1be</webElementGuid>
+      <webElementGuid>41da1d3f-9b35-4a87-ba7f-b32e7f899a90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'This valuation was added by the company on 10th January 2025.' or . = 'This valuation was added by the company on 10th January 2025.')]</value>
-      <webElementGuid>7dfa29f9-a3c0-4b6f-99a4-a910288e1fc5</webElementGuid>
+      <webElementGuid>3aa6a78c-0542-4781-9ecd-c286f48d1d78</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

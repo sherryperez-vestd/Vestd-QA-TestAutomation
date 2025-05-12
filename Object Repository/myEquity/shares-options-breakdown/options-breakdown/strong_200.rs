@@ -6,22 +6,26 @@
    <elementGuidId>711d4559-dd32-4b0c-9cbc-d7a714cb937f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>strong.text-buyback</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '201' or . = '201')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>strong.text-buyback</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;200&quot;s</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>strong</value>
-      <webElementGuid>e02921c8-558c-4758-8cbd-f6f964d4960e</webElementGuid>
+      <webElementGuid>25682a5c-ea59-4923-911e-09490463b2c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +41,15 @@
       <name>class</name>
       <type>Main</type>
       <value>text-buyback</value>
-      <webElementGuid>afa0b267-1ff1-4070-831c-0964bbd17f2d</webElementGuid>
+      <webElementGuid>61bb6529-6465-4f63-b176-78ffdef229f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>200</value>
-      <webElementGuid>aa354eed-bc3e-486d-879b-871631bcdaca</webElementGuid>
+      <value>201</value>
+      <webElementGuid>4125fc6c-163a-47f1-bd0d-6cf7951a5b77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 expanded&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;align-cards-sidewise align-items-stretch&quot;]/div[@class=&quot;card v-card bg-white mb-3 adjust-options-card&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;d-flex&quot;]/ul[@class=&quot;list-inline&quot;]/li[@class=&quot;list-inline-item&quot;]/strong[@class=&quot;text-buyback&quot;]</value>
-      <webElementGuid>1916da5f-cdb2-4ee8-b8da-7133dd5ec825</webElementGuid>
+      <webElementGuid>199adb53-06b0-4bae-9ed8-26a2c7ff18a4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
-      <webElementGuid>b11c675b-b990-4437-8eb1-970240e5ec6c</webElementGuid>
+      <webElementGuid>66e095f7-634c-4242-85cf-8dc99e26c7f6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Buyback:'])[1]/following::strong[1]</value>
-      <webElementGuid>e9d43977-2f86-4d3b-b489-cbcb9a7ef30e</webElementGuid>
+      <webElementGuid>52de8092-c910-438a-8d10-1343c5957686</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unvested:'])[1]/following::strong[2]</value>
-      <webElementGuid>cf3f9fdb-dacb-4397-912e-71a196f1f215</webElementGuid>
+      <webElementGuid>637469e4-aed9-4540-8394-ca6c37795f47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelled:'])[1]/preceding::strong[1]</value>
-      <webElementGuid>ead1c1c0-a069-428f-914e-27eacbe5b0a6</webElementGuid>
+      <webElementGuid>c96317a4-1edf-457f-9916-64840d7b6455</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Granted on:'])[1]/preceding::strong[2]</value>
-      <webElementGuid>498a26bb-3e96-462d-9507-3827aa550a2a</webElementGuid>
+      <webElementGuid>5c77017d-a7e8-4ef7-b8e1-b85038b10f5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='200']/parent::*</value>
-      <webElementGuid>29c5fe53-0aef-48d1-8920-89b266476be0</webElementGuid>
+      <webElementGuid>04607e5f-69fe-4010-9705-e377a64a4cee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/strong</value>
-      <webElementGuid>b2b9a83b-ca71-438c-b6e9-d9223ce337f3</webElementGuid>
+      <webElementGuid>6e1c5651-e853-4029-9ac5-ea62ea4bd21d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//strong[(text() = '200' or . = '200')]</value>
-      <webElementGuid>3218a9bd-38fd-4a5c-9c8a-cfa1a13d19f5</webElementGuid>
+      <webElementGuid>7500841d-9a0c-41f1-b42a-f409e049aa3f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

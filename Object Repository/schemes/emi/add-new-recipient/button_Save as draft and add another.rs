@@ -11,18 +11,16 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//*[@type = 'submit' and (contains(text(), 'Save as draft and add another') or contains(., 'Save as draft and add another'))]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = '
-                            Save as draft and add another
-                        ' or . = '
-                            Save as draft and add another
-                        ')]</value>
+         <value>//*[@type = 'submit' and (contains(text(), 'Save as draft and add another&#xd;
+                        ') or contains(., 'Save as draft and add another&#xd;
+                        '))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -37,7 +35,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>58d2978c-2b55-49a9-8e35-de1288137054</webElementGuid>
+      <webElementGuid>cb71d325-fe64-434c-99af-fcfbeda13e96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +43,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>8480eb78-089d-496b-8815-f4bae0f40b91</webElementGuid>
+      <webElementGuid>37dd070f-21b4-4e71-84a4-d36dc802e6a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-md btn-primary v-btn</value>
-      <webElementGuid>c3f12561-badc-463e-a3f0-d501ae3c184a</webElementGuid>
+      <webElementGuid>c4cb460c-a7d7-4b3c-9946-32bb862847c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,17 +59,16 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>button-element</value>
-      <webElementGuid>96042d2d-3277-46dd-b05a-99b0deb37bd2</webElementGuid>
+      <webElementGuid>5d9866e2-e135-4650-8308-3e17dfacf1e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                            Save as draft and add another
+      <value>Save as draft and add another&#xd;
                         </value>
-      <webElementGuid>a91cc9e1-3421-4e9a-9530-bf8dc7190dec</webElementGuid>
+      <webElementGuid>ba642633-68cc-4c0a-9a31-dd1e75064e6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +76,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;alert bg-light border&quot;]/form[1]/div[@class=&quot;action-object d-lg-flex justify-content-end align-items-start flex-row-reverse&quot;]/div[@class=&quot;action-object___buttons&quot;]/div[@class=&quot;btn-group&quot;]/button[@class=&quot;btn btn-md btn-primary v-btn&quot;]</value>
-      <webElementGuid>a1baa38a-f8dd-4d0f-b066-acaaa12ad762</webElementGuid>
+      <webElementGuid>469ad8f9-f658-46c3-8870-d24a05dff849</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +84,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>7e2b300c-4835-404d-b431-f5c9d971ced2</webElementGuid>
+      <webElementGuid>ac680673-70d3-4dca-b7af-6fef528a4714</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +92,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[3]/form/div[4]/div[2]/div/button</value>
-      <webElementGuid>fec397e9-c103-4951-bd51-6bc225e190fd</webElementGuid>
+      <webElementGuid>0cb34a93-5282-40f2-bafe-05291d21e3f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unique identifier'])[1]/following::button[1]</value>
-      <webElementGuid>f08aa416-724c-420e-8228-724f20faff11</webElementGuid>
+      <webElementGuid>7c30ab34-53f9-450f-ba0b-ffa614f01863</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='contact us'])[1]/preceding::button[1]</value>
-      <webElementGuid>5e79e20d-bf5b-4d2a-a007-89054ee1585d</webElementGuid>
+      <webElementGuid>b8f56ff8-6544-4c7f-a2ae-230166d4dcea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +116,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Save as draft and add another']/parent::*</value>
-      <webElementGuid>5a3172f6-9f13-4f76-830e-4cbe312926d8</webElementGuid>
+      <webElementGuid>ff9e42fc-b59f-487c-88d4-cbf8ab8ff97b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +124,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>1587fe05-a326-44d6-bf48-719577023aaf</webElementGuid>
+      <webElementGuid>5758cf52-8710-4c43-bd96-502f8f09cb32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,6 +136,6 @@
                         ' or . = '
                             Save as draft and add another
                         ')]</value>
-      <webElementGuid>c5a6ea33-fcd5-435c-918a-1af504e09f28</webElementGuid>
+      <webElementGuid>8a7322a8-bbfc-4ace-af0f-e486e5881805</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
