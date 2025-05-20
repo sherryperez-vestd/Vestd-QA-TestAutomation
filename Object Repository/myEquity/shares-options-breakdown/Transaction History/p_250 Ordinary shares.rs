@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction History'])[1]/following::p[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction History'])[1]/following::p[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>40c34dab-8de9-46ec-8395-6c4ed47cc081</webElementGuid>
+      <webElementGuid>c4eb8e59-9ac5-41c7-a7b5-15597debc3c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-1 font-weight-bolder</value>
-      <webElementGuid>549e2659-e4a8-472d-9915-88ab83a37285</webElementGuid>
+      <webElementGuid>dd7028b6-cb56-4c31-869e-f04fa1898467</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>250 Ordinary shares</value>
-      <webElementGuid>3c495c98-483b-4e0a-a5e0-a637f0a5ee79</webElementGuid>
+      <webElementGuid>d46517fc-681b-4685-8840-2508a035d619</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;uYSvIiTQ9VRLZ2CL&quot;)/div[@class=&quot;modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;share-issue-transaction&quot;]/div[@class=&quot;col mb-2&quot;]/p[@class=&quot;mb-1 font-weight-bolder&quot;]</value>
-      <webElementGuid>bd22eaac-0663-4a3c-ad2b-ec52a944d9df</webElementGuid>
+      <webElementGuid>69b64c99-3341-4989-bacf-a2b2a5409f98</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='uYSvIiTQ9VRLZ2CL']/div/div/div[2]/div/div/p</value>
-      <webElementGuid>07f50039-afcd-484e-916f-5883dbaf21a0</webElementGuid>
+      <webElementGuid>9f1eb3fd-aa7a-4b5b-aae3-a1c966b4fbfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction History'])[1]/following::p[1]</value>
-      <webElementGuid>319c5864-19c8-484f-bb21-290ba7427797</webElementGuid>
+      <webElementGuid>5b686f91-fa77-43ab-8901-39cb24ea1706</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::p[1]</value>
-      <webElementGuid>29417a66-1de7-4753-a2fa-af174833b605</webElementGuid>
+      <webElementGuid>fb8f7939-6290-4f7a-9d01-f43e6696bb9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction:'])[1]/preceding::p[1]</value>
-      <webElementGuid>aa9ae8b4-71b3-4503-807c-28442516a293</webElementGuid>
+      <webElementGuid>9b0157cf-7a46-4dba-8378-0db48aeb353d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Related to:'])[1]/preceding::p[1]</value>
-      <webElementGuid>f7f30f99-3ae5-4bf5-bd1f-a836f1ac637f</webElementGuid>
+      <webElementGuid>6b407bf8-b968-4f0c-a738-ed7fe85f110f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='250 Ordinary shares']/parent::*</value>
-      <webElementGuid>2920170b-e105-4897-a5e1-c366305e8f33</webElementGuid>
+      <webElementGuid>de8cfee6-a3a4-4af4-b2de-1bfed757a40e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[2]/div/div/p</value>
-      <webElementGuid>20a3e9fd-10d0-435d-b171-91449fcb1266</webElementGuid>
+      <webElementGuid>0ea8f14a-4abd-42c4-a547-6c447fded5ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = '250 Ordinary shares' or . = '250 Ordinary shares')]</value>
-      <webElementGuid>4cb6cd04-bfa4-4658-a5b2-618244a488b0</webElementGuid>
+      <webElementGuid>aeca9785-20c4-4ffa-be81-fe1e0eb5dcef</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

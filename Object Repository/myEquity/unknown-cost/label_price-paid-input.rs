@@ -6,22 +6,26 @@
    <elementGuidId>17a86d3e-ca4f-478b-993f-450989725e6f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.d-flex.align-items-center.flex-wrap.justify-content-between</value>
+         <key>XPATH</key>
+         <value>//*[(contains(text(), '-10 shares at £0.0001 nominal value'))]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/div</value>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), '£/share1,000 shares at £0.0001 nominal value SaveCancel') or contains(., '£/share1,000 shares at £0.0001 nominal value SaveCancel'))]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.d-flex.align-items-center.flex-wrap.justify-content-between</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;£/share1,000 shares at £0.0001 nominal value SaveCancel&quot;i</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/div</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>276d8f27-a286-492b-a3a8-cb8e21408a53</webElementGuid>
+      <webElementGuid>e20d806c-9216-49a8-a9a9-3addac6fd187</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +41,15 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center flex-wrap justify-content-between</value>
-      <webElementGuid>92c2b5aa-cb54-4900-9cb9-42be9a682d2c</webElementGuid>
+      <webElementGuid>fdfd8e6b-ce5d-422a-be87-c68461354407</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>£/share1,000 shares at £0.0001 nominal value SaveCancel</value>
-      <webElementGuid>7dc4f615-b440-4e62-87ea-439b5f150900</webElementGuid>
+      <webElementGuid>1d26e9f0-4fbc-4943-819c-107483d7749c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[1]/div[@class=&quot;d-flex align-items-center flex-wrap justify-content-between&quot;]</value>
-      <webElementGuid>aaae97e0-01a2-49be-bdbd-1b2bf8eeb5d0</webElementGuid>
+      <webElementGuid>79f22972-d59c-4aad-b199-7e213b2d08d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/div</value>
-      <webElementGuid>0f94b61f-75d7-4060-a071-b1a64cd4b504</webElementGuid>
+      <webElementGuid>6f6db990-49f5-4d4d-a2b3-e4d91841f8f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Details'])[1]/following::div[1]</value>
-      <webElementGuid>b648b905-90ec-4e14-8c4a-67b3bd6a98b6</webElementGuid>
+      <webElementGuid>42b8f0fd-8e1e-4b7c-b7f7-28263ebb0f02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Price paid'])[1]/following::div[1]</value>
-      <webElementGuid>29a4fe7c-87ec-4be0-906d-2c1797cfdaec</webElementGuid>
+      <webElementGuid>0bafde41-002c-4c5e-a474-e0f7439409fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div</value>
-      <webElementGuid>00e71c7c-422c-4446-adb6-759fd2c21a8e</webElementGuid>
+      <webElementGuid>59408feb-dbef-47e5-bf49-4f489f974535</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '£/share1,000 shares at £0.0001 nominal value SaveCancel' or . = '£/share1,000 shares at £0.0001 nominal value SaveCancel')]</value>
-      <webElementGuid>b4324a68-c0d8-4366-bf4b-a46e27303ff6</webElementGuid>
+      <webElementGuid>6f0ae744-2457-4e8e-8ec8-fc71d03aa512</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

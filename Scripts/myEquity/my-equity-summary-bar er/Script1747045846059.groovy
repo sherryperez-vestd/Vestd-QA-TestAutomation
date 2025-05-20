@@ -137,8 +137,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-ba
 
 WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/tooltip-icon_Projected-value'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_Projected-value'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_Projected-value'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/myEquity/summary-bar/tooltip-txt_Projected-value'))
 
@@ -164,66 +163,47 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/dashboard?user_id=
 
 WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/span_Overall value'))
 
-WebUI.setText(findTestObject('Object Repository/myEquity/summary-bar/input__estimated-profit'), 
-    '1')
+WebUI.setText(findTestObject('myEquity/award-section/input_estimated-profit-per-share'), '1')
 
 WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/input_vesting_overtime_typevalue'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 
-    '£3,535.29')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), '£3,535.29')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 
-    '£3,533.49')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), '£3,533.49')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 
-    '£10,014.43')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), '£10,014.43')
 
 WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/input_Vesting over time_vesting_typevalue'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 
-    '£3,535.29')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), '£3,535.29')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 
-    '£3,533.49')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), '£3,533.49')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 
-    '£10,014.43')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), '£10,014.43')
 
 WebUI.click(findTestObject('Object Repository/myEquity/summary-bar/input_Vested until now_vesting_typevalue'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), 
-    '£3,535.29')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-value'), '£3,535.29')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), 
-    '£3,533.49')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-current-profit'), '£3,533.49')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), 
-    '£10,014.43')
+WebUI.verifyElementText(findTestObject('Object Repository/myEquity/summary-bar/txt-projected-value'), '£10,014.43')
 

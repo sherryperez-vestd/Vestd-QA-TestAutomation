@@ -6,22 +6,26 @@
    <elementGuidId>9de7873f-57fe-465b-81f6-24f032c9c961</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.input-group-append > span.input-group-text</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/div/div/div/div/div[2]/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '/share' or . = '/share')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.input-group-append > span.input-group-text</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[data-test-id=&quot;form-number-append&quot;] >> internal:text=&quot;/share&quot;i</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/div/div/div/div/div[2]/span</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>4b05eccf-bc4f-4af3-ab4f-82b813d130b8</webElementGuid>
+      <webElementGuid>77120219-5d9c-44b0-90f5-079ab37419d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input-group-text</value>
-      <webElementGuid>711ee5e1-6c54-443e-a672-683b2006416d</webElementGuid>
+      <webElementGuid>bd437696-6958-45d9-bf9e-ed06e4361a30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>/share</value>
-      <webElementGuid>8237e804-7ef1-4319-b041-93c69a2355e8</webElementGuid>
+      <webElementGuid>3cb0ae4b-c612-4103-bef5-daf68798fdaa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[1]/div[@class=&quot;d-flex align-items-center flex-wrap justify-content-between&quot;]/div[@class=&quot;d-flex flex-wrap align-items-center mr-2&quot;]/div[@class=&quot;form-group form-group--optional mb-0&quot;]/div[@class=&quot;input-group form-control-width-md&quot;]/div[@class=&quot;input-group-append&quot;]/span[@class=&quot;input-group-text&quot;]</value>
-      <webElementGuid>c22fc694-4e8a-4446-9f34-034b2dc2ffad</webElementGuid>
+      <webElementGuid>29ec3856-2962-4183-9d56-51e8717c18ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/div/div/div/div/div[2]/span</value>
-      <webElementGuid>a393d46d-0a97-4430-a4b6-2ed8929be078</webElementGuid>
+      <webElementGuid>72a60f70-97a1-45b8-acd9-5f64ee83452a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£'])[4]/following::span[1]</value>
-      <webElementGuid>50146182-6246-4cb3-a0bb-0300a94cfad3</webElementGuid>
+      <webElementGuid>6e37a09e-e44b-4627-ac27-c2375ff5c88f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Details'])[1]/following::span[2]</value>
-      <webElementGuid>ac65c2fd-ef90-44de-808d-8ff35fcabb40</webElementGuid>
+      <webElementGuid>7ae7d074-3156-4981-a238-36e7a455b26c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='/share']/parent::*</value>
-      <webElementGuid>f0d20f66-a8b3-4a1f-8225-57393ede5958</webElementGuid>
+      <webElementGuid>dcddc3ec-d40a-4ebc-8bda-34ddd8cc98e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div/div/div/div[2]/span</value>
-      <webElementGuid>83f3dac9-504b-413a-82b0-dbe8be20c935</webElementGuid>
+      <webElementGuid>5651665d-b62f-4bda-9783-d531747e0ce3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '/share' or . = '/share')]</value>
-      <webElementGuid>acded4af-31d0-4e31-b24c-dfd9e249c468</webElementGuid>
+      <webElementGuid>b2b09e4d-cc87-43ef-b5c0-d21ec1dfc59b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

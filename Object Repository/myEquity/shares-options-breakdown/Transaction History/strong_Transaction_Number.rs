@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_Transaction_Number</name>
+   <tag></tag>
+   <elementGuidId>4dcb8d2e-7021-4171-aad5-782b5212ab2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '2' or . = '2')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='uYSvIiTQ9VRLZ2CL']/div/div/div[2]/div/div/ul/li/strong</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col.mb-2 > ul.mt-1.list-unstyled > li > strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//div[@id='uYSvIiTQ9VRLZ2CL']/div/div/div[2]/div/div/ul/li/strong</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>0201ba75-7894-42e2-b00e-d5acd63bb1d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>a57d1090-30e7-480f-916e-bd9d3e4683db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;uYSvIiTQ9VRLZ2CL&quot;)/div[@class=&quot;modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;share-issue-transaction&quot;]/div[@class=&quot;col mb-2&quot;]/ul[@class=&quot;mt-1 list-unstyled&quot;]/li[1]/strong[1]</value>
+      <webElementGuid>70262daa-c4a1-4ee2-bc01-971ed3f57d2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='uYSvIiTQ9VRLZ2CL']/div/div/div[2]/div/div/ul/li/strong</value>
+      <webElementGuid>11470a6c-9d40-41d1-bc73-b3b29772b117</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction:'])[1]/following::strong[1]</value>
+      <webElementGuid>379dce26-9780-4d20-9b42-5c20c53afbcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction History'])[1]/following::strong[1]</value>
+      <webElementGuid>51668af9-da83-46ef-8586-f3d82014c272</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Related to:'])[1]/preceding::strong[1]</value>
+      <webElementGuid>8ce459d3-20c1-431f-ad9c-4e8381820fe3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FTest LTest option'])[50]/preceding::strong[1]</value>
+      <webElementGuid>2778873c-f9cc-4e67-b28f-1767d7139f33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1']/parent::*</value>
+      <webElementGuid>ef237c77-1a8e-41cf-a1dc-652603e6466d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/ul/li/strong</value>
+      <webElementGuid>1c93f769-3a4f-4a4c-bd24-ab1b2cc3aa65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = '1' or . = '1')]</value>
+      <webElementGuid>a7be0b17-2149-4ed1-a1b0-8e1c94f56f62</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

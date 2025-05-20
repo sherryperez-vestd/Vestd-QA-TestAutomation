@@ -6,22 +6,26 @@
    <elementGuidId>c3bc1b24-b97e-43d6-9885-ef647d46d89d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td > small.text-muted</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/small</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '£0.0001 nominal value' or . = '£0.0001 nominal value')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td > small.text-muted</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;£0.0001 nominal value&quot;i >> nth=0</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/small</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>small</value>
-      <webElementGuid>e9590e5c-b223-4de1-bfa9-3c20dbf39535</webElementGuid>
+      <webElementGuid>e1352dd2-0bec-4726-ae13-bd89224f3f15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-muted</value>
-      <webElementGuid>3f6d175b-fafa-4100-abdc-ed03a6100536</webElementGuid>
+      <webElementGuid>b54c06ce-8566-41d0-b7f5-010474acf8c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>£0.0001 nominal value</value>
-      <webElementGuid>53633da5-4e80-4641-ab20-1ff922a99b6a</webElementGuid>
+      <webElementGuid>d74f2d48-e900-44dd-954c-52a32763a3c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[1]/small[@class=&quot;text-muted&quot;]</value>
-      <webElementGuid>123278af-e661-4f13-9b47-3245f47a2809</webElementGuid>
+      <webElementGuid>0d568665-1995-4166-a148-73b9cbec935e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/small</value>
-      <webElementGuid>3aced691-25a9-4a24-b42b-b44fbe0461bc</webElementGuid>
+      <webElementGuid>0919103e-f9ba-4268-88e8-d4c3760339f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£-/shares'])[1]/following::small[1]</value>
-      <webElementGuid>4f07906b-f032-4a10-a7db-52904ddc7b15</webElementGuid>
+      <webElementGuid>3fa649be-9538-466a-be4b-9ed6a3347898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Details'])[1]/following::small[1]</value>
-      <webElementGuid>82c907e8-ea69-4afc-b16c-ffe4db66af06</webElementGuid>
+      <webElementGuid>39ab39f8-cee3-4718-8e04-af7b0bd429a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Issued 28th January 2025'])[1]/preceding::small[1]</value>
-      <webElementGuid>f3e14316-185e-428f-b9af-3141a8e0a08d</webElementGuid>
+      <webElementGuid>fc30ed8e-f686-46ef-ae66-ca00b215f5e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£-/shares'])[2]/preceding::small[2]</value>
-      <webElementGuid>0bd6d378-ac57-46f7-bdf1-47c0c66a0b41</webElementGuid>
+      <webElementGuid>f9f24d39-5f2a-406c-a996-a7a8543f6a10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='£0.0001 nominal value']/parent::*</value>
-      <webElementGuid>86d0c6a3-95cc-498a-afb7-1c4848ae3ee8</webElementGuid>
+      <webElementGuid>510065fc-d85d-4ffb-ab9d-fad0bf7c5f47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/small</value>
-      <webElementGuid>b74108f5-a8ee-4d69-ab5c-f226a6aacfe0</webElementGuid>
+      <webElementGuid>670cade4-36a4-421d-af0b-99f01495b6db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//small[(text() = '£0.0001 nominal value' or . = '£0.0001 nominal value')]</value>
-      <webElementGuid>6bf80ea6-a51c-422b-a4d8-0e265ff23e9c</webElementGuid>
+      <webElementGuid>718f2861-c65e-4dfa-ba36-f48011f27125</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

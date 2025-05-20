@@ -6,22 +6,25 @@
    <elementGuidId>a7e6b28d-4567-4ffe-988c-436c6e4d4d93</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Unknown cost We don’t have a record of how much you paid for these shareholdings, so we’ve defaulted to nominal value. Update the price you paid for these shares to see your actual profit.Price paidDetails£-/shares£0.0001 nominal value1,000 sharesIssued 28th January 2025Update price£-/shares£0.0001 nominal value-10 sharesUpdate price£-/shares£0.0001 nominal value15 sharesUpdate price' or . = 'Unknown cost We don’t have a record of how much you paid for these shareholdings, so we’ve defaulted to nominal value. Update the price you paid for these shares to see your actual profit.Price paidDetails£-/shares£0.0001 nominal value1,000 sharesIssued 28th January 2025Update price£-/shares£0.0001 nominal value-10 sharesUpdate price£-/shares£0.0001 nominal value15 sharesUpdate price')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Unknown cost We don’t have a record of how much you paid for these shareholdings&quot;i</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>6cc090df-8a7b-41f4-8c29-aad566ad9381</webElementGuid>
+      <webElementGuid>8ab06ea0-5393-4ae9-8c28-d302b865e958</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card overflow-hidden v-card bg-white mb-3</value>
-      <webElementGuid>35600c54-7da0-471c-b9a6-d1cfd9c28da1</webElementGuid>
+      <webElementGuid>9afb2cfd-41c5-4eee-acec-13895a6e47e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +48,7 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>v-card-component</value>
-      <webElementGuid>8c3af1eb-60d0-4cb5-9c28-5c75b91fdac6</webElementGuid>
+      <webElementGuid>97a5b084-c29b-48e5-93d6-9deff4a84b20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +56,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Unknown cost We don’t have a record of how much you paid for these shareholdings, so we’ve defaulted to nominal value. Update the price you paid for these shares to see your actual profit.Price paidDetails£-/shares£0.0001 nominal value1,000 sharesIssued 28th January 2025Update price£-/shares£0.0001 nominal value-10 sharesUpdate price£-/shares£0.0001 nominal value15 sharesUpdate price</value>
-      <webElementGuid>a87cdbd5-9b05-4e7d-8e7d-6f8b9a73d842</webElementGuid>
+      <webElementGuid>c2938b3f-ffb5-43b5-8811-db8bd5e7a165</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]</value>
-      <webElementGuid>a019b988-09be-489c-bad4-cf4357512f98</webElementGuid>
+      <webElementGuid>f319917f-adac-4ba2-8b36-c5148f705d83</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]</value>
-      <webElementGuid>8deb9aa6-fa1a-4f69-9c9b-898b1e309afd</webElementGuid>
+      <webElementGuid>6333eeb6-bd3e-4d5b-be26-71a50f1f9f19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax &amp; profit calculations'])[1]/following::div[1]</value>
-      <webElementGuid>569ab1cc-720d-4c8b-a8ee-8e2510808331</webElementGuid>
+      <webElementGuid>435ef82b-afe5-40cb-a766-64990e25a38f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='sell your shares'])[1]/following::div[1]</value>
-      <webElementGuid>65231b40-b6d7-47f6-8a1e-80690732c27e</webElementGuid>
+      <webElementGuid>2a10cd8c-a7ba-4968-82af-f0fd4331c740</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[4]</value>
-      <webElementGuid>72e1ce04-77b9-4e43-a306-43cdf37f1b32</webElementGuid>
+      <webElementGuid>abd554f1-2663-4517-ad28-0d6a505f24c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +104,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Unknown cost We don’t have a record of how much you paid for these shareholdings, so we’ve defaulted to nominal value. Update the price you paid for these shares to see your actual profit.Price paidDetails£-/shares£0.0001 nominal value1,000 sharesIssued 28th January 2025Update price£-/shares£0.0001 nominal value-10 sharesUpdate price£-/shares£0.0001 nominal value15 sharesUpdate price' or . = 'Unknown cost We don’t have a record of how much you paid for these shareholdings, so we’ve defaulted to nominal value. Update the price you paid for these shares to see your actual profit.Price paidDetails£-/shares£0.0001 nominal value1,000 sharesIssued 28th January 2025Update price£-/shares£0.0001 nominal value-10 sharesUpdate price£-/shares£0.0001 nominal value15 sharesUpdate price')]</value>
-      <webElementGuid>c17891c2-813a-450f-a5d0-5f0de75e0737</webElementGuid>
+      <webElementGuid>b4ed8ff7-6b64-424c-926a-7fab5c5a2bb9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

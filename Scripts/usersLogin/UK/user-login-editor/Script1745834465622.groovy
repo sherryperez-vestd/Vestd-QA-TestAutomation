@@ -27,5 +27,5 @@ WebUI.setText(findTestObject('Object Repository/login/input_email'), 'sherry.per
 
 WebUI.setEncryptedText(findTestObject('Object Repository/login/input_password'), 'BXwrjJCMvIr67Y1Dtu7MbQ==')
 
-WebUI.click(findTestObject('Object Repository/login/btn_Log in'))
+WebUI.click(findTestObject('Object Repository/login/btn_Login'))
 

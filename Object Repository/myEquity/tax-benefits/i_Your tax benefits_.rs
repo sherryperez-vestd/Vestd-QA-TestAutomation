@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/div/div/div[2]/i</value>
+         <value>(//*[@class = 'vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down'])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@class = 'vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>612e7fa2-fb4b-44ff-8364-bb00fd96be02</webElementGuid>
+      <webElementGuid>910107a2-0b3a-4a08-bee7-5cf67859797b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down</value>
-      <webElementGuid>6c238b71-d64f-479f-8c6f-286a0f6195a6</webElementGuid>
+      <webElementGuid>2bc9ef56-642b-4ffc-aa33-26bd082ff892</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;card-header d-flex flex-wrap flex-column bg-white hide-header-separator cursor-pointer&quot;]/div[@class=&quot;d-flex align-items-center text-break header-main-content w-100&quot;]/div[@class=&quot;d-flex ml-auto flex-column align-self-stretch flex-lg-row flex-lg-wrap-reverse align-self-lg-start align-items-end align-items-lg-center text-right flex-grow-1 justify-content-end secondary-content&quot;]/i[@class=&quot;vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down&quot;]</value>
-      <webElementGuid>80ed3a50-e91a-4f7d-a255-bca45cd09c13</webElementGuid>
+      <webElementGuid>898c3a29-0fc2-47be-bf24-0681d78e3677</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/div/div/div[2]/i</value>
-      <webElementGuid>1407f4da-3554-4d28-b0e3-531277ae2201</webElementGuid>
+      <webElementGuid>4c241232-a8a0-48a2-8a7b-17d2fa77dde1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,6 +65,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div[2]/i</value>
-      <webElementGuid>a9f901e1-ab32-473b-8755-e1423de7b1a1</webElementGuid>
+      <webElementGuid>53887838-c8d5-4a16-a398-f6e0675f932f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

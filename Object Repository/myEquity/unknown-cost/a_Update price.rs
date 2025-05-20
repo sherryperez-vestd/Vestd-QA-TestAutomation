@@ -6,15 +6,19 @@
    <elementGuidId>fba03af3-f5a2-4d34-9acf-fd638b6fe364</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td:nth-of-type(3) > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td[3]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = 'Update price' or . = 'Update price')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(3) > a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>46513ef8-bd03-4b8a-8b45-5f44bad720ff</webElementGuid>
+      <webElementGuid>559dce13-5ff1-4706-b405-a5ebb5647ca5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>30be1276-3bc4-42c3-baa3-168143f87eea</webElementGuid>
+      <webElementGuid>c91447c9-1dc1-40ab-8026-608a6028c073</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Update price</value>
-      <webElementGuid>e381603b-b745-4379-a7e5-12538133ab96</webElementGuid>
+      <webElementGuid>bd6c0c4c-c882-4462-8a57-599d40f6b569</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[3]/a[1]</value>
-      <webElementGuid>c535e706-24f7-4e8c-bb47-5f68ce47fee8</webElementGuid>
+      <webElementGuid>2973bd51-54bc-4232-823d-68ba337777bc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td[3]/a</value>
-      <webElementGuid>17b9612e-43cf-473a-ba9a-63ca25073580</webElementGuid>
+      <webElementGuid>b458cbb0-00f6-4d30-a57d-a93b3f5b015a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Update price')]</value>
-      <webElementGuid>56272733-0317-46e3-87d9-a7b3402b81ea</webElementGuid>
+      <webElementGuid>7e89e8de-08b1-42c5-8d24-6ee4588143eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Issued 28th January 2025'])[1]/following::a[1]</value>
-      <webElementGuid>1c2e122f-f53a-453a-9e9d-6bf18374023d</webElementGuid>
+      <webElementGuid>4741cbae-6a4a-40b3-94dc-903298cf71f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£0.0001 nominal value'])[1]/following::a[1]</value>
-      <webElementGuid>b2045466-92f7-40e7-9e4a-f22c0f0379f6</webElementGuid>
+      <webElementGuid>4b63fc58-9d8d-4738-b4a6-e26a1ba19edd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£-/shares'])[2]/preceding::a[1]</value>
-      <webElementGuid>d0fc7cac-b5ba-4d72-81cb-2de6c13bc0fc</webElementGuid>
+      <webElementGuid>c3955eb3-158d-4e63-a409-a025a0b5612c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£0.0001 nominal value'])[2]/preceding::a[1]</value>
-      <webElementGuid>017d6467-4f59-400d-8ceb-69f8f7595c0e</webElementGuid>
+      <webElementGuid>29b63cd5-c404-4612-b39b-f7c9d3a42f13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Update price']/parent::*</value>
-      <webElementGuid>0f7c8d92-7051-44c3-9f0e-424bacd1d8bf</webElementGuid>
+      <webElementGuid>25239947-5b34-4e05-8467-37bbdc14238e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[24]</value>
-      <webElementGuid>b711dd4b-6364-44b2-8639-e7577df17b16</webElementGuid>
+      <webElementGuid>257a99aa-72b3-4779-b26c-08ea82f2bcc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/a</value>
-      <webElementGuid>39d64b79-38f8-44fc-a933-e754e738a82b</webElementGuid>
+      <webElementGuid>3e24610f-7e17-4a17-806a-03101c26e1e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Update price' or . = 'Update price')]</value>
-      <webElementGuid>14a976d2-7f22-4ca0-adc4-9012b37ebfa4</webElementGuid>
+      <webElementGuid>55f6b756-a103-4ce8-a702-703e3a04982e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

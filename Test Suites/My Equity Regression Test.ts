@@ -43,7 +43,7 @@
       <guid>eade6331-6911-4e60-a13d-5fc72fc5d753</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/my-equity-unknown-cost er</testCaseId>
+      <testCaseId>Test Cases/myEquity/my-equity-unknown-cost</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -92,14 +92,14 @@
       <guid>e7fe2be3-7218-43a7-a4ff-7cf2c97434f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/my-equity-tax-benefits er</testCaseId>
+      <testCaseId>Test Cases/myEquity/my-equity-tax-benefits</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2bf37567-5f12-4c32-b3d0-797a96c02f02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/my-equity-buyback-options - er</testCaseId>
+      <testCaseId>Test Cases/myEquity/my-equity-buyback-options</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

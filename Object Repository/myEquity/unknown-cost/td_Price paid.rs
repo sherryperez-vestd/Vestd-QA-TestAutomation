@@ -6,22 +6,26 @@
    <elementGuidId>820bce66-bc0b-4c2e-83e2-8236e12ed592</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>thead > tr > td</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/thead/tr/td</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Price paid' or . = 'Price paid')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>thead > tr > td</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;Price paid&quot;i]</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/thead/tr/td</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>e02f15c3-186f-4021-9939-91f1ac8291b5</webElementGuid>
+      <webElementGuid>0aaba5df-10a8-4de5-a587-f501b5850e6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Price paid</value>
-      <webElementGuid>05e10c89-9a2b-4ef7-b869-4c8689a2ab9d</webElementGuid>
+      <webElementGuid>8b6168f1-641f-4a02-887b-142ec8d61fa1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/thead[1]/tr[1]/td[1]</value>
-      <webElementGuid>aacea556-605c-4903-8ec0-d07787be250b</webElementGuid>
+      <webElementGuid>1cb637a5-2e94-4e2b-93c5-ffb3963553e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/thead/tr/td</value>
-      <webElementGuid>9941e58d-9427-4182-990e-f28d02d688eb</webElementGuid>
+      <webElementGuid>2c418e2c-4f5e-4d77-a1bd-c11037e2fa5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unknown cost'])[1]/following::td[1]</value>
-      <webElementGuid>d9b67bb3-71b4-48b7-9ae5-36226d774d5f</webElementGuid>
+      <webElementGuid>69fcf8a1-4715-46d6-9b24-c2f4654da6bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax &amp; profit calculations'])[1]/following::td[1]</value>
-      <webElementGuid>c0f7adc1-f9aa-489e-8609-19ec4477d2e5</webElementGuid>
+      <webElementGuid>512ce03d-e55b-4e0f-9104-a1059ae0cea7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Details'])[1]/preceding::td[1]</value>
-      <webElementGuid>4360a31d-8d17-488a-8291-4051f25bbdc9</webElementGuid>
+      <webElementGuid>7da85aca-0562-4c83-a47a-25d700967d92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£-/shares'])[1]/preceding::td[3]</value>
-      <webElementGuid>7f4aa1b5-cc0a-4bcd-88bb-2bcc83723120</webElementGuid>
+      <webElementGuid>e30ed470-27f2-4730-bdb2-cf6ef79db524</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Price paid']/parent::*</value>
-      <webElementGuid>83e14051-757b-4a32-b254-83a98fce0756</webElementGuid>
+      <webElementGuid>89173d76-3a01-4111-bab5-4800cd0a23c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//thead/tr/td</value>
-      <webElementGuid>4051ca82-42e4-4f54-8e6d-2fd69bc4e728</webElementGuid>
+      <webElementGuid>4f700d0a-a717-4a6f-872f-be213dbd7392</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Price paid' or . = 'Price paid')]</value>
-      <webElementGuid>39703e71-3f60-46be-a978-2b84d660c11b</webElementGuid>
+      <webElementGuid>b8189fb6-4148-4e24-bc30-aae0fa78fca8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

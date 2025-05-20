@@ -6,22 +6,25 @@
    <elementGuidId>9c34b938-a8c0-4884-b18f-e912d40d0008</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div/div/div/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Unknown cost ' or . = 'Unknown cost ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Unknown cost&quot;i</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div/div/div/div/span</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>4ec22afa-9c1a-40ea-a530-66df6441a81a</webElementGuid>
+      <webElementGuid>d72a6217-828b-47a5-b567-a27505a534f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-0 mr-2 h4</value>
-      <webElementGuid>74b39a86-acca-4c60-b2b8-138b16a6c4cb</webElementGuid>
+      <webElementGuid>0a23148f-d538-46d4-83ef-477ab8a72f57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +48,7 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>header-title</value>
-      <webElementGuid>ae296dcf-8465-41dd-8ba5-3b565455c464</webElementGuid>
+      <webElementGuid>2ebfa3b0-233f-4558-a443-f557b2494142</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +56,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Unknown cost </value>
-      <webElementGuid>7309bbdf-4aa3-49bc-9ec4-c30c836164d8</webElementGuid>
+      <webElementGuid>443230ea-0784-427b-8356-70ad3505412d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;card-header d-flex flex-wrap flex-column bg-white hide-header-separator&quot;]/div[@class=&quot;d-flex align-items-center text-break header-main-content w-100&quot;]/div[@class=&quot;d-flex flex-column flex-wrap primary-content&quot;]/div[@class=&quot;d-flex flex-wrap align-items-baseline header-title-with-help-text&quot;]/span[@class=&quot;mb-0 mr-2 h4&quot;]</value>
-      <webElementGuid>8099c805-0e8e-470e-9921-307266154519</webElementGuid>
+      <webElementGuid>6973c8bd-bb0e-44d3-b087-587c2e93725a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div/div/div/div/span</value>
-      <webElementGuid>eb7279c2-1450-4807-a6f8-9e6fd912afa9</webElementGuid>
+      <webElementGuid>83c6b496-bdc7-4607-aece-48c0c6282024</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax &amp; profit calculations'])[1]/following::span[1]</value>
-      <webElementGuid>a9875df2-492e-4537-9a71-f20873791081</webElementGuid>
+      <webElementGuid>e452b33a-c374-490b-bf6a-8657c8f2ef1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='sell your shares'])[1]/following::span[2]</value>
-      <webElementGuid>121c305f-b65d-404b-bea6-0ec0dcd01e79</webElementGuid>
+      <webElementGuid>45a2e12a-3f1c-45c3-afd6-fe4c59a20b7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Price paid'])[1]/preceding::span[1]</value>
-      <webElementGuid>963409d5-9874-456f-a8af-c75681f75299</webElementGuid>
+      <webElementGuid>2a37cd47-325f-48ea-84cd-cb32a7591a19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Details'])[1]/preceding::span[1]</value>
-      <webElementGuid>5ad9adf0-1d15-450d-a3f9-5880d6e88618</webElementGuid>
+      <webElementGuid>2f2a4bbf-ce24-4f30-a962-67c58c888937</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Unknown cost']/parent::*</value>
-      <webElementGuid>e7ba7dba-7ddb-4720-8f4b-55055d777169</webElementGuid>
+      <webElementGuid>1f5467d5-2ebe-4195-8bf5-78c9131b2438</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +120,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/div/span</value>
-      <webElementGuid>f9832993-4b64-46b1-ba4c-df9c688f49e4</webElementGuid>
+      <webElementGuid>3e8a484a-e73c-47ee-84fe-442609afccd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +128,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Unknown cost ' or . = 'Unknown cost ')]</value>
-      <webElementGuid>062f5098-8dc8-4611-a17c-ece04eae0de6</webElementGuid>
+      <webElementGuid>c4cd504b-7273-4d40-93a3-ca3601a40f03</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

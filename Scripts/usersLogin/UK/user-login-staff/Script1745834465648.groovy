@@ -27,5 +27,5 @@ WebUI.setText(findTestObject('Object Repository/login/input_email'), GlobalVaria
 
 WebUI.setText(findTestObject('Object Repository/login/input_password'), GlobalVariable.password)
 
-WebUI.click(findTestObject('Object Repository/login/btn_Log in'))
+WebUI.click(findTestObject('Object Repository/login/btn_Login'))
 

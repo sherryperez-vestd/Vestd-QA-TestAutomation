@@ -6,22 +6,26 @@
    <elementGuidId>72b80fa6-b537-44c6-a9ee-cd8b7d8d38d5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-sm.btn-outline-secondary.v-btn</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='submit'])[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Cancel' or . = 'Cancel')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-sm.btn-outline-secondary.v-btn</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Cancel&quot;i]</value>
+         <value>(//button[@type='submit'])[2]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>15bd2fc4-043a-4bc7-baaa-b8accc7d5e3c</webElementGuid>
+      <webElementGuid>bb495c7f-ecec-47d4-aecf-a000a531d80a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>eb9869f5-2ab1-4b7f-9357-f6a6b8e49969</webElementGuid>
+      <webElementGuid>0f6a5baa-28e6-42bd-9a43-264a29f24386</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-sm btn-outline-secondary v-btn</value>
-      <webElementGuid>b35379bb-5c2d-4866-9ead-860e311268fb</webElementGuid>
+      <webElementGuid>9707bc81-9b2d-4787-b7b1-858e9c874547</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>button-element</value>
-      <webElementGuid>5a826981-1201-46db-ada4-9e76da7d6fff</webElementGuid>
+      <webElementGuid>e7bf83a0-7e69-46fb-b1b1-6b5b81c8cd9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cancel</value>
-      <webElementGuid>b60e7160-0b1d-449d-b1ad-fa95fb4974df</webElementGuid>
+      <webElementGuid>64e95d57-a1f6-4aff-a59a-c13bf5c0bee1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[1]/div[@class=&quot;d-flex align-items-center flex-wrap justify-content-between&quot;]/div[@class=&quot;d-flex align-items-center mt-3&quot;]/div[@class=&quot;d-inline-block&quot;]/button[@class=&quot;btn btn-sm btn-outline-secondary v-btn&quot;]</value>
-      <webElementGuid>551da52a-6ebb-4b77-b005-3f4edb4b18b7</webElementGuid>
+      <webElementGuid>02c55d0e-2285-47af-ad68-15d9c3f629de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='submit'])[2]</value>
-      <webElementGuid>1f8e5f94-5a53-4cc0-b68a-bc5b15654225</webElementGuid>
+      <webElementGuid>24613ae5-167c-40bd-a66d-61124f20eb87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/div/div[2]/div[2]/button</value>
-      <webElementGuid>2ee28072-31c1-4960-b8e3-a7a8d99eeea6</webElementGuid>
+      <webElementGuid>1b530d1b-1031-491e-a656-2f08bf7d93e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='/share'])[1]/following::button[2]</value>
-      <webElementGuid>c39fc52b-b9b9-4363-9740-5d40a5e6a0fc</webElementGuid>
+      <webElementGuid>50683315-645a-46f5-a733-80ee28d3a290</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£-/shares'])[1]/preceding::button[1]</value>
-      <webElementGuid>1fba9131-ed17-4b05-984f-fe974aa20f61</webElementGuid>
+      <webElementGuid>dd32fc65-aefe-4ffc-b9e6-74d2ef190069</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£0.0001 nominal value'])[1]/preceding::button[1]</value>
-      <webElementGuid>081e78e7-cc69-4a82-9505-d73d2bb3e897</webElementGuid>
+      <webElementGuid>91cfd64b-595c-43e8-8aa7-ce2077293a13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cancel']/parent::*</value>
-      <webElementGuid>387ac0b0-6028-41ba-abb7-61d08716e1ab</webElementGuid>
+      <webElementGuid>6604234c-6a97-4c02-892c-77b9da8c0a66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>2f4e182b-c755-47a1-b1ba-d7cf7aed8c09</webElementGuid>
+      <webElementGuid>a8b6f498-c96b-4ada-b6ab-645d43a43250</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Cancel' or . = 'Cancel')]</value>
-      <webElementGuid>544b658b-2d15-4b08-a0b6-29e0dfe679e8</webElementGuid>
+      <webElementGuid>592d2a60-e4b9-4b75-a7c9-5bfbacbb1414</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

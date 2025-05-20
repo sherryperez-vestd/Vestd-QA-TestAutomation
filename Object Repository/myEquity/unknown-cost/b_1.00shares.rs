@@ -6,22 +6,26 @@
    <elementGuidId>dfc114bf-d0e7-442f-af51-d761168507f0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>td > b</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/b</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '£1.00/shares' or . = '£1.00/shares')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td > b</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;£1.00/shares&quot;i</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/b</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>b</value>
-      <webElementGuid>fec9bb7f-b6e4-4b93-92aa-132932f3c649</webElementGuid>
+      <webElementGuid>4095645d-1c3c-4a88-83d8-6ac74886a50a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>£1.00/shares</value>
-      <webElementGuid>1b77ae4a-23e2-4b4b-80b2-d5c09e79db08</webElementGuid>
+      <webElementGuid>abaa3825-c4f1-4abe-ae6c-c95c2b6e636f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[1]/b[1]</value>
-      <webElementGuid>ac7562f4-a997-4305-a807-754ff52b2fef</webElementGuid>
+      <webElementGuid>2fe1b144-0a55-480f-8878-d01dcbde3c17</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/b</value>
-      <webElementGuid>7d3d6f0e-5e5d-4cce-aaf3-e03082537c9b</webElementGuid>
+      <webElementGuid>b85ce7a9-d7b9-4628-a3c1-acd44b9ff3ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Details'])[1]/following::b[1]</value>
-      <webElementGuid>efb82b01-0ab7-4d36-9bad-c9c5e6f587ba</webElementGuid>
+      <webElementGuid>494caa8b-c7a6-466b-a4f6-22e9c4da8546</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Price paid'])[1]/following::b[1]</value>
-      <webElementGuid>bae59738-3fce-4c07-8deb-c25311bd804e</webElementGuid>
+      <webElementGuid>2856e818-251c-46cf-9fec-d30041873cc2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£0.0001 nominal value'])[1]/preceding::b[1]</value>
-      <webElementGuid>bdb53e94-9299-4c46-9c10-05e90d156c89</webElementGuid>
+      <webElementGuid>eaa6044b-c816-4e4d-9734-102df9db5c9f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Issued 28th January 2025'])[1]/preceding::b[2]</value>
-      <webElementGuid>a55cc03d-2417-44a6-81b3-d43a3ea6354f</webElementGuid>
+      <webElementGuid>96a1cf54-0e92-4b53-aa14-d16dab70d5fd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='£1.00/shares']/parent::*</value>
-      <webElementGuid>a3014f37-4548-477b-ba69-b018a8353c85</webElementGuid>
+      <webElementGuid>7b317bff-23af-4f99-bab8-36782858139e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/b</value>
-      <webElementGuid>6187d34e-a798-42e6-8b3b-065ab4ccb9f2</webElementGuid>
+      <webElementGuid>1f705a48-fff9-403f-9d81-7618e32bc4b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//b[(text() = '£1.00/shares' or . = '£1.00/shares')]</value>
-      <webElementGuid>1029317c-6b63-481b-9f94-6331cd5301a2</webElementGuid>
+      <webElementGuid>12792edd-0e46-4dcb-ac89-c3e7b99406ae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
