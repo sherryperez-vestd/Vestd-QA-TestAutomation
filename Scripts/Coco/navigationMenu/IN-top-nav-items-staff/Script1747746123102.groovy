@@ -33,6 +33,8 @@ url = WebUI.getUrl()
 
 WebUI.verifyEqual(url, 'https://demo.app.vestd.com/company/all')
 
+WebUI.verifyElementNotPresent(findTestObject('navigation/top-nav/a_Earn'), 0)
+
 WebUI.verifyElementText(findTestObject('navigation/top-nav/a_Staff'), 'Staff')
 
 WebUI.back()
