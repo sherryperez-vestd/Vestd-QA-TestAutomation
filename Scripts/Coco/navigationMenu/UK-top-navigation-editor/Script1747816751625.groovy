@@ -17,30 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+'Login and navigate to the home page'
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50915/home')
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/home')
 
+'Check Dashboard menu is present and opens correct URL'
 WebUI.verifyElementPresent(findTestObject('navigation/top-nav/a_Dashboard'), 0)
 
 WebUI.verifyElementText(findTestObject('navigation/top-nav/a_Dashboard'), 'Dashboard')
 
 WebUI.click(findTestObject('navigation/top-nav/a_Dashboard'))
 
-WebUI.verifyElementPresent(findTestObject('navigation/top-nav/a_Staff'), 0)
-
 url = WebUI.getUrl()
 
 WebUI.verifyEqual(url, 'https://demo.app.vestd.com/company/all')
 
+'Check Earn referal menu is NOT present in all company page'
 WebUI.verifyElementNotPresent(findTestObject('navigation/top-nav/a_Earn'), 0)
-
-WebUI.verifyElementText(findTestObject('navigation/top-nav/a_Staff'), 'Staff')
 
 WebUI.back()
 
-WebUI.verifyElementNotPresent(findTestObject('navigation/top-nav/a_Earn'), 0)
+'Check Staff menu is NOT present'
+WebUI.verifyElementNotPresent(findTestObject('navigation/top-nav/a_Staff'), 0)
 
+'Check Earn referal menu is present'
+WebUI.verifyElementPresent(findTestObject('navigation/top-nav/a_Earn'), 0)
+
+WebUI.verifyElementText(findTestObject('navigation/top-nav/a_Earn'), 'Earn £100')
+
+'Check Information menu is present and opens correct URL'
 WebUI.verifyElementPresent(findTestObject('navigation/top-nav/a_Information'), 0)
 
 WebUI.click(findTestObject('navigation/top-nav/a_Information'))
@@ -60,12 +66,13 @@ partial_url = url.minus(removedurlchars)
 
 WebUI.verifyEqual(partial_url, 'https://www.vestd.com/')
 
-WebUI.closeWindowTitle('Vestd Help Centre')
-
+//WebUI.closeWindowTitle('Vestd Help Centre')
 WebUI.switchToWindowIndex(currentWindow)
 
+'Check Notification menu is present'
 WebUI.verifyElementPresent(findTestObject('navigation/top-nav/a_Notification'), 0)
 
+'Check User account menu is present'
 WebUI.verifyElementPresent(findTestObject('navigation/top-nav/a_user-account'), 0)
 
 WebUI.closeBrowser()
