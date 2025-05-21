@@ -12,27 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>b0814c70-8d6b-4b08-af64-4da0e934cd63</testSuiteGuid>
    <testCaseLink>
-      <guid>cfcb7f2e-b3e6-4ec0-96fc-5d2d215630ad</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/navigationMenu/UK-side-nav-items-staff</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c8c0b793-265a-456e-b0ff-1c8eafb11155</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/navigationMenu/UK-nav-items-admin-editor</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7cd432b0-79e3-4b62-ae13-2ead7a640d87</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/navigationMenu/UK-nav-items-recipient</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>383cecb9-105c-4696-8d20-e0f4a9ae4217</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -40,24 +19,52 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8f18268b-5cd2-4795-967f-f91219f87810</guid>
+      <guid>cfcb7f2e-b3e6-4ec0-96fc-5d2d215630ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/authorisations/create-option-pool</testCaseId>
+      <testCaseId>Test Cases/Coco/navigationMenu/UK-side-navigation-staff</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3ffe4800-fc96-4df4-be2d-a8fd3f5944f7</guid>
+      <guid>c8c0b793-265a-456e-b0ff-1c8eafb11155</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/investment/investment-round</testCaseId>
+      <testCaseId>Test Cases/Coco/navigationMenu/UK-side-navigation-editor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d5142e2f-158f-4ae0-9ed9-c7f6a1a2ba7b</guid>
+      <guid>7cd432b0-79e3-4b62-ae13-2ead7a640d87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/valuation/record-company-valuation</testCaseId>
+      <testCaseId>Test Cases/Coco/navigationMenu/UK-side-navigation-recipient</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f073e841-a7fe-4a34-80a5-380e4fc4ebcf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Coco/navigationMenu/IN-top-navigation-editor</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>faa6be86-d596-4425-9b3f-23809c8851f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Coco/navigationMenu/IN-top-navigation-staff</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e14c660-70d1-481d-b987-6984d90f844b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Coco/navigationMenu/UK-top-navigation-editor</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>26a966c6-523d-412e-b91b-dec1257c6800</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Coco/navigationMenu/UK-top-navigation-staff</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -82,10 +89,31 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>8f18268b-5cd2-4795-967f-f91219f87810</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/authorisations/create-option-pool</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>b4670974-075f-40ec-a17c-226616a07c1e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShareSquad/issueShares/create-share-offer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d5142e2f-158f-4ae0-9ed9-c7f6a1a2ba7b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/valuation/record-company-valuation</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3ffe4800-fc96-4df4-be2d-a8fd3f5944f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Coco/investment/investment-round</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

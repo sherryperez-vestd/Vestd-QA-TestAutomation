@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>UK-nav-items-recipient</name>
+   <name>UK-top-navigation-editor</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>76bc4812-01b2-4b8b-a6ee-f36a0e9074a9</testCaseGuid>
+   <testCaseGuid>edc8be30-efc9-42c7-bdb6-ab46fcde95f4</testCaseGuid>
 </TestCaseEntity>

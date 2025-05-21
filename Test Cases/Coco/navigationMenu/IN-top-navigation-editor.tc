@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>UK-top-nav-items-staff</name>
+   <name>IN-top-navigation-editor</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>2d3255d5-d707-4562-9785-8a5f0c3d02fa</testCaseGuid>
+   <testCaseGuid>560ef464-7f5b-42dc-b7e1-9442a73f17f4</testCaseGuid>
 </TestCaseEntity>

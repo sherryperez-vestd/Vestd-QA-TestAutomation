@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>UK-side-nav-items-staff</name>
+   <name>IN-top-navigation-staff</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b7a25ad4-c304-4aff-81a1-04aaeaa8753b</testCaseGuid>
+   <testCaseGuid>7a29f16e-8697-48e6-af04-9e20117c27e1</testCaseGuid>
 </TestCaseEntity>

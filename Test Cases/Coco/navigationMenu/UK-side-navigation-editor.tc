@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>UK-nav-items-admin-no-access</name>
+   <name>UK-side-navigation-editor</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>0a30878b-a383-4c4d-9a6e-058cddf8331d</testCaseGuid>
+   <testCaseGuid>98a3d8c5-4fd2-42b1-a091-ab101b33f7fc</testCaseGuid>
 </TestCaseEntity>
