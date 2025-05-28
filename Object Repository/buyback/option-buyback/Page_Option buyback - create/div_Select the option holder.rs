@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Select the option holder whose options _8e589b</name>
+   <name>div_Select the option holder</name>
    <tag></tag>
    <elementGuidId>58485b3e-e14f-48d4-aee5-f188ba73118c</elementGuidId>
    <selectorCollection>

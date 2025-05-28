@@ -13,17 +13,21 @@
          <key>CSS</key>
          <value>tr.even > td:nth-of-type(3)</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = '1' or . = '1')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>16c1c822-9a8f-4389-b732-c98fd9153abe</webElementGuid>
+      <webElementGuid>5f325e7f-dd65-4307-ae17-f1068386e57b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,15 +35,15 @@
       <name>text</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>0a7ad82a-9b6f-472b-96de-0eaa1aae3e9a</webElementGuid>
+      <webElementGuid>4449807c-20bc-4c24-a3a6-2610f89401fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>class</name>
       <type>Main</type>
-      <value>id(&quot;DataTables_Table_0&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[3]</value>
-      <webElementGuid>c71db788-9b0c-4962-af8b-f111d5d44184</webElementGuid>
+      <value>sorting_1</value>
+      <webElementGuid>594bc0ab-dc97-4840-8005-dcf8223575a4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='DataTables_Table_0']/tbody/tr[2]/td[3]</value>
-      <webElementGuid>f714bf9e-1320-4e85-a4db-df01cd0993c4</webElementGuid>
+      <webElementGuid>8a1dabbc-edf9-4776-b652-5ffa06374334</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test esop2 ESOP Agreement'])[1]/following::td[1]</value>
-      <webElementGuid>e733abda-0475-44a9-81a7-5fa0db141a42</webElementGuid>
+      <webElementGuid>351a972c-0066-48fd-a546-e7d21dd208eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Test esop2'])[1]/following::td[2]</value>
-      <webElementGuid>9409fd23-df52-4881-a2f2-196bcc28457b</webElementGuid>
+      <webElementGuid>465a7f64-2c35-4c1d-814c-ef46cbb5e6d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='₹1.00'])[2]/preceding::td[1]</value>
-      <webElementGuid>5702ae50-bdfb-4b51-a335-93acda0db715</webElementGuid>
+      <webElementGuid>419f09ca-275c-42c6-afec-cbbb629b35d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='1']/parent::*</value>
-      <webElementGuid>5b5dd021-4ab9-4c99-bd7d-63e079e73e50</webElementGuid>
+      <webElementGuid>50893489-4104-443e-b526-e2173cbdeabb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[3]</value>
-      <webElementGuid>64cacec5-1c0a-413e-b638-47326cf8a16b</webElementGuid>
+      <webElementGuid>62db2382-6503-4742-bb60-882eafb2ff83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '1' or . = '1')]</value>
-      <webElementGuid>2411a66f-7798-41be-b9cb-e0a4244399e2</webElementGuid>
+      <webElementGuid>df6c9377-bd74-46eb-ae70-fb1ac80b9823</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

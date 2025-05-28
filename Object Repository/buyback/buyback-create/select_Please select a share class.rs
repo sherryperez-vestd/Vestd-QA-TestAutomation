@@ -10,15 +10,15 @@
          <value>#share_class_id</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'share_class_id' and @name = 'share_class_id' and (text() = 'Please select a share classOrdinary (voting) (£0.0001)Ordinary A (voting) (£0.0001)' or . = 'Please select a share classOrdinary (voting) (£0.0001)Ordinary A (voting) (£0.0001)')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='share_class_id']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'share_class_id' and @name = 'share_class_id' and (text() = 'Please select a share classOrdinary (voting) (£0.0001)Ordinary A (voting) (£0.0001)' or . = 'Please select a share classOrdinary (voting) (£0.0001)Ordinary A (voting) (£0.0001)')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>eb7ea457-c960-43aa-9294-356cb13feb93</webElementGuid>
+      <webElementGuid>23d2f9f0-c616-49a4-b5f2-f0265f8208a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>a0034fd7-6db3-4b95-9cff-f3f0f43be7e8</webElementGuid>
+      <webElementGuid>2be18af9-90d4-4a9e-b00d-dbc1631697a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>share_class_id</value>
-      <webElementGuid>5ce3bc54-fb72-45f8-9bf1-c745b18eb520</webElementGuid>
+      <webElementGuid>02791fbc-0737-43e1-abe3-1941f8f88b83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>share_class_id</value>
-      <webElementGuid>0a515103-8d08-4638-a4c4-3b97a84298c4</webElementGuid>
+      <webElementGuid>017dce7e-6b6f-41a7-a3c8-f43f482eac57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Please select a share classOrdinary (voting) (£0.0001)Ordinary A (voting) (£0.0001)</value>
-      <webElementGuid>70ed62ad-16ed-435c-a845-08a6ba07c399</webElementGuid>
+      <webElementGuid>ac9855d9-3f49-4281-8bf4-8fd293cd7393</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;share_class_id&quot;)</value>
-      <webElementGuid>cb0d9f18-b08e-4388-8a2b-48b8ba1ca79e</webElementGuid>
+      <webElementGuid>485d4575-7baf-43a3-a0ea-7e38162d10ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='share_class_id']</value>
-      <webElementGuid>6c20fdc8-de4f-4b2b-8b4f-51ff45cf75b8</webElementGuid>
+      <webElementGuid>1de82f9f-2f5e-4dfb-ba06-505873452ea6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/div/select</value>
-      <webElementGuid>f303bbcf-4b7b-4d0a-9fdc-c69388948e83</webElementGuid>
+      <webElementGuid>50ba6ae0-f341-42d0-880c-8c25b5236606</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select the class of share being bought back'])[1]/following::select[1]</value>
-      <webElementGuid>9d1e3be6-099a-4f7a-9fe0-843a0f6031ae</webElementGuid>
+      <webElementGuid>fb5d1292-0d6d-4096-bf41-8c503048cb1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Buyback issued shares'])[1]/following::select[1]</value>
-      <webElementGuid>cb7f7347-fb24-4a33-a9e5-a59e21a82464</webElementGuid>
+      <webElementGuid>cfce27a5-9934-4fe1-b814-827a1893f276</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::select[1]</value>
-      <webElementGuid>3444a0e1-6740-4f32-8db3-d2d7ac4909fe</webElementGuid>
+      <webElementGuid>afa5a9d4-2470-4ab9-bdc8-9ba5db818ca5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[2]/preceding::select[1]</value>
-      <webElementGuid>9ab8257f-cd2f-4389-9320-75a6fb1d89c3</webElementGuid>
+      <webElementGuid>e94c3e74-a915-4976-8133-c0f08a788885</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>b151b76a-f1d2-42f3-93e6-bfbccd6cedc8</webElementGuid>
+      <webElementGuid>6166730a-1c7c-4a61-9024-1d7ee0f264c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'share_class_id' and @name = 'share_class_id' and (text() = 'Please select a share classOrdinary (voting) (£0.0001)Ordinary A (voting) (£0.0001)' or . = 'Please select a share classOrdinary (voting) (£0.0001)Ordinary A (voting) (£0.0001)')]</value>
-      <webElementGuid>d51c3235-ec2b-435a-bac2-63cddeea4bab</webElementGuid>
+      <webElementGuid>c6aa2c6c-8f13-4fef-b62d-60dbfd77e778</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
