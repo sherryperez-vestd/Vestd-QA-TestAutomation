@@ -6,11 +6,11 @@
    <elementGuidId>e2269d7a-cdd8-4751-ba56-2f2fff3f680d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//span[(text() = 'Share capital')])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarCollapse']/ul/li[5]/a</value>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -19,7 +19,7 @@
                         ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -34,7 +34,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>99db4022-07ea-4a06-9cd1-1d098ec65002</webElementGuid>
+      <webElementGuid>5000f0f4-e746-44d8-9ef7-a042941b911d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link collapsed</value>
-      <webElementGuid>24a96d09-5400-4cde-a37e-cc21ad3038e2</webElementGuid>
+      <webElementGuid>0341daf0-1d8e-4e37-963f-64ceb9a55705</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#sidebarCapital</value>
-      <webElementGuid>3a7b0caf-bd17-4b26-87f4-c94592c8ee49</webElementGuid>
+      <webElementGuid>6ec500bd-46ef-4ae9-8402-2fb600436a50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>5e15d40d-b0e5-4a15-9fb0-9f145ae32e9c</webElementGuid>
+      <webElementGuid>97a324d1-df92-49ab-8f17-e3c51f46996b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>95bf2682-c51b-4e8c-b52b-a56cea78336f</webElementGuid>
+      <webElementGuid>1c48abb5-ac5f-4774-a1c5-0a83fed361d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>sidebarCapital</value>
-      <webElementGuid>9080508b-1ccf-47fe-b6de-6e590ab47011</webElementGuid>
+      <webElementGuid>640b5f69-0e2f-459a-82ac-b897862a7e67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>87a9772e-2b7b-4a18-8316-cd164893ce00</webElementGuid>
+      <webElementGuid>15b3da27-01c6-4b42-9b2e-a5e6d2f17680</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -91,7 +91,7 @@
       <type>Main</type>
       <value> Share capital
                         </value>
-      <webElementGuid>df5b705f-d7a2-42b2-9346-e03b0e471f02</webElementGuid>
+      <webElementGuid>175e5dcd-0f11-461f-b15b-efc037b822cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -99,7 +99,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mt-3&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link collapsed&quot;]</value>
-      <webElementGuid>a66b0219-58c8-4be0-bc8e-52ff4247235f</webElementGuid>
+      <webElementGuid>e7aad3b6-6d12-46c3-90ec-ea7b49d67a0a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -107,7 +107,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/ul/li[5]/a</value>
-      <webElementGuid>8b373bff-7683-4b47-b9b3-ff4f5116758f</webElementGuid>
+      <webElementGuid>01e0ad17-64b7-4099-8c82-1c899ef5025a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +115,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Share capital')]</value>
-      <webElementGuid>bd498de2-a553-4d76-8398-97bd7dae68b0</webElementGuid>
+      <webElementGuid>8c44350c-f594-4c76-89f5-cb8e6ef89ea6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Insights'])[1]/preceding::a[1]</value>
-      <webElementGuid>7f49224b-5a3e-448a-af67-db2ec378701e</webElementGuid>
+      <webElementGuid>8dc1eda9-6e6a-4694-b911-71407880853c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -131,7 +131,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cap table'])[1]/preceding::a[1]</value>
-      <webElementGuid>8ae7a10d-3fc5-488f-9168-0de8868d5cd1</webElementGuid>
+      <webElementGuid>e2bf8ae2-d90a-405d-b913-b0ad04bff651</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -139,7 +139,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Share capital']/parent::*</value>
-      <webElementGuid>0f7888a4-7f34-4c3d-9895-97dd84881c1d</webElementGuid>
+      <webElementGuid>e08b6e3f-5d2d-4e66-ba1e-5c16fc5afe78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,7 +147,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#sidebarCapital')]</value>
-      <webElementGuid>888aec59-d14e-465d-b65e-e9106ce12b0e</webElementGuid>
+      <webElementGuid>bd0435f7-65ab-430a-a7ab-027b5023dccc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,7 +155,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li[5]/a</value>
-      <webElementGuid>e30a94ce-2772-436f-bd59-3ea04a1d0222</webElementGuid>
+      <webElementGuid>29920bc1-68c5-4cd3-8fc0-ecead393c145</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -165,6 +165,6 @@
       <value>//a[@href = '#sidebarCapital' and (text() = ' Share capital
                         ' or . = ' Share capital
                         ')]</value>
-      <webElementGuid>cc5898c0-f1d2-4128-91d7-0ee400b47179</webElementGuid>
+      <webElementGuid>68547620-bfdf-4c68-82cb-4ae1711ad85c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

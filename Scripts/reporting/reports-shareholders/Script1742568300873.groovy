@@ -38,7 +38,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/sharehold
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/shareholders/btn_Download Report'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/shareholders/btn_Download Report'), 'Download Report')
+WebUI.verifyElementText(findTestObject('Object Repository/reporting/shareholders/btn_Download Report'), 'Download report')
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/reporting/shareholders/btn_Download Report'))
 

@@ -6,76 +6,66 @@
    <elementGuidId>1d1fadd0-bbe9-4934-86b3-b14963d6d7c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.nav.flex-column.mt-0 > a.nav-link.active</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='investmentHub']/ul/a[6]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>ul.nav.flex-column.mt-0 > a.nav-link.active</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>id(&quot;investmentHub&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/a[@class=&quot;nav-link active&quot;][count(. | //a[@href = 'https://demo.app.vestd.com/company/50934/share-approval?nav_p=share-capital' and @class = 'nav-link active' and (text() = '&#xd;
-Share authorisations&#xd;
-                                    ' or . = '&#xd;
-Share authorisations&#xd;
-                                    ')]) = count(//a[@href = 'https://demo.app.vestd.com/company/50934/share-approval?nav_p=share-capital' and @class = 'nav-link active' and (text() = '&#xd;
-Share authorisations&#xd;
-                                    ' or . = '&#xd;
-Share authorisations&#xd;
-                                    ')])]</value>
+         <value>//span[(text() = 'Share authorisations' or . = 'Share authorisations')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Share authorisations&quot;i]</value>
+         <value>//div[@id='investmentHub']/ul/a[6]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>e223652a-9e79-4984-bbe0-896dd76b074b</webElementGuid>
+      <value>span</value>
+      <webElementGuid>8b3bf3a4-ac21-4172-93f1-447c198d559a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/share-approval?nav_p=share-capital</value>
-      <webElementGuid>f2b612ce-5ec7-4021-bd98-82a1ec656dea</webElementGuid>
+      <webElementGuid>e9c9731b-d0c5-4339-8ca4-7a48c2fb8412</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>12dac9b5-4dad-4ce4-be93-2ed7eb511bf4</webElementGuid>
+      <webElementGuid>3200ab05-dc70-485b-a7ad-a64cd30daa87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>&#xd;
-Share authorisations&#xd;
-                                    </value>
-      <webElementGuid>eb76b927-81a1-4f95-8d76-3f26cb9938ab</webElementGuid>
+      <value>Share authorisations</value>
+      <webElementGuid>3ef1c092-5c7b-442a-9e75-fae211530a04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;investmentHub&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>1e4dfc15-e7cd-4081-968f-301a1ed491f8</webElementGuid>
+      <webElementGuid>f89af5e3-b396-426e-9202-e7c875d6cd52</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -83,7 +73,7 @@ Share authorisations&#xd;
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='investmentHub']/ul/a[6]</value>
-      <webElementGuid>2f283ecc-43b1-4b80-b83a-0fa42d1769da</webElementGuid>
+      <webElementGuid>5a82be53-af1d-47df-82b4-baf50b821570</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +81,7 @@ Share authorisations&#xd;
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share capital'])[1]/preceding::a[1]</value>
-      <webElementGuid>f455aa8c-04ee-4829-bebe-b28d7f173e3c</webElementGuid>
+      <webElementGuid>7846683f-8935-4a76-acbe-f041847b4e78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +89,7 @@ Share authorisations&#xd;
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Insights'])[1]/preceding::a[2]</value>
-      <webElementGuid>946b03df-0dc3-4659-a353-4d551bf10ace</webElementGuid>
+      <webElementGuid>fc988d4d-ef3c-4302-a94c-4cf10b719349</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -107,7 +97,7 @@ Share authorisations&#xd;
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Share authorisations']/parent::*</value>
-      <webElementGuid>4302b1fb-133b-4c84-be2e-2b6b3297d1bb</webElementGuid>
+      <webElementGuid>cd07637e-e6ec-4ba6-9308-d8a0f6f273df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,7 +105,7 @@ Share authorisations&#xd;
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/share-approval?nav_p=share-capital')]</value>
-      <webElementGuid>703ee5c3-7bcc-4eeb-8ed0-f4e252a4ec8e</webElementGuid>
+      <webElementGuid>9436c7ad-aee5-4bd7-9ee1-f87e6a3554fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,7 +113,7 @@ Share authorisations&#xd;
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul/a[6]</value>
-      <webElementGuid>94d726a3-0730-4832-8ab4-38317a3d8080</webElementGuid>
+      <webElementGuid>0b2445bf-273b-4949-8066-f8affd31a301</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +125,6 @@ Share authorisations&#xd;
                                     ' or . = '
                                         Share authorisations
                                     ')]</value>
-      <webElementGuid>0d71c859-1095-4620-bb27-aea7126b5214</webElementGuid>
+      <webElementGuid>6853caa4-f026-4147-b8dd-898eaadae03f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

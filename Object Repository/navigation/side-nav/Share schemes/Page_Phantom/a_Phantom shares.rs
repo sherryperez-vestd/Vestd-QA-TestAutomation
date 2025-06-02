@@ -10,10 +10,6 @@
          <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[6]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://demo.app.vestd.com/company/50934/scheme-template/phantom/dashboard' and (text() = '
                                             Phantom shares
@@ -21,8 +17,12 @@
                                             Phantom shares
                                         ')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Phantom shares')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e88eebb5-371f-449c-a3ec-e4f28cb028b8</webElementGuid>
+      <webElementGuid>14472d5d-dcb6-481e-9f9a-d8dfa709d71a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/scheme-template/phantom/dashboard</value>
-      <webElementGuid>21ddb75b-5324-41f0-806d-e77fb6f8a8de</webElementGuid>
+      <webElementGuid>675bd170-9ce0-414f-8ffd-dcadd5440cd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>b64d1d71-a235-4a89-8a20-c14c34802a12</webElementGuid>
+      <webElementGuid>ea469fc1-214d-4595-9363-4896f4680d70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                                             Phantom shares
                                         </value>
-      <webElementGuid>f756a5ac-2dd8-406e-92a6-828525efe926</webElementGuid>
+      <webElementGuid>424589da-3c70-4901-bab1-95fdbf682e6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>7b5c0e04-ba1a-4f40-a3a5-422d2183fa09</webElementGuid>
+      <webElementGuid>855685b0-7b7d-4149-b186-82360a825c1d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[6]/a</value>
-      <webElementGuid>94cbba57-1ce8-45e8-a6f0-48f677f7f708</webElementGuid>
+      <webElementGuid>abefb747-cac4-4079-b206-fd0f855607ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Phantom shares')]</value>
-      <webElementGuid>5339674c-1eb9-4835-8fb0-6564961bd18f</webElementGuid>
+      <webElementGuid>79896c9e-b814-4778-b556-01a6551e6e58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CSOP'])[1]/following::a[1]</value>
-      <webElementGuid>9381c17a-f085-41e5-ac5c-17b4629fbea5</webElementGuid>
+      <webElementGuid>709e68af-6cff-4958-9e87-4b9cdd4202a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unapproved options'])[1]/following::a[2]</value>
-      <webElementGuid>0f875df5-5e44-4a7e-b8dc-bc9a49bcf1a3</webElementGuid>
+      <webElementGuid>cb67c9cd-1806-4a79-954b-f53a512361ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All option agreements'])[1]/preceding::a[1]</value>
-      <webElementGuid>73680d8b-8595-450b-a4d2-cec2e20a3ec6</webElementGuid>
+      <webElementGuid>e95e2e61-d94c-4e29-a4d2-a647aa71964a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Growth shares'])[1]/preceding::a[2]</value>
-      <webElementGuid>b0b6cd33-8c90-4957-b239-530a465585e3</webElementGuid>
+      <webElementGuid>30fdd74f-df98-4031-bde5-a3c50bd71189</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Phantom shares']/parent::*</value>
-      <webElementGuid>2ecbc68e-ee4d-45f1-8a84-595f491b1b98</webElementGuid>
+      <webElementGuid>e1b32975-c05d-4b68-bc97-bb1c2df10d2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/scheme-template/phantom/dashboard')]</value>
-      <webElementGuid>2c6382ae-0292-4a37-9c94-41e18c851d39</webElementGuid>
+      <webElementGuid>a09daf77-d6e9-4440-92c6-fe5ce31a521f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[6]/a</value>
-      <webElementGuid>7adc29d7-4d1a-4326-879c-a21c0ae4ee22</webElementGuid>
+      <webElementGuid>ef385d1d-5fbd-4a4a-9553-c634b53c95d0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,6 +155,6 @@
                                         ' or . = '
                                             Phantom shares
                                         ')]</value>
-      <webElementGuid>0b8ef50b-18b5-475d-b4e6-615735cf8439</webElementGuid>
+      <webElementGuid>51efe88e-234f-4e38-8f6e-04117af587ed</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Ask a company to add you</name>
+   <tag></tag>
+   <elementGuidId>4774b0ac-32ff-4a96-9efe-c688c016206e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mega-dropdown-contents</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>903c405c-9c2a-4d7d-b4d6-6a59603e0b1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mega-dropdown-contents</value>
+      <webElementGuid>a2aaa531-14e4-49f5-badc-8aba074156b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-labelledby</name>
+      <type>Main</type>
+      <value>dropdown</value>
+      <webElementGuid>0c16736d-0662-47b9-a75d-7d0a73fbf337</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Ask a company to add you Get access to your investment or options in a company that's using Vestd.  Invite a company to join Recommend Vestd and help them unleash the power of their equity.  Onboard a company Join Vestd and unleash the power of your equity.  Incorporate a company Incorporate your startup with Companies House in minutes. Other investments Did you know you can record all your investments on Vestd? Record an investment</value>
+      <webElementGuid>05218e01-1437-479e-b90c-080dc06a93c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;d-flex justify-content-between mt-2 mb-3 flex-wrap&quot;]/div[@class=&quot;d-flex justify-content-end flex-wrap&quot;]/div[@class=&quot;mega-dropdown-holder ml-2&quot;]/div[@class=&quot;mega-dropdown-contents&quot;]</value>
+      <webElementGuid>262651d5-774c-4608-afa7-62ee97d77dcb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div[2]/div/div</value>
+      <webElementGuid>fa5a7a67-ec33-4126-b0a0-0fa9f8b4c85d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to your dashboard'])[1]/following::div[1]</value>
+      <webElementGuid>0625ffe3-00dd-44d1-b510-058baff5a8fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div[2]/div/div</value>
+      <webElementGuid>246169da-c5ce-4cce-97b7-a772388e0408</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot; Ask a company to add you Get access to your investment or options in a company that&quot; , &quot;'&quot; , &quot;s using Vestd.  Invite a company to join Recommend Vestd and help them unleash the power of their equity.  Onboard a company Join Vestd and unleash the power of your equity.  Incorporate a company Incorporate your startup with Companies House in minutes. Other investments Did you know you can record all your investments on Vestd? Record an investment&quot;) or . = concat(&quot; Ask a company to add you Get access to your investment or options in a company that&quot; , &quot;'&quot; , &quot;s using Vestd.  Invite a company to join Recommend Vestd and help them unleash the power of their equity.  Onboard a company Join Vestd and unleash the power of your equity.  Incorporate a company Incorporate your startup with Companies House in minutes. Other investments Did you know you can record all your investments on Vestd? Record an investment&quot;))]</value>
+      <webElementGuid>5b5ada98-7da6-40b9-b5fa-1f8ff12a36c4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

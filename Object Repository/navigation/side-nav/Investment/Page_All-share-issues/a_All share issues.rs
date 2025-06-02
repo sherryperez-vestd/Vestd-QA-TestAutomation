@@ -6,38 +6,42 @@
    <elementGuidId>feaa0890-64b2-47a0-9f28-d6164d7dfb85</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='investmentHub']/ul/a[3]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.nav-link.active</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='investmentHub']/ul/a[3]</value>
+         <key>BASIC</key>
+         <value>//span[(text() = 'All share issues' or . = 'All share issues')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;All share issues&quot;i]</value>
+         <value>//div[@id='investmentHub']/ul/a[3]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>e527c565-8aa5-4aa2-9fb5-c9df469369b6</webElementGuid>
+      <value>span</value>
+      <webElementGuid>f3a3d190-99ba-4e75-b85f-3f5a7f47fe54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/share-movement</value>
-      <webElementGuid>0b6bd6d0-23d5-4c25-8a1b-6ef6b04ae50a</webElementGuid>
+      <webElementGuid>c371e492-f436-4fff-aab7-189b792354b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,17 +49,15 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>4cad6c06-5cb3-45a0-8086-46156dd053ad</webElementGuid>
+      <webElementGuid>0aac7adf-67fe-42a6-8bc9-5c29f329763e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                                        All share issues
-                                    </value>
-      <webElementGuid>c608fa84-d0d5-4406-8589-8100926e0ef4</webElementGuid>
+      <value>All share issues</value>
+      <webElementGuid>ff869d83-aa60-4f58-837c-1de7a78da0dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;investmentHub&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>6e0984fc-dd28-4e8a-a37f-a84703a84cd8</webElementGuid>
+      <webElementGuid>f0e6c433-a975-4ef5-a45b-9e4f15a583bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='investmentHub']/ul/a[3]</value>
-      <webElementGuid>77cfe482-9bf2-4c3f-bacf-86dc4eb88caf</webElementGuid>
+      <webElementGuid>ddb500a3-ed78-4166-937e-de6222a1aa91</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Related tools'])[1]/following::a[1]</value>
-      <webElementGuid>598c59b7-9e64-43b0-a79d-68b4513ed816</webElementGuid>
+      <webElementGuid>ed3337d3-2851-4498-83c8-3e7c7b64a3a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='All share issues']/parent::*</value>
-      <webElementGuid>300c4e5a-ef9c-4870-87b2-c72709df6906</webElementGuid>
+      <webElementGuid>58f545c3-eacb-4964-a0f9-c519cf7cdcae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +97,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/share-movement')]</value>
-      <webElementGuid>c1f8afd2-794a-49a0-8efc-afc094946b2f</webElementGuid>
+      <webElementGuid>b4592fcd-b0a9-436c-b1b7-94c9ebda7101</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul/a[3]</value>
-      <webElementGuid>fe60080e-73da-4bab-a29f-42969999061e</webElementGuid>
+      <webElementGuid>404b10ad-66fc-4e02-a4ff-43aafcdb28a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -115,6 +117,6 @@
                                     ' or . = '
                                         All share issues
                                     ')]</value>
-      <webElementGuid>29badfde-bcfd-409c-8549-d3a91ba2d59a</webElementGuid>
+      <webElementGuid>d1c914b3-3245-466d-b69f-81bdc6f9f7a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

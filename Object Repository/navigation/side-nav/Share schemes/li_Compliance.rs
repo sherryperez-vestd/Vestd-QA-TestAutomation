@@ -9,10 +9,6 @@
          <key>CSS</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[11]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//li[@class = 'nav-item nav-heading' and (text() = '
                                         Compliance
@@ -20,8 +16,12 @@
                                         Compliance
                                 ')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[(text() = 'Compliance')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -36,7 +36,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>91b3b49f-0dbf-4694-a051-46ee996498ce</webElementGuid>
+      <webElementGuid>fa2283c6-ecd0-4c09-b94c-cd017ef07843</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-item nav-heading</value>
-      <webElementGuid>f1caa088-4546-4ab4-9975-8d819f92ce72</webElementGuid>
+      <webElementGuid>7ffed9b2-73f3-4cca-ad82-475e45cb25d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <value>
                                         Compliance
                                 </value>
-      <webElementGuid>da48092d-1241-486c-b2a2-4b66547727b8</webElementGuid>
+      <webElementGuid>e45e0ca7-b281-4e57-98c5-d673fc90d4dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item nav-heading&quot;]</value>
-      <webElementGuid>759b5b06-5399-4873-99ba-6838196b196a</webElementGuid>
+      <webElementGuid>38b9000c-c556-42c5-a6d5-0ef879bcf6da</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[11]</value>
-      <webElementGuid>f088403d-9fe5-4401-a871-6f5c550115e3</webElementGuid>
+      <webElementGuid>1108e076-3922-4db7-899f-719263257dc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agile Partnership'])[1]/following::li[1]</value>
-      <webElementGuid>aefa1b62-ab2f-4c11-9414-893a07d9a484</webElementGuid>
+      <webElementGuid>4ecd9232-eab9-41eb-9378-873e2c63be75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RSAs'])[1]/following::li[2]</value>
-      <webElementGuid>c3eb5c66-e4ab-4978-87e1-794ab99e6831</webElementGuid>
+      <webElementGuid>7cad1963-3893-4466-aa68-5b75480f450f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Valuations'])[1]/preceding::li[1]</value>
-      <webElementGuid>c36c4e88-d42b-4b77-8c55-91f284d86393</webElementGuid>
+      <webElementGuid>79fdce41-1a25-4ef8-b2dc-ecbdc6a320b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share pools'])[1]/preceding::li[2]</value>
-      <webElementGuid>4952f00a-bc1d-44b3-bcad-7b2fae060a45</webElementGuid>
+      <webElementGuid>593deec1-c7b2-45c9-9e81-61d96d07304d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Compliance']/parent::*</value>
-      <webElementGuid>044d66bd-2d6f-4ed1-9c0a-8dc2116e2f1e</webElementGuid>
+      <webElementGuid>4b139551-0ff2-45b1-a3d6-dd43262485f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[11]</value>
-      <webElementGuid>92f038e0-c277-4ba6-8670-9b5a279ead0a</webElementGuid>
+      <webElementGuid>1090ba73-590f-4e96-92c4-1086e9c8b889</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
                                 ' or . = '
                                         Compliance
                                 ')]</value>
-      <webElementGuid>580abd10-6932-4b3d-8ca2-32961f770efe</webElementGuid>
+      <webElementGuid>b362c59a-92f5-4736-91a9-ef0806d29081</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

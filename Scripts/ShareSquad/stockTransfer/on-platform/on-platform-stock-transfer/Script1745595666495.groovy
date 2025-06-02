@@ -23,8 +23,7 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/stock-transfer')
 
 WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfers index/a_Create a new transfer'))
 
-WebUI.selectOptionByIndex(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/select_share-class'), 
-    '1', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/select_share-class'), '1', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_shareholder-From'))
 
@@ -36,14 +35,11 @@ WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer 
 
 WebUI.setText(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_Number of shares'), '10')
 
-WebUI.setText(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_Cash consideration (total for all sha_20407e'), 
-    '1')
+WebUI.setText(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_Cash consideration (total for all sha_20407e'), '1')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/select_Please selectNoYes'), 
-    '0', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/select_Please selectNoYes'), '0', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/select_NoneIncorporationFFRound oneRound two'), 
-    '128377', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/select_NoneIncorporationFFRound oneRound two'), '128377', true)
 
 WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer create/input_create one_btn btn-primary'))
 
@@ -53,21 +49,17 @@ WebUI.rightClick(findTestObject('Object Repository/stockTransfer/Page_Stock tran
 
 WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer details/p_Back to list of stock transfers'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'),  0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'), 
-    'Stock transfer created.')
+WebUI.verifyElementText(findTestObject('Object Repository/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'), 'Stock transfer created.')
 
 WebUI.click(findTestObject('Object Repository/stockTransfer/Page_Stock transfer details/button_Delete'))
 
 WebUI.acceptAlert()
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted'), 
-    'The stock transfer has been deleted.')
+WebUI.verifyElementText(findTestObject('Object Repository/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted'), 'The stock transfer has been deleted.')
 
 WebUI.closeBrowser()
 

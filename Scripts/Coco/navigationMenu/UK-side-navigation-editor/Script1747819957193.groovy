@@ -282,7 +282,7 @@ WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Company - st
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Help Centre'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Help Centre'), 'Help Centre')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Help Centre'), 'Help centre')
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Company settings'), 0)
 
@@ -292,11 +292,9 @@ WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_App - staff'
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/img'), 0)
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992)'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992)'), 
-    'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
 
 WebUI.closeBrowser()
 

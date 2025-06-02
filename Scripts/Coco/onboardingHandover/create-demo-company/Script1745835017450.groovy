@@ -23,9 +23,9 @@ WebUI.click(findTestObject('Object Repository/navigation/top-nav/a_Staff'))
 
 WebUI.click(findTestObject('Object Repository/navigation/top-nav/a_Companies'))
 
-WebUI.click(findTestObject('Object Repository/Page_My companies - Vestd/button_Create demo'))
+WebUI.click(findTestObject('Object Repository/Page_My companies/button_Create demo'))
 
-WebUI.click(findTestObject('Object Repository/Page_My companies - Vestd/a_Guided'))
+WebUI.click(findTestObject('Object Repository/Page_My companies/a_Guided'))
 
 WebUI.delay(15)
 

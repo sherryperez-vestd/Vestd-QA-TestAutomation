@@ -9,10 +9,6 @@
          <key>CSS</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[4]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://demo.app.vestd.com/company/50934/option/unapproved-option' and (text() = '
                                             Unapproved options
@@ -20,15 +16,19 @@
                                             Unapproved options
                                         ')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Unapproved options')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Unapproved options&quot;s]</value>
+         <value>//div[@id='sidebarSchemes']/ul/li[4]/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>13d46bec-32b8-41b8-b02b-91fd03fb1626</webElementGuid>
+      <webElementGuid>e2bfc0aa-afca-4b54-a977-eb3a310cda4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/option/unapproved-option</value>
-      <webElementGuid>d8458fa0-6983-478d-90ed-238ed0aed3c4</webElementGuid>
+      <webElementGuid>9b2a7a5d-c9ce-48a7-bf80-650e0d06ff1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>f9fbea91-8290-4e9d-bb78-4cb9bd13aa68</webElementGuid>
+      <webElementGuid>91869d80-1a88-47d4-93ee-1bc5c47c548a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <value>
                                             Unapproved options
                                         </value>
-      <webElementGuid>7d54f27e-8f24-473a-a8e3-8d4ed074a204</webElementGuid>
+      <webElementGuid>dd7ad5bd-84c3-4db7-90d8-b1cf0a252a5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>b5e92334-ab66-4a8d-916a-f3ea227bbcbe</webElementGuid>
+      <webElementGuid>fdea212b-1c57-49c2-bbfb-037206b8d578</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[4]/a</value>
-      <webElementGuid>a23ce02b-10eb-4192-8d09-f112809403b9</webElementGuid>
+      <webElementGuid>5a574832-20c5-4233-8b6b-f5bd7c887f3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Unapproved options')]</value>
-      <webElementGuid>d8b10ded-2d6a-4fb7-876a-cc84c55abe64</webElementGuid>
+      <webElementGuid>8202b3c3-a907-42e3-b54a-23cee797cbdf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EMI'])[1]/following::a[1]</value>
-      <webElementGuid>546028e1-2364-4e6c-8022-6c7730408260</webElementGuid>
+      <webElementGuid>79309c29-7d4c-4d6d-9cf9-709490141121</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Existing scheme uploads'])[1]/following::a[2]</value>
-      <webElementGuid>919c1a8c-869f-448a-b1d0-67f2e0e138ba</webElementGuid>
+      <webElementGuid>b74cb0be-44c0-4cac-9156-34c37c932b4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CSOP'])[1]/preceding::a[1]</value>
-      <webElementGuid>04111fca-6481-43ff-9e17-51fbb6f63d3a</webElementGuid>
+      <webElementGuid>861b18fe-7601-44c6-9076-59457e27269a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phantom shares'])[1]/preceding::a[2]</value>
-      <webElementGuid>7309d55f-fa80-404d-8fb6-a1060d8cc097</webElementGuid>
+      <webElementGuid>d6bd08f2-ba37-4551-9d50-cce420d16a43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Unapproved options']/parent::*</value>
-      <webElementGuid>59e65566-b085-48e7-a68b-afc5e4cf544c</webElementGuid>
+      <webElementGuid>64a0326d-6420-4acd-bce4-be65c3247496</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/option/unapproved-option')]</value>
-      <webElementGuid>cd7a1f0c-8daa-44e9-bf39-8a428115352b</webElementGuid>
+      <webElementGuid>a85b7764-affb-436e-ace3-71cdca6e83a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[4]/a</value>
-      <webElementGuid>285a6099-e137-4ae6-8f25-9b8fe5b23329</webElementGuid>
+      <webElementGuid>60f471c7-4b9a-4428-a103-b94d299933eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,6 +154,6 @@
                                         ' or . = '
                                             Unapproved options
                                         ')]</value>
-      <webElementGuid>e70e4c7f-20af-47e4-ad21-138dd8db3c18</webElementGuid>
+      <webElementGuid>6d301bfc-4074-475e-8fcc-f32d0bd256c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

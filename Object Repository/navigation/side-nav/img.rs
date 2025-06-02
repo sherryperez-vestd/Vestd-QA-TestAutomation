@@ -13,15 +13,19 @@
          <key>XPATH</key>
          <value>//div[@id='sidebarCollapse']/footer/ul/li[2]/div/img[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/img/iso-certified-muted.svg' and @alt = 'ISO-27001-Certified']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=img[name=&quot;ISO-27001-Certified&quot;i]</value>
+         <value>//div[@id='sidebarCollapse']/footer/ul/li[2]/div/img[2]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>9bd4e89d-553f-472c-9efc-4ce01e4668db</webElementGuid>
+      <webElementGuid>839507d5-728a-49ff-8e2f-c523b7313b45</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/img/iso-certified-muted.svg</value>
-      <webElementGuid>7d099b8f-d4ec-4ef6-920f-47793ff3b589</webElementGuid>
+      <webElementGuid>e7665cee-5218-4451-b051-80e3a942ee5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>ISO-27001-Certified</value>
-      <webElementGuid>fc14b382-003b-45ec-a958-16afc804bab9</webElementGuid>
+      <webElementGuid>309b863e-1749-4b48-8923-9804c3f05f7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>height</name>
       <type>Main</type>
       <value>32px</value>
-      <webElementGuid>389408ce-a12b-4f01-a93a-02af8bd944f6</webElementGuid>
+      <webElementGuid>78545bbc-f4bb-4b67-8621-c3f2bb536706</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>width</name>
       <type>Main</type>
       <value>32px</value>
-      <webElementGuid>5c643ec9-56b4-47ec-b720-178944836f84</webElementGuid>
+      <webElementGuid>499db56c-f338-4c2c-87cb-da2171d22092</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/footer[1]/ul[@class=&quot;navbar-nav navbar-footer&quot;]/li[@class=&quot;nav-item mt-2 pb-0&quot;]/div[@class=&quot;d-flex justify-content-center footer-certification-logos&quot;]/img[2]</value>
-      <webElementGuid>30d006a3-a930-4ffa-a5e2-048e9f75e481</webElementGuid>
+      <webElementGuid>28ef51f5-62a4-430c-80ef-c947f09fd321</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/footer/ul/li[2]/div/img[2]</value>
-      <webElementGuid>5407cdea-d450-4204-92d6-cc48d8ecde6e</webElementGuid>
+      <webElementGuid>0655d3d0-6358-4f38-9209-d27b1f713501</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='ISO-27001-Certified']</value>
-      <webElementGuid>df0444b9-943f-47d6-80da-3e60fbbac695</webElementGuid>
+      <webElementGuid>7c1e5ab6-961d-48f7-b6e4-672bc13a95b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//img[2]</value>
-      <webElementGuid>790f2b6f-8999-4b0c-b1e4-d382d95f6058</webElementGuid>
+      <webElementGuid>3571d211-f141-41c4-ba79-3fbb582f9de3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/img/iso-certified-muted.svg' and @alt = 'ISO-27001-Certified']</value>
-      <webElementGuid>ebd99e9a-e9cc-4883-81d3-b6ad2690558c</webElementGuid>
+      <webElementGuid>d0aaf775-bc56-42a0-9d12-e5c6a5341e83</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

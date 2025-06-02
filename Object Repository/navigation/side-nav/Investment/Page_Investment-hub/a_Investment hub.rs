@@ -10,34 +10,38 @@
          <value>a.nav-link.active</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Investment hub' or . = 'Investment hub')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='investmentHub']/ul/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;Investment hub&quot;i]</value>
+         <value>//div[@id='investmentHub']/ul/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>4980e99b-2dcb-4bc5-bb7f-ecbd4e01c425</webElementGuid>
+      <value>span</value>
+      <webElementGuid>4b3a8c2a-2aa7-474f-b843-3f1e9b6ba0b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/investment-hub</value>
-      <webElementGuid>fd8b3aad-323e-42d4-a0d0-b492086366e5</webElementGuid>
+      <webElementGuid>2443a77d-92ae-407a-957d-5c73c7808060</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,17 +49,15 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>0ee9df51-38ec-4f50-97f9-06f23a481ae2</webElementGuid>
+      <webElementGuid>ed351c43-dcdd-4b90-bcc7-64c6fb0aee5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                                        Investment hub
-                                    </value>
-      <webElementGuid>19b87d68-137a-40d6-bb3a-abd124013367</webElementGuid>
+      <value>Investment hub</value>
+      <webElementGuid>c3cc35cb-404e-49b9-805d-58b06560db6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;investmentHub&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>66fc605f-05ae-47bf-8e37-5f5c63c0ba21</webElementGuid>
+      <webElementGuid>c4e9b0c8-e745-4520-895b-5a73ac1fd8ff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='investmentHub']/ul/a</value>
-      <webElementGuid>335a7d29-9a7d-4e5e-a5d3-26c15af5e80c</webElementGuid>
+      <webElementGuid>2634e6cb-585b-4655-a04e-0589750d9bf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='investment rounds'])[1]/following::a[1]</value>
-      <webElementGuid>65d51c7b-66fd-4390-83c5-f2c35512190e</webElementGuid>
+      <webElementGuid>2b4b9741-1cf7-4cdb-b797-9b8c3c89534f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Related tools'])[1]/preceding::a[2]</value>
-      <webElementGuid>305b2174-12b8-41d9-a9fb-2fda5f56ebce</webElementGuid>
+      <webElementGuid>889e4291-69b7-479e-8681-289dc7b0ac98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Investment hub']/parent::*</value>
-      <webElementGuid>6280d9a4-cde5-49f4-8d2a-bfc32b6d0f4f</webElementGuid>
+      <webElementGuid>91fc5487-fcbb-48df-b4e3-a1573a582c56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'https://demo.app.vestd.com/company/50934/investment-hub')])[2]</value>
-      <webElementGuid>475620ae-c7b4-4acc-a4f3-cbd2a443bf80</webElementGuid>
+      <webElementGuid>a5b7c6a3-a458-4e41-b776-ed4bb186ad20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul/a</value>
-      <webElementGuid>d9d64599-ac76-4782-b3e0-3530a8c8dbb3</webElementGuid>
+      <webElementGuid>03982e0c-fe7d-4b2f-bb7e-988fd24655f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,6 +125,6 @@
                                     ' or . = '
                                         Investment hub
                                     ')]</value>
-      <webElementGuid>b053c785-32f3-460d-a170-8d9846422605</webElementGuid>
+      <webElementGuid>3c2b2794-9ae6-4ff0-82ea-84e7bbfef32e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

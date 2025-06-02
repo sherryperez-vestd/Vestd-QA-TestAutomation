@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_My equity'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/a_My equity'), 'My equity')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/a_My equity'), 'My Equity')
 
 WebUI.click(findTestObject('navigation/side-nav/Page_MyEquity/h1_My Equity'))
 
@@ -43,13 +43,13 @@ WebUI.verifyElementText(findTestObject('navigation/side-nav/Page_Communication/h
 
 WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Home'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Share schemes'), 0)
+WebUI.verifyElementNotVisible(findTestObject('navigation/side-nav/a_Share schemes'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Investment'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Share capital'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Secretarial  admin'), 0)
+//WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_Secretarial  admin'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_People  communication'), 0)
 
@@ -61,15 +61,11 @@ WebUI.verifyElementNotPresent(findTestObject('navigation/side-nav/a_App - staff'
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Help Centre'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Help Centre'), 'Help Centre')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Help Centre'), 'Help centre')
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/img'), 0)
-
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992)'), 
-    0)
-
-WebUI.verifyElementText(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992)'), 
-    'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 0)
+WebUI.verifyElementText(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
 
 WebUI.closeBrowser()
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Test Co                 Continue with y_a29ee4</name>
+   <name>div_Test Co</name>
    <tag></tag>
    <elementGuidId>6afecbc7-e199-45a5-981a-d1f862b2892a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.main-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

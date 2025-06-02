@@ -9,10 +9,6 @@
          <key>CSS</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[3]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://demo.app.vestd.com/company/50934/option/emi' and (text() = '
                                             EMI
@@ -20,8 +16,12 @@
                                             EMI
                                         ')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'EMI')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -36,7 +36,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f1626eff-c522-42ed-9c7e-6f7c19fc23b7</webElementGuid>
+      <webElementGuid>29dcc78b-8436-4b2f-a219-901ff22685cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/option/emi</value>
-      <webElementGuid>97573b6c-5902-4c67-bad3-d4dc160b87d7</webElementGuid>
+      <webElementGuid>8ab89dcd-0b89-4590-b9f4-1debdb2de829</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>00055bb3-6053-4b6e-8b85-580a198ae3df</webElementGuid>
+      <webElementGuid>c4382d18-dd4a-4722-9b8a-672b5e1525da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <value>
                                             EMI
                                         </value>
-      <webElementGuid>01c89d98-c235-4407-b6ab-de517f60f6f0</webElementGuid>
+      <webElementGuid>6b113efe-d391-4744-99fb-32b95c55966b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>41c6a60c-5378-47a4-a607-0117f2078edf</webElementGuid>
+      <webElementGuid>aad24da3-eb6c-4c1c-b596-caca6221e95b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[3]/a</value>
-      <webElementGuid>51bacbc0-1808-4064-a590-4b8acbb380c6</webElementGuid>
+      <webElementGuid>0da67201-7d0f-4db1-86c0-438c86202ab3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'EMI')]</value>
-      <webElementGuid>5ea7f3ec-6030-4e6e-bcfd-62c214a60a04</webElementGuid>
+      <webElementGuid>4db60605-6818-42b5-b6bf-b788ff4301c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Existing scheme uploads'])[1]/following::a[1]</value>
-      <webElementGuid>3b39fb5b-0389-42ab-8970-a699cb114d53</webElementGuid>
+      <webElementGuid>227b9ea0-2f71-4c6d-a4dd-c166aeec56c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Schemes'])[1]/following::a[2]</value>
-      <webElementGuid>84faf2af-f4ca-4e68-a3c1-e6298c0b8272</webElementGuid>
+      <webElementGuid>1793670b-d709-4285-8033-1ab2c2124c95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unapproved options'])[1]/preceding::a[1]</value>
-      <webElementGuid>c0f8f20d-eef7-436e-9cdd-597c0c7d917f</webElementGuid>
+      <webElementGuid>3a93cbfd-0933-431d-8e17-7fcdb0eacdb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CSOP'])[1]/preceding::a[2]</value>
-      <webElementGuid>75f7dd2a-6a9f-4146-858a-1bcb232cdbae</webElementGuid>
+      <webElementGuid>c2277bf0-cf5c-44e4-b938-f5f6fdaa2edf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='EMI']/parent::*</value>
-      <webElementGuid>7cbe0807-353e-4a47-92f6-ff3049b73bac</webElementGuid>
+      <webElementGuid>eb8f7562-67f1-4313-b3e0-7994dd4d90b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/option/emi')]</value>
-      <webElementGuid>b51a47dc-d614-42d1-a8b4-9a31416ba778</webElementGuid>
+      <webElementGuid>56743040-96c0-4014-a16c-60c040c7a74f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[3]/a</value>
-      <webElementGuid>82261dcf-b222-4f41-b89b-72fee70ef017</webElementGuid>
+      <webElementGuid>e0287a14-755c-41ee-aace-2314810da534</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -154,6 +154,6 @@
                                         ' or . = '
                                             EMI
                                         ')]</value>
-      <webElementGuid>d8e3e135-b539-4983-a87c-61811f56f33b</webElementGuid>
+      <webElementGuid>77eb76b2-226d-41e0-937c-0a4c223f6bcb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

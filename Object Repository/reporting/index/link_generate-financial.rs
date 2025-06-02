@@ -13,31 +13,35 @@
          <key>CSS</key>
          <value>tr:nth-of-type(2) > td:nth-of-type(3) > a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Generate' or . = 'Generate')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=row[name=&quot;Financial report This report will provide options vested, options lapsed, options exercised, reversed options and exercise requests. You will be able to select the start and end date on the next page. Generate&quot;i] >> internal:role=link</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/table/tbody/tr[2]/td[3]/a</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>3592ffde-3111-4914-9fad-62c1e6c001ae</webElementGuid>
+      <webElementGuid>ce68c404-b744-44ad-bc6a-cd0a270cb2eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50135/reports/financial-report</value>
-      <webElementGuid>1859c1e9-f66f-40fd-8b8d-e9f37b77b246</webElementGuid>
+      <webElementGuid>2c61cb93-e6b4-4f87-b552-b3ab1162c1c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Generate</value>
-      <webElementGuid>3d36af09-4ab6-43fc-89f4-87d10f27ef57</webElementGuid>
+      <webElementGuid>4a0caf1e-a934-4ae1-a3a4-c5afdfda7010</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[2]/td[3]/a[1]</value>
-      <webElementGuid>da1e82a5-226f-4b6c-b015-fb51bceb1bb4</webElementGuid>
+      <webElementGuid>dfe33c46-7f18-4ab0-821c-bcd3ce506815</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/table/tbody/tr[2]/td[3]/a</value>
-      <webElementGuid>f379382a-cad8-4a68-a726-ebe88502384f</webElementGuid>
+      <webElementGuid>f8c21880-f119-4e84-9467-17fd38cbfabc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Generate')])[2]</value>
-      <webElementGuid>da128fb4-9ce9-4c78-a585-2b52d26aace8</webElementGuid>
+      <webElementGuid>dcc3bb5b-3226-4ad4-be0f-c8937fa8e76c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Financial report'])[1]/following::a[1]</value>
-      <webElementGuid>c0098b06-98bb-4936-b4a1-c4b543b8df08</webElementGuid>
+      <webElementGuid>e38a77aa-5b4b-4280-90ef-b45b9f6afa5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate'])[1]/following::a[1]</value>
-      <webElementGuid>18aa3373-158f-46e0-ac16-29e98918d460</webElementGuid>
+      <webElementGuid>e7ec41ec-bf89-4b73-a47b-1de67b80f45b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cap table reporting'])[1]/preceding::a[1]</value>
-      <webElementGuid>238e0269-7522-4664-905d-59042670caad</webElementGuid>
+      <webElementGuid>46c2e543-a082-452f-a23b-564939e2dc76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate'])[3]/preceding::a[1]</value>
-      <webElementGuid>61200eb0-df32-47e2-a45a-bfe2b80ed5d5</webElementGuid>
+      <webElementGuid>bbf7c82b-8731-44f9-a01c-1a0d5862ffe8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50135/reports/financial-report')]</value>
-      <webElementGuid>ec33adf7-c92a-43e3-82c2-a7f562b83006</webElementGuid>
+      <webElementGuid>3c94a82c-a91c-4f57-90ad-b1b7da5c2600</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[3]/a</value>
-      <webElementGuid>9ca0a0c3-5724-4581-87ef-d61f42c808b2</webElementGuid>
+      <webElementGuid>e7404c90-c01d-4902-9a6d-64a49ead9045</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://demo.app.vestd.com/company/50135/reports/financial-report' and (text() = 'Generate' or . = 'Generate')]</value>
-      <webElementGuid>10afbe74-c2c7-46a1-b903-011c527a36f1</webElementGuid>
+      <webElementGuid>308cee24-6568-4137-9e90-63c2427170db</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

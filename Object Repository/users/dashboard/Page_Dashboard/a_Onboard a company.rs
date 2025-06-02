@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Onboard a company</name>
+   <tag></tag>
+   <elementGuidId>57bd1f6a-4ff6-48fd-8141-099068e077dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/section/div/div[2]/div[3]/div/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>57174af2-f78a-4011-a6cb-e4ac10dd0984</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+      <webElementGuid>8cad1dcf-0ba2-43c4-8758-646f00045e4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://demo.app.vestd.com/program-options</value>
+      <webElementGuid>e577d37d-4aa2-4ff6-a054-9a6b7973fca4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-outline-secondary btn-not-submit  v-btn</value>
+      <webElementGuid>41b1dc15-57db-4ccb-9da1-bbb31bf7d5e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>link-button</value>
+      <webElementGuid>e6ac14aa-521a-4e2b-b928-c5efac90e525</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Onboard a company</value>
+      <webElementGuid>07a9d4d7-fe37-4327-bf4f-157b6c4707de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/section[@class=&quot;row my-4&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-xl-3 text-center mb-4&quot;]/div[@class=&quot;card border-0 bg-light d-flex flex-column align-items-center py-3 px-2 h-100&quot;]/div[@class=&quot;d-inline-block&quot;]/div[@class=&quot;d-inline-block&quot;]/a[@class=&quot;btn btn-sm btn-outline-secondary btn-not-submit  v-btn&quot;]</value>
+      <webElementGuid>60ce5215-9ebd-476b-906f-879ef4e14661</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/section/div/div[2]/div[3]/div/div/div/a</value>
+      <webElementGuid>b7867372-402b-4f9f-bbb8-2d2c728e83cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::a[2]</value>
+      <webElementGuid>f7b85ae5-0670-4e02-bfff-c287978a17cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Onboard a company']/parent::*</value>
+      <webElementGuid>f2100b12-a478-48e8-9dba-701e2c84e2ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://demo.app.vestd.com/program-options')])[2]</value>
+      <webElementGuid>db1c89b4-d6df-4c36-acbf-7886542e7c59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/a</value>
+      <webElementGuid>f27bd456-1e9b-4ae5-bd76-a5d6ceef0a96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://demo.app.vestd.com/program-options' and (text() = 'Onboard a company' or . = 'Onboard a company')]</value>
+      <webElementGuid>45d3a71b-cb74-4a35-b5e6-eab3948c1c40</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

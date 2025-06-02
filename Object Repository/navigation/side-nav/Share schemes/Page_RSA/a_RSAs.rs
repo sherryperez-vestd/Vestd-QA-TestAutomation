@@ -10,10 +10,6 @@
          <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[9]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://demo.app.vestd.com/company/50934/distribution?type=rsa' and (text() = '
                                             RSAs
@@ -21,8 +17,12 @@
                                             RSAs
                                         ')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'RSAs')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -37,7 +37,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5c8d5f37-f4ca-4862-a40d-f42a02bb4073</webElementGuid>
+      <webElementGuid>14a9081c-801e-4922-838f-75fcddfe4e01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/distribution?type=rsa</value>
-      <webElementGuid>f135b2cb-6781-41df-925a-90ea792c9670</webElementGuid>
+      <webElementGuid>1714603b-3f7f-400e-9ebd-0d81a0ecdf8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link active</value>
-      <webElementGuid>87d2f2a9-119f-4754-9c73-e5596b23c28d</webElementGuid>
+      <webElementGuid>afa65a3a-9be3-455b-95d3-946fb8320db9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <value>
                                             RSAs
                                         </value>
-      <webElementGuid>6a82f94d-a2f6-4244-b650-623de700c213</webElementGuid>
+      <webElementGuid>daf8f5f1-2c12-425b-b9ba-09d3caf5c104</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>1d2f1289-8649-4d3b-9e71-b784c71dd6d7</webElementGuid>
+      <webElementGuid>d4586573-0eaa-41e6-9eac-3030f88d7426</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarSchemes']/ul/li[9]/a</value>
-      <webElementGuid>8d273926-4b5c-4a4e-838a-3aae2cb4d3f8</webElementGuid>
+      <webElementGuid>9981db0d-e1e0-4286-bbb7-b2e8d495cdef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'RSAs')]</value>
-      <webElementGuid>f54d3c95-b883-490f-af36-22916ab4496e</webElementGuid>
+      <webElementGuid>e2b9a960-bb37-4a5a-9c1f-f96dcbce06a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Growth shares'])[1]/following::a[1]</value>
-      <webElementGuid>4156eb54-bb62-4f33-a97c-026d32764f89</webElementGuid>
+      <webElementGuid>ca793017-e4d9-492c-a4c9-080a00da0798</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All option agreements'])[1]/following::a[2]</value>
-      <webElementGuid>6df37a73-f01a-41bf-8c3d-d7329dc660c6</webElementGuid>
+      <webElementGuid>0497a46d-b447-4201-9684-893eca13cb9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Agile Partnership'])[1]/preceding::a[1]</value>
-      <webElementGuid>d91cbc49-4d79-49ea-83e3-0739e07537a1</webElementGuid>
+      <webElementGuid>6e09ed68-e362-40ed-b059-2bd05885ee1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Compliance'])[1]/preceding::a[2]</value>
-      <webElementGuid>61376938-3e39-46a7-a7d9-738c2f3ea306</webElementGuid>
+      <webElementGuid>620b9dcf-9a08-4238-a48c-8fc968894d51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='RSAs']/parent::*</value>
-      <webElementGuid>71689399-599b-4674-af67-adee1fc9a0c0</webElementGuid>
+      <webElementGuid>26e8f2ac-28f6-4026-a16d-235fc6caa061</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/distribution?type=rsa')]</value>
-      <webElementGuid>f7b29349-882d-4390-99e4-e00ae68c050f</webElementGuid>
+      <webElementGuid>646731dd-1f81-45bb-a13d-dcc49983858e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ul/li[9]/a</value>
-      <webElementGuid>55f84769-a9d4-43d1-9e9e-96ac28646ec0</webElementGuid>
+      <webElementGuid>754132ec-4279-4b89-9afa-03dbc119e88e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -155,6 +155,6 @@
                                         ' or . = '
                                             RSAs
                                         ')]</value>
-      <webElementGuid>a5209070-9a81-4fe4-9efa-ebc836432a6c</webElementGuid>
+      <webElementGuid>9fd8f17a-ba7f-44d2-a6a6-998824c674fe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

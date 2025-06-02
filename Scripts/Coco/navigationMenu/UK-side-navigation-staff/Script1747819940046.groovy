@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/home')
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_My equity'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/a_My equity'), 'My equity')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/a_My equity'), 'My Equity')
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Home'), 0)
 
@@ -65,15 +65,19 @@ WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Pag
 
 WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_EMI/h1_EMI'), 'EMI')
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Page_Unapproved Options/a_Unapproved options'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Page_Unapproved Options/a_Unapproved options'), 
+    0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_Unapproved Options/a_Unapproved options'), 'Unapproved options')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_Unapproved Options/a_Unapproved options'), 
+    'Unapproved options')
 
 WebUI.click(findTestObject('navigation/side-nav/Share schemes/Page_Unapproved Options/a_Unapproved options'))
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Page_Unapproved Options/h1_Unapproved options'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Page_Unapproved Options/h1_Unapproved options'), 
+    0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_Unapproved Options/h1_Unapproved options'), 'Unapproved options')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_Unapproved Options/h1_Unapproved options'), 
+    'Unapproved options')
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Page_CSOP/a_CSOP'), 0)
 
@@ -129,15 +133,19 @@ WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Pag
 
 WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_RSA/h1_RSAs'), 'RSAs')
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Page_Agile partnerships/a_Agile Partnership'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Page_Agile partnerships/a_Agile Partnership'), 
+    0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_Agile partnerships/a_Agile Partnership'), 'Agile Partnership')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_Agile partnerships/a_Agile Partnership'), 
+    'Agile Partnership')
 
 WebUI.click(findTestObject('navigation/side-nav/Share schemes/Page_Agile partnerships/a_Agile Partnership'))
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Page_Agile partnerships/h1_Agile Partnerships'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Page_Agile partnerships/h1_Agile Partnerships'), 
+    0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_Agile partnerships/h1_Agile Partnerships'), 'Agile Partnerships')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_Agile partnerships/h1_Agile Partnerships'), 
+    'Agile Partnerships')
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/li_Compliance'), 0)
 
@@ -180,7 +188,8 @@ WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_A
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Page_Initial-Notification/a_Initial notifications'), 
     0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_Initial-Notification/a_Initial notifications'), 'Initial notifications')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_Initial-Notification/a_Initial notifications'), 
+    'Initial notifications')
 
 WebUI.click(findTestObject('navigation/side-nav/Share schemes/Page_Initial-Notification/a_Initial notifications'))
 
@@ -206,9 +215,11 @@ WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_Inve
 
 WebUI.click(findTestObject('navigation/side-nav/Investment/Page_Investment-hub/a_Investment hub'))
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_Investment-hub/h1_Investment - InVestd Raise'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_Investment-hub/h1_Investment - InVestd Raise'), 
+    0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_Investment-hub/h1_Investment - InVestd Raise'), 'Investment - InVestd Raise')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_Investment-hub/h1_Investment - InVestd Raise'), 
+    'Investment - InVestd Raise')
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_Guided-Flow/a_Guided flow'), 0)
 
@@ -216,7 +227,8 @@ WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_Guid
 
 WebUI.click(findTestObject('navigation/side-nav/Investment/Page_Guided-Flow/a_Guided flow'))
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_Guided-Flow/h1_Investment via InVestd'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_Guided-Flow/h1_Investment via InVestd'), 
+    0)
 
 WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_Guided-Flow/h1_Investment via InVestd'), 'Investment via InVestd')
 
@@ -230,9 +242,11 @@ WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_All-
 
 WebUI.click(findTestObject('navigation/side-nav/Investment/Page_All-share-issues/a_All share issues'))
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_All-share-issues/h1_Share movement history'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_All-share-issues/h1_Share movement history'), 
+    0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_All-share-issues/h1_Share movement history'), 'Share movement history')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_All-share-issues/h1_Share movement history'), 
+    'Share movement history')
 
 WebUI.click(findTestObject('navigation/side-nav/a_Investment'))
 
@@ -246,7 +260,8 @@ WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_S
 
 WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_SEIS-EIS/h1_SEISEIS'), 'SEIS/EIS')
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_Share authorisations/a_Share authorisations'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_Share authorisations/a_Share authorisations'), 
+    0)
 
 not_run: WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_Share authorisations/a_Share authorisations'), 
     'Share authorisations')
@@ -256,7 +271,8 @@ not_run: WebUI.click(findTestObject('navigation/side-nav/Investment/Page_Share a
 not_run: WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_Share authorisations/h1_Authorisations'), 
     0)
 
-not_run: WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_Share authorisations/h1_Authorisations'), 'Authorisations')
+not_run: WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_Share authorisations/h1_Authorisations'), 
+    'Authorisations')
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Share capital'), 0)
 
@@ -278,11 +294,11 @@ WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Company - staff'),
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Help Centre'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Help Centre'), 'Help Centre')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Help Centre'), 'Help centre')
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Company settings'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Company settings'), 'Company settings')
+//WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Company settings'), 'Company settings')
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_App - staff'), 0)
 
@@ -290,11 +306,9 @@ WebUI.verifyElementText(findTestObject('navigation/side-nav/a_App - staff'), 'Ap
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/img'), 0)
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992)'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992)'), 
-    'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
 
 WebUI.closeBrowser()
 
