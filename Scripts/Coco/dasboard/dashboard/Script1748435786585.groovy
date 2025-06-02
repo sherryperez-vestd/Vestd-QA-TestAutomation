@@ -25,11 +25,10 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/users/dashboard/Pa
 
 WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_Dashboard/h1_Dashboard'), 'Dashboard')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Potential profit graph'), 
-    0)
+'Check Potential profit graph'
+WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Potential profit graph'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Potential profit graph'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Potential profit graph'), 0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Potential profit graph'), 'Potential profit graph')
 
@@ -37,19 +36,16 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/users/dashboard/P
 
 WebUI.click(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Potential profit graph'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Potential value profit/h1_Potential value profit'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Potential value profit/h1_Potential value profit'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/users/dashboard/Page_Potential value profit/h1_Potential value profit'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('Object Repository/users/dashboard/Page_Potential value profit/h1_Potential value profit'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_Potential value profit/h1_Potential value profit'), 
-    'Potential value & profit')
+WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_Potential value profit/h1_Potential value profit'), 'Potential value & profit')
 
 WebUI.click(findTestObject('Object Repository/users/dashboard/Page_Potential value profit/a_Back to Dashboard'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Ask a company to add you'), 
-    0)
+'Check Request access to a company'
+WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Ask a company to add you'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Ask a company to add you'))
 
@@ -61,16 +57,14 @@ WebUI.click(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_A
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/users/dashboard/Page_Request_access-Invite to company/h1_Request access to a company'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Request_access-Invite to company/h1_Request access to a company'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Request_access-Invite to company/h1_Request access to a company'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_Request_access-Invite to company/h1_Request access to a company'), 
-    'Request access to a company')
+WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_Request_access-Invite to company/h1_Request access to a company'), 'Request access to a company')
 
 WebUI.back()
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Invite a company to join'), 
-    0)
+'Check Invite a company'
+WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Invite a company to join'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Invite a company to join'))
 
@@ -82,11 +76,11 @@ WebUI.verifyElementPresent(findTestObject('users/dashboard/Page_Request_access-I
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/users/dashboard/Page_Request_access-Invite to company/h1_Invite a company'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_Request_access-Invite to company/h1_Invite a company'), 
-    'Invite a company')
+WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_Request_access-Invite to company/h1_Invite a company'), 'Invite a company')
 
 WebUI.back()
 
+'Check Onboard a company'
 WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Onboard a company'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Onboard a company'))
@@ -103,6 +97,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_G
 
 WebUI.back()
 
+'Check Incorporate a company'
 WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Incorporate a company'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Incorporate a company'))
@@ -117,6 +112,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Pag
 
 WebUI.back()
 
+'Check Record an investment'
 WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Record an investment'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Record an investment'))
@@ -125,16 +121,15 @@ WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_D
 
 WebUI.click(findTestObject('Object Repository/users/dashboard/Page_Dashboard/a_Record an investment'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_External Investment/h1_Add an investment'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_External Investment/h1_Add an investment'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/users/dashboard/Page_External Investment/h1_Add an investment'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_External Investment/h1_Add an investment'), 
-    'Add an investment')
+WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_External Investment/h1_Add an investment'), 'Add an investment')
 
 WebUI.click(findTestObject('navigation/top-nav/a_Dashboard'))
 
+'Check Customise'
 WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/button_Customise'), 0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_Dashboard/button_Customise'), 'Customise')
@@ -157,15 +152,13 @@ WebUI.setText(findTestObject('Object Repository/users/dashboard/Page_Group - Cre
 
 WebUI.click(findTestObject('Object Repository/users/dashboard/Page_Group - Create/span_Companies-selection'))
 
-WebUI.setText(findTestObject('Object Repository/users/dashboard/Page_Group - Create/textarea_Companies_select2-search__field'), 
-    'test')
+WebUI.setText(findTestObject('Object Repository/users/dashboard/Page_Group - Create/textarea_Companies_select2-search__field'), 'test')
 
 WebUI.click(findTestObject('Object Repository/users/dashboard/Page_Group - Create/form_Group Companies Indian Co'))
 
 WebUI.click(findTestObject('Object Repository/users/dashboard/Page_Group - Create/span_Companies-selection'))
 
-WebUI.setText(findTestObject('Object Repository/users/dashboard/Page_Group - Create/textarea_Companies_select2-search__field'), 
-    'test')
+WebUI.setText(findTestObject('Object Repository/users/dashboard/Page_Group - Create/textarea_Companies_select2-search__field'), 'test')
 
 WebUI.click(findTestObject('Object Repository/users/dashboard/Page_Group - Create/input_Test Co_btn btn-primary'))
 
@@ -179,18 +172,16 @@ WebUI.click(findTestObject('Object Repository/users/dashboard/Page_Group/button_
 
 WebUI.click(findTestObject('Object Repository/users/dashboard/Page_Group/a_Back to Dashboard'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/button_Add to your dashboard'), 
-    0)
+'Check Add to your dashboard'
+WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/button_Add to your dashboard'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/users/dashboard/Page_Dashboard/button_Add to your dashboard'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_Dashboard/button_Add to your dashboard'), 
-    'Add to your dashboard')
+WebUI.verifyElementText(findTestObject('Object Repository/users/dashboard/Page_Dashboard/button_Add to your dashboard'), 'Add to your dashboard')
 
 WebUI.click(findTestObject('Object Repository/users/dashboard/Page_Dashboard/button_Add to your dashboard'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/div_Ask a company to add you'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/users/dashboard/Page_Dashboard/div_Ask a company to add you'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/users/dashboard/Page_Dashboard/div_Ask a company to add you'))
 
