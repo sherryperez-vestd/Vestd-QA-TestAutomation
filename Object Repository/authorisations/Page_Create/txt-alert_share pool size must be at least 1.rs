@@ -6,16 +6,16 @@
    <elementGuidId>2a268f21-d0ed-4a60-a50d-2ac3d7134882</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1.h4.mb-0</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'The share pool size must be at least 1.' or . = 'The share pool size must be at least 1.')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/h1</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'The share pool size must be at least 1.' or . = 'The share pool size must be at least 1.')]</value>
+         <key>CSS</key>
+         <value>h1.h4.mb-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Please selectOrdinary (voting) (0.00_0f5091</name>
+   <name>select_GS Auth share class</name>
    <tag></tag>
-   <elementGuidId>762f9c2e-8e95-4086-8d70-df1535afea84</elementGuidId>
+   <elementGuidId>068e8218-034b-4ed7-bf3b-a8246cbad18a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>eb4729e1-4e82-45cf-b07f-50923704ce1e</webElementGuid>
+      <webElementGuid>6d598810-08af-48b8-a6fd-b8cf40150f87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>05589ca4-1779-4b20-a681-c70925e4c874</webElementGuid>
+      <webElementGuid>94ba406b-1dc5-4fcd-a8af-d380c140cbce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>share_class_id</value>
-      <webElementGuid>1025b9a3-6766-4f33-9279-9b9096f3fbc0</webElementGuid>
+      <webElementGuid>16f9ab1a-d0d1-4592-9a45-7763b5fd6537</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>share_class_id</value>
-      <webElementGuid>cacf0aa0-cdbc-4eb4-a9bb-95f5e7e26717</webElementGuid>
+      <webElementGuid>4318caec-63e8-4215-80dd-691886ed7b76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Please select…Ordinary (voting) (£0.0001)Ordinary A (voting) (£0.0001)</value>
-      <webElementGuid>1061ce59-e1bc-4d05-bce0-93442312e02e</webElementGuid>
+      <webElementGuid>218fd9a6-c392-40cc-8b02-226b54a371b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;share_class_id&quot;)</value>
-      <webElementGuid>c550b609-dc47-4c63-b4d9-8775b637aec9</webElementGuid>
+      <webElementGuid>9625c32d-be06-43b0-ae9d-0b5764d268e6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='share_class_id']</value>
-      <webElementGuid>115b6a08-2f7f-4296-ba70-99dd73765250</webElementGuid>
+      <webElementGuid>5ebdbb62-4fa7-419f-b52f-73a649e3896b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='js-share-approval-form']/div[3]/select</value>
-      <webElementGuid>0d6f7d4a-5d0f-49e6-931a-86a698d100d6</webElementGuid>
+      <webElementGuid>98792328-081e-407b-bbf9-22190b34e126</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share class'])[1]/following::select[1]</value>
-      <webElementGuid>b3c1813a-6423-47fa-943d-5a763b91d572</webElementGuid>
+      <webElementGuid>82a6f8f6-baa9-45a3-ba92-39978ab0040b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pool size'])[1]/following::select[1]</value>
-      <webElementGuid>00d8f906-828f-4135-b504-ef66a1ae876a</webElementGuid>
+      <webElementGuid>895182c3-5beb-4394-87c4-4f4eb83830f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Resolutions'])[2]/preceding::select[1]</value>
-      <webElementGuid>952ebf02-6ac2-495d-a7d3-62faffb35398</webElementGuid>
+      <webElementGuid>b49fbf21-324f-4364-aef4-0714caf9febc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>2ee39058-d21a-4b55-a306-6bc8a4440bbf</webElementGuid>
+      <webElementGuid>88cef977-7388-4847-a3cb-668ef65b0fc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'share_class_id' and @name = 'share_class_id' and (text() = 'Please select…Ordinary (voting) (£0.0001)Ordinary A (voting) (£0.0001)' or . = 'Please select…Ordinary (voting) (£0.0001)Ordinary A (voting) (£0.0001)')]</value>
-      <webElementGuid>cd818e4f-d76d-4d17-a193-712c3bdbb966</webElementGuid>
+      <webElementGuid>ac3e8058-9632-4046-925f-cdd5bc3cb0d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

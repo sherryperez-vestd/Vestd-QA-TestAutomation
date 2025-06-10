@@ -1,118 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Reference_name</name>
+   <name>input_Pool size_share_pool_size</name>
    <tag></tag>
-   <elementGuidId>8148e166-5747-4a06-8f77-8294565fb760</elementGuidId>
+   <elementGuidId>8fef0554-86a3-4afb-a273-c50acc002b78</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#name</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'share_pool_size' and @type = 'number' and @id = 'share_pool_size']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='name']</value>
+         <value>//input[@id='share_pool_size']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@class = 'form-control' and @name = 'name' and @type = 'text']</value>
+         <key>CSS</key>
+         <value>#share_pool_size</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>//input[@id='name']</value>
+         <value>//input[@id='share_pool_size']</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6674a9c6-3d53-4300-8100-329b081a0068</webElementGuid>
+      <webElementGuid>5b36ec34-af0d-4442-8442-c9a6c7107a79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>a33eaa35-4591-4745-8fbd-c72153b6cbb6</webElementGuid>
+      <webElementGuid>8358f4b6-924b-4fb3-8412-37441adb9f09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>name</value>
-      <webElementGuid>d9a3a3c0-f6a0-4691-8541-decf8fb5a4e1</webElementGuid>
+      <value>share_pool_size</value>
+      <webElementGuid>3f698006-269b-4091-945f-f85e7a0a44eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>50856eb3-8838-43cc-af70-96886cdec718</webElementGuid>
+      <value>number</value>
+      <webElementGuid>bc57e7bf-5bb5-463d-85f0-84255368a99a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>name</value>
-      <webElementGuid>1b7fb8b8-ccc9-4594-9782-cbe5e3445588</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Option pool 3</value>
-      <webElementGuid>0175bd29-fd83-42c6-93e2-8158105ee7a7</webElementGuid>
+      <value>share_pool_size</value>
+      <webElementGuid>5e2517ca-cda9-4859-87ed-5e9d26947cf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;name&quot;)</value>
-      <webElementGuid>5a4c58fb-c64a-42e2-93cd-270e54b414f6</webElementGuid>
+      <value>id(&quot;share_pool_size&quot;)</value>
+      <webElementGuid>4fa5ef48-3825-433d-abf3-ad6155241748</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='name']</value>
-      <webElementGuid>abff418a-fdbe-4a04-bc0b-77c27c473efc</webElementGuid>
+      <value>//input[@id='share_pool_size']</value>
+      <webElementGuid>b1bd87c9-8697-40a6-a0cd-237f093156cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='js-share-approval-form']/div/input</value>
-      <webElementGuid>a8b8d882-3ce8-4456-a570-0acbd59f0c79</webElementGuid>
+      <value>//form[@id='js-share-approval-form']/div[2]/input</value>
+      <webElementGuid>dd87f233-ff75-4c2a-a635-e860b032e2d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/input</value>
-      <webElementGuid>dafe43ef-31e7-4462-a962-3480e137ab00</webElementGuid>
+      <value>//div[2]/input</value>
+      <webElementGuid>a3b691fb-d590-42d4-a54e-a98ce99a27f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'name' and @type = 'text' and @id = 'name']</value>
-      <webElementGuid>0f41d3d6-3135-4907-ac00-1ac687110c7c</webElementGuid>
+      <value>//input[@name = 'share_pool_size' and @type = 'number' and @id = 'share_pool_size']</value>
+      <webElementGuid>ea16f919-173c-41d4-a54c-a6db48a519b9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

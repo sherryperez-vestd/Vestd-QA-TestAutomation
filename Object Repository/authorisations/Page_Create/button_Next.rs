@@ -6,16 +6,16 @@
    <elementGuidId>8a319a10-2e02-4794-a02d-b5317fb735ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-md.btn-primary.btn-not-submit.v-btn</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Next' or . = 'Next')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = 'Next' or . = 'Next')]</value>
+         <key>CSS</key>
+         <value>button.btn.btn-md.btn-primary.btn-not-submit.v-btn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -6,16 +6,16 @@
    <elementGuidId>f17859bf-9eea-4a39-a979-67f6abd4aeff</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1.h4.mb-0</value>
+         <key>BASIC</key>
+         <value>//h1[@class = 'h4 mb-0' and (text() = ' Option pool test ' or . = ' Option pool test ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//h1[(contains(text(), 'Option pool test'))]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//h1[@class = 'h4 mb-0' and (text() = ' Option pool test ' or . = ' Option pool test ')]</value>
+         <key>CSS</key>
+         <value>h1.h4.mb-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
