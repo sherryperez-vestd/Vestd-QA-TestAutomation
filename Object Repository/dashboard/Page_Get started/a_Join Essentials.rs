@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Join Essentials</name>
+   <tag></tag>
+   <elementGuidId>09861b16-d114-49d6-95cd-288a70f8486b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='app']/div/div/div/div/div/div/div/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-outline-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>92454f35-8d63-4c24-a5ad-0bd1c9945b4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://demo.app.vestd.com/workflow/company-incorporation/create?product=essentials&amp;incorporation=1</value>
+      <webElementGuid>ae388669-1063-48b9-b5c4-17a0b9843711</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-primary</value>
+      <webElementGuid>3fbdcb8b-94f7-4746-843f-66330f98d6ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Join Essentials</value>
+      <webElementGuid>d8be13f1-ea19-4bb8-9693-987782f21dbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[1]/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;services-container&quot;]/div[@class=&quot;row text-center mb-4&quot;]/div[@class=&quot;col d-flex&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-footer border-0 text-center mt-4&quot;]/a[@class=&quot;btn btn-outline-primary&quot;]</value>
+      <webElementGuid>b5ecc3cc-8e60-4ff2-a8b5-fc72ef2f5f96</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='app']/div/div/div/div/div/div/div/div[2]/a</value>
+      <webElementGuid>122ab882-afa2-4aea-bea7-d2fc6da0f923</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Join Essentials')]</value>
+      <webElementGuid>70527d5a-a8fb-4587-965f-f3dd478b3719</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No conditional shares'])[1]/following::a[1]</value>
+      <webElementGuid>d7749aec-2c1c-4bd6-a4ce-0a14b20a74a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No share schemes'])[1]/following::a[1]</value>
+      <webElementGuid>7b7fdae9-4cc9-4cf6-9275-e144e6c2f98b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='and'])[1]/preceding::a[1]</value>
+      <webElementGuid>8a989c98-8972-456e-b447-fc7b66e41e10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Join Essentials']/parent::*</value>
+      <webElementGuid>0554f0b6-4609-4d54-aa08-cdd99ffcc381</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://demo.app.vestd.com/workflow/company-incorporation/create?product=essentials&amp;incorporation=1')]</value>
+      <webElementGuid>bde341b8-5d60-4541-9f9a-fbd9347d9c75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/a</value>
+      <webElementGuid>c710b7eb-f1bd-4e4a-9d83-3586b8387be6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://demo.app.vestd.com/workflow/company-incorporation/create?product=essentials&amp;incorporation=1' and (text() = 'Join Essentials' or . = 'Join Essentials')]</value>
+      <webElementGuid>c0c52458-892b-43a8-81cc-5e31e494b0c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

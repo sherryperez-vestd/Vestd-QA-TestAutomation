@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Names and email addresses</name>
+   <tag></tag>
+   <elementGuidId>3ca0c904-131e-40cb-bcbb-479b508e8676</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[11]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.width-500 > div.left-indent.width-500 > div.form-group.form-group--optional > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>c9184b7c-7051-4abc-880f-fdbc7e3a9b1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>aELoXucG9qz0MtqM</value>
+      <webElementGuid>24ddfa30-a276-40eb-a71f-57717ac5436b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Names and email addresses</value>
+      <webElementGuid>458e87b6-926a-4a0f-ace7-0cc4b2918a26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;left-indent width-500&quot;]/div[@class=&quot;form-group form-group--optional&quot;]/label[1]</value>
+      <webElementGuid>3ff36db4-b9d6-4ac9-9f20-195ae2d5516f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[11]/div/label</value>
+      <webElementGuid>3048f0ca-d0e4-41b2-b61f-ceb00903c147</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Names and email addresses']/parent::*</value>
+      <webElementGuid>7ec81e5e-336b-4956-8749-94cfb9ccfabb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[11]/div/label</value>
+      <webElementGuid>bf522a62-3aeb-4d5b-acb1-aa6e68d86fa3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Names and email addresses' or . = 'Names and email addresses')]</value>
+      <webElementGuid>2bfabc91-243c-480d-9d98-78fd853c6393</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

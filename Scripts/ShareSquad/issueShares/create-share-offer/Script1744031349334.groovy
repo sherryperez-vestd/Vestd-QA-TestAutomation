@@ -79,6 +79,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/issueShares/share-issu
 
 WebUI.click(findTestObject('Object Repository/issueShares/share-issues-index/a_Share distribution 1'))
 
+WebUI.delay(5)
+
 WebUI.refresh()
 
 WebUI.waitForElementPresent(findTestObject('issueShares/Share-distribution-details/a_Share issue-staff-link'), 0)
@@ -139,7 +141,7 @@ WebUI.refresh()
 
 WebUI.click(findTestObject('shareCertificates/button_Delete'))
 
-WebUI.acceptAlert()
+WebUI.click(findTestObject('shareCertificates/button_Confirm'))
 
 WebUI.closeBrowser()
 

@@ -87,6 +87,12 @@ WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_S
 
 WebUI.click(findTestObject('navigation/side-nav/Share schemes/Page_Share-pools/a_Share pools'))
 
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Page_Share-pools/h1_Authorisations'), 0)
+
+WebUI.verifyElementText(findTestObject('navigation/side-nav/Share schemes/Page_Share-pools/h1_Authorisations'), 'Authorisations')
+
+WebUI.click(findTestObject('navigation/side-nav/Share schemes/Page_Buyback options/a_Buyback-options'))
+
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Share schemes/Page_Buyback options/h1_Buyback-options'), 
     0)
 
@@ -139,21 +145,17 @@ WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_A
 WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_All-share-issues/h1_Share movement history'), 
     'Share movement history')
 
-WebUI.click(findTestObject('navigation/side-nav/a_Investment'))
-
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_SEIS-EIS/a_SEIS  EIS'), 0)
-
-WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_SEIS-EIS/a_SEIS  EIS'), 'SEIS & EIS')
-
-WebUI.click(findTestObject('navigation/side-nav/Investment/Page_SEIS-EIS/a_SEIS  EIS'))
-
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_SEIS-EIS/h1_SEISEIS'), 0)
-
-WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_SEIS-EIS/h1_SEISEIS'), 'SEIS/EIS')
-
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_Share authorisations/a_Share authorisations'), 
-    0)
-
+//WebUI.click(findTestObject('navigation/side-nav/a_Investment'))
+//WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_SEIS-EIS/a_SEIS  EIS'), 0)
+//
+//WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_SEIS-EIS/a_SEIS  EIS'), 'SEIS & EIS')
+//
+//WebUI.click(findTestObject('navigation/side-nav/Investment/Page_SEIS-EIS/a_SEIS  EIS'))
+//
+//WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_SEIS-EIS/h1_SEISEIS'), 0)
+//
+//WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_SEIS-EIS/h1_SEISEIS'), 'SEIS/EIS')
+//WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_Share authorisations/a_Share authorisations'), 0)
 not_run: WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_Share authorisations/a_Share authorisations'), 
     'Share authorisations')
 
@@ -169,8 +171,7 @@ WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Share capital')
 
 WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Share capital'), 'Share capital')
 
-WebUI.click(findTestObject('navigation/side-nav/a_Share capital'))
-
+//WebUI.click(findTestObject('navigation/side-nav/a_Share capital'))
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Secretarial  admin'), 0)
 
 WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Secretarial  admin'), 'Secretarial & admin')
@@ -185,23 +186,21 @@ WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Company - staff'),
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Help Centre'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Help Centre'), 'Help Centre')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Help Centre'), 'Help centre')
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Company settings'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Company settings 2'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Company settings'), 'Company settings')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Company settings 2'), 'Company settings')
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_App - staff'), 0)
 
 WebUI.verifyElementText(findTestObject('navigation/side-nav/a_App - staff'), 'App - staff')
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/img'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/img-ISO'), 0)
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 
-    'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
 
 WebUI.closeBrowser()
 

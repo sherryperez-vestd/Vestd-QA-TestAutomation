@@ -227,10 +227,10 @@ WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_Guid
 
 WebUI.click(findTestObject('navigation/side-nav/Investment/Page_Guided-Flow/a_Guided flow'))
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_Guided-Flow/h1_Investment via InVestd'), 
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/Page_Guided-Flow/h1_Investment via InVestd - Invested Raise'), 
     0)
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_Guided-Flow/h1_Investment via InVestd'), 'Investment via InVestd')
+WebUI.verifyElementText(findTestObject('navigation/side-nav/Investment/Page_Guided-Flow/h1_Investment via InVestd - Invested Raise'), 'Investment via InVestd Raise')
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Investment/li_Related tools'), 0)
 
@@ -299,12 +299,11 @@ WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Help Centre'), 'He
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Company settings'), 0)
 
 //WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Company settings'), 'Company settings')
-
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_App - staff'), 0)
 
 WebUI.verifyElementText(findTestObject('navigation/side-nav/a_App - staff'), 'App - staff')
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/img'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/img-ISO'), 0)
 
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 0)
 

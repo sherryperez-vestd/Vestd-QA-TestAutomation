@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>dashboard - Invite a company to join</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1b479af0-0445-40be-b6eb-744f54943d1b</testCaseGuid>
+</TestCaseEntity>

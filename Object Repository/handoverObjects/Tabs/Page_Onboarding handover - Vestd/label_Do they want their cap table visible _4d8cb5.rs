@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Do they want their cap table visible _4d8cb5</name>
+   <tag></tag>
+   <elementGuidId>401ad3c4-9494-486c-ab84-39e26cc81c1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/label[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.width-500 > label:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>2dd1b548-d4f3-40d2-925a-cbd706f01380</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Do they want their cap table visible to shareholders?</value>
+      <webElementGuid>db7bb201-f45e-433e-b290-31510a3e8102</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/label[2]</value>
+      <webElementGuid>c1336bfd-1bff-4c2d-a498-1590ac2294cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/label[2]</value>
+      <webElementGuid>8975ab39-a036-488a-82c8-5b076158d06d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Do they want their cap table visible to shareholders?']/parent::*</value>
+      <webElementGuid>037f46d2-5641-44d2-aa7b-b9e490ccaa24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/label[2]</value>
+      <webElementGuid>7965b829-b03d-40cd-8839-7bbcbba73416</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Do they want their cap table visible to shareholders?' or . = 'Do they want their cap table visible to shareholders?')]</value>
+      <webElementGuid>731235b4-9321-4de6-b3c0-64fe51716757</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,19 +6,19 @@
    <elementGuidId>711d4559-dd32-4b0c-9cbc-d7a714cb937f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '201' or . = '201')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>strong.text-buyback</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//strong[(contains(text(), '219') or contains(., '219'))]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), '219') or contains(., '219'))]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>strong</value>
-      <webElementGuid>25682a5c-ea59-4923-911e-09490463b2c5</webElementGuid>
+      <webElementGuid>868b9239-09e9-4549-873c-d8f1af9edef9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,15 +41,15 @@
       <name>class</name>
       <type>Main</type>
       <value>text-buyback</value>
-      <webElementGuid>61bb6529-6465-4f63-b176-78ffdef229f2</webElementGuid>
+      <webElementGuid>9c7ae9de-450e-468e-bb76-f15632672936</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>201</value>
-      <webElementGuid>4125fc6c-163a-47f1-bd0d-6cf7951a5b77</webElementGuid>
+      <value>219</value>
+      <webElementGuid>bcb3af86-cb3b-4f1b-99c6-437f9150069a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 expanded&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;align-cards-sidewise align-items-stretch&quot;]/div[@class=&quot;card v-card bg-white mb-3 adjust-options-card&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;d-flex&quot;]/ul[@class=&quot;list-inline&quot;]/li[@class=&quot;list-inline-item&quot;]/strong[@class=&quot;text-buyback&quot;]</value>
-      <webElementGuid>199adb53-06b0-4bae-9ed8-26a2c7ff18a4</webElementGuid>
+      <webElementGuid>05f4459b-1d24-43a8-886d-d62539833c50</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
-      <webElementGuid>66e095f7-634c-4242-85cf-8dc99e26c7f6</webElementGuid>
+      <webElementGuid>74d4eb5b-26f5-4b10-94c5-7e18f7ef3da4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Buyback:'])[1]/following::strong[1]</value>
-      <webElementGuid>52de8092-c910-438a-8d10-1343c5957686</webElementGuid>
+      <webElementGuid>0deda64e-6a8d-49ed-8baa-551371ec74f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unvested:'])[1]/following::strong[2]</value>
-      <webElementGuid>637469e4-aed9-4540-8394-ca6c37795f47</webElementGuid>
+      <webElementGuid>2b8c0a7c-c7df-4252-a5f2-51408080374c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelled:'])[1]/preceding::strong[1]</value>
-      <webElementGuid>c96317a4-1edf-457f-9916-64840d7b6455</webElementGuid>
+      <webElementGuid>4ee3143b-cade-4034-977d-adee4193a1fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Granted on:'])[1]/preceding::strong[2]</value>
-      <webElementGuid>5c77017d-a7e8-4ef7-b8e1-b85038b10f5a</webElementGuid>
+      <webElementGuid>4d48aac0-2db7-4746-b785-3b01949828f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='200']/parent::*</value>
-      <webElementGuid>04607e5f-69fe-4010-9705-e377a64a4cee</webElementGuid>
+      <webElementGuid>771ecc72-7215-4d5d-8d03-33465252a646</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/strong</value>
-      <webElementGuid>6e1c5651-e853-4029-9ac5-ea62ea4bd21d</webElementGuid>
+      <webElementGuid>767e44ae-a8a4-4683-a98d-10e5cfa151a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//strong[(text() = '200' or . = '200')]</value>
-      <webElementGuid>7500841d-9a0c-41f1-b42a-f409e049aa3f</webElementGuid>
+      <webElementGuid>61ed3381-b35b-4502-83e1-393c4e00c269</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

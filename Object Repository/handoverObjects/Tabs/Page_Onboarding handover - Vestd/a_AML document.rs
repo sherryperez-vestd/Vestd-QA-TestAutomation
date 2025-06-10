@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_AML document</name>
+   <tag></tag>
+   <elementGuidId>c94a8c15-a373-449f-b6f8-2e990521ce3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[9]/div[2]/p/span/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-group.multi-select.w-100 > p.form-text > span > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>990b2913-f5c5-4682-a849-f25d16696f0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://drive.google.com/open?id=13zWydz-ocx94h1ICSbZLZiW7LAKCO717</value>
+      <webElementGuid>9d8776ac-fb2f-4ab5-926d-ea7ccfea328d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>50714dbf-5068-45d9-baa9-a8f7ce38e76a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AML document</value>
+      <webElementGuid>0d7843ba-9970-49c3-a333-300228bb75de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group multi-select w-100&quot;]/p[@class=&quot;form-text&quot;]/span[1]/a[1]</value>
+      <webElementGuid>a6f97ead-78c0-48fe-ae9d-1bbf70e4dc46</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[9]/div[2]/p/span/a</value>
+      <webElementGuid>311d5e2f-e093-45e3-b76d-a4a9d7a76d8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'AML document')]</value>
+      <webElementGuid>0db739a6-e742-420e-ac75-38959e1ed927</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select...'])[2]/following::a[1]</value>
+      <webElementGuid>2ee29d7d-bbb8-4a79-8bee-8b0c85086c39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='AML document']/parent::*</value>
+      <webElementGuid>a8ac3287-f2e2-4bb6-a952-f7758419e92f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://drive.google.com/open?id=13zWydz-ocx94h1ICSbZLZiW7LAKCO717')]</value>
+      <webElementGuid>d8229de5-bf53-4bb0-8913-dc1b82188646</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p/span/a</value>
+      <webElementGuid>150b9245-a9f2-41cc-bbd4-d1239e0ed48e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://drive.google.com/open?id=13zWydz-ocx94h1ICSbZLZiW7LAKCO717' and (text() = 'AML document' or . = 'AML document')]</value>
+      <webElementGuid>1a6628cb-0a6a-4a9f-b39d-cde6e0d6c12e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Number and type of agreements</name>
+   <tag></tag>
+   <elementGuidId>8ee39f99-1608-4516-bd19-8edf8fb8b858</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/form/div/div[2]/div/div[3]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form > div > div:nth-of-type(2) > div.width-500 > div.form-group > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>1be8e540-8002-47bc-a88c-9b29dbf69f9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>MaW1pu8qbIEn5Dc8</value>
+      <webElementGuid>753551b6-fba7-4bce-b877-0cac286a7227</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Number and type of agreements</value>
+      <webElementGuid>dfd0f6a0-47a3-407c-bcd5-1b7c7415b0fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[2]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group&quot;]/label[1]</value>
+      <webElementGuid>879d89c1-4a19-487f-992f-3333b49d35ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/form/div/div[2]/div/div[3]/label</value>
+      <webElementGuid>eedc8187-1b49-4667-8d07-ee1013af41a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ESU ready reckoner'])[1]/following::label[1]</value>
+      <webElementGuid>f5cb5dde-cca3-49fa-8100-4a5cbf187752</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Number and type of agreements']/parent::*</value>
+      <webElementGuid>a4f1d2a5-ae8f-4fa0-9a28-1d12bd8ad47d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/label</value>
+      <webElementGuid>f873b9e9-dda3-43d2-9014-bc31c9526622</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Number and type of agreements' or . = 'Number and type of agreements')]</value>
+      <webElementGuid>f60ace90-b1af-448f-9409-c08581e972a7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

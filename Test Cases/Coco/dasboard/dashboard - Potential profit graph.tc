@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>dashboard - Potential profit graph</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>84ce8d81-3577-4fd7-a992-2dcb3b1653d5</testCaseGuid>
+</TestCaseEntity>

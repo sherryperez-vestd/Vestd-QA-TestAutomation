@@ -29,17 +29,17 @@ WebUI.click(findTestObject('Object Repository/buyback/buyback-create/button_Cont
 
 WebUI.click(findTestObject('Object Repository/buyback/buyback-create/input_Buyback-to-treasury'))
 
-WebUI.click(findTestObject('Object Repository/buyback/buyback-create/button Continue_'))
+WebUI.click(findTestObject('buyback/buyback-create/button_Continue'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_Please select a share class'), 
     '172183', true)
 
-WebUI.click(findTestObject('Object Repository/buyback/buyback-create/button Continue_'))
+WebUI.click(findTestObject('buyback/buyback-create/button_Continue'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_Please select Shareholder'), '692094', 
     true)
 
-WebUI.click(findTestObject('Object Repository/buyback/buyback-create/button Continue_'))
+WebUI.click(findTestObject('buyback/buyback-create/button_Continue'))
 
 WebUI.setText(findTestObject('Object Repository/buyback/buyback-create/input_Number of shares_num_shares'), '10')
 
@@ -47,7 +47,7 @@ WebUI.setText(findTestObject('Object Repository/buyback/buyback-create/input_Tot
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/buyback/buyback-create/select_InvestmentRound'), '128377', true)
 
-WebUI.click(findTestObject('Object Repository/buyback/buyback-create/button_Continue__'))
+WebUI.click(findTestObject('buyback/buyback-create/button_Continue'))
 
 WebUI.click(findTestObject('Object Repository/buyback/buyback-details/button_Start buyback'))
 
@@ -80,4 +80,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/buyback/buyback-detail
 WebUI.click(findTestObject('Object Repository/buyback/buyback-details/button_Reverse'))
 
 WebUI.click(findTestObject('Object Repository/buyback/buyback-details/button_Yes, reverse buyback'))
+
+WebUI.closeBrowser()
 

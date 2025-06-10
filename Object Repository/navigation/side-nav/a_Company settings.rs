@@ -6,18 +6,18 @@
    <elementGuidId>698a21eb-162f-4eb5-81af-cfe1fdebe126</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'Company settings' or . = 'Company settings')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='sidebarCollapse']/ul[2]/li[2]/a</value>
+         <value>//span[@class = 'text-break' and (text() = 'Company settings' or . = 'Company settings')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'text-break' and (text() = 'Company settings' or . = 'Company settings')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -32,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f16330aa-bf7b-469d-bad8-73aca2aaa17e</webElementGuid>
+      <webElementGuid>5c69178f-c9b0-481f-b1ea-795e44c3812d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,15 +40,15 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934?nav_p=account</value>
-      <webElementGuid>5c1840d2-222d-4cf6-b7f1-220ad775fad4</webElementGuid>
+      <webElementGuid>214dc374-7795-45d2-bd88-08c4f16e140f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-link</value>
-      <webElementGuid>e9d307a1-0ef5-4302-85d9-7f8723205ab0</webElementGuid>
+      <value>text-break</value>
+      <webElementGuid>5cdad3e5-f438-422d-a2a6-ef69e3c98401</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,7 +56,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Company settings</value>
-      <webElementGuid>04f96944-1dca-45e4-9ce1-a334f6c5caa1</webElementGuid>
+      <webElementGuid>3e68395b-2f10-46d7-88bc-ed61882fb2cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mb-md-4&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>9c474baa-f218-4f25-aad6-70eb12e403f3</webElementGuid>
+      <webElementGuid>6f8b4c6d-6c60-45f5-a567-95d94891f4db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -72,7 +72,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/ul[2]/li[2]/a</value>
-      <webElementGuid>6c7848cd-f7df-4bdc-8045-139f8df93e29</webElementGuid>
+      <webElementGuid>d27aee16-8387-4e42-b8af-e96cccae36be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Company settings')]</value>
-      <webElementGuid>6a2209e2-6918-4a79-a21a-7422a5719f28</webElementGuid>
+      <webElementGuid>d4e51cae-d906-4ca6-b561-6b37847603b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Centre'])[1]/following::a[1]</value>
-      <webElementGuid>f68e771e-10e2-472e-a960-a4cc2074ec02</webElementGuid>
+      <webElementGuid>147f2fbe-28ed-4546-80f2-a64a0e35907d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='App - staff'])[1]/preceding::a[1]</value>
-      <webElementGuid>0e7729d4-a9f7-40c4-83d6-93054439efd3</webElementGuid>
+      <webElementGuid>42717fe5-27bd-442b-855b-eabca631ecfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[4]/preceding::a[2]</value>
-      <webElementGuid>c607154e-573b-406c-ba20-7a496e50eace</webElementGuid>
+      <webElementGuid>83554fe4-5718-4d7d-9485-9b54818fc0e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +112,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'https://demo.app.vestd.com/company/50934?nav_p=account')])[2]</value>
-      <webElementGuid>49740b3f-c25f-473c-a884-3b0b5f481b2a</webElementGuid>
+      <webElementGuid>72779af0-7b88-4fda-ade0-ff359258febe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +120,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul[2]/li[2]/a</value>
-      <webElementGuid>5d080162-40e8-4330-b6db-6f8af0e0a922</webElementGuid>
+      <webElementGuid>44d12398-7a16-42bd-acbb-c31c5c38c937</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +130,6 @@
       <value>//a[@href = 'https://demo.app.vestd.com/company/50934?nav_p=account' and (text() = '  Company settings
                         ' or . = '  Company settings
                         ')]</value>
-      <webElementGuid>f5ddba7d-1454-44f6-ae28-4dbedcec0f26</webElementGuid>
+      <webElementGuid>1546aff6-4317-432d-8beb-efda98f6332e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

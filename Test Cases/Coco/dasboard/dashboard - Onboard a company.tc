@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>dashboard - Onboard a company</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7ea687c0-3dfd-4bc0-9e22-958154c4bf6a</testCaseGuid>
+</TestCaseEntity>

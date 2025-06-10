@@ -6,16 +6,16 @@
    <elementGuidId>c1c02cf4-29ff-4458-b5cf-c56ed1ea088b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='popper_jl2x57mb_3tk5ps']/div[2]/div/div/div/span/ul/li[4]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span > ul > li:nth-of-type(4)</value>
       </entry>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popper_jl2x57mb_3tk5ps']/div[2]/div/div/div/span/ul/li[4]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Buyback: These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you. ' or . = 'Buyback: These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you. ')]</value>
+         <value>//*[(contains(text(), 'Buyback: These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you. ') or contains(., 'Buyback: These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you. '))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>64eee8a6-03bf-4b87-b540-df5d1e087d73</webElementGuid>
+      <webElementGuid>17570ba7-7951-40e5-be9d-c7e12d92093c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Buyback: These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you. </value>
-      <webElementGuid>e45d1d59-de59-4173-a71f-f1e222f64380</webElementGuid>
+      <webElementGuid>709e1ac1-d2f7-4245-b503-7486fa217bb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;popper_jl2x57mb_3tk5ps&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]/div[1]/div[1]/span[1]/ul[1]/li[4]</value>
-      <webElementGuid>ac463572-11e3-470a-88b8-ca81c938acdd</webElementGuid>
+      <webElementGuid>56461d00-e4db-40da-8bdf-f47c54f9de12</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='popper_jl2x57mb_3tk5ps']/div[2]/div/div/div/span/ul/li[4]</value>
-      <webElementGuid>2774fb3e-1ae1-4778-8307-adde7dfc4d33</webElementGuid>
+      <webElementGuid>c156f87b-1e7e-4777-a0a1-ca46a1e5f7aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unvested'])[2]/following::li[1]</value>
-      <webElementGuid>675b69d7-7a12-4870-8e5f-18e56aea494a</webElementGuid>
+      <webElementGuid>c385e35c-af42-4751-a662-d0ae7321fcb8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vested'])[4]/following::li[2]</value>
-      <webElementGuid>eb10600b-a6c3-4d88-a359-c0ca4bb8835e</webElementGuid>
+      <webElementGuid>3d3f45be-bb5d-4e6a-bc62-dbc119ea102b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelled'])[1]/preceding::li[1]</value>
-      <webElementGuid>6b3a3795-705c-40de-8f81-55b8b7eb7e7f</webElementGuid>
+      <webElementGuid>a272def9-11b0-4c32-8f2f-b7413fe9b56a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)=': These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you.']/parent::*</value>
-      <webElementGuid>9d7dc4ec-6595-4592-b9c5-dfaeed11e7f2</webElementGuid>
+      <webElementGuid>b01b8570-d880-4f72-ad22-ff2e252ff54e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/ul/li[4]</value>
-      <webElementGuid>484add81-ac05-4690-b707-5a2be774c1f9</webElementGuid>
+      <webElementGuid>ce6cce41-02f7-4ed7-9f84-8428a4e5a1b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Buyback: These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you. ' or . = 'Buyback: These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you. ')]</value>
-      <webElementGuid>2d651981-88d6-4ad5-afd0-8371f37c45ca</webElementGuid>
+      <webElementGuid>cd7780a0-aa7e-4997-8cf8-84e8d082158c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

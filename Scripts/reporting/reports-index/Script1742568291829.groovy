@@ -21,6 +21,8 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureH
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/home')
 
+WebUI.click(findTestObject('navigation/img-side-nav-collapse'))
+
 WebUI.click(findTestObject('navigation/side-nav/a_Secretarial  admin'))
 
 WebUI.verifyElementVisible(findTestObject('navigation/side-nav/Page_Secretarial-Admin/a_Reports'))

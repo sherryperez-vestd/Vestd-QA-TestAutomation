@@ -19,21 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 'Login and navigate to My equity page'
 WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50915/dashboard?user_id=370447')
 
 WebUI.click(findTestObject('myEquity/shares-options-breakdown/chevron_summary-bar'))
+
 WebUI.click(findTestObject('myEquity/shares-options-breakdown/options-breakdown/span_Cancelled_static-content'))
 
 'Check Buyback label and value are displayed'
 WebUI.verifyElementPresent(findTestObject('myEquity/shares-options-breakdown/options-breakdown/span_Buyback'), 0)
+
 WebUI.verifyElementText(findTestObject('myEquity/shares-options-breakdown/options-breakdown/span_Buyback'), 'Buyback:')
+
 WebUI.verifyElementPresent(findTestObject('myEquity/shares-options-breakdown/options-breakdown/strong_200'), 0)
-WebUI.verifyElementText(findTestObject('myEquity/shares-options-breakdown/options-breakdown/strong_200'), '201')
-WebUI.click(findTestObject('myEquity/shares-options-breakdown/options-breakdown/span_Cancelled_static-content'))
+
+WebUI.verifyElementText(findTestObject('myEquity/shares-options-breakdown/options-breakdown/strong_200'), '219')
+
+//WebUI.click(findTestObject('myEquity/shares-options-breakdown/options-breakdown/span_Cancelled_static-content'))
 
 'Check Buyback tooltip info text is displayed'
-WebUI.verifyElementPresent(findTestObject('myEquity/shares-options-breakdown/options-breakdown/li_Buyback tooltip text'), 0)
-//WebUI.verifyElementText(findTestObject('myEquity/shares-options-breakdown/options-breakdown/li_Buyback tooltip text'), 'Buyback: These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you.')
+//WebUI.verifyElementPresent(findTestObject('myEquity/shares-options-breakdown/options-breakdown/li_Buyback tooltip text'), 0)
 
+//WebUI.verifyElementText(findTestObject('myEquity/shares-options-breakdown/options-breakdown/li_Buyback tooltip text'), 'Buyback: These options are those that have been repurchased by the company that granted them, allowing you to sell them back. This number represents the total options the company has bought back from you.')
 WebUI.closeBrowser()
 

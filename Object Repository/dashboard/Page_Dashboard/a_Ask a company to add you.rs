@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Ask a company to add you</name>
+   <tag></tag>
+   <elementGuidId>18dadf73-3c14-4355-b81a-440232aa4588</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/section/div/div[2]/div/div/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-sm.btn-outline-secondary.btn-not-submit.v-btn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>164a0efb-f5d5-42cb-951a-8246b7e00385</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+      <webElementGuid>9853a3b2-2a65-4ece-b98f-db9e1dd53119</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://demo.app.vestd.com/company-invite?view=request-access</value>
+      <webElementGuid>2c28f776-3183-4461-8ddc-c06054e5a6c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-outline-secondary btn-not-submit  v-btn</value>
+      <webElementGuid>54128e40-a18c-421c-8e7c-352c23bcf12c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>link-button</value>
+      <webElementGuid>9c80bdad-de52-490a-a4a5-38771abee778</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ask a company to add you</value>
+      <webElementGuid>cc0b3b8d-5bb7-4e8b-9246-ef2fe289c13e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/section[@class=&quot;row my-4&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-xl-3 text-center mb-4&quot;]/div[@class=&quot;card border-0 bg-light d-flex flex-column align-items-center py-3 px-2 h-100&quot;]/div[@class=&quot;d-inline-block&quot;]/div[@class=&quot;d-inline-block&quot;]/a[@class=&quot;btn btn-sm btn-outline-secondary btn-not-submit  v-btn&quot;]</value>
+      <webElementGuid>bde52e08-b211-4643-a35c-9aaa4d86f8b5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/section/div/div[2]/div/div/div/div/a</value>
+      <webElementGuid>d317563a-c7b0-40e5-aa82-cb13c7f620be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get the most out of your dashboard'])[1]/following::a[1]</value>
+      <webElementGuid>e67cd56b-bfff-4fd7-911d-41dbe64d2dd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ask a company to add you']/parent::*</value>
+      <webElementGuid>42413792-2b98-4157-b959-d798c4c1a34a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://demo.app.vestd.com/company-invite?view=request-access')]</value>
+      <webElementGuid>8e7cfe53-ba87-4346-ab87-ccc70f5f3d12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/a</value>
+      <webElementGuid>8b296e9a-4975-48bb-b534-52f5dd4adaee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://demo.app.vestd.com/company-invite?view=request-access' and (text() = 'Ask a company to add you' or . = 'Ask a company to add you')]</value>
+      <webElementGuid>e0aaf572-5408-47fd-85af-e219b53010f8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

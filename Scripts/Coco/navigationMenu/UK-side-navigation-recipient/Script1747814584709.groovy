@@ -63,7 +63,7 @@ WebUI.verifyElementPresent(findTestObject('navigation/side-nav/a_Help Centre'), 
 
 WebUI.verifyElementText(findTestObject('navigation/side-nav/a_Help Centre'), 'Help centre')
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/img'), 0)
+WebUI.verifyElementPresent(findTestObject('navigation/side-nav/img-ISO'), 0)
 WebUI.verifyElementPresent(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 0)
 WebUI.verifyElementText(findTestObject('navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
 

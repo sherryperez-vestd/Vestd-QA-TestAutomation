@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_This will determine whether the customer _6ea016</name>
+   <tag></tag>
+   <elementGuidId>11e8a0de-a8e6-4c28-b7f1-72f7e976299e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.width-500 > p.form-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>203719b8-03fb-46fa-b10e-4c52c7ffa5de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-text</value>
+      <webElementGuid>a658b6ce-dcae-43e3-ac94-335a217af71c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This will determine whether the customer is prompted to adopt our growth share clauses. For any other article amendments select 'Keep current articles'.</value>
+      <webElementGuid>0f945e69-ebe3-4575-854c-4d8d9156cfa5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/p[@class=&quot;form-text&quot;]</value>
+      <webElementGuid>77b8f18f-97db-4b82-92d6-b446cd145e56</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/p</value>
+      <webElementGuid>4b605a04-a32e-4e54-ac39-42f559fc2b7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/p</value>
+      <webElementGuid>ef582e95-aede-4856-a177-81f40242dffd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = concat(&quot;This will determine whether the customer is prompted to adopt our growth share clauses. For any other article amendments select &quot; , &quot;'&quot; , &quot;Keep current articles&quot; , &quot;'&quot; , &quot;.&quot;) or . = concat(&quot;This will determine whether the customer is prompted to adopt our growth share clauses. For any other article amendments select &quot; , &quot;'&quot; , &quot;Keep current articles&quot; , &quot;'&quot; , &quot;.&quot;))]</value>
+      <webElementGuid>71580691-c0f3-484a-baaa-5e12f321a2d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

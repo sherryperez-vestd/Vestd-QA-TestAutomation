@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Existing scheme uploadYesNotesPlease sp_ec7b02</name>
+   <tag></tag>
+   <elementGuidId>914c17bd-87fb-4459-9c0c-be313fc66088</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/form/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form > div > div:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f9387648-4cd2-4356-aa8c-ce3fc4db1495</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Existing scheme upload?YesNotesPlease specify full details of all schemes, whether they have different vesting schedules/terms, number of rounds, commercial structures, etc. Use our ESU ready reckoner to help price the ESU based on its complexity.Number and type of agreementsNumber of roundsVesting structureCan we digitise their existing scheme? Do they have any deeds that they want to use going forward? Is the vesting schedule unusual (e.g. third Friday of the month)?Migration processExplain we will need copies of signed agreements, HMRC valuation approvals and option pool authorisation. Please ask them to gather these documents and understand the design of each scheme (vesting schedule, exercise price, etc.) before their call with Onboarding.</value>
+      <webElementGuid>fdc099f8-3f22-459c-9379-1c2af335df7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[2]</value>
+      <webElementGuid>d792fa0c-2af4-44d4-aad9-42e37bb35cdc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/form/div/div[2]</value>
+      <webElementGuid>9117f524-dc86-47b4-86cb-2f53eef3000a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[2]</value>
+      <webElementGuid>bb8190f4-ff0f-4957-94bb-8a855aa53019</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Existing scheme upload?YesNotesPlease specify full details of all schemes, whether they have different vesting schedules/terms, number of rounds, commercial structures, etc. Use our ESU ready reckoner to help price the ESU based on its complexity.Number and type of agreementsNumber of roundsVesting structureCan we digitise their existing scheme? Do they have any deeds that they want to use going forward? Is the vesting schedule unusual (e.g. third Friday of the month)?Migration processExplain we will need copies of signed agreements, HMRC valuation approvals and option pool authorisation. Please ask them to gather these documents and understand the design of each scheme (vesting schedule, exercise price, etc.) before their call with Onboarding.' or . = 'Existing scheme upload?YesNotesPlease specify full details of all schemes, whether they have different vesting schedules/terms, number of rounds, commercial structures, etc. Use our ESU ready reckoner to help price the ESU based on its complexity.Number and type of agreementsNumber of roundsVesting structureCan we digitise their existing scheme? Do they have any deeds that they want to use going forward? Is the vesting schedule unusual (e.g. third Friday of the month)?Migration processExplain we will need copies of signed agreements, HMRC valuation approvals and option pool authorisation. Please ask them to gather these documents and understand the design of each scheme (vesting schedule, exercise price, etc.) before their call with Onboarding.')]</value>
+      <webElementGuid>acbde57b-a4bf-48d8-b6b6-c042f834f4ae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

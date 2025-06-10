@@ -10,12 +10,12 @@
          <value>ul.navbar-nav.mt-3 > li.nav-item > a.nav-link</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'text-break' and (contains(text(), 'My equity') or contains(., 'My equity'))]</value>
+         <key>XPATH</key>
+         <value>//a[(text() = 'My Equity' or . = 'My Equity')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[(text() = 'My Equity' or . = 'My Equity')]</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'text-break' and (contains(text(), 'My equity') or contains(., 'My equity'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c7a84481-2dd2-4d2b-807e-56dbadef49c2</webElementGuid>
+      <webElementGuid>f7309a55-31dc-4d2b-b33a-6bfc463e42ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/dashboard</value>
-      <webElementGuid>c12d945d-ff93-4fc0-a53a-832912d65725</webElementGuid>
+      <webElementGuid>e593faf7-b823-4a3d-85a9-062bcc0f2fbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-break</value>
-      <webElementGuid>e44e1164-88e1-47bf-9a06-7c1e23229404</webElementGuid>
+      <webElementGuid>f588adba-3319-49d1-bc80-f5ffd7cce709</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>My equity</value>
-      <webElementGuid>483fc64d-68d4-4b1c-9d22-d7dbb70f4715</webElementGuid>
+      <webElementGuid>0c3974aa-2e94-4ffa-b6c7-741d83c3b26d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mt-3&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>c4e839d4-3888-4c86-9374-58692a66ee7c</webElementGuid>
+      <webElementGuid>a85644b3-f1ad-41ff-8aa6-9ee49242f06f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='sidebarCollapse']/ul/li/a</value>
-      <webElementGuid>a2f5ae1c-1c2d-41bc-8ae0-a19e28a57ef8</webElementGuid>
+      <webElementGuid>8c9547b1-1b15-49fc-a106-a92dda271c30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'My equity')]</value>
-      <webElementGuid>a3c9e293-e58c-4196-b7e2-7d177e8025f4</webElementGuid>
+      <webElementGuid>bb85a1af-79ad-4092-b73f-316ffda006ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Incorporate a new company'])[2]/following::a[1]</value>
-      <webElementGuid>500fe43f-c691-4181-9f04-37f0e9dea105</webElementGuid>
+      <webElementGuid>6f408207-0415-4fad-aee7-5ef3a4e412df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add another company'])[2]/following::a[2]</value>
-      <webElementGuid>76a287a6-2e26-45a3-b606-347928de2a03</webElementGuid>
+      <webElementGuid>9bdada45-c951-4c98-ba89-607f45d2499e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::a[1]</value>
-      <webElementGuid>32c1ddd6-6efa-495a-9019-d5d07f3af677</webElementGuid>
+      <webElementGuid>a030d718-b0bf-47f1-9560-70981d9b1f8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share schemes'])[1]/preceding::a[2]</value>
-      <webElementGuid>01d1b1bf-b1c2-4264-9b78-c0018b65af47</webElementGuid>
+      <webElementGuid>8cbbda80-1501-43b1-aeea-ebd3da21b9e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='My equity']/parent::*</value>
-      <webElementGuid>b11a7802-45f3-48af-b35a-b688dd751cd2</webElementGuid>
+      <webElementGuid>5bf08e3d-daed-4aeb-aa53-b94f60aaa88a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/dashboard')]</value>
-      <webElementGuid>99e75992-9749-43b0-9c39-fb894da56b26</webElementGuid>
+      <webElementGuid>bd78d363-ee48-4eed-8efa-f450db847f8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//nav[2]/div/ul/li/a</value>
-      <webElementGuid>8c70e2fe-b5cf-4afc-9d03-8b5fcc62e564</webElementGuid>
+      <webElementGuid>74030395-b15b-48c7-b763-17855721f152</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +149,6 @@
                         ' or . = '
                             My equity
                         ')]</value>
-      <webElementGuid>6d703dad-f951-4261-ad3c-ebe69e69a50a</webElementGuid>
+      <webElementGuid>fb83dc3a-e529-47ac-bcf0-c781c1efa143</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

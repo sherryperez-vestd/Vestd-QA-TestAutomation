@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_New schemeExisting schemeCap tableArtic_a7b904</name>
+   <tag></tag>
+   <elementGuidId>8b4e71e0-00cf-4695-9882-4fd193eaa2b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/form/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>07088b63-7601-44a3-82f1-26d8181897a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New schemeExisting schemeCap tableArticles &amp; governanceBillingContact detailsType of scheme(s)EMIUnapproved optionsGrowth sharesAgile PartnershipNotesDoes the customer want to use their own option agreement templates?YesIn how many months do they expect their scheme to be live?Do they know how many options/shares they will grant in the next round?Yes, please state how manyNoExercisableYesExit onlyBothValuationNot requiredYes, by usAlready have own valuationObtaining own valuationShare/option poolOver new sharesOver existing shareholder sharesOver treasury sharesShare/option pool authorisationRequirementsNot requiredYes, by usAlready have own authorisationObtaining own authorisationNotesSize of option poolSubdivisionSubdivision neededExisting scheme upload?YesNumber and type of agreementsNumber of roundsVesting structureCan we digitise their existing scheme? Do they have any deeds that they want to use going forward? Is the vesting schedule unusual (e.g. third Friday of the month)?Migration processExplain we will need copies of signed agreements, HMRC valuation approvals and option pool authorisation. Please ask them to gather these documents and understand the design of each scheme (vesting schedule, exercise price, etc.) before their call with Onboarding.Cap tableIs their cap table accurate?YesNoDo they want their cap table visible to shareholders?YesNoDo we need to update any PSC/Director/Shareholder/Editor names?YesNoDo they plan to use the platform’s Co-Sec functionality?YesNoNot SureDo they want to disable shareholder management?YesNoAre they planning on changing anything or expect any share movements in the next 6 months?YesNoNot SureArticles &amp; governanceWhat are their current Articles of Association?UnknownModel articlesBespoke articlesAre they changing their Articles of Association?Keep current articlesAdopt Vestd articlesAdopt growth share clauseThis will determine whether the customer is prompted to adopt our growth share clauses. For any other article amendments select 'Keep current articles'.Do they have a Shareholders’ Agreement in place?Existing shareholder agreementsNotesExisting authorisation statusOptions available to grant?Shares available to issue?Any warrants or convertible loan notes?Corporate governanceAny must-sign shareholders?YesNoUnknownAny majority consent matters?E.g: Investor majoritiesYesNoUnknownMore than 75% approval for equity related issues?YesNoUnknownHistorical cap table?YesAdditional chargesYesDiscussed and interested in SEIS/EIS?Reason for subscription typeDiscussed Tickover for renewal?Contact nameMichale BatzNo results foundMichale BatzCheck primary contact details and phone number in HubSpot.Job titleKey partnerOther companies with VestdThird party editor (lawyer/accountant)Complex customerCustomer personalityBusyDemandingDetailedRisk averseStandardNeed a call with Onboarding about this customer?YesNoKnowledge levelPlease select...Please select...1 - least2345 - mostPlease select...AML risk score (1-4)Please select...Please select...1234Please select...AML documentPreferred method of communication or notes about the preferred methodDo they want to add any more Editors (Admin users), or read only Directors/Shareholders?How is their Co-Sec currently managed?G-Drive linkAdditional commentsComments</value>
+      <webElementGuid>49abb6b2-a2a0-48b5-ad1e-e49ae3340993</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]</value>
+      <webElementGuid>8d0dfe70-ad47-4f7c-933f-6b96aabfde5f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/form/div</value>
+      <webElementGuid>2b0572cd-15af-4b20-8170-9f92d8b6830f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Onboarding handover'])[1]/following::div[1]</value>
+      <webElementGuid>790eeff6-5d3f-4fdb-ac60-3183764aef06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div</value>
+      <webElementGuid>76f30e69-8acd-4d5f-9515-de89ae767d93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;New schemeExisting schemeCap tableArticles &amp; governanceBillingContact detailsType of scheme(s)EMIUnapproved optionsGrowth sharesAgile PartnershipNotesDoes the customer want to use their own option agreement templates?YesIn how many months do they expect their scheme to be live?Do they know how many options/shares they will grant in the next round?Yes, please state how manyNoExercisableYesExit onlyBothValuationNot requiredYes, by usAlready have own valuationObtaining own valuationShare/option poolOver new sharesOver existing shareholder sharesOver treasury sharesShare/option pool authorisationRequirementsNot requiredYes, by usAlready have own authorisationObtaining own authorisationNotesSize of option poolSubdivisionSubdivision neededExisting scheme upload?YesNumber and type of agreementsNumber of roundsVesting structureCan we digitise their existing scheme? Do they have any deeds that they want to use going forward? Is the vesting schedule unusual (e.g. third Friday of the month)?Migration processExplain we will need copies of signed agreements, HMRC valuation approvals and option pool authorisation. Please ask them to gather these documents and understand the design of each scheme (vesting schedule, exercise price, etc.) before their call with Onboarding.Cap tableIs their cap table accurate?YesNoDo they want their cap table visible to shareholders?YesNoDo we need to update any PSC/Director/Shareholder/Editor names?YesNoDo they plan to use the platform’s Co-Sec functionality?YesNoNot SureDo they want to disable shareholder management?YesNoAre they planning on changing anything or expect any share movements in the next 6 months?YesNoNot SureArticles &amp; governanceWhat are their current Articles of Association?UnknownModel articlesBespoke articlesAre they changing their Articles of Association?Keep current articlesAdopt Vestd articlesAdopt growth share clauseThis will determine whether the customer is prompted to adopt our growth share clauses. For any other article amendments select &quot; , &quot;'&quot; , &quot;Keep current articles&quot; , &quot;'&quot; , &quot;.Do they have a Shareholders’ Agreement in place?Existing shareholder agreementsNotesExisting authorisation statusOptions available to grant?Shares available to issue?Any warrants or convertible loan notes?Corporate governanceAny must-sign shareholders?YesNoUnknownAny majority consent matters?E.g: Investor majoritiesYesNoUnknownMore than 75% approval for equity related issues?YesNoUnknownHistorical cap table?YesAdditional chargesYesDiscussed and interested in SEIS/EIS?Reason for subscription typeDiscussed Tickover for renewal?Contact nameMichale BatzNo results foundMichale BatzCheck primary contact details and phone number in HubSpot.Job titleKey partnerOther companies with VestdThird party editor (lawyer/accountant)Complex customerCustomer personalityBusyDemandingDetailedRisk averseStandardNeed a call with Onboarding about this customer?YesNoKnowledge levelPlease select...Please select...1 - least2345 - mostPlease select...AML risk score (1-4)Please select...Please select...1234Please select...AML documentPreferred method of communication or notes about the preferred methodDo they want to add any more Editors (Admin users), or read only Directors/Shareholders?How is their Co-Sec currently managed?G-Drive linkAdditional commentsComments&quot;) or . = concat(&quot;New schemeExisting schemeCap tableArticles &amp; governanceBillingContact detailsType of scheme(s)EMIUnapproved optionsGrowth sharesAgile PartnershipNotesDoes the customer want to use their own option agreement templates?YesIn how many months do they expect their scheme to be live?Do they know how many options/shares they will grant in the next round?Yes, please state how manyNoExercisableYesExit onlyBothValuationNot requiredYes, by usAlready have own valuationObtaining own valuationShare/option poolOver new sharesOver existing shareholder sharesOver treasury sharesShare/option pool authorisationRequirementsNot requiredYes, by usAlready have own authorisationObtaining own authorisationNotesSize of option poolSubdivisionSubdivision neededExisting scheme upload?YesNumber and type of agreementsNumber of roundsVesting structureCan we digitise their existing scheme? Do they have any deeds that they want to use going forward? Is the vesting schedule unusual (e.g. third Friday of the month)?Migration processExplain we will need copies of signed agreements, HMRC valuation approvals and option pool authorisation. Please ask them to gather these documents and understand the design of each scheme (vesting schedule, exercise price, etc.) before their call with Onboarding.Cap tableIs their cap table accurate?YesNoDo they want their cap table visible to shareholders?YesNoDo we need to update any PSC/Director/Shareholder/Editor names?YesNoDo they plan to use the platform’s Co-Sec functionality?YesNoNot SureDo they want to disable shareholder management?YesNoAre they planning on changing anything or expect any share movements in the next 6 months?YesNoNot SureArticles &amp; governanceWhat are their current Articles of Association?UnknownModel articlesBespoke articlesAre they changing their Articles of Association?Keep current articlesAdopt Vestd articlesAdopt growth share clauseThis will determine whether the customer is prompted to adopt our growth share clauses. For any other article amendments select &quot; , &quot;'&quot; , &quot;Keep current articles&quot; , &quot;'&quot; , &quot;.Do they have a Shareholders’ Agreement in place?Existing shareholder agreementsNotesExisting authorisation statusOptions available to grant?Shares available to issue?Any warrants or convertible loan notes?Corporate governanceAny must-sign shareholders?YesNoUnknownAny majority consent matters?E.g: Investor majoritiesYesNoUnknownMore than 75% approval for equity related issues?YesNoUnknownHistorical cap table?YesAdditional chargesYesDiscussed and interested in SEIS/EIS?Reason for subscription typeDiscussed Tickover for renewal?Contact nameMichale BatzNo results foundMichale BatzCheck primary contact details and phone number in HubSpot.Job titleKey partnerOther companies with VestdThird party editor (lawyer/accountant)Complex customerCustomer personalityBusyDemandingDetailedRisk averseStandardNeed a call with Onboarding about this customer?YesNoKnowledge levelPlease select...Please select...1 - least2345 - mostPlease select...AML risk score (1-4)Please select...Please select...1234Please select...AML documentPreferred method of communication or notes about the preferred methodDo they want to add any more Editors (Admin users), or read only Directors/Shareholders?How is their Co-Sec currently managed?G-Drive linkAdditional commentsComments&quot;))]</value>
+      <webElementGuid>a8ce570b-9c21-4f0a-8786-b06d3283a6fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

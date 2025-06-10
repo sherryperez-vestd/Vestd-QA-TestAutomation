@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Invite a company to join</name>
+   <tag></tag>
+   <elementGuidId>f00027af-1090-4910-b947-80f7260dfe61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/section/div/div[2]/div[2]/div/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a55985cd-1699-4858-81e3-9512e6d70da9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+      <webElementGuid>541e9721-8429-4d1d-8ab0-b1464ce1a6eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://demo.app.vestd.com/company-invite</value>
+      <webElementGuid>9149ee80-3d79-484e-b390-0ed65dfe562d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-outline-secondary btn-not-submit  v-btn</value>
+      <webElementGuid>5e561be0-f87b-4339-adac-07dbbc55e897</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>link-button</value>
+      <webElementGuid>66e3cf47-b846-4041-b5f4-2234959fd8de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invite a company to join</value>
+      <webElementGuid>6a52e049-d1bc-4e71-8e29-ce66260c9a4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/section[@class=&quot;row my-4&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-xl-3 text-center mb-4&quot;]/div[@class=&quot;card border-0 bg-light d-flex flex-column align-items-center py-3 px-2 h-100&quot;]/div[@class=&quot;d-inline-block&quot;]/div[@class=&quot;d-inline-block&quot;]/a[@class=&quot;btn btn-sm btn-outline-secondary btn-not-submit  v-btn&quot;]</value>
+      <webElementGuid>2dcc73d6-6296-4545-9477-7c119c96f12a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/section/div/div[2]/div[2]/div/div/div/a</value>
+      <webElementGuid>a55a0a8f-70e8-4a78-8785-9e2fafc2d8eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get the most out of your dashboard'])[1]/following::a[2]</value>
+      <webElementGuid>082f128f-b64c-49bc-96cf-95e10fd34ca5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invite a company to join']/parent::*</value>
+      <webElementGuid>4dd39da1-cc4d-493c-91c7-798e7e7e1a7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://demo.app.vestd.com/company-invite')])[2]</value>
+      <webElementGuid>65aa8484-5a8c-4cf7-a62b-9c03e9f2eb18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/a</value>
+      <webElementGuid>5412c54a-6bf0-472b-b49b-f69d1dbe778c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://demo.app.vestd.com/company-invite' and (text() = 'Invite a company to join' or . = 'Invite a company to join')]</value>
+      <webElementGuid>045ece82-5d98-4852-923f-5cb5a88b7271</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
