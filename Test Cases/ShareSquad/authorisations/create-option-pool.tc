@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>8ff1e138-8bec-4adc-9958-3cb0945f5ce0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92862785-5323-4a85-b53e-1e83c65d3d51</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demo.app.vestd.com/company/50934/share-approval/create?type=options'</defaultValue>
+      <description></description>
+      <id>92862785-5323-4a85-b53e-1e83c65d3d51</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
 </TestCaseEntity>

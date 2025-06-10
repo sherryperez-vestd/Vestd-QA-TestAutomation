@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], Failure
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-approval/create?type=shares')
 
-WebUI.setText(findTestObject('Object Repository/authorisations/Page_Create/input_Reference_name'), 'Option pool test')
+WebUI.setText(findTestObject('Object Repository/authorisations/Page_Create/input_Reference_name'), 'Test')
 
 WebUI.setText(findTestObject('Object Repository/authorisations/Page_Create/input_Pool size_share_pool_size'), '0')
 
@@ -52,12 +52,11 @@ WebUI.waitForElementVisible(findTestObject('authorisations/Page_Create Confirm d
 WebUI.click(findTestObject('Object Repository/authorisations/Page_Create Confirm details/button_Yes, confirm'))
 
 'Check new option pool is successfully created\r\n'
-WebUI.verifyElementPresent(findTestObject('Object Repository/authorisations/Page_Create Confirm details/h1_Option pool test'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/authorisations/Page_Create Confirm details/h1_Test'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/authorisations/Page_Create Confirm details/h1_Option pool test'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/authorisations/Page_Create Confirm details/h1_Test'))
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/authorisations/Page_Create Confirm details/h1_Option pool test'), 
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/authorisations/Page_Create Confirm details/h1_Test'), 
     'Option pool test\r \nEdit')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/authorisations/Page_Create Confirm details/dd_poolsize-2,000,000'))

@@ -94,6 +94,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShareSquad/authorisations/create-option-pool</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>92862785-5323-4a85-b53e-1e83c65d3d51</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>b4670974-075f-40ec-a17c-226616a07c1e</guid>
@@ -212,6 +218,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Coco/dasboard/dashboard - Request access to a company</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6052ff37-731a-425a-b4d9-7a2e7040a722</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Coco/onboardingHandover/handover</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

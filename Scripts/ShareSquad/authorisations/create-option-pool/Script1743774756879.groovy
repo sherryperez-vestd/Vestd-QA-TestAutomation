@@ -21,11 +21,9 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], Failure
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-approval/create?type=options')
 
-WebUI.setText(findTestObject('Object Repository/authorisations/Page_Create/input_Reference_name'), 
-    'Option pool test')
+WebUI.setText(findTestObject('Object Repository/authorisations/Page_Create/input_Reference_name'), 'Test')
 
-WebUI.setText(findTestObject('Object Repository/authorisations/Page_Create/input_Pool size_share_pool_size'), 
-    '0')
+WebUI.setText(findTestObject('Object Repository/authorisations/Page_Create/input_Pool size_share_pool_size'), '0')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/authorisations/Page_Create/select_Option pool share class'), 
     '172183', true)
@@ -34,37 +32,31 @@ WebUI.click(findTestObject('authorisations/Page_Create/button_Next'), FailureHan
 
 WebUI.verifyElementVisible(findTestObject('authorisations/Page_Create/txt-alert_share pool size must be at least 1'))
 
-WebUI.verifyElementPresent(findTestObject('authorisations/Page_Create/txt-alert_share pool size must be at least 1'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('authorisations/Page_Create/txt-alert_share pool size must be at least 1'), 0)
 
 'Check validation message is displayed when pool size entered is 0'
-WebUI.verifyElementText(findTestObject('authorisations/Page_Create/txt-alert_share pool size must be at least 1'), 
-    'The share pool size must be at least 1.')
+WebUI.verifyElementText(findTestObject('authorisations/Page_Create/txt-alert_share pool size must be at least 1'), 'The share pool size must be at least 1.')
 
 WebUI.click(findTestObject('Object Repository/authorisations/Page_Create/button_Next'))
 
-WebUI.setText(findTestObject('Object Repository/authorisations/Page_Create/input_Pool size_share_pool_size'), 
-    '2000000')
+WebUI.setText(findTestObject('Object Repository/authorisations/Page_Create/input_Pool size_share_pool_size'), '2000000')
 
 WebUI.click(findTestObject('Object Repository/authorisations/Page_Create/button_Next'))
 
-WebUI.waitForElementVisible(findTestObject('authorisations/Page_Create Confirm details/button_Confirm'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('authorisations/Page_Create Confirm details/button_Confirm'), 0)
 
 WebUI.click(findTestObject('Object Repository/authorisations/Page_Create Confirm details/button_Confirm'))
 
-WebUI.waitForElementVisible(findTestObject('authorisations/Page_Create Confirm details/button_Yes, confirm'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('authorisations/Page_Create Confirm details/button_Yes, confirm'), 0)
 
 WebUI.click(findTestObject('Object Repository/authorisations/Page_Create Confirm details/button_Yes, confirm'))
 
 'Check new option pool is successfully created\r\n'
-WebUI.verifyElementPresent(findTestObject('Object Repository/authorisations/Page_Create Confirm details/h1_Option pool test'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/authorisations/Page_Create Confirm details/h1_Test'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/authorisations/Page_Create Confirm details/h1_Option pool test'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/authorisations/Page_Create Confirm details/h1_Test'))
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/authorisations/Page_Create Confirm details/h1_Option pool test'), 
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/authorisations/Page_Create Confirm details/h1_Test'), 
     'Option pool test\r \nEdit')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/authorisations/Page_Create Confirm details/dd_poolsize-2,000,000'))
@@ -77,6 +69,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/authorisations/Page_Cr
 
 'Delete option pool'
 WebUI.click(findTestObject('Object Repository/authorisations/Page_Create Confirm details/button_Delete'))
+
+WebUI.delay(3)
 
 WebUI.acceptAlert()
 
