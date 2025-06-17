@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>topup-option-pool_res-uploaded</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af7f71ca-982c-4763-9af8-86dff7c9b517</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>07ab64ae-fa39-40bf-8887-2eb3f3ff1d6b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demo.app.vestd.com/company/50934/share-approval/create?type=options'</defaultValue>
+      <description></description>
+      <id>07ab64ae-fa39-40bf-8887-2eb3f3ff1d6b</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+</TestCaseEntity>

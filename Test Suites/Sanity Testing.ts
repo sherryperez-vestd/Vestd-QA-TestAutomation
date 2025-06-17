@@ -15,56 +15,56 @@
       <guid>383cecb9-105c-4696-8d20-e0f4a9ae4217</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/registerUser/register-user</testCaseId>
+      <testCaseId>Test Cases/CoCo/registerUser/register-user</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>cfcb7f2e-b3e6-4ec0-96fc-5d2d215630ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/navigationMenu/UK-side-navigation-staff</testCaseId>
+      <testCaseId>Test Cases/CoCo/navigationMenu/UK-side-navigation-staff</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>c8c0b793-265a-456e-b0ff-1c8eafb11155</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/navigationMenu/UK-side-navigation-editor</testCaseId>
+      <testCaseId>Test Cases/CoCo/navigationMenu/UK-side-navigation-editor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7cd432b0-79e3-4b62-ae13-2ead7a640d87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/navigationMenu/UK-side-navigation-recipient</testCaseId>
+      <testCaseId>Test Cases/CoCo/navigationMenu/UK-side-navigation-recipient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>f073e841-a7fe-4a34-80a5-380e4fc4ebcf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/navigationMenu/IN-top-navigation-editor</testCaseId>
+      <testCaseId>Test Cases/CoCo/navigationMenu/IN-top-navigation-editor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>faa6be86-d596-4425-9b3f-23809c8851f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/navigationMenu/IN-top-navigation-staff</testCaseId>
+      <testCaseId>Test Cases/CoCo/navigationMenu/IN-top-navigation-staff</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7e14c660-70d1-481d-b987-6984d90f844b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/navigationMenu/UK-top-navigation-editor</testCaseId>
+      <testCaseId>Test Cases/CoCo/navigationMenu/UK-top-navigation-editor</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>26a966c6-523d-412e-b91b-dec1257c6800</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/navigationMenu/UK-top-navigation-staff</testCaseId>
+      <testCaseId>Test Cases/CoCo/navigationMenu/UK-top-navigation-staff</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -119,7 +119,7 @@
       <guid>3ffe4800-fc96-4df4-be2d-a8fd3f5944f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/investment/investment-round</testCaseId>
+      <testCaseId>Test Cases/CoCo/investment/investment-round</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -168,63 +168,63 @@
       <guid>60467db3-18f2-4e85-8044-088ef673eb98</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/my-equity-page-show-hide-per-company-settings</testCaseId>
+      <testCaseId>Test Cases/myEquity/page-show-hide-per-company-settings</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>04da28b4-090e-4028-b88b-11c52ea5da11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/dasboard/dashboard</testCaseId>
+      <testCaseId>Test Cases/CoCo/dasboard/dashboard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>ef7b8023-1613-4a1b-8696-5728769e0328</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/dasboard/dashboard - Customise groups</testCaseId>
+      <testCaseId>Test Cases/CoCo/dasboard/dashboard - Customise groups</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4008d1a5-d812-4f4a-a58b-ef4dd5c9e3e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/dasboard/dashboard - Invite a company to join</testCaseId>
+      <testCaseId>Test Cases/CoCo/dasboard/dashboard - Invite a company to join</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a2139b38-4789-4421-8394-c5dcca3df3b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/dasboard/dashboard - Onboard a company</testCaseId>
+      <testCaseId>Test Cases/CoCo/dasboard/dashboard - Onboard a company</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>6a8741e5-5e09-4c16-a8dc-455a445f7e76</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/dasboard/dashboard - Potential profit graph</testCaseId>
+      <testCaseId>Test Cases/CoCo/dasboard/dashboard - Potential profit graph</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fc75abe9-7153-4f20-a439-04307ccdb9f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/dasboard/dashboard - Record investment</testCaseId>
+      <testCaseId>Test Cases/CoCo/dasboard/dashboard - Record investment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0a759dc2-5d4d-4936-8a88-693830901118</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/dasboard/dashboard - Request access to a company</testCaseId>
+      <testCaseId>Test Cases/CoCo/dasboard/dashboard - Request access to a company</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>6052ff37-731a-425a-b4d9-7a2e7040a722</guid>
+      <guid>54476fe3-4d9b-40db-a793-8f4d3ec65afb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Coco/onboardingHandover/handover</testCaseId>
+      <testCaseId>Test Cases/CoCo/onboardingHandover/Onboarding</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

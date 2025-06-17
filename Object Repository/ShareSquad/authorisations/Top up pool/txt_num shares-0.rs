@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_num shares-0</name>
+   <tag></tag>
+   <elementGuidId>20e481fc-dbf1-463b-b331-7f58b0b00b87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//dd[(contains(text(), '0') or contains(., '0'))]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1.h4.mb-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/h1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>dd</value>
+      <webElementGuid>347d0ad1-9c46-4827-8422-6650129806f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>369a5e4c-78f2-4f0f-a3be-8e4bac472ae2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

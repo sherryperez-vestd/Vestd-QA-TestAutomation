@@ -23,9 +23,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setText(findTestObject('Object Repository/login/input_email'), GlobalVariable.staff)
+WebUI.setText(findTestObject('Object Repository/CoCo/login/input_email'), GlobalVariable.staff)
 
-WebUI.setText(findTestObject('Object Repository/login/input_password'), GlobalVariable.password)
+WebUI.setText(findTestObject('Object Repository/CoCo/login/input_password'), GlobalVariable.password)
 
-WebUI.click(findTestObject('Object Repository/login/btn_Login'))
+WebUI.click(findTestObject('Object Repository/CoCo/login/btn_Login'))
 

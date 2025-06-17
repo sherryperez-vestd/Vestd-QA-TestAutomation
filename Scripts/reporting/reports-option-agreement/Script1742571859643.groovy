@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureH
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
 
-WebUI.click(findTestObject('reporting/index/link_generate-option-agreement'))
+WebUI.click(findTestObject('StatSquad/reporting/index/link_generate-option-agreement'))
 
 url = WebUI.getUrl()
 split_url = url.split('/')
@@ -36,19 +36,19 @@ url = WebUI.getUrl()
 
 WebUI.verifyEqual(url, 'https://demo.app.vestd.com/company/50135/temporary-file')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/temporary-file/h1_Temporary files'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporary-file/h1_Temporary files'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/temporary-file/h1_Temporary files'), 'Temporary files')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporary-file/h1_Temporary files'), 'Temporary files')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/temporary-file/label_Expires in 23 hours'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporary-file/label_Expires in 23 hours'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/temporary-file/label_Expires in 23 hours'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/temporary-file/label_Expires in 23 hours'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/temporary-file/label_Expires in 23 hours'), 'Expires in 23 hours')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporary-file/label_Expires in 23 hours'), 'Expires in 23 hours')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/temporary-file/btn_Download'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/temporary-file/btn_Download'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/temporary-file/btn_Download'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporary-file/btn_Download'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/temporary-file/btn_Download'), 'Download')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporary-file/btn_Download'), 'Download')
 

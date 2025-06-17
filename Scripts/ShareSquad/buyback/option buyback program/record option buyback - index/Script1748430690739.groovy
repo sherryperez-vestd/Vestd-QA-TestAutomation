@@ -19,38 +19,68 @@ import org.openqa.selenium.Keys as Keys
 
 'Login and navigate to Record Option buyback page'
 WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50915/option-buyback')
-WebUI.verifyElementPresent(findTestObject('buyback/option-buyback/Page_Buyback options Index/Record-buyback'), 0)
-WebUI.click(findTestObject('buyback/option-buyback/Page_Buyback options Index/Record-buyback'))
+
+WebUI.verifyElementPresent(findTestObject('ShareSquad/buyback/option-buyback/Page_Buyback options Index/Record-buyback'), 
+    0)
+
+WebUI.click(findTestObject('ShareSquad/buyback/option-buyback/Page_Buyback options Index/Record-buyback'))
 
 'Create Option buyback'
-WebUI.click(findTestObject('buyback/option-buyback/Page_Option buyback - create/input_Select the option holder'))
-WebUI.click(findTestObject('buyback/option-buyback/Page_Option buyback - create/input_Select the option holder whose option_fdeaed'))
-WebUI.click(findTestObject('buyback/option-buyback/Page_Option buyback - create/button_Continue'))
-WebUI.setText(findTestObject('Object Repository/buyback/option-buyback/input_Number of options'), '1')
-WebUI.setText(findTestObject('Object Repository/buyback/option-buyback/Page_Option buyback - create/input_Number of options'), '1')
-WebUI.setText(findTestObject('Object Repository/buyback/option-buyback/Page_Option buyback - create/input_total-price-paid'), '1')
-WebUI.setText(findTestObject('Object Repository/buyback/option-buyback/Page_Option buyback - create/input_Day_purchased_at_day'), '1')
-WebUI.setText(findTestObject('Object Repository/buyback/option-buyback/Page_Option buyback - create/input_Month_purchased_at_month'), '1')
-WebUI.setText(findTestObject('Object Repository/buyback/option-buyback/Page_Option buyback - create/input_Year_purchased_at_year'), '2025')
+WebUI.click(findTestObject('ShareSquad/buyback/option-buyback/Page_Option buyback - create/input_Select the option holder'))
+
+WebUI.click(findTestObject('ShareSquad/buyback/option-buyback/Page_Option buyback - create/input_Select the option holder whose option_fdeaed'))
+
+WebUI.click(findTestObject('ShareSquad/buyback/option-buyback/Page_Option buyback - create/button_Continue'))
+
+WebUI.setText(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/input_Number of options'), '1')
+
+WebUI.setText(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_Option buyback - create/input_Number of options'), 
+    '1')
+
+WebUI.setText(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_Option buyback - create/input_total-price-paid'), 
+    '1')
+
+WebUI.setText(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_Option buyback - create/input_Day_purchased_at_day'), 
+    '1')
+
+WebUI.setText(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_Option buyback - create/input_Month_purchased_at_month'), 
+    '1')
+
+WebUI.setText(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_Option buyback - create/input_Year_purchased_at_year'), 
+    '2025')
+
 // Define the path to the file
-WebUI.uploadFile(findTestObject('buyback/option-buyback/Page_Option buyback - create/input_forfeiture-letter'), 'C:\\Users\\admin\\Documents\\VestdApp-TestAutomation Katalon\\Vestd QA Test Automation\\TestData\\Forfeiture-letter.pdf')
-WebUI.click(findTestObject('Object Repository/buyback/option-buyback/Page_Option buyback - create/button_Record buyback'))
+WebUI.uploadFile(findTestObject('ShareSquad/buyback/option-buyback/Page_Option buyback - create/input_forfeiture-letter'), 
+    'C:\\Users\\admin\\Documents\\VestdApp-TestAutomation Katalon\\Vestd QA Test Automation\\TestData\\Test-PDF-File.pdf')
+
+WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_Option buyback - create/button_Record buyback'))
 
 'Check Record Option buyback success banner'
-WebUI.verifyElementPresent(findTestObject('Object Repository/buyback/option-buyback/Page_ESOP Agreement/div_Options bought back successfully'),  0)
-WebUI.verifyElementText(findTestObject('Object Repository/buyback/option-buyback/Page_ESOP Agreement/div_Options bought back successfully'), 'Options bought back successfully')
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_ESOP Agreement/div_Options bought back successfully'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_ESOP Agreement/div_Options bought back successfully'), 
+    'Options bought back successfully')
 
 'Check data is added on Option buyback index page '
-WebUI.click(findTestObject('Object Repository/buyback/option-buyback/Page_ESOP Agreement/a_Buyback options'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/buyback/option-buyback/Page_Option buyback - create/td_1'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/buyback/option-buyback/Page_Option buyback - create/td_1'), '1')
-WebUI.verifyElementPresent(findTestObject('buyback/option-buyback/span_Completed-status'), 0)
-WebUI.click(findTestObject('Object Repository/buyback/option-buyback/Page_Option buyback - create/i_Completed_feather icon-eye'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_ESOP Agreement/a_Buyback options'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_Option buyback - create/td_1'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_Option buyback - create/td_1'), 
+    '1')
+
+WebUI.verifyElementPresent(findTestObject('ShareSquad/buyback/option-buyback/span_Completed-status'), 0)
+
+WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_Option buyback - create/i_Completed_feather icon-eye'))
 
 'Delete recorded entry'
-WebUI.click(findTestObject('Object Repository/buyback/option-buyback/Page_Option buyback - create/button_Delete'))
-WebUI.click(findTestObject('Object Repository/buyback/option-buyback/Page_Option buyback - create/button_Ok, delete buyback options'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_Option buyback - create/button_Delete'))
+
+WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_Option buyback - create/button_Ok, delete buyback options'))
 
 WebUI.closeBrowser()
 

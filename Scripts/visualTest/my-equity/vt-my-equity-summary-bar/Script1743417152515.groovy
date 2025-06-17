@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureH
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.takeElementScreenshotAsCheckpoint('my-equity-summary-bar', findTestObject('myEquity/summary-bar/summary-bar-section'))
+WebUI.takeElementScreenshotAsCheckpoint('my-equity-summary-bar', findTestObject('StatSquad/myEquity/summary-bar/summary-bar-section'))
 
 WebUI.closeBrowser()
 

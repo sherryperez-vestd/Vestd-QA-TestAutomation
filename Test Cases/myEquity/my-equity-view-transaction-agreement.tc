@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>my-equity-view-transaction-agreement</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9e959c5b-b89e-4256-8b28-434ef082e54e</testCaseGuid>
-</TestCaseEntity>

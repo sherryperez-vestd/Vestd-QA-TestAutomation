@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Allow vested options to be exercised</name>
+   <tag></tag>
+   <elementGuidId>9132f0e2-4088-44e9-8049-b7fe7ec6935d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='js-workflow-form']/fieldset/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.d-block.mb-4.flex-grow-1.flex-shrink-1.choice-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Allow vested options to be exercised Keep the options already vested. Remaining &quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>91377dc3-b3cf-4cfa-b625-68cd6acf9e7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-block mb-4 flex-grow-1 flex-shrink-1 choice-label</value>
+      <webElementGuid>a98d60f3-efc3-480b-a7ca-e4fc1f1a6cbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>keep-but-exercise-within-window</value>
+      <webElementGuid>3517834c-4462-4318-a6e9-3f0a84befc90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Allow vested options to be exercised Keep the options already vested. Remaining options are cancelled. Must be exercised within 90 days.</value>
+      <webElementGuid>d44da100-6927-4ae2-9e26-26862f473515</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-workflow-form&quot;)/fieldset[1]/div[@class=&quot;row mb-4 mt-5&quot;]/div[@class=&quot;col-12 col-sm-6 col-md-4 col-lg-6 d-flex col-xl-3&quot;]/label[@class=&quot;d-block mb-4 flex-grow-1 flex-shrink-1 choice-label&quot;]</value>
+      <webElementGuid>6010689e-c0d5-4769-80c8-a540b9ebee93</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='js-workflow-form']/fieldset/div/div/label</value>
+      <webElementGuid>0ecc87ec-2cf2-43fc-894e-34b7bcc2a33f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What should happen if an employee leaves on good terms?'])[1]/following::label[1]</value>
+      <webElementGuid>01b537b5-984c-4adb-840b-edc37167427e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt; Back'])[1]/following::label[1]</value>
+      <webElementGuid>515a9c10-f105-4b16-9975-94f692fcefb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keep vested options'])[1]/preceding::label[1]</value>
+      <webElementGuid>79467dca-fb81-4772-9575-ba0d56752f4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>276bae42-9bf8-4888-be7f-c74a5cd0e67c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' Allow vested options to be exercised Keep the options already vested. Remaining options are cancelled. Must be exercised within 90 days.' or . = ' Allow vested options to be exercised Keep the options already vested. Remaining options are cancelled. Must be exercised within 90 days.')]</value>
+      <webElementGuid>4cbf9c9a-7605-44be-9666-7bc387e04cfc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

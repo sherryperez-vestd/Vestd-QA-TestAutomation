@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tile_My-options-breakdown-section</name>
+   <tag></tag>
+   <elementGuidId>e0852a93-0dd9-40f1-8e86-4043d56cfa00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;My options breakdown EMI Option: 10,000 Ordinary Exercised: 250Vested: 250Unvest&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>66b27900-f1c3-4f84-8411-61fe2c3df9dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card v-card bg-white mb-3</value>
+      <webElementGuid>135d84bf-60c6-4886-9383-cf1d815307b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>v-card-component</value>
+      <webElementGuid>65a66372-db19-4ce2-bc34-9c832bc93b16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My options breakdown EMI Option: 10,000 Ordinary Exercised: 250Vested: 250Unvested: 9,500Granted on: 7th Jan 2025View agreement summaryView transaction</value>
+      <webElementGuid>c375e2f8-b49d-4ba8-b1f7-98dcd04c1e89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 expanded&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[1]/div[@class=&quot;card v-card bg-white mb-3&quot;]</value>
+      <webElementGuid>dd532e54-3767-43c0-9fee-be02a03af730</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>c72cfc02-f3b0-4499-9305-dd6704b2d7d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£0'])[1]/following::div[3]</value>
+      <webElementGuid>3b0447cd-6265-455f-8912-653287422891</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>01b26400-f05b-4f63-a9f3-ca70379d9fc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'My options breakdown EMI Option: 10,000 Ordinary Exercised: 250Vested: 250Unvested: 9,500Granted on: 7th Jan 2025View agreement summaryView transaction' or . = 'My options breakdown EMI Option: 10,000 Ordinary Exercised: 250Vested: 250Unvested: 9,500Granted on: 7th Jan 2025View agreement summaryView transaction')]</value>
+      <webElementGuid>8eddd62c-7d77-47b0-8829-b152073b62ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

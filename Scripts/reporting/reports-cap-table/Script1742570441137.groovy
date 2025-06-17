@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureH
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
 
-WebUI.click(findTestObject('reporting/index/link_generate-cap-table'))
+WebUI.click(findTestObject('StatSquad/reporting/index/link_generate-cap-table'))
 
 url = WebUI.getUrl()
 

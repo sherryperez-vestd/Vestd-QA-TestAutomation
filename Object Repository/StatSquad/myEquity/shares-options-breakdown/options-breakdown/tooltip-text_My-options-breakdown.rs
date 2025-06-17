@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tooltip-text_My-options-breakdown</name>
+   <tag></tag>
+   <elementGuidId>1a98f3b2-1899-43cd-bf2d-b7cb118b8b2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='popper_z72gvgrp_fs7n9g']/div[2]/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.v-popper__inner > div > div > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Here, you can view the number of options granted to you under the selected agree&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0ab33dc6-3d16-497a-8de4-543efaee03a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Here, you can view the number of options granted to you under the selected agreement.</value>
+      <webElementGuid>cf416195-8b86-44ca-aff2-5e2779417efc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;popper_z72gvgrp_fs7n9g&quot;)/div[@class=&quot;v-popper__wrapper&quot;]/div[@class=&quot;v-popper__inner&quot;]/div[1]/div[1]/span[1]</value>
+      <webElementGuid>67695961-4b0d-4190-9f35-a0ec68f5f0a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='popper_z72gvgrp_fs7n9g']/div[2]/div/div/div/span</value>
+      <webElementGuid>8ca1b7e2-de60-4239-9201-331315c0e0a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Leave feedback'])[1]/following::span[1]</value>
+      <webElementGuid>de1e3a41-c221-40ef-b6d7-a9bfd964b3d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::span[1]</value>
+      <webElementGuid>4565df38-3c91-4964-8710-9ae3cabccbdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Here, you can view the number of options granted to you under the selected agreement.']/parent::*</value>
+      <webElementGuid>e00bcae3-373f-49bf-a384-c7daff747278</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/span</value>
+      <webElementGuid>bf6f6137-6dd7-4360-9477-7f9b1e469ebf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Here, you can view the number of options granted to you under the selected agreement.' or . = 'Here, you can view the number of options granted to you under the selected agreement.')]</value>
+      <webElementGuid>947e8033-f56d-4bff-8e15-c93f35d0b702</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

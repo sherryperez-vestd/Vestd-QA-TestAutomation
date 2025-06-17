@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Help Centre</name>
+   <tag></tag>
+   <elementGuidId>432bf572-d852-4abc-b914-d58e876ec15c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarCollapse']/ul[2]/li/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Help centre' or . = 'Help centre')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.navbar-nav.mb-md-4 > li.nav-item > a.nav-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//div[@id='sidebarCollapse']/ul[2]/li/a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b0ee3117-a2eb-4bcc-8b23-adeaf963b9b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>f670b6f0-626c-447f-bd5e-ab299998242f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://www.vestd.com/help?_gl=1*1lztjkp*_ga*MTM2MjAwOTM2MC4xNzQ0NjYzMjYy*_ga_52CVMT2H7J*MTc0NDY2MzI2Mi4xLjEuMTc0NDY2MzQzMS4yMy4wLjA.</value>
+      <webElementGuid>98313b48-8cfc-414e-ba15-6ede2a58db87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link</value>
+      <webElementGuid>fe9d245f-ca9d-48a0-9940-cc270ae10b09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Help centre</value>
+      <webElementGuid>4a9217d8-d1b6-402c-9bd2-7d9601c0bc2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mb-md-4&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <webElementGuid>16aa7607-9a9a-4f6a-b146-5e78e83294ff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebarCollapse']/ul[2]/li/a</value>
+      <webElementGuid>da921f4d-fc0c-4716-ba41-53bd99a4ba04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Help Centre')]</value>
+      <webElementGuid>6645f2f6-d229-430a-b6d2-8c87ba61e86a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company settings'])[1]/preceding::a[1]</value>
+      <webElementGuid>c1a8b650-7d87-47bc-88d4-2459b2228f75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='App - staff'])[1]/preceding::a[2]</value>
+      <webElementGuid>33ba3a3d-f5a6-4189-a967-dcb58a1d5ab6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Help Centre']/parent::*</value>
+      <webElementGuid>460fabda-6061-4965-884e-9cfb2d3cdcd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://www.vestd.com/help?_gl=1*1lztjkp*_ga*MTM2MjAwOTM2MC4xNzQ0NjYzMjYy*_ga_52CVMT2H7J*MTc0NDY2MzI2Mi4xLjEuMTc0NDY2MzQzMS4yMy4wLjA.')]</value>
+      <webElementGuid>1984d85a-7634-41d2-90bb-a159810761e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ul[2]/li/a</value>
+      <webElementGuid>ae4ad5b9-ed65-46f9-b34f-cdcfa097d8a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://www.vestd.com/help?_gl=1*1lztjkp*_ga*MTM2MjAwOTM2MC4xNzQ0NjYzMjYy*_ga_52CVMT2H7J*MTc0NDY2MzI2Mi4xLjEuMTc0NDY2MzQzMS4yMy4wLjA.' and (text() = ' Help Centre
+                ' or . = ' Help Centre
+                ')]</value>
+      <webElementGuid>b11611e6-093b-46d2-8f61-8df2003a2d80</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

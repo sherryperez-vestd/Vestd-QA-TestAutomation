@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Vestd Ltd is authorised and regulated by</name>
+   <tag></tag>
+   <elementGuidId>03980035-29e1-43c8-8564-294f44dce82c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarCollapse']/footer/ul/li[3]/p</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).' or . = 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.mb-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//div[@id='sidebarCollapse']/footer/ul/li[3]/p</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>f8a27258-84e9-4d10-b150-a4c0e8e5a1d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-1</value>
+      <webElementGuid>8762ccef-76cc-4641-b644-3dbf190e65b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).</value>
+      <webElementGuid>19dbfd23-043a-48fc-a9c2-eead04920722</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebarCollapse&quot;)/footer[1]/ul[@class=&quot;navbar-nav navbar-footer&quot;]/li[@class=&quot;nav-item mt-2&quot;]/p[@class=&quot;mb-1&quot;]</value>
+      <webElementGuid>b81805ff-1019-4d5a-89a4-a0a234cdcc78</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebarCollapse']/footer/ul/li[3]/p</value>
+      <webElementGuid>00e32fbb-3d2d-420e-aa36-4a40c0407af6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::p[1]</value>
+      <webElementGuid>6e508da2-3752-4bae-aa65-42bbdfdbeaac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::p[1]</value>
+      <webElementGuid>ea331cbf-aeb5-463c-ab76-9cc18807fc01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unapproved options'])[2]/preceding::p[1]</value>
+      <webElementGuid>6adfe0fe-0431-4098-8387-004229b396b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).']/parent::*</value>
+      <webElementGuid>9cdf587c-8a53-4a43-ad60-608aeafeacac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>f33066c0-0272-44b9-a2bc-1b820b201a37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).' or . = 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')]</value>
+      <webElementGuid>32f6c813-e73d-4b2a-97b8-4a8f0bd2fae1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_forfeiture-letter</name>
+   <tag></tag>
+   <elementGuidId>2ecee93c-b989-4857-a720-4aa5978c5118</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'file' ]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'forfeiture_letter']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#OGCIcoyvb2D3FXd2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>8c99259f-37c4-4fe1-a0b5-f82f70a5637e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>7588b5fc-0b47-41b8-a329-962855c265ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-file-input</value>
+      <webElementGuid>2b5aa3ad-295f-4d9c-a62c-819b7858b191</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>forfeiture_letter</value>
+      <webElementGuid>2fa70a7e-d348-456d-bc3f-0d339fa7b805</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

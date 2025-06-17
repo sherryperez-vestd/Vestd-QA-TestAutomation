@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_No cliff Options will start vesting o</name>
+   <tag></tag>
+   <elementGuidId>bac3a856-5057-4f0b-a9f4-335d8baa5938</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='js-workflow-form']/fieldset/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.d-block.mb-4.flex-grow-1.flex-shrink-1.choice-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;No cliff Options will start vesting on the start date.&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>81d16714-271c-453c-a8fe-e55aaf516d5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-block mb-4 flex-grow-1 flex-shrink-1 choice-label</value>
+      <webElementGuid>5002f9da-c3ad-41a2-8230-e314c96ff09d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>581873d9-c5f1-46a7-b015-9b3fe2e1338c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> No cliff Options will start vesting on the start date.</value>
+      <webElementGuid>2b6f5515-0e79-4dd6-895a-d39b60fb6c41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-workflow-form&quot;)/fieldset[1]/div[@class=&quot;row mb-4 mt-5&quot;]/div[@class=&quot;col-12 col-sm-6 col-md-4 col-lg-6 d-flex col-xl-4&quot;]/label[@class=&quot;d-block mb-4 flex-grow-1 flex-shrink-1 choice-label&quot;]</value>
+      <webElementGuid>3928dcb2-41c0-45c2-81d4-39e27e6013be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='js-workflow-form']/fieldset/div/div/label</value>
+      <webElementGuid>ad032619-f9e7-4c57-a2de-ad4853335e45</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How long should the cliff period be?'])[1]/following::label[1]</value>
+      <webElementGuid>0910cc1e-0d7b-472a-a073-1dc3117b9542</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt; Back'])[1]/following::label[1]</value>
+      <webElementGuid>3fef6e1d-8c4b-46df-8abc-730889fead63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>c58b7ac9-2baf-4fbc-859e-4e421c30238e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' No cliff Options will start vesting on the start date.' or . = ' No cliff Options will start vesting on the start date.')]</value>
+      <webElementGuid>c480df18-592c-43b9-a4f6-3a073c2bd526</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

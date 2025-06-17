@@ -19,95 +19,100 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/home')
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
 
-WebUI.click(findTestObject('navigation/img-side-nav-collapse'))
+//WebUI.click(findTestObject('CoCo/navigation/img-side-nav-collapse'))
+//WebUI.click(findTestObject('CoCo/navigation/side-nav/a_Secretarial  admin'))
+//
+//WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
+//
+//WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Page_Secretarial-Admin/a_Reports'), 0)
+//
+//WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Page_Secretarial-Admin/a_Reports'), 'Reports')
+//
+//WebUI.verifyElementClickable(findTestObject('CoCo/navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
+//
+//WebUI.click(findTestObject('CoCo/navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/heading_Reporting Beta'))
 
-WebUI.click(findTestObject('navigation/side-nav/a_Secretarial  admin'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/index/heading_Reporting Beta'), 0)
 
-WebUI.verifyElementVisible(findTestObject('navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/heading_Reporting Beta'), 'Reporting Beta')
 
-WebUI.verifyElementPresent(findTestObject('navigation/side-nav/Page_Secretarial-Admin/a_Reports'), 0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/lead-text_Access detailed reports'))
 
-WebUI.verifyElementText(findTestObject('navigation/side-nav/Page_Secretarial-Admin/a_Reports'), 'Reports')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/lead-text_Access detailed reports'), 
+    'Access detailed reports tailored to your needs. Can\'t find what you\'re looking for? Request a custom report here.')
 
-WebUI.verifyElementClickable(findTestObject('navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/th_Report name'))
 
-WebUI.click(findTestObject('navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/th_Report name'), 'Report name')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/heading_Reporting Beta'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/th_Description'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/reporting/index/heading_Reporting Beta'), 0)
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/th_Description'), 'Description')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/heading_Reporting Beta'), 'Reporting Beta')
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/th_Action'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/lead-text_Access detailed reports'))
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/th_Action'), 'Action')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/lead-text_Access detailed reports'), 'Access detailed reports tailored to your needs. Can\'t find what you\'re looking for? Request a custom report here.')
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_Shareholders report'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/th_Report name'))
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_Shareholders report'), 'Shareholders report')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/th_Report name'), 'Report name')
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_shareholders description'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/th_Description'))
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_shareholders description'), 'This report will provide a download of your shareholders names, emails and other basic information.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/th_Description'), 'Description')
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/link_generate-shareholders'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/th_Action'))
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/link_generate-shareholders'), 'Generate')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/th_Action'), 'Action')
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_Financial report'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_Shareholders report'))
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_Financial report'), 'Financial report')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_Shareholders report'), 'Shareholders report')
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_financial report description'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_This report will provide a download of y_f8195d'))
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_financial report description'), 'This report will provide options vested, options lapsed, options exercised, reversed options and exercise requests. You will be able to select the start and end date on the next page.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_This report will provide a download of y_f8195d'), 
-    'This report will provide a download of your shareholders names, emails and other basic information.')
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_Cap table report'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/link_generate-shareholders'))
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_Cap table report'), 'Cap table report')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/link_generate-shareholders'), 'Generate')
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_cap table description'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_Financial report'))
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_cap table description'), 'This will take you to cap table page where you can simulate the ownership structure of your company in different scenarios.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_Financial report'), 'Financial report')
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_Option agreement report'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_This report will provide options vested,_5db3b1'))
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_Option agreement report'), 'Option agreement report')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_This report will provide options vested,_5db3b1'), 
-    'This report will provide options vested, options lapsed, options exercised, reversed options and exercise requests. You will be able to select the start and end date on the next page.')
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_option agreement description'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_Cap table report'))
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_option agreement description'), 'This report will provide a download of all option agreements, the status, the option holders name, option type, and other related information.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_Cap table report'), 'Cap table report')
+WebUI.verifyElementVisible(findTestObject('StatSquad/reporting/index/td_Expense report'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_This will take you to cap table page whe_1fbe13'))
+WebUI.verifyElementText(findTestObject('StatSquad/reporting/index/td_Expense report'), 'Expense report')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_This will take you to cap table page whe_1fbe13'), 
-    'This will take you to cap table page where you can simulate the ownership structure of your company in different scenarios.')
+WebUI.verifyElementVisible(findTestObject('StatSquad/reporting/index/td_Expense report description'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_Option agreement report'))
+WebUI.verifyElementText(findTestObject('StatSquad/reporting/index/td_Expense report description'), 'This report calculates stock option expenses under the selected valuation method. It includes fair values, vesting schedules, and a monthly breakdown to ensure IFRS-compliant entries for "employee compensation expense" in the annual P&L.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_Option agreement report'), 'Option agreement report')
+WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/reporting/index/link_generate-shareholders'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/reporting/index/td_This report will provide a download of a_f115f4'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/reporting/index/link_generate-financial'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/reporting/index/td_This report will provide a download of a_f115f4'), 
-    'This report will provide a download of all option agreements, the status, the option holders name, option type, and other related information.')
+WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/reporting/index/link_generate-cap-table'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/reporting/index/link_generate-shareholders'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/reporting/index/link_generate-option-agreement'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/reporting/index/link_generate-financial'))
+WebUI.verifyElementClickable(findTestObject('StatSquad/reporting/index/link_generate-expense'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/reporting/index/link_generate-cap-table'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/reporting/index/link_Request a custom report here'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/reporting/index/link_generate-option-agreement'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/reporting/index/link_Request a custom report here'))
-
-WebUI.click(findTestObject('reporting/index/link_Request a custom report here'))
+WebUI.click(findTestObject('StatSquad/reporting/index/link_Request a custom report here'))
 
 currentWindow = WebUI.getWindowIndex()
 

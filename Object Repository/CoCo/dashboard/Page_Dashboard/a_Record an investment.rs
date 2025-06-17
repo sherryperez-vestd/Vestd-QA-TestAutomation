@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Record an investment</name>
+   <tag></tag>
+   <elementGuidId>3381290e-1f11-4364-8179-2f235cf70ce6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/section/div/div/div/div/div[2]/div/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@target = '_self' and @href = 'https://demo.app.vestd.com/external-investment/create' and @data-test-id = 'link-button' and (text() = 'Record an investment' or . = 'Record an investment')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-md.btn-outline-secondary.btn-not-submit.mb-0.v-btn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>26d3de20-c92e-42e8-a5dd-7be0ed7f95b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+      <webElementGuid>f3ad1146-4145-4356-b0a7-57b7e64e6bf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://demo.app.vestd.com/external-investment/create</value>
+      <webElementGuid>a3686e1a-33db-44af-84e1-bde7ab337326</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-md btn-outline-secondary btn-not-submit mb-0 v-btn</value>
+      <webElementGuid>400ea151-79c1-4bca-bac0-14593254869d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>link-button</value>
+      <webElementGuid>2195a63f-5a02-4a4d-89c7-fdb7ccbd6113</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Record an investment</value>
+      <webElementGuid>301e154f-b45a-468e-88b5-9a003b69f144</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/section[@class=&quot;row my-4&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;card my-4&quot;]/div[@class=&quot;card-body text-muted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4 col-xl-3&quot;]/div[@class=&quot;d-inline-block&quot;]/div[@class=&quot;d-inline-block&quot;]/a[@class=&quot;btn btn-md btn-outline-secondary btn-not-submit mb-0 v-btn&quot;]</value>
+      <webElementGuid>e05668fb-ad4e-44a1-9edd-cea9325e2209</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/section/div/div/div/div/div[2]/div/div/a</value>
+      <webElementGuid>796f522d-467d-4e3f-9195-87449665231c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='invested'])[1]/following::a[1]</value>
+      <webElementGuid>9f2056ba-08a2-45f4-bf96-47fc260f4584</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='%'])[1]/following::a[1]</value>
+      <webElementGuid>b406f92e-ccc9-4975-8d1b-227414ef6c0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get the most out of your dashboard'])[1]/preceding::a[1]</value>
+      <webElementGuid>c5a06f82-aa7a-48b8-94ce-bcc71c721648</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Record an investment']/parent::*</value>
+      <webElementGuid>ea3326e9-23eb-44ea-b0c5-d3bf06f91578</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://demo.app.vestd.com/external-investment/create')]</value>
+      <webElementGuid>94f00182-2cec-45c0-8be3-defc2c5315dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a</value>
+      <webElementGuid>282c31cc-2d07-49d7-a94f-396fa1571179</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://demo.app.vestd.com/external-investment/create' and (text() = 'Record an investment' or . = 'Record an investment')]</value>
+      <webElementGuid>953cd5c3-20a5-432e-8c78-bb999a5d5e9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_All done, nothing more to add Most co</name>
+   <tag></tag>
+   <elementGuidId>379807da-91b4-4b8d-9d1d-6bffb11421a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='js-workflow-form']/fieldset/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.d-block.mb-4.flex-grow-1.flex-shrink-1.choice-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;All done, nothing more to add Most companies don't need additional documents or &quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>b24113e3-476a-4c01-a790-251a193719e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-block mb-4 flex-grow-1 flex-shrink-1 choice-label</value>
+      <webElementGuid>cc02a2ca-9e17-4926-b940-e30d65853c3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>no</value>
+      <webElementGuid>4f47960c-a5df-4442-b8c0-7b35df4d886e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> All done, nothing more to add Most companies don't need additional documents or clauses.</value>
+      <webElementGuid>a25ca893-fb04-4e0b-b23f-c5db8cacc3b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;js-workflow-form&quot;)/fieldset[1]/div[@class=&quot;row mb-4 mt-5&quot;]/div[@class=&quot;col-12 col-sm-6 col-md-4 col-lg-6 d-flex col-xl-3&quot;]/label[@class=&quot;d-block mb-4 flex-grow-1 flex-shrink-1 choice-label&quot;]</value>
+      <webElementGuid>a07b59d2-7ba2-4e45-afe9-2039048d6dc4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='js-workflow-form']/fieldset/div/div/label</value>
+      <webElementGuid>fd23fc6b-e990-4493-96e1-ed4f4b193c61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do you have any additional documents or clauses you want to add?'])[1]/following::label[1]</value>
+      <webElementGuid>929151f3-2679-4571-b61f-e2281841187c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt; Back'])[1]/following::label[1]</value>
+      <webElementGuid>ce657d29-e272-4127-8550-2f3b58701d3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>e3af898b-7670-47a1-b34c-87ed24ae6118</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = concat(&quot; All done, nothing more to add Most companies don&quot; , &quot;'&quot; , &quot;t need additional documents or clauses.&quot;) or . = concat(&quot; All done, nothing more to add Most companies don&quot; , &quot;'&quot; , &quot;t need additional documents or clauses.&quot;))]</value>
+      <webElementGuid>697b9bf1-efa0-4365-8ec3-1084d4a1381c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

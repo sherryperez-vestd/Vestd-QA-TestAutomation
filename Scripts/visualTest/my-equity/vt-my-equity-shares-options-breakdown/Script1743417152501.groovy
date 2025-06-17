@@ -22,17 +22,17 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureH
 'Check vesting schedule'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.click(findTestObject('myEquity/shares-options-breakdown/chevron_summary-bar'))
+WebUI.click(findTestObject('StatSquad/myEquity/shares-options-breakdown/chevron_summary-bar'))
 
-WebUI.takeElementScreenshotAsCheckpoint('My shares breakdown', findTestObject('myEquity/shares-options-breakdown/shares-breakdown/tile_my-shares-breakdown-section'))
+WebUI.takeElementScreenshotAsCheckpoint('My shares breakdown', findTestObject('StatSquad/myEquity/shares-options-breakdown/shares-breakdown/tile_my-shares-breakdown-section'))
 
-WebUI.takeElementScreenshotAsCheckpoint('My options breakdown', findTestObject('myEquity/shares-options-breakdown/options-breakdown/tile_My-options-breakdown-section'))
+WebUI.takeElementScreenshotAsCheckpoint('My options breakdown', findTestObject('StatSquad/myEquity/shares-options-breakdown/options-breakdown/tile_My-options-breakdown-section'))
 
-WebUI.click(findTestObject('myEquity/shares-options-breakdown/button_View transaction'))
+WebUI.click(findTestObject('StatSquad/myEquity/shares-options-breakdown/button_View transaction'))
 
 WebUI.takeFullPageScreenshotAsCheckpoint('Transaction History')
 
-not_run: WebUI.click(findTestObject('myEquity/shares-options-breakdown/button_Close'))
+not_run: WebUI.click(findTestObject('StatSquad/myEquity/shares-options-breakdown/button_Close'))
 
 WebUI.closeBrowser()
 
