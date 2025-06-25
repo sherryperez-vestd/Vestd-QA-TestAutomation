@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 //import java.text.SimpleDateFormat
 //import java.util.Calendar
-
 WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/director')
@@ -48,8 +47,8 @@ WebUI.click(findTestObject('CoSec/directors/a_Resign'))
 ////println("Incremented day is: " + incrementedDay)
 //
 //WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), incrementedDay)
+WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), '27')
 
-WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), '13')
 WebUI.setText(findTestObject('CoSec/directors/input_ResignMonth'), '1')
 
 WebUI.setText(findTestObject('CoSec/directors/input_ResignYear'), '2025')
@@ -89,8 +88,8 @@ WebUI.click(findTestObject('CoSec/directors/a_Reappoint'))
 //String incrementedDay2 = dayFormat.format(calendar2.getTime())
 //
 //WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), incrementedDay2)
+WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), '28')
 
-WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), '14')
 WebUI.setText(findTestObject('CoSec/directors/input_appointedMonth'), '1')
 
 WebUI.setText(findTestObject('CoSec/directors/input_appointedYear'), '2025')

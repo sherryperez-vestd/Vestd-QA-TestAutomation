@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'criteria' and @id = 'criteria']</value>
+         <value>//textarea[@class = 'form-control' and @name = 'criteria']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,28 +28,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>d35faef2-fc9d-4287-9c25-58fc33d65072</webElementGuid>
+      <webElementGuid>a79503d9-0e02-4da0-b16a-e954d2305a93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>e12281b9-09be-45de-862c-7194f78b87c7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>rows</name>
-      <type>Main</type>
-      <value>3</value>
-      <webElementGuid>51a6394e-220b-4c98-be64-ccdd3575dc24</webElementGuid>
+      <webElementGuid>36c74250-f559-44f4-8120-280ab164ac9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,31 +49,7 @@
       <name>name</name>
       <type>Main</type>
       <value>criteria</value>
-      <webElementGuid>e3eafe1b-77c5-4a9c-aea2-a08c4aefb2f5</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>cols</name>
-      <type>Main</type>
-      <value>50</value>
-      <webElementGuid>6a99b8c4-85e9-4325-a666-55a08477ec2d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>criteria</value>
-      <webElementGuid>4f7fca0d-70c0-44b5-ad4f-abed3b93c6ae</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;criteria&quot;)</value>
-      <webElementGuid>bd0844b3-a8ff-4c1a-9916-98ae0af37720</webElementGuid>
+      <webElementGuid>4b3bc096-4c9c-4caa-9407-b56f0b2379ad</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,7 +57,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='criteria']</value>
-      <webElementGuid>7d182d3c-38c6-49b8-bdd7-b270590231fb</webElementGuid>
+      <webElementGuid>9e9e54ea-40eb-4735-8b61-9aef672e18a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/form/fieldset/div[7]/textarea</value>
-      <webElementGuid>16d1869a-19ee-46fb-bf36-93a541acc3a5</webElementGuid>
+      <webElementGuid>12f295c3-3b58-4eca-a8ab-6a3280dbc735</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>d00ec78b-8455-4a25-b6e5-aba9e03886c7</webElementGuid>
+      <webElementGuid>38f3a6ed-c91a-49a3-a506-d6def24d8f95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@name = 'criteria' and @id = 'criteria']</value>
-      <webElementGuid>6cceca6c-6fc5-4258-a962-6e83c489ec07</webElementGuid>
+      <webElementGuid>fc1aa475-a623-4cff-976b-860e43a205dd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

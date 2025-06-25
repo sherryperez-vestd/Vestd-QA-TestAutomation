@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+'Login as Admin and navigate to expense reports page'
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports/expense-report')
 
@@ -29,6 +30,7 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/heading_B
 
 WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/heading_Beta'), 'Beta')
 
+'Check Add expense report settings alert banner'
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/div_add expense report settings alert'), 0)
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/heading_expense report alert'), 0)
@@ -43,6 +45,7 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/btn_Expen
 
 WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/btn_Expense report settings'), 'Expense report settings')
 
+'Check Edit expense report settings page'
 WebUI.click(findTestObject('StatSquad/reporting/expense/btn_Expense report settings'))
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/heading_Edit expense report settings'), 0)

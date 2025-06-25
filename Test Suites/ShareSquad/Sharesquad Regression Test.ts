@@ -114,6 +114,45 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>7ba16d58-f9e6-4d0e-be6e-81e351e6f75f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/authorisations/create-gs-authorisation</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7ce919c2-2ce2-4657-aa9a-4fba5126317f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d63f1961-026c-4376-a24b-192855f7be1f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/authorisations/create-option-pool</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>92862785-5323-4a85-b53e-1e83c65d3d51</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8a9997cf-b1e0-4c6e-bdf0-f7b5c598f2cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/authorisations/create-share-authorisation</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d54abf65-f3bc-4649-a922-4c400589f040</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>34373555-c98a-46fd-86a4-bdc6f44f89a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -151,5 +190,12 @@
          <value></value>
          <variableId>c5927c75-8247-4099-996c-6d03897f3ccd</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5f1c5062-18f5-4d99-afbb-e8ecefe0f441</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/schemes/csop/csop-createTemplate-addRecipient-deleteTemplateRecipient</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

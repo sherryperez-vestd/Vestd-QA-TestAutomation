@@ -6,16 +6,16 @@
    <elementGuidId>ad273fc8-de8b-4702-9f29-d0b5d4b76f27</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/tbody/tr/td[2]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '£48,750.00' or . = '£48,750.00')]</value>
+         <value>//*[(contains(text(), '£48,740.30') or contains(., '£48,740.30'))]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.col-12 > div.table-responsive > table.table > tbody > tr > td:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/tbody/tr/td[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,23 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>e86a7043-1ea0-4758-95e0-c05a9d429bea</webElementGuid>
+      <webElementGuid>487031f9-31f8-4b43-a3aa-dd24c15398fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>£48,750.00</value>
-      <webElementGuid>a70a6eef-780a-4422-b74f-d28bc445e04b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[1]/div[@class=&quot;col-12&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[2]</value>
-      <webElementGuid>13f6d388-11f9-4118-af12-72c58f902d01</webElementGuid>
+      <value>£48,740.30</value>
+      <webElementGuid>0835262a-5559-4ff9-9f91-85a77d807f3f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/tbody/tr/td[2]</value>
-      <webElementGuid>34aed491-f683-4444-9624-130b4881c035</webElementGuid>
+      <webElementGuid>4ec179cd-f9b0-4bba-83a0-dc0c222d97a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pre-tax profit'])[1]/following::td[2]</value>
-      <webElementGuid>636f0621-becf-4319-a3ae-684d3624bc6f</webElementGuid>
+      <webElementGuid>be9d15ce-2104-419e-83a9-42a451dc9d10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total price to pay'])[1]/following::td[2]</value>
-      <webElementGuid>73740d82-57da-494c-82f6-cdef20db0d08</webElementGuid>
+      <webElementGuid>d3d45fd9-2d6c-4842-a090-c6798070f559</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£9,750.00'])[1]/preceding::td[1]</value>
-      <webElementGuid>22990662-6f5a-4531-8fc3-d26bff5eef23</webElementGuid>
+      <webElementGuid>0abb119a-0356-497e-b2ae-c1476c985432</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[15]/preceding::td[2]</value>
-      <webElementGuid>650a325e-3e7a-43a0-a781-9f31e52d5915</webElementGuid>
+      <webElementGuid>4e0ef124-97cf-480e-94a4-26b532890d84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='£288.97']/parent::*</value>
-      <webElementGuid>a404dd2a-cb11-430f-bf67-2b4b9f331c09</webElementGuid>
+      <webElementGuid>ba22ee66-5011-4ced-866a-f5680e3f4f35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/table/tbody/tr/td[2]</value>
-      <webElementGuid>a394f76e-c668-4481-a723-d1563ea78221</webElementGuid>
+      <webElementGuid>b367a7c7-b383-4ae1-aa96-3a0926741b0a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = '£288.97' or . = '£288.97')]</value>
-      <webElementGuid>6277d55c-fac2-4f52-ae8d-560d4d8cd892</webElementGuid>
+      <webElementGuid>56a38b4f-8e50-46fd-b172-e3223283cfca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

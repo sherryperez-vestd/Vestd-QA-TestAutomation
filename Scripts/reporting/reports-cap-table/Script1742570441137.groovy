@@ -27,3 +27,5 @@ url = WebUI.getUrl()
 
 WebUI.verifyEqual(url, 'https://demo.app.vestd.com/company/50135/cap-table')
 
+WebUI.closeBrowser()
+

@@ -12,24 +12,17 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>a6c3dd2d-542a-4dfc-b9d6-93d3d92ff51a</testSuiteGuid>
    <testCaseLink>
-      <guid>ae2347c5-fa11-4506-85eb-653037fdb487</guid>
+      <guid>63b45148-6bfc-4a57-a1ce-0891d051ed9b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/reporting/reports menu</testCaseId>
+      <testCaseId>Test Cases/reporting/reports-index</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>78da696d-ef2b-4f15-b252-dee675dd9d2e</guid>
+      <guid>ff8890c5-a0a2-4003-b046-be5b90fe5a1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/reporting/reports-all-documents</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4017833e-07d3-407a-ba4b-f5bef54270b9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/reporting/reports-cap-table</testCaseId>
+      <testCaseId>Test Cases/reporting/reports-shareholders</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -40,10 +33,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>63b45148-6bfc-4a57-a1ce-0891d051ed9b</guid>
+      <guid>4017833e-07d3-407a-ba4b-f5bef54270b9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/reporting/reports-index</testCaseId>
+      <testCaseId>Test Cases/reporting/reports-cap-table</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -54,10 +47,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>ff8890c5-a0a2-4003-b046-be5b90fe5a1f</guid>
+      <guid>b8caa156-b12a-4c98-a35c-45750ac1ce2d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/reporting/reports-shareholders</testCaseId>
+      <testCaseId>Test Cases/reporting/reports-expense</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a612e826-5868-46b8-ac48-476aa2fc0e16</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/reporting/reports-expense change settings</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>78da696d-ef2b-4f15-b252-dee675dd9d2e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/reporting/reports-all-documents-downloads</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

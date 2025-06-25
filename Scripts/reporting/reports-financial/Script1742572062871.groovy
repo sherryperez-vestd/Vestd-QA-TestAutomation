@@ -181,15 +181,19 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting
 
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporary-file/h1_Temporary files'), 'Temporary files')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporary-file/label_Expires in 23 hours'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporary-file/label_Expires in 23 hours'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/temporary-file/label_Expires in 23 hours'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporary-file/label_Expires in 23 hours'), 'Expires in 23 hours')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporary-file/label_Expires in 23 hours'), 
+    'Expires in 23 hours')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/temporary-file/btn_Download'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporary-file/btn_Download'), 0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporary-file/btn_Download'), 'Download')
+
+WebUI.closeBrowser()
 

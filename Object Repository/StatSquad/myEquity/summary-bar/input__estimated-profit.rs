@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@type='hidden']//following::input[1]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control' and @autocomplete = 'on']</value>
+         <value>(//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control' and @autocomplete = 'on'])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#KMcGKcR6AxMlOfn9</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control' and @autocomplete = 'on']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>85520ac9-d3c9-44f6-a844-77cff052267d</webElementGuid>
+      <webElementGuid>bd14ed4c-dd47-4381-be70-704f57a40f2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>57d0a4c6-4ab8-4cc1-92d3-6080f7d215a4</webElementGuid>
+      <webElementGuid>ed0e8fec-a7e2-48b7-ad65-55aa5a45edac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>form-number-input</value>
-      <webElementGuid>7bf9ecce-0a53-474f-876a-73e743369f93</webElementGuid>
+      <webElementGuid>dd2315e5-4e9b-48c9-a381-a89fcc6ea8b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,15 +57,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>86248d13-f0e7-4f1e-b882-8dbf22038fbf</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>KMcGKcR6AxMlOfn9</value>
-      <webElementGuid>df3c36c5-da8a-4de2-8e44-eb58c144afc4</webElementGuid>
+      <webElementGuid>a2c52ece-3b10-49c5-87f6-2b6a99135228</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,46 +65,6 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>on</value>
-      <webElementGuid>f7733af6-73c0-459e-b7b9-050e7d09710b</webElementGuid>
+      <webElementGuid>b42c7441-2840-4ee9-a5d5-737188d48f03</webElementGuid>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;KMcGKcR6AxMlOfn9&quot;)</value>
-      <webElementGuid>9b970eb5-209a-4f13-a868-24a93b33a32f</webElementGuid>
-   </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='KMcGKcR6AxMlOfn9']</value>
-      <webElementGuid>6ba29b9f-370e-42b7-b05d-db892a341364</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div[3]/div/div/div/div/div/input</value>
-      <webElementGuid>28763210-1eae-4924-b432-8f6da3186a34</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div[3]/div/div/div/div/div/input</value>
-      <webElementGuid>6a21ccb1-b4d4-4551-a9f7-57d5b295d57e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'KMcGKcR6AxMlOfn9']</value>
-      <webElementGuid>ae3a8c3b-9c36-4b20-bcc7-444f3abc3186</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

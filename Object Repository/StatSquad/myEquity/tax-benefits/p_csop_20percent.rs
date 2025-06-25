@@ -10,12 +10,12 @@
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/div[2]/div/section/p[6]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = concat(&quot; When you exercise your options, you won&quot; , &quot;'&quot; , &quot;t have to pay any tax on exercise.  When you sell your shares, any gain above your Capital Gains Tax allowance will be subject to CGT at 20%. &quot;) or . = concat(&quot; When you exercise your options, you won&quot; , &quot;'&quot; , &quot;t have to pay any tax on exercise.  When you sell your shares, any gain above your Capital Gains Tax allowance will be subject to CGT at 20%. &quot;))]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>section > p:nth-of-type(6)</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(contains(text(), concat(&quot; When you exercise your options, you won&quot; , &quot;'&quot; , &quot;t have to pay any tax on exercise.  When you sell your shares, any gain above your Capital Gains Tax allowance will be subject to CGT at 20%. &quot;)) or contains(., concat(&quot; When you exercise your options, you won&quot; , &quot;'&quot; , &quot;t have to pay any tax on exercise.  When you sell your shares, any gain above your Capital Gains Tax allowance will be subject to CGT at 20%. &quot;)))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,28 +28,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>caba9ab0-168c-4797-840c-c8cc6df936ea</webElementGuid>
+      <webElementGuid>e2d93e1a-afba-4a6d-9ab1-88a1d20462bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> When you exercise your options, you won't have to pay any tax on exercise.  When you sell your shares, any gain above your Capital Gains Tax allowance will be subject to CGT at 20%. </value>
-      <webElementGuid>d738f993-3836-4e8b-a4ae-fd97e420a278</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/section[1]/p[6]</value>
-      <webElementGuid>ad9f0dd5-3d8a-4c13-9c0b-49f28ec2f932</webElementGuid>
+      <webElementGuid>2142dfc5-43eb-49db-9d1e-efe9bc9d7e5b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/div[2]/div/section/p[6]</value>
-      <webElementGuid>8e184aec-2a7c-43a8-9605-a3cd158dc2bc</webElementGuid>
+      <webElementGuid>36bed8ff-0f26-4f87-9ab9-e1ff054c187b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CSOP tax &amp; profit calculations'])[1]/following::p[1]</value>
-      <webElementGuid>655043f9-ec1f-4564-b086-ea2879346e25</webElementGuid>
+      <webElementGuid>7ec149e4-388a-4e06-9cc0-d006719a0f99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£1,148.40'])[1]/following::p[2]</value>
-      <webElementGuid>0cbe86d1-a22d-456c-8980-a137e43ed8a9</webElementGuid>
+      <webElementGuid>7a9cdd42-51a2-4475-8618-feafdbc1b11b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/p[6]</value>
-      <webElementGuid>98a9da71-6431-4671-8e94-b1e5bd7ba1c3</webElementGuid>
+      <webElementGuid>95a3db55-74c1-4b8b-b040-6d400e29b0ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = concat(&quot; When you exercise your options, you won&quot; , &quot;'&quot; , &quot;t have to pay any tax on exercise.  When you sell your shares, any gain above your Capital Gains Tax allowance will be subject to CGT at 20%. &quot;) or . = concat(&quot; When you exercise your options, you won&quot; , &quot;'&quot; , &quot;t have to pay any tax on exercise.  When you sell your shares, any gain above your Capital Gains Tax allowance will be subject to CGT at 20%. &quot;))]</value>
-      <webElementGuid>c4b34acb-6706-433e-8995-5e180e9654b6</webElementGuid>
+      <webElementGuid>344dc043-1e62-436f-9f09-c6365947e130</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

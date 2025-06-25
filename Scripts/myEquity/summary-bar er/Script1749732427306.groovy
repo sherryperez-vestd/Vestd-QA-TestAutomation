@@ -83,7 +83,8 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/StatSquad/myEquity
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/label_My-options'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-icon_my-options'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-icon_my-options'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-icon_my-options'))
 
@@ -105,7 +106,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-icon_Current-value'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltop-txt_Current-value'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltop-txt_Current-value'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltop-txt_Current-value'))
 
@@ -121,7 +123,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-icon_Current-profit'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-txt_Current-profit'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-txt_Current-profit'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-txt_Current-profit'))
 
@@ -137,11 +140,13 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-icon_Projected-value'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-txt_Projected-value'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-txt_Projected-value'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-txt_Projected-value'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-txt_Projected-value'), 'Here\'s a sneak peek at what your overall equity allocation could be worth! The value you see is based on the figure you enter in the \'future value of the company\' bar below. Go ahead and explore the potential!')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-txt_Projected-value'), 
+    'Here\'s a sneak peek at what your overall equity allocation could be worth! The value you see is based on the figure you enter in the \'future value of the company\' bar below. Go ahead and explore the potential!')
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tooltip-icon_Projected-value'))
 
@@ -151,7 +156,8 @@ WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/che
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/chevron_summary-bar'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/label_My-shares-breakdown'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/label_My-shares-breakdown'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/label_My-shares-breakdown'))
 
@@ -161,25 +167,11 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/dashboard?user_id=358612')
 
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/span_Overall value'))
+WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tab_Overall value'))
 
-WebUI.setText(findTestObject('StatSquad/myEquity/award-section/input_estimated-profit-per-share'), '1')
+WebUI.setText(findTestObject('StatSquad/myEquity/summary-bar/input__estimated-profit'), '1')
 
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/input_vesting_overtime_typevalue'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-current-value'), 0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-current-value'), '£3,535.29')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-current-profit'), 0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-current-profit'), '£3,533.49')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-projected-value'), 0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-projected-value'), '£10,014.43')
-
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/input_Vesting over time_vesting_typevalue'))
+WebUI.click(findTestObject('StatSquad/myEquity/summary-bar/radio_Vesting over time'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-current-value'), 0)
 
@@ -193,7 +185,21 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/
 
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-projected-value'), '£10,014.43')
 
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/input_Vested until now_vesting_typevalue'))
+WebUI.click(findTestObject('StatSquad/myEquity/summary-bar/radio_Vested until now'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-current-value'), 0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-current-value'), '£3,535.29')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-current-profit'), 0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-current-profit'), '£3,533.49')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-projected-value'), 0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-projected-value'), '£10,014.43')
+
+WebUI.click(findTestObject('StatSquad/myEquity/summary-bar/radio_simulate-all'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-current-value'), 0)
 

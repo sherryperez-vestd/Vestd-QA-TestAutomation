@@ -39,7 +39,8 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_External Investment/h1_Add an investment'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_External Investment/h1_Add an investment'), 'Add an investment')
+WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_External Investment/h1_Add an investment'), 
+    'Add an investment')
 
 WebUI.setText(findTestObject('CoCo/dashboard/Page_External Investment/input_Company name'), 'Test')
 
@@ -86,7 +87,8 @@ WebUI.click(findTestObject('CoCo/dashboard/Page_External Investment/button_Save'
 WebUI.verifyElementPresent(findTestObject('CoCo/dashboard/Page_External Investment/div_External investment success message'), 
     0)
 
-WebUI.verifyElementText(findTestObject('CoCo/dashboard/Page_External Investment/div_External investment success message'), 'Your external investment, Test, has been added to your dashboard.')
+WebUI.verifyElementText(findTestObject('CoCo/dashboard/Page_External Investment/div_External investment success message'), 
+    'Your external investment, Test, has been added to your dashboard.')
 
 WebUI.click(findTestObject('CoCo/dashboard/a_Delete'))
 
@@ -95,7 +97,8 @@ WebUI.click(findTestObject('CoCo/dashboard/Page_External Investment/button_Yes-D
 WebUI.verifyElementPresent(findTestObject('CoCo/dashboard/Page_External Investment/div_External investment delete message'), 
     0)
 
-WebUI.verifyElementText(findTestObject('CoCo/dashboard/Page_External Investment/div_External investment delete message'), 'Your external investment has been deleted.')
+WebUI.verifyElementText(findTestObject('CoCo/dashboard/Page_External Investment/div_External investment delete message'), 
+    'Your external investment has been deleted.')
 
 WebUI.closeBrowser()
 
