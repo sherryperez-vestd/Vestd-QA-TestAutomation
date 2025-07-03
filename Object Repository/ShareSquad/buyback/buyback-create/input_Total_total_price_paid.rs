@@ -6,12 +6,12 @@
    <elementGuidId>b2979b40-6eda-41e1-887a-84e4fcc2d455</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='total_price_paid']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;total_price_paid&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@class = 'form-control' and @type = 'text' and @data-test-id = 'form-number-input'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9fa00538-852f-4b63-bfef-347ca0443a61</webElementGuid>
+      <webElementGuid>11a7057c-8e2a-4b69-a55b-0344ffb7f9bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>fecbe750-542b-414f-8ff4-d7bba72697dd</webElementGuid>
+      <webElementGuid>3dc774eb-0f83-45a2-8133-403ba049039d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>step</name>
       <type>Main</type>
       <value>.000000000001</value>
-      <webElementGuid>c57d5c31-b0d9-4bd2-8405-518f219dd59b</webElementGuid>
+      <webElementGuid>d31253a9-3471-4fed-ac75-cd698bba3c3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>min</name>
       <type>Main</type>
       <value>0.01</value>
-      <webElementGuid>374ae39d-746a-41be-84a7-524cb806f098</webElementGuid>
+      <webElementGuid>483d4de0-7f19-40f4-a705-410eb668c259</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>name</name>
       <type>Main</type>
       <value>total_price_paid</value>
-      <webElementGuid>431d1138-24ab-4467-9019-178ac015ccd3</webElementGuid>
+      <webElementGuid>2a21267f-014f-414b-b88e-1ebf132d4387</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>3363c138-d929-45fb-a4b3-8546f20c2103</webElementGuid>
+      <webElementGuid>d5cf789f-c61d-436a-b776-2f2536f65287</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,38 +77,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-lg-8&quot;]/form[1]/div[@class=&quot;form-group form-group--required&quot;]/input[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>67e18ed6-d99c-4187-971f-fbe1946abf2c</webElementGuid>
+      <webElementGuid>5a13a296-fb30-4a86-b822-56c38783a6cb</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@name='total_price_paid']</value>
-      <webElementGuid>2be64789-6db7-4e39-a8fc-4a508fa14a75</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/div[5]/input</value>
-      <webElementGuid>96521a27-6255-40cc-8e15-9165dd0030c7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[5]/input</value>
-      <webElementGuid>f0801439-7898-4a27-8e97-c6ee62421b62</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//input[@name = 'total_price_paid' and @type = 'number']</value>
-      <webElementGuid>73bef6cb-04dc-4232-9c84-fcaabec9926c</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

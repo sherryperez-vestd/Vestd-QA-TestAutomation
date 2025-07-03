@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='DataTables_Table_0']/tbody/tr[2]/td[7]/a/i</value>
+         <value>(//i[@class = 'feather icon-eye'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -18,7 +18,7 @@
          <value>tr.even > td:nth-of-type(7) > a > i.feather.icon-eye</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>5495c8e8-c911-46c0-b335-227606d2efcc</webElementGuid>
+      <webElementGuid>44859ab9-b80e-4656-9fec-cf78b483c61c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,30 +35,6 @@
       <name>class</name>
       <type>Main</type>
       <value>feather icon-eye</value>
-      <webElementGuid>efbbb907-bfc4-4db3-94a7-16e3da39ab11</webElementGuid>
+      <webElementGuid>06fd913e-a324-4958-ae94-12af378d2cba</webElementGuid>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;DataTables_Table_0&quot;)/tbody[1]/tr[@class=&quot;even&quot;]/td[7]/a[1]/i[@class=&quot;feather icon-eye&quot;]</value>
-      <webElementGuid>ac47bbc6-3860-4414-b58e-938c919f8a0d</webElementGuid>
-   </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//table[@id='DataTables_Table_0']/tbody/tr[2]/td[7]/a/i</value>
-      <webElementGuid>5e795d14-791e-4489-8a27-4ad0762b3064</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//tr[2]/td[7]/a/i</value>
-      <webElementGuid>8601f2ac-e189-4fcc-b005-c3df797523fa</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

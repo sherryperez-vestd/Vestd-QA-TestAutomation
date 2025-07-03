@@ -6,16 +6,16 @@
    <elementGuidId>652c642d-61de-4a17-9b21-3152919a6bb3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='fhQ8cImG8m9Ev7Qe']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//input[@class = 'form-control' and @type = 'number' and @name = 'num_shares']</value>
+         <value>//input[@class = 'form-control' and @type = 'text' and @data-test-id = 'form-number-input']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#fhQ8cImG8m9Ev7Qe</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='fhQ8cImG8m9Ev7Qe']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1b8cbd5d-0da3-480c-8bfe-6c258ea534ac</webElementGuid>
+      <webElementGuid>2f38ea18-4d6e-432c-835a-3b698e67e191</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,23 +35,23 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>449a24e4-54e4-48df-823f-6a73751487d3</webElementGuid>
+      <webElementGuid>b517091b-c69c-4814-b75f-37ce86df65de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>f7cc2603-6d92-4891-b60f-42538e41e364</webElementGuid>
+      <value>text</value>
+      <webElementGuid>ba21b06e-03f9-4b9b-93f4-c6c5e1b6f921</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>data-test-id</name>
       <type>Main</type>
-      <value>num_shares</value>
-      <webElementGuid>1bfdbf1c-d973-4b79-b55b-7c7d7bf3e5e1</webElementGuid>
+      <value>form-number-input</value>
+      <webElementGuid>1a6b27b9-8148-42dc-a8f7-84737ca756a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='fhQ8cImG8m9Ev7Qe']</value>
-      <webElementGuid>db57ac71-0ad3-42cd-8fbe-70454660d940</webElementGuid>
+      <webElementGuid>12c68d5a-5a1c-4565-89fb-c5cf20114ca7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div/input</value>
-      <webElementGuid>d763c8dd-02bc-40c4-b054-142523f063bb</webElementGuid>
+      <webElementGuid>a46cd3b3-ef11-43d2-8218-e0ec139f06d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>a5797e48-dbaf-4d1f-a090-76f360202ea8</webElementGuid>
+      <webElementGuid>ef9d853c-84a1-49b8-ac60-123c0221524f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,6 +83,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'fhQ8cImG8m9Ev7Qe' and @name = 'company_name']</value>
-      <webElementGuid>c91ec91f-3f07-4f6d-9c78-f427da9182ed</webElementGuid>
+      <webElementGuid>239b3127-2093-4357-baf0-c7c0aa586f2c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -75,6 +75,9 @@ WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/buyback/opt
 
 WebUI.verifyElementPresent(findTestObject('ShareSquad/buyback/option-buyback/span_Completed-status'), 0)
 
+WebUI.scrollToElement(findTestObject('ShareSquad/buyback/option-buyback/Page_Option buyback - create/i_Completed_feather icon-eye'), 
+    0)
+
 WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/option-buyback/Page_Option buyback - create/i_Completed_feather icon-eye'))
 
 'Delete recorded entry'

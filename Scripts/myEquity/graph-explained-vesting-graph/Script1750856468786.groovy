@@ -27,12 +27,11 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/span_Your vesting schedule'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/chevron_Your vesting schedule'), 
-    0)
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/chevron_Your vesting schedule'))
-
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/chevron_Your vesting schedule'))
+//WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/chevron_Your vesting schedule'), 
+//    0)
+//
+//WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/chevron_Your vesting schedule'))
+WebUI.click(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/span_Your vesting schedule'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/h5_Full schedule (49 tranches)'), 
     0)
@@ -44,13 +43,13 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/div_Your vesting schedule Full schedule'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/th_Vested'), 0)
-
-WebUI.rightClick(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/th_Vesting period'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/th_Vested'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/th_Vested'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/th_Vested'), 'Vested')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/th_Vested'), 
+    'Vested')
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/th_Vesting period'))
 
@@ -84,13 +83,12 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/heading_Your graph explained'), 
     'Your graph explained')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/chevron_Your vesting schedule'), 
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/heading_Your graph explained'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/chevron_Your vesting schedule'))
-
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/chevron_Your vesting schedule'))
-
+//WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/chevron_Your graph explained'))
+//
+//WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/chevron_Your vesting schedule'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/txt_Watch your share value grow'), 
     0)
 

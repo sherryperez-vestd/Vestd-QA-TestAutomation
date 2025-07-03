@@ -10,12 +10,12 @@
          <value>//div[@id='sidebarCollapse']/footer/ul/li[2]/div/img[2]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@src = '/img/iso-certified-muted.svg' and @alt = 'ISO-27001-Certified']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>img[alt=&quot;ISO-27001-Certified&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '/img/iso-certified-muted.svg' and @alt = 'ISO-27001-Certified']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

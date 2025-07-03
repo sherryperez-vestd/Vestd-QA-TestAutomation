@@ -10,12 +10,12 @@
          <value>//div[@id='sidebarCollapse']/footer/ul/li[3]/p</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).' or . = 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>p.mb-1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).' or . = 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

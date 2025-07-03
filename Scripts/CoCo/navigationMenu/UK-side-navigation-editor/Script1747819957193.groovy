@@ -291,11 +291,11 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Company setti
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_App - staff'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/img-ISO'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/img-ISO'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/p_Vestd Ltd is authorised and regulated by'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/p_Vestd Ltd is authorised and regulated by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
+WebUI.verifyElementText(findTestObject('CoCo/p_Vestd Ltd is authorised and regulated by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
 
 WebUI.closeBrowser()
 

@@ -47,9 +47,9 @@ WebUI.click(findTestObject('CoSec/directors/a_Resign'))
 ////println("Incremented day is: " + incrementedDay)
 //
 //WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), incrementedDay)
-WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), '27')
+WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), '1')
 
-WebUI.setText(findTestObject('CoSec/directors/input_ResignMonth'), '1')
+WebUI.setText(findTestObject('CoSec/directors/input_ResignMonth'), '2')
 
 WebUI.setText(findTestObject('CoSec/directors/input_ResignYear'), '2025')
 
@@ -88,9 +88,9 @@ WebUI.click(findTestObject('CoSec/directors/a_Reappoint'))
 //String incrementedDay2 = dayFormat.format(calendar2.getTime())
 //
 //WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), incrementedDay2)
-WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), '28')
+WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), '2')
 
-WebUI.setText(findTestObject('CoSec/directors/input_appointedMonth'), '1')
+WebUI.setText(findTestObject('CoSec/directors/input_appointedMonth'), '2')
 
 WebUI.setText(findTestObject('CoSec/directors/input_appointedYear'), '2025')
 

@@ -36,8 +36,8 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/buyback/b
 
 WebUI.click(findTestObject('ShareSquad/buyback/buyback-create/button_Continue'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/buyback/buyback-create/select_Please select Shareholder'), '692094', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/buyback/buyback-create/select_Please select Shareholder'), 
+    '692094', true)
 
 WebUI.click(findTestObject('ShareSquad/buyback/buyback-create/button_Continue'))
 
@@ -45,7 +45,8 @@ WebUI.setText(findTestObject('Object Repository/ShareSquad/buyback/buyback-creat
 
 WebUI.setText(findTestObject('Object Repository/ShareSquad/buyback/buyback-create/input_Total_total_price_paid'), '1')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/buyback/buyback-create/select_InvestmentRound'), '128377', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/buyback/buyback-create/select_InvestmentRound'), 
+    '128377', true)
 
 WebUI.click(findTestObject('ShareSquad/buyback/buyback-create/button_Continue'))
 
@@ -53,7 +54,7 @@ WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/buyback-details
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/buyback-details/button_Yes, continue'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.refresh()
 
@@ -63,13 +64,15 @@ WebUI.waitForElementPresent(findTestObject('ShareSquad/buyback/buyback-details/a
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/buyback-details/a_Confirm transaction date'))
 
-WebUI.waitForElementPresent(findTestObject('ShareSquad/buyback/buyback-confirm transaction/confirm-trasction-date-submit-btn'), 0)
+WebUI.waitForElementPresent(findTestObject('ShareSquad/buyback/buyback-confirm transaction/confirm-trasction-date-submit-btn'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/buyback-confirm transaction/confirm-trasction-date-submit-btn'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/buyback/buyback-details/div_Buyback completed'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/buyback/buyback-details/div_Buyback completed'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/buyback/buyback-details/div_Buyback completed'), 
+    0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/buyback/buyback-details/div_Buyback completed'), 'Buyback completed')
 

@@ -22,7 +22,7 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureH
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
 'Check View transactions history window elements (labels and values)'
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/shares-options-breakdown/Transaction History/i_Projected value'))
+WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/shares-options-breakdown/Transaction History/chevron_summary bar'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/shares-options-breakdown/Transaction History/button_View transactions'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/shares-options-breakdown/Transaction History/button_View transactions'), 0)
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/shares-options-breakdown/Transaction History/button_View transactions'), 'View transactions')

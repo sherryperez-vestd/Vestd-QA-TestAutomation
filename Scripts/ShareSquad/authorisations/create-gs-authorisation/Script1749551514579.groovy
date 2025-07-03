@@ -23,22 +23,27 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-approval/cre
 
 WebUI.setText(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create/input_Reference_name'), 'Test')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create/input_Pool size_share_pool_size'), '0')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create/input_Pool size_share_pool_size'), 
+    '0')
 
-WebUI.selectOptionByValue(findTestObject('ShareSquad/authorisations/Page_Create/select_GS Auth share class'), '172184', true)
+WebUI.selectOptionByValue(findTestObject('ShareSquad/authorisations/Page_Create/select_GS Auth share class'), '172184', 
+    true)
 
 WebUI.click(findTestObject('ShareSquad/authorisations/Page_Create/button_Next'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('ShareSquad/authorisations/Page_Create/txt-alert_share pool size must be at least 1'))
 
-WebUI.verifyElementPresent(findTestObject('ShareSquad/authorisations/Page_Create/txt-alert_share pool size must be at least 1'), 0)
+WebUI.verifyElementPresent(findTestObject('ShareSquad/authorisations/Page_Create/txt-alert_share pool size must be at least 1'), 
+    0)
 
 'Check validation message is displayed when pool size entered is 0'
-WebUI.verifyElementText(findTestObject('ShareSquad/authorisations/Page_Create/txt-alert_share pool size must be at least 1'), 'The share pool size must be at least 1.')
+WebUI.verifyElementText(findTestObject('ShareSquad/authorisations/Page_Create/txt-alert_share pool size must be at least 1'), 
+    'The share pool size must be at least 1.')
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create/button_Next'))
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create/input_Pool size_share_pool_size'), '2000000')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create/input_Pool size_share_pool_size'), 
+    '2000000')
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create/button_Next'))
 
@@ -46,7 +51,8 @@ WebUI.waitForElementVisible(findTestObject('ShareSquad/authorisations/Page_Creat
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create Confirm details/button_Confirm'))
 
-WebUI.waitForElementVisible(findTestObject('ShareSquad/authorisations/Page_Create Confirm details/button_Yes, confirm'), 0)
+WebUI.waitForElementVisible(findTestObject('ShareSquad/authorisations/Page_Create Confirm details/button_Yes, confirm'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create Confirm details/button_Yes, confirm'))
 
@@ -70,6 +76,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/authorisati
 WebUI.click(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create Confirm details/button_Delete'))
 
 WebUI.acceptAlert()
+
+WebUI.sendKeys(null, Keys.chord(Keys.ENTER))
 
 WebUI.closeBrowser()
 

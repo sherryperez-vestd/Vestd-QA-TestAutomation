@@ -40,7 +40,8 @@ WebUI.verifyElementText(findTestObject('CoCo/dashboard/Page_Dashboard/h5_Dashboa
 'Check Potential profit graph'
 WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Potential profit graph'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Potential profit graph'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Potential profit graph'), 
+    0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Potential profit graph'), 'Potential profit graph')
 
@@ -60,7 +61,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_Po
 WebUI.click(findTestObject('Object Repository/CoCo/dashboard/Page_Potential value profit/a_Back to Dashboard'))
 
 'Check Request access to a company'
-WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Ask a company to add you'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Ask a company to add you'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Ask a company to add you'))
 
@@ -81,7 +83,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_Re
 WebUI.back()
 
 'Check Invite a company'
-WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Invite a company to join'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Invite a company to join'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Invite a company to join'))
 
@@ -144,7 +147,8 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_External Investment/h1_Add an investment'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_External Investment/h1_Add an investment'), 'Add an investment')
+WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_External Investment/h1_Add an investment'), 
+    'Add an investment')
 
 WebUI.click(findTestObject('CoCo/navigation/top-nav/a_Dashboard'))
 
@@ -162,17 +166,28 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page
 WebUI.click(findTestObject('Object Repository/CoCo/dashboard/Page_Group/a_Back to Dashboard'))
 
 'Check Add to your dashboard'
-WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/button_Add to your dashboard'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/button_Add to your dashboard'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/button_Add to your dashboard'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/button_Add to your dashboard'), 'Add to your dashboard')
+WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/button_Add to your dashboard'), 
+    'Add to your dashboard')
 
 WebUI.click(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/button_Add to your dashboard'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/div_Ask a company to add you'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/div_Ask a company to add you'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/div_Ask a company to add you'))
+
+WebUI.verifyElementPresent(findTestObject('CoCo/img-ISO'), 0)
+
+WebUI.verifyElementVisible(findTestObject('CoCo/img-ISO'))
+
+WebUI.verifyElementPresent(findTestObject('CoCo/p_Vestd Ltd is authorised and regulated by'), 0)
+
+WebUI.verifyElementVisible(findTestObject('CoCo/p_Vestd Ltd is authorised and regulated by'))
 
 WebUI.closeBrowser()
 
