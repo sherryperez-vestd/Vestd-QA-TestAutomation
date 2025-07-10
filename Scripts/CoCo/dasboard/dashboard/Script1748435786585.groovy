@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+'Login and navigate to the dashboard page'
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_editor, GlobalVariable.password)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/h1_Dashboard'), 0)
 
@@ -188,6 +189,4 @@ WebUI.verifyElementVisible(findTestObject('CoCo/img-ISO'))
 WebUI.verifyElementPresent(findTestObject('CoCo/p_Vestd Ltd is authorised and regulated by'), 0)
 
 WebUI.verifyElementVisible(findTestObject('CoCo/p_Vestd Ltd is authorised and regulated by'))
-
-WebUI.closeBrowser()
 

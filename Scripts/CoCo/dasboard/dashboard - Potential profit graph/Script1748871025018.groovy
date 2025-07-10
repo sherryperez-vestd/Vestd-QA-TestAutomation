@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-recipient2'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//'Login and navigate to the dashboard page'
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/h1_Dashboard'), 0)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/h1_Dashboard'), 0)
@@ -28,7 +28,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_Da
 'Check Potential profit graph'
 WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Potential profit graph'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Potential profit graph'), 0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Potential profit graph'), 
+    0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Potential profit graph'), 'Potential profit graph')
 
@@ -51,6 +52,4 @@ WebUI.verifyElementPresent(findTestObject('CoCo/dashboard/Page_Potential value p
 WebUI.waitForElementVisible(findTestObject('CoCo/dashboard/Page_Potential value profit/graph-canvas'), 0)
 
 WebUI.click(findTestObject('Object Repository/CoCo/dashboard/Page_Potential value profit/a_Back to Dashboard'))
-
-WebUI.closeBrowser()
 

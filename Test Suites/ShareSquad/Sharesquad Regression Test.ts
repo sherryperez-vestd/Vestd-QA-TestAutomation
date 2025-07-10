@@ -4,7 +4,7 @@
    <name>Sharesquad Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>swetha.yeguvapalli@vestd.com;sherry.perez@vestd.com;</mailRecipient>
+   <mailRecipient>sherry.perez@vestd.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

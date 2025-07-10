@@ -17,12 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
 
 //WebUI.click(findTestObject('CoCo/navigation/img-side-nav-collapse'))
-//WebUI.click(findTestObject('CoCo/navigation/side-nav/a_Secretarial  admin'))
+//WebUI.click(findTestObject('CoCo/navigation/side-nav/a_Compliance'))
 //
 //WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
 //
@@ -122,6 +121,4 @@ WebUI.switchToWindowIndex(currentWindow + 1)
 url = WebUI.getUrl()
 
 WebUI.verifyEqual(url, 'https://usabi.li/do/1951db0cc1b3/7cf2')
-
-WebUI.closeBrowser()
 

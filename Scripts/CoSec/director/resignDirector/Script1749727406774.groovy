@@ -1,4 +1,6 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import java.text.SimpleDateFormat
+import java.util.Date
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,9 +18,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.util.Calendar
 
-//import java.text.SimpleDateFormat
-//import java.util.Calendar
 WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/director')
@@ -33,25 +34,26 @@ WebUI.verifyElementNotPresent(findTestObject('CoSec/directors/th_Resigned'), 0)
 
 WebUI.click(findTestObject('CoSec/directors/a_Resign'))
 
-//// Get calendar instance with current date
-//Calendar calendar = Calendar.getInstance()
-//
-//// Increment the day by 1
-//calendar.add(Calendar.DATE, 1)
-//
-//// Format to get just the day (dd)
-//SimpleDateFormat dayFormat = new SimpleDateFormat("dd")
-//String incrementedDay = dayFormat.format(calendar.getTime())
-//
-//// Print to console (optional)
-////println("Incremented day is: " + incrementedDay)
-//
-//WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), incrementedDay)
-WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), '1')
+// Get current date as Calendar instance
+Calendar calendar = Calendar.getInstance()
 
-WebUI.setText(findTestObject('CoSec/directors/input_ResignMonth'), '2')
+// Extract the day of the month
+int currentday = calendar.get(Calendar.DAY_OF_MONTH) + 1
+String currentdayString = currentday.toString()
 
-WebUI.setText(findTestObject('CoSec/directors/input_ResignYear'), '2025')
+// Get the month (0 = January, so we add 1)
+int currentmonth = calendar.get(Calendar.MONTH) + 1
+String currentmonthString = currentmonth.toString()
+
+// Extract the year
+int currentYear = calendar.get(Calendar.YEAR)
+String currentYearString = currentYear.toString()
+
+WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), currentdayString)
+
+WebUI.setText(findTestObject('CoSec/directors/input_ResignMonth'), currentmonthString)
+
+WebUI.setText(findTestObject('CoSec/directors/input_ResignYear'), currentYearString)
 
 WebUI.check(findTestObject('CoSec/directors/input_checkboxActions'))
 
@@ -77,22 +79,11 @@ WebUI.verifyElementText(findTestObject('CoSec/directors/a_Reappoint'), 'Reappoin
 
 WebUI.click(findTestObject('CoSec/directors/a_Reappoint'))
 
-//// Get calendar instance with current date
-//Calendar calendar2 = Calendar.getInstance()
-//
-//// Increment the day by 2
-//calendar2.add(Calendar.DATE, 2)
-//
-//// Format to get just the day (dd)
-//SimpleDateFormat dayFormat = new SimpleDateFormat("dd")
-//String incrementedDay2 = dayFormat.format(calendar2.getTime())
-//
-//WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), incrementedDay2)
-WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), '2')
+WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), currentdayString)
 
-WebUI.setText(findTestObject('CoSec/directors/input_appointedMonth'), '2')
+WebUI.setText(findTestObject('CoSec/directors/input_appointedMonth'), currentmonthString)
 
-WebUI.setText(findTestObject('CoSec/directors/input_appointedYear'), '2025')
+WebUI.setText(findTestObject('CoSec/directors/input_appointedYear'), currentYearString)
 
 WebUI.verifyElementPresent(findTestObject('CoSec/directors/btn_Reappoint'), 0)
 

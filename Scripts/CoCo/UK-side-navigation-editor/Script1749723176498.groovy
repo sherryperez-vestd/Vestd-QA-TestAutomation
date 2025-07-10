@@ -271,9 +271,9 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Share capital
 
 WebUI.click(findTestObject('CoCo/navigation/side-nav/a_Share capital'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Secretarial  admin'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Compliance'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Secretarial  admin'), 'Secretarial & admin')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Compliance'), 'Secretarial & admin')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_People  communication'), 0)
 

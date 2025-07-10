@@ -17,9 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 'Login and navigate to My equity page'
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
 'Check Award table'
@@ -101,10 +100,4 @@ WebUI.setText(findTestObject('Object Repository/StatSquad/myEquity/award-section
 
 WebUI.sendKeys(findTestObject('Object Repository/StatSquad/myEquity/award-section/input_estimated-profit-per-share'), Keys.chord(
         Keys.ENTER))
-
-//WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/award-section/int_award-pre-tax-profit'), '£38,990.30')
-//
-//'Check Award Total value amount'
-//WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/award-section/int-award-total-value'), '£48,740.30')
-WebUI.closeBrowser()
 

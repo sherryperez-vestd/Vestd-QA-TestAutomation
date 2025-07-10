@@ -12,10 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>dc5ef601-140b-4d64-96d0-35c659194ddd</testSuiteGuid>
    <testCaseLink>
-      <guid>2813fdf0-477b-45c5-8ad9-f97e41ed6d39</guid>
+      <guid>aa469837-553c-4c68-99fd-ec19ae7edae1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/cancelledOptions</testCaseId>
+      <testCaseId>Test Cases/usersLogin/UK/user-login-staff</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -89,6 +89,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>87d88dfd-e195-445b-aee2-9950f526c92b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StatSquad/myEquity/diluted-toggle</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>38431a1a-f589-4e12-8704-8f174e020ece</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -142,6 +149,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/reporting/reports-all-documents-downloads</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2813fdf0-477b-45c5-8ad9-f97e41ed6d39</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/myEquity/cancelledOptions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

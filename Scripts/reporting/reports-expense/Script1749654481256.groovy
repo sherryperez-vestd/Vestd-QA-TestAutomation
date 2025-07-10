@@ -17,9 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
 'Login as Admin and navigate to expense reports page'
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports/expense-report')
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/heading_ExpenseReport'), 0)
@@ -127,6 +126,4 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/reports/expense-re
 WebUI.click(findTestObject('StatSquad/reporting/expense/a_click here'))
 
 WebUI.click(findTestObject('StatSquad/reporting/expense/dd_Month'))
-
-WebUI.closeBrowser()
 

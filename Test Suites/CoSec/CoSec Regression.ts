@@ -15,7 +15,7 @@
       <guid>a17ea3fe-60aa-475b-91ab-dbbcccd283a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CoSec/resignDirector</testCaseId>
+      <testCaseId>Test Cases/CoSec/director/resignDirector</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

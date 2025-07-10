@@ -18,9 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import org.openqa.selenium.Keys as Keys
 
+//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 'Login and navigate to My equity page'
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370192')
 
 WebUI.setText(findTestObject('StatSquad/myEquity/award-section/input_estimated-profit-per-share'), '1')
@@ -30,6 +29,7 @@ WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/tax-benefits/i_
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/tax-benefits/p_emi_14percent'), 0)
 
 def elementText = WebUI.getText(findTestObject('Object Repository/StatSquad/myEquity/tax-benefits/p_emi_14percent'))
+
 assert elementText.contains('14%')
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370432')
@@ -41,7 +41,6 @@ WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/tax-benefits/i_
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/tax-benefits/p_csop_20percent'), 0)
 
 def elementText2 = WebUI.getText(findTestObject('StatSquad/myEquity/tax-benefits/p_csop_20percent'))
-assert elementText2.contains('20%')
 
-WebUI.closeBrowser()
+assert elementText2.contains('20%')
 

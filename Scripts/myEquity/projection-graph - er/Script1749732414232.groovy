@@ -21,12 +21,12 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureH
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370417')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/tab_overall-value'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/tab_overall-value'))
 
 'Check Overall value tab'
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/tab_overall-value'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/tab_overall-value'), 0)
 
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/tab_overall-value'))
+WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/graph/tab_overall-value'))
 
 WebUI.clearText(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/input_estimated-profit'))
 

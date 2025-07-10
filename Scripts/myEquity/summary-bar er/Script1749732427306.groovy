@@ -171,7 +171,7 @@ WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/tab
 
 WebUI.setText(findTestObject('StatSquad/myEquity/summary-bar/input__estimated-profit'), '1')
 
-WebUI.click(findTestObject('StatSquad/myEquity/summary-bar/radio_Vesting over time'))
+WebUI.check(findTestObject('StatSquad/myEquity/summary-bar/radio_Vesting over time'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/summary-bar/txt-current-value'), 0)
 

@@ -12,17 +12,22 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'sherry.perez@vestd.com'</initValue>
-      <name>staff</name>
+      <name>username_staff</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'sherry.perez+editor2@vestd.com'</initValue>
-      <name>editor</name>
+      <name>username_editor</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'sherry.perez+recipient@vestd.com'</initValue>
-      <name>recipient</name>
+      <initValue>'sherry.perez+emi@vestd.com'</initValue>
+      <name>username_recipient</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sherry.perez+viewonly@vestd.com'</initValue>
+      <name>username_viewonly</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

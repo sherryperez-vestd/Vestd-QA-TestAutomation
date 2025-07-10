@@ -18,7 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/company-details/span_Company details'), 0)
@@ -90,6 +89,4 @@ WebUI.switchToWindowIndex(currentWindow + 1)
 url = WebUI.getUrl()
 
 WebUI.verifyEqual(url, 'https://demo.app.vestd.com/company/50135/legal-doc/521803')
-
-WebUI.closeBrowser()
 

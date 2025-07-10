@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureH
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/tab_overall-value'))
+WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/graph/tab_overall-value'))
 
 'Check empty projection graph'
 WebUI.takeElementScreenshotAsCheckpoint('Empty projection graph', findTestObject('StatSquad/myEquity/graph/overall-value-graph/graph_empty'))

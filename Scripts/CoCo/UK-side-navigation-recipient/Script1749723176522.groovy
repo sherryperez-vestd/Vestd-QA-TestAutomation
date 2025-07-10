@@ -49,7 +49,7 @@ WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Investm
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Share capital'), 0)
 
-//WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Secretarial  admin'), 0)
+//WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Compliance'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_People  communication'), 0)
 

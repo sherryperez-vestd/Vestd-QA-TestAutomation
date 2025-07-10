@@ -6,16 +6,16 @@
    <elementGuidId>b8ffe689-c11e-4aa9-9181-c80e23798311</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//p[(contains(text(), '5,012,') or contains(., '5,012,'))]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.col-12.pb-2 > div > div > div.col-12</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(contains(text(), '5') or contains(., '5'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>3d2dfbe9-1bc9-4b53-8ea7-e095b0fae290</webElementGuid>
+      <webElementGuid>adcaf758-f951-4fc1-8ab8-52c3dcdf66dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>5,012,</value>
-      <webElementGuid>0d6d7a0e-f9a7-44f7-9eb6-8c8fe818f73f</webElementGuid>
+      <value>5</value>
+      <webElementGuid>3c915b0a-6651-46e5-b09c-9cecdec6fd1f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]</value>
-      <webElementGuid>df83c337-e73d-459b-8e74-1cba0fcf4785</webElementGuid>
+      <webElementGuid>466e86b2-1d85-426f-9626-55ba34c04a08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual growth'])[1]/following::div[3]</value>
-      <webElementGuid>7dc4a4b5-8574-4a65-bd1b-5fd451391de1</webElementGuid>
+      <webElementGuid>c0ef439a-b55c-43f2-8ccc-b8d8d45ac71e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total value'])[1]/following::div[3]</value>
-      <webElementGuid>2d4d6cd4-1ee6-41b0-9787-a735ed00c2ab</webElementGuid>
+      <webElementGuid>61448136-d20c-408e-bd55-4dd0b95400c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div[4]</value>
-      <webElementGuid>9f62508f-f006-48f0-9aef-545c357262b5</webElementGuid>
+      <webElementGuid>d280327a-95ed-49b4-a134-d582ca0682a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Award (No. of shares)Total valueTotal price to pay Pre-tax profit 9,750£288.97£9,750.00-' or . = 'Award (No. of shares)Total valueTotal price to pay Pre-tax profit 9,750£288.97£9,750.00-')]</value>
-      <webElementGuid>aac1ae36-fafa-40ae-9c74-f05391942685</webElementGuid>
+      <webElementGuid>b0fd7f55-38aa-4b28-ac38-9f64ac3bd8b4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

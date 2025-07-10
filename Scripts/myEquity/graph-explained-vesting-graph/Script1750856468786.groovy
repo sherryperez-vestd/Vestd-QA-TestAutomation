@@ -73,6 +73,52 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/th_Agreement name'), 
     'Agreement name')
 
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/tab_overall-value'), 0)
+
+WebUI.click(findTestObject('StatSquad/myEquity/graph/tab_overall-value'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/heading_Your graph explained'), 
+    0)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/heading_Your graph explained'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/heading_Your graph explained'), 
+    'Your graph explained')
+
+WebUI.click(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/chevron_Your graph explained'))
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_Month-by-month breakdown'), 
+    0)
+
+WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_Month-by-month breakdown'))
+
+WebUI.verifyElementText(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_Month-by-month breakdown'), 
+    'Month-by-month breakdown:')
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_Month'), 0)
+
+WebUI.verifyElementText(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_Month'), 'Month')
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_ Valuation considered'), 
+    0)
+
+//WebUI.verifyElementText(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_ Valuation considered'), 
+//   'Valuation')
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_ Company equity'), 0)
+
+//WebUI.verifyElementText(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_ Company equity'), 'Company equity')
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_ Recipient equity'), 0)
+
+//WebUI.verifyElementText(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_ Recipient equity'), 'Recipient equity')
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_Value per share'), 0)
+
+//WebUI.verifyElementText(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_Value per share'), 'Value per share ')
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_Recipient value'), 0)
+
+//WebUI.verifyElementText(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_Value per share'), 'Recipient value')
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_Recipient Cost'), 0)
+
+//WebUI.verifyElementText(findTestObject('StatSquad/myEquity/vesting-schedule_graph-explained/th_Recipient Cost'), 'Recipient Cost')
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370451')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/heading_Your graph explained'), 
@@ -99,6 +145,4 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/
     0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/vesting-schedule_graph-explained/txt_hurdle-message'))
-
-WebUI.closeBrowser()
 

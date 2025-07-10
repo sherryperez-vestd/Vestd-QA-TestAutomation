@@ -17,8 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/legal-doc')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/all-documents/a_Filter and search'), 0)
@@ -173,6 +172,4 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporary-file/btn_Download'), 0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporary-file/btn_Download'), 'Download')
-
-WebUI.closeBrowser()
 

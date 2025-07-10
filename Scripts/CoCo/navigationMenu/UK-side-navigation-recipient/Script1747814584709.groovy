@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-recipient'), [:], FailureHandling.STOP_ON_FAILURE)
-
+'Login and navigate to the dashboard page'
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_recipient, GlobalVariable.password)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370192')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_My equity'), 0)
@@ -51,7 +51,7 @@ WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Investm
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Share capital'), 0)
 
-//WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Secretarial  admin'), 0)
+//WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Compliance'), 0)
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_People  communication'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Company - staff'), 0)

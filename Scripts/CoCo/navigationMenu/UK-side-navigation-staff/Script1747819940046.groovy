@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+'Login and navigate to the home page'
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/home')
 
@@ -45,13 +46,15 @@ WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share scheme
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/li_Schemes'), 'SCHEMES')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_ESU/a_Existing scheme uploads'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_ESU/a_Existing scheme uploads'), 
+    0)
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_ESU/a_Existing scheme uploads'), 'Existing scheme uploads')
 
 WebUI.click(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_ESU/a_Existing scheme uploads'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_ESU/h1_Existing scheme uploads'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_ESU/h1_Existing scheme uploads'), 
+    0)
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_ESU/h1_Existing scheme uploads'), 'Existing scheme uploads')
 
@@ -161,15 +164,20 @@ WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share scheme
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Valuations/h1_Valuations'), 'Valuations')
 
+WebUI.back()
+
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Share-pools/a_Share pools'), 0)
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Share-pools/a_Share pools'), 'Share pools')
 
 WebUI.click(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Share-pools/a_Share pools'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Share-pools/h1_Authorisations'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Share-pools/h1_Authorisations'), 
+    0)
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Share-pools/h1_Authorisations'), 'Authorisations')
+
+WebUI.back()
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Annual HMRC notifications/a_Annual notifications'), 
     0)
@@ -230,15 +238,18 @@ WebUI.click(findTestObject('CoCo/navigation/side-nav/Investment/Page_Guided-Flow
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Investment/Page_Guided-Flow/h1_Investment via InVestd - Invested Raise'), 
     0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Investment/Page_Guided-Flow/h1_Investment via InVestd - Invested Raise'), 'Investment via InVestd Raise')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Investment/Page_Guided-Flow/h1_Investment via InVestd - Invested Raise'), 
+    'Investment via InVestd Raise')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Investment/li_Related tools'), 0)
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Investment/li_Related tools'), 'RELATED TOOLS')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Investment/Page_All-share-issues/a_All share issues'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Investment/Page_All-share-issues/a_All share issues'), 
+    0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Investment/Page_All-share-issues/a_All share issues'), 'All share issues')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Investment/Page_All-share-issues/a_All share issues'), 
+    'All share issues')
 
 WebUI.click(findTestObject('CoCo/navigation/side-nav/Investment/Page_All-share-issues/a_All share issues'))
 
@@ -280,9 +291,13 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Share capital
 
 WebUI.click(findTestObject('CoCo/navigation/side-nav/a_Share capital'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Secretarial  admin'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Compliance'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Secretarial  admin'), 'Secretarial & admin')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Compliance'), 'Compliance')
+
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Documents'), 0)
+
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Documents'), 'Documents')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_People  communication'), 0)
 

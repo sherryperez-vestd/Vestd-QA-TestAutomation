@@ -17,8 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50915/dashboard?user_id=370324')
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/buyback/alert buyback'), 0)
@@ -30,12 +29,9 @@ WebUI.verifyElementText(findTestObject('StatSquad/myEquity/buyback/h3_alert head
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/buyback/txt buyback eligible'), 0)
 
 //WebUI.verifyElementText(findTestObject('StatSquad/myEquity/buyback/txt buyback eligible'), 'The buyback window is open from 1st Jan 2025 to 1st Jan 2026.')
-
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/buyback/a_view offer'), 0)
 
 WebUI.verifyElementText(findTestObject('StatSquad/myEquity/buyback/a_view offer'), 'View offer')
 
 WebUI.waitForElementClickable(findTestObject('StatSquad/myEquity/buyback/a_view offer'), 0)
-
-WebUI.closeBrowser()
 

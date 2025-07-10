@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//'Login and navigate to the dashboard page'
+//CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_editor, GlobalVariable.password)
 WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/h1_Dashboard'), 0)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/h1_Dashboard'), 0)
@@ -63,6 +63,4 @@ WebUI.click(findTestObject('Object Repository/CoCo/dashboard/Page_Group/button_D
 WebUI.click(findTestObject('Object Repository/CoCo/dashboard/Page_Group/button_Yes, delete this group'))
 
 WebUI.click(findTestObject('Object Repository/CoCo/dashboard/Page_Group/a_Back to Dashboard'))
-
-WebUI.closeBrowser()
 

@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-
+'Login and navigate to the home page'
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff , GlobalVariable.password)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/home')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/top-nav/a_Dashboard'), 0)

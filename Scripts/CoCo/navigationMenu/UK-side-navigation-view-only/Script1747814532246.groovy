@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-view-only'), [:], FailureHandling.STOP_ON_FAILURE)
+'Login and navigate to the dashboard page'
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_viewonly, GlobalVariable.password)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/home')
 
@@ -63,11 +64,15 @@ WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_Share capi
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Share capital'), 'Share capital')
 
-WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_Secretarial  admin'))
+WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_Compliance'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Secretarial  admin'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Compliance'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Secretarial  admin'), 'Secretarial & admin')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Compliance'), 'Compliance')
+
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Documents'), 0)
+
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Documents'), 'Documents')
 
 WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_People  communication'))
 

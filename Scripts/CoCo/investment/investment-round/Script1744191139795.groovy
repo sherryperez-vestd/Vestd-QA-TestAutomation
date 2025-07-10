@@ -17,7 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+//'Login and navigate to the dashboard page'
+//CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_editor, GlobalVariable.password)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/investment-hub')
 
@@ -59,6 +60,4 @@ not_run: WebUI.verifyElementText(findTestObject('Object Repository/CoCo/investme
 WebUI.click(findTestObject('Object Repository/CoCo/investment/Page_Investment/button_delete'))
 
 WebUI.click(findTestObject('Object Repository/CoCo/investment/Page_Investment/button_Yes, delete the round'))
-
-WebUI.closeBrowser()
 

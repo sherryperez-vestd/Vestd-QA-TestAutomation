@@ -18,8 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Login and navigate to the home page'
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff , GlobalVariable.password)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50915/home')
 
 'Check Dashboard menu is present and opens correct URL'

@@ -17,48 +17,80 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 'Login and navigate to My equity page'
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370192')
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/i_Projected value'))
+
 'Check Cancelled label and value are displayed on My Equity'
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 'Cancelled:')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 
+    'Cancelled:')
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/strong_40'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/strong_40'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/strong_40'), '40')
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/strong_40'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/strong_40'), 
+    '40')
 
 'Go to summary agreement and reverse cancellation '
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/a_View agreement summary'))
+
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/agreements-page/button_Reverse'))
+
 WebUI.acceptAlert()
 
 'Check Cancelled label and value are NOT displayed on My Equity\r\n'
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/agreements-page/a_Recipient My Equity page'))
+
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/i_Projected value'))
+
 WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 0)
+
 WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/cancelled-deferred/my-equity-page/strong_40'), 0)
 
 'Go to summary agreement and part cancell some option'
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/a_View agreement summary'))
+
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/agreements-page/a_Part cancel this option'))
-WebUI.setText(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/cancel-agreement-page/input_Number to cancel_number_to_cancel'), '40')
+
+WebUI.setText(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/cancel-agreement-page/input_Number to cancel_number_to_cancel'), 
+    '40')
+
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/cancel-agreement-page/label_This option is being part-cancelled'))
-WebUI.setText(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/cancel-agreement-page/textarea_Additional notes_reason'), 'x')
+
+WebUI.setText(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/cancel-agreement-page/textarea_Additional notes_reason'), 
+    'x')
+
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/cancel-agreement-page/input_The reason for the part-cancellation'))
+
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/cancel-agreement-page/button_Yes, cancel 40 shares'))
 
 'Check Cancelled label and value are displayed on My Equity'
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/agreements-page/a_Recipient My Equity page'))
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/i_Projected value'))
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 'Cancelled:')
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/strong_40'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/strong_40'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/strong_40'), '40')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/i_Projected value'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/span_Cancelled'), 
+    'Cancelled:')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/strong_40'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/strong_40'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/cancelled-deferred/my-equity-page/strong_40'), 
+    '40')
 

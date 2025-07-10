@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//'Login and navigate to the dashboard page'
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_editor, GlobalVariable.password)
 WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/h1_Dashboard'), 0)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/h1_Dashboard'), 0)
@@ -26,7 +26,8 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/CoCo/dashboard/Pag
 WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/h1_Dashboard'), 'Dashboard')
 
 'Check Request access to a company'
-WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Ask a company to add you'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Ask a company to add you'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Ask a company to add you'))
 
@@ -47,7 +48,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_Re
 WebUI.setText(findTestObject('Object Repository/CoCo/dashboard/Page_Request_access-Invite to company/input_Company name_company_name'), 
     'test')
 
-WebUI.setText(findTestObject('CoCo/dashboard/Page_Request_access-Invite to company/input_Company email_company_email'), 'sherry.perez+editor2@vestd.com')
+WebUI.setText(findTestObject('CoCo/dashboard/Page_Request_access-Invite to company/input_Company email_company_email'), 
+    'sherry.perez+editor2@vestd.com')
 
 WebUI.click(findTestObject('Object Repository/CoCo/dashboard/Page_Request_access-Invite to company/button_Send'))
 

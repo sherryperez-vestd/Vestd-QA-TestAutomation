@@ -17,8 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
 
 WebUI.click(findTestObject('StatSquad/reporting/index/link_generate-cap-table'))
@@ -26,6 +25,4 @@ WebUI.click(findTestObject('StatSquad/reporting/index/link_generate-cap-table'))
 url = WebUI.getUrl()
 
 WebUI.verifyEqual(url, 'https://demo.app.vestd.com/company/50135/cap-table')
-
-WebUI.closeBrowser()
 
