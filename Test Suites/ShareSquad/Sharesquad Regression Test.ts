@@ -4,7 +4,7 @@
    <name>Sharesquad Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>sherry.perez@vestd.com;</mailRecipient>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -19,17 +19,24 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>b42c4e7c-61f9-4919-a3a2-1a6199d0a7f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/schemes/esop/esop-createTemplate-addRecipient-deleteTemplateRecipient</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5f1c5062-18f5-4d99-afbb-e8ecefe0f441</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/schemes/csop/csop-createTemplate-addRecipient-deleteTemplateRecipient</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>681acb6f-359c-495d-b0e0-78ee90e64a60</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShareSquad/schemes/emi/create-emi-scheme-template-workflow</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b42c4e7c-61f9-4919-a3a2-1a6199d0a7f7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/schemes/esop/ESOP-createTemplate-addRecipient-deleteTemplateRecipient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -90,13 +97,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ShareSquad/buyback/option buyback program/record option buyback - index</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8059dfa5-d614-4457-bee8-b49eafcb4a14</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/issueShares/create-share-offer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -192,10 +192,10 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5f1c5062-18f5-4d99-afbb-e8ecefe0f441</guid>
+      <guid>00487875-70bf-408a-93bf-2e3255f65c27</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/schemes/csop/csop-createTemplate-addRecipient-deleteTemplateRecipient</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/issueShares/bulk-issue-shares</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -64,7 +64,7 @@ WebUI.verifyElementPresent(findTestObject('CoCo/home/a_stock-transfer'), 0)
 
 WebUI.verifyElementClickable(findTestObject('CoCo/home/a_stock-transfer'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/home/a_start-buyback'), 0)
+//WebUI.verifyElementPresent(findTestObject('CoCo/home/a_start-buyback'), 0)
 
 WebUI.verifyElementClickable(findTestObject('CoCo/home/a_start-buyback'))
 

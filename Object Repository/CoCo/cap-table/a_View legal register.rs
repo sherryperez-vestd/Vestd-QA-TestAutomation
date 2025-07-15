@@ -6,16 +6,16 @@
    <elementGuidId>9cd35d94-471a-40a5-9bc7-80073e2fc3d0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+         <key>BASIC</key>
+         <value>//a[(contains(text(), 'View legal register') or contains(., 'View legal register'))]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>h1</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[(contains(text(), 'View legal register') or contains(., 'View legal register')) and @href = 'https://demo.app.vestd.com/company/50934/share-register']</value>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>438f33c4-3c9a-4103-8be4-c0df83383535</webElementGuid>
+      <webElementGuid>459144ab-783a-4c9e-8d80-5184ca2c2ef3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,14 +35,14 @@
       <name>text</name>
       <type>Main</type>
       <value>View legal register</value>
-      <webElementGuid>2d2fa9fb-1d23-47e7-816f-7d7f9a765742</webElementGuid>
+      <webElementGuid>83d16364-89ed-4802-8c7b-c70510cf1e14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50934/share-register</value>
-      <webElementGuid>953d6691-240e-4a02-8be2-f7eda16eeba8</webElementGuid>
+      <webElementGuid>cf9ca3a6-eafe-404c-b884-8621b2290086</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -4,7 +4,7 @@
    <name>StatSquad Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>swetha.yeguvapalli@vestd.com;minaxi.patel@vestd.com;arthur@vestd.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

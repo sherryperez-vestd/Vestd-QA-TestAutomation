@@ -85,7 +85,7 @@
       <guid>082a9e73-74d2-489e-bed1-32dc52c2c5c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/schemes/esop/ESOP-createTemplate-addRecipient-deleteTemplateRecipient</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/schemes/esop/esop-createTemplate-addRecipient-deleteTemplateRecipient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -105,7 +105,7 @@
       <guid>b4670974-075f-40ec-a17c-226616a07c1e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/issueShares/create-share-offer</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/issueShares/create-share-offer -needs updating</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

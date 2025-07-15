@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>create-share-offer</name>
+   <name>esop-createTemplate-addRecipient-deleteTemplateRecipient</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>55af0b4e-e647-4c24-8074-0a50dd5e82dd</testCaseGuid>
+   <testCaseGuid>00403305-1d12-4ee4-a851-63dc50169ba6</testCaseGuid>
 </TestCaseEntity>

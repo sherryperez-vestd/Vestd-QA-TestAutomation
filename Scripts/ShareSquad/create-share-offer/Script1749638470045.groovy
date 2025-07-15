@@ -21,58 +21,58 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureH
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-offer/create')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/issueShares/Share-distribution-create/select_Please selectIndividualCompany'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/select_IndividualCompany'), 
     'individual', true)
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/Share-distribution-create/input_First name_given_name'), 
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_First name_given_name'), 
     'Test')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/Share-distribution-create/input_Last name_family_name'), 
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_Last name_family_name'), 
     'Shares')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/Share-distribution-create/input_Email_email'), 'sherry.perez+shares@vestd.com')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_Email_email'), 'sherry.perez+shares@vestd.com')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/issueShares/Share-distribution-create/select_Please select oneOrdinary share pool_c70f14'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/select_share Authorisation'), 
     '167070', true)
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/Share-distribution-create/input_Number of shares_num_shares'), 
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_Number of shares_num_shares'), 
     '10')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/Share-distribution-create/input_Price paid_price_per_share'), 
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_Price paid_price_per_share'), 
     '1')
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/Share-distribution-create/input_create one_btn btn-primary'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_create one_btn btn-primary'))
 
-WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/Share-distribution-details/p_Test Shares (sherry.perezsharesvestd.com) Not invited'), 
+WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/share-distribution-details/p_Test Shares (sherry.perezsharesvestd.com) Not invited'), 
     0)
 
-not_run: WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/Share-distribution-details/p_Test Shares (sherry.perezsharesvestd.com) Not invited'), 
+not_run: WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/share-distribution-details/p_Test Shares (sherry.perezsharesvestd.com) Not invited'), 
     'Test Shares')
 
-WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/Share-distribution-details/td_10 Ordinary (voting) 0.0001 nominal value'), 
+WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/share-distribution-details/td_10 Ordinary (voting) 0.0001 nominal value'), 
     0)
 
-WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/Share-distribution-details/td_10 Ordinary (voting) 0.0001 nominal value'), 
+WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/share-distribution-details/td_10 Ordinary (voting) 0.0001 nominal value'), 
     '10 Ordinary (voting) £0.0001 nominal value')
 
-WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/Share-distribution-details/td_1.00 per share'), 0)
+WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/share-distribution-details/td_1.00 per share'), 0)
 
-WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/Share-distribution-details/td_1.00 per share'), '£1.00 per share')
+WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/share-distribution-details/td_1.00 per share'), '£1.00 per share')
 
-WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/Share-distribution-details/td_10.00'), 0)
+WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/share-distribution-details/td_10.00'), 0)
 
-WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/Share-distribution-details/td_10.00'), '£10.00')
+WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/share-distribution-details/td_10.00'), '£10.00')
 
-WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/Share-distribution-details/td_Ordinary share pool 1'), 
+WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/share-distribution-details/td_Ordinary share pool 1'), 
     0)
 
-WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/Share-distribution-details/td_Ordinary share pool 1'), 'Ordinary share pool 1')
+WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/share-distribution-details/td_Ordinary share pool 1'), 'Ordinary share pool 1')
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/Share-distribution-details/button_Issue immediately'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-details/button_Issue immediately'))
 
-WebUI.click(findTestObject('ShareSquad/issueShares/Share-distribution-create/btn_Yes, issue shares confirm'))
+WebUI.click(findTestObject('ShareSquad/issueShares/share-distribution-create/btn_Yes, issue shares confirm'))
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/Share-distribution-details/a_Back to list of share distributions'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-details/a_Back to list of share distributions'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/issueShares/share-issues-index/td_Test Shares'))
 
@@ -87,16 +87,16 @@ WebUI.delay(5)
 
 WebUI.refresh()
 
-WebUI.waitForElementPresent(findTestObject('ShareSquad/issueShares/Share-distribution-details/a_Share issue-staff-link'), 
+WebUI.waitForElementPresent(findTestObject('ShareSquad/issueShares/share-distribution-details/a_Share issue-staff-link'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/Share-distribution-details/a_Share issue-staff-link'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-details/a_Share issue-staff-link'))
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/Share-issue-staffpage/button_Delete-share-issue'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-issue-staffpage/button_Delete-share-issue'))
 
 WebUI.acceptAlert()
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/Share-allotment-staffpage/button_Delete-share-allotment'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-allotment-staffpage/button_Delete-share-allotment'))
 
 WebUI.acceptAlert()
 

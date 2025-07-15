@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Please select oneOrdinary share pool_c70f14</name>
+   <name>select_share Authorisation</name>
    <tag></tag>
    <elementGuidId>ae853ae4-a71e-40ad-9bac-fef648561469</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='share_approval_id']</value>
+         <key>BASIC</key>
+         <value>//select[@class = 'form-control' and @id = 'share_approval_id' and @name = 'share_approval_id']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#share_approval_id</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='share_approval_id']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,20 +28,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>13ef92d2-ac85-4e37-ac27-39ee31b1b787</webElementGuid>
+      <webElementGuid>a9e6c4c8-c694-4b88-940c-b0b1a166bee0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>63992496-7c0f-4051-a077-2e1ed34ddbec</webElementGuid>
+      <webElementGuid>198515db-1897-4d5a-a6a5-70627e61c6d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>share_approval_id</value>
-      <webElementGuid>1bee5b6e-4ed0-47d4-843d-6240b33d24d4</webElementGuid>
+      <webElementGuid>e3b004bd-514e-4cc3-95c3-75112a9ce929</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,23 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>share_approval_id</value>
-      <webElementGuid>d0e95a23-69f7-4e21-b7ae-1be595a5746a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Please select oneOrdinary share pool 1 (290,000 Ordinary shares remaining. 18th Oct 2024)Ordinary A pool (1,000,000 Ordinary A shares remaining. 18th Oct 2024)</value>
-      <webElementGuid>e795687e-fdd7-4325-90fe-c828e311984e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;share_approval_id&quot;)</value>
-      <webElementGuid>5d990189-a3da-4a5c-890c-9f0a835f2eac</webElementGuid>
+      <webElementGuid>a34cc84f-d5ca-4289-ab24-b8e60652c0c2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +65,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='share_approval_id']</value>
-      <webElementGuid>afca726c-4fe1-423c-aaf0-c5f569d26a73</webElementGuid>
+      <webElementGuid>da61e142-17fb-411d-8053-4199202bf1c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +73,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/form/fieldset[2]/div/select</value>
-      <webElementGuid>0b5a8805-9b83-49f9-a24e-a0445f71b389</webElementGuid>
+      <webElementGuid>2e704168-5eae-4b53-9033-ff101a5ccba5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share authorisation'])[1]/following::select[1]</value>
-      <webElementGuid>7c741a0d-65f5-428e-b699-c256fc7978c1</webElementGuid>
+      <webElementGuid>0d0f2841-0072-48c6-b6a9-cc7534538eb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shares'])[1]/following::select[1]</value>
-      <webElementGuid>c55a9a32-9cdd-4751-8f57-b6817c407822</webElementGuid>
+      <webElementGuid>c7524376-adb9-4548-8ba2-b6babb004b3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Number of shares'])[1]/preceding::select[1]</value>
-      <webElementGuid>b0542c60-adc6-4942-a46a-73318147c4a2</webElementGuid>
+      <webElementGuid>f390154a-cecc-44e4-b061-977a1c1ba68a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Price paid'])[1]/preceding::select[1]</value>
-      <webElementGuid>2926a637-bb6b-41e0-a932-4e11df16c4e4</webElementGuid>
+      <webElementGuid>c1735b0c-ad17-4121-bf44-798d418094ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//fieldset[2]/div/select</value>
-      <webElementGuid>ef8db3aa-42df-4da0-bded-1c917e479abb</webElementGuid>
+      <webElementGuid>96eb2b55-5470-4b2a-97cc-bbb8cbfc26f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'share_approval_id' and @name = 'share_approval_id' and (text() = 'Please select oneOrdinary share pool 1 (290,000 Ordinary shares remaining. 18th Oct 2024)Ordinary A pool (1,000,000 Ordinary A shares remaining. 18th Oct 2024)' or . = 'Please select oneOrdinary share pool 1 (290,000 Ordinary shares remaining. 18th Oct 2024)Ordinary A pool (1,000,000 Ordinary A shares remaining. 18th Oct 2024)')]</value>
-      <webElementGuid>42fffa9f-5874-44ae-abaa-c2201b578ee0</webElementGuid>
+      <webElementGuid>c7385fb2-733d-46b4-9396-a27d522dceee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

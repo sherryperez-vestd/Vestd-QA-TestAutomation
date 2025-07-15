@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_Please selectIndividualCompany</name>
+   <name>select_IndividualCompany</name>
    <tag></tag>
    <elementGuidId>fcce48a6-73cb-49e4-9424-a4888c050bd2</elementGuidId>
    <selectorCollection>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ESOP-createTemplate-addRecipient-deleteTemplateRecipient</name>
+   <name>bulk-issue-shares</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>00403305-1d12-4ee4-a851-63dc50169ba6</testCaseGuid>
+   <testCaseGuid>cbbc9497-6d03-4126-9d25-3bf9437ea906</testCaseGuid>
 </TestCaseEntity>

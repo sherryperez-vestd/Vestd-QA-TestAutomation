@@ -38,7 +38,7 @@ WebUI.click(findTestObject('CoSec/directors/a_Resign'))
 Calendar calendar = Calendar.getInstance()
 
 // Extract the day of the month
-int currentday = calendar.get(Calendar.DAY_OF_MONTH) + 1
+int currentday = calendar.get(Calendar.DAY_OF_MONTH)
 String currentdayString = currentday.toString()
 
 // Get the month (0 = January, so we add 1)

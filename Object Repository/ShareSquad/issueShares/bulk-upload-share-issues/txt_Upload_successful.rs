@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Exercise price_exercise_price</name>
+   <name>txt_Upload_successful</name>
    <tag></tag>
-   <elementGuidId>0d8549ad-cc95-47f1-bba4-d2fe56eb5255</elementGuidId>
+   <elementGuidId>a4b678e5-39b4-4103-b0aa-dc295f53013a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@class = 'form-control' and @name = 'exercise_price']</value>
+         <value>//div[@data-test-id = 'alert-content' and (contains(text(), 'Upload successful') or contains(., 'Upload successful'))]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#exercise_price</value>
+         <value>#share_pool_size</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='exercise_price']</value>
+         <value>//input[@id='share_pool_size']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>//input[@id='exercise_price']</value>
+         <value>//input[@id='share_pool_size']</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -30,42 +30,42 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>alert-content</value>
+      <webElementGuid>9e53ac18-967b-43d2-ad2b-325252220377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>f3efe587-03c9-41c7-b770-b13a04107445</webElementGuid>
+      <value>div</value>
+      <webElementGuid>de059ca6-64d0-48da-904f-56f0f54d80ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>a9dd9595-d666-43d3-9715-1b2cde9e4acd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>exercise_price</value>
-      <webElementGuid>3dc9d765-0dde-4f8b-8a79-46215b087f9b</webElementGuid>
+      <value>Upload successful</value>
+      <webElementGuid>f6e49e3c-96d0-40cf-9553-c55c8d5f0236</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='exercise_price']</value>
-      <webElementGuid>ea3018fb-2d0d-41cb-beb5-90c0127b1d80</webElementGuid>
+      <value>//input[@id='share_pool_size']</value>
+      <webElementGuid>448bdba3-ef14-4584-86b7-592c364fba0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div[2]/div/form/fieldset/div/div[2]/input</value>
-      <webElementGuid>bd0a90da-5452-4f59-88a2-8b2952085d06</webElementGuid>
+      <value>//form[@id='js-share-approval-form']/div[2]/input</value>
+      <webElementGuid>b4747fcd-b3fa-4480-b2a7-a9384ad8d4db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,14 +73,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>2d823f47-ec9e-427d-9cc2-4139c5fbde2a</webElementGuid>
+      <webElementGuid>55f11f02-39a2-445f-bd0c-3f558323ca4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'exercise_price' and @type = 'number' and @id = 'exercise_price']</value>
-      <webElementGuid>d01b5bff-1624-4eea-b270-3fbe74e6f2b1</webElementGuid>
+      <value>//input[@name = 'share_pool_size' and @type = 'number' and @id = 'share_pool_size']</value>
+      <webElementGuid>5d064885-a5d6-438e-9787-bec5c5e8f422</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
