@@ -39,11 +39,11 @@ public class UIKeywords {
 		WebUI.verifyElementPresent(findTestObject(objectPath), 0)
 		WebUI.verifyElementText(findTestObject(objectPath), objectText)
 	}
-	
+
 	@Keyword
 	def verifyElementPresentVisible(String objectPath) {
 		WebUI.scrollToElement(findTestObject(objectPath), 0)
 		WebUI.verifyElementVisible(findTestObject(objectPath), FailureHandling.STOP_ON_FAILURE)
 		WebUI.verifyElementPresent(findTestObject(objectPath), 0)
-	}
+		}
 }
