@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_You can request to sell all your shares o_a200a1</name>
+   <tag></tag>
+   <elementGuidId>a251b3f5-ad06-4196-b9a6-e19afeaf0bbe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.text-muted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>61bae3a9-6ce5-4387-bfa7-306af8c371c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-muted</value>
+      <webElementGuid>b20abaaa-62b4-4aa1-8a64-62692c58c017</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You can request to sell all your shares or enter a specific number.</value>
+      <webElementGuid>f340c9c7-6e7a-4b1e-b27a-962b2faff39e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-lg-12&quot;]/form[@class=&quot;mb-4&quot;]/fieldset[1]/div[@class=&quot;col-12&quot;]/p[@class=&quot;text-muted&quot;]</value>
+      <webElementGuid>b530726c-7e88-4259-96be-f9742b4d55a7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[2]/p</value>
+      <webElementGuid>b7a95fed-2889-49cb-b136-d6f56afd288e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Number of shares'])[1]/following::p[1]</value>
+      <webElementGuid>82898947-d6d5-4e7c-91ec-3af01bc56c2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Only shares from this class can be listed for sale, as determined by the company.'])[1]/following::p[1]</value>
+      <webElementGuid>fbf250b2-40b5-463c-b3e1-adde99faa888</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='You can request to sell all your shares or enter a specific number.']/parent::*</value>
+      <webElementGuid>91bffb1d-9fc7-49d6-993a-da1dffe4fdad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p</value>
+      <webElementGuid>807c97cf-193c-4d34-bf74-93bf20435e56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'You can request to sell all your shares or enter a specific number.' or . = 'You can request to sell all your shares or enter a specific number.')]</value>
+      <webElementGuid>2cb43524-7e2b-4ccd-9b98-669d3296c2ce</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

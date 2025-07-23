@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Once deleted, the listing will be permane_6e2047</name>
+   <tag></tag>
+   <elementGuidId>53563ff7-7d33-48fc-a041-c948aa47722d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='swal2-html-container']/div/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.mb-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>413daa4f-5b98-4d2c-b0a2-1716483856de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-0</value>
+      <webElementGuid>c00a21bf-95ac-4054-b25d-ab8662761609</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Once deleted, the listing will be permanently removed from the secondary market. This action cannot be undone.</value>
+      <webElementGuid>db6c88ed-98a4-4fb7-af9e-a14b0b52ae8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swal2-html-container&quot;)/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;pl-md-4 pl-lg-4 pl-xl-4 text-left&quot;]/p[@class=&quot;mb-0&quot;]</value>
+      <webElementGuid>e1039e64-89b8-4111-b3dc-7b3e20513dff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='swal2-html-container']/div/div[2]/p</value>
+      <webElementGuid>6544d7ec-1d01-49ed-9325-8ec68e3905e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to delete this listing?'])[1]/following::p[1]</value>
+      <webElementGuid>3fc7c780-2fb4-40e7-a95e-9ea656b1a120</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/following::p[1]</value>
+      <webElementGuid>88d69c10-827b-4e96-8f6c-6a2dfd4dd7f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/preceding::p[1]</value>
+      <webElementGuid>d85b0915-ea29-4ebb-b8fc-c2d1fc6f6009</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::p[1]</value>
+      <webElementGuid>9e30f50b-5932-4789-8357-148f7a1e956e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Once deleted, the listing will be permanently removed from the secondary market. This action cannot be undone.']/parent::*</value>
+      <webElementGuid>18058d7c-4c02-4944-ba07-12af41de062c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p</value>
+      <webElementGuid>84894d64-88ef-4f2b-bf74-4b2f5ec92bbb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Once deleted, the listing will be permanently removed from the secondary market. This action cannot be undone.' or . = 'Once deleted, the listing will be permanently removed from the secondary market. This action cannot be undone.')]</value>
+      <webElementGuid>eb594f3d-f41a-4ef7-98bc-da15bf7a9c77</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

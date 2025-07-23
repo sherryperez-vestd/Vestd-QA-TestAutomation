@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Ordinary A</name>
+   <tag></tag>
+   <elementGuidId>f85a7219-1ce6-46f8-a84c-c6b421dbcc16</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='Kp8qEyJdgYljnTq8-multiselect-option-176517']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Kp8qEyJdgYljnTq8-multiselect-option-176517 > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d3eb101f-1f7d-4983-87c7-59e98f59fb90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ordinary A</value>
+      <webElementGuid>e4fdc913-f950-4ab5-b7a8-ad8e2f75ecd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Kp8qEyJdgYljnTq8-multiselect-option-176517&quot;)/span[1]</value>
+      <webElementGuid>48ebcc86-2a08-4f48-b996-efc919844d6f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='Kp8qEyJdgYljnTq8-multiselect-option-176517']/span</value>
+      <webElementGuid>52669f81-708a-4f29-a52e-72f19bca7252</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ordinary A'])[1]/following::span[2]</value>
+      <webElementGuid>10d95c2f-9c92-4f30-8821-91aa0ba86936</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Only shares from this class can be listed for sale, as determined by the company.'])[1]/preceding::span[1]</value>
+      <webElementGuid>7419874b-1fe1-4a23-8924-d9d630c253ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Number of shares'])[1]/preceding::span[2]</value>
+      <webElementGuid>b0b6ba72-1f20-4da4-b6ed-0bd64c418793</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/span</value>
+      <webElementGuid>2951ad23-6640-41bc-91b3-1c9ee242aebc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Ordinary A' or . = 'Ordinary A')]</value>
+      <webElementGuid>6f3fad6a-0f8c-4123-9e1f-c51e5367aac8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

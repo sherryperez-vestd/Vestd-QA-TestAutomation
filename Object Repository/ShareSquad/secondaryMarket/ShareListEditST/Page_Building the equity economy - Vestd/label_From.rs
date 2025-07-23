@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_From</name>
+   <tag></tag>
+   <elementGuidId>6539cd4e-f700-4d1c-b0bf-1c84d6ba4bd1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='stock-transfer-form']/div[2]/div[2]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-group--required.form-group.multi-select.w-100 > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>1d0b4369-c7c5-48f2-8a94-2b135d462c6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>QMlOvEEkRIjXGNlO</value>
+      <webElementGuid>de5e64a5-6e7d-4fa7-aa9c-4d5880b5507c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>From</value>
+      <webElementGuid>eab158ed-6a9e-46c3-9a6a-d98e5f88a16d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;stock-transfer-form&quot;)/div[@class=&quot;stock-transfer-form&quot;]/div[@class=&quot;form-group--required form-group multi-select w-100&quot;]/label[1]</value>
+      <webElementGuid>50a577a3-e31b-4329-a2ee-22b7d4e9d9e6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='stock-transfer-form']/div[2]/div[2]/label</value>
+      <webElementGuid>7647a296-a327-4975-b149-8af2fbf2bfa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select...'])[2]/following::label[1]</value>
+      <webElementGuid>45210bda-a796-4eed-9b53-279118162813</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select...'])[1]/following::label[1]</value>
+      <webElementGuid>1e2b416d-837f-4a52-8d67-cb109f0323c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='first last (4 shares)'])[1]/preceding::label[1]</value>
+      <webElementGuid>e7706943-a678-41d6-9efc-a0df74c55aaf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chasity Feeney (1,000,000 shares)'])[1]/preceding::label[1]</value>
+      <webElementGuid>03c99a9f-cc8a-4973-b3e7-6cf7b590a74d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='From']/parent::*</value>
+      <webElementGuid>5e1ac8de-1a6d-49cf-9768-a8fdfef399a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/label</value>
+      <webElementGuid>e97a9860-aa41-4c0d-829f-15e533fbfa97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'From' or . = 'From')]</value>
+      <webElementGuid>bfafba27-6028-470b-a0dc-fde766da038d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Is this part of a number of related t_09f6e2</name>
+   <tag></tag>
+   <elementGuidId>be7e1194-7183-4793-b7b3-987e1b16b582</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='stock-transfer-form']/div[4]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>7e1e61a3-69db-48b4-abaa-3c6a32024898</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>over_1000</value>
+      <webElementGuid>f68bbcdb-3c2e-4483-a6d3-da91d82d062d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Is this part of a number of related transfers for this buyer that exceed £1,000 in aggregate?</value>
+      <webElementGuid>0c64595e-9030-45b1-a7a6-c2d9db62f497</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;stock-transfer-form&quot;)/div[@class=&quot;form-group form-part-one&quot;]/label[1]</value>
+      <webElementGuid>0f281f02-3368-46c8-b37c-de13e189ba12</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='stock-transfer-form']/div[4]/label</value>
+      <webElementGuid>b30a3a7f-dea8-43b4-b1f8-12bc4aae618a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cash consideration (total for all shares being transferred)'])[1]/following::label[1]</value>
+      <webElementGuid>2ae9ccce-7ce9-477c-b097-57403ae37577</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='shares'])[1]/following::label[2]</value>
+      <webElementGuid>a4bb8195-5683-4303-8fe0-9c42da9518c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read the government guidance on paying stamp duty for stock transfers.'])[1]/preceding::label[1]</value>
+      <webElementGuid>eaaa6ebc-0eae-4303-9967-148bc07d5dae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Investment round'])[1]/preceding::label[1]</value>
+      <webElementGuid>68b2c637-36a2-41cb-9b80-c47a196e7d1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Is this part of a number of related transfers for this buyer that exceed £1,000 in aggregate?']/parent::*</value>
+      <webElementGuid>e6cca599-e266-4ef9-a8e9-2ce1a42b31d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/label</value>
+      <webElementGuid>9da15257-415d-4a16-84c7-ac7d2b300011</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Is this part of a number of related transfers for this buyer that exceed £1,000 in aggregate?' or . = 'Is this part of a number of related transfers for this buyer that exceed £1,000 in aggregate?')]</value>
+      <webElementGuid>f3c55cb2-4fd4-41dd-8db3-687bda5df03e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

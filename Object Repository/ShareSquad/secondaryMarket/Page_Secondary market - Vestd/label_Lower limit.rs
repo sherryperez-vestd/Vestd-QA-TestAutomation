@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Lower limit</name>
+   <tag></tag>
+   <elementGuidId>51058c9a-2686-4c2c-a3c6-5536ea111c25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[2]/div[5]/div/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.ml-2 > div.col-12 > div.form-group.mb-0.form-group--required > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>c8fd7dc7-3dd5-4cde-8469-c9f1e05f4e9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>HrqnbbuGPZpk4YUQ</value>
+      <webElementGuid>dc2b35b7-8136-4474-bad2-157136ee3ee4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>form-number-label</value>
+      <webElementGuid>5d89955e-6d38-4ccc-93b3-c1402618fe13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lower limit</value>
+      <webElementGuid>3992ddf6-29fb-4e7a-8bf9-20215f93f973</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-lg-12&quot;]/form[@class=&quot;mb-4&quot;]/fieldset[1]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row ml-2&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;form-group mb-0 form-group--required&quot;]/label[1]</value>
+      <webElementGuid>dae96f0a-155a-44f8-8942-5a0337ac206d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[2]/div[5]/div/div/div/label</value>
+      <webElementGuid>a1463d9c-ec9a-4b31-8762-dce9281ab95e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£'])[1]/following::label[1]</value>
+      <webElementGuid>156797b2-4776-4103-8210-c0326be7e258</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='%'])[1]/preceding::label[1]</value>
+      <webElementGuid>3fb53fb0-7d63-42bd-b4a2-9fff8a18fc1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Minimum percentage deviation from the current company valuation'])[1]/preceding::label[1]</value>
+      <webElementGuid>f54edcf1-5f1b-497b-82d6-0c0a5337f70d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lower limit']/parent::*</value>
+      <webElementGuid>c7452e43-374d-4a8d-a281-0b02ac5a7e51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/label</value>
+      <webElementGuid>e83119ba-c17c-4370-9d03-dc9d4db59b9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Lower limit' or . = 'Lower limit')]</value>
+      <webElementGuid>9dc0765e-d7f9-4d4d-9d0a-0dd484c0ed6d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Shareholders of the selected share class _7cecbd</name>
+   <tag></tag>
+   <elementGuidId>065fafb2-08ce-4ae4-ade3-e99e488b5851</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='swal2-html-container']/div/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.mb-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ba2d082c-472b-4318-9e22-b23dd0197467</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-0</value>
+      <webElementGuid>7d62015b-37ab-449f-aa3a-068fa0997342</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shareholders of the selected share class will be able to view the updated sales window information on their dashboard and My Equity page. This update will not be visible to shareholders of other share classes. Please confirm to proceed.</value>
+      <webElementGuid>6a5ad23a-e3e9-4106-b5cd-6f83561874d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swal2-html-container&quot;)/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;pl-md-4 pl-lg-4 pl-xl-4 text-left&quot;]/p[@class=&quot;mb-0&quot;]</value>
+      <webElementGuid>4d5d3f1e-ccd0-4085-bb8a-ecf00f9430e5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='swal2-html-container']/div/div[2]/p</value>
+      <webElementGuid>d1848e9b-b495-4498-95a7-3816fbc89f3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to save these settings?'])[1]/following::p[1]</value>
+      <webElementGuid>f59bb77c-a0b7-4dbe-921a-192acba073f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/following::p[1]</value>
+      <webElementGuid>fbf17bac-249e-4d93-8c22-26842eb51a2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[2]/preceding::p[1]</value>
+      <webElementGuid>be23a516-9a26-4c90-8970-66fb2ad23df0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::p[1]</value>
+      <webElementGuid>8bdb019e-9e35-4a4d-ac10-0aeaf992f4c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Shareholders of the selected share class will be able to view the updated sales window information on their dashboard and My Equity page. This update will not be visible to shareholders of other share classes. Please confirm to proceed.']/parent::*</value>
+      <webElementGuid>67f50f95-9a93-4e42-a9e5-5883549452ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/p</value>
+      <webElementGuid>1ea05eaf-c91f-40f1-bad4-bde6adab0f9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Shareholders of the selected share class will be able to view the updated sales window information on their dashboard and My Equity page. This update will not be visible to shareholders of other share classes. Please confirm to proceed.' or . = 'Shareholders of the selected share class will be able to view the updated sales window information on their dashboard and My Equity page. This update will not be visible to shareholders of other share classes. Please confirm to proceed.')]</value>
+      <webElementGuid>66229466-aef9-4b7e-b5ec-3cd3418610a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSOP add new recipient</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>287b3b5b-ac2b-4f74-beb3-c78afab8673e</testCaseGuid>
+</TestCaseEntity>

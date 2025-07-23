@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>reports-expense change settings</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9fce82b2-c07d-42b0-a605-dfa78c5f45ba</testCaseGuid>
-</TestCaseEntity>

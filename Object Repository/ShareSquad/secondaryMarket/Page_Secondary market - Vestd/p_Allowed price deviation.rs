@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Allowed price deviation</name>
+   <tag></tag>
+   <elementGuidId>af23c0fd-2f94-45f6-9ee3-1a963ad7e45b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[2]/div[5]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.mt-4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>1324ce49-cea3-4668-b9cf-d7476a1d351b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mt-4</value>
+      <webElementGuid>1ecf0e5a-15ed-4de4-993b-7c10f7525f19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Allowed price deviation</value>
+      <webElementGuid>1961ec62-5451-4122-afd3-5b6a96e43a49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-lg-12&quot;]/form[@class=&quot;mb-4&quot;]/fieldset[1]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-12&quot;]/p[@class=&quot;mt-4&quot;]</value>
+      <webElementGuid>596c984e-8e5b-403d-b252-7eb6cfad1424</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[2]/div[5]/p</value>
+      <webElementGuid>19173d1d-d837-43ae-aa77-18dc0a4b778a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£'])[1]/following::p[1]</value>
+      <webElementGuid>0052bd59-ad7c-416b-9d3b-dce1abbf916a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='%'])[1]/preceding::p[1]</value>
+      <webElementGuid>c5c40081-17d1-407e-bad8-131c312641f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Allowed price deviation']/parent::*</value>
+      <webElementGuid>4d5d5a3e-41f6-4c3d-8e97-523d00751478</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/p</value>
+      <webElementGuid>646cb488-459b-44dd-9ed9-9f1b2c861fc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Allowed price deviation' or . = 'Allowed price deviation')]</value>
+      <webElementGuid>cb30917f-5d13-4283-b097-437a0c02bd15</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

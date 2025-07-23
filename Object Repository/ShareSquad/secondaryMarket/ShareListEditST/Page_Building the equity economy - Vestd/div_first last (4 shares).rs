@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_first last (4 shares)</name>
+   <tag></tag>
+   <elementGuidId>c3acab4e-37a3-4389-93ab-f713df200a48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//form[@id='stock-transfer-form']//div[@class='multiselect-wrapper']//span[@class='multiselect-single-label-text'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.multiselect.is-disabled.form-control.p-0.m-0.form-control-width-lg > div.multiselect-wrapper</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c882adc3-22f4-4ce5-aa4a-0a550bcd04a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect-wrapper</value>
+      <webElementGuid>aaddc1e2-1b25-409b-98b9-d3dcae446f9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>2c01331f-cefb-4f99-989e-9b5cee2fc03d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>first last (4 shares)</value>
+      <webElementGuid>d32819ad-d9dc-4e6f-a185-d25105f8ce6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;stock-transfer-form&quot;)/div[@class=&quot;stock-transfer-form&quot;]/div[@class=&quot;form-group--required form-group multi-select w-100&quot;]/div[@class=&quot;multiselect is-disabled form-control p-0 m-0 form-control-width-lg&quot;]/div[@class=&quot;multiselect-wrapper&quot;]</value>
+      <webElementGuid>68f324a5-57a1-48c2-b315-cccaeec8220f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='stock-transfer-form']/div[2]/div[2]/div/div</value>
+      <webElementGuid>f02804c0-2068-44cc-9c5e-bc5b6066f622</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select...'])[2]/following::div[5]</value>
+      <webElementGuid>541e25cc-df93-4b27-8806-0e4802bb0487</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chasity Feeney (1,000,000 shares)'])[1]/preceding::div[2]</value>
+      <webElementGuid>6c32770b-db73-4dbd-9b23-2f0ce2f24a55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div</value>
+      <webElementGuid>129a6ad0-8478-45df-b68a-aa1612827f77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'first last (4 shares)' or . = 'first last (4 shares)')]</value>
+      <webElementGuid>00818515-ef85-4563-afd6-5f46012794a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

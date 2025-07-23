@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>esop-createTemplate-addRecipient-deleteTemplateRecipient</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>00403305-1d12-4ee4-a851-63dc50169ba6</testCaseGuid>
-</TestCaseEntity>

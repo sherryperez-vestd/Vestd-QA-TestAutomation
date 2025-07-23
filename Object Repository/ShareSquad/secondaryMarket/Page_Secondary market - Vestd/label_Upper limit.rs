@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Upper limit</name>
+   <tag></tag>
+   <elementGuidId>60f4cb54-a65f-40ef-bbb9-6553c44d6e11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[2]/div[5]/div/div[2]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>194a128d-dddf-4f9f-9f8f-e55a5868153a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>v2KBh3fr7eoLpQTu</value>
+      <webElementGuid>dfd819bd-5851-4393-8906-6c937c5fb580</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>form-number-label</value>
+      <webElementGuid>b9995cce-51f5-449c-9125-711a28936e9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upper limit</value>
+      <webElementGuid>b730ceb0-904d-4788-ab40-ddf98c90ada8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-lg-12&quot;]/form[@class=&quot;mb-4&quot;]/fieldset[1]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row ml-2&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;form-group mb-0 form-group--required&quot;]/label[1]</value>
+      <webElementGuid>65c5ffbd-be12-4a61-87c8-c81bf9d202af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[2]/div[5]/div/div[2]/div/label</value>
+      <webElementGuid>c1e03470-ee61-4cd9-95c3-d0fd90e89a1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Minimum percentage deviation from the current company valuation'])[1]/following::label[1]</value>
+      <webElementGuid>1d0a6f63-d778-4d59-9099-7fad39392be8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='%'])[1]/following::label[1]</value>
+      <webElementGuid>6938814b-206b-4062-8f40-99cc2a749e1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='%'])[2]/preceding::label[1]</value>
+      <webElementGuid>3feaf847-6397-46a9-b102-4c382e41f541</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maximum percentage deviation from the current company valuation'])[1]/preceding::label[1]</value>
+      <webElementGuid>3373113b-4293-4c43-8a6b-738ed3270dd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Upper limit']/parent::*</value>
+      <webElementGuid>722eadba-0589-460e-a251-bb821e683b96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div[2]/div/label</value>
+      <webElementGuid>b13dc4af-c1f5-4b6a-926f-15d20913f574</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Upper limit' or . = 'Upper limit')]</value>
+      <webElementGuid>7acdf7eb-9f36-437b-8f0a-aa6e813019bd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

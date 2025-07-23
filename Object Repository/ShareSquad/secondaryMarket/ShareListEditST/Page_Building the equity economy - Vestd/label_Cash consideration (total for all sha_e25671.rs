@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Cash consideration (total for all sha_e25671</name>
+   <tag></tag>
+   <elementGuidId>37f21dc1-2c98-4fce-8138-21ac5437c334</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='stock-transfer-form']/div[3]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>e700020a-947d-4131-b528-1723accdd8ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>consideration</value>
+      <webElementGuid>557ba7d1-95ad-4eb4-bb49-2f5731b8a54f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cash consideration (total for all shares being transferred)</value>
+      <webElementGuid>09ca6ca4-af7e-4e37-91dd-1ea80fb98273</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;stock-transfer-form&quot;)/div[@class=&quot;form-group form-group--required form-part-one&quot;]/label[1]</value>
+      <webElementGuid>3c0121a8-74b0-4538-9c9f-bc9d6e1cbfdd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='stock-transfer-form']/div[3]/label</value>
+      <webElementGuid>8ab2c134-0fdd-4b18-ba05-5c83113e0906</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='shares'])[1]/following::label[1]</value>
+      <webElementGuid>9762ab42-694f-4e97-88fc-279e79b4031b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is this part of a number of related transfers for this buyer that exceed £1,000 in aggregate?'])[1]/preceding::label[1]</value>
+      <webElementGuid>0532742a-df59-41da-9a7c-4e6b3c71bf24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read the government guidance on paying stamp duty for stock transfers.'])[1]/preceding::label[2]</value>
+      <webElementGuid>8f4aa29b-b568-40ab-a780-0d7d9b0a8e2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cash consideration (total for all shares being transferred)']/parent::*</value>
+      <webElementGuid>b065c658-7cd2-426a-960a-1d27f6ca8058</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/label</value>
+      <webElementGuid>39c0e6c0-ddfe-4283-b10e-98793837a5a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Cash consideration (total for all shares being transferred)' or . = 'Cash consideration (total for all shares being transferred)')]</value>
+      <webElementGuid>a02d6875-07b6-4bac-bd19-89bb4f88d00c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

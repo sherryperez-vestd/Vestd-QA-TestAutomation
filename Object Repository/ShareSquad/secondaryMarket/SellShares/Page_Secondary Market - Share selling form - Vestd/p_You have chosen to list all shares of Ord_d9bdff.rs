@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_You have chosen to list all shares of Ord_d9bdff</name>
+   <tag></tag>
+   <elementGuidId>857c06c3-e2b0-466e-b934-04f93e079c4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='swal2-html-container']/div/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.mb-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>48483f41-2b2e-4667-8897-ee45ee61de27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-0</value>
+      <webElementGuid>beb70ce1-6bfa-45a7-b5d2-8b9114454de0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You have chosen to list all shares of Ordinary A share class at a price of £1.00. Once offered, your shares will be available for purchase at the price you have set. Please confirm to proceed.</value>
+      <webElementGuid>603b55f4-4f2e-42f4-b12c-6bd9ae89968a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swal2-html-container&quot;)/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;pl-md-4 pl-lg-4 pl-xl-4 text-left&quot;]/p[@class=&quot;mb-0&quot;]</value>
+      <webElementGuid>1b509ec7-5343-4341-8ee7-699b964c4438</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='swal2-html-container']/div/div[2]/p</value>
+      <webElementGuid>73fc1373-ff91-405b-9531-ba383f0f2727</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Are you sure you want to offer shares for sale?'])[1]/following::p[1]</value>
+      <webElementGuid>f5a75f40-bbcf-4ad4-94bd-6c79b83a6a89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[2]/following::p[1]</value>
+      <webElementGuid>c7fb4825-9e0a-4801-8f58-cfcb3f5103f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/preceding::p[1]</value>
+      <webElementGuid>a6b58670-8ea9-421d-ab97-bc5aa3962f6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::p[1]</value>
+      <webElementGuid>5917125a-1be4-4244-b3b6-0d49e183bfe4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='You have chosen to list all shares of Ordinary A share class at a price of £1.00. Once offered, your shares will be available for purchase at the price you have set. Please confirm to proceed.']/parent::*</value>
+      <webElementGuid>3f4ea0bc-2601-41ee-9483-0122458bb55e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/p</value>
+      <webElementGuid>7b990235-81a0-46c0-98fd-7f49cad6a315</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'You have chosen to list all shares of Ordinary A share class at a price of £1.00. Once offered, your shares will be available for purchase at the price you have set. Please confirm to proceed.' or . = 'You have chosen to list all shares of Ordinary A share class at a price of £1.00. Once offered, your shares will be available for purchase at the price you have set. Please confirm to proceed.')]</value>
+      <webElementGuid>2c2705eb-eaf3-4f4a-85bb-1db24678e98f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

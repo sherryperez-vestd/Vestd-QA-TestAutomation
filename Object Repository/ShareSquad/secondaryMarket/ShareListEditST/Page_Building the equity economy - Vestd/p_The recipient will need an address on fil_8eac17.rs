@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_The recipient will need an address on fil_8eac17</name>
+   <tag></tag>
+   <elementGuidId>972de776-3e38-4df0-93e4-1e8d471d2467</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='stock-transfer-form']/div[2]/div[3]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>75c09b7e-b402-4bd7-9292-70ef46f01fbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-text</value>
+      <webElementGuid>6d98da90-cbb5-4f51-bd3a-cf9647d2122d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The recipient will need an address on file for the transfer form. If they’re not on the list you can add a shareholder.</value>
+      <webElementGuid>8ba1cf73-cd04-4e09-8748-ea52ab6c82b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;stock-transfer-form&quot;)/div[@class=&quot;stock-transfer-form&quot;]/div[@class=&quot;form-group--required form-group multi-select w-100&quot;]/p[@class=&quot;form-text&quot;]</value>
+      <webElementGuid>ed2d1311-ed7a-4aea-894d-98a5a81abead</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='stock-transfer-form']/div[2]/div[3]/p</value>
+      <webElementGuid>de7662a8-b26b-4736-b0c1-ea7ad7bc6fa2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zula-Mario Hegmann-Lang - Missing residential address'])[1]/following::p[1]</value>
+      <webElementGuid>ab45ea05-5f79-42f0-ad79-f4952e7b3be7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/p</value>
+      <webElementGuid>7fcbd5a8-98ce-402b-a271-b92b6f1bcae2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'The recipient will need an address on file for the transfer form. If they’re not on the list you can add a shareholder.' or . = 'The recipient will need an address on file for the transfer form. If they’re not on the list you can add a shareholder.')]</value>
+      <webElementGuid>0c52a412-c708-4c89-8f69-dacaf071ba9b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

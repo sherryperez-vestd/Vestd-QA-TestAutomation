@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Set the price per share at which you _8b7c2d</name>
+   <tag></tag>
+   <elementGuidId>aeeb6371-4348-4834-a23e-e0887bcc1357</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[3]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-group.mb-0.form-group--required > label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>0a6a8b2d-17ce-483e-96a0-fe9f9b551cfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>Uflt6tK1xqM7YeIM</value>
+      <webElementGuid>a8de6003-0c95-49a4-9575-9ae7c7e9377d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>form-number-label</value>
+      <webElementGuid>288430f8-243b-4bb1-b50c-e9609d44fa12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Set the price per share at which you are willing to sell the shares</value>
+      <webElementGuid>ab340148-e850-424e-b37c-1d1545994f4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-lg-12&quot;]/form[@class=&quot;mb-4&quot;]/fieldset[1]/div[@class=&quot;col-12&quot;]/div[@class=&quot;form-group mb-0 form-group--required&quot;]/label[1]</value>
+      <webElementGuid>08937452-8150-4252-8327-2f3511981448</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[3]/div/label</value>
+      <webElementGuid>0ba74283-ea39-427a-a29a-bba3233e588d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£'])[1]/preceding::label[1]</value>
+      <webElementGuid>b9cd28b5-693e-4610-ad9b-eb2a3afb306a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Set the price per share at which you are willing to sell the shares']/parent::*</value>
+      <webElementGuid>aff514bd-c18e-48c1-9b61-d6c596fd114a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/label</value>
+      <webElementGuid>38c3d5f0-3e5e-4a76-b20c-61d7115ae053</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Set the price per share at which you are willing to sell the shares' or . = 'Set the price per share at which you are willing to sell the shares')]</value>
+      <webElementGuid>1cb4c7f7-53a6-4e1d-9b21-ac4532456d41</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

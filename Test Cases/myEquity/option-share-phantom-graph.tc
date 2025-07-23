@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>option-share-phantom-graph</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>062af134-dc83-4581-b055-6e2d3ebd765a</testCaseGuid>
-</TestCaseEntity>

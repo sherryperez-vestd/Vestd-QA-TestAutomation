@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_If the transfer exceeds 1000, stamp duty _cd53df</name>
+   <tag></tag>
+   <elementGuidId>879f1e51-1ab9-40fa-a25c-9be212f495b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='stock-transfer-form']/div[4]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>920dee54-b039-4b63-a00a-c9a61c1f3e1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-text</value>
+      <webElementGuid>6b992489-406d-4942-bf3b-cd35aa771bce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>If the transfer exceeds £1000, stamp duty is payable. Read the government guidance on paying stamp duty for stock transfers.</value>
+      <webElementGuid>695447f9-e946-4c8e-bd47-8452ded7a5d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;stock-transfer-form&quot;)/div[@class=&quot;form-group form-part-one&quot;]/p[@class=&quot;form-text&quot;]</value>
+      <webElementGuid>5a3599a8-6d1a-4930-8418-4ee8fa56ca21</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='stock-transfer-form']/div[4]/p</value>
+      <webElementGuid>b5d5c2bf-14bd-4d7c-bb86-ef471377a39b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is this part of a number of related transfers for this buyer that exceed £1,000 in aggregate?'])[1]/following::p[1]</value>
+      <webElementGuid>735a83fe-276d-470b-a591-1a62cab1cfe5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cash consideration (total for all shares being transferred)'])[1]/following::p[2]</value>
+      <webElementGuid>00acec5d-248c-4293-b599-3550aa9602fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Investment round'])[1]/preceding::p[1]</value>
+      <webElementGuid>7c836468-3cea-4cb1-8c37-ae3306a614e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='If the transfer exceeds £1000, stamp duty is payable.']/parent::*</value>
+      <webElementGuid>51ca1057-456c-4c9a-b81d-56b189ed7ad9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/p</value>
+      <webElementGuid>2c3071e3-a538-499f-8ea0-813f1a83e466</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'If the transfer exceeds £1000, stamp duty is payable. Read the government guidance on paying stamp duty for stock transfers.' or . = 'If the transfer exceeds £1000, stamp duty is payable. Read the government guidance on paying stamp duty for stock transfers.')]</value>
+      <webElementGuid>b55457aa-9c4b-404d-84a3-ad36722ca867</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>csop-createTemplate-addRecipient-deleteTemplateRecipient</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4cf3e4e2-669f-4167-bf08-ba7909403f01</testCaseGuid>
-</TestCaseEntity>

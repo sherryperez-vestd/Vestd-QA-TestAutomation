@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Maximum percentage deviation from the _173e0d</name>
+   <tag></tag>
+   <elementGuidId>f21494fc-633c-4d8a-8d5a-dfd899301aef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[2]/div[5]/div/div[2]/div/p/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e05bd4f5-22db-4ff5-83d1-1f9382a2af0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Maximum percentage deviation from the current company valuation</value>
+      <webElementGuid>d26dd4ac-ef0a-41ca-8b03-5eff5ad0809e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-lg-12&quot;]/form[@class=&quot;mb-4&quot;]/fieldset[1]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row ml-2&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;form-group mb-0 form-group--required&quot;]/p[@class=&quot;form-text&quot;]/span[1]</value>
+      <webElementGuid>0feb696f-7502-4b6a-8346-5d500386a34f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[2]/div[5]/div/div[2]/div/p/span</value>
+      <webElementGuid>dedf90be-1694-4101-9726-ea8e2625da7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='%'])[2]/following::span[1]</value>
+      <webElementGuid>dbccfb21-9bb3-4e76-bd5c-e011e9a15a05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::span[1]</value>
+      <webElementGuid>5db53e5f-bbb8-49dc-b249-e2f2f12daff1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Maximum percentage deviation from the current company valuation']/parent::*</value>
+      <webElementGuid>63b11be7-e23f-4f83-ad80-97da9dc8b965</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/p/span</value>
+      <webElementGuid>2e128a39-00a9-4867-87fe-72dfd9a2fd25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Maximum percentage deviation from the current company valuation' or . = 'Maximum percentage deviation from the current company valuation')]</value>
+      <webElementGuid>a6d644c1-a3e3-40b4-a087-5ed3d416ae78</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

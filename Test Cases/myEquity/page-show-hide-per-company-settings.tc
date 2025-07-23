@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>page-show-hide-per-company-settings</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>aa26f134-c28c-41bf-8fab-ca0607e083c4</testCaseGuid>
-</TestCaseEntity>

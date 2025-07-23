@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Status Pending, Completed StatusPending_4faf16</name>
+   <tag></tag>
+   <elementGuidId>b8025311-e9db-4050-a81c-92844c75007e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col.p-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>503ed5c4-fb6a-4b65-b76a-ca8927e8f294</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col p-2</value>
+      <webElementGuid>ada93583-263a-430b-b7ab-2e2c94a60d74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Status: Pending, Completed StatusPendingCompletedClear filter Search:   </value>
+      <webElementGuid>6ff66bf5-2f77-461a-ac39-be9a547e9ea0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-lg-12&quot;]/div[1]/div[@class=&quot;row bg-light mx-0 mt-2 mb-4&quot;]/div[@class=&quot;col p-2&quot;]</value>
+      <webElementGuid>f6323028-82be-4978-ada9-40a06ca6ad2e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>5ed6dd17-efeb-49e2-97d3-b564a7d18ebf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shareholders'])[1]/following::div[4]</value>
+      <webElementGuid>3bf8ee1e-7eb1-413f-aabd-867b622a4143</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active share listings'])[1]/following::div[6]</value>
+      <webElementGuid>3dd89b75-809d-41e0-b32c-6659dbe82b6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>f689134e-7b71-44ab-82d8-8eacf114bf7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Status: Pending, Completed StatusPendingCompletedClear filter Search:   ' or . = 'Status: Pending, Completed StatusPendingCompletedClear filter Search:   ')]</value>
+      <webElementGuid>5bcbc521-fa23-42bb-a361-f836caf8d6df</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

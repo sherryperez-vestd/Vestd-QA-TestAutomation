@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>time_6th May 2025</name>
+   <tag></tag>
+   <elementGuidId>ef46ddf7-da4a-4745-b714-9a90cbac93d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div[5]/div[2]/div/div[2]/div[3]/div[2]/span/time</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>time[title=&quot;6th May 2025 01:00:00&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>time</value>
+      <webElementGuid>6c04f24f-5cf8-493d-9d16-9f2151d24cf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>datetime</name>
+      <type>Main</type>
+      <value>2025-05-06T01:00:00+01:00</value>
+      <webElementGuid>98209eaf-875b-4755-853b-42ea0a759c4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>6th May 2025 01:00:00</value>
+      <webElementGuid>9235a51e-a1f6-4ffd-a57b-2b2536ee6a0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>6th May 2025</value>
+      <webElementGuid>d9bb8a91-505b-4c8c-9eb2-f9335544a4c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3&quot;]/div[2]/span[@class=&quot;font-weight-semi-bold&quot;]/time[1]</value>
+      <webElementGuid>e384921e-f81d-4b82-aea8-d29a8c9f583b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div[5]/div[2]/div/div[2]/div[3]/div[2]/span/time</value>
+      <webElementGuid>e37f239d-f388-4efc-9045-13e8b4e54c9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='6th May 2025']/parent::*</value>
+      <webElementGuid>7c11aa94-18f9-4f66-8f57-18f5162351f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span/time</value>
+      <webElementGuid>2f06f164-a3c5-4741-8bd5-5f8a8e16f3b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//time[@title = '6th May 2025 01:00:00' and (text() = '6th May 2025' or . = '6th May 2025')]</value>
+      <webElementGuid>a85dedaa-915c-458b-aa47-bb5eed95ea91</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

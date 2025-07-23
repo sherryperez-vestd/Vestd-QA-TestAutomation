@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_You can now selltrade your shares in the _581bc6</name>
+   <tag></tag>
+   <elementGuidId>98a03625-27af-4b66-b42c-2629e35557e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div[2]/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.mb-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d0a0a92a-b8af-4e1e-8ab7-76653ae7a87d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-0</value>
+      <webElementGuid>dffe0f55-150f-489d-a39c-2b315d26cd52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You can now sell/trade your shares in the secondary market, the sales window is open from 5th May 2025 to 6th May 2025. </value>
+      <webElementGuid>cd142794-3422-4455-b3ee-cc627b96ad43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;alert alert-action alert-lg&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;d-flex flex-column align-items-start&quot;]/div[@class=&quot;alert-content d-block&quot;]/p[@class=&quot;mb-0&quot;]</value>
+      <webElementGuid>ce1b8569-d937-41b8-88c7-9e78e547b98d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div[2]/div/p</value>
+      <webElementGuid>486509ce-6960-4604-b3bd-703b59fa62b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Equity'])[1]/following::p[1]</value>
+      <webElementGuid>1059d713-2f53-4c61-bbd2-7677349917bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My shares'])[1]/preceding::p[2]</value>
+      <webElementGuid>2585f826-fdf8-46d2-b082-f9769269c09c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='You can now sell/trade your shares in the secondary market, the sales window is open from']/parent::*</value>
+      <webElementGuid>87081e05-1cda-4878-9ddd-2b8b7d5f7f84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/p</value>
+      <webElementGuid>0cf5a31d-0f50-4cf7-9d4b-1ca5c76016fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'You can now sell/trade your shares in the secondary market, the sales window is open from 5th May 2025 to 6th May 2025. ' or . = 'You can now sell/trade your shares in the secondary market, the sales window is open from 5th May 2025 to 6th May 2025. ')]</value>
+      <webElementGuid>82d937dd-d7a8-41af-9d19-4ca014c6ed25</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

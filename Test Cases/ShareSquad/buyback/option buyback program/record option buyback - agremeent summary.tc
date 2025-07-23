@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>record option buyback - agremeent summary</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e89452b7-f25f-4191-b7bf-f115beb6d8c7</testCaseGuid>
-</TestCaseEntity>

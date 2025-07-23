@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>resignDirector w no ID check</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>a9782d9a-40df-42a6-9bbb-a5d3067bc95b</testCaseGuid>
-</TestCaseEntity>
