@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Keep current articles</name>
    <tag></tag>
-   <elementGuidId>1f0352ef-11ce-4a9f-9968-4771063568c7</elementGuidId>
+   <elementGuidId>ede21402-490e-4f0e-90f0-220bf1d84eb4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>d3cfe9e1-e554-465e-9d39-1f8045d37d2e</webElementGuid>
+      <webElementGuid>16f90d7f-e93c-44d7-8b4e-4a4a31d3f52a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>radio-control-stacked</value>
-      <webElementGuid>05df5c4b-53f9-4d9d-b1bf-223d758f8a77</webElementGuid>
+      <webElementGuid>e9db1594-d234-4f71-b5ef-b68045f09032</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Keep current articles</value>
-      <webElementGuid>49cf7ca2-bc5a-4e09-b7a2-99d56fed6621</webElementGuid>
+      <webElementGuid>0c9ceb7f-ba3e-4c69-93df-fa833eda0d9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]</value>
-      <webElementGuid>586696b1-6c66-4603-bedd-7a547f7da2d9</webElementGuid>
+      <webElementGuid>756dc8b9-7435-4aef-a7f8-aea3c3eaae3c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[2]/label</value>
-      <webElementGuid>0a8210b5-42aa-4d2a-85a3-89df79e4b895</webElementGuid>
+      <webElementGuid>bab1af21-fd72-451f-bcda-c6d992cdafda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[2]/label</value>
-      <webElementGuid>21ba025a-021d-4387-868b-64311fd04a27</webElementGuid>
+      <webElementGuid>180ddb7c-9ea2-4f0e-b1d5-f19f00cb4812</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Keep current articles' or . = 'Keep current articles')]</value>
-      <webElementGuid>7afd70d0-3d0a-48f2-a6fd-1fac65e7ba75</webElementGuid>
+      <webElementGuid>9fcc61b4-3746-430f-9985-8069e2ad0cd2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>create-demo-company</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>6b554d45-3f57-4f31-a719-ada389e4a9f0</testCaseGuid>
-</TestCaseEntity>

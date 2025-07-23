@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Do they want their cap table visible _5e6e02</name>
    <tag></tag>
-   <elementGuidId>a2b52ee8-1ab9-4d3b-bd35-ef71f2b15a36</elementGuidId>
+   <elementGuidId>9dc483b0-b047-4e06-8952-62daa161e70a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>e17bc0d5-ea03-4cb2-be2e-775bf33d2aad</webElementGuid>
+      <webElementGuid>593b5256-497a-45b6-b40a-52cbd4bd6c60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>a4c9746b-1108-473e-8af8-1a42c1807085</webElementGuid>
+      <webElementGuid>c51c7405-eb50-416e-95b2-3a9707afcbdc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>0404b247-9aab-409b-8e31-b99422fd2a7e</webElementGuid>
+      <webElementGuid>e8444dca-a713-4685-ae9d-3cdd1ded5e0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][cap_table][visible_to_shareholder]</value>
-      <webElementGuid>927a0f99-5a7b-4d6b-a6bb-2b0f6cee38a4</webElementGuid>
+      <webElementGuid>810f7338-db47-4ad5-963d-60d7cb9ccde2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>600d8079-db91-4697-a992-867ea705e133</webElementGuid>
+      <webElementGuid>1e40f72d-8eb5-46ac-b76d-bdbfebd37416</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>a3b236d1-3261-49c0-8d2e-098232530700</webElementGuid>
+      <webElementGuid>f192f510-de1c-42ae-9c6d-c4f8a8f1e0f6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='details[handover_info][cap_table][visible_to_shareholder]']</value>
-      <webElementGuid>39e36abd-3d2a-466c-b690-640d98c09ca5</webElementGuid>
+      <webElementGuid>c795aa7c-06f4-4742-80e3-e1ab9e377ac4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/div[3]/label/input</value>
-      <webElementGuid>1ae35fdd-41be-44ff-8512-29920c2b3c65</webElementGuid>
+      <webElementGuid>6dd77de7-1089-4a21-9abb-dd57840a8676</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[3]/label/input</value>
-      <webElementGuid>09ca78f7-8d86-4b70-8f7d-1442dd0d8bcf</webElementGuid>
+      <webElementGuid>82fdec75-f7e1-464c-b03a-fe963031fc80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'details[handover_info][cap_table][visible_to_shareholder]']</value>
-      <webElementGuid>c75e780e-d4fa-4aa8-9490-2eb5ff141176</webElementGuid>
+      <webElementGuid>4bdcc321-d0a6-4b72-8d08-79f6e93e1275</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

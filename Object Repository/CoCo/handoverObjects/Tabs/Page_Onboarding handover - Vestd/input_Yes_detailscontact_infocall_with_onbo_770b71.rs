@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Yes_detailscontact_infocall_with_onbo_770b71</name>
    <tag></tag>
-   <elementGuidId>b7c6f0fe-801b-423a-8d36-369762e65330</elementGuidId>
+   <elementGuidId>93b7678f-4e25-45f4-b925-57fc4a50fb42</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>38e3cac0-5387-4e8f-9316-c6253627cb64</webElementGuid>
+      <webElementGuid>ea267834-008b-46b1-b59d-f663d77a8097</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>5b5982f2-d83b-442c-bb94-9b84ab23e377</webElementGuid>
+      <webElementGuid>0c6e0314-9260-488a-a038-fe40b588a6c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>f1b6bf76-fd9e-4ccb-959b-115bce68377f</webElementGuid>
+      <webElementGuid>f0a58017-7252-4f6a-9a36-e7df730edea6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[contact_info][call_with_onboarding_contact_required_before_contacting_customer]</value>
-      <webElementGuid>f74851e4-04cf-42b2-aad8-b8e92e5eefcd</webElementGuid>
+      <webElementGuid>39716a6d-4b85-4208-a3f8-c66dfd818da7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>No</value>
-      <webElementGuid>e88796eb-ce4a-4799-af6d-2c1c2639fd8e</webElementGuid>
+      <webElementGuid>4474c421-6748-4b6f-a776-3ff5d1fb1c55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>29cb2127-b0ad-4c81-9d14-8d969fbc1b38</webElementGuid>
+      <webElementGuid>cd86b590-0085-484f-b9da-bb19dc5a86fd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@name='details[contact_info][call_with_onboarding_contact_required_before_contacting_customer]'])[2]</value>
-      <webElementGuid>40fd4399-7bc9-42c9-8470-b7e439f7db3e</webElementGuid>
+      <webElementGuid>190d3422-9804-4632-8c24-41a7dd3f75a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[8]/div[2]/label/input</value>
-      <webElementGuid>a19935da-23b4-4057-a5eb-dfbbc0926bd1</webElementGuid>
+      <webElementGuid>d642691b-3f40-4432-a045-a82e00acd81d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div[2]/label/input</value>
-      <webElementGuid>a581fec7-84d2-4806-bd06-3452cee79b51</webElementGuid>
+      <webElementGuid>8a7b8272-99a3-43de-9cab-b3f0b53f1005</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'details[contact_info][call_with_onboarding_contact_required_before_contacting_customer]']</value>
-      <webElementGuid>a90dceaf-f9a3-4e0e-9322-5026315d9c85</webElementGuid>
+      <webElementGuid>6cf77139-d262-42ad-aaf3-4c8126c17c69</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

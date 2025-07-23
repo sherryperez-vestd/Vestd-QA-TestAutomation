@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Comments</name>
    <tag></tag>
-   <elementGuidId>bca15fc5-1130-401f-9d21-1f71bc5fdedd</elementGuidId>
+   <elementGuidId>393abaa4-b6be-4e77-896e-35939c73a5fc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>be02f1de-050c-4f72-b121-2ebb5965d21e</webElementGuid>
+      <webElementGuid>abe91e3f-f20b-43b7-ac21-c0d0fc7a3795</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-group form-group--optional</value>
-      <webElementGuid>591a91cf-b97f-410c-bc93-c40d831f8a8f</webElementGuid>
+      <webElementGuid>1d9a3b6c-cee9-4075-a785-7312034acfce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Comments</value>
-      <webElementGuid>b313428b-ef8f-4f71-ae06-cf09ddda3967</webElementGuid>
+      <webElementGuid>52858ecd-2db4-4e7e-bb12-7a166a7ce877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group form-group--optional&quot;]</value>
-      <webElementGuid>f3edfa69-a3b9-4f5d-bb2c-3de34f699bdc</webElementGuid>
+      <webElementGuid>e2a60be3-8860-40fc-9a05-ad91fff9085b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[11]/div</value>
-      <webElementGuid>b9b94c70-728d-44b7-bb84-224328eb6b3d</webElementGuid>
+      <webElementGuid>a5dc0ad4-4204-48e1-a0e3-53101c746f4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional comments'])[1]/following::div[1]</value>
-      <webElementGuid>42194f47-1d32-4e4a-bc54-963cc0d8af8a</webElementGuid>
+      <webElementGuid>b3bcc145-e97c-4b85-bf79-db83318ce658</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save as draft'])[1]/preceding::div[1]</value>
-      <webElementGuid>d123bcb4-4031-4e0b-86ee-8372677a0970</webElementGuid>
+      <webElementGuid>fac983cd-b959-4f9b-a5a9-60ae1751971c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[11]/div</value>
-      <webElementGuid>59b46d96-7b1c-4a1f-9321-0a6a0788a17c</webElementGuid>
+      <webElementGuid>24ede505-24e5-4a57-a89f-0f499004a574</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Comments' or . = 'Comments')]</value>
-      <webElementGuid>c5f6e712-223a-45a8-bfa7-b160d37f22c9</webElementGuid>
+      <webElementGuid>ca9d37cb-8afd-458a-9316-e6a1c272a746</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

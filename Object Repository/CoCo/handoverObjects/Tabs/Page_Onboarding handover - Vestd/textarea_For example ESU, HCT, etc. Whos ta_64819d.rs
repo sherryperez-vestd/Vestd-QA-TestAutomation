@@ -3,7 +3,7 @@
    <description></description>
    <name>textarea_For example ESU, HCT, etc. Whos ta_64819d</name>
    <tag></tag>
-   <elementGuidId>0c07dab9-03b4-4dcb-bd9d-c0c24f7e0812</elementGuidId>
+   <elementGuidId>d38f59fd-c786-4609-aa48-06146517d2db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>60d8f601-05de-44c1-8a30-51537d1c2b0b</webElementGuid>
+      <webElementGuid>49ff1b09-9d43-4277-b75c-47851cd8f15a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>268b2561-f38c-4306-a592-861101cdcf0a</webElementGuid>
+      <webElementGuid>ad38ac56-af07-401e-92c4-8276801757ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>id</name>
       <type>Main</type>
       <value>cP47lLTUML37FsRK</value>
-      <webElementGuid>760bc0be-14d2-4a72-a970-e5c8bad998dc</webElementGuid>
+      <webElementGuid>7c3269cc-dc15-41b8-b15f-2cc1f931e232</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][billing][notes]</value>
-      <webElementGuid>5970f525-6830-4127-8118-52ca7c7ca0a3</webElementGuid>
+      <webElementGuid>2b78fad1-e2d5-47a9-9c02-b721ca45f1f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cP47lLTUML37FsRK&quot;)</value>
-      <webElementGuid>a8798c24-62d0-4315-8c64-2d0b6d97d8aa</webElementGuid>
+      <webElementGuid>696b95fe-265e-4a98-863f-af7e912b7cc2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='cP47lLTUML37FsRK']</value>
-      <webElementGuid>f3330cbc-84df-4152-a623-8f8731c8d61e</webElementGuid>
+      <webElementGuid>a62a7a2e-c2ba-44b3-837e-c8b9a46d2979</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[5]/div/div[4]/div/textarea</value>
-      <webElementGuid>b86bc1e9-74f9-485d-9415-ac0650a81135</webElementGuid>
+      <webElementGuid>095ba85f-90a1-49f0-9019-1dcaba300406</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[4]/div/textarea</value>
-      <webElementGuid>62c5237e-d26f-46fb-954c-00c950126eaa</webElementGuid>
+      <webElementGuid>0e4194fd-a1fc-43d4-9873-3f7769f7baee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@id = 'cP47lLTUML37FsRK' and @name = 'details[handover_info][billing][notes]']</value>
-      <webElementGuid>696b3354-9333-4462-afe3-a6548124f998</webElementGuid>
+      <webElementGuid>d261dfd2-eb09-4c98-a926-e02419f2ebb0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

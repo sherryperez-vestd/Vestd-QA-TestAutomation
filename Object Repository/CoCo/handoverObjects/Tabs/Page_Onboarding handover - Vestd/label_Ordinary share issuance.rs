@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Ordinary share issuance</name>
    <tag></tag>
-   <elementGuidId>266ef21a-a3d6-4f50-a853-31319a136818</elementGuidId>
+   <elementGuidId>97d0f30f-8936-4298-83ac-928a0813d31e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>1897f11c-8d68-485f-8401-19f700791a4c</webElementGuid>
+      <webElementGuid>5516986d-bcc0-4d2c-9400-973a40a75038</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ordinary share issuance</value>
-      <webElementGuid>271d3762-dabb-48b9-8f26-815fb6ffb60f</webElementGuid>
+      <webElementGuid>ce1162b2-6e88-48f9-af3a-9f0bdb36368c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/div[@class=&quot;left-indent width-500&quot;]/label[1]</value>
-      <webElementGuid>68331b0f-1028-4c02-95d5-864c7931c4ea</webElementGuid>
+      <webElementGuid>c6dc56d1-c031-40fd-8917-bc4b7a5785c4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/div[15]/label</value>
-      <webElementGuid>a6894e45-a3d5-43c1-8612-4331e9154abc</webElementGuid>
+      <webElementGuid>a4270dc5-80b3-4420-bdb0-451c589f487e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Ordinary share issuance']/parent::*</value>
-      <webElementGuid>6ebfdb06-a652-4979-9bf0-e3a749a7b6c4</webElementGuid>
+      <webElementGuid>b8f358b1-3e5c-4400-89b4-7d15565be524</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[15]/label</value>
-      <webElementGuid>a16c8c10-6c2c-43cd-b0ad-e2eb93e4876e</webElementGuid>
+      <webElementGuid>f8aef61e-599c-4272-9511-fa5b94220b9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Ordinary share issuance' or . = 'Ordinary share issuance')]</value>
-      <webElementGuid>9edb8ab7-458b-46d8-bba8-4beacc4ef3a2</webElementGuid>
+      <webElementGuid>dde3aae9-c24f-4c79-b8f6-78bf9d6ac06e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

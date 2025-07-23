@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Do they plan to use the platforms Co-_4c484d</name>
    <tag></tag>
-   <elementGuidId>9757924d-43c4-4cda-af96-a5c3d1414199</elementGuidId>
+   <elementGuidId>bd0ef09e-039f-4598-a617-3e86cf3702e3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>619f6fa7-1310-4c89-b100-1499638758de</webElementGuid>
+      <webElementGuid>a9b7689d-c208-41e7-aa75-486e22b8bf2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>9cc7fb00-0542-4340-8c1c-c0c9a7bc65de</webElementGuid>
+      <webElementGuid>2e3ef7c5-3680-4884-bf1e-f1e3f085cc2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>638ecc8c-ffa2-4e0a-a2f1-91c5ecbcff54</webElementGuid>
+      <webElementGuid>6f670dcb-afc9-4ea9-baa9-74af94ad20f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][cap_table][co_sec_functionality]</value>
-      <webElementGuid>830263c9-f251-41ea-a0b2-97d2b64fbba3</webElementGuid>
+      <webElementGuid>c3799515-61ae-48cf-a41f-03211da61dfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>e551d61d-f3da-401c-a4a4-19c07b9746d4</webElementGuid>
+      <webElementGuid>ff82927e-af8d-4c6e-851d-8bd5a9d0fcd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>974a3232-65cc-4927-847a-fa5b102008a9</webElementGuid>
+      <webElementGuid>442a5c22-2074-4aac-93ca-8aac1b2a2cd3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='details[handover_info][cap_table][co_sec_functionality]']</value>
-      <webElementGuid>fff40bc1-1983-49b7-82b3-233f608abe2c</webElementGuid>
+      <webElementGuid>af6461b2-82d4-4687-8b45-b1d6f405c84e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/div[8]/label/input</value>
-      <webElementGuid>ea2696fa-a977-489a-b8c1-5f7d03d94419</webElementGuid>
+      <webElementGuid>726eaf0d-4ce5-4710-aadb-2de69332c33b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[8]/label/input</value>
-      <webElementGuid>2c4152cf-ec1e-4404-b1ec-9a3b4734704d</webElementGuid>
+      <webElementGuid>652c5e05-a07e-4ae4-8ede-ee17c2a4c7f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'details[handover_info][cap_table][co_sec_functionality]']</value>
-      <webElementGuid>20799fbc-140b-4b70-919a-06f142bbe21c</webElementGuid>
+      <webElementGuid>5f559c73-013d-4764-927d-fd3286f02305</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

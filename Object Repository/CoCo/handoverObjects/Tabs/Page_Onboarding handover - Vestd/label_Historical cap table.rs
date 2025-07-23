@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Historical cap table</name>
    <tag></tag>
-   <elementGuidId>13aae6be-5bbf-4de9-aa12-253423ac2e79</elementGuidId>
+   <elementGuidId>604d928e-372c-4a81-8dc5-9a004c6efcd3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>349c5157-b6cc-465d-8d0b-3c7b0b2892e2</webElementGuid>
+      <webElementGuid>6bec2fd3-55c4-4324-8699-1aa8faa23cf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Historical cap table?</value>
-      <webElementGuid>ab50fab4-78b3-4b87-b3d8-5add60dcd7b7</webElementGuid>
+      <webElementGuid>574fd6ef-e5c9-4639-a7ab-8da132c7962e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[5]/div[@class=&quot;width-500&quot;]/label[1]</value>
-      <webElementGuid>6f0149a4-0d69-429a-9952-6f63d74dcfe9</webElementGuid>
+      <webElementGuid>98eae68e-8b49-4a17-81f8-47e14eef72c2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[5]/div/label</value>
-      <webElementGuid>33e5e69c-6e52-4ed1-ab2c-611c28b4d8a9</webElementGuid>
+      <webElementGuid>37fbb787-e2e4-4331-80a8-fefa787a7497</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Historical cap table?']/parent::*</value>
-      <webElementGuid>8b694f10-8fda-4c77-8286-588c7380dc36</webElementGuid>
+      <webElementGuid>cbce2258-32da-42af-920d-70170f3812b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/label</value>
-      <webElementGuid>6ae40417-4500-403a-866b-b7a7fab2f696</webElementGuid>
+      <webElementGuid>03b5633d-5544-4ce7-ba7d-f742a07fe620</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Historical cap table?' or . = 'Historical cap table?')]</value>
-      <webElementGuid>a97aca98-0428-40ce-bd08-08eaf1fe42c6</webElementGuid>
+      <webElementGuid>a7ceb760-8176-42fb-a1a5-04c7ff49927b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

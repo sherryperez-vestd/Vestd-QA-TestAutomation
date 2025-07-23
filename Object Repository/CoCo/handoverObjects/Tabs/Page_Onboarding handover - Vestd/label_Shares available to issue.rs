@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Shares available to issue</name>
    <tag></tag>
-   <elementGuidId>e81a5499-84bf-4572-a94f-7e2d22201d20</elementGuidId>
+   <elementGuidId>d71b3e9e-6bb9-42b3-942d-4e3d9443538a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>b1f7db41-fe23-4701-a296-5e969abcb8a7</webElementGuid>
+      <webElementGuid>c4e5f381-158c-48cc-9efa-c3698eb40a03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>Fq5fPjZx5IVYdqYp</value>
-      <webElementGuid>de1f0d8f-a8e6-48e9-9a0c-ce6ff4f5e600</webElementGuid>
+      <webElementGuid>49602d2a-0d6e-4d20-8cde-0e9a61e9e60a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Shares available to issue?</value>
-      <webElementGuid>a054dc47-5c3d-4d4f-aafb-40a111310ab3</webElementGuid>
+      <webElementGuid>c7ff0ea9-619b-4db2-aaab-3b3eb985b002</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group form-group--optional&quot;]/label[1]</value>
-      <webElementGuid>144b6b86-6542-4d4d-8461-1c18132f99d8</webElementGuid>
+      <webElementGuid>37dc86c4-2a4d-479e-8954-9c1983f6b9a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[8]/label</value>
-      <webElementGuid>4ca274f1-04d8-4e94-b789-1171448d4bad</webElementGuid>
+      <webElementGuid>dbac1b37-dcde-4df4-9ba0-85c03546df40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Existing authorisation status'])[1]/following::label[2]</value>
-      <webElementGuid>89097b4d-3990-45db-97d5-f2c275c29220</webElementGuid>
+      <webElementGuid>b0076f6b-b8e8-46d0-b614-360e95fa2c07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Corporate governance'])[1]/preceding::label[2]</value>
-      <webElementGuid>362114b9-daad-4b25-8ae0-6070c08280b7</webElementGuid>
+      <webElementGuid>c0446c7c-5592-4fa6-8505-cbb3b0a248f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Shares available to issue?']/parent::*</value>
-      <webElementGuid>370651c7-1d54-4359-aa53-b3cd1f07d61d</webElementGuid>
+      <webElementGuid>c236ae62-aed8-44ca-b846-6007409a53f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[8]/label</value>
-      <webElementGuid>739f9ff9-821d-49c5-8529-2605d7168292</webElementGuid>
+      <webElementGuid>596f76ad-595c-48dd-829d-286da790c3c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Shares available to issue?' or . = 'Shares available to issue?')]</value>
-      <webElementGuid>21f1f159-f9c1-4e25-b9b6-be8645909a54</webElementGuid>
+      <webElementGuid>6059d5e0-528d-4156-9bb5-02f033b34eac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Yes_detailshandover_infoarticles_and__1b4d47</name>
    <tag></tag>
-   <elementGuidId>4a4cdb0a-675c-410f-a23e-0c15edcb52e6</elementGuidId>
+   <elementGuidId>1a965fe8-ea26-4df2-be57-5afa2b94c026</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>688792f1-b4c5-4cbc-b65e-dd1c77fc178a</webElementGuid>
+      <webElementGuid>7b485a74-ffda-4ed8-a65d-cd4b153f7c34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>454c952d-002d-4003-b98d-ffd30c619495</webElementGuid>
+      <webElementGuid>b4f5adfc-2e39-476a-ac49-42b6ece80614</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>b628d5c7-02b2-43ec-a8f4-a5db251b091c</webElementGuid>
+      <webElementGuid>8a66cdb5-615b-4217-9f61-c29eb76b588c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][articles_and_governance][exercisable_drag_and_tag]</value>
-      <webElementGuid>e8813cde-d74e-4631-82d7-63767b2a7081</webElementGuid>
+      <webElementGuid>8556caeb-ab24-4ab2-8c87-13a91cfe7bc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>no_existing_articles</value>
-      <webElementGuid>eb8424e1-aefd-4b45-a410-6156a5c43efc</webElementGuid>
+      <webElementGuid>5d877770-614b-495f-99b0-5898c9b3ea24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;left-indent width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>9ae94c16-8ca4-4f8a-afbd-c66f1257ccb3</webElementGuid>
+      <webElementGuid>094f88e7-669c-48d5-8eec-edb93952ff4f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@name='details[handover_info][articles_and_governance][exercisable_drag_and_tag]'])[2]</value>
-      <webElementGuid>97fee99c-4c34-4e22-b1ed-fd1414989de1</webElementGuid>
+      <webElementGuid>2604f5ae-a711-42c5-b740-5dafceff003f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[3]/div[3]/label/input</value>
-      <webElementGuid>77d4cfba-a3ee-4e2f-8580-d19a3a8ba5f7</webElementGuid>
+      <webElementGuid>f3cde355-b999-4a93-8af5-f13a805ff2ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[3]/label/input</value>
-      <webElementGuid>7757c930-dcc8-4345-a6ad-65d0514cfaa2</webElementGuid>
+      <webElementGuid>71cf5272-632c-4eb8-b5dd-0140d6f7646c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'details[handover_info][articles_and_governance][exercisable_drag_and_tag]']</value>
-      <webElementGuid>84fce159-a4cf-4c50-92a1-768e28055f7a</webElementGuid>
+      <webElementGuid>53a4873b-d4b6-452b-a7a1-6923f896ec68</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

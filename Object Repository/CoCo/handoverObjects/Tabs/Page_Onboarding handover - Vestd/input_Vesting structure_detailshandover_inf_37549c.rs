@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Vesting structure_detailshandover_inf_37549c</name>
    <tag></tag>
-   <elementGuidId>371b75b3-e217-4ed3-bbf3-b606b327ddaf</elementGuidId>
+   <elementGuidId>7e5f6f4e-5b94-43cd-875f-ec1f2ea18af9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8959b630-5b98-40a5-bb5d-a4336bd48bb3</webElementGuid>
+      <webElementGuid>c9c8b191-e2d1-45a2-b46d-e5433ef69001</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>c7a7090f-d726-4164-9b3b-e7f506f89a57</webElementGuid>
+      <webElementGuid>dfed231b-b4a7-4aa1-b7fc-d2c290b94737</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>622de875-3dc1-4126-9d09-397ecd569e70</webElementGuid>
+      <webElementGuid>04537250-ec50-47de-878b-68731e68ee0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>GYq3owkVTmewCeqB</value>
-      <webElementGuid>137b7b71-d612-480e-9239-382f07c65af1</webElementGuid>
+      <webElementGuid>ac673660-81bd-4de2-ad52-cb3263ec55a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][existing_scheme_upload][vesting_structure]</value>
-      <webElementGuid>855c5829-1311-47dc-9ffb-0d9423d94043</webElementGuid>
+      <webElementGuid>162ba22c-bbd0-4e38-b308-5368dd25e4ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;GYq3owkVTmewCeqB&quot;)</value>
-      <webElementGuid>b3f3dbdb-753e-48a8-8316-9a1f69b7ed48</webElementGuid>
+      <webElementGuid>c9432216-4233-4f88-b8d3-290fa11cbd2a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='GYq3owkVTmewCeqB']</value>
-      <webElementGuid>78872747-021a-45ad-b0b1-bc1f005dde61</webElementGuid>
+      <webElementGuid>72853d1b-72ff-488d-963b-d6fe568c11bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[2]/div/div[5]/div/input</value>
-      <webElementGuid>a42ea6c0-4633-4c45-bad7-2af69cc2a005</webElementGuid>
+      <webElementGuid>5b0e5feb-3c5c-4852-8e1c-27d0852c2f33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/input</value>
-      <webElementGuid>e8918443-1a38-46ac-b624-441a05e68703</webElementGuid>
+      <webElementGuid>73bb4fa1-bb48-4edb-9c03-c3574b3829b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'GYq3owkVTmewCeqB' and @name = 'details[handover_info][existing_scheme_upload][vesting_structure]']</value>
-      <webElementGuid>b65bb879-f44c-4e08-bee6-c4ce3d4b0cc2</webElementGuid>
+      <webElementGuid>62ba1c7b-83dc-47ae-81ef-5737becc54a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

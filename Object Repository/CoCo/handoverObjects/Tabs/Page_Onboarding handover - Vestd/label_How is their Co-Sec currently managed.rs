@@ -3,7 +3,7 @@
    <description></description>
    <name>label_How is their Co-Sec currently managed</name>
    <tag></tag>
-   <elementGuidId>f334b850-b822-4945-b099-374b285e1860</elementGuidId>
+   <elementGuidId>97e8c65c-a1df-49bd-bc84-2f5cfa023475</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>93048198-22f4-4df2-9138-315d5eb5226d</webElementGuid>
+      <webElementGuid>fb2ce64c-3857-4a99-96f5-b40bfb303c86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>VvGwh9F1HSYeLSB7</value>
-      <webElementGuid>d5e44a0d-cf08-4c9c-9283-92451e6203cc</webElementGuid>
+      <webElementGuid>64edb4d3-5e3a-4476-b255-e2f4edf2479d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>How is their Co-Sec currently managed?</value>
-      <webElementGuid>441027b0-675a-4043-be0a-d4164e78314b</webElementGuid>
+      <webElementGuid>84361027-65fd-4a1b-ba30-3065d5717a68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group form-group--optional&quot;]/label[1]</value>
-      <webElementGuid>b696e439-0a08-4955-a66e-c97045f86f66</webElementGuid>
+      <webElementGuid>04755f7a-2e0c-452f-a17e-6c0b32d4b76d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[10]/div[3]/label</value>
-      <webElementGuid>5ac031d6-643b-4cd2-9f7f-e48bfc483f05</webElementGuid>
+      <webElementGuid>5f7d121e-ae41-4d6a-a431-cf5e35ee3db1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional comments'])[1]/preceding::label[2]</value>
-      <webElementGuid>25a031d9-aded-402e-a636-81a1b45cf0d0</webElementGuid>
+      <webElementGuid>227093a2-ea6c-49c0-b85a-0e1dcaa1fe0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='How is their Co-Sec currently managed?']/parent::*</value>
-      <webElementGuid>039d3a17-7720-4354-9ba6-ce6369e4db98</webElementGuid>
+      <webElementGuid>deff3545-6733-481f-8aaa-4f455e1644fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div[3]/label</value>
-      <webElementGuid>d6599ab6-6d54-45cc-bebe-9d19e95e4bc6</webElementGuid>
+      <webElementGuid>34d34377-d60d-4d08-a353-da585606e125</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'How is their Co-Sec currently managed?' or . = 'How is their Co-Sec currently managed?')]</value>
-      <webElementGuid>cca94b0f-aeb5-45bb-a6a5-397fc1eb0a0c</webElementGuid>
+      <webElementGuid>feea0cde-7b94-48e1-8389-007ff668b075</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

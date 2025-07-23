@@ -3,7 +3,7 @@
    <description></description>
    <name>textarea_Reason_detailshandover_infocap_tab_0ee329</name>
    <tag></tag>
-   <elementGuidId>b1b3ff42-b08e-4075-85c7-528674e7d1d1</elementGuidId>
+   <elementGuidId>9ca8d2f6-4a8b-4cb7-8b0e-016a7bd986ed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>5d096f78-9412-41f7-898b-2cc9e6d5b8be</webElementGuid>
+      <webElementGuid>326957f4-362d-4031-930f-d10437fbeb7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>369b3150-ca52-4f85-96c9-9bacfbcf1c26</webElementGuid>
+      <webElementGuid>76578b8b-52e0-4631-b647-a3fd3eb46be8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>id</name>
       <type>Main</type>
       <value>ooUVy6v7YE5bFn1h</value>
-      <webElementGuid>03e42844-5542-4da9-b9b1-f8c39408a105</webElementGuid>
+      <webElementGuid>193ed650-cfca-4d74-b3a7-a02869c074b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][cap_table][reason_for_disabling_shareholder_management]</value>
-      <webElementGuid>e527d6b2-951d-4c04-a5df-0dc86c2b94fc</webElementGuid>
+      <webElementGuid>ccdc6a27-829b-4db1-8bd2-d002e6a77c97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ooUVy6v7YE5bFn1h&quot;)</value>
-      <webElementGuid>a3f3b563-b238-4ff6-a643-73ba8c0b4095</webElementGuid>
+      <webElementGuid>5aa9b606-fa03-40d2-9b2c-3bd243bdb5de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='ooUVy6v7YE5bFn1h']</value>
-      <webElementGuid>d204c508-cc01-45c5-ae4a-d63cd6449791</webElementGuid>
+      <webElementGuid>0a2fbd3c-83e9-40d7-8a1b-6d7eb3fb224d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/div[12]/div/textarea</value>
-      <webElementGuid>4675a772-6e5f-4f7c-892a-c63826f58831</webElementGuid>
+      <webElementGuid>3a0f21c5-027f-4883-8765-25bcf52e49c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[12]/div/textarea</value>
-      <webElementGuid>14a589ac-d1a9-48ce-a560-ea525ad39e22</webElementGuid>
+      <webElementGuid>4f2da0f7-04a2-4bde-b7df-e0eb3fb09f4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@id = 'ooUVy6v7YE5bFn1h' and @name = 'details[handover_info][cap_table][reason_for_disabling_shareholder_management]']</value>
-      <webElementGuid>293e06e0-7963-4622-8dec-ddcea9e4af57</webElementGuid>
+      <webElementGuid>4c126e70-ff72-4816-b222-8010fdab8862</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

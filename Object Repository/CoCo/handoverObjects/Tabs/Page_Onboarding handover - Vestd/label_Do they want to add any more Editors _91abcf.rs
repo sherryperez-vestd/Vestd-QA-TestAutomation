@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Do they want to add any more Editors _91abcf</name>
    <tag></tag>
-   <elementGuidId>b1f6110a-c7b0-4c30-ace6-ea93c5b89dfb</elementGuidId>
+   <elementGuidId>b431fce0-fca4-48d3-bdb8-8d56bb65c4b8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>165ef2bc-888d-424e-8a75-fc1bd246895f</webElementGuid>
+      <webElementGuid>9b1bcd9b-a813-47b4-8486-f634d1ad4146</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>VBUPtponX4j5sXGV</value>
-      <webElementGuid>e28c5e5b-6af5-41b3-9863-476c404f7212</webElementGuid>
+      <webElementGuid>93cb587a-1161-4ed5-b7d9-a82aa620e644</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Do they want to add any more Editors (Admin users), or read only Directors/Shareholders?</value>
-      <webElementGuid>64b12db6-ee1e-4b54-9d3d-d0e66a2f27f4</webElementGuid>
+      <webElementGuid>4e33314a-426e-46ea-bbc6-67cd0ba0c5d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group form-group--optional&quot;]/label[1]</value>
-      <webElementGuid>cc591e4f-5cfc-4759-8488-28b6ab8847a1</webElementGuid>
+      <webElementGuid>ea96c0da-920f-4c51-b1a7-5b6ad27a8766</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[10]/div[2]/label</value>
-      <webElementGuid>ff7ecc50-e6b6-4ef9-9a1d-97305ae3bccb</webElementGuid>
+      <webElementGuid>793a24ed-5d6d-4cd4-9c0b-99f8170543dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AML document'])[1]/following::label[2]</value>
-      <webElementGuid>599f1b26-aa4c-4ee5-b6c3-a241c1bc421b</webElementGuid>
+      <webElementGuid>2338c9a6-26eb-4c86-b37a-9c8ecb9417a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Do they want to add any more Editors (Admin users), or read only Directors/Shareholders?']/parent::*</value>
-      <webElementGuid>92b4f508-68de-4295-bbc7-eccb94f50273</webElementGuid>
+      <webElementGuid>e97f0bbd-d3f1-4f96-a3ff-46359a27b850</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div[2]/label</value>
-      <webElementGuid>81d351a9-d8df-4b40-b4ec-2d4c5e82f78e</webElementGuid>
+      <webElementGuid>6b881924-11ee-4588-a2a2-f720ddf47b70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Do they want to add any more Editors (Admin users), or read only Directors/Shareholders?' or . = 'Do they want to add any more Editors (Admin users), or read only Directors/Shareholders?')]</value>
-      <webElementGuid>2c9668e1-d327-4938-ad06-e23b0c9dbf27</webElementGuid>
+      <webElementGuid>0af063b8-1a9f-416f-9c43-f18692691792</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

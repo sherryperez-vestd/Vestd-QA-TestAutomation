@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Ordinary share issuance_detailshandov_648d57</name>
    <tag></tag>
-   <elementGuidId>d030455f-2533-4835-9962-59d634c318c3</elementGuidId>
+   <elementGuidId>57079198-e0d3-4066-a56b-617f757cfc86</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>932e105c-f8d1-4317-8d16-bc5036ba3fe7</webElementGuid>
+      <webElementGuid>697f8448-93f3-4188-a3ee-698d4040e4c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>0bdb305c-531e-478c-b337-6558b9172700</webElementGuid>
+      <webElementGuid>05143e08-c0e2-4a59-84e1-b8da397c54a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>267fb784-4318-4276-b16f-3437379ea23e</webElementGuid>
+      <webElementGuid>2025b03c-ffd3-4057-9596-20c4a71484f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][ordinary_share_issuance][checkbox]</value>
-      <webElementGuid>199177a2-fb6c-43a4-a04f-3332f72d1344</webElementGuid>
+      <webElementGuid>cb0cdd5a-722e-4aff-bfc6-e040b02917f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>value</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>1a200d6e-692d-4a2a-8570-ae8ae3a512dd</webElementGuid>
+      <webElementGuid>4291d4c8-a090-414c-bb6a-808dd611346c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/div[@class=&quot;left-indent width-500&quot;]/div[@class=&quot;form-group mb-3&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;font-weight-normal&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>a7998802-9c96-470a-8b7b-b6266db0a480</webElementGuid>
+      <webElementGuid>fa5eb5d7-c0ca-41a0-8009-b02b950500d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='details[handover_info][ordinary_share_issuance][checkbox]']</value>
-      <webElementGuid>70700b8c-5077-4b31-908c-6367244a8f3b</webElementGuid>
+      <webElementGuid>40f3008b-38b3-4e5b-8c86-fbf2b619bd6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/div[15]/div/div/label/input</value>
-      <webElementGuid>02a07472-8a68-40b8-aa50-6843ef50b886</webElementGuid>
+      <webElementGuid>a698fad1-5a09-4112-95be-0830731ea71f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[15]/div/div/label/input</value>
-      <webElementGuid>acb2f7c5-3741-4bb3-9fd3-c4641beda59f</webElementGuid>
+      <webElementGuid>47a15614-4bcc-4d8c-8956-ff4110c2f73d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @name = 'details[handover_info][ordinary_share_issuance][checkbox]']</value>
-      <webElementGuid>361efc87-a5ae-40e0-8771-9c77c4d9b1a9</webElementGuid>
+      <webElementGuid>d9cee919-fc32-4943-8244-6b16fd2244a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

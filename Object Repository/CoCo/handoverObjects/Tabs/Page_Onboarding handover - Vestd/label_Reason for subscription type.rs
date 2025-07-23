@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Reason for subscription type</name>
    <tag></tag>
-   <elementGuidId>e20ad7c0-9083-4819-9403-078a3e5b147e</elementGuidId>
+   <elementGuidId>9597d767-3945-41c1-ae1f-92a0ddff1d9c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>4d2889a8-8190-472a-8606-2c579104fb13</webElementGuid>
+      <webElementGuid>f01a1d25-7b67-467c-9e98-60e71b9887ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>vc7gki6x51SGmNL6</value>
-      <webElementGuid>de29d8fa-6dfa-4978-9e71-44009f112af4</webElementGuid>
+      <webElementGuid>bcf55dc1-a7a6-4272-8949-974f6ca3e598</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Reason for subscription type</value>
-      <webElementGuid>27043eea-d65f-479a-ad1a-3b5b328826c0</webElementGuid>
+      <webElementGuid>774685c6-454e-497d-b7ac-08456b87c030</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[5]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group form-group--optional&quot;]/label[1]</value>
-      <webElementGuid>1c183f66-042e-4756-a580-74057753b340</webElementGuid>
+      <webElementGuid>2f867ba5-29ba-46c6-b609-acf16ed3ab3e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[5]/div/div[6]/label</value>
-      <webElementGuid>454addff-9cfa-4109-907b-498fbd84407a</webElementGuid>
+      <webElementGuid>21c1f472-7d21-435c-8a63-86dc1878d674</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Reason for subscription type']/parent::*</value>
-      <webElementGuid>40c46daa-75a0-44a5-9eb5-3166cf68e5b4</webElementGuid>
+      <webElementGuid>d9b5b200-f57c-4aa5-88af-ff86847b59f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[6]/label</value>
-      <webElementGuid>d89956a1-fe5c-462c-9e64-52dfdbb511a0</webElementGuid>
+      <webElementGuid>f1ff993b-03f2-487c-a5e9-06429a522a74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Reason for subscription type' or . = 'Reason for subscription type')]</value>
-      <webElementGuid>fda31272-e5d7-47d4-ade7-cccabe3e46d9</webElementGuid>
+      <webElementGuid>0dd2d095-c69d-421b-bc7f-e61d7ff2271c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

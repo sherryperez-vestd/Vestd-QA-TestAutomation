@@ -3,7 +3,7 @@
    <description></description>
    <name>span_No, Onboarding need to take payment</name>
    <tag></tag>
-   <elementGuidId>792b9dd2-93a6-44e1-9d0f-8132be3d9a70</elementGuidId>
+   <elementGuidId>045badd9-b019-4c85-8158-8c8f5fe27ba6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>41134100-97e0-4c57-9db2-19b53b6c68e9</webElementGuid>
+      <webElementGuid>8f9d8017-fb0a-4fee-be03-a3fe1b068bc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>No, Onboarding need to take payment</value>
-      <webElementGuid>9f89c6d3-6799-46a0-b801-f5076f45d181</webElementGuid>
+      <webElementGuid>3385b1dd-7d68-4a05-a397-24a5a7716e04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[5]/div[@class=&quot;width-500&quot;]/div[@class=&quot;left-indent width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/span[1]</value>
-      <webElementGuid>b7439b2e-7f01-4f67-bd3b-da7c08c1db77</webElementGuid>
+      <webElementGuid>bdc2895a-2d8d-4310-a480-07843689e1ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[5]/div/div[4]/div[3]/label/span</value>
-      <webElementGuid>b09eb744-07ec-446a-a219-84f3a419b508</webElementGuid>
+      <webElementGuid>7afc5000-d2e9-4bdf-9617-6760ed549f1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='No, Onboarding need to take payment']/parent::*</value>
-      <webElementGuid>25ceabfa-991c-477a-bf75-e16a3f3531cd</webElementGuid>
+      <webElementGuid>6b5cf8c3-31f7-4453-83b3-2a2026849220</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[3]/label/span</value>
-      <webElementGuid>eeefd45e-95ba-40ce-916d-dbab4341984a</webElementGuid>
+      <webElementGuid>dd6a0117-3eff-4cf9-ae7d-6e5b7efc9a97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'No, Onboarding need to take payment' or . = 'No, Onboarding need to take payment')]</value>
-      <webElementGuid>02eb7fc8-9d9b-45fa-93ff-bf0c6544aac5</webElementGuid>
+      <webElementGuid>82c95f3d-4a64-4db8-86b3-644c58ffb93d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

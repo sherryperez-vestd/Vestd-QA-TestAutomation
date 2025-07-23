@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Stock transfers</name>
    <tag></tag>
-   <elementGuidId>7c5d7389-6c12-48bf-9d5d-d4415444ce62</elementGuidId>
+   <elementGuidId>013310f4-d594-45e5-8880-c72661c718df</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>6855cee8-3c33-4878-aca9-3391a5b05487</webElementGuid>
+      <webElementGuid>91cb500b-cdee-4906-9387-feef3af4a789</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Stock transfers</value>
-      <webElementGuid>ec14695e-07ba-44c5-8c53-c63722f6a951</webElementGuid>
+      <webElementGuid>98687602-46ae-4f3e-9b5e-ccf48bb5d4f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/div[@class=&quot;left-indent width-500&quot;]/label[2]</value>
-      <webElementGuid>d972caa4-9729-432d-b13e-c9bf6838f45a</webElementGuid>
+      <webElementGuid>2422c48b-d359-4804-b091-50810348089c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/div[15]/label[2]</value>
-      <webElementGuid>2d2a12b3-dbfa-4d7d-9b75-7fa32088a559</webElementGuid>
+      <webElementGuid>00ed6a7d-4f63-4e11-a8e5-e89209812cce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[15]/label[2]</value>
-      <webElementGuid>9649fdf4-10a3-496b-b181-fdd06fb0b4c3</webElementGuid>
+      <webElementGuid>bc26e1dd-f59c-4c51-8e0e-120066871cc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +63,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Stock transfers' or . = 'Stock transfers')]</value>
-      <webElementGuid>b7f76a0f-5787-40ae-8859-2cf5b9228362</webElementGuid>
+      <webElementGuid>169d5ad3-6db5-418a-bff0-7f35568f52ca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

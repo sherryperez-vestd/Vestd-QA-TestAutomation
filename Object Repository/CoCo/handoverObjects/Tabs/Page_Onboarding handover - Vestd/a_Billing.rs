@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Billing</name>
    <tag></tag>
-   <elementGuidId>761e03a7-094c-4adf-a4c4-761a387ff253</elementGuidId>
+   <elementGuidId>4c753bfa-e83f-47f1-a291-e62dd40a7f5d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6a9e8cfc-3bc7-4d30-844a-50420f9eb629</webElementGuid>
+      <webElementGuid>a673598a-03e5-4430-a5ea-291b999a86eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>72e0a122-3357-4f8c-add4-f31ed8c7a588</webElementGuid>
+      <webElementGuid>2cc3dce9-e59f-4f68-8a20-decc668fc557</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>523b3540-4857-432c-8bf4-0b19b72567d8</webElementGuid>
+      <webElementGuid>6d47c0aa-4272-402a-9355-998ee32e9313</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Billing</value>
-      <webElementGuid>d83d6a52-09fa-479d-b271-ca82241ddff6</webElementGuid>
+      <webElementGuid>5eaf78d1-9ac2-43c8-80fd-3c7808b1b470</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/ul[@class=&quot;nav nav-sub-tabs mb-5&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>0c3d216a-27c4-430b-a21f-1a083394016e</webElementGuid>
+      <webElementGuid>a0825efb-d2a6-40a8-87a0-aef87c6c8838</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/ul/li[5]/a</value>
-      <webElementGuid>0576893c-fd56-4b84-b457-37c32e500321</webElementGuid>
+      <webElementGuid>5462fc6c-f467-491c-8afc-4f5d80d420a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Onboarding handover'])[1]/following::a[5]</value>
-      <webElementGuid>bf18622d-c505-4f28-939b-e67c2bb196a5</webElementGuid>
+      <webElementGuid>ff1ba443-93c7-4a1c-b24b-81d9228f5b53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type of scheme(s)'])[1]/preceding::a[2]</value>
-      <webElementGuid>67196885-5a64-465f-bd04-fabc21b8963e</webElementGuid>
+      <webElementGuid>6719aa58-ef4f-468c-83df-600c60f41b60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[20]</value>
-      <webElementGuid>8adc4f9c-acf2-4370-8480-9b03740401ae</webElementGuid>
+      <webElementGuid>7e0498ae-175b-430a-87e1-a88b6ad3c2ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/ul/li[5]/a</value>
-      <webElementGuid>e1efcdaf-0956-4f4e-969b-08011638e433</webElementGuid>
+      <webElementGuid>20bb48c5-8822-42e7-b220-2039f9593685</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Billing' or . = 'Billing')]</value>
-      <webElementGuid>741a9b41-44ed-4027-99b9-77a340d7ab80</webElementGuid>
+      <webElementGuid>92a4ac91-207a-4823-ba0e-e66d12a158d5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

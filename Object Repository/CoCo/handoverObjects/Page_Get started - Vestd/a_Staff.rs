@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Staff</name>
    <tag></tag>
-   <elementGuidId>6d8239e4-7138-4880-af04-17f4c3980257</elementGuidId>
+   <elementGuidId>93687176-ac0f-4da3-99db-33028c8988f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9c49a89d-a6b6-4785-9e53-026285e45efa</webElementGuid>
+      <webElementGuid>590da5c2-f16f-4771-a137-2bfb899c497f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#staff-menu</value>
-      <webElementGuid>489a556a-d1e6-4f30-a8d4-575e38b4e6a5</webElementGuid>
+      <webElementGuid>7ea54609-10fd-46ae-ace3-23db563e99fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>has-chevron text-admin d-none d-sm-flex</value>
-      <webElementGuid>65fc1301-b56e-49ef-a1ac-586a3e0788d7</webElementGuid>
+      <webElementGuid>9e2aa0cf-871f-47e1-aaab-b292b06e467e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b923a175-599e-4eae-a91a-1457e43acb24</webElementGuid>
+      <webElementGuid>ffe2e933-fed0-4707-bd31-7b6da6b40d6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>9f4ed1fb-b4a7-47ac-b2c2-3a45ff7e2701</webElementGuid>
+      <webElementGuid>c3a2f4d0-e375-46af-86fc-1f446b6ccf11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>data-target</name>
       <type>Main</type>
       <value>#staff-menu</value>
-      <webElementGuid>a5786c3c-0bad-48ab-96b1-b6ffb7023b9b</webElementGuid>
+      <webElementGuid>a3cf846c-2704-46d3-b772-91ce37a1dbbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ed1cdfa6-cbf9-49d2-abfd-46701076eea6</webElementGuid>
+      <webElementGuid>bf4d03c2-484a-4338-bccd-de9afcabd00a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>staff-menu</value>
-      <webElementGuid>154d2150-8833-4f3a-8c06-858a6c8bade5</webElementGuid>
+      <webElementGuid>bbd28edd-2618-499c-9afb-008dea4681ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Toggle staff menu</value>
-      <webElementGuid>cf6cd49e-be1c-4a49-a109-74c01df15ad9</webElementGuid>
+      <webElementGuid>e32b39a6-5a22-4013-9ad1-69798efb0b1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -97,7 +97,7 @@
       <value>
                     Staff
                 </value>
-      <webElementGuid>f7e477db-4d02-4a0b-913d-4eadc530603b</webElementGuid>
+      <webElementGuid>7b853459-e283-41eb-83c2-838ea05199e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;top-nav-user&quot;)/a[@class=&quot;has-chevron text-admin d-none d-sm-flex&quot;]</value>
-      <webElementGuid>bf451f69-f316-4fb0-bf1e-9778a1919b25</webElementGuid>
+      <webElementGuid>735bcf97-4df3-418f-b582-fcca94770db4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='top-nav-user']/a</value>
-      <webElementGuid>0e82a731-6065-4a0d-9d0c-d3904c78a452</webElementGuid>
+      <webElementGuid>0eb6f821-fa03-4325-9189-ebe17d2f1c53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Staff')]</value>
-      <webElementGuid>a52d12a0-7ec7-4e08-9ade-8f2b7c65a0f4</webElementGuid>
+      <webElementGuid>61f8edc2-9e41-4583-8c1f-65223de98e7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[1]</value>
-      <webElementGuid>e8d06b81-ee45-4303-8a28-4470b37a59fd</webElementGuid>
+      <webElementGuid>083dde54-528f-4e08-946a-899d29f96b78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View all'])[1]/preceding::a[4]</value>
-      <webElementGuid>d9429404-86a6-4980-80e3-aff5a32038b3</webElementGuid>
+      <webElementGuid>dc190f4e-fe80-45f2-ae6f-3640d4c111f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,7 +145,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jones Ltd'])[1]/preceding::a[5]</value>
-      <webElementGuid>f83df8ca-04b4-4407-bcc6-64cc7a5160cb</webElementGuid>
+      <webElementGuid>7906754c-49d5-4e0d-9744-4dd3236986f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -153,7 +153,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Staff']/parent::*</value>
-      <webElementGuid>884bd9e1-eeee-41ff-8192-e3416c8aeefd</webElementGuid>
+      <webElementGuid>be646fe7-36ef-4307-9add-3ee36514b09f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -161,7 +161,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#staff-menu')]</value>
-      <webElementGuid>5114ee79-fea3-4f73-8d9e-cea272443429</webElementGuid>
+      <webElementGuid>1bcb76d3-67ef-4d70-af06-9a48a8ef1ba6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -169,7 +169,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a</value>
-      <webElementGuid>daf009f3-f791-4bad-97cf-b2a445b0fcfa</webElementGuid>
+      <webElementGuid>210f5c5a-672e-4471-88b5-07308c6ab48d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -181,6 +181,6 @@
                 ' or . = '
                     Staff
                 ')]</value>
-      <webElementGuid>8f5ada6d-5589-414c-a574-b6cebab8a365</webElementGuid>
+      <webElementGuid>a413a749-d259-4a3a-8b46-662bcc2f0e66</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Explain we will need copies of signed _cf59af</name>
    <tag></tag>
-   <elementGuidId>730b99f1-d779-450a-ab45-a8a3673a5834</elementGuidId>
+   <elementGuidId>6695b712-0df6-469f-bc68-3f54eda1d926</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>250e5fd5-abc8-4884-b5a3-c3b019bc54d1</webElementGuid>
+      <webElementGuid>c7595a75-5b4d-4298-8387-27ca01866628</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Explain we will need copies of signed agreements, HMRC valuation approvals and option pool authorisation. Please ask them to gather these documents and understand the design of each scheme (vesting schedule, exercise price, etc.) before their call with Onboarding.</value>
-      <webElementGuid>8b475871-7d2d-4927-b353-648311ffe309</webElementGuid>
+      <webElementGuid>2bf56bed-8fc4-4015-a876-665da5a82997</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[2]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group&quot;]/p[@class=&quot;form-text&quot;]/span[1]</value>
-      <webElementGuid>1630bbd5-9a4e-4017-9a63-8ac7fed3b27a</webElementGuid>
+      <webElementGuid>53dc6541-a22d-439d-baf1-fdf1e1ff6a38</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[2]/div/div[6]/p/span</value>
-      <webElementGuid>d764563e-ae7c-4fdf-9ee3-0e0f85618531</webElementGuid>
+      <webElementGuid>04116f8a-772f-48b2-9397-26d5fca11b51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cap table'])[2]/preceding::span[1]</value>
-      <webElementGuid>e292db84-7556-409b-918c-4afb9ac09355</webElementGuid>
+      <webElementGuid>cd1b444e-ca59-450d-a9b9-3a05a52ba121</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Explain we will need copies of signed agreements, HMRC valuation approvals and option pool authorisation. Please ask them to gather these documents and understand the design of each scheme (vesting schedule, exercise price, etc.) before their call with Onboarding.']/parent::*</value>
-      <webElementGuid>36d18629-1af1-4e10-9d5c-0b6f618246c5</webElementGuid>
+      <webElementGuid>7f10c9c0-5e27-44b0-ad94-8f07ff0f1928</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/p/span</value>
-      <webElementGuid>96331080-cc0e-4e30-bcca-172db122d875</webElementGuid>
+      <webElementGuid>56b9f7a2-d38d-4706-a5ad-1a9cc248cf1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +78,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Explain we will need copies of signed agreements, HMRC valuation approvals and option pool authorisation. Please ask them to gather these documents and understand the design of each scheme (vesting schedule, exercise price, etc.) before their call with Onboarding.' or . = 'Explain we will need copies of signed agreements, HMRC valuation approvals and option pool authorisation. Please ask them to gather these documents and understand the design of each scheme (vesting schedule, exercise price, etc.) before their call with Onboarding.')]</value>
-      <webElementGuid>0ceecd48-974b-427b-b805-8563fe512111</webElementGuid>
+      <webElementGuid>648ff8ca-ee6c-4150-8a7f-820d1d5ec9a3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

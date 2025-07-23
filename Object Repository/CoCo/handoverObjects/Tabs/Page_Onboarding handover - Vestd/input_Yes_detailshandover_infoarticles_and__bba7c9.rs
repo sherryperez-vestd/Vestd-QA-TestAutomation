@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Yes_detailshandover_infoarticles_and__bba7c9</name>
    <tag></tag>
-   <elementGuidId>a373d12c-9e66-40a8-a3b9-a54976d00e4c</elementGuidId>
+   <elementGuidId>e870ebec-0121-4006-a469-50a814c9b763</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>52d293b3-a7dc-4915-bb2c-22d3d4a3a08c</webElementGuid>
+      <webElementGuid>4d1ec2e9-9547-409b-a9e5-2e4ec30a14b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>db1072a6-4f6d-4177-856b-a070f7403975</webElementGuid>
+      <webElementGuid>eb0e73ae-691f-4d05-82e9-530ef50b49f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>6c1dbd13-481f-4c0a-b12b-adb433890bde</webElementGuid>
+      <webElementGuid>ed400c19-7780-47a9-85e7-631a794467da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][articles_and_governance][corporate_governance][majority_consent_matters]</value>
-      <webElementGuid>57b2e272-da08-4df1-a508-b9ee319d53df</webElementGuid>
+      <webElementGuid>0c60efd2-2da9-4493-add0-6623351ef6f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>No</value>
-      <webElementGuid>084df136-9b09-4619-99e5-2686f6fa49b1</webElementGuid>
+      <webElementGuid>acba8acb-0146-4a72-b855-9ce60ab58f80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>72c7f263-f681-4a56-9763-5a5b17b6a2ae</webElementGuid>
+      <webElementGuid>d2c23ab4-65eb-4964-8db1-d2bcd171db7d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@name='details[handover_info][articles_and_governance][corporate_governance][majority_consent_matters]'])[2]</value>
-      <webElementGuid>500cf481-a67d-4c68-b907-4feba37bedda</webElementGuid>
+      <webElementGuid>4f9a206c-319f-436c-91f4-8d4464fca618</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[14]/label/input</value>
-      <webElementGuid>c9288866-810a-4ad1-855d-d6651a0b2f1b</webElementGuid>
+      <webElementGuid>29e27541-5bd9-452e-8f44-ffbb83f3bdfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[14]/label/input</value>
-      <webElementGuid>c7a7161e-713f-4820-8617-678dba1e2ea5</webElementGuid>
+      <webElementGuid>748231c2-9ac6-4baa-8260-084525eb8a2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'details[handover_info][articles_and_governance][corporate_governance][majority_consent_matters]']</value>
-      <webElementGuid>46d38a40-63c7-499e-b18a-549b4fa2173c</webElementGuid>
+      <webElementGuid>d2bc1aa3-8eaf-4a33-9991-87f633211c6a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Are they changing their Articles of A_67e40f</name>
    <tag></tag>
-   <elementGuidId>cc1ebd2c-886f-49e2-a9a9-56e54d2e5715</elementGuidId>
+   <elementGuidId>bfe6c0a8-72d4-469d-b31a-9e88973e07b5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>589bc23e-8b67-44e6-beee-c7278d7e0cbf</webElementGuid>
+      <webElementGuid>2bbb2e32-4709-4758-9b9a-08256e9772e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Are they changing their Articles of Association?</value>
-      <webElementGuid>a7fa1367-2460-4210-9182-5a30d0082ebd</webElementGuid>
+      <webElementGuid>9c2012e1-f93c-49e9-938f-2a900bef09c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/label[1]</value>
-      <webElementGuid>fa72d359-0830-461d-9944-64e3a9de084e</webElementGuid>
+      <webElementGuid>0360812c-5317-4e15-8eff-916dd92117d2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/label</value>
-      <webElementGuid>91fddf40-e66d-4442-b891-ba338620203d</webElementGuid>
+      <webElementGuid>6d726c1b-a107-4370-aaa9-77cb0bf8a5ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Are they changing their Articles of Association?']/parent::*</value>
-      <webElementGuid>20f8303e-dbb1-486e-b4bf-280067d484c8</webElementGuid>
+      <webElementGuid>7a39a2b2-2d89-4b47-8aab-fe116c74a3aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/label</value>
-      <webElementGuid>42ec1b08-96de-4ef8-8146-dbada3475efd</webElementGuid>
+      <webElementGuid>20d64acf-deef-4f11-8b2d-b9383c8fa91e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Are they changing their Articles of Association?' or . = 'Are they changing their Articles of Association?')]</value>
-      <webElementGuid>4d94cb90-6252-4d23-baa4-041604d3701b</webElementGuid>
+      <webElementGuid>7ad4ad0a-9777-4bc5-9792-12db8642ee5a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

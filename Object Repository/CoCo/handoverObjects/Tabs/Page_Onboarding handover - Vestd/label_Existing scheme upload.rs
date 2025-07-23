@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Existing scheme upload</name>
    <tag></tag>
-   <elementGuidId>0301d2ad-d8ef-4df8-9a27-f829377d2d31</elementGuidId>
+   <elementGuidId>c413f95b-cf2e-48a0-8c3b-414874fd695c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>d932745b-d222-4fc0-9cb4-835a26919db3</webElementGuid>
+      <webElementGuid>8f86db48-5cc7-4f7b-a9e7-f6347b41d6ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Existing scheme upload?</value>
-      <webElementGuid>88632b67-0771-45cb-9944-8f2502be6109</webElementGuid>
+      <webElementGuid>90d2dbc3-9a22-4e3b-ae03-9d3fb27999fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[2]/div[@class=&quot;width-500&quot;]/label[1]</value>
-      <webElementGuid>2076f84a-aca6-4e7e-bf53-964a02865ae4</webElementGuid>
+      <webElementGuid>d4c2a70c-79c3-4308-b5d9-7047ff28ce41</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[2]/div/label</value>
-      <webElementGuid>6ae4d30b-5564-4e9c-a787-db7ee84f2146</webElementGuid>
+      <webElementGuid>a8d11c2d-7155-4bfe-8831-c97c5d9adad6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Existing scheme upload?']/parent::*</value>
-      <webElementGuid>cd24bae8-49a8-426c-9c38-ff80083419bf</webElementGuid>
+      <webElementGuid>326d6032-3785-4eb4-b814-74121b5174d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/label</value>
-      <webElementGuid>7530e883-fb1e-4d2e-88da-279a1be205b3</webElementGuid>
+      <webElementGuid>34ed012a-ad0d-49e4-8ef6-d304cd1550b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Existing scheme upload?' or . = 'Existing scheme upload?')]</value>
-      <webElementGuid>bd168681-410b-404d-a114-c4dee46b0a9d</webElementGuid>
+      <webElementGuid>716d4ce5-cad7-47d3-bee3-a606a4ada008</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

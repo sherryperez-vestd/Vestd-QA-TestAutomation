@@ -3,7 +3,7 @@
    <description></description>
    <name>label_AML risk score (1-4)</name>
    <tag></tag>
-   <elementGuidId>7ffa92a1-4b6e-49c6-9aca-7c66a13252e2</elementGuidId>
+   <elementGuidId>7cbf3be8-636c-4b71-b42e-132d7b97af1a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>a09c3e0a-c270-4258-b99f-de76443e6d30</webElementGuid>
+      <webElementGuid>2165587d-a0b1-487d-ab2a-c4a05cdb5f32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>YfPa4S2O6TwYXV3V</value>
-      <webElementGuid>f369db10-004e-4715-87c7-fd1298f6ccb4</webElementGuid>
+      <webElementGuid>ff086ce1-bc91-4dea-a901-d6d61044d448</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>AML risk score (1-4)</value>
-      <webElementGuid>58276090-bcd8-48b9-a37d-b595fe1eaade</webElementGuid>
+      <webElementGuid>8eedc537-f341-4d92-b093-41df87840735</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group multi-select w-100&quot;]/label[1]</value>
-      <webElementGuid>8e7c9479-530d-4d68-ba7d-46c4faff92ae</webElementGuid>
+      <webElementGuid>898e01b0-4ac2-44eb-b05a-84871ed1d1fd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[9]/div[2]/label</value>
-      <webElementGuid>49e4f698-596a-4e9b-af00-64824325592d</webElementGuid>
+      <webElementGuid>3912ddbe-c04e-4bb7-a09b-a195b320ed46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select...'])[1]/following::label[1]</value>
-      <webElementGuid>a36ea039-8e3d-431d-83ee-0de5caefbe3b</webElementGuid>
+      <webElementGuid>04e1af11-7bb1-4a34-b964-723e26d86a72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select...'])[2]/preceding::label[1]</value>
-      <webElementGuid>3cb0c88d-efa1-493b-8cc9-5e264b88d894</webElementGuid>
+      <webElementGuid>2c5e2142-812b-4747-bb62-fd22e6195083</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select...'])[3]/preceding::label[1]</value>
-      <webElementGuid>18060247-0edf-4d96-8236-2263cb628bfa</webElementGuid>
+      <webElementGuid>97b5989e-83a3-44cd-bfd5-8e862d133b43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='AML risk score (1-4)']/parent::*</value>
-      <webElementGuid>71aa6567-4b3e-43c5-acdb-2108fac7c173</webElementGuid>
+      <webElementGuid>d84b562a-18ad-407d-9ecd-5c4de5017bea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/div[2]/label</value>
-      <webElementGuid>1f6df337-163f-4bad-b260-8ca65a7fe696</webElementGuid>
+      <webElementGuid>22c83075-eaa2-4bba-9f72-032941733456</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'AML risk score (1-4)' or . = 'AML risk score (1-4)')]</value>
-      <webElementGuid>fc9b5db9-bd33-472b-bd01-8f67e8a54a8f</webElementGuid>
+      <webElementGuid>6601b2a9-f104-466d-82cc-81932335644b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

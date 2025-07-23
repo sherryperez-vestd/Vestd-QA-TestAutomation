@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Vesting structure</name>
    <tag></tag>
-   <elementGuidId>3ed66e39-fa87-4c08-b314-6789d5759f15</elementGuidId>
+   <elementGuidId>07196fb2-f82e-4ed7-b4cc-6e8011693468</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>ceeeddb0-a659-4a32-8ed4-95f32d75a3c9</webElementGuid>
+      <webElementGuid>91f6e514-1b0b-49f5-9e0b-163449bfeafb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>GYq3owkVTmewCeqB</value>
-      <webElementGuid>de3f28c0-9d78-42ae-acab-b92dd7791b17</webElementGuid>
+      <webElementGuid>cb494af5-154d-4a57-aca0-64f68622e796</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Vesting structure</value>
-      <webElementGuid>80d2c002-2820-4b7d-b6f9-2899696433c4</webElementGuid>
+      <webElementGuid>9214dc01-142e-4560-ad8a-4d2ced3390a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[2]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group&quot;]/label[1]</value>
-      <webElementGuid>b5a0f04d-fe22-4676-bcd6-476de67e6a8d</webElementGuid>
+      <webElementGuid>9497ac52-0456-425f-80c1-30e405f0f878</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[2]/div/div[5]/label</value>
-      <webElementGuid>816c55be-4388-48aa-aaed-996a4e5a3979</webElementGuid>
+      <webElementGuid>f73b7d91-924f-4d0c-9ede-b3a8bb385b77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cap table'])[2]/preceding::label[2]</value>
-      <webElementGuid>ea581018-0320-4861-b323-4372bc1e3dc8</webElementGuid>
+      <webElementGuid>3f608076-6c9d-43ef-90a1-41dff7249414</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Vesting structure']/parent::*</value>
-      <webElementGuid>21c06e94-9658-4fb7-ae22-ce40c9063e8f</webElementGuid>
+      <webElementGuid>daa6c3b4-ba79-4a0c-a01a-a667ab658141</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[5]/label</value>
-      <webElementGuid>fa97870b-7f96-43ea-b26a-852c88150e31</webElementGuid>
+      <webElementGuid>2a1f5bb1-dfc2-4c8b-ac7f-7f1bdab3cbdd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Vesting structure' or . = 'Vesting structure')]</value>
-      <webElementGuid>3638106c-b2f7-4334-acb7-bfe62029525f</webElementGuid>
+      <webElementGuid>c1a4f3a2-9141-4adb-8e9f-37186a2e406f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

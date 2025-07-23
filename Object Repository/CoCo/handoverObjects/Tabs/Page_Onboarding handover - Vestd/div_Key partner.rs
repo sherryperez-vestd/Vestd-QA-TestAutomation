@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Key partner</name>
    <tag></tag>
-   <elementGuidId>abd6c2ff-d4ba-4bd4-b73a-84eb5dc97280</elementGuidId>
+   <elementGuidId>7a9b5ab7-794d-4d6d-a22d-3e95812849fa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1b187610-fcf7-4aa4-82fe-0f0a052dd3a8</webElementGuid>
+      <webElementGuid>36a484de-2d9c-49c9-a44c-92e6bc9aaf09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-3</value>
-      <webElementGuid>88252892-e55b-449a-95f4-9d75507a03cb</webElementGuid>
+      <webElementGuid>5d00962e-ff54-409e-80b4-7bba4ef240f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Key partner</value>
-      <webElementGuid>d68141b8-e0e7-49cd-a1b1-f60ee476afed</webElementGuid>
+      <webElementGuid>dc4e86dd-0473-4595-a459-3754fc0112e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group mb-3&quot;]/div[@class=&quot;mb-3&quot;]</value>
-      <webElementGuid>64120a50-6990-4613-b1ee-b4e390babb8a</webElementGuid>
+      <webElementGuid>43d4a33a-771e-41a7-ab93-5ba33857c7dd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[3]/div/div</value>
-      <webElementGuid>34327a0e-35cc-4c61-88be-845c5e6e1e47</webElementGuid>
+      <webElementGuid>dbadc59d-3c70-4ab2-bcc1-084ff1634422</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Check primary contact details and phone number in HubSpot.'])[1]/following::div[6]</value>
-      <webElementGuid>deee1c6f-9eb9-48f7-ab0d-2ab92130bb09</webElementGuid>
+      <webElementGuid>dcb13ad8-7576-4a5f-98b8-f557d7e43959</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[3]/div/div</value>
-      <webElementGuid>68106ae1-ca42-4c09-9883-e0cc3bd0a526</webElementGuid>
+      <webElementGuid>e0ce8b17-8d96-41a8-b496-877767a3d2ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +79,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Key partner' or . = 'Key partner')]</value>
-      <webElementGuid>01f90657-d2ea-4ad9-9d39-3ae9fbd5bc29</webElementGuid>
+      <webElementGuid>748c92c0-ff7e-466e-a43a-9225ceaae442</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Check primary contact details and phon_3117c6</name>
    <tag></tag>
-   <elementGuidId>3ffaf30b-ee4f-42d1-a8d9-8f65ae5c0a0e</elementGuidId>
+   <elementGuidId>6de100d4-82a8-41e4-a0f4-04800dfaea3f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d2c8a35d-b37f-4b72-b9aa-f78eaa09c43d</webElementGuid>
+      <webElementGuid>ee61e085-eb9d-4934-bbc4-be0d806e2e83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Check primary contact details and phone number in HubSpot.</value>
-      <webElementGuid>1af349ab-c4c7-4644-bc08-7acfd9e5cc24</webElementGuid>
+      <webElementGuid>5d0c37b5-e5f6-4058-acf5-0f976297a466</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group multi-select w-100&quot;]/p[@class=&quot;form-text&quot;]/span[1]</value>
-      <webElementGuid>f207eb70-d9c1-4b44-a14f-bf1dfc11a4c8</webElementGuid>
+      <webElementGuid>2b3b638a-2dd9-40e2-8f85-f563d6c4be13</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div/div/p/span</value>
-      <webElementGuid>2bc36fb8-8f7e-4345-a028-662b7e2fdfc1</webElementGuid>
+      <webElementGuid>25b7664a-4869-42d5-8e51-c5e040d08d68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No results found'])[1]/following::span[1]</value>
-      <webElementGuid>29bb09c8-f444-4260-a588-ac5a1be4e791</webElementGuid>
+      <webElementGuid>d9870af3-3a43-4d38-bea4-a7979d00498b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Javonte Marks'])[1]/following::span[7]</value>
-      <webElementGuid>0cc55dd3-133f-4a30-a4b5-11c1e90620a5</webElementGuid>
+      <webElementGuid>89bb4cf9-2854-419d-bf9c-9ed5d1305dd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Check primary contact details and phone number in HubSpot.']/parent::*</value>
-      <webElementGuid>40f02b58-c545-4ac4-a175-05ec82b0a381</webElementGuid>
+      <webElementGuid>c2c6cbf9-8141-4e20-962a-148cd6edce31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/div/p/span</value>
-      <webElementGuid>2104fbcd-e407-4118-be34-0174a1f8b018</webElementGuid>
+      <webElementGuid>755458a1-24cd-4ca1-a185-80d820977241</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Check primary contact details and phone number in HubSpot.' or . = 'Check primary contact details and phone number in HubSpot.')]</value>
-      <webElementGuid>b3cc84a0-dc99-4225-8555-c34bbc2c9992</webElementGuid>
+      <webElementGuid>7a1f4165-83c3-4b10-ae91-3b91d781b355</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

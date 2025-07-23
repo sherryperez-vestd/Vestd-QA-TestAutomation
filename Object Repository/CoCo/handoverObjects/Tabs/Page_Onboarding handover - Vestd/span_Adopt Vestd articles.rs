@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Adopt Vestd articles</name>
    <tag></tag>
-   <elementGuidId>55a9186a-1fb9-4c8f-ad7a-fb7b6918f68d</elementGuidId>
+   <elementGuidId>457a4afb-34c8-4fb2-86f9-9e3a079cb4bb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f3d52495-d51d-4222-a5d7-d3b48204591d</webElementGuid>
+      <webElementGuid>eaf9aae1-a91b-4829-b9b0-8007e5767e80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Adopt Vestd articles</value>
-      <webElementGuid>780a90dd-eb96-4519-a948-1a2728ca7a7b</webElementGuid>
+      <webElementGuid>1eee247e-a114-475e-a3d2-b1e280253f50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/span[1]</value>
-      <webElementGuid>fd2784bf-fc93-456e-92e8-2069ca265779</webElementGuid>
+      <webElementGuid>787d7b23-55f0-41fe-af1c-61e4b25695c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[4]/label/span</value>
-      <webElementGuid>f935ff11-2461-4119-9bc9-ebd0b397a237</webElementGuid>
+      <webElementGuid>8e4c9b57-2ee3-4b75-bb7f-0fd8a415a5ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Adopt Vestd articles']/parent::*</value>
-      <webElementGuid>87ed91dc-308d-4da7-bd66-c5d402f9019c</webElementGuid>
+      <webElementGuid>a9c25f7a-8ce0-4799-9ddd-ffeeca7462aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[4]/label/span</value>
-      <webElementGuid>88516fee-8932-45ed-99bd-98e023b6776b</webElementGuid>
+      <webElementGuid>e3875583-4e92-47c4-be9b-7a444c2df956</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Adopt Vestd articles' or . = 'Adopt Vestd articles')]</value>
-      <webElementGuid>be64fe5d-3ef6-4d01-afdf-843bf977bb2d</webElementGuid>
+      <webElementGuid>dcd73588-f94c-4930-a79e-459394fbc955</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

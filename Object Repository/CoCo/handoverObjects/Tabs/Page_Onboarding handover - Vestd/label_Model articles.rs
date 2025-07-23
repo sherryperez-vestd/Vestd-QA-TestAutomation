@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Model articles</name>
    <tag></tag>
-   <elementGuidId>82d465ef-3b2f-420b-ae35-5733731fd4f7</elementGuidId>
+   <elementGuidId>7509a7d4-454c-4c62-a9bd-38c968c6022a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>65f401e9-fba9-428d-a8a1-fb7d2a22792c</webElementGuid>
+      <webElementGuid>f700482b-c65b-4d75-89aa-46a043141fc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>font-weight-bolder</value>
-      <webElementGuid>100ffe03-db3d-47b0-b761-61a907ec8cec</webElementGuid>
+      <webElementGuid>ce37c931-235a-4081-b5b4-f3838572d707</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Model articles</value>
-      <webElementGuid>663ea02f-a8c5-420c-9ae6-a3b55cb64f17</webElementGuid>
+      <webElementGuid>86c61db0-3e2c-43e8-9763-a85e789c2a18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group mb-3&quot;]/div[@class=&quot;radio-controls&quot;]/div[2]/label[@class=&quot;font-weight-bolder&quot;]</value>
-      <webElementGuid>566bef79-c575-4160-a204-bc7746ce451e</webElementGuid>
+      <webElementGuid>21fcd93f-bbe9-4094-b42a-a342e6539981</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div/div/div[2]/label</value>
-      <webElementGuid>fbb484ec-73ff-4bd1-848b-3a92954d9c55</webElementGuid>
+      <webElementGuid>b9c4dd8c-e779-4b92-a106-aa507a05eb5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div/div/div[2]/label</value>
-      <webElementGuid>17b1738c-c9dd-442f-baee-cf8159c838a4</webElementGuid>
+      <webElementGuid>2b1f7fdd-09c5-4e2c-8026-02fbec728174</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Model articles' or . = 'Model articles')]</value>
-      <webElementGuid>3daa3358-ec7a-4e14-8942-5c70bbce07fe</webElementGuid>
+      <webElementGuid>b360193b-21f1-4a61-9f1f-12ede62e104b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

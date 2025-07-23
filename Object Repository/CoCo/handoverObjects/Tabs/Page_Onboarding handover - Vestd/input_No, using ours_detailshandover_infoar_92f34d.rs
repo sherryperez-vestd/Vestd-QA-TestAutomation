@@ -3,7 +3,7 @@
    <description></description>
    <name>input_No, using ours_detailshandover_infoar_92f34d</name>
    <tag></tag>
-   <elementGuidId>8427f519-6c1b-47aa-99bd-ccc1a867b3b4</elementGuidId>
+   <elementGuidId>ed0f9ced-881f-49e6-bbdd-5b4b26f218ce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9aa2fe8e-cf38-4504-8947-03b5621fa406</webElementGuid>
+      <webElementGuid>b6482a16-9233-4dda-a38b-6bfc72c1c5da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>5375f6a9-2216-4b54-92ec-f8cb69774569</webElementGuid>
+      <webElementGuid>ccdd846d-c284-4850-a46e-5b6ace05bcb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>8048e53f-60a3-478c-9134-c90f7d2b928f</webElementGuid>
+      <webElementGuid>6c947d65-32a1-4008-b748-23a83eec9b92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][articles_and_governance][action]</value>
-      <webElementGuid>5564998d-2d76-4ac1-98c8-22553a3ff58b</webElementGuid>
+      <webElementGuid>7c11e619-ac1b-4f6f-bf1d-44b7dd3ebc81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>adopt_vestd_articles</value>
-      <webElementGuid>305f09e1-4fbe-45e6-891f-13340d5aedc6</webElementGuid>
+      <webElementGuid>77de70d7-7a3e-4581-b53b-020c5d2668cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>6c404749-ed91-40bd-91b8-53709693c3ee</webElementGuid>
+      <webElementGuid>f3cc5af9-8489-4458-9375-7624c6177649</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@name='details[handover_info][articles_and_governance][action]'])[2]</value>
-      <webElementGuid>4673c25c-ceb0-4d50-8744-f341fa0bcaf3</webElementGuid>
+      <webElementGuid>7c359abf-2096-4a45-94c1-71634df70026</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[4]/label/input</value>
-      <webElementGuid>fb10c252-a76a-41a0-ab1a-2c94c789148b</webElementGuid>
+      <webElementGuid>4599735b-257d-41c1-a93b-19da014f2442</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[4]/label/input</value>
-      <webElementGuid>9974849c-f45b-447b-9205-25fd74e29145</webElementGuid>
+      <webElementGuid>1a23752f-4767-4f5d-aa55-4fe068407000</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'details[handover_info][articles_and_governance][action]']</value>
-      <webElementGuid>4af8ca0f-7ed7-44e8-8ad9-1e805a2c71e3</webElementGuid>
+      <webElementGuid>f5ae00f3-c8c0-46ce-9379-fbfdb1ac019c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

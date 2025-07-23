@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Are they changing their Articles of A_3a6b40</name>
    <tag></tag>
-   <elementGuidId>5778751d-d3bd-4125-9c31-20ca8837dd70</elementGuidId>
+   <elementGuidId>a1c39b0c-9bd1-4730-be90-af54e6d37ecd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>f957fd56-1dd8-429e-97e8-b7bd2010583c</webElementGuid>
+      <webElementGuid>90bf90b5-b65b-4db6-acea-2d27bf0e52d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>8d33ea4f-e80b-4b7a-aeae-e80460f175b0</webElementGuid>
+      <webElementGuid>10c6a82f-f419-48df-b214-de0fb716106c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>0d14bff8-63bd-4b8c-9117-9381bd8fa78c</webElementGuid>
+      <webElementGuid>ce35f802-c66a-4d5e-97b2-7c6748bf85b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][articles_and_governance][action]</value>
-      <webElementGuid>9d582432-145a-4908-8b06-7d74c54712c9</webElementGuid>
+      <webElementGuid>b1ae71bb-e5e3-4e5f-b1a2-b5e36f47cd02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>value</name>
       <type>Main</type>
       <value>keep_current_articles</value>
-      <webElementGuid>9ef0c77b-ec1e-4190-be09-854a42112e4f</webElementGuid>
+      <webElementGuid>18ff3bad-78d2-408d-86cf-37ee44722385</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>e149fe69-962f-42ef-8c6d-0e213a5de5fb</webElementGuid>
+      <webElementGuid>3bca13d4-17e7-4cf1-a13e-cb4f3d7c6f3d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='details[handover_info][articles_and_governance][action]']</value>
-      <webElementGuid>e82d9046-075b-4889-8f85-2413e49cd683</webElementGuid>
+      <webElementGuid>5599f4eb-f0e5-4be0-96ea-9981f54b50e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[2]/label/input</value>
-      <webElementGuid>ffe0f9fe-e90c-449a-b215-07e61a3f8103</webElementGuid>
+      <webElementGuid>6d509fe4-160b-46ea-8358-7f9996461e32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[2]/label/input</value>
-      <webElementGuid>2df86d9d-4316-4701-88a5-e58541b360a9</webElementGuid>
+      <webElementGuid>7a0c5c9d-e32d-4a33-b36a-3634ed0238f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'details[handover_info][articles_and_governance][action]']</value>
-      <webElementGuid>f86e2579-fb83-4a39-881b-4b1d3b6fb3dc</webElementGuid>
+      <webElementGuid>18fca00d-1e0a-4818-b67c-5d69e803d63e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

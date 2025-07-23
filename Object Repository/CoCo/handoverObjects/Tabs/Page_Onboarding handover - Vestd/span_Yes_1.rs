@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Yes_1</name>
    <tag></tag>
-   <elementGuidId>a06f3b55-187c-40dd-be59-914df88318a5</elementGuidId>
+   <elementGuidId>431ce5d8-1639-4f47-9f39-3c4603b52d6d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e69e9c8e-936f-493f-9610-e6838e18783c</webElementGuid>
+      <webElementGuid>f4d061e8-8cc0-4807-8650-0a177c384e25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>a6eb9503-ed9b-4642-adbb-a4d03fbc039d</webElementGuid>
+      <webElementGuid>096a4d13-fa45-4d9b-9bab-4d73f0ebb456</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/span[1]</value>
-      <webElementGuid>9b91f2eb-c954-4f66-9da7-b77576e7a9ce</webElementGuid>
+      <webElementGuid>e6cfa6fb-5549-42a8-8989-0a6e11fd01bd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/div/label/span</value>
-      <webElementGuid>fd943572-1466-4f20-9b47-d0862283412e</webElementGuid>
+      <webElementGuid>1c3907f9-1711-40df-92ad-ce7ad2aa295a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cap table'])[2]/following::span[1]</value>
-      <webElementGuid>4d2000ef-5912-4485-93c9-c903263f1081</webElementGuid>
+      <webElementGuid>32a61079-9038-4085-98be-e76fc2057754</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/label/span</value>
-      <webElementGuid>e915d39c-e0dd-4d70-b06d-943731d3539d</webElementGuid>
+      <webElementGuid>c1d29562-f830-4d9e-9ae2-c11e9e8c1ac5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Yes' or . = 'Yes')]</value>
-      <webElementGuid>59cb1d81-cc9b-4241-aec5-6d803a717aad</webElementGuid>
+      <webElementGuid>54695e57-3651-4708-9328-fb3596e2b7cc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

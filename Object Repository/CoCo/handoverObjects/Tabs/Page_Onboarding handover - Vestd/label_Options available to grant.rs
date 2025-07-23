@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Options available to grant</name>
    <tag></tag>
-   <elementGuidId>3968d072-cc76-4209-b716-1c3c9d4ee107</elementGuidId>
+   <elementGuidId>a1eee8b7-e838-4bc0-9610-9640244f4de6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>fba98e2e-e78b-4f10-9edc-45ed38946eb2</webElementGuid>
+      <webElementGuid>cca15049-011c-4873-8036-1786d9452266</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>for</name>
       <type>Main</type>
       <value>oxbtj8golxt3nYGP</value>
-      <webElementGuid>6c27adf3-8681-4343-bca5-9c9fd78cd096</webElementGuid>
+      <webElementGuid>4b81b6da-6740-403c-a4fa-1539dc02bfdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Options available to grant?</value>
-      <webElementGuid>6d79d789-b46a-4071-89e1-3128d37a7d39</webElementGuid>
+      <webElementGuid>d652215c-33c7-4c95-9573-5d199cadc01f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group form-group--optional&quot;]/label[1]</value>
-      <webElementGuid>91e126f3-ae57-4770-a80f-351d6e0b1f20</webElementGuid>
+      <webElementGuid>2a359818-4fb5-422d-9794-550f90943965</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[7]/label</value>
-      <webElementGuid>7447aa22-355f-48e9-8a12-6d675b183539</webElementGuid>
+      <webElementGuid>395ece6f-19c8-4384-9757-6a94458e518e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Existing authorisation status'])[1]/following::label[1]</value>
-      <webElementGuid>441286cc-a31e-43eb-bb3d-ea993206d867</webElementGuid>
+      <webElementGuid>61e834f4-48fd-49d6-b65d-99d53ade0a72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Options available to grant?']/parent::*</value>
-      <webElementGuid>eb31bd94-31af-447f-b387-da56d82873ed</webElementGuid>
+      <webElementGuid>a83fabd2-c62d-4a6c-92b2-af3dd9418c82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[7]/label</value>
-      <webElementGuid>54b47d8d-e2d8-4709-81f9-7f52eb8735b9</webElementGuid>
+      <webElementGuid>a126cab9-d1b6-4384-83d5-76edd782f70c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Options available to grant?' or . = 'Options available to grant?')]</value>
-      <webElementGuid>29039ede-6f42-4818-915c-7f716fca9bfc</webElementGuid>
+      <webElementGuid>88635411-b648-4b70-ac03-b25b0c608f36</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

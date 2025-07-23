@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Has payment been received_detailshand_60978b</name>
    <tag></tag>
-   <elementGuidId>65c211c9-3dcd-45d0-aefb-1a0d60702eb4</elementGuidId>
+   <elementGuidId>70908eb0-7731-42c1-a7b3-4c6e2bbbe8f5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>07f19362-594e-477c-9d6f-efea7265ee7d</webElementGuid>
+      <webElementGuid>c4e77e4a-c362-4419-94f6-0399f94408dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>671e2809-a64d-4e19-892a-7c8880334bf6</webElementGuid>
+      <webElementGuid>fd644322-9634-42ce-b953-11145762d38d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>8c9102f9-8800-4d38-b8c9-d0a2452ba08c</webElementGuid>
+      <webElementGuid>068977db-8a65-4009-8b93-9ad519d633fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][billing][payment_received]</value>
-      <webElementGuid>2a87fddc-f2fa-4869-bffe-9f9e056d9bb6</webElementGuid>
+      <webElementGuid>37b40d3e-7b78-4ac0-9e7b-e42fdcb95ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>7328aa5c-eff2-4104-921e-36a0bb32023e</webElementGuid>
+      <webElementGuid>9a3e7cd4-a70c-40bf-be07-97d8489974a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[5]/div[@class=&quot;width-500&quot;]/div[@class=&quot;left-indent width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>078f84a2-9492-4ec9-96c4-f8cd92d4d508</webElementGuid>
+      <webElementGuid>9f5386db-2e7e-4e4f-ba5b-e1dd92f34857</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='details[handover_info][billing][payment_received]']</value>
-      <webElementGuid>90518e0e-5cba-4170-8a78-eee4cca4dc56</webElementGuid>
+      <webElementGuid>64b18868-9b23-44d3-bfbd-d73900610de9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[5]/div/div[4]/div[2]/label/input</value>
-      <webElementGuid>074d94a3-3af3-42cd-94f1-fede1cfc53b8</webElementGuid>
+      <webElementGuid>3c461bfc-9e7e-46eb-a4ac-bdc68d006805</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]/label/input</value>
-      <webElementGuid>2a0e53ac-af5e-49f3-9c3b-e87797cab00d</webElementGuid>
+      <webElementGuid>79d83939-cc63-45af-8e76-d4d99f098d31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'details[handover_info][billing][payment_received]']</value>
-      <webElementGuid>3d109bb0-77c3-43cd-a97a-162d7158279c</webElementGuid>
+      <webElementGuid>f42ad15b-ad6b-4fa4-bfbe-5ba59ecf3d30</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Key partner_detailscontact_infoother__4d464e</name>
    <tag></tag>
-   <elementGuidId>c0313210-a130-4d45-9e1b-2ef16cf334e7</elementGuidId>
+   <elementGuidId>e58a0a03-7b45-4640-9d96-829c7230917f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b9d39e95-a185-4967-92a1-a9a271e48eef</webElementGuid>
+      <webElementGuid>981b8105-68cc-4ffe-b8da-5ee1c8e7c73e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>ab46291d-f77a-4e22-b423-7599bafee126</webElementGuid>
+      <webElementGuid>32ab5f70-4fce-4f50-b425-41200e61d2c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>03c50d48-f200-4ac6-a836-3e2aa74cd1f4</webElementGuid>
+      <webElementGuid>c3020f66-68d2-43f5-90c3-8aade23945a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[contact_info][other_companies_with_vestd]</value>
-      <webElementGuid>62716f0a-071b-4e53-9644-afb43a7bd391</webElementGuid>
+      <webElementGuid>e88ebb63-cdea-4fd6-9e3b-d8fc9ced3281</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>a4342946-cfff-41f1-a48d-d0a3160e707e</webElementGuid>
+      <webElementGuid>8a4fd297-cc66-4b28-95a3-fe612befb474</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group mb-3&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;font-weight-normal&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>89fe115d-8a3f-4993-aca5-5d83248de460</webElementGuid>
+      <webElementGuid>58109ed1-b5d2-41e5-9974-f80796ee4c71</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='details[contact_info][other_companies_with_vestd]']</value>
-      <webElementGuid>a1c33ad4-8f26-4423-8f6d-eaeac5c5e971</webElementGuid>
+      <webElementGuid>f27a1612-762f-4edb-be4c-5b7d53ecaec2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[4]/div/div/label/input</value>
-      <webElementGuid>9dc0c6b7-b534-4620-ad52-efce1175f2b7</webElementGuid>
+      <webElementGuid>81d292dd-7de7-4ca6-9be2-d971b68ddb59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[4]/div/div/label/input</value>
-      <webElementGuid>f6fa8f57-149d-48fb-9d96-b7158ea1374a</webElementGuid>
+      <webElementGuid>4ad7e496-f7f1-4db1-aff2-9b24bc0a7990</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @name = 'details[contact_info][other_companies_with_vestd]']</value>
-      <webElementGuid>43049067-17a0-4929-aa76-3da78561fefc</webElementGuid>
+      <webElementGuid>82858555-f50f-4171-a359-82af80db93a0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

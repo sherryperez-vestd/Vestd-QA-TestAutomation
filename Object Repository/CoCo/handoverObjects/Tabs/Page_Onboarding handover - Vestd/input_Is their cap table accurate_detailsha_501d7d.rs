@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Is their cap table accurate_detailsha_501d7d</name>
    <tag></tag>
-   <elementGuidId>09f848ea-824f-4d9f-be3c-dbc0daab3568</elementGuidId>
+   <elementGuidId>db409897-5494-42e6-8166-27ffcfa36fc1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>06074ef3-f427-4332-abba-bcce8b31df74</webElementGuid>
+      <webElementGuid>1ee63925-c53c-4651-910c-deaf80fe314c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>86ecad1d-2a62-45eb-a730-4f3c5e51cda2</webElementGuid>
+      <webElementGuid>4f2ea444-c70b-438c-a4f8-97954635dd7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>c5d8d372-c38e-4846-b428-504ab74b92c6</webElementGuid>
+      <webElementGuid>f09fa551-0c31-4642-adca-042c280a50db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][cap_table][is_correct]</value>
-      <webElementGuid>b17198bb-51a5-44b1-b085-88c6b7f1931f</webElementGuid>
+      <webElementGuid>c394b74b-4004-4035-9108-29c59cfd4e14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>9aa5cd2e-5cbe-4893-b00a-cf500d2aca31</webElementGuid>
+      <webElementGuid>38fb6c2c-9ead-4ba9-b5e9-402b16063021</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>6f06a06d-13b5-4b13-96c4-2aa02626ee65</webElementGuid>
+      <webElementGuid>631a0e04-4366-4f85-8f96-4ee64694644a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='details[handover_info][cap_table][is_correct]']</value>
-      <webElementGuid>d04d0f3a-9dd5-4778-aad8-8b5791bfac06</webElementGuid>
+      <webElementGuid>3d6b6407-dbd8-45e6-a3be-0a87c22b16ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/div/label/input</value>
-      <webElementGuid>76977c59-72e9-46ed-adbb-46b4ac4ef011</webElementGuid>
+      <webElementGuid>8ed157b3-3017-41a1-8971-2c37f80566a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/label/input</value>
-      <webElementGuid>fed32f4f-7206-4900-a4f0-0f47ca824572</webElementGuid>
+      <webElementGuid>272461e2-f592-4604-a046-10c5c2574943</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'details[handover_info][cap_table][is_correct]']</value>
-      <webElementGuid>07af85c4-8a3f-4625-af66-f3ce80839609</webElementGuid>
+      <webElementGuid>cf7a7c4c-0404-4934-bbb9-cfe68b4ea250</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

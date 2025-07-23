@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_My options</name>
+   <tag></tag>
+   <elementGuidId>c4c85af9-96dc-47e1-b283-e5930b947afa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.vi.vi-sm.mt-auto.ml-lg-2.mt-lg-0.vi-chevron-down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(2) > .vi >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>39c277fc-1ff6-4fcf-aa97-e7377ae18104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down</value>
+      <webElementGuid>6f8217d8-51e9-4245-9140-6375c4f2c80a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card v-card bg-white mb-3 collapsed&quot;]/div[@class=&quot;card-header d-flex flex-wrap flex-column bg-white hide-header-separator&quot;]/div[@class=&quot;d-flex align-items-center text-break header-main-content w-100&quot;]/div[@class=&quot;d-flex ml-auto flex-column align-self-stretch flex-lg-row flex-lg-wrap-reverse align-self-lg-start align-items-end align-items-lg-center text-right flex-grow-1 justify-content-end secondary-content&quot;]/i[@class=&quot;vi vi-sm mt-auto ml-lg-2 mt-lg-0 vi-chevron-down&quot;]</value>
+      <webElementGuid>c66d245b-419d-4791-adce-2c0a9dea38a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div[2]/i</value>
+      <webElementGuid>a6d402e1-273b-4506-8306-7504147d8688</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/i</value>
+      <webElementGuid>37e0e74f-b171-467c-a8da-22d425cc68d9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

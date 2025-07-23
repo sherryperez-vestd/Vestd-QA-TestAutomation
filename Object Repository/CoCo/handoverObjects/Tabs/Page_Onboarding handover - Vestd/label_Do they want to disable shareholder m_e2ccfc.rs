@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Do they want to disable shareholder m_e2ccfc</name>
    <tag></tag>
-   <elementGuidId>7c68bbf9-5e59-4014-8e3a-1510dd5075cc</elementGuidId>
+   <elementGuidId>2ba0fd90-4836-4d9b-ac6b-0eb87e65e633</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>590bc30d-c333-41e4-804a-201363bb2a6c</webElementGuid>
+      <webElementGuid>e74e6de4-59c3-4a0e-a41e-45b92ada29f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Do they want to disable shareholder management?</value>
-      <webElementGuid>08d33f83-4b6e-4559-8dfe-5330eac5b88f</webElementGuid>
+      <webElementGuid>e5ba6fc6-2a0f-4579-87f9-f4400bde7fb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/label[5]</value>
-      <webElementGuid>7e9da6d8-0a9f-4ebe-8b38-d93d082255f7</webElementGuid>
+      <webElementGuid>72edbe43-4d92-4485-879d-2ab557a4bfde</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/label[5]</value>
-      <webElementGuid>6a0138fb-ddda-4645-912d-effabd5c1687</webElementGuid>
+      <webElementGuid>b75ff812-c4cc-4b51-b5b3-6fba054baa73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Do they want to disable shareholder management?']/parent::*</value>
-      <webElementGuid>2e38ca8b-85b9-451d-ad95-5d23a7ac0286</webElementGuid>
+      <webElementGuid>df037bf1-6154-4ffa-a261-a201a5713199</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label[5]</value>
-      <webElementGuid>f44400bd-2f1b-4900-8a38-c0798dbdd95d</webElementGuid>
+      <webElementGuid>b64d396e-343c-4e2d-8a1d-a6e0123a2a74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Do they want to disable shareholder management?' or . = 'Do they want to disable shareholder management?')]</value>
-      <webElementGuid>e52317ba-3089-415b-aaa5-85afe8c03539</webElementGuid>
+      <webElementGuid>b7295b93-2ae0-4588-b38b-25da6dac1ac4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

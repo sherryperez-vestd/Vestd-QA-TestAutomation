@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Cap table</name>
    <tag></tag>
-   <elementGuidId>7a2d1dbf-9d2b-46f7-ada8-35435ff2664f</elementGuidId>
+   <elementGuidId>4e39e92d-a952-4204-9f74-60062b744e4d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>651f9dd7-d5ca-4dd7-a33a-84531430e699</webElementGuid>
+      <webElementGuid>4791bf4d-e8ef-4a02-b07a-3cd6d2eaceb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>869022c1-7358-497d-b74a-9891acd55d33</webElementGuid>
+      <webElementGuid>b8646c71-666f-46b5-ac9a-c899d86f4a4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>b2acece3-4575-4c0e-ad24-7e1138c400ed</webElementGuid>
+      <webElementGuid>39674cc6-59c0-4b0d-b168-049706f75f68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cap table</value>
-      <webElementGuid>08b1b8e0-1657-4020-8060-dfeb45dd6b04</webElementGuid>
+      <webElementGuid>081141d9-90ed-470f-89f1-389bce3be586</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/ul[@class=&quot;nav nav-sub-tabs mb-5&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>90fb5ff3-14c5-47bd-8d08-482cf016d69c</webElementGuid>
+      <webElementGuid>277beb6c-7248-4946-83cf-c98d6ef49b66</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/ul/li[3]/a</value>
-      <webElementGuid>81b7bcd5-b936-4937-8532-a9519c919069</webElementGuid>
+      <webElementGuid>7383ff1e-05a0-4f60-bbbb-a29f45cdda8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Onboarding handover'])[1]/following::a[3]</value>
-      <webElementGuid>f07ed2b0-7766-469e-8439-ccdc0320a3a8</webElementGuid>
+      <webElementGuid>2ab1cbbb-6d2f-49cd-89a2-29a23bbce1eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type of scheme(s)'])[1]/preceding::a[4]</value>
-      <webElementGuid>e3b770e9-d7a5-423b-aca4-a26c638fb694</webElementGuid>
+      <webElementGuid>ba2df22d-a7f2-403d-b74e-1114d9a9f11f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[18]</value>
-      <webElementGuid>2a43a87d-1dbe-4e9a-8c46-6ecb29f4ae36</webElementGuid>
+      <webElementGuid>6efa7937-6ddd-4f87-88cb-f94ec0c5c951</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/ul/li[3]/a</value>
-      <webElementGuid>e2665c9f-00c6-499f-a091-ceede0c18d18</webElementGuid>
+      <webElementGuid>1bd026c2-df92-4a72-bd77-6c6cb23d30e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Cap table' or . = 'Cap table')]</value>
-      <webElementGuid>096eafb6-86b6-4bb1-8821-a5e2564704e9</webElementGuid>
+      <webElementGuid>3d622036-b656-48a6-846e-01b39ded0a29</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

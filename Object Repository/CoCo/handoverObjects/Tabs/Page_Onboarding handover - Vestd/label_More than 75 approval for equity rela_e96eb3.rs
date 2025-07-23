@@ -3,7 +3,7 @@
    <description></description>
    <name>label_More than 75 approval for equity rela_e96eb3</name>
    <tag></tag>
-   <elementGuidId>4d110f28-99a5-486c-a67f-efdc7d696909</elementGuidId>
+   <elementGuidId>0e9f96e0-2b74-4a48-aaf2-4bebb8ab7927</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>3e0525ec-035a-4495-addf-42f4fa5c7734</webElementGuid>
+      <webElementGuid>054b13a6-5f4e-4e27-84b8-f8c2d45cca42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>More than 75% approval for equity related issues?</value>
-      <webElementGuid>60e4009f-794c-4663-8835-db86b4cfc5f4</webElementGuid>
+      <webElementGuid>c4681c8c-f5af-4544-bbf1-48daf0e4443d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/label[5]</value>
-      <webElementGuid>36e725ea-1366-4654-94e3-19b97c08a8f0</webElementGuid>
+      <webElementGuid>026a273c-eb12-498d-8db6-513b0b2738cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/label[5]</value>
-      <webElementGuid>86b24164-d533-4246-8cc1-767b7ae067bc</webElementGuid>
+      <webElementGuid>3ee9c353-ffd2-4b4e-85d7-c94b383080ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='More than 75% approval for equity related issues?']/parent::*</value>
-      <webElementGuid>a1596d99-60d5-4adc-9cf6-7ef842dd89fa</webElementGuid>
+      <webElementGuid>20621a0c-806e-4bf5-af40-9808eb896d2e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/label[5]</value>
-      <webElementGuid>9d83355e-1d3f-4ae1-93ce-3fc0ae8f2dab</webElementGuid>
+      <webElementGuid>70191fc7-ef98-43b6-b32a-d8e294fdf9ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'More than 75% approval for equity related issues?' or . = 'More than 75% approval for equity related issues?')]</value>
-      <webElementGuid>67c9f137-ca31-42d1-bb85-b6561d029f36</webElementGuid>
+      <webElementGuid>68f61645-de80-4272-9312-f6022525556f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

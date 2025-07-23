@@ -3,7 +3,7 @@
    <description></description>
    <name>label_No</name>
    <tag></tag>
-   <elementGuidId>8e3206bd-7218-41a4-af9b-3e10964cad19</elementGuidId>
+   <elementGuidId>2b97b05f-e6a7-442d-9794-17ec6e2e27e7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>2ca1352b-a175-489a-bf68-3dd8c7b5122a</webElementGuid>
+      <webElementGuid>8b819740-6b60-48f7-b315-cd00aa797408</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>radio-control-stacked font-weight-bolder</value>
-      <webElementGuid>ee44a04c-3351-45ee-b43e-00094b797d6d</webElementGuid>
+      <webElementGuid>6d7eaf6b-b294-4005-9787-fcd43b36ca73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>No</value>
-      <webElementGuid>df454db8-536d-4390-b0d8-7e65cc0320b6</webElementGuid>
+      <webElementGuid>1438dc53-548d-4570-a09e-4f98fae1bd7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked font-weight-bolder&quot;]</value>
-      <webElementGuid>b471f110-9501-4a99-8b52-39feebaa731d</webElementGuid>
+      <webElementGuid>f6bb00df-e1cc-458e-84b4-80c835c656ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[14]/label</value>
-      <webElementGuid>60ce0342-d239-49bd-aed4-c52f48f6453e</webElementGuid>
+      <webElementGuid>996d73f7-7e43-4cb4-a5d6-37d926b6ad74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[14]/label</value>
-      <webElementGuid>0433113e-8ebf-40c3-8efd-3bfd58e6850c</webElementGuid>
+      <webElementGuid>90d075e1-d18e-4a8c-9e98-d5b78020d7b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'No' or . = 'No')]</value>
-      <webElementGuid>af9c7f33-a030-4122-9ec8-ea6c722083d0</webElementGuid>
+      <webElementGuid>b6528bac-c7fe-4ad9-99ad-d225e721a238</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

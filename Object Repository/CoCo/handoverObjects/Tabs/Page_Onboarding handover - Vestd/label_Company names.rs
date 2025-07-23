@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Company names</name>
    <tag></tag>
-   <elementGuidId>78b428ec-aafa-4b91-98f1-eb1dd9ee337e</elementGuidId>
+   <elementGuidId>8980f78f-2e96-4625-9bf1-927268c4b3da</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>15ef8fcd-5ca7-434b-9ae4-f51701933428</webElementGuid>
+      <webElementGuid>d8829ba9-7cae-4373-a7b6-acfd7c4dbea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>for</name>
       <type>Main</type>
       <value>jCWGf3gyC3fTFmdr</value>
-      <webElementGuid>50c352ab-dbd0-4536-b1b5-728a583d0a11</webElementGuid>
+      <webElementGuid>ba1abd6b-5b52-4623-a5fa-b6851ad54ba0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Company names</value>
-      <webElementGuid>874593e7-dbfa-41e7-9043-67c876340073</webElementGuid>
+      <webElementGuid>ba0b9698-5f85-43e4-abf0-53a98a0090f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;left-indent&quot;]/div[@class=&quot;form-group form-group--optional&quot;]/label[1]</value>
-      <webElementGuid>e50300bf-471b-40b8-a0f3-aaa98cc3a375</webElementGuid>
+      <webElementGuid>63ef3b09-4d9a-4317-9e71-5244b5f7d8e8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[4]/div[2]/div/label</value>
-      <webElementGuid>c8fad9c4-a373-46ea-add5-5c17c92aa0ac</webElementGuid>
+      <webElementGuid>f77d77aa-bf80-479c-ac14-ee4bc6b462a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Company names']/parent::*</value>
-      <webElementGuid>41d4f637-4c81-474f-8a32-15636fdcf7d0</webElementGuid>
+      <webElementGuid>9d7dc31a-35e9-4fc2-ae20-9fb167f65103</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div[2]/div/label</value>
-      <webElementGuid>16f7d4d1-0291-4c28-b7f3-c680e1357d69</webElementGuid>
+      <webElementGuid>4a3abf3a-1460-44ca-8930-0414f925412a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +79,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Company names' or . = 'Company names')]</value>
-      <webElementGuid>fc256cf4-a9f8-4986-81e7-2c8a7e0248fe</webElementGuid>
+      <webElementGuid>8bb46a62-d851-4e2c-b654-d86e46b71187</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

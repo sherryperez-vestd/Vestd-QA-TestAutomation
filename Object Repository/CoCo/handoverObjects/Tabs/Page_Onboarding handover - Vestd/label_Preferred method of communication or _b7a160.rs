@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Preferred method of communication or _b7a160</name>
    <tag></tag>
-   <elementGuidId>59de5206-03d0-4ed4-94fd-a40cfd68d646</elementGuidId>
+   <elementGuidId>cfcc13d3-53b7-4770-b70c-d9ebdbcae3cb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>2351c89d-d1bb-4fa1-9fd8-c058be49b3f0</webElementGuid>
+      <webElementGuid>21d83abf-65eb-45d4-acbd-02ae90a7c775</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>cCXKbqCeS4Gwpqai</value>
-      <webElementGuid>79988093-62a5-455c-8f1c-dd213ee17d40</webElementGuid>
+      <webElementGuid>01b8d96e-c88c-4554-b7a2-e2b56d89c536</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Preferred method of communication or notes about the preferred method</value>
-      <webElementGuid>3ec41a67-98fc-44e0-8347-e133ac9dbc4f</webElementGuid>
+      <webElementGuid>4c3eac4b-0d84-4be3-bc2d-a0e88510f642</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group&quot;]/label[1]</value>
-      <webElementGuid>fd23475e-3c39-41d0-863a-d409f883287c</webElementGuid>
+      <webElementGuid>fca8175a-fc4d-4cee-9196-b915ec6fcdf7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[10]/div/label</value>
-      <webElementGuid>e8c936f9-f985-4bbd-ae05-4e48dfb4da31</webElementGuid>
+      <webElementGuid>bb2a895a-44d0-43bb-9550-7cbee3bf6981</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AML document'])[1]/following::label[1]</value>
-      <webElementGuid>47e90aee-405f-47f9-bb12-3113b7bd85a8</webElementGuid>
+      <webElementGuid>be1673b4-c2bc-44ab-b6c0-f0b98d4071d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select...'])[2]/following::label[1]</value>
-      <webElementGuid>bfae6e8f-0bd4-46cc-9913-66649fc2859b</webElementGuid>
+      <webElementGuid>a3b1b44b-02a7-4a6e-80f6-e19fcbb328e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Preferred method of communication or notes about the preferred method']/parent::*</value>
-      <webElementGuid>7a38b717-2868-4fcc-bab4-05324a26b9ad</webElementGuid>
+      <webElementGuid>d8ad1629-6bbd-41d1-9e34-a0c04a5e44fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div/label</value>
-      <webElementGuid>22673f31-d515-44e8-bcad-e2a385b3f731</webElementGuid>
+      <webElementGuid>4cef1258-3f4f-4dff-9d49-b09f00cbbe5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Preferred method of communication or notes about the preferred method' or . = 'Preferred method of communication or notes about the preferred method')]</value>
-      <webElementGuid>de54113b-eae9-45b5-bc8d-63dba15f9e06</webElementGuid>
+      <webElementGuid>508a34cc-aa31-4c05-8d8b-c9ae403ab852</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

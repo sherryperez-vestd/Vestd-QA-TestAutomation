@@ -30,21 +30,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/program-options')
 
-WebUI.setText(findTestObject('CoCo/handoverObjects/Tabs/Page_403 - Vestd/input_Email address_email'), 'radhika.chaudhary@vestd.com')
+WebUI.setText(findTestObject('null'), 'radhika.chaudhary@vestd.com')
 
-WebUI.setEncryptedText(findTestObject('CoCo/handoverObjects/Tabs/Page_403 - Vestd/input_Password_password'), 'dKUWoKfqioauKpv97TPFcQ==')
+WebUI.setEncryptedText(findTestObject('null'), 'dKUWoKfqioauKpv97TPFcQ==')
 
-WebUI.click(findTestObject('CoCo/handoverObjects/Tabs/Page_403 - Vestd/button_Log in'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/CoCo/handoverObjects/Page_Get started - Vestd/a_Staff'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/CoCo/handoverObjects/Page_Get started - Vestd/a_Companies'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/handoverObjects/Page_My companies - Vestd/a_Turner Ltd'), 0)
+WebUI.verifyElementPresent(findTestObject('null'), 0)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/CoCo/handoverObjects/Page_My companies - Vestd/a_Turner Ltd'))
+WebUI.verifyElementClickable(findTestObject('null'))
 
-WebUI.doubleClick(findTestObject('Object Repository/CoCo/handoverObjects/Page_My companies - Vestd/a_Turner Ltd'))
+WebUI.doubleClick(findTestObject('null'))
 
 // Step 1: Get the WebDriver instance
 WebDriver driver = DriverFactory.getWebDriver()

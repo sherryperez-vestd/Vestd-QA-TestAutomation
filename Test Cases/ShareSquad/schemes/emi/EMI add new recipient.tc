@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EMI add new recipient</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>93d5cb1e-6076-42ec-90b7-8b242f0b925d</testCaseGuid>
+</TestCaseEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Create a handover record</name>
    <tag></tag>
-   <elementGuidId>6f9f255c-c606-416f-ac93-9350a1d35cdc</elementGuidId>
+   <elementGuidId>ccd76b8b-0aac-49af-a184-1c2790f6faee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2826bb1a-149e-4d5e-930f-5103503d607d</webElementGuid>
+      <webElementGuid>25f3177f-3a31-4d61-ad2f-54010125508f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>1ab2945f-5d83-4a65-82bf-c36d1adad6d2</webElementGuid>
+      <webElementGuid>4451f99f-49ab-46f9-8a8c-edb01ed6b1cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>4eaf18c5-ea5c-486b-8a05-7846f54e0c4b</webElementGuid>
+      <webElementGuid>66860b89-0726-4f53-bf39-b31af75f33da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Create a handover record</value>
-      <webElementGuid>4a0f79a3-d188-4a17-be51-5f8941131b60</webElementGuid>
+      <webElementGuid>bf6fe2ad-cc06-408a-b5d9-0cd433bfdcd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>e1f605f2-188f-4233-843c-892b70c8e45d</webElementGuid>
+      <webElementGuid>c46a8d87-d246-46a3-b621-b5cda02bed40</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>135e4184-6396-416c-b877-9325cc4d7870</webElementGuid>
+      <webElementGuid>3b686892-f8d6-4985-b99d-3489104cbb66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/button</value>
-      <webElementGuid>645ab47a-a4ac-46e1-9b82-8093f00f5d3e</webElementGuid>
+      <webElementGuid>84881490-c2f4-4b9f-bbe3-993419dc8e21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Onboarding handover'])[1]/following::button[1]</value>
-      <webElementGuid>8cbdcaec-1862-4a9a-abf5-eafc3a1c6f9b</webElementGuid>
+      <webElementGuid>18ec9c3e-f749-4e11-8b8e-13dcf60a92fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::button[1]</value>
-      <webElementGuid>77e6dc89-f573-4ac4-8b04-e5dd74ea8d4e</webElementGuid>
+      <webElementGuid>6a7e45ba-a1ee-42e3-8cc9-e76eaabf2233</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::button[1]</value>
-      <webElementGuid>edd828f9-a6a3-4c2a-a92e-625957b1f760</webElementGuid>
+      <webElementGuid>fe8a4516-c19a-43cf-ad1b-b799cd98a3a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[2]/preceding::button[2]</value>
-      <webElementGuid>463df529-1cf4-44a2-b05c-9f36eaceb56a</webElementGuid>
+      <webElementGuid>b1838429-e8dc-42d7-83d2-c545012f4ba9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Create a handover record']/parent::*</value>
-      <webElementGuid>3790f781-3579-4876-a565-9dfb2ebaa9f6</webElementGuid>
+      <webElementGuid>0282fffb-2c6b-41de-9263-95e6d17d4b3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>bb02a890-6d70-4ac2-bdd5-351296a9beda</webElementGuid>
+      <webElementGuid>501dd2b9-1537-409a-ba5f-c43b1b9a7b90</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Create a handover record' or . = 'Create a handover record')]</value>
-      <webElementGuid>f0d22c70-978c-4f3c-ab41-b6a3c304d5bc</webElementGuid>
+      <webElementGuid>313ab346-622e-4181-986e-6a0466e63960</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Contact details</name>
    <tag></tag>
-   <elementGuidId>d2a69dd4-50b6-4167-82bc-bc3e1e71acf7</elementGuidId>
+   <elementGuidId>eef7dba6-dfc4-4c73-b9ca-118192ac3b21</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7bf77afc-8773-413f-a3f4-950a93782911</webElementGuid>
+      <webElementGuid>4fd71d7a-c62a-4386-a2a0-7a4e8dc1d040</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>c6467d66-1866-47ea-b265-df07c061711e</webElementGuid>
+      <webElementGuid>8f695ca4-f757-4f16-9a84-6b72ae558cfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>f02c7050-a04a-457e-bbc0-e79d59adfbe2</webElementGuid>
+      <webElementGuid>dc0932c7-23dc-4421-88ea-c7a2878f429a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Contact details</value>
-      <webElementGuid>da434df5-40c1-4d92-84b1-f4046f7da9cc</webElementGuid>
+      <webElementGuid>af8d8b19-0b2b-4058-b05f-d23444c293e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/ul[@class=&quot;nav nav-sub-tabs mb-5&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>9bbd526f-9187-434f-8f66-046d639817d7</webElementGuid>
+      <webElementGuid>78d11028-f824-4e73-adca-e699e2dbdea6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/ul/li[6]/a</value>
-      <webElementGuid>4c7e008e-f91b-4736-8eba-795a22853639</webElementGuid>
+      <webElementGuid>8afd96af-7bb2-448a-89d4-e9b96007a9b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Onboarding handover'])[1]/following::a[6]</value>
-      <webElementGuid>16dcb560-f52b-43d7-a775-506e95ce9ac4</webElementGuid>
+      <webElementGuid>475505b9-be51-446f-a04c-f3de56fcee0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type of scheme(s)'])[1]/preceding::a[1]</value>
-      <webElementGuid>8b91eafa-f32b-4d24-a763-0f3510941b34</webElementGuid>
+      <webElementGuid>3041b12a-01ef-4dd0-a060-85a4700676a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Contact details']/parent::*</value>
-      <webElementGuid>67fce4f1-0ec4-4eb0-9013-f42591801930</webElementGuid>
+      <webElementGuid>3f20e702-f9a1-4fdf-b614-d115fc5144cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[21]</value>
-      <webElementGuid>6010f8ac-3349-48b2-9ff7-4dcfa41b84b1</webElementGuid>
+      <webElementGuid>de290be0-8bed-44b7-aeb5-b3f572610cd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/ul/li[6]/a</value>
-      <webElementGuid>b2413fad-afaf-41ff-86a4-6b3a79c53f2a</webElementGuid>
+      <webElementGuid>1ae59f2c-4947-4ded-b370-b969308f73ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Contact details' or . = 'Contact details')]</value>
-      <webElementGuid>6c630102-44cb-45f3-a0f9-388bbab950d6</webElementGuid>
+      <webElementGuid>1f375f44-b3a3-4566-957f-e8cc1c74058c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

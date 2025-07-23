@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>create-emi-scheme-template-workflow</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>d37446b4-f342-4055-9da3-93f3558e613b</testCaseGuid>
-</TestCaseEntity>

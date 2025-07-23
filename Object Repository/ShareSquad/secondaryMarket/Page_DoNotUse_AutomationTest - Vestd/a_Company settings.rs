@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Company settings</name>
+   <tag></tag>
+   <elementGuidId>04c0eba7-d7d9-4764-8da7-cf503ba250dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;sidebar-nested-nav-items&quot;]/li[8]//span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bb3065df-660e-4cc7-b897-50fb6a3e045c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://demo.app.vestd.com/company/52618?nav_p=account</value>
+      <webElementGuid>f569f899-4ac2-4125-b598-d2c47f26a312</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link</value>
+      <webElementGuid>1bb7ee27-34ea-45d4-a7ec-c2a3e202cbf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  Company settings
+                        </value>
+      <webElementGuid>821240a2-7765-4df2-9895-d8b46038a15f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebarCollapse&quot;)/ul[@class=&quot;navbar-nav mb-md-4&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <webElementGuid>06720bf0-d1ea-48f6-bdd3-3d2d4f457645</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebarCollapse']/ul[2]/li[2]/a</value>
+      <webElementGuid>47e4f0aa-a5ad-4e24-98c0-f52620e9d2f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Company settings')]</value>
+      <webElementGuid>dad2ea32-6464-4431-ac8a-9f17443106bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help Centre'])[1]/following::a[1]</value>
+      <webElementGuid>9e61556f-fb65-4224-9e00-cedf5ad1f119</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DoNotUse_AutomationTest'])[3]/preceding::a[1]</value>
+      <webElementGuid>d0232e05-eb72-4fe2-b728-aeb970746d8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a self-assessed valuation'])[1]/preceding::a[1]</value>
+      <webElementGuid>419679c3-a406-40da-ab70-7c1de6acc12a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Company settings']/parent::*</value>
+      <webElementGuid>97185916-b28b-4be5-8790-f82eaccab5f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://demo.app.vestd.com/company/52618?nav_p=account')]</value>
+      <webElementGuid>ef4736c3-1ab2-4a96-9ad9-f8400c7f63e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ul[2]/li[2]/a</value>
+      <webElementGuid>bb13ea3f-b491-4674-8efe-869c29391f0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://demo.app.vestd.com/company/52618?nav_p=account' and (text() = '  Company settings
+                        ' or . = '  Company settings
+                        ')]</value>
+      <webElementGuid>7c3fdeca-6ab9-407e-a27d-5f1daf696d3b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -4,7 +4,7 @@
    <name>Sharesquad Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>swetha.yeguvapalli@vestd.com;arthur@vestd.com;pramod@vestd.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -15,35 +15,35 @@
       <guid>3e5ba04b-3217-4daf-855f-dc2a696f7d3e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/schemes/emi/EMI-createTemplate-addRecipient-deleteTemplateRecipient</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/schemes/emi/EMI createTemplate addRecipient deleteTemplateRecipient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>b42c4e7c-61f9-4919-a3a2-1a6199d0a7f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/schemes/esop/esop-createTemplate-addRecipient-deleteTemplateRecipient</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/schemes/esop/ESOP createTemplate addRecipient deleteTemplateRecipient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5f1c5062-18f5-4d99-afbb-e8ecefe0f441</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/schemes/csop/csop-createTemplate-addRecipient-deleteTemplateRecipient</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/schemes/csop/CSOP create Template addRecipient deleteTemplateRecipient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>681acb6f-359c-495d-b0e0-78ee90e64a60</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/schemes/emi/create-emi-scheme-template-workflow</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/schemes/emi/EMI create scheme template via workflow</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>0fe2dfc7-7079-48d3-a0c3-b188d042ce6c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/authorisations/create-gs-authorisation</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/authorisations/Create GS authorisation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -56,7 +56,7 @@
       <guid>d25e548d-4b62-4561-b042-82fd5356ea25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/authorisations/create-option-pool</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/authorisations/Create option pool</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -69,7 +69,7 @@
       <guid>22bfe138-d8dc-47ac-aadf-d0ca0ee39933</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/authorisations/create-share-authorisation</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/authorisations/Create share authorisation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -82,42 +82,42 @@
       <guid>8b58aad0-8a78-4b06-a4f7-c80f4e6b638a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/buyback/buyback-treasury</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/buyback/Buyback to treasury</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>26dbea91-d0db-4dc1-995c-b579407639fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/buyback/option buyback program/record option buyback - agremeent summary</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/buyback/option buyback program/Record option buyback - agremeent summary</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2bf2c26d-b474-4e8b-a586-d9b2f4962970</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/buyback/option buyback program/record option buyback - index</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/buyback/option buyback program/Record option buyback - index</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>aa4cfab6-7692-4ad7-b3ed-24faebaa5d0a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/stockTransfer/on-platform/on-platform-stock-transfer</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/stockTransfer/on-platform/Create on platform stock transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>1c565766-011d-4a5a-96d4-d52a8a3d6c08</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/valuation/record-company-valuation</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/valuation/Record company valuation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7ba16d58-f9e6-4d0e-be6e-81e351e6f75f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/authorisations/create-gs-authorisation</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/authorisations/Create GS authorisation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -130,7 +130,7 @@
       <guid>d63f1961-026c-4376-a24b-192855f7be1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/authorisations/create-option-pool</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/authorisations/Create option pool</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -143,7 +143,7 @@
       <guid>8a9997cf-b1e0-4c6e-bdf0-f7b5c598f2cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/authorisations/create-share-authorisation</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/authorisations/Create share authorisation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -156,7 +156,7 @@
       <guid>34373555-c98a-46fd-86a4-bdc6f44f89a4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/authorisations/topup-option-pool_res-generated</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/authorisations/Top up option pool - resolution generated</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -169,7 +169,7 @@
       <guid>b06bf4e8-edf1-4364-9c43-1dd91560d63b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/authorisations/topup-option-pool_res-uploaded</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/authorisations/Top up option pool - resolution uploaded</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -182,7 +182,7 @@
       <guid>00d2d4a8-a428-43e5-a4a8-1fcf8256ab3c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/authorisations/topup-option-pool_company-docs</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/authorisations/Top up option pool - company docs</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -195,7 +195,7 @@
       <guid>00487875-70bf-408a-93bf-2e3255f65c27</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/issueShares/bulk-issue-shares</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/issueShares/Bulk issue shares</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Any warrants or convertible loan notes</name>
    <tag></tag>
-   <elementGuidId>839edf92-ad1f-4f88-9a11-f10dc8e4e7f3</elementGuidId>
+   <elementGuidId>5cd2fa16-ac69-41ad-9546-3da6d70fbf55</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>59001a82-b2dc-4cdc-99ac-6d07628b0b2a</webElementGuid>
+      <webElementGuid>3ac68225-8ac7-4c29-8248-43d7d669e59c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>ABrY6GMGQjUnuGrg</value>
-      <webElementGuid>eb361bed-41aa-4d54-aca6-bfcd3781eaba</webElementGuid>
+      <webElementGuid>e951cf64-384e-45c6-a0dc-2426a7dfeeaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Any warrants or convertible loan notes?</value>
-      <webElementGuid>3eccf9bb-3edd-4bf0-8d0e-03df92f7daf0</webElementGuid>
+      <webElementGuid>c1bd0253-962b-4de6-987f-00bf982c4cad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group form-group--optional&quot;]/label[1]</value>
-      <webElementGuid>7ba2a1b7-f3aa-44a2-a8ea-a5bb8972e91c</webElementGuid>
+      <webElementGuid>9691f823-2662-4195-89f8-8714ed9b75ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[9]/label</value>
-      <webElementGuid>0431361b-0ca3-4935-aa23-119dbeb1a6d7</webElementGuid>
+      <webElementGuid>73c031be-da36-48b5-b2cc-369bbd1d341e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Corporate governance'])[1]/preceding::label[1]</value>
-      <webElementGuid>4aabc80f-1485-4f64-8f1d-3751509c3c4d</webElementGuid>
+      <webElementGuid>6837b8d4-e5c9-42c2-a340-d6d6c2547b39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Any warrants or convertible loan notes?']/parent::*</value>
-      <webElementGuid>e9ee49ce-993a-4b1f-8f44-af8f63206cbe</webElementGuid>
+      <webElementGuid>d8dbb06a-44b1-4abc-b4cc-878f1611b1c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[9]/label</value>
-      <webElementGuid>90c0f092-b610-416f-a13f-769dcff546ba</webElementGuid>
+      <webElementGuid>0930d2d2-45f3-493a-a91a-8986781f7cb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Any warrants or convertible loan notes?' or . = 'Any warrants or convertible loan notes?')]</value>
-      <webElementGuid>c9053c24-e4f2-4f42-98d8-53a1d9536b68</webElementGuid>
+      <webElementGuid>75912e30-72ed-47b4-a196-7904752c404f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

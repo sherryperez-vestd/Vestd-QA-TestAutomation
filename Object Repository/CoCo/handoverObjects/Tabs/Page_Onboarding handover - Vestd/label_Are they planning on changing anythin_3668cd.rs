@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Are they planning on changing anythin_3668cd</name>
    <tag></tag>
-   <elementGuidId>6369b3eb-3e5e-4977-b5c3-c25826944721</elementGuidId>
+   <elementGuidId>a5237548-6d88-49d9-8f76-2f1045423a70</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>98430468-30f2-44b9-b222-85498cce1629</webElementGuid>
+      <webElementGuid>6b8ef685-ee79-49d2-9333-625c0fdd3626</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Are they planning on changing anything or expect any share movements in the next 6 months?</value>
-      <webElementGuid>9dd6b977-27ae-4af3-85d4-965de0f400ff</webElementGuid>
+      <webElementGuid>adf461bd-146e-4062-8365-9dab4c247975</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/label[6]</value>
-      <webElementGuid>5d85ce0d-ee54-458c-af31-f14b4c5cbb62</webElementGuid>
+      <webElementGuid>b910688d-7552-4e93-941a-5be7e6d5bb0d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/label[6]</value>
-      <webElementGuid>54290d59-735e-4ef2-a6d8-c89814844d5d</webElementGuid>
+      <webElementGuid>74400496-c928-4486-8311-99a257c6bf07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Are they planning on changing anything or expect any share movements in the next 6 months?']/parent::*</value>
-      <webElementGuid>a9d7fd11-e711-4976-8ebe-c05d5964c3a1</webElementGuid>
+      <webElementGuid>76b107d9-a12e-4d20-ab4f-b5d3a4b98766</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label[6]</value>
-      <webElementGuid>5fca6ed2-383b-4b4a-8b9d-3c3f49c1c811</webElementGuid>
+      <webElementGuid>44de8964-9411-4235-b72b-5771039a0cca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Are they planning on changing anything or expect any share movements in the next 6 months?' or . = 'Are they planning on changing anything or expect any share movements in the next 6 months?')]</value>
-      <webElementGuid>8772a5a0-a70d-44d8-bb9d-76364f1933d4</webElementGuid>
+      <webElementGuid>96e170bf-cbeb-46a7-88f5-d324c9df4fdb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

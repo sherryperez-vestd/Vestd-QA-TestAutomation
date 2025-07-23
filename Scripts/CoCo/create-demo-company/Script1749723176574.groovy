@@ -23,9 +23,9 @@ WebUI.click(findTestObject('Object Repository/CoCo/navigation/top-nav/a_Staff'))
 
 WebUI.click(findTestObject('Object Repository/CoCo/navigation/top-nav/a_Companies'))
 
-WebUI.click(findTestObject('Object Repository/CoCo/Page_My companies/button_Create demo'))
+WebUI.click(findTestObject('Object Repository/CoCo/myCompanies/button_Create demo'))
 
-WebUI.click(findTestObject('Object Repository/CoCo/Page_My companies/a_Guided'))
+WebUI.click(findTestObject('Object Repository/CoCo/myCompanies/a_Guided'))
 
 WebUI.delay(15)
 

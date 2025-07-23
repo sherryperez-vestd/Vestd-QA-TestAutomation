@@ -3,7 +3,7 @@
    <description></description>
    <name>h5_Existing authorisation status</name>
    <tag></tag>
-   <elementGuidId>1476f35c-9611-4897-a633-817e451bb03d</elementGuidId>
+   <elementGuidId>84110f2f-1145-4a3a-b01a-3cfc0b187242</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>3106be4e-ef32-4dd1-9f05-b03de718b030</webElementGuid>
+      <webElementGuid>870ddfc9-7c5c-401b-9a9b-e956321c17bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Existing authorisation status</value>
-      <webElementGuid>efbf5013-f808-40d1-8059-df2025f03a39</webElementGuid>
+      <webElementGuid>39ff7c2c-e8bd-4348-bfd7-f73cf6c2abcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/h5[2]</value>
-      <webElementGuid>caf7d339-cb09-459c-a21e-51d33a85d9b4</webElementGuid>
+      <webElementGuid>13714bed-72e3-42d6-b0c9-d3a4b4270c70</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/h5[2]</value>
-      <webElementGuid>13a639da-dd89-49b2-9b44-0709f20ebccd</webElementGuid>
+      <webElementGuid>e3355b9f-97e9-405c-aee2-f43f54fdff17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Existing authorisation status']/parent::*</value>
-      <webElementGuid>5879f550-77e8-4062-9066-15524d5bbd68</webElementGuid>
+      <webElementGuid>338bdeb5-2b80-463d-9add-62df60dfb5e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/h5[2]</value>
-      <webElementGuid>c96c0968-e775-4c06-8bed-68d71e000766</webElementGuid>
+      <webElementGuid>9990966b-cb0f-4abb-9f2e-941f9d61f6dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h5[(text() = 'Existing authorisation status' or . = 'Existing authorisation status')]</value>
-      <webElementGuid>da0844c3-c58d-4f9e-ace5-7b7db03bdea7</webElementGuid>
+      <webElementGuid>d84acca2-7edf-44b4-8233-baccebc1eb42</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

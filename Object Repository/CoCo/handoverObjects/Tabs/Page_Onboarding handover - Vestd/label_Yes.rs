@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Yes</name>
    <tag></tag>
-   <elementGuidId>ef3f90aa-4afc-438b-a80a-642c95b6bc81</elementGuidId>
+   <elementGuidId>474df4e9-4c6e-4a2d-89c3-ae1322ab00ed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>5d5b8be7-818f-472d-89bc-6d7cb926aab8</webElementGuid>
+      <webElementGuid>1e424d8e-0e1a-4835-9d9c-3ebc7db584e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>radio-control-stacked</value>
-      <webElementGuid>b42669a1-fa86-4d36-8ae9-f12924324e9d</webElementGuid>
+      <webElementGuid>7bd775da-814f-4874-a148-a6c5d8776590</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>8a7598df-eb1e-4fd9-b767-9c0be105e6fa</webElementGuid>
+      <webElementGuid>25298815-20d4-4525-8ccc-a9040c4a21ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]</value>
-      <webElementGuid>eaa2c2d9-451f-48eb-9e37-43b35f7ac5d4</webElementGuid>
+      <webElementGuid>57648f99-67af-4d8c-b4f5-5c738c54499d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/div[3]/label</value>
-      <webElementGuid>2df26aae-5721-4ed4-b807-3e420b346918</webElementGuid>
+      <webElementGuid>6b30a52e-87a4-4c20-9df9-afdd200e2826</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[3]/label</value>
-      <webElementGuid>fdab3afd-cb15-4038-85a2-b9c143dfc67d</webElementGuid>
+      <webElementGuid>560d3094-d109-488b-b05f-d6ae414d8de9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Yes' or . = 'Yes')]</value>
-      <webElementGuid>ebf895e4-9154-4528-928e-f5cfcbc7ec25</webElementGuid>
+      <webElementGuid>28709953-e348-475f-93d5-42ceb60ca9af</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

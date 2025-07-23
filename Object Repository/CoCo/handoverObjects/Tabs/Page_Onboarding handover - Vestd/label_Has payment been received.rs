@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Has payment been received</name>
    <tag></tag>
-   <elementGuidId>a61a6c1c-0849-46db-84fc-d1f14f230952</elementGuidId>
+   <elementGuidId>a1bde535-2d3b-4062-bb35-2b7d7209a58c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>48c4f5a1-bba3-45f5-b2f3-438cc80d7630</webElementGuid>
+      <webElementGuid>4cc8e994-6567-4abd-a011-f10db9b260d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Has payment been received?</value>
-      <webElementGuid>a97c4e31-dcd0-4905-96f5-e72e04ab8c9b</webElementGuid>
+      <webElementGuid>500fe5df-a71a-4b6e-8486-3b44ae2d569b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[5]/div[@class=&quot;width-500&quot;]/div[@class=&quot;left-indent width-500&quot;]/label[1]</value>
-      <webElementGuid>1ce73e86-4573-4d4e-bb77-492d249db6b3</webElementGuid>
+      <webElementGuid>b5302e14-7870-4be1-acea-189bc3703fa4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[5]/div/div[4]/label</value>
-      <webElementGuid>1bbb9d73-564a-4416-a3ab-d7bbb9536850</webElementGuid>
+      <webElementGuid>d9925ed1-98e5-4186-a41f-9a0a5946b485</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Has payment been received?']/parent::*</value>
-      <webElementGuid>e134dc77-f1d3-4024-b6e5-55bb08a1dcc1</webElementGuid>
+      <webElementGuid>639f7190-caef-49d6-99b9-29e6c7b4841d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[4]/label</value>
-      <webElementGuid>57897910-d1f8-4478-b702-746ca52151f5</webElementGuid>
+      <webElementGuid>4c67c90f-a00d-4512-99be-df0734aaedbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Has payment been received?' or . = 'Has payment been received?')]</value>
-      <webElementGuid>feeea787-3dec-4be2-a25f-b58f15c21d09</webElementGuid>
+      <webElementGuid>2a4346d0-6cdb-4b23-aed6-c970925be63c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Yes_1_2_3_4_5</name>
    <tag></tag>
-   <elementGuidId>05a0db59-1f17-4545-8073-a55fcc4ec9ad</elementGuidId>
+   <elementGuidId>0980ee6e-263d-49f1-b8de-4b7cd5036deb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>f355ec6e-647a-456b-be8d-7fdf28a8de57</webElementGuid>
+      <webElementGuid>288b2bec-2217-4165-8565-ea7056b49c95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>font-weight-normal</value>
-      <webElementGuid>ca528871-4b6c-4e7f-8707-a44da47730d2</webElementGuid>
+      <webElementGuid>66bc59eb-1890-41f0-b729-d0dc8c023380</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>30e37e67-b019-4097-804e-dd6b287c428e</webElementGuid>
+      <webElementGuid>8f0688b6-1307-41fe-bb37-9b408a61e0df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/div[@class=&quot;left-indent width-500&quot;]/div[@class=&quot;form-group mb-3&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;font-weight-normal&quot;]</value>
-      <webElementGuid>328abfe9-6cbb-44c2-8ae7-7930e56c0883</webElementGuid>
+      <webElementGuid>57b7b4df-64aa-46a4-acf4-2e0326deb649</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/div[15]/div[5]/div/label</value>
-      <webElementGuid>93448c93-0926-41c7-94b3-6cfce9e949b8</webElementGuid>
+      <webElementGuid>53c6ad6f-4a7c-477b-a6a6-eccef2c79bf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[15]/div[5]/div/label</value>
-      <webElementGuid>c54e8179-6aae-4184-90a8-1469cc0440f4</webElementGuid>
+      <webElementGuid>d1bc21d4-3a9f-45a1-8a31-c715d7038520</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Yes' or . = 'Yes')]</value>
-      <webElementGuid>9840bcbe-b27e-4bfe-a244-3db87b546eef</webElementGuid>
+      <webElementGuid>abe5161c-e27d-4042-b446-020c93d993a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

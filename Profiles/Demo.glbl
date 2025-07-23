@@ -34,4 +34,14 @@
       <initValue>'Sherry@vestd12'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'radhika.chaudhary@vestd.com'</initValue>
+      <name>username_staff2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Radhika@123'</initValue>
+      <name>password2</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Do they have a Shareholders Agreement_32d10d</name>
    <tag></tag>
-   <elementGuidId>ddf536d3-a017-41c7-a336-f3530d49d78f</elementGuidId>
+   <elementGuidId>bb099dc5-380e-4828-bb6c-9a4655b52f43</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>19806dba-5497-47db-921f-cd3aa84c94cc</webElementGuid>
+      <webElementGuid>6000c8f7-618a-408f-87fe-3f5c6bfefbc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Do they have a Shareholders’ Agreement in place?</value>
-      <webElementGuid>212cf11b-bd34-4255-a9a4-69b1ce44a95f</webElementGuid>
+      <webElementGuid>59afda98-b49b-4a35-bf0b-bfc0e0770a73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/label[2]</value>
-      <webElementGuid>130d9cfc-3147-4c1a-b40e-fd4cba4085dd</webElementGuid>
+      <webElementGuid>861be511-21d8-469a-a939-f6c1ecfff1fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/label[2]</value>
-      <webElementGuid>ee2653ab-c660-4717-89e3-f4e4f51091dc</webElementGuid>
+      <webElementGuid>79929e22-8e64-4d24-a0b7-2abb828d7bda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Do they have a Shareholders’ Agreement in place?']/parent::*</value>
-      <webElementGuid>4873c25f-f682-4782-bcc8-6f28942720a6</webElementGuid>
+      <webElementGuid>b1c82336-de6a-4e85-9225-21ecb06be62b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/label[2]</value>
-      <webElementGuid>ec055f2c-1e60-4ac0-98cc-6177c60f7954</webElementGuid>
+      <webElementGuid>99f9c02f-ae7b-4af2-8613-d4d8c28c2114</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Do they have a Shareholders’ Agreement in place?' or . = 'Do they have a Shareholders’ Agreement in place?')]</value>
-      <webElementGuid>d728f6d3-a6cd-42ba-bdaf-1b9234528494</webElementGuid>
+      <webElementGuid>f23b4ce9-a69a-4e65-acd7-ac44c8259937</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

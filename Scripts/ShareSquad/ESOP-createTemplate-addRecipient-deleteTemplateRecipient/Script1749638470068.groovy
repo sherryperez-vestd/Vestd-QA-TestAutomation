@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Object Repository/ShareSquad/schemes/emi/scheme-temp
 
 not_run: WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/reward-template?type=emi')
 
-WebUI.callTestCase(findTestCase('ShareSquad/schemes/esop/esop-add-new-recipient'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ShareSquad/schemes/esop/ESOP add new recipient'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50915/scheme-template/esop/index')
 

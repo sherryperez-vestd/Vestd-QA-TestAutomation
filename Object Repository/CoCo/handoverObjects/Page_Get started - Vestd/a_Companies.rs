@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Companies</name>
    <tag></tag>
-   <elementGuidId>38a707de-8938-4147-a912-70ba8e934089</elementGuidId>
+   <elementGuidId>a8a47cc4-dbb9-447e-bb6f-5ace0cce4006</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e9b3a1f8-950b-4cf8-bced-4d2c43759938</webElementGuid>
+      <webElementGuid>f677b594-16df-4980-9cbf-58fcd0e33c57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-admin</value>
-      <webElementGuid>f3a7f331-2fdf-4781-8bdf-63cd5ae9541d</webElementGuid>
+      <webElementGuid>6b08d3e8-9b28-4a6a-96e4-e7d9d2db49d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company</value>
-      <webElementGuid>4d035181-2af1-44cf-9477-38f0995bf26d</webElementGuid>
+      <webElementGuid>e62f9f89-e5b4-4cc6-8cdf-dde06666ce89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <value>
             Companies
         </value>
-      <webElementGuid>67eb03e0-a823-4bb5-9882-4df44de7314a</webElementGuid>
+      <webElementGuid>2c436c74-e8ea-499a-bfaa-fdbede36254d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;staff-menu&quot;)/li[2]/a[@class=&quot;text-admin&quot;]</value>
-      <webElementGuid>f35a2ded-cab6-4072-ba27-df4eca7a46d1</webElementGuid>
+      <webElementGuid>ea676536-70dd-41ce-b9f7-4ae124844f02</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='staff-menu']/li[2]/a</value>
-      <webElementGuid>08fcc6e8-9606-4c52-ad08-45b11ab50e6b</webElementGuid>
+      <webElementGuid>947e61aa-7f67-4ead-983e-adba50fea8bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Companies')])[2]</value>
-      <webElementGuid>9de1859d-568f-41c9-a4b1-3ce51402b39d</webElementGuid>
+      <webElementGuid>b0c62ece-c5e7-4a67-b366-96387d6384a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[3]/following::a[1]</value>
-      <webElementGuid>5fa83d5d-cc8c-4aca-9d5c-cfa7611b590c</webElementGuid>
+      <webElementGuid>e21d0cda-8fa1-4636-a091-2e0f9688e581</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::a[2]</value>
-      <webElementGuid>cb05a619-4350-48c7-b5e3-7264b88739cb</webElementGuid>
+      <webElementGuid>792e33e2-cadb-4fec-800e-375022059d9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Incorporations'])[2]/preceding::a[1]</value>
-      <webElementGuid>e34cf5a3-e349-4935-b848-a5e67c990bd5</webElementGuid>
+      <webElementGuid>009af3c4-a706-4cc9-8309-a11533bd9335</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Legal docs'])[2]/preceding::a[2]</value>
-      <webElementGuid>b95c3d72-4b43-406b-aadc-adfe72442993</webElementGuid>
+      <webElementGuid>effffa46-a7e2-4332-b859-36a5199f90b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'https://demo.app.vestd.com/company')])[8]</value>
-      <webElementGuid>c552bbe8-abb5-465b-95a1-75065ded3d89</webElementGuid>
+      <webElementGuid>1c876f13-f4fb-48ec-bbbc-85dccad54f3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul[2]/li[2]/a</value>
-      <webElementGuid>cb425758-8fd8-4132-8a32-ef9767299688</webElementGuid>
+      <webElementGuid>0f537583-b135-4bc3-8b71-5622e67064d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
         ' or . = '
             Companies
         ')]</value>
-      <webElementGuid>9d6fc46f-31be-4893-88a6-6f7db7e830f1</webElementGuid>
+      <webElementGuid>28e2e225-8eea-4900-b85a-b0c4dfe54d91</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

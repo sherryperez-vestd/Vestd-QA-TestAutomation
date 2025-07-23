@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Yes_1_2</name>
    <tag></tag>
-   <elementGuidId>ddda99f9-0ba9-40e2-9b88-0d1fd0545ec3</elementGuidId>
+   <elementGuidId>3b283a35-9610-4f56-bb19-d8faa893a614</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>dd3fb465-f9b5-42fd-8b71-16a9922cabbb</webElementGuid>
+      <webElementGuid>d9b79eec-ce6a-4379-ba10-c40f10eb2c33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>a33610dd-052d-4772-b3ba-70bca1c06b27</webElementGuid>
+      <webElementGuid>d922616b-f543-4e2c-8c60-34f8c5462732</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/span[1]</value>
-      <webElementGuid>a73600f0-6a19-4f29-a002-a566c889ba26</webElementGuid>
+      <webElementGuid>b44e9dec-8fc4-4fcb-b646-419edc7cdea7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[10]/label/span</value>
-      <webElementGuid>b552a34c-53c9-4bd9-9f86-a340d3f99b91</webElementGuid>
+      <webElementGuid>7c43e5cd-86c9-493c-9004-496fc5279cbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Corporate governance'])[1]/following::span[1]</value>
-      <webElementGuid>a9a3609d-2037-4d12-93c5-7f647698d1e4</webElementGuid>
+      <webElementGuid>1dda3873-bb4a-494a-bb16-04e81d8706ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[10]/label/span</value>
-      <webElementGuid>68488d33-b8a3-423f-a8dd-d5237bfcbc4a</webElementGuid>
+      <webElementGuid>7f86640c-26b5-49dc-8e26-cccd5620820b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Yes' or . = 'Yes')]</value>
-      <webElementGuid>b463975e-7427-4194-9500-e2c6e6656c8e</webElementGuid>
+      <webElementGuid>49d589f1-a99a-4a79-9e19-99bf7248244e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

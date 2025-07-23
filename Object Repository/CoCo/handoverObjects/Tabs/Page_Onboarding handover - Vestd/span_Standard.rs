@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Standard</name>
    <tag></tag>
-   <elementGuidId>4232d314-e329-4486-94e7-7a2fc1be0799</elementGuidId>
+   <elementGuidId>5b939952-810d-4bc4-8c5d-2d8f101a7a6b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>4b25dd99-d529-4654-82a8-5dc07737df15</webElementGuid>
+      <webElementGuid>cc59c980-5333-4ae4-bb0f-e5bdf0caa47b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Standard</value>
-      <webElementGuid>0c25f4c9-2c4d-458e-a034-1edd1f7858b0</webElementGuid>
+      <webElementGuid>6e55a3c0-9338-4cd2-b5e8-830c06195e77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group mb-3&quot;]/div[@class=&quot;radio-controls&quot;]/div[5]/label[1]/span[1]</value>
-      <webElementGuid>f7184f80-911f-4c77-968e-91f88c4b5581</webElementGuid>
+      <webElementGuid>02ef46c1-19ce-4664-a947-ab8fb72e50f2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[7]/div/div/div[5]/label/span</value>
-      <webElementGuid>ffe88677-2d4d-40a7-ade6-d4e97de36c51</webElementGuid>
+      <webElementGuid>47745760-5dbf-4f4c-8619-bd94d2a33102</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Standard']/parent::*</value>
-      <webElementGuid>34b27f31-1d7f-448a-a226-0bec3c1d0f43</webElementGuid>
+      <webElementGuid>0428e994-f46f-4480-8842-3253c69b9b78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/div/div[5]/label/span</value>
-      <webElementGuid>3eefa580-c698-4922-8547-cb28618d2d22</webElementGuid>
+      <webElementGuid>4c8484a4-9b30-45e5-9a9d-49a3b3f7c3e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Standard' or . = 'Standard')]</value>
-      <webElementGuid>a409db8f-b0b2-4065-9bc6-ea711adffe2c</webElementGuid>
+      <webElementGuid>ec59223c-622a-41b1-bf84-d1814bf28ac0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

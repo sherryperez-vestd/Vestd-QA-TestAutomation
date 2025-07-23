@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Detailed</name>
    <tag></tag>
-   <elementGuidId>fc9e6bbb-7276-402b-932f-b81281c03e98</elementGuidId>
+   <elementGuidId>96f242a1-a82f-4ed8-8353-defc5bad52e3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>45ae81c3-d4c5-4535-bd23-b4ba6e27794f</webElementGuid>
+      <webElementGuid>4498d588-c110-4f37-bac7-3ca562861ddd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Detailed</value>
-      <webElementGuid>cf71e62a-1d42-4a58-8e91-58d29dcd9a98</webElementGuid>
+      <webElementGuid>50f4b46c-ab68-4c11-903c-b99191aef99f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group mb-3&quot;]/div[@class=&quot;radio-controls&quot;]/div[3]</value>
-      <webElementGuid>516e776e-fda4-49a2-82a7-04805ef30d44</webElementGuid>
+      <webElementGuid>9e8c1556-a452-4cbe-ae2c-e94fac40973b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[7]/div/div/div[3]</value>
-      <webElementGuid>bb5a9d4e-34fc-4a83-843d-c572db4a2ebe</webElementGuid>
+      <webElementGuid>041ed3a5-87b3-495b-907e-f7fdcdfb0cea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/div/div[3]</value>
-      <webElementGuid>90b08612-85f0-4ee4-9a55-8f487face67b</webElementGuid>
+      <webElementGuid>3f6cd46f-3111-49cd-a717-2f14e4b0de41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +63,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Detailed' or . = 'Detailed')]</value>
-      <webElementGuid>108866ed-00e4-4f56-ac2f-a6d3c3a890c0</webElementGuid>
+      <webElementGuid>4dabfed1-b06e-4acb-a75c-62aeae61639d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Yes_detailshandover_infoarticles_and__0d45d2</name>
    <tag></tag>
-   <elementGuidId>f4ffef09-2dfa-406c-9232-3eebbe1d6c6b</elementGuidId>
+   <elementGuidId>a0ddd009-336d-4d40-b07f-2bdd0956e711</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0c296ca4-4c9a-4965-b427-7ea72a0ed6f2</webElementGuid>
+      <webElementGuid>880d645f-0ca0-4ea7-bc8e-9ee4af52942e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>db9f3c4a-e509-46df-9dd4-2929d5d2068a</webElementGuid>
+      <webElementGuid>26428b12-d2fb-49e3-93ba-8c91c82764bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>ecbf1b58-decf-43d8-ba23-43c82fdaf395</webElementGuid>
+      <webElementGuid>ecc1af1e-8f59-4a58-a404-2e0dcfa45ba6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][articles_and_governance][corporate_governance][more_than_75_percent_approval]</value>
-      <webElementGuid>2bdbd59c-d859-4159-b540-127e8223fd31</webElementGuid>
+      <webElementGuid>3f92d50b-ec2d-4848-8bd9-703842487411</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>No</value>
-      <webElementGuid>1a7617b8-e645-46c1-9f56-cc8d31c43cf7</webElementGuid>
+      <webElementGuid>e9ccab96-ee10-4442-8abd-eb110d3e40c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>5f9e6933-d6ce-44f0-b15a-9cbe977ca1a9</webElementGuid>
+      <webElementGuid>f0f165c6-ab24-4921-8b9a-ef6b1b1ba5f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@name='details[handover_info][articles_and_governance][corporate_governance][more_than_75_percent_approval]'])[2]</value>
-      <webElementGuid>38063226-96c7-4f1f-bce3-994481bfb735</webElementGuid>
+      <webElementGuid>cb742039-725d-4487-b2cb-4bcfbeeb2bd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[17]/label/input</value>
-      <webElementGuid>012e3947-b1ac-40a8-a4be-2e5c8cf4c674</webElementGuid>
+      <webElementGuid>b1f790c3-cf34-4b5b-94c7-4a4680405868</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[17]/label/input</value>
-      <webElementGuid>59c4cc63-e684-4af0-a3c3-fc80a533de1d</webElementGuid>
+      <webElementGuid>3e105f4b-0337-4668-915c-7ee88123a37b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'details[handover_info][articles_and_governance][corporate_governance][more_than_75_percent_approval]']</value>
-      <webElementGuid>0498c6d7-e29d-4552-b7b9-edbfd200d2b8</webElementGuid>
+      <webElementGuid>1e4ab2e2-0729-41fe-b7aa-c509fc1a7d06</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EMI createTemplate addRecipient deleteTemplateRecipient</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>13561328-2b77-48e5-b67c-ff57edd09200</testCaseGuid>
+</TestCaseEntity>

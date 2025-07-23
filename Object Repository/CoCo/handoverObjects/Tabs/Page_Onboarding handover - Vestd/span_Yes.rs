@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Yes</name>
    <tag></tag>
-   <elementGuidId>9501e390-ba5e-4a71-bc98-cbb093aac4bc</elementGuidId>
+   <elementGuidId>d858bed3-1eba-4c05-991b-cc9fea0ed70d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>50290c9e-807c-4d38-9b2f-c06e5b2e2e96</webElementGuid>
+      <webElementGuid>4d038b25-02b0-4a72-a694-88d14e96cc98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>b9254b97-9479-4c70-b0c7-ba106ffe99f1</webElementGuid>
+      <webElementGuid>ea31764b-6355-4111-8d6d-f576187f8ecc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[2]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group mb-3&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;font-weight-normal&quot;]/span[1]</value>
-      <webElementGuid>2ddf3774-12aa-4b8d-a5f2-02f6c502e1f9</webElementGuid>
+      <webElementGuid>dffaef6d-8244-4273-adc0-79a86dcb714d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[2]/div/div/div/label/span</value>
-      <webElementGuid>18447746-a0a1-433f-a0b4-b17c2db8c251</webElementGuid>
+      <webElementGuid>0b9aa944-3ce4-4267-be6e-6ad462ae35cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/label/span</value>
-      <webElementGuid>9461d208-9ea9-4a1e-aad7-3b0ede15642b</webElementGuid>
+      <webElementGuid>25a5030a-f9a4-4206-8cab-f3fc9a124028</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +63,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Yes' or . = 'Yes')]</value>
-      <webElementGuid>133ce7a1-7b80-46d7-b806-fbe098dac865</webElementGuid>
+      <webElementGuid>c9e8b412-3195-4af8-8ec2-6c7643805670</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

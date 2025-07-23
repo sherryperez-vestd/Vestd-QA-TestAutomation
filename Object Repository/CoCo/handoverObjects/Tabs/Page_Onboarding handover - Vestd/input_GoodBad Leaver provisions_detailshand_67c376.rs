@@ -3,7 +3,7 @@
    <description></description>
    <name>input_GoodBad Leaver provisions_detailshand_67c376</name>
    <tag></tag>
-   <elementGuidId>01b157aa-c381-407a-a18d-1e00a2d6bfe7</elementGuidId>
+   <elementGuidId>7e508a19-d705-4a4d-994f-9441498bf537</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>67bdeba3-db61-472a-9a67-cf78fc14ba65</webElementGuid>
+      <webElementGuid>933fd9fd-6650-47c6-ad49-bf5c588649a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>1edb06f6-b527-4476-9854-5c8195d707f2</webElementGuid>
+      <webElementGuid>49fe0519-9b39-4a82-9eba-306cc88ed7ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>51444eed-7156-4436-a909-19eb849b0972</webElementGuid>
+      <webElementGuid>9cdcea5a-8620-41dd-92ee-096bd31c4061</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][growth_share][leaver_provisions]</value>
-      <webElementGuid>b388e752-59d0-4dfd-8ad4-82cf7f726e6a</webElementGuid>
+      <webElementGuid>059ed787-94e0-4fe1-b8c7-a00f1f07f14a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>82113148-5e40-496c-94c8-092779fa65c3</webElementGuid>
+      <webElementGuid>6ef689d5-63e7-47f5-8cb9-98ffabf0ff16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[4]/div[@class=&quot;width-500&quot;]/div[@class=&quot;left-indent width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>59038884-6917-4535-adb0-cae3bc3e5265</webElementGuid>
+      <webElementGuid>9dbd8fe2-6913-4111-9f0a-877dd64b3c00</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='details[handover_info][growth_share][leaver_provisions]']</value>
-      <webElementGuid>bb44b520-99a3-453c-89ce-dd4503894a34</webElementGuid>
+      <webElementGuid>71b1633c-2403-4465-95c2-7d0b27678f68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[4]/div/div[3]/div[4]/label/input</value>
-      <webElementGuid>ebb9679f-507a-4240-a428-2e0928d0f1af</webElementGuid>
+      <webElementGuid>35e5323b-3cbe-4efc-a0f0-b684f0534053</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[4]/label/input</value>
-      <webElementGuid>2f50d568-eb40-425f-b429-12f2ee05aa02</webElementGuid>
+      <webElementGuid>9aad0466-f585-415b-b3d6-c768cd1cb0d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'details[handover_info][growth_share][leaver_provisions]']</value>
-      <webElementGuid>c43bcdc2-15d4-4969-a53b-83102ea1fce1</webElementGuid>
+      <webElementGuid>c4f08533-2ceb-4f83-9ea2-56bdc4e6a3dd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

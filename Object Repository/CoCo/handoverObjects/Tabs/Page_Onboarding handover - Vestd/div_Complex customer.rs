@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Complex customer</name>
    <tag></tag>
-   <elementGuidId>d1e43ae0-f11d-487b-865e-0d97427fd9ed</elementGuidId>
+   <elementGuidId>62a694b6-23d0-4443-a048-50c6050d17ee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>87f30fb6-0650-4de0-8755-7dc50ab1566d</webElementGuid>
+      <webElementGuid>5a0f1bf6-2077-4148-bd77-0835788a9c9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mb-3</value>
-      <webElementGuid>51c699ed-f66b-4ce0-ad48-f69c8c17e974</webElementGuid>
+      <webElementGuid>ce880b14-e0dd-4eb9-8068-678828ed392c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Complex customer</value>
-      <webElementGuid>1619040b-da22-4a0f-b366-2b403b2a64a7</webElementGuid>
+      <webElementGuid>3a6f6ffc-51d3-433e-9070-1ee207e803e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group mb-3&quot;]/div[@class=&quot;mb-3&quot;]</value>
-      <webElementGuid>d108839b-9253-41a3-b72d-d8ec3c4e99ec</webElementGuid>
+      <webElementGuid>483d966b-84a8-4419-b113-ab8cff62d55f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[6]/div/div</value>
-      <webElementGuid>a5c2bf0a-6a53-4623-af28-ade1fd91e528</webElementGuid>
+      <webElementGuid>b79b9820-4327-44fc-a9f9-be02e3edd733</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div[6]/div/div</value>
-      <webElementGuid>d8b88563-c2b3-411a-b236-f03ff4c4f7e3</webElementGuid>
+      <webElementGuid>fddf05c6-e76e-4cfc-b714-08c6759d1098</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Complex customer' or . = 'Complex customer')]</value>
-      <webElementGuid>2d362190-0c46-4e11-9f30-8c3f6255ec78</webElementGuid>
+      <webElementGuid>27ce1dee-03a2-4df9-8996-c3c1f0e9c4fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

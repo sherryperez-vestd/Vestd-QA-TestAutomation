@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_View listing</name>
+   <tag></tag>
+   <elementGuidId>94a0d377-56e8-4c17-9438-c756a3abba26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div[4]/div[2]/div/div[3]/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-md.btn-primary.btn-not-submit.v-btn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b32d83f5-399d-4d87-9ba8-1c2bfe1dfc64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+      <webElementGuid>af38f91f-473e-4b87-a04c-dcf8da082844</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://demo.app.vestd.com/company/51742/secondary-market/20/secondary-market-offer</value>
+      <webElementGuid>5a15c8fb-172a-4608-8d06-6242efd667ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-md btn-primary btn-not-submit  v-btn</value>
+      <webElementGuid>f2047cac-cf5f-40a9-a642-fdca1c5e6ede</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>link-button</value>
+      <webElementGuid>456305a1-6051-4911-a3a1-9c89ca085f63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View listing</value>
+      <webElementGuid>a4c02e80-42d6-4709-89b7-6c2feb40046d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;card v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;mt-4&quot;]/div[@class=&quot;d-inline-block&quot;]/div[@class=&quot;d-inline-block&quot;]/a[@class=&quot;btn btn-md btn-primary btn-not-submit  v-btn&quot;]</value>
+      <webElementGuid>e9fa07cb-e5ae-49d5-817e-35e5948eb1c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div[4]/div[2]/div/div[3]/div/div/a</value>
+      <webElementGuid>b9d3f715-8cd3-48a2-9e3c-150e8c85603e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Governance'])[2]/preceding::a[1]</value>
+      <webElementGuid>c327bc71-2840-48df-a12e-756d091dabf5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='help article on company governance'])[1]/preceding::a[1]</value>
+      <webElementGuid>98989053-b312-4436-a584-650ec29c347f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View listing']/parent::*</value>
+      <webElementGuid>43217168-7413-43b2-ba74-6434e7b36b90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://demo.app.vestd.com/company/51742/secondary-market/20/secondary-market-offer')]</value>
+      <webElementGuid>ecc37ded-37c5-4dbd-9246-f5e5e3b57adf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/a</value>
+      <webElementGuid>3428b477-9759-4aa2-bc53-4b742d195b32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://demo.app.vestd.com/company/51742/secondary-market/20/secondary-market-offer' and (text() = 'View listing' or . = 'View listing')]</value>
+      <webElementGuid>94ab8038-58ef-4874-b65f-0fdc62d989a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -31,4 +31,19 @@ public class UIKeywords {
 		WebUI.setText(findTestObject('Object Repository/CoCo/login/input_password'), password)
 		WebUI.click(findTestObject('Object Repository/CoCo/login/btn_Login'))
 	}
+
+	@Keyword
+	def verifyElementPresentVisibleText(String objectPath, String objectText) {
+		WebUI.scrollToElement(findTestObject(objectPath), 0)
+		WebUI.verifyElementVisible(findTestObject(objectPath), FailureHandling.STOP_ON_FAILURE)
+		WebUI.verifyElementPresent(findTestObject(objectPath), 0)
+		WebUI.verifyElementText(findTestObject(objectPath), objectText)
+	}
+	
+	@Keyword
+	def verifyElementPresentVisible(String objectPath) {
+		WebUI.scrollToElement(findTestObject(objectPath), 0)
+		WebUI.verifyElementVisible(findTestObject(objectPath), FailureHandling.STOP_ON_FAILURE)
+		WebUI.verifyElementPresent(findTestObject(objectPath), 0)
+	}
 }

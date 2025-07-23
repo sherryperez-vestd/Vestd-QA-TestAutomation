@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Additional charges</name>
    <tag></tag>
-   <elementGuidId>2884a5f8-8d7f-4068-93de-7ebdf6785168</elementGuidId>
+   <elementGuidId>6cf9556f-a19a-4f1f-bde1-09c73f22bc91</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>6a93e552-595a-4737-b0a4-7136c26cdb07</webElementGuid>
+      <webElementGuid>7b9b7b72-d897-4d4c-91ce-ee3c92f7b66f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Additional charges</value>
-      <webElementGuid>5913698b-d00c-4272-a0f0-d1fb9fdab2e4</webElementGuid>
+      <webElementGuid>9bec9610-2495-4a96-95ff-c9f4a79d0c4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[5]/div[@class=&quot;width-500&quot;]/label[2]</value>
-      <webElementGuid>d74762b2-4e3e-4b5b-9bf5-2e5b04b1e5a8</webElementGuid>
+      <webElementGuid>d88e1594-5758-47a4-8a1f-db733c019f1b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[5]/div/label[2]</value>
-      <webElementGuid>be78e990-3416-48a6-be95-01e52016a56b</webElementGuid>
+      <webElementGuid>6baa8231-e64d-4be7-92c1-e20fece0512a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Additional charges']/parent::*</value>
-      <webElementGuid>3887fc8e-a96d-498c-857b-6870fb972765</webElementGuid>
+      <webElementGuid>077bbf1e-2658-415f-b75e-e983d3c88e3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/label[2]</value>
-      <webElementGuid>25e1277f-e778-4151-bb2a-2a8affd7eb4b</webElementGuid>
+      <webElementGuid>1420af30-5dbf-4c24-b9f7-add985e4033c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Additional charges' or . = 'Additional charges')]</value>
-      <webElementGuid>c67ee51a-67e3-4bac-aeaf-c85cab5df3aa</webElementGuid>
+      <webElementGuid>47198ece-fb95-42ad-9a3b-c3dd6bb0d520</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Additional charges_detailshandover_in_1c353a</name>
    <tag></tag>
-   <elementGuidId>116e5add-3b3e-4eaf-a636-f8325e260d26</elementGuidId>
+   <elementGuidId>4f2a6167-2f25-4f0e-9b1e-7c2fb4fe9aa7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8ace0368-4191-4912-9649-2d6ef944c209</webElementGuid>
+      <webElementGuid>85bab24e-d5bf-4bc2-8c30-5ac2a65c24ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>8ab16c7c-cda8-4bf5-af5d-90e6e3cfcad0</webElementGuid>
+      <webElementGuid>12427324-4723-491e-9e8d-42fae4e8d498</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>f7d9dd82-6681-4fe7-b164-0192de886957</webElementGuid>
+      <webElementGuid>c15a5dea-666f-4c14-8544-eb0618b0117d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][billing][checkbox]</value>
-      <webElementGuid>4cc4d0ec-fdc1-4f1b-8608-31a39db103ea</webElementGuid>
+      <webElementGuid>ab7684ca-b0fc-4c83-bc08-d523d35ab90a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>value</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>5fa986f1-297c-45b3-a6f2-4392c2a45564</webElementGuid>
+      <webElementGuid>b8f1a44d-fef1-4f5c-b331-8b676ee4894d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[5]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group mb-3&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;font-weight-normal&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>bfef3717-2313-4364-805c-17669c94cb86</webElementGuid>
+      <webElementGuid>ef0fc705-d14a-4686-a7f3-138d0e04d359</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='details[handover_info][billing][checkbox]']</value>
-      <webElementGuid>fcd38056-5272-48f0-88bb-f36ae25a00ca</webElementGuid>
+      <webElementGuid>b7d18d12-505c-4d28-a575-933c27052d94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[5]/div/div[3]/div/label/input</value>
-      <webElementGuid>962bb332-cc4d-4e40-b945-b01ddf55573e</webElementGuid>
+      <webElementGuid>5d3677ef-a57c-4c03-8dd0-7fdc1462eb1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div[3]/div/label/input</value>
-      <webElementGuid>570f1ad6-a7cb-4d76-8591-84546d6cd03d</webElementGuid>
+      <webElementGuid>93ca5634-6d5a-4d04-85a8-93a1847f8914</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @name = 'details[handover_info][billing][checkbox]']</value>
-      <webElementGuid>08e19256-fc5c-4aac-b214-5711bba47fc1</webElementGuid>
+      <webElementGuid>1ee22be1-a06a-4e14-8959-db697f7e9eaf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

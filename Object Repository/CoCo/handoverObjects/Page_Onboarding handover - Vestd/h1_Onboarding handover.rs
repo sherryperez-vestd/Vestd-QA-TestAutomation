@@ -3,7 +3,7 @@
    <description></description>
    <name>h1_Onboarding handover</name>
    <tag></tag>
-   <elementGuidId>c4ea913d-0623-44f0-880c-05ec676e3702</elementGuidId>
+   <elementGuidId>5b9bdf90-b7fd-4d41-9bb5-3e626a83a52e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>6e0a70e2-8dbf-4fd5-93fb-63c2674b2205</webElementGuid>
+      <webElementGuid>c1e2931d-6f8c-44ec-a422-9be107bd2f96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-admin</value>
-      <webElementGuid>66ec940f-cca2-4022-8ab7-4a4f5db22ccd</webElementGuid>
+      <webElementGuid>1de70bd8-fd42-4144-bf4e-c9d79dbf67f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <value>
         Onboarding handover
     </value>
-      <webElementGuid>324a8330-f781-4468-b477-14da196bf0f8</webElementGuid>
+      <webElementGuid>f310ac46-59b6-436f-983a-6c42c42e66de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[@class=&quot;text-admin&quot;]</value>
-      <webElementGuid>3c35e688-154e-46de-97c0-d92b4f30dc73</webElementGuid>
+      <webElementGuid>dbcbac38-02ad-4442-94d6-47d9cc7402c0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>e9f2d158-1b31-496b-a72b-0e62247b3882</webElementGuid>
+      <webElementGuid>97973e6e-5197-4797-991e-af498828beb3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>dc8b793e-28f6-49bd-b234-0e1063c209b2</webElementGuid>
+      <webElementGuid>7e52f194-e88b-4192-9e1a-d9ed0c6175f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>a7b28fd8-9c75-44c0-9e40-b1e9cd748446</webElementGuid>
+      <webElementGuid>a62b5d0e-971c-4302-9f58-7a722df36150</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a handover record'])[1]/preceding::h1[1]</value>
-      <webElementGuid>b0f2fdbf-c74e-4fa7-a003-4cedd0cf1baa</webElementGuid>
+      <webElementGuid>8ba8354b-f1a8-4f5d-a436-ddebfc6acd19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::h1[1]</value>
-      <webElementGuid>43139467-03c0-4777-a70a-77780002bcfe</webElementGuid>
+      <webElementGuid>79a058f4-f9ff-429d-b726-b34cbeb2db56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Onboarding handover']/parent::*</value>
-      <webElementGuid>5d6554d8-5770-441a-8eb1-b926e12afa8c</webElementGuid>
+      <webElementGuid>08ca4130-2496-499a-abc6-d444dfc79647</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>39467129-878c-46f8-aa48-52d45ae39f87</webElementGuid>
+      <webElementGuid>c0da5550-2de3-4347-b889-497ec9a1d58a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
     ' or . = '
         Onboarding handover
     ')]</value>
-      <webElementGuid>9f29425e-d86c-463f-9af8-099cec4166cc</webElementGuid>
+      <webElementGuid>34ad6c94-1cf3-487e-b4b7-2706e870ec06</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

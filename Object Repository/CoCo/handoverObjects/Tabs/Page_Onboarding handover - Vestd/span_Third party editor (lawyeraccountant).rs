@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Third party editor (lawyeraccountant)</name>
    <tag></tag>
-   <elementGuidId>6ed543c0-75af-485d-ad63-dcdbf39b3235</elementGuidId>
+   <elementGuidId>cd943399-07cf-4baa-9bfe-2ce558c305ca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>3bd814bd-243d-4ebc-b98f-896a6e15c57e</webElementGuid>
+      <webElementGuid>f4e6d2cb-41c9-4925-81d6-565d9267f88d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Third party editor (lawyer/accountant)</value>
-      <webElementGuid>048605d0-bf96-446f-8ba2-ae1851d7fd3f</webElementGuid>
+      <webElementGuid>93c26e28-ce57-41fc-bfca-9b465d1549c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group mb-3&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;font-weight-normal&quot;]/span[1]</value>
-      <webElementGuid>e1a813cb-ffef-42ad-bef4-49225414a678</webElementGuid>
+      <webElementGuid>059fb556-5951-4268-a117-4c05892fe5ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[5]/div/div/label/span</value>
-      <webElementGuid>7cadbeee-edf0-491f-ae61-ed27d9f58add</webElementGuid>
+      <webElementGuid>c336c91f-e21f-48a8-95db-d64892e28773</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Third party editor (lawyer/accountant)']/parent::*</value>
-      <webElementGuid>bc978b2a-eed2-4d28-99dd-4b7da567e37c</webElementGuid>
+      <webElementGuid>18365d30-fecf-48f5-8685-0c6a34428d2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/label/span</value>
-      <webElementGuid>9bada4d4-5408-419e-95dd-57b865403aed</webElementGuid>
+      <webElementGuid>ed87736d-87bb-40f5-9e82-ace15f3d02e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Third party editor (lawyer/accountant)' or . = 'Third party editor (lawyer/accountant)')]</value>
-      <webElementGuid>4f522b64-34f9-4427-9a8c-493a569cd0bf</webElementGuid>
+      <webElementGuid>b65ac857-8782-4537-9e69-919fd27b0355</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

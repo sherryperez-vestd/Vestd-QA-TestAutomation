@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Do they want to disable shareholder m_62066f</name>
    <tag></tag>
-   <elementGuidId>3f6d73bd-0f96-4b81-a86c-1b0ad8e14831</elementGuidId>
+   <elementGuidId>be819066-a03b-4a45-b8a8-d20eb45f7cf6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>70b5fe76-5618-4b63-b59a-3e61768493ac</webElementGuid>
+      <webElementGuid>d47e076e-d451-4ad6-b11c-e59aa9049e74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>7719b332-7acb-48d0-80ca-1622dca75e17</webElementGuid>
+      <webElementGuid>547b6632-9d3a-4f21-a79f-3599665a421e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mr-1</value>
-      <webElementGuid>37e43246-cf1b-4a9b-b2ba-8d4863e62d3d</webElementGuid>
+      <webElementGuid>b6f5c489-8e34-4501-a180-ddc869501eea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>name</name>
       <type>Main</type>
       <value>details[handover_info][cap_table][disable_shareholder_management]</value>
-      <webElementGuid>3fd54b23-0f8b-441d-92a7-2e37fa52328c</webElementGuid>
+      <webElementGuid>177aaf1d-2cb3-4bbc-bd3d-64d15dbbef88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Yes</value>
-      <webElementGuid>bc5f5cd1-2048-488c-8af2-ae03d0eb41d5</webElementGuid>
+      <webElementGuid>8e68cd63-54fc-493f-b6c7-bb802e757c72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[3]/div[@class=&quot;width-500&quot;]/div[@class=&quot;mb-3&quot;]/label[@class=&quot;radio-control-stacked&quot;]/input[@class=&quot;mr-1&quot;]</value>
-      <webElementGuid>52603a77-cb3f-45b6-b144-0aa1f7e330c9</webElementGuid>
+      <webElementGuid>05e84358-b512-40ce-9e3d-a962b3ef2a1c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='details[handover_info][cap_table][disable_shareholder_management]']</value>
-      <webElementGuid>01b256d2-ef6f-4ade-b803-7f5f0ee26bbe</webElementGuid>
+      <webElementGuid>074e837b-abaf-4705-9a77-779648459c44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[3]/div/div[11]/label/input</value>
-      <webElementGuid>7b4ee94a-a008-4989-965e-4efe8e26b5ca</webElementGuid>
+      <webElementGuid>32b6855d-4158-4391-b4d8-09b4cebe73a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/label/input</value>
-      <webElementGuid>e4868779-a586-4bd6-a89b-9219b75e6634</webElementGuid>
+      <webElementGuid>4d852d15-0bf5-45f4-b42f-48d20da27df5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'details[handover_info][cap_table][disable_shareholder_management]']</value>
-      <webElementGuid>fdb702c1-0e98-405f-97db-512baebbbbb9</webElementGuid>
+      <webElementGuid>c8c34da7-37e2-431f-b04a-3653b3497dcb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

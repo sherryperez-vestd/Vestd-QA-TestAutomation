@@ -15,14 +15,14 @@
       <guid>f69f6a9d-d421-4acb-8456-815a7046f836</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/dasboard/dashboard</testCaseId>
+      <testCaseId>Test Cases/CoCo/dasboard/Dashboard index page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>837bd562-f76e-4e4b-9351-c5c93673b9e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/dasboard/dashboard - Customise groups</testCaseId>
+      <testCaseId>Test Cases/CoCo/dasboard/dashboard - Customise Groups</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

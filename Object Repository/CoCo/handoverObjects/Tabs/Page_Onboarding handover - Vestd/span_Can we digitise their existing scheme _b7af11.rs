@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Can we digitise their existing scheme _b7af11</name>
    <tag></tag>
-   <elementGuidId>abde436a-bffe-4053-8feb-2a0a61070e9d</elementGuidId>
+   <elementGuidId>a1519118-016a-4695-ac2c-235ef35c1a29</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>703763bf-5feb-469f-8c15-8ba5a59f717a</webElementGuid>
+      <webElementGuid>378e1336-0ac8-43be-a46c-52f57b1d8277</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Can we digitise their existing scheme? Do they have any deeds that they want to use going forward? Is the vesting schedule unusual (e.g. third Friday of the month)?</value>
-      <webElementGuid>e9ec70f0-f50d-460c-911a-a5bdce98908d</webElementGuid>
+      <webElementGuid>634cb565-24d3-4d27-aed5-8219de395bce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[2]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group&quot;]/p[@class=&quot;form-text&quot;]/span[1]</value>
-      <webElementGuid>ae712713-9ea4-4393-b2dd-6afc8ae99b5a</webElementGuid>
+      <webElementGuid>710eeb76-317d-4f98-b103-e814d730a9d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[2]/div/div[5]/p/span</value>
-      <webElementGuid>8c7e67fb-e654-4112-be21-ad1a422bf926</webElementGuid>
+      <webElementGuid>07da37b5-2c6e-40c3-8273-aa3afe47aac7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cap table'])[2]/preceding::span[2]</value>
-      <webElementGuid>9475d76e-9ad7-4bbd-ad5e-0cb83016c63a</webElementGuid>
+      <webElementGuid>d298f3d0-2e63-4bde-b8c0-7b2dfe378394</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Can we digitise their existing scheme? Do they have any deeds that they want to use going forward? Is the vesting schedule unusual (e.g. third Friday of the month)?']/parent::*</value>
-      <webElementGuid>2142282c-30a4-467b-b8e8-48127d2f1c51</webElementGuid>
+      <webElementGuid>9fee8451-3697-473e-9d90-cada3ad5dafe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/p/span</value>
-      <webElementGuid>c7782199-d201-4973-97a2-74aab93327e6</webElementGuid>
+      <webElementGuid>5e59bd18-2944-4f74-8df3-b426a49772be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +79,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Can we digitise their existing scheme? Do they have any deeds that they want to use going forward? Is the vesting schedule unusual (e.g. third Friday of the month)?' or . = 'Can we digitise their existing scheme? Do they have any deeds that they want to use going forward? Is the vesting schedule unusual (e.g. third Friday of the month)?')]</value>
-      <webElementGuid>cb84c435-b7b2-4c37-beb9-b86c8db628c8</webElementGuid>
+      <webElementGuid>81cff1d6-8941-4834-908a-992617ee909e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

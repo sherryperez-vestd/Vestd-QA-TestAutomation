@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Risk averse</name>
    <tag></tag>
-   <elementGuidId>4fbd6f32-6006-4730-bb46-f0fc8cd22ce1</elementGuidId>
+   <elementGuidId>f3eb7c1b-5142-4ccc-897b-bb819fcae87d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>630ba7c9-0623-4feb-af87-176bc21dfc4a</webElementGuid>
+      <webElementGuid>1fcabb81-18e4-40cc-9c29-115a8345b1ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Risk averse</value>
-      <webElementGuid>d9e23f1c-197d-4e0e-a24e-a0b0374b5366</webElementGuid>
+      <webElementGuid>139c5594-6ef3-4d94-a05d-3d3961a8d2be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[1]/div[6]/div[@class=&quot;width-500&quot;]/div[@class=&quot;form-group mb-3&quot;]/div[@class=&quot;radio-controls&quot;]/div[4]</value>
-      <webElementGuid>c9b56add-110b-4696-832a-e3901dadf73e</webElementGuid>
+      <webElementGuid>8d7a67ca-2dd4-427b-94b5-4b61b9e2ff51</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div/div[6]/div[7]/div/div/div[4]</value>
-      <webElementGuid>29be1246-ca0d-410d-a530-1634cc60f371</webElementGuid>
+      <webElementGuid>3485e43a-dae9-4ffd-bdc9-1d6ea1d8a235</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/div/div[4]</value>
-      <webElementGuid>24132511-60a4-4c9f-934b-cfa7c712de6b</webElementGuid>
+      <webElementGuid>35d413d5-a7d4-48df-b61e-35f423ea1c1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +63,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Risk averse' or . = 'Risk averse')]</value>
-      <webElementGuid>9d70b6a3-ac24-46e7-a97b-85e437a4a758</webElementGuid>
+      <webElementGuid>13521faa-2161-46bc-93f1-210b001554e6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
