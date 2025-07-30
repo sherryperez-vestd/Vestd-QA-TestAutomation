@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_textBuyback</name>
+   <tag></tag>
+   <elementGuidId>711d4559-dd32-4b0c-9cbc-d7a714cb937f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>strong.text-buyback</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//strong[@class = 'text-buyback']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/ul/li[4]/strong</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>70ea9f0c-8378-441c-93dd-c1973a880253</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-buyback</value>
+      <webElementGuid>5d691c4e-f4ce-474e-be83-f253e1d0be4c</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

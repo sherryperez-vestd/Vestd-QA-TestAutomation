@@ -17,6 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Test Case: Validate Financial Report generation, input validation, and file download
+ *
+ * URL: https://demo.app.vestd.com/company/50135/reports/financial-report
+ *
+ * Steps:
+ * 1. Navigate to Financial Report page and verify all static UI texts, field labels, and explanations.
+ * 2. Attempt download with invalid future "From" and "To" years (2029); verify corresponding validation messages.
+ * 3. Refresh and repeat validations for different invalid date combinations.
+ * 4. Trigger download without dates to test default behavior.
+ * 5. Verify redirect to job monitor:
+ *    https://demo.app.vestd.com/company/50135/job-monitor/
+ * 6. Wait and confirm final redirect to:
+ *    https://demo.app.vestd.com/company/50135/temporary-file
+ * 7. Validate presence of expiry message and "Download" button on temporary file page.
+ */
+
 //WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports/financial-report')
 
@@ -24,8 +41,7 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/heading
 
 WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/heading_Financial Report'), 'Financial report')
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/text_To generate reports, first enter a start and end date'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/text_To generate reports, first enter a start and end date'),  0)
 
 WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/text_To generate reports, first enter a start and end date'), 
     'To generate reports, first enter a start and end date. These dates will define the time frame for the report.')

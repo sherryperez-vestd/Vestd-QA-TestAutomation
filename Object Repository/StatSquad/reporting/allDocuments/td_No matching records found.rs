@@ -6,46 +6,34 @@
    <elementGuidId>eb9a23f3-c98e-4c37-9799-14ac8efd9760</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='DataTables_Table_0']/tbody/tr/td</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>td.dataTables_empty</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'No records found.' or . = 'No records found.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='DataTables_Table_0']/tbody/tr/td</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:role=cell[name=&quot;No matching records found&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>a588bb8b-dce8-4bab-82f3-60d564e871dc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>valign</name>
-      <type>Main</type>
-      <value>top</value>
-      <webElementGuid>2e55a27b-0c64-4acb-895e-8e734f82c720</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>colspan</name>
-      <type>Main</type>
-      <value>6</value>
-      <webElementGuid>dd4a9c6b-3fd1-452b-8936-cee388fac9f6</webElementGuid>
+      <webElementGuid>ccc17bcc-e4cb-4b4f-983e-2619105e8508</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,23 +41,15 @@
       <name>class</name>
       <type>Main</type>
       <value>dataTables_empty</value>
-      <webElementGuid>f5349d69-cc0c-4c3a-950c-f58c2adab257</webElementGuid>
+      <webElementGuid>2a73401f-7746-45ed-a7ed-45e8d12e23d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>No matching records found</value>
-      <webElementGuid>2fccec16-90a4-440f-b1a7-c53002d1b0b7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;DataTables_Table_0&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;dataTables_empty&quot;]</value>
-      <webElementGuid>4c1d39e5-869d-44aa-9a36-049286d95bae</webElementGuid>
+      <value>No records found.</value>
+      <webElementGuid>439d608d-aec9-4c13-9299-8f56c0c336fe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='DataTables_Table_0']/tbody/tr/td</value>
-      <webElementGuid>addfff32-cfb8-477a-9795-a39c07c6cf3b</webElementGuid>
+      <webElementGuid>2dc76438-82dd-4fef-aaf2-2760080f5739</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::td[1]</value>
-      <webElementGuid>095f4a03-3848-4782-958d-c3d016aa5d99</webElementGuid>
+      <webElementGuid>d14d67f1-9304-4c13-ab60-d1354024415d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[2]/following::td[1]</value>
-      <webElementGuid>e81aa994-bc5f-400a-92ce-83dac5a2e312</webElementGuid>
+      <webElementGuid>916fc481-3b24-4f1e-b0d2-5b79f22ebbee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::td[1]</value>
-      <webElementGuid>4fd4a04b-32ac-4452-b716-f33849bd96d5</webElementGuid>
+      <webElementGuid>ca397da5-6e79-4963-baed-519aa7a30181</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='No matching records found']/parent::*</value>
-      <webElementGuid>75c2b88b-7ba7-4ea6-ab7f-e7e6f3885e3c</webElementGuid>
+      <webElementGuid>778943b4-34d8-48ae-92d5-9efba22a7687</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td</value>
-      <webElementGuid>80cb4971-56fd-4661-a137-019df560e2a6</webElementGuid>
+      <webElementGuid>37553f0c-facf-4141-ba77-61c2da1f78c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'No matching records found' or . = 'No matching records found')]</value>
-      <webElementGuid>a81b897a-d99b-4be9-8d20-81e25d59fa86</webElementGuid>
+      <webElementGuid>1b66a74d-3ad2-4867-a93c-4cd1ee963519</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

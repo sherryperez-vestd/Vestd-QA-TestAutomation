@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>int_awardTotalValue</name>
+   <tag></tag>
+   <elementGuidId>ad273fc8-de8b-4702-9f29-d0b5d4b76f27</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-12 > div.table-responsive > table.table > tbody > tr > td:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//table[@class='table']//tbody/tr[1]/td[2])[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(contains(text(), '£48,740.30') or contains(., '£48,740.30'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/tbody/tr/td[2]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>803f4737-e616-4088-bf78-bce28e5eef75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>£48,740.30</value>
+      <webElementGuid>31ddc3d0-9207-4943-a293-b742e2981599</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

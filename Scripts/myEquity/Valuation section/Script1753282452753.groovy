@@ -17,6 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Test Case: Verify Company Valuation History Display on My Equity Page
+ *
+ * Steps:
+ * 1. Login as a staff user and navigate to My Equity page for 3 companies.
+ * 2. For each company:
+ *    - 0 valuations: Confirm placeholder text and absence of "See more" button.
+ *    - 1 valuation: Check valuation tiles are visible; "See more" should be hidden.
+ *    - 2+ valuations: Verify "See more" appears and opens modal on click.
+ * 3. Confirm presence and function of cancel CTA in modal.
+ * 4. Tooltip checks for valuations are currently commented out.
+ */
+
 'Login and navigate to My equity page'
 
 WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)

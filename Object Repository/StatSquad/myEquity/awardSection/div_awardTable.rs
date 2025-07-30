@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_awardTable</name>
+   <tag></tag>
+   <elementGuidId>4fd6817f-4856-4145-a3d8-b3c97fdf606b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-12.pb-2 > div > div > div.col-12</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Award (No. of shares)' or . = 'Award (No. of shares)')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0e61e561-743d-4da3-942a-43b02e95384d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-12</value>
+      <webElementGuid>17fc20ba-4dde-4f9f-af7a-4fa394a9b2bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Award (No. of shares)</value>
+      <webElementGuid>e666c0d0-6824-4228-b497-ae4bcc5f4c00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[1]/div[@class=&quot;col-12&quot;]</value>
+      <webElementGuid>5b3a25c2-19ea-47ed-8e85-e691644f6834</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]</value>
+      <webElementGuid>89b12aae-9151-4f4a-8426-f4865af7dc1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual growth'])[1]/following::div[3]</value>
+      <webElementGuid>6fd4d9f3-24f8-4cb7-b9dc-79506155e69f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total value'])[1]/following::div[3]</value>
+      <webElementGuid>76e27a61-97ff-42b2-aadd-824651341b1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[4]</value>
+      <webElementGuid>5c60ff85-de0e-42dd-8a7f-bcd04ef455a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Award (No. of shares)Total valueTotal price to pay Pre-tax profit 9,750£288.97£9,750.00-' or . = 'Award (No. of shares)Total valueTotal price to pay Pre-tax profit 9,750£288.97£9,750.00-')]</value>
+      <webElementGuid>29579809-dd80-4b6a-bcda-3cfca11d4e6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

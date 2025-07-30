@@ -23,7 +23,8 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/stock-transfer')
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfers index/a_Create a new transfer'))
 
-WebUI.selectOptionByIndex(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/select_share-class'), '1', FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByIndex(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/select_share-class'), 
+    '1', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/input_shareholder-From'))
 
@@ -33,33 +34,42 @@ WebUI.click(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stoc
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/li_Barry Saunders'))
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/input_Number of shares'), '10')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/input_Number of shares'), 
+    '10')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/input_Cash consideration'), '1')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/input_Cash consideration'), 
+    '1')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/select_Please selectNoYes'), '0', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/select_Please selectNoYes'), 
+    '0', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/select_Investment-Rounds'), '128377', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/select_Investment-Rounds'), 
+    '128377', true)
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/input_create one_btn btn-primary'))
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/input_Select Stamp duty'))
 
-WebUI.rightClick(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/p_Back to list of stock transfers'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'),  0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'), 
+    0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'), 'Stock transfer created.')
+WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'), 
+    'Stock transfer created.')
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/button_Delete'))
 
 WebUI.acceptAlert()
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted'), 
+    0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted'), 'The stock transfer has been deleted.')
+WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted'), 
+    'The stock transfer has been deleted.')
 
 WebUI.closeBrowser()
 

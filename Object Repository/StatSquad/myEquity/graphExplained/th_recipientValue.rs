@@ -10,12 +10,12 @@
          <value>th</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/table/thead/tr/th</value>
+         <key>BASIC</key>
+         <value>//th[(contains(text(), 'Recipient value') or contains(., 'Recipient value'))]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//th[(contains(text(), 'Recipient equity') or contains(., 'Recipient equity'))]</value>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/table/thead/tr/th</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,14 +33,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>th</value>
-      <webElementGuid>0ec88785-c7d1-4025-a42f-347be0ac1ca1</webElementGuid>
+      <webElementGuid>bd18ba79-d4ce-4518-ac2d-ef2a5343b477</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Recipient equity</value>
-      <webElementGuid>0323e2ff-0658-472d-9c84-83c0dee49933</webElementGuid>
+      <value>Recipient value</value>
+      <webElementGuid>ec5a52f7-8ac9-4457-a3bf-bba2f50c0dba</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

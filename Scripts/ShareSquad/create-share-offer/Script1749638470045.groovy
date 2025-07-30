@@ -21,27 +21,27 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureH
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-offer/create')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/select_IndividualCompany'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/select_IndividualOrCompany'), 
     'individual', true)
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_First name_given_name'), 
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_firstName'), 
     'Test')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_Last name_family_name'), 
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_lastName'), 
     'Shares')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_Email_email'), 'sherry.perez+shares@vestd.com')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_emailAddress'), 'sherry.perez+shares@vestd.com')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/select_share Authorisation'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/select_shareAuthorisation'), 
     '167070', true)
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_Number of shares_num_shares'), 
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_numberOfShares'), 
     '10')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_Price paid_price_per_share'), 
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_pricePaid'), 
     '1')
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_create one_btn btn-primary'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/btn_createSaveAsDraft'))
 
 WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/share-distribution-details/p_Test Shares (sherry.perezsharesvestd.com) Not invited'), 
     0)
@@ -70,7 +70,7 @@ WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/share-distributio
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-details/button_Issue immediately'))
 
-WebUI.click(findTestObject('ShareSquad/issueShares/share-distribution-create/btn_Yes, issue shares confirm'))
+WebUI.click(findTestObject('ShareSquad/issueShares/share-distribution-create/btn_issueSharesConfirm'))
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-details/a_Back to list of share distributions'))
 
@@ -147,9 +147,9 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-certificate'
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('CoSec/shareCertificates/button_Delete'))
+WebUI.click(findTestObject('CoSec/shareCertificates/icon_Delete'))
 
-WebUI.click(findTestObject('CoSec/shareCertificates/button_Confirm'))
+WebUI.click(findTestObject('CoSec/shareCertificates/button_ConfirmDelete'))
 
 WebUI.closeBrowser()
 

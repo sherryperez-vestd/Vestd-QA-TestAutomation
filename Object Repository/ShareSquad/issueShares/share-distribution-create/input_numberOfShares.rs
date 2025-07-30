@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_numberOfShares</name>
+   <tag></tag>
+   <elementGuidId>908d5f22-5ce1-477e-8b0c-f09df6bdb238</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#num_shares</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='num_shares']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@data-test-id = 'form-number-input']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Number of shares&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1d65a8ed-fcb0-4eb4-9796-757a35251e5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>form-number-input</value>
+      <webElementGuid>bf08b4f1-1dae-4ba5-8bd4-5de8b2f1f6f1</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

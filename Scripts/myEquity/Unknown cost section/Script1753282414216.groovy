@@ -17,6 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Test Case: Validate the Unknown Cost section and update flow on the My Equity page
+ *
+ * Steps:
+ * 1. Navigate to the recipient’s My Equity dashboard.
+ * 2. Verify presence and content of the Unknown Cost section:
+ *    - Heading, description, labels, and price details.
+ * 3. Click "Update price" and confirm input field, currency/unit labels, and action buttons (Cancel, Save).
+ * 4. Test editing:
+ *    - Set and cancel price input → verify no change.
+ *    - Set and save price input → verify updated display.
+ *    - Clear price input and save → verify retained previous valid value.
+ */
+
 //WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 'Login and navigate to My equity page'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')

@@ -4,20 +4,13 @@
    <name>StatSquad Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>swetha.yeguvapalli@vestd.com;minaxi.patel@vestd.com;arthur@vestd.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>dc5ef601-140b-4d64-96d0-35c659194ddd</testSuiteGuid>
-   <testCaseLink>
-      <guid>aa469837-553c-4c68-99fd-ec19ae7edae1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/usersLogin/UK/user-login-staff</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
    <testCaseLink>
       <guid>2ed9a6b5-5d6b-491a-a72c-fbef56f41d1b</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -89,6 +82,34 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>2813fdf0-477b-45c5-8ad9-f97e41ed6d39</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/myEquity/Cancelled options</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eefce119-0dcb-49c8-86d4-82f0df8145de</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/myEquity/Buyback options</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4124f69f-45d4-492e-9c36-c36342758ff1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StatSquad/myEquity/Vesting details</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dee9f7ec-4e01-437f-a81d-f76d4eafa32e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StatSquad/myEquity/Your graph explained</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>38431a1a-f589-4e12-8704-8f174e020ece</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -131,13 +152,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>edbc1d96-b37e-42dd-8793-2aa04680d786</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/reporting/Expense change settings</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>26109347-c6b1-4374-8d49-688e1a14c509</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -145,17 +159,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2813fdf0-477b-45c5-8ad9-f97e41ed6d39</guid>
+      <guid>edbc1d96-b37e-42dd-8793-2aa04680d786</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/Cancelled options</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4124f69f-45d4-492e-9c36-c36342758ff1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/myEquity/Vesting details</testCaseId>
+      <testCaseId>Test Cases/reporting/Expense change settings</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

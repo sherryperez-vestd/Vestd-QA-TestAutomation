@@ -21,6 +21,10 @@ WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], Failure
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-approval/create?type=options')
 
+WebUI.waitForElementVisible(findTestObject('ShareSquad/authorisations/Page_Create/input_Reference_name'), 0)
+
+WebUI.scrollToElement(findTestObject('ShareSquad/authorisations/Page_Create/input_Reference_name'), 0)
+
 WebUI.setText(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create/input_Reference_name'), 'Test')
 
 WebUI.setText(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create/input_Pool size_share_pool_size'), 

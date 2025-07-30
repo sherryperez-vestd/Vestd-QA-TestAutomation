@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_IndividualOrCompany</name>
+   <tag></tag>
+   <elementGuidId>fcce48a6-73cb-49e4-9424-a4888c050bd2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#recipient_type</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@class = 'multiselect-search'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Individual or company?&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>38ecbf30-5c4a-4a47-b3c7-789f24af9357</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>d7469d4f-96e5-4e10-bc81-5307a97ca947</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>recipient_type</value>
+      <webElementGuid>f7d83a69-193b-497b-95c8-788b3426ddca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>recipient_type</value>
+      <webElementGuid>aff00c9f-82a9-4257-bd0e-e87e3ca0b328</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please selectIndividualCompany</value>
+      <webElementGuid>5e611b78-b75d-4897-9003-ff8a478d86c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;recipient_type&quot;)</value>
+      <webElementGuid>deaf1dcb-1806-486b-95f1-ec546d15f53b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

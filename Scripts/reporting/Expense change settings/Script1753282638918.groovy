@@ -17,7 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+/**
+ * Test Case: Validate full flow of generating and downloading Expense Report
+ *
+ * URL: https://demo.app.vestd.com/company/50934/reports/expense-report
+ *
+ * Steps:
+ * 1. Navigate to the Expense Report page for company 50934.
+ * 2. Verify instructional and info text elements are present.
+ * 3. Open Expense Report settings:
+ *    - Change valuation method to Intrinsic value and save.
+ *    - Revert to Black-Scholes, set Risk-free rate and Volatility to '1', then save.
+ * 4. Confirm updated calculation text is visible.
+ * 5. Generate and download the report:
+ *    - Verify download button is clickable and click it.
+ *    - Confirm redirection to job-monitor and temporary-file pages.
+ *    - Validate presence and visibility of download elements on final page.
+ */
+
+
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
 'Login as Admin and navigate to expense reports page (diff company for expense settings)'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/reports/expense-report')
 

@@ -17,21 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Test Case: Verify all available report types and "Request a custom report" functionality
+ *
+ * URL: https://demo.app.vestd.com/company/50135/reports
+ *
+ * Steps:
+ * 1. Navigate to the Reports page and confirm visibility of the "Reporting Beta" header and subtext.
+ * 2. Verify the presence and text of the following reports and descriptions:
+ *    - Shareholders report
+ *    - Financial report
+ *    - Cap table report
+ *    - Option agreement report
+ *    - Expense report
+ * 3. Ensure all "Generate" buttons are clickable for each report.
+ * 4. Click "Request a custom report here" → confirm it opens the correct external form:
+ *    https://usabi.li/do/1951db0cc1b3/7cf2
+ */
+
+
 //WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
 
-//WebUI.click(findTestObject('CoCo/navigation/img-side-nav-collapse'))
-//WebUI.click(findTestObject('CoCo/navigation/side-nav/a_Compliance'))
-//
-//WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
-//
-//WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Page_Secretarial-Admin/a_Reports'), 0)
-//
-//WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Page_Secretarial-Admin/a_Reports'), 'Reports')
-//
-//WebUI.verifyElementClickable(findTestObject('CoCo/navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
-//
-//WebUI.click(findTestObject('CoCo/navigation/side-nav/Page_Secretarial-Admin/a_Reports'))
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/heading_Reporting Beta'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/index/heading_Reporting Beta'), 0)

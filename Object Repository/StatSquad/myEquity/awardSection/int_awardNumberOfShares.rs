@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>int_awardNumberOfShares</name>
+   <tag></tag>
+   <elementGuidId>70371bbb-1b67-42ff-9919-8b8b56dc142d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-12 > div.table-responsive > table.table > tbody > tr > td</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//table[@class='table']//tbody/tr[1]/td[1])[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '9,750' or . = '9,750')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/tbody/tr/td</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>d43d704e-ad3f-4d9b-b8b6-2e4df0ad17ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>9,750</value>
+      <webElementGuid>369262e7-d9bf-4577-810f-0995703c5e8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 pb-2&quot;]/div[1]/div[1]/div[@class=&quot;col-12&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[1]</value>
+      <webElementGuid>ce5bde93-6f9e-4bf6-a0c2-323105d32834</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

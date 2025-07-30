@@ -29,23 +29,24 @@ import org.openqa.selenium.By as By
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/program-options')
-CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff2, GlobalVariable.password2)
 
-//WebUI.setText(findTestObject('Object Repository/handoverObjects/Tabs/Page_403 - Vestd/input_Email address_email'), 'radhika.chaudhary@vestd.com')
+WebUI.waitForElementPresent(findTestObject('CoCo/handoverObjects/Tabs/Page_403 - Vestd/input_Email address_email'), 0)
 
-//WebUI.setEncryptedText(findTestObject('Object Repository/handoverObjects/Tabs/Page_403 - Vestd/input_Password_password'), 'dKUWoKfqioauKpv97TPFcQ==')
+WebUI.setText(findTestObject('handoverObjects/Tabs/Page_403 - Vestd/input_Email address_email'), 'radhika.chaudhary@vestd.com')
 
-//WebUI.click(findTestObject('Object Repository/handoverObjects/Tabs/Page_403 - Vestd/button_Log in'))
+WebUI.setEncryptedText(findTestObject('handoverObjects/Tabs/Page_403 - Vestd/input_Password_password'), 'dKUWoKfqioauKpv97TPFcQ==')
 
-WebUI.click(findTestObject('Object Repository/CoCo/handoverObjects/Page_Get started - Vestd/a_Staff'))
+WebUI.click(findTestObject('handoverObjects/Tabs/Page_403 - Vestd/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/CoCo/handoverObjects/Page_Get started - Vestd/a_Companies'))
+WebUI.click(findTestObject('Object Repository/handoverObjects/Page_Get started - Vestd/a_Staff'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/handoverObjects/Page_My companies - Vestd/a_Turner Ltd'), 0)
+WebUI.click(findTestObject('Object Repository/handoverObjects/Page_Get started - Vestd/a_Companies'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/CoCo/handoverObjects/Page_My companies - Vestd/a_Turner Ltd'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/handoverObjects/Page_My companies - Vestd/a_Turner Ltd'), 0)
 
-WebUI.doubleClick(findTestObject('Object Repository/CoCo/handoverObjects/Page_My companies - Vestd/a_Turner Ltd'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/handoverObjects/Page_My companies - Vestd/a_Turner Ltd'))
+
+WebUI.doubleClick(findTestObject('Object Repository/handoverObjects/Page_My companies - Vestd/a_Turner Ltd'))
 
 // Step 1: Get the WebDriver instance
 WebDriver driver = DriverFactory.getWebDriver()
@@ -62,7 +63,7 @@ println('Modified URL: ' + newUrl)
 
 // Step 4: Open a new tab
 //   WebDriver driver = DriverFactory.getWebDriver()
-((JavascriptExecutor) driver).executeScript('window.open()')
+    ((driver) as JavascriptExecutor).executeScript('window.open()')
 
 // Step 5: Switch to the new tab
 ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles())
@@ -312,7 +313,6 @@ verifyHeading('Subdivision')
 //WebUI.verifyElementPresent(subdivisionLabel, 5)
 //
 //println('✅ Label \'Subdivision needed\' is present.')
-
 TestObject subdivisionCheckbox = new TestObject()
 
 subdivisionCheckbox.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'checkbox\' and contains(@name, \'subdivision\') and @value=\'1\']')
@@ -1189,17 +1189,17 @@ WebUI.verifyElementPresent(customerPersonality, 3)
 
 assertEquals('Customer personality title', 'Customer personality', WebUI.getText(customerPersonality))
 
-List<WebElement> options = driver.findElements(By.xpath("(//label[text()='Customer personality']/following-sibling::div[@class='radio-controls']/div/label)"))
+List<WebElement> options = driver.findElements(By.xpath('(//label[text()=\'Customer personality\']/following-sibling::div[@class=\'radio-controls\']/div/label)'))
 
-println("🔍 Total personality options found: ${options.size()}")
+println("🔍 Total personality options found: $options.size()")
 
 options.eachWithIndex({ def el, def idx ->
-        println("Option ${idx + 1}: ${el.getText()}")
+        println("Option $(idx + 1): $el.getText()")
     })
 
 TestObject standardOption = new TestObject()
 
-standardOption.addProperty('xpath', ConditionType.EQUALS, "//input[@type='radio' and @value='Standard']")
+standardOption.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'radio\' and @value=\'Standard\']')
 
 WebUI.click(standardOption)
 
@@ -1454,7 +1454,7 @@ for (int i = 0; i <= 5; i++) {
 
     WebUI.delay(2)
 
-    println("🔍 Validating tab ${i + 1}: '${tab.getText()}'")
+    println("🔍 Validating tab $(i + 1): '$tab.getText()'")
 
     def tabData = tabValidationMap[i]
 
@@ -1535,6 +1535,8 @@ WebUI.click(handoverCta)
 
 println('📥 Clicked on \'handover\' button')
 
+WebUI.closeBrowser()
+
 void selectRadioOption(String nameFragment, String value) {
     TestObject radio = new TestObject()
 
@@ -1560,4 +1562,4 @@ void verifyHeading(String headingText) {
 
     println("✅ '$headingText' heading is present.")
 }
-WebUI.closeBrowser()
+

@@ -17,6 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Test Case: Verify Company Details section on My Equity dashboard
+ *
+ * Steps:
+ * 1. Navigate to the recipient’s My Equity dashboard.
+ * 2. Confirm visibility of key company details:
+ *    - Registered name, incorporation date, company number, address,
+ *      shares issued, and number of shareholders.
+ * 3. Verify the "View AoA" (Articles of Association) link is present, visible, and clickable.
+ * 4. Click the link and confirm it opens the correct legal document in a new tab.
+ */
+
 //WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 

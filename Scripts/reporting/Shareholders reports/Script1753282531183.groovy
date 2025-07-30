@@ -17,6 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Test Case: Verify Shareholders report generation and download
+ *
+ * URL: https://demo.app.vestd.com/company/50135/reports
+ *
+ * Steps:
+ * 1. Navigate to Reports page and click "Generate" for Shareholders report.
+ * 2. Verify report page loads with correct header, instruction, and "Download report" button.
+ * 3. Click "Download report" → verify redirect to job monitor:
+ *    https://demo.app.vestd.com/company/50135/job-monitor/
+ * 4. Wait for processing, then confirm final redirect to temporary file page:
+ *    https://demo.app.vestd.com/company/50135/temporary-file
+ * 5. Validate presence of "Temporary files" header, expiry message, and final "Download" button.
+ */
+
 //WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
 

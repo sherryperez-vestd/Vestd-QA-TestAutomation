@@ -17,6 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * This test script logs in to the application and navigates to the company dashboard
+ * at URL: https://demo.app.vestd.com/company/50135/dashboard?user_id=365431.
+ * It verifies the 'Your vesting details' section, including both 'Scheduled Vesting'
+ * and 'Manual Vesting' tabs. The script checks that headings, tooltips, and table
+ * headers such as 'Vested', 'Date', and 'Number of shares' are visible and display
+ * the correct text. Custom keywords are used for cleaner verification of element
+ * presence and content.
+ */
+
 //CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
@@ -50,13 +60,4 @@ CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/
 CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_agreementName2','Agreement name')
 
 
-/**
- * This test script logs in to the application and navigates to the company dashboard
- * at URL: https://demo.app.vestd.com/company/50135/dashboard?user_id=365431.
- * It verifies the 'Your vesting details' section, including both 'Scheduled Vesting'
- * and 'Manual Vesting' tabs. The script checks that headings, tooltips, and table
- * headers such as 'Vested', 'Date', and 'Number of shares' are visible and display
- * the correct text. Custom keywords are used for cleaner verification of element
- * presence and content.
- */
 

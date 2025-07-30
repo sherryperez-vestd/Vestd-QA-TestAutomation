@@ -22,6 +22,10 @@ CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVari
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/home')
 
+WebUI.scrollToElement(findTestObject('CoCo/navigation/side-nav/a_My equity'), 0)
+
+WebUI.waitForElementPresent(findTestObject('CoCo/navigation/side-nav/a_My equity'), 0)
+
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_My equity'), 0)
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_My equity'), 'My Equity')

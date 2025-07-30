@@ -17,6 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Test Case: Verify visibility and content of buyback program alert on My Equity page
+ *
+ * Steps:
+ * 1. Navigate directly to the recipient’s My Equity dashboard.
+ * 2. Confirm that the buyback alert banner is present.
+ * 3. Verify the heading text, eligibility message, and presence of the "View offer" link.
+ * 4. Ensure the "View offer" link is clickable.
+ */
+
 //WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50915/dashboard?user_id=370324')
 

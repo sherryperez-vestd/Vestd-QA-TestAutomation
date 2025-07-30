@@ -10,12 +10,12 @@
          <value>th</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/table/thead/tr/th</value>
+         <key>BASIC</key>
+         <value>//th[(contains(text(), 'Valuation') or contains(., 'Valuation'))]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//th[(contains(text(), 'Valuation ') or contains(., 'Valuation '))]</value>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/table/thead/tr/th</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,14 +33,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>th</value>
-      <webElementGuid>78aa66f5-6747-448f-a33b-57d98a354756</webElementGuid>
+      <webElementGuid>8919983b-e4f5-43cf-8259-1b9f2104a890</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Valuation </value>
-      <webElementGuid>6e486f59-9412-4555-95b5-f4ac06dd564f</webElementGuid>
+      <value>Valuation</value>
+      <webElementGuid>1f89fd0c-f6d1-4a39-865b-6822bd5912ca</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

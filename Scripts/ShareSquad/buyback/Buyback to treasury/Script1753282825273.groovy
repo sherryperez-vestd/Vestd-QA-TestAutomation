@@ -58,9 +58,13 @@ WebUI.delay(10)
 
 WebUI.refresh()
 
+WebUI.delay(10)
+
 WebUI.refresh()
 
 WebUI.waitForElementPresent(findTestObject('ShareSquad/buyback/buyback-details/a_Confirm transaction date'), 0)
+
+WebUI.scrollToElement(findTestObject('ShareSquad/buyback/buyback-details/a_Confirm transaction date'), 0)
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/buyback-details/a_Confirm transaction date'))
 

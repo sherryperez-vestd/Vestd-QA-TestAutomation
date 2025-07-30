@@ -6,19 +6,19 @@
    <elementGuidId>99706e06-af4f-4650-ae1d-a6527b05b37a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div[2]/i</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>i.vi.vi-sm.mt-auto.ml-lg-2.mt-lg-0.vi-chevron-down</value>
       </entry>
       <entry>
+         <key>XPATH</key>
+         <value>(//div[@class = 'd-flex ml-auto flex-column align-self-stretch flex-lg-row flex-lg-wrap-reverse align-self-lg-start align-items-end align-items-lg-center text-right flex-grow-1 justify-content-end secondary-content'])[1]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//div[@class = 'd-flex ml-auto flex-column align-self-stretch flex-lg-row flex-lg-wrap-reverse align-self-lg-start align-items-end align-items-lg-center text-right flex-grow-1 justify-content-end secondary-content']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -28,20 +28,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9bffb0fb-b3dd-487a-9bfa-c2d066d3517f</webElementGuid>
+      <webElementGuid>98b903f7-7b6a-44e9-9a4e-c0a1ffa53354</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>d-flex ml-auto flex-column align-self-stretch flex-lg-row flex-lg-wrap-reverse align-self-lg-start align-items-end align-items-lg-center text-right flex-grow-1 justify-content-end secondary-content</value>
-      <webElementGuid>5af28e32-5ef2-48c3-acf1-66c0bdd68bc2</webElementGuid>
+      <webElementGuid>2cffee74-2483-4611-a51b-214f29f58339</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div[2]/i</value>
-      <webElementGuid>8e04dd3a-90db-4698-83cf-7fef195f12d6</webElementGuid>
+      <webElementGuid>69d4ccc4-779a-48cd-8dd2-56266bcc40b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,6 +57,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/i</value>
-      <webElementGuid>f6accd75-0f6b-4ada-b28f-2ab1c60d24a5</webElementGuid>
+      <webElementGuid>ae3a0fdd-5c4f-4415-b5fa-59b4457ed61e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

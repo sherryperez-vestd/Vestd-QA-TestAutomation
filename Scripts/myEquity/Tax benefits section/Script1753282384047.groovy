@@ -18,13 +18,33 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+/**
+ * Test Case: Verify “Your Tax Benefits” pop‑over for different scheme types
+ *
+ * Steps:
+ * 1. Log in as staff and navigate to each user’s My Equity dashboard:
+ *    • EMI: https://demo.app.vestd.com/company/50135/dashboard?user_id=370192
+ *    • CSOP: https://demo.app.vestd.com/company/50135/dashboard?user_id=370432
+ *    • Growth Shares: https://demo.app.vestd.com/company/50135/dashboard?user_id=370450
+ * 2. Enter estimated profit per share, open “Your tax benefits” pop‑over.
+ * 3. Verify:
+ *    • EMI user sees “14%”
+ *    • CSOP user sees “20%”
+ *    • Growth Shares user sees explanatory text
+ * 4. Assert expected content is shown in each case.
+ */
+
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Login and navigate to My equity page'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370192')
 
-WebUI.setText(findTestObject('StatSquad/myEquity/awardSection/input_estimated-profit-per-share'), '1')
+WebUI.setText(findTestObject('StatSquad/myEquity/awardSection/input_estimatedProfitPerShare'), '1')
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/i_Your tax benefits_'))
+
+//CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatSquad/myEquity/taxBenefits/p_emi_14percent')
+//CustomKeywords.'UIKeywords.verifyElementContainsPartialText'('Object Repository/StatSquad/myEquity/taxBenefits/p_emi_14percent','14%')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/p_emi_14percent'), 0)
 
@@ -34,7 +54,7 @@ assert elementText.contains('14%')
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370432')
 
-WebUI.setText(findTestObject('StatSquad/myEquity/awardSection/input_estimated-profit-per-share'), '1')
+WebUI.setText(findTestObject('StatSquad/myEquity/awardSection/input_estimatedProfitPerShare'), '1')
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/i_Your tax benefits_'))
 
@@ -43,4 +63,14 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/taxBenefits/p_csop
 def elementText2 = WebUI.getText(findTestObject('StatSquad/myEquity/taxBenefits/p_csop_20percent'))
 
 assert elementText2.contains('20%')
+
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370450')
+
+WebUI.setText(findTestObject('StatSquad/myEquity/awardSection/input_estimatedProfitPerShare'), '1')
+
+WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/i_Your tax benefits_'))
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/taxBenefits/p_Growth shares tax profit calculations'), 0)
+
+WebUI.verifyElementText(findTestObject('StatSquad/myEquity/taxBenefits/p_Growth shares tax profit calculations'), 'Growth shares tax & profit calculations (these are indicative and will depend on your personal tax circumstances)')
 

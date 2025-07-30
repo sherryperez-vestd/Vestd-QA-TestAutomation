@@ -192,6 +192,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>47df9868-c24a-4290-b0d2-f609e64ba52e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/issueShares/Create share offer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>00487875-70bf-408a-93bf-2e3255f65c27</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -6,30 +6,34 @@
    <elementGuidId>4c35ec9b-3c44-428a-b58d-fb0fa6d4e2ce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='dropdownMenuLink']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#dropdownMenuLink</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'dropdownMenuLink' and (text() = 'Filter' or . = 'Filter')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='dropdownMenuLink']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:role=button[name=&quot;Add filter&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ad825df8-6c98-48e9-808c-28d9a0a309a2</webElementGuid>
+      <webElementGuid>07fdbbda-9128-4dbf-9570-8530cf466821</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-secondary btn-sm mb-0 dropdown-toggle</value>
-      <webElementGuid>1a1ed70b-081e-48c7-83e6-6f2dc5ce3be9</webElementGuid>
+      <webElementGuid>52cde79a-afd9-463a-968f-efcd268298b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>882c05d1-4233-4ad8-aad5-622fd0873f8b</webElementGuid>
+      <webElementGuid>5cc7b0fc-4eb8-4745-95cf-4195b601c0d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>id</name>
       <type>Main</type>
       <value>dropdownMenuLink</value>
-      <webElementGuid>627da836-f46c-4f0c-94fc-47dedec2a209</webElementGuid>
+      <webElementGuid>8393a87d-6950-4cc9-b89b-3d43952dbfc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>data-bs-toggle</name>
       <type>Main</type>
       <value>dropdown</value>
-      <webElementGuid>ae18362d-ac77-4785-bc7d-6542b3680f9d</webElementGuid>
+      <webElementGuid>0d714ce0-2092-49a6-94c2-4f8db596836c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,15 +73,15 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e8c909f0-21d8-4097-b66b-90d964fac9d8</webElementGuid>
+      <webElementGuid>4c6905e6-d6b3-495c-9701-0f70ab389e41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add filter </value>
-      <webElementGuid>55f17e22-c952-4dfe-8c64-22282e361e88</webElementGuid>
+      <value>Filter</value>
+      <webElementGuid>445af19e-070f-4cab-b258-8cc4f045f773</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dropdownMenuLink&quot;)</value>
-      <webElementGuid>787ef8db-1c09-4972-968a-fba0e0352b23</webElementGuid>
+      <webElementGuid>f697732d-21b2-4781-8ab8-36a80e0727d0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='dropdownMenuLink']</value>
-      <webElementGuid>1758f745-d8a5-4ce3-b032-a8a14ec02753</webElementGuid>
+      <webElementGuid>e52e3136-690b-4beb-bcc1-5453a37eee2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[2]/div/div/div/div/button</value>
-      <webElementGuid>4907a126-8253-4dfc-8ceb-5a1796d22da9</webElementGuid>
+      <webElementGuid>321b6a58-31e3-4502-ab4a-110d88dd1f17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter and search'])[1]/following::button[2]</value>
-      <webElementGuid>e9bb7517-0cfa-4f26-8d49-eb7dc2d669ce</webElementGuid>
+      <webElementGuid>837d3564-ce3e-4791-8678-54808ba345bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/preceding::button[1]</value>
-      <webElementGuid>c10310b0-6f30-4cfb-8c5b-3808019c4bee</webElementGuid>
+      <webElementGuid>992dd6b0-2957-4454-91db-461acd755a06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Complete'])[1]/preceding::button[1]</value>
-      <webElementGuid>884596c4-6f68-49c4-855b-36fe35229b9b</webElementGuid>
+      <webElementGuid>c6037630-5421-48cd-8905-e03b3fe5d242</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Add filter']/parent::*</value>
-      <webElementGuid>de0c99ac-0342-4887-bc22-ce4b31f21ee4</webElementGuid>
+      <webElementGuid>b1efe7c8-1246-4d85-b457-45deb80dcd3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/button</value>
-      <webElementGuid>7764a231-88c5-4ff7-8da2-57ddc552d888</webElementGuid>
+      <webElementGuid>cd12ceb2-5c0d-4c4d-b06c-0590e593fa4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +153,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'dropdownMenuLink' and (text() = 'Add filter ' or . = 'Add filter ')]</value>
-      <webElementGuid>cf48b4f7-bd27-4f7d-add8-b67ff9ed3730</webElementGuid>
+      <webElementGuid>938fc4ec-77ac-4ff2-be7b-e847fadea8a5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

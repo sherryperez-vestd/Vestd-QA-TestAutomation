@@ -17,6 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Test Case: Verify presence and visibility of vesting graphs for all scheme types
+ *
+ * Steps:
+ * 1. Log in as a staff user.
+ * 2. Navigate to the My Equity page for each user representing a scheme type:
+ *    - EMI, UO, CSOP, ESOP, GS, CS, Phantom (RSA test is skipped)
+ * 3. For each scheme:
+ *    - Verify the vesting tab is present, visible, and clickable.
+ *    - Click the tab and confirm the corresponding vesting graph (canvas) is displayed.
+ * 4. RSA vesting check is commented out (not run).
+ */
+
+
 //'Login and navigate to My equity page'
 WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -83,8 +97,7 @@ WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/graph/vesting-grap
 'Check GS vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370451')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/tab_Share-vesting'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/tab_Share-vesting'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/tab_Share-vesting'))
 
@@ -92,8 +105,7 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/myEquit
 
 WebUI.click(findTestObject('StatSquad/myEquity/graph/vesting-graph/tab_Share-vesting'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/canvas-graph-options'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/canvas-graph-options'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/canvas-graph-options'))
 
@@ -133,8 +145,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/tab_Phantom-shares'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/tab_Phantom-shares'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/tab_Phantom-shares'),  0)
 
 WebUI.click(findTestObject('StatSquad/myEquity/graph/vesting-graph/tab_Phantom-shares'))
 

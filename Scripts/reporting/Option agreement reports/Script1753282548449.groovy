@@ -17,6 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Test Case: Verify Option Agreement report generation and download flow
+ *
+ * URL: https://demo.app.vestd.com/company/50135/reports
+ *
+ * Steps:
+ * 1. Navigate to Reports page.
+ * 2. Click on "Generate Option Agreement".
+ * 3. Verify redirection to job monitor:
+ *    https://demo.app.vestd.com/company/50135/job-monitor/
+ * 4. Wait for background processing and confirm final redirect to:
+ *    https://demo.app.vestd.com/company/50135/temporary-file
+ * 5. Validate presence of:
+ *    - "Temporary files" header
+ *    - Expiry notice ("Expires in 23 hours")
+ *    - Download button with label "Download"
+ */
+
 //WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
 

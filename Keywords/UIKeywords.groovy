@@ -45,5 +45,18 @@ public class UIKeywords {
 		WebUI.scrollToElement(findTestObject(objectPath), 0)
 		WebUI.verifyElementVisible(findTestObject(objectPath), FailureHandling.STOP_ON_FAILURE)
 		WebUI.verifyElementPresent(findTestObject(objectPath), 0)
-		}
+	}
+
+	@Keyword
+	def verifyElementContainsPartialText(String objectPath, String partialText) {
+		WebUI.scrollToElement(findTestObject(objectPath), 0)
+		def fullText = WebUI.getText(objectPath)
+		assert fullText.contains(partialText)
+	}
+	
+	@Keyword
+	def verifyElementTextNotEmpty(String objectPath) {
+		String text = WebUI.getText(findTestObject(objectPath))
+		WebUI.verifyNotEqual(text.trim(), '', FailureHandling.STOP_ON_FAILURE)
+	}
 }

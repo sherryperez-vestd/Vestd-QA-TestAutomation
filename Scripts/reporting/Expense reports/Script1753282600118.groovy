@@ -17,7 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+/**
+ * Test Case: Verify Expense Report (Beta) setup and access flow
+ *
+ * URL: https://demo.app.vestd.com/company/50135/reports/expense-report
+ *
+ * Steps:
+ * 1. Navigate to the Expense Report page as Admin.
+ * 2. Validate headers: "Expense report Beta", "Beta".
+ * 3. Check alert for missing settings with correct message and button.
+ * 4. Click "Expense report settings" and verify:
+ *    - Edit settings page content (labels, descriptions, inputs).
+ *    - Back navigation to Expense Report page.
+ * 5. Confirm date input fields are visible (From/To Date).
+ * 6. Validate download button is present but **not clickable**.
+ * 7. Navigate to a second company report and click additional controls.
+ */
+not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+
 'Login as Admin and navigate to expense reports page'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports/expense-report')
 

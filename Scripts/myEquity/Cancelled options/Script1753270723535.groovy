@@ -17,6 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Test Case: Validate cancelled and part-cancelled options display on My Equity
+ *
+ * URL: https://demo.app.vestd.com/company/50135/dashboard?user_id=370192
+ *
+ * Steps:
+ * 1. Navigate to user's My Equity page and expand “Projected value”.
+ * 2. Verify “Cancelled: 40” label and value are shown.
+ * 3. Go to Agreement Summary and click “Reverse” to undo cancellation → accept alert.
+ * 4. Confirm cancelled label/value are no longer visible on My Equity.
+ * 5. Navigate again to Agreement Summary → perform part-cancellation of 40 shares.
+ * 6. Confirm “Cancelled: 40” is displayed again on My Equity.
+ */
+
 //WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 'Login and navigate to My equity page'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370192')

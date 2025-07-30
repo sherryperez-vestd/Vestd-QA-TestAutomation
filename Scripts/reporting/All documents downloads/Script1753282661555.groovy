@@ -17,7 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+/**
+ * Test Case: Validate filtering and download flow in Legal Documents section
+ *
+ * URL: https://demo.app.vestd.com/company/50135/legal-doc
+ *
+ * Steps:
+ * 1. Navigate to Legal Docs page and verify key UI elements (filters, buttons).
+ * 2. Apply filters:
+ *    - Filter with invalid input ('tx') – expect no results and download disabled.
+ *    - Filter with valid input ('a') – verify download becomes available.
+ * 3. Click 'Download documents' and verify redirect to:
+ *    - job-monitor page → https://demo.app.vestd.com/company/50135/job-monitor/
+ *    - temporary-file page → https://demo.app.vestd.com/company/50135/temporary-file
+ * 4. Confirm presence and visibility of temporary file UI (expiry label and download button).
+ */
+not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/legal-doc')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/allDocuments/a_Filter and search'), 0)
@@ -34,7 +50,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/al
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/allDocuments/button_Add filter'), 0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/allDocuments/button_Add filter'), 'Add filter')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/allDocuments/button_Add filter'), 'Filter')
 
 WebUI.click(findTestObject('Object Repository/StatSquad/reporting/allDocuments/button_Add filter'))
 
@@ -72,8 +88,7 @@ not_run: WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/rep
 not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/allDocuments/label_Cancelled'), 
     0)
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/allDocuments/label_Cancelled'), 
-    'Cancelled')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/allDocuments/label_Cancelled'), 'Cancelled')
 
 not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/allDocuments/label_Expired'), 
     0)
@@ -135,7 +150,15 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting
     0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/allDocuments/td_No matching records found'), 
-    'No matching records found')
+    'No records found.')
+
+WebUI.verifyElementNotClickable(findTestObject('StatSquad/reporting/allDocuments/button_Download documents'))
+
+WebUI.setText(findTestObject('Object Repository/StatSquad/reporting/allDocuments/input_Search_table-search'), 'a')
+
+WebUI.scrollToElement(findTestObject('StatSquad/reporting/allDocuments/button_Download documents'), 0)
+
+WebUI.waitForElementVisible(findTestObject('StatSquad/reporting/allDocuments/button_Download documents'), 0)
 
 WebUI.click(findTestObject('Object Repository/StatSquad/reporting/allDocuments/button_Download documents'))
 
@@ -149,7 +172,7 @@ partial_url = url.minus(removedurlchars)
 
 WebUI.verifyEqual(partial_url, 'https://demo.app.vestd.com/company/50135/job-monitor/')
 
-WebUI.delay(20)
+WebUI.delay(30)
 
 url = WebUI.getUrl()
 

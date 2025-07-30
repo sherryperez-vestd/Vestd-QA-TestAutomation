@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>int_awardPreTaxProfit</name>
+   <tag></tag>
+   <elementGuidId>d583d09d-9a9e-406a-9e12-41cf9d707659</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-12 > div.table-responsive > table.table > tbody > tr > td:nth-of-type(4)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//td[(contains(text(), '£39,0') or contains(., '£39,0'))]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//td[(contains(text(), '£38,990.30') or contains(., '£38,990.30'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/tbody/tr/td[4]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>7c59b710-b9b5-4d56-9555-b5e5af4ec429</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>£38,990.30</value>
+      <webElementGuid>3ce96400-1a87-4501-b4fc-c1e60cf9c1ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/tbody/tr/td[4]</value>
+      <webElementGuid>56dfbcff-4f62-4441-8d2d-a19c8ee0cbc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£9,750.00'])[1]/following::td[1]</value>
+      <webElementGuid>215426d7-387e-4ff1-a2e4-7f914fee6c7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='£48,750.00'])[1]/following::td[2]</value>
+      <webElementGuid>7b4e784e-6c86-4a3d-8ef2-91d22e6568c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vesting over time'])[1]/preceding::td[1]</value>
+      <webElementGuid>18e3a57f-d5f6-4793-b9de-92ed0f37d227</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vested until now'])[1]/preceding::td[1]</value>
+      <webElementGuid>b2990b56-321b-4c26-9574-38f294fa764e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='£39,000.00']/parent::*</value>
+      <webElementGuid>7bc0b84f-6b72-4daf-a5dc-3398df116fd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/table/tbody/tr/td[4]</value>
+      <webElementGuid>962d3a2e-c1af-4368-9dac-c3817cb45c70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '£39,000.00' or . = '£39,000.00')]</value>
+      <webElementGuid>20c88712-eef9-4540-9b80-4fa58aaa2277</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

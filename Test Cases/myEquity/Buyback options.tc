@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Buyback options</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>15c993f9-9bbf-41e3-a99a-606a08fd720f</testCaseGuid>
+</TestCaseEntity>
