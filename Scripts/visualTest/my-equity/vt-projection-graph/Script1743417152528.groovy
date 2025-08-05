@@ -24,9 +24,9 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/graph/tab_overall-value'))
 
 'Check empty projection graph'
-WebUI.takeElementScreenshotAsCheckpoint('Empty projection graph', findTestObject('StatSquad/myEquity/graph/overall-value-graph/graph_empty'))
+WebUI.takeElementScreenshotAsCheckpoint('Empty projection graph', findTestObject('StatSquad/myEquity/graph/overall-value-graph/graphEmpty'))
 
-WebUI.setText(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/input_estimated-profit'), '1')
+WebUI.setText(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/input_estimatedProfit'), '1')
 
 'Check Projection graph with value'
 WebUI.takeElementScreenshotAsCheckpoint('Projection graph with value', findTestObject('StatSquad/myEquity/graph/overall-value-graph/canvas'))

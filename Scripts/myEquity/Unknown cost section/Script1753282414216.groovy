@@ -30,16 +30,15 @@ import org.openqa.selenium.Keys as Keys
  *    - Set and save price input → verify updated display.
  *    - Clear price input and save → verify retained previous valid value.
  */
+not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 'Login and navigate to My equity page'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
 'Check Unknown cost section elements(text, labels)'
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/txt-heading_unknown-cost'), 'Unknown cost')
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/txt_unknown-cost-lead-text'), 
-    'We don’t have a record of how much you paid for these shareholdings, so we’ve defaulted to nominal value. Update the price you paid for these shares to see your actual profit.')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/txt_unknown-cost-lead-text'), 'We don’t have a record of how much you paid for these shareholdings, so we’ve defaulted to nominal value. Update the price you paid for these shares to see your actual profit.')
 
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/td_Price paid'), 'Price paid')
 
@@ -49,8 +48,7 @@ WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/a_Update 
 
 WebUI.verifyElementClickable(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/small_0.0001 nominal value'), 
-    '£0.0001 nominal value')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/small_0.0001 nominal value'), '£0.0001 nominal value')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/small_shares_date_issued'), 
     0)

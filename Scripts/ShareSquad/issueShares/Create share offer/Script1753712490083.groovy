@@ -35,28 +35,22 @@ WebUI.click(findTestObject('ShareSquad/issueShares/share-distribution-create/sel
 
 WebUI.click(findTestObject('ShareSquad/issueShares/share-distribution-create/li_individualSelectItem'))
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_firstName'), 
-    'Test')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_firstName'), 'Test')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_lastName'), 
-    'Shares')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_lastName'), 'Shares')
 
 WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_emailAddress'), 'sherry.perez+shares@vestd.com')
 
-WebUI.scrollToElement(findTestObject('ShareSquad/issueShares/share-distribution-create/input_numberOfShares'), 
-    0)
+WebUI.scrollToElement(findTestObject('ShareSquad/issueShares/share-distribution-create/input_numberOfShares'), 0)
 
-WebUI.waitForElementPresent(findTestObject('ShareSquad/issueShares/share-distribution-create/input_numberOfShares'), 
-    0)
+WebUI.waitForElementPresent(findTestObject('ShareSquad/issueShares/share-distribution-create/input_numberOfShares'), 0)
 
-WebUI.waitForElementVisible(findTestObject('ShareSquad/issueShares/share-distribution-create/input_numberOfShares'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('ShareSquad/issueShares/share-distribution-create/input_numberOfShares'), 0)
 
 WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_numberOfShares'), 
     '10')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_pricePaid'), 
-    '1')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/input_pricePaid'), '1')
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/btn_createSaveAsDraft'))
 
@@ -124,6 +118,10 @@ not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSq
     0)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/shareholder')
+
+WebUI.refresh()
+
+WebUI.scrollToElement(findTestObject('CoCo/shareholders/shareholder-index/a_Test Shares'), 0)
 
 WebUI.click(findTestObject('Object Repository/CoCo/shareholders/shareholder-index/a_Test Shares'))
 

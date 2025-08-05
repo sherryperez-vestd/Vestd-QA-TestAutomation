@@ -29,10 +29,9 @@ import org.openqa.selenium.Keys as Keys
  * 3. Confirm presence and function of cancel CTA in modal.
  * 4. Tooltip checks for valuations are currently commented out.
  */
-
 'Login and navigate to My equity page'
+not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 'Check Company valuation history section with 0 valuations'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50066/dashboard?user_id=285633')
 

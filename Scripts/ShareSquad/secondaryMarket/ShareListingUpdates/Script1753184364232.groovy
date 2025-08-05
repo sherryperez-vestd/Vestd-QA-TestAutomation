@@ -18,178 +18,180 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import java.time.LocalDate as LocalDate
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.*
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/51742')
 
-WebUI.setText(findTestObject('SM/ShareListEditST/Page_403 - Vestd/input_Email address_email'), 'radhika.chaudhary+1@vestd.com')
+WebUI.setText(findTestObject('ShareSquad/SM/ShareListEditST/Page_403 - Vestd/input_Email address_email'), 'radhika.chaudhary+1@vestd.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/SM/ShareListEditST/Page_403 - Vestd/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_403 - Vestd/input_Password_password'), 
     '5ayXGn/UQ1Ic+1mHCRSZgA==')
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_403 - Vestd/button_Log in'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_403 - Vestd/button_Log in'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/SM/ShareListEditST/Page_Jones Ltd - Vestd/div_Secondary market  Update'), 
+WebUI.waitForElementPresent(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Jones Ltd - Vestd/div_Secondary market  Update'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Jones Ltd - Vestd/div_Secondary market  Update'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Jones Ltd - Vestd/div_Secondary market  Update'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/SM/ShareListEditST/Page_Jones Ltd - Vestd/a_View listing'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Jones Ltd - Vestd/a_View listing'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Jones Ltd - Vestd/a_View listing'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Jones Ltd - Vestd/a_View listing'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Add filter'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Add filter'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Add filter'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Add filter'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/strong_Status'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/strong_Status'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Status_status_pending'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Status_status_pending'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Pending_status_complete'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Pending_status_complete'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Status Pending, Completed'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Status Pending, Completed'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Clear filter'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Clear filter'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Clear filter'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Clear filter'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Add filter'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Add filter'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/strong_Status'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/strong_Status'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Pending_status_complete'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Pending_status_complete'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/td_No data available in table'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/td_No data available in table'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Status_status_pending'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Status_status_pending'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/div_Status Pending, Completed StatusPending_4faf16'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/div_Status Pending, Completed StatusPending_4faf16'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/td_No data available in table'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/td_No data available in table'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/td_first last'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/td_first last'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Add filter'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Add filter'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/strong_Status'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/strong_Status'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/label_Pending'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/label_Pending'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Clear filter'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Clear filter'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/a_Edit'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/a_Edit'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/a_Edit'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/a_Edit'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/h5_Edit share accepted'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/h5_Edit share accepted'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/label_Shares accepted'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/label_Shares accepted'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Shares accepted_share-accepted'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Shares accepted_share-accepted'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Save'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Save'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Cancel'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Cancel'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Cancel'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Cancel'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/a_Edit'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/a_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Shares accepted_share-accepted'), 
+WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Shares accepted_share-accepted'), 
     '111')
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Save'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Save'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/h5_Data validation error'), 
+WebUI.waitForElementPresent(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/h5_Data validation error'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/h5_Data validation error'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/h5_Data validation error'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/li_The num shares approved may not be great_eb16d6'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/li_The num shares approved may not be great_eb16d6'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Ok'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Ok'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/a_Edit'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/a_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Shares accepted_share-accepted'), 
+WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/input_Shares accepted_share-accepted'), 
     '2')
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/div_Edit share accepted                    _9a7bae'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/div_Edit share accepted                    _9a7bae'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Save'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/b_2'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/b_2'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/div_Total of shares offered 4  Total of sha_8a27eb'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/div_Total of shares offered 4  Total of sha_8a27eb'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/a_Stock transfer'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Secondary Market - Share listings - Vestd/a_Stock transfer'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/h1_New stock transfer'), 
+WebUI.waitForElementPresent(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/h1_New stock transfer'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/h1_New stock transfer'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/h1_New stock transfer'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/label_Share class'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/label_Share class'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/select_Please selectOrdinary (voting) (0.00_0f5091'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/select_Please selectOrdinary (voting) (0.00_0f5091'), 
     0)
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/select_Please selectOrdinary (voting) (0.00_0f5091'))
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/select_Please selectOrdinary (voting) (0.00_0f5091'))
 
-WebUI.verifyElementPresent(findTestObject('SM/ShareListEditST/Page_Building the equity economy - Vestd/div_first last (4 shares)'), 
+WebUI.verifyElementPresent(findTestObject('ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/div_first last (4 shares)'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/label_From'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/label_From'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/div_first last (4 shares)'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/div_first last (4 shares)'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/div_ToPlease select.Please select.Chasity F_f5903e'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/div_ToPlease select.Please select.Chasity F_f5903e'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_To_MJgADa6s5wsDmDY8'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_To_MJgADa6s5wsDmDY8'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/p_The recipient will need an address on fil_8eac17'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/p_The recipient will need an address on fil_8eac17'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_To_MJgADa6s5wsDmDY8'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_To_MJgADa6s5wsDmDY8'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/li_Chasity Feeney'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/li_Chasity Feeney'))
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_Number of shares_DI1cNsUu4aEY6X8O'))
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_Number of shares_DI1cNsUu4aEY6X8O'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/label_Cash consideration (total for all sha_e25671'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/label_Cash consideration (total for all sha_e25671'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_Cash consideration (total for all sha_20407e'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_Cash consideration (total for all sha_20407e'))
 
-WebUI.setText(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_Cash consideration (total for all sha_20407e'), 
+WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_Cash consideration (total for all sha_20407e'), 
     '1')
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/p_This will be in the currency of the selec_4b1d52'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/p_This will be in the currency of the selec_4b1d52'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/p_This will be in the currency of the selec_4b1d52'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/p_This will be in the currency of the selec_4b1d52'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/label_Is this part of a number of related t_09f6e2'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/label_Is this part of a number of related t_09f6e2'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/select_Please selectNoYes'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/select_Please selectNoYes'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/select_Please selectNoYes'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/select_Please selectNoYes'), 
     '0', true)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/p_If the transfer exceeds 1000, stamp duty _cd53df'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/p_If the transfer exceeds 1000, stamp duty _cd53df'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/label_Investment round'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/label_Investment round'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/select_NoneIncorporationFFRound oneRound two'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/select_NoneIncorporationFFRound oneRound two'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/p_If this stock transfer is part of an inve_b0cada'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/p_If this stock transfer is part of an inve_b0cada'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_create one_btn btn-primary'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_create one_btn btn-primary'))
 
-WebUI.click(findTestObject('Object Repository/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_create one_btn btn-primary'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/SM/ShareListEditST/Page_Building the equity economy - Vestd/input_create one_btn btn-primary'))
 
 //WebUI.closeBrowser()
 TestObject resolutiomTitle = new TestObject()
@@ -214,8 +216,12 @@ TestObject uploadInput = new TestObject('uploadInput')
 
 uploadInput.addProperty('id', ConditionType.EQUALS, 'director_resolution_file')
 
-// Upload file (provide full path to the file on your system)
-WebUI.uploadFile(uploadInput, 'C:\\Users\\Radhika Chaudhary\\Downloads\\DOA Signed AT Jul 24.pdf')
+String filePath = RunConfiguration.getProjectDir() + '/TestData/DOA Signed AT Jul 24.pdf'
+
+//WebUI.uploadFile(uploadInput, 'C:\\Users\\Radhika Chaudhary\\Downloads\\DOA Signed AT Jul 24.pdf')
+String filePathToUpload = RunConfiguration.getProjectDir() + '/TestData/DOA Signed AT Jul 24.pdf'
+
+WebUI.uploadFile(uploadInput, filePathToUpload)
 
 LocalDate today = LocalDate.now()
 
@@ -257,7 +263,7 @@ TestObject uploadInputRes = new TestObject('uploadInput')
 uploadInputRes.addProperty('id', ConditionType.EQUALS, 'shareholder_resolution_file')
 
 // Upload file (provide full path to the file on your system)
-WebUI.uploadFile(uploadInputRes, 'C:\\Users\\Radhika Chaudhary\\Downloads\\DOA Signed AT Jul 24.pdf')
+WebUI.uploadFile(uploadInputRes, 'C:\\Users\\admin\\Documents\\VestdApp-TestAutomation Katalon\\Vestd QA Test Automation\\TestData\\Test-PDF-File.pdf')
 
 //LocalDate today = LocalDate.now()
 //
@@ -298,7 +304,7 @@ TestObject uploadInputForm = new TestObject('uploadInput')
 uploadInputForm.addProperty('id', ConditionType.EQUALS, 'spa_file')
 
 // Upload file (provide full path to the file on your system)
-WebUI.uploadFile(uploadInputForm, 'C:\\Users\\Radhika Chaudhary\\Downloads\\DOA Signed AT Jul 24.pdf')
+WebUI.uploadFile(uploadInputForm, 'C:\\Users\\admin\\Documents\\VestdApp-TestAutomation Katalon\\Vestd QA Test Automation\\TestData\\Test-PDF-File.pdf')
 
 TestObject formDate = new TestObject()
 
@@ -349,6 +355,8 @@ for (String label : disabledLabels) {
 
     assert style.contains('opacity: 0.6')
 }
+
+WebUI.closeBrowser()
 
 def createSpanObject(String labelText) {
     TestObject obj = new TestObject(labelText)

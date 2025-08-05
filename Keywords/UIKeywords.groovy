@@ -32,6 +32,8 @@ public class UIKeywords {
 		WebUI.click(findTestObject('Object Repository/CoCo/login/btn_Login'))
 	}
 
+	// === Assertions ===
+
 	@Keyword
 	def verifyElementPresentVisibleText(String objectPath, String objectText) {
 		WebUI.scrollToElement(findTestObject(objectPath), 0)
@@ -53,7 +55,14 @@ public class UIKeywords {
 		def fullText = WebUI.getText(objectPath)
 		assert fullText.contains(partialText)
 	}
-	
+
+	@Keyword
+	def clickElement(String objectPath) {
+		WebUI.scrollToElement(findTestObject(objectPath), 0)
+		WebUI.waitForElementVisible(findTestObject(objectPath), 0)
+		WebUI.click(findTestObject(objectPath))
+	}
+
 	@Keyword
 	def verifyElementTextNotEmpty(String objectPath) {
 		String text = WebUI.getText(findTestObject(objectPath))

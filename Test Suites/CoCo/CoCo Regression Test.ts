@@ -152,10 +152,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>42701539-27c2-4991-ae9e-80a6668cc7d7</guid>
+      <guid>3d045fdc-7bf9-47d6-9f72-9e2613aacf98</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CoSec/director/Resign director</testCaseId>
+      <testCaseId>Test Cases/CoCo/onboardingHandover/Onboarding</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

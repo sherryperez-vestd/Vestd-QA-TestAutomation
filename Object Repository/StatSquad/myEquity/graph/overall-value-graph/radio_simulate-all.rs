@@ -6,15 +6,19 @@
    <elementGuidId>76749876-fc86-410b-bc3d-e6ba84960c06</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#vesting-type-all-nowvalue</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='vesting-type-until-nowvalue']</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#vesting-type-until-nowvalue</value>
+         <key>BASIC</key>
+         <value>//input[@class = 'form-check-input' and @type = 'radio' and @name = 'vesting_typevalue' and @id = 'vesting-type-all-nowvalue' and @value = 'all-now']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,20 +28,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a6f5086b-f100-46f3-96d1-6517803025a7</webElementGuid>
+      <webElementGuid>9e9cbff4-1d47-46f1-8177-345d276e08d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
-      <webElementGuid>cbc22641-745d-46eb-a25b-0a9482634d1b</webElementGuid>
+      <webElementGuid>afe3b8b4-b496-4b94-b9a6-12dbb2ce5cf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>ff7a2eb8-daf3-4d72-909f-640f4dea7f82</webElementGuid>
+      <webElementGuid>57a401f3-e63d-4fef-99dc-03e6bb74a5db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,31 +57,23 @@
       <name>name</name>
       <type>Main</type>
       <value>vesting_typevalue</value>
-      <webElementGuid>5e6f3746-99c6-49fd-ac35-502a2a3d0ef6</webElementGuid>
+      <webElementGuid>56131d8d-22dd-4714-81cc-049ca9d49c83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>vesting-type-until-nowvalue</value>
-      <webElementGuid>aa0d8a92-744b-43fd-8f23-4adc75b53b4c</webElementGuid>
+      <value>vesting-type-all-nowvalue</value>
+      <webElementGuid>c1594c21-6069-4690-838d-90179e7d0dfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>until-now</value>
-      <webElementGuid>7faf1dfd-4630-439a-8789-0c346f611f12</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;vesting-type-until-nowvalue&quot;)</value>
-      <webElementGuid>1c6947d0-1fca-4708-8cd0-c36d33f58d93</webElementGuid>
+      <value>all-now</value>
+      <webElementGuid>a8a96e3f-cff4-4528-819e-8d84aa83a93a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='vesting-type-until-nowvalue']</value>
-      <webElementGuid>c8ec2296-2c09-4816-be64-1faf9e119a8d</webElementGuid>
+      <webElementGuid>602010d6-8365-4114-ba0e-b80475607615</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div/div/div[2]/input</value>
-      <webElementGuid>6590d1d9-952f-4a06-b33a-fbaa0bb6ad9e</webElementGuid>
+      <webElementGuid>1732c8ba-9ca7-48e1-a338-1ac1d44dd191</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>98bc293a-c56b-4526-9dd1-5cc1dfef7efd</webElementGuid>
+      <webElementGuid>584b4e17-5d9d-489b-aea9-8a06983c5578</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'vesting_typevalue' and @id = 'vesting-type-until-nowvalue']</value>
-      <webElementGuid>044cc030-9e33-437d-a72c-36a6e4d57bd4</webElementGuid>
+      <webElementGuid>2f8cf5ca-704a-4142-94ff-0fa58d928dbf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

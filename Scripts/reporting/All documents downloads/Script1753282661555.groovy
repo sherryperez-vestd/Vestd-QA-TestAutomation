@@ -32,7 +32,7 @@ import org.openqa.selenium.Keys as Keys
  *    - temporary-file page → https://demo.app.vestd.com/company/50135/temporary-file
  * 4. Confirm presence and visibility of temporary file UI (expiry label and download button).
  */
-not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/legal-doc')
 

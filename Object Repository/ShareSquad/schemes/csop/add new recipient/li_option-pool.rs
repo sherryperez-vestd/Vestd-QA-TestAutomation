@@ -6,16 +6,15 @@
    <elementGuidId>b50a31c6-2fd9-434c-9eef-2d908fcf5918</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//li[@role = 'option' and @aria-label = 'Option pool 1 (202,000 Ordinary shares remaining. 18th Oct 2024)']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary</value>
+         <value>//li[@role = 'option' and contains(@aria-label, 'Option pool 1')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>b1b6fcde-098f-4e4b-a6d8-924920bc8ee0</webElementGuid>
+      <webElementGuid>7d0d1673-672e-497d-8427-49b5a9a391e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,14 +40,14 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>7cecf8c1-b8e7-47ed-a4a2-62ee27ba09bc</webElementGuid>
+      <webElementGuid>f1c35570-b483-45a6-b59e-9e7c9e43a82f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>aria-label</name>
       <type>Main</type>
-      <value>Option pool 1 (202,000 Ordinary shares remaining. 18th Oct 2024)</value>
-      <webElementGuid>67ce60cf-f2b8-46dc-97fc-00329a3dda3c</webElementGuid>
+      <value>Option pool 1</value>
+      <webElementGuid>dcba6eeb-ed3e-4955-9728-d7506c8260f1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
