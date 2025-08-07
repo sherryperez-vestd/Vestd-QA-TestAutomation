@@ -6,19 +6,19 @@
    <elementGuidId>2b4d70d3-1773-479b-b8f3-ab7478d0e9ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='num_shares' or @name = 'num_shares']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'number' and @id = 'num_shares' and @name = 'num_shares']</value>
+         <value>//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#num_shares</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -28,51 +28,35 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c9f9683d-8d28-4a25-9c1f-3323d9d5638b</webElementGuid>
+      <webElementGuid>8cfde510-a0e1-45b0-abb6-cc48a7f8d621</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>e0bdcca7-06d6-48fe-a29d-5ad997b0854a</webElementGuid>
+      <value>text</value>
+      <webElementGuid>3a1cad85-3886-460c-9376-f5408e5c9ed2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>data-test-id</name>
       <type>Main</type>
-      <value>num_shares</value>
-      <webElementGuid>83550279-092d-46d3-8bbe-cef768dec91d</webElementGuid>
+      <value>form-number-input</value>
+      <webElementGuid>8c91ddcf-85ed-442f-918d-1be339a73f2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>num_shares</value>
-      <webElementGuid>b03e4647-5eb9-42e8-834a-1dce5b23e032</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>611e66c5-0ba8-40e7-bd2c-32ed30f7673a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;num_shares&quot;)</value>
-      <webElementGuid>b12f937e-f480-4982-9267-30cf142584bb</webElementGuid>
+      <webElementGuid>45bc0015-1b81-4524-9f8f-4209b9e2a380</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

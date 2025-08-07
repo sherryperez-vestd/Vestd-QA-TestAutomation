@@ -33,15 +33,16 @@ import org.openqa.selenium.Keys as Keys
  *    https://demo.app.vestd.com/company/50135/temporary-file
  * 7. Validate presence of expiry message and "Download" button on temporary file page.
  */
+WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports/financial-report')
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/heading_Financial Report'), 0)
 
 WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/heading_Financial Report'), 'Financial report')
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/text_To generate reports, first enter a start and end date'),  0)
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/text_To generate reports, first enter a start and end date'), 
+    0)
 
 WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/text_To generate reports, first enter a start and end date'), 
     'To generate reports, first enter a start and end date. These dates will define the time frame for the report.')
@@ -52,7 +53,7 @@ WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/text_Infor
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/list-text_Options Vested'), 0)
 
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/list-text_Options Vested'), 'Options Vested: View all stock options that vested within the selected time frame.')
+WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/list-text_Options Vested'), 'Options Vested: View all stock options that vested within the selected time frame. If a future date is selected, this also includes options scheduled to vest by that date based on the vesting schedule.')
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/list-text_Options Lapsed'), 0)
 
@@ -130,10 +131,10 @@ WebUI.setText(findTestObject('StatSquad/reporting/financial/input_Year_from_date
 
 WebUI.click(findTestObject('StatSquad/reporting/financial/btn_Download Report'))
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/list-validation-message_The from date must be a date before'), 
+not_run: WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/list-validation-message_The from date must be a date before'), 
     0)
 
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/list-validation-message_The from date must be a date before'), 
+not_run: WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/list-validation-message_The from date must be a date before'), 
     'The from date must be a date before or equal to today.')
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/list-validation-message_The to date must be a date after or equal'), 
@@ -142,10 +143,10 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/list-va
 WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/list-validation-message_The to date must be a date after or equal'), 
     'The to date must be a date after or equal to from date.')
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/label-validation-message_The from date must be a date before'), 
+not_run: WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/label-validation-message_The from date must be a date before'), 
     0)
 
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/label-validation-message_The from date must be a date before'), 
+not_run: WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/label-validation-message_The from date must be a date before'), 
     'The from date must be a date before or equal to today.')
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/label-validation-message_The to date must be a date after or equal'), 
@@ -160,16 +161,16 @@ WebUI.setText(findTestObject('StatSquad/reporting/financial/input_Year_to_date_y
 
 WebUI.click(findTestObject('StatSquad/reporting/financial/btn_Download Report'))
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/list-validation-message_The to date must be a date before or equal'), 
+not_run: WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/list-validation-message_The to date must be a date before or equal'), 
     0)
 
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/list-validation-message_The to date must be a date before or equal'), 
+not_run: WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/list-validation-message_The to date must be a date before or equal'), 
     'The to date must be a date before or equal to today.')
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/label-validation-message_The to date must be a date before or equal'), 
+not_run: WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/label-validation-message_The to date must be a date before or equal'), 
     0)
 
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/label-validation-message_The to date must be a date before or equal'), 
+not_run: WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/label-validation-message_The to date must be a date before or equal'), 
     'The to date must be a date before or equal to today.')
 
 WebUI.refresh()

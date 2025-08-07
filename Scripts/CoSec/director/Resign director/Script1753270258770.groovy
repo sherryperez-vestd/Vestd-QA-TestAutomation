@@ -1,101 +1,90 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import java.text.SimpleDateFormat
-import java.util.Date
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 import java.util.Calendar
 
+/**
+ * 
+ * TEST CASE: Resign and Reappoint Director
+ * 
+ * URL: https://demo.app.vestd.com/company/50934/director
+ *
+ * STEPS:
+ * - Logs in as an Editor user
+ * - Navigates to the Directors page of company 50934
+ * - Opens a director's profile
+ * - Resigns the director using today's date
+ * - Reappoints the director again using today's date
+ * - Verifies appropriate status labels and success messages
+ * 
+ */
+
+// Login and navigate
 WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/director')
-
 WebUI.click(findTestObject('CoSec/directors/a_Directorname'))
 
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/a_Resign'), 0)
+// Perform resign and reappoint flows
+resignDirector()
+reappointDirector()
 
-WebUI.verifyElementText(findTestObject('CoSec/directors/a_Resign'), 'Resign')
-
-WebUI.verifyElementNotPresent(findTestObject('CoSec/directors/th_Resigned'), 0)
-
-WebUI.click(findTestObject('CoSec/directors/a_Resign'))
-
-// Get current date as Calendar instance
-Calendar calendar = Calendar.getInstance()
-
-// Extract the day of the month
-int currentday = calendar.get(Calendar.DAY_OF_MONTH)
-String currentdayString = currentday.toString()
-
-// Get the month (0 = January, so we add 1)
-int currentmonth = calendar.get(Calendar.MONTH) + 1
-String currentmonthString = currentmonth.toString()
-
-// Extract the year
-int currentYear = calendar.get(Calendar.YEAR)
-String currentYearString = currentYear.toString()
-
-WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), currentdayString)
-
-WebUI.setText(findTestObject('CoSec/directors/input_ResignMonth'), currentmonthString)
-
-WebUI.setText(findTestObject('CoSec/directors/input_ResignYear'), currentYearString)
-
-WebUI.check(findTestObject('CoSec/directors/input_checkboxActions'))
-
-WebUI.click(findTestObject('CoSec/directors/btn_ResignDirector'))
-
-WebUI.click(findTestObject('CoSec/directors/btn_ResignConfirm'))
-
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/alert_Director resigned'), 0)
-
-WebUI.verifyElementText(findTestObject('CoSec/directors/alert_Director resigned'), 'Director resigned.')
-
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/label_Resigned'), 0)
-
-WebUI.verifyElementText(findTestObject('CoSec/directors/label_Resigned'), 'Resigned')
-
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/th_Resigned'), 0)
-
-WebUI.verifyElementText(findTestObject('CoSec/directors/th_Resigned'), 'Resigned')
-
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/a_Reappoint'), 0)
-
-WebUI.verifyElementText(findTestObject('CoSec/directors/a_Reappoint'), 'Reappoint')
-
-WebUI.click(findTestObject('CoSec/directors/a_Reappoint'))
-
-WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), currentdayString)
-
-WebUI.setText(findTestObject('CoSec/directors/input_appointedMonth'), currentmonthString)
-
-WebUI.setText(findTestObject('CoSec/directors/input_appointedYear'), currentYearString)
-
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/btn_Reappoint'), 0)
-
-WebUI.click(findTestObject('CoSec/directors/btn_Reappoint'))
-
-WebUI.delay(5)
-
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/alert_Director reappointment'), 0)
-
-WebUI.verifyElementText(findTestObject('CoSec/directors/alert_Director reappointment'), 'Director reappointment started.')
-
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/th_Appointed'), 0)
-
+// Final cleanup
 WebUI.closeBrowser()
+
+//Get current date parts as strings
+def getCurrentDateParts() {
+	Calendar calendar = Calendar.getInstance()
+	return [
+		day  : calendar.get(Calendar.DAY_OF_MONTH).toString(),
+		month: (calendar.get(Calendar.MONTH) + 1).toString(), // Calendar.MONTH is zero-based
+		year : calendar.get(Calendar.YEAR).toString()
+	]
+}
+
+// Resign a director
+def resignDirector() {
+    def dateParts = getCurrentDateParts()
+    WebUI.verifyElementPresent(findTestObject('CoSec/directors/a_Resign'), 0)
+    WebUI.verifyElementText(findTestObject('CoSec/directors/a_Resign'), 'Resign')
+    WebUI.verifyElementNotPresent(findTestObject('CoSec/directors/th_Resigned'), 0)
+    WebUI.click(findTestObject('CoSec/directors/a_Resign'))
+
+    WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), dateParts.day)
+    WebUI.setText(findTestObject('CoSec/directors/input_ResignMonth'), dateParts.month)
+    WebUI.setText(findTestObject('CoSec/directors/input_ResignYear'), dateParts.year)
+
+    WebUI.check(findTestObject('CoSec/directors/input_checkboxActions'))
+    WebUI.click(findTestObject('CoSec/directors/btn_ResignDirector'))
+    WebUI.click(findTestObject('CoSec/directors/btn_ResignConfirm'))
+
+    WebUI.verifyElementPresent(findTestObject('CoSec/directors/alert_Director resigned'), 0)
+    WebUI.verifyElementText(findTestObject('CoSec/directors/alert_Director resigned'), 'Director resigned.')
+    WebUI.verifyElementPresent(findTestObject('CoSec/directors/label_Resigned'), 0)
+    WebUI.verifyElementText(findTestObject('CoSec/directors/label_Resigned'), 'Resigned')
+    WebUI.verifyElementPresent(findTestObject('CoSec/directors/th_Resigned'), 0)
+    WebUI.verifyElementText(findTestObject('CoSec/directors/th_Resigned'), 'Resigned')
+}
+
+// Reappoint a director
+def reappointDirector() {
+    def dateParts = getCurrentDateParts()
+    WebUI.verifyElementPresent(findTestObject('CoSec/directors/a_Reappoint'), 0)
+    WebUI.verifyElementText(findTestObject('CoSec/directors/a_Reappoint'), 'Reappoint')
+    WebUI.click(findTestObject('CoSec/directors/a_Reappoint'))
+
+    WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), dateParts.day)
+    WebUI.setText(findTestObject('CoSec/directors/input_appointedMonth'), dateParts.month)
+    WebUI.setText(findTestObject('CoSec/directors/input_appointedYear'), dateParts.year)
+
+    WebUI.verifyElementPresent(findTestObject('CoSec/directors/btn_Reappoint'), 0)
+    WebUI.click(findTestObject('CoSec/directors/btn_Reappoint'))
+    WebUI.delay(5) // consider replacing with a smarter wait if possible
+
+    WebUI.verifyElementPresent(findTestObject('CoSec/directors/alert_Director reappointment'), 0)
+    WebUI.verifyElementText(findTestObject('CoSec/directors/alert_Director reappointment'), 'Director reappointment started.')
+    WebUI.verifyElementPresent(findTestObject('CoSec/directors/th_Appointed'), 0)
+}
+
 

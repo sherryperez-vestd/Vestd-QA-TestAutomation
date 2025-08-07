@@ -40,7 +40,7 @@ WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-r
 
 WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_NI number_ni_number'), 'AB123456C')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Unique identifier_customer_unique_identifier'), 
+WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Unique identifier'), 
     '12345')
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/button_Save as draft and add another'))

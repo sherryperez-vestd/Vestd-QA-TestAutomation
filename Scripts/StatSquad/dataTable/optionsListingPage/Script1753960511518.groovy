@@ -17,6 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/**
+ * Test: EMI Option Listing - UI Verification
+ * URL: https://demo.app.vestd.com/company/50934/option?type=emi&page=1&per_page=25
+ *
+ * Steps:
+ * 1. Login as staff user.
+ * 2. Navigate to the EMI option listing page.
+ * 3. Verify presence of core UI elements (filters, pagination, search, etc.).
+ * 4. Expand row and check detailed option info (vesting, exercise, employee data).
+ * 5. Confirm each detail cell is not empty.
+ * 6. Validate column headers and sorting icons.
+ * 7. Open filter panel and verify dropdown filter values.
+ * 8. Test search functionality and clear input.
+ * 9. Re-check headers after search reset.
+ */
+
 // Login
 CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
