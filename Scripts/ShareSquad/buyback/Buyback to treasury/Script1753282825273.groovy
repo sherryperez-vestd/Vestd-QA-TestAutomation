@@ -23,7 +23,7 @@ not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:]
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-buyback/create')
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/buyback-create/input_confirm-company-has-sufficient-profits'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/buyback-create/input_confirm-sufficient-profits'))
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/buyback-create/button_Continue'))
 

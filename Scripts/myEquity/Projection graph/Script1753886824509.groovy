@@ -29,27 +29,26 @@ import org.openqa.selenium.Keys as Keys
  * 7. Verify tooltips for each vesting option by clicking tooltip icons, checking tooltip text, and toggling visibility.
  * 8. Click each vesting option radio button and verify the graph canvas updates accordingly.
  */
-
 not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370417')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/tab_overall-value'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/_common/tab_overall-value'))
 
 'Check Overall value tab'
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/tab_overall-value'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/_common/tab_overall-value'), 0)
 
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/graph/tab_overall-value'))
-
-WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/overall-value-graph/select_estimatedProfit'), 0)
-
-WebUI.click(findTestObject('StatSquad/myEquity/graph/overall-value-graph/select_estimatedProfit'))
-
-not_run: WebUI.click(findTestObject('StatSquad/myEquity/graph/overall-value-graph/select_estimatedProfit_perShare'))
+WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/_common/tab_overall-value'))
 
 WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/overall-value-graph/input_estimatedProfit'), 0)
 
-WebUI.clearText(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/input_estimatedProfit'))
+not_run: WebUI.click(findTestObject('StatSquad/myEquity/graph/overall-value-graph/input_estimatedProfit'))
+
+not_run: WebUI.click(findTestObject('StatSquad/myEquity/graph/overall-value-graph/select_estimatedProfit_perShare'))
+
+not_run: WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/overall-value-graph/input_estimatedProfit'), 0)
+
+WebUI.clearText(findTestObject('StatSquad/myEquity/graph/overall-value-graph/input_estimatedProfit'))
 
 WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/overall-value-graph/img_emptyGraph'), 0)
 
@@ -58,14 +57,14 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/graph/overall-valu
 
 WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/graph/overall-value-graph/img_emptyGraph'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/txt_empty-graph-This is where your potential growth'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/txt_empty-graph-This is where'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/txt_empty-graph-This is where your potential growth'), 
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/txt_empty-graph-This is where'), 
     'This is where your potential growth statistics will appear!')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/txt_empty-graph-Use the calculator to visualise'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/txt_empty-graph-Use the calculator'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/txt_empty-graph-Use the calculator to visualise'), 
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/txt_empty-graph-Use the calculator'), 
     'Use the calculator to visualise your future values.')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/img_emptyGraph'))
@@ -177,5 +176,4 @@ WebUI.click(findTestObject('StatSquad/myEquity/graph/overall-value-graph/radio_s
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/canvas'), 0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/overall-value-graph/canvas'))
-
 

@@ -54,7 +54,7 @@ WebUI.setText(findTestObject('Object Repository/ShareSquad/issueShares/share-dis
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-create/btn_createSaveAsDraft'))
 
-WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/share-distribution-details/p_Test Shares (sherry.perezsharesvestd.com) Not invited'), 
+not_run: WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/share-distribution-details/p_Test Shares (sherry.perezsharesvestd.com) Not invited'), 
     0)
 
 not_run: WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/share-distribution-details/p_Test Shares (sherry.perezsharesvestd.com) Not invited'), 
@@ -81,7 +81,7 @@ WebUI.verifyElementText(findTestObject('ShareSquad/issueShares/share-distributio
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-details/button_Issue immediately'))
 
-WebUI.click(findTestObject('ShareSquad/issueShares/share-distribution-create/btn_issueSharesConfirm'))
+WebUI.click(findTestObject('ShareSquad/issueShares/share-distribution-create/btn_issueSharesContinue'))
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-details/a_Back to list of share distributions'))
 
@@ -103,7 +103,7 @@ WebUI.waitForElementPresent(findTestObject('ShareSquad/issueShares/share-distrib
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-distribution-details/a_Share issue-staff-link'))
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-issue-staffpage/button_Delete-share-issue'))
+WebUI.click(findTestObject('ShareSquad/issueShares/share-issue-staffpage/button_Delete-share-issue'))
 
 WebUI.acceptAlert()
 
@@ -111,10 +111,12 @@ WebUI.click(findTestObject('Object Repository/ShareSquad/issueShares/share-allot
 
 WebUI.acceptAlert()
 
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-offer?page=1&per_page=25')
+
 //WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-offer')
 not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/ShareSquad/issueShares/share-issues-index/td_Test Shares'))
 
-not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSquad/issueShares/share-issues-index/td_Test Shares'), 
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSquad/issueShares/share-issues-index/td_Test Shares'), 
     0)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/shareholder')

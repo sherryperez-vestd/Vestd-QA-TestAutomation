@@ -22,7 +22,7 @@
       <guid>837bd562-f76e-4e4b-9351-c5c93673b9e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/dasboard/dashboard - Customise Groups</testCaseId>
+      <testCaseId>Test Cases/CoCo/dasboard/dashboard - Customise groups</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

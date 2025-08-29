@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_expense alert text</name>
+   <name>label_Risk-free rate</name>
    <tag></tag>
-   <elementGuidId>b3b74b5b-66d6-4be2-bc86-6f09a6fe1ba4</elementGuidId>
+   <elementGuidId>90ec3354-5059-49d1-8a20-6bce674ae31a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//p[(text() = 'Seems like you dont have the expense report settings updated, Please click on the button below and update it before proceeding.' or . = 'Seems like you dont have the expense report settings updated, Please click on the button below and update it before proceeding.')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+         <value>//label[(text() = 'Risk-free rate' or . = 'Risk-free rate')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,15 +32,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
-      <webElementGuid>72d1ff44-1fb1-4940-a388-1bded68e6d00</webElementGuid>
+      <value>label</value>
+      <webElementGuid>a884d3bd-0d10-4eba-9666-dd5e09b49e28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Seems like you dont have the expense report settings updated, Please click on the button below and update it before proceeding.</value>
-      <webElementGuid>efe3ec8e-2e36-41ac-8383-fd6d2a6eba92</webElementGuid>
+      <value>Risk-free rate</value>
+      <webElementGuid>f775bd40-b7ab-4138-ad84-ca94986ee85a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

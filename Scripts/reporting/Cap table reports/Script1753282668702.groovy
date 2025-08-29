@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 /**
  * Test Case: Verify Cap Table navigation
  *
@@ -29,9 +28,8 @@ import org.openqa.selenium.Keys as Keys
  * 3. Verify redirection to the correct Cap Table URL:
  *    https://demo.app.vestd.com/company/50135/cap-table
  */
+not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
 
 WebUI.click(findTestObject('StatSquad/reporting/index/link_generate-cap-table'))

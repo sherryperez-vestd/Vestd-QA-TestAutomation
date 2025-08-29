@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_confirm-company-has-sufficient-profits</name>
+   <name>input_confirm-sufficient-profits</name>
    <tag></tag>
    <elementGuidId>4e047b4f-7d47-4fa3-906e-090d7dc836b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='buyback_type']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input[name=&quot;buyback_type&quot;]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'radio' and @class = 'form-check-input' and @name = 'buyback_type' and @value = 'profits']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='buyback_type']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,12 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9c40331d-1af5-4615-8f27-26ffd0cb5c0a</webElementGuid>
+      <webElementGuid>d2328241-ee35-4103-a50c-ea0af56a62e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,15 +41,15 @@
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
-      <webElementGuid>ae1c642c-dbcd-4585-9ff1-c1be4603f2fb</webElementGuid>
+      <webElementGuid>05fc7527-4079-48e9-8158-f712faac1d97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
-      <webElementGuid>1ab7fc8f-9c63-4e9f-9f2f-1c7120d21493</webElementGuid>
+      <webElementGuid>e60d8f14-0b2a-42b8-a593-80d950f37627</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,23 +57,15 @@
       <name>name</name>
       <type>Main</type>
       <value>buyback_type</value>
-      <webElementGuid>0b54dfde-f18f-4556-9248-6c8feedb9463</webElementGuid>
+      <webElementGuid>ab7b46c1-d1aa-4505-bce3-8feea3396370</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>profits</value>
-      <webElementGuid>7b3ca7f8-0ef1-4dee-8427-ff0da83d9d63</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-md-center&quot;]/div[@class=&quot;col-lg-8&quot;]/form[1]/div[@class=&quot;form-check&quot;]/label[@class=&quot;form-check-label font-weight-semi-bold&quot;]/input[@class=&quot;form-check-input&quot;]</value>
-      <webElementGuid>cfc77331-ea54-4fb3-90d8-8d647be655f5</webElementGuid>
+      <webElementGuid>a34aa740-1044-4db1-996c-cde847e0028a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='buyback_type']</value>
-      <webElementGuid>9f5c279d-113f-449f-82b1-bbb6a7cc2cc6</webElementGuid>
+      <webElementGuid>7f6b78e8-8eb4-4903-8ef3-0137d13324ce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/div/label/input</value>
-      <webElementGuid>15ae6428-eda7-4b74-b90a-f58c5ee9d54d</webElementGuid>
+      <webElementGuid>b3d30dc5-778e-4b2e-990c-9d88062596ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>bbdf1b15-52ef-47c5-8c2e-3f91257a43ab</webElementGuid>
+      <webElementGuid>add1f764-b3bc-4ca8-9cf1-77b4e48bba07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'radio' and @name = 'buyback_type']</value>
-      <webElementGuid>89949e80-92be-49ee-bb94-497dcfb513a8</webElementGuid>
+      <webElementGuid>640bc500-90cc-4e17-8d11-c8785a837145</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

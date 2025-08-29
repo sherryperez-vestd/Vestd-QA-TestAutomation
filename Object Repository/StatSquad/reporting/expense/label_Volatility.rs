@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Valuation method</name>
+   <name>label_Volatility</name>
    <tag></tag>
-   <elementGuidId>ea2aac81-959f-4d60-8a33-d505550b9948</elementGuidId>
+   <elementGuidId>9365a5b8-afa2-4b31-a619-9c019a49a424</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[(text() = 'Valuation method' or . = 'Valuation method')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+         <value>//label[(text() = 'Volatility' or . = 'Volatility')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,14 +33,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>6a0d1782-09d5-4d1b-a7c5-d88c46d65404</webElementGuid>
+      <webElementGuid>64806be5-6560-42d4-b588-3cdf309d4cd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Valuation method</value>
-      <webElementGuid>d6d99dd3-a816-4f8e-8340-ebaf07c0026f</webElementGuid>
+      <value>Volatility</value>
+      <webElementGuid>7f5af21c-77f4-4b39-b133-c88cd55e75c9</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

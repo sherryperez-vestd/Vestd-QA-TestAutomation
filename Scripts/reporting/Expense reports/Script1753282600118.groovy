@@ -42,63 +42,11 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/heading_E
 
 WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/heading_ExpenseReport'), 'Expense report Beta')
 
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/tooltip-icon_Beta'), 0)
+
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/heading_Beta'), 0)
 
 WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/heading_Beta'), 'Beta')
-
-'Check Add expense report settings alert banner'
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/div_add expense report settings alert'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/heading_expense report alert'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/heading_expense report alert'), 'Add expense report settings')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/p_expense alert text'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/p_expense alert text'), 'Seems like you dont have the expense report settings updated, Please click on the button below and update it before proceeding.')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/btn_Expense report settings'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/btn_Expense report settings'), 'Expense report settings')
-
-'Check Edit expense report settings page'
-WebUI.click(findTestObject('StatSquad/reporting/expense/btn_Expense report settings'))
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/heading_Edit expense report settings'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/heading_Edit expense report settings'), 'Edit expense report settings')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/p_edit expense report settings text'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/p_edit expense report settings text'), 'Configure the settings for IFRS 2 (Share-Based Payments) by selecting the financial year start date and defining key valuation inputs like the risk-free rate and volatility for option pricing.')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/label_Financial year start date'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/label_Financial year start date'), 'Financial year start date')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/tooltip-icon_Financial year start date'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/dd_Month'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/dd_Day'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/label_Valuation method'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/label_Valuation method'), 'Valuation method')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/tooltip-icon_Financial year start date'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/dd_Valuation method'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/btn_Edit Expense report settings Save'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/btn_Edit Expense report settings Save'), 'Save')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/a_back to expense report'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/a_back to expense report'), '< Back to expense report')
-
-WebUI.click(findTestObject('StatSquad/reporting/expense/a_back to expense report'))
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/span_From Date'), 0)
 
@@ -132,15 +80,47 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/input_Mon
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/input_Year_to_date_year'), 0)
 
-not_run: WebUI.verifyElementClickable(findTestObject('StatSquad/reporting/financial/btn_Download Report'))
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/p_To generate report'), 0)
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/btn_Download Report'), 0)
+WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/p_To generate report'), 'To generate report, first enter a start and end date. These dates will define the time frame for the report.')
 
-WebUI.verifyElementNotClickable(findTestObject('StatSquad/reporting/financial/btn_Download Report'))
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/p_It provides all necessary expense entries'), 0)
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/reports/expense-report')
+WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/p_It provides all necessary expense entries'), 'It provides all necessary expense entries that must be combined and recorded in the annual P&L under "employee compensation expense." The report includes fair value calculations, vesting schedules, and a detailed monthly expense breakdown to ensure IFRS compliance.')
 
-WebUI.click(findTestObject('StatSquad/reporting/expense/a_click here'))
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/label_IFRS pricing model'), 0)
 
-WebUI.click(findTestObject('StatSquad/reporting/expense/dd_Month'))
+WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/label_IFRS pricing model'), 'IFRS pricing model')
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/tooltip-icon_IFRS pricing model'), 0)
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/dd_IFRS pricing model'), 0)
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/label_Risk-free rate'), 0)
+
+WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/label_Risk-free rate'), 'Risk-free rate')
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/tooltip-icon_Risk-free rate'), 0)
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/input_risk_free_rate'), 0)
+
+WebUI.setText(findTestObject('StatSquad/reporting/expense/input_risk_free_rate'), '1')
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/label_Volatility'), 0)
+
+WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/label_Volatility'), 'Volatility')
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/tooltip-icon_Volatility'), 0)
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/input_Volatility'), 0)
+
+WebUI.setText(findTestObject('StatSquad/reporting/expense/input_Volatility'), '1')
+
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/btn_Download Report'), 0)
+
+WebUI.verifyElementClickable(findTestObject('StatSquad/reporting/btn_Download Report'))
+
+WebUI.click(findTestObject('StatSquad/reporting/btn_Download Report'))
+
+not_run: WebUI.callTestCase(findTestCase('StatSquad/reports/Download Report'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -28,13 +28,13 @@ import org.openqa.selenium.Keys as Keys
  * 5. Confirm the toggle is no longer visible on the My Equity page.
  * 6. Reset the setting back to "Yes" for cleanup.
  */
-
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
 
 'Check \'Show diluted numbers on the My Equity page\' is set to Yes on Company page '
-WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideDilutedToggle/label_Show diluted numbers on the My Equity page'), 0)
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideDilutedToggle/label_Show diluted numbers on the My Equity page'), 
+    0)
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideDilutedToggle/label_Show diluted Yes'), 0)
 
@@ -49,7 +49,7 @@ WebUI.verifyElementChecked(findTestObject('StatSquad/myEquity/showHideDilutedTog
 'Check Diluted Undiluted toggle is present on My Equity page'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.click(findTestObject('StatSquad/myEquity/common/tab_Overall value'))
+WebUI.click(findTestObject('StatSquad/myEquity/_common/tab_Overall value'))
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideDilutedToggle/text_ Ownership view'), 0)
 
@@ -64,14 +64,14 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
 
 WebUI.click(findTestObject('StatSquad/myEquity/showHideDilutedToggle/radio_Show diluted numbers No'))
 
-WebUI.click(findTestObject('StatSquad/myEquity/common/button_Save'))
+WebUI.click(findTestObject('StatSquad/myEquity/_common/button_Save'))
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideDilutedToggle/div_Company updated'), 0)
 
 'Check Diluted Undiluted toggle is NOT present on My Equity page'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.click(findTestObject('StatSquad/myEquity/common/tab_Overall value'))
+WebUI.click(findTestObject('StatSquad/myEquity/_common/tab_Overall value'))
 
 WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/showHideDilutedToggle/text_ Ownership view'), 0)
 
@@ -84,7 +84,7 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
 
 WebUI.click(findTestObject('StatSquad/myEquity/showHideDilutedToggle/radio_Show diluted numbers Yes'))
 
-WebUI.click(findTestObject('StatSquad/myEquity/common/button_Save'))
+WebUI.click(findTestObject('StatSquad/myEquity/_common/button_Save'))
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideDilutedToggle/div_Company updated'), 0)
 

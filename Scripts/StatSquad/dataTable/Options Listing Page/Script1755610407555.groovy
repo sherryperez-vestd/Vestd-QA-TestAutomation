@@ -32,7 +32,6 @@ import org.openqa.selenium.Keys as Keys
  * 8. Test search functionality and clear input.
  * 9. Re-check headers after search reset.
  */
-
 // Login
 CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
@@ -40,45 +39,22 @@ CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVari
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/option?type=emi&page=1&per_page=25')
 
 // Verify static elements
-[
-	'btn_download',
-	'btn_filter',
-	'input_search',
-	'div_entryCount',
-	'span_previous',
-	'span_next',
-	'tr_chevron',
-	'span_badge'
-].each {
-	CustomKeywords.'UIKeywords.verifyElementPresentVisible'("Object Repository/StatSquad/dataTable/${it}")
-}
+['btn_download', 'btn_filter', 'input_search', 'div_entryCount', 'span_previous', 'span_next', 'tr_chevron', 'span_badge'].each(
+    { 
+        CustomKeywords.'UIKeywords.verifyElementPresentVisible'("Object Repository/StatSquad/dataTable/$it")
+    })
 
 CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/dataTable/tr_chevron')
-[
-	'div_vestingStart',
-	'div_vestingEnd',
-	'div_Exercised',
-	'div_exerciseEnd',
-	'div_Vested',
-	'div_employee2'
-].each {
-	CustomKeywords.'UIKeywords.verifyElementPresentVisible'("Object Repository/StatSquad/dataTable/optionsListing/${it}")
-}
 
+['div_vestingStart', 'div_vestingEnd', 'div_Exercised', 'div_exerciseEnd', 'div_Vested', 'div_employee2'].each({ 
+        CustomKeywords.'UIKeywords.verifyElementPresentVisible'("Object Repository/StatSquad/dataTable/optionsListing/$it")
+    })
 
 // Verify element has value and not empty
-[
-	'div_vestingStartData',
-	'div_exerciseEndData',
-	'div_ExercisedData',
-	'div_vestingEnd',
-	'div_vestedData',
-	'div_exerciseEndData',
-	'div_employee2Data'
-].each {
-	CustomKeywords.'UIKeywords.verifyElementTextNotEmpty'("Object Repository/StatSquad/dataTable/optionsListing/${it}")
-}
-
+['div_vestingStartData', 'div_exerciseEndData', 'div_ExercisedData', 'div_vestingEnd', 'div_vestedData', 'div_exerciseEndData'
+    , 'div_employee2Data'].each({ 
+        CustomKeywords.'UIKeywords.verifyElementTextNotEmpty'("Object Repository/StatSquad/dataTable/optionsListing/$it")
+    })
 
 // Verify table headers
 verifyOptionsListingTableHeaders()
@@ -86,38 +62,15 @@ verifyOptionsListingTableHeaders()
 CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/dataTable/btn_filter')
 
 // Verify filter options
-verifyDropdownOptions(
-	'optionsListing/div_status',
-	[
-		'label_draft',
-		'label_live',
-		'label_completed',
-		'label_cancelled'
-	]
-)
+verifyDropdownOptions('optionsListing/div_status', ['label_draft', 'label_live', 'label_completed', 'label_cancelled'])
 
-verifyDropdownOptions(
-	'optionsListing/div_recipientStatus',
-	[
-		'label_notInvited',
-		'label_inviteRejected',
-		'label_inviteExpired',
-		'label_waitingToAcceptInvite',
-		'label_waitingToAcceptOption',
-		'label_accepted',
-		'label_leftEmployment'
-	]
-)
+verifyDropdownOptions('optionsListing/div_recipientStatus', ['label_notInvited', 'label_inviteRejected', 'label_inviteExpired'
+        , 'label_waitingToAcceptInvite', 'label_waitingToAcceptOption', 'label_accepted', 'label_leftEmployment'])
 
-verifyDropdownOptions(
-	'optionsListing/div_employee',
-	[
-		'label_Yes',
-		'label_No'
-	]
-)
+verifyDropdownOptions('optionsListing/div_employee', ['label_Yes', 'label_No'])
 
-// Search functionality
+// Search functionality 
+// No records found
 def searchBox = findTestObject('StatSquad/dataTable/input_search')
 WebUI.setText(searchBox, 'x')
 CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatSquad/dataTable/td_noRecordsFound')
@@ -126,33 +79,30 @@ CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatS
 WebUI.click(searchBox)
 WebUI.sendKeys(searchBox, Keys.chord(Keys.BACK_SPACE))
 
+// Records found
+def searchBox2 = findTestObject('StatSquad/dataTable/input_search')
+WebUI.setText(searchBox2, 'b')
+WebUI.scrollToElement(findTestObject('StatSquad/dataTable/div_entryCount'), 0)
+WebUI.delay(5)
+WebUI.verifyTextPresent('3 entries', true)
 
 // Re-verify headers
-verifyOptionsListingTableHeaders()
-
-// === Functions ===
+verifyOptionsListingTableHeaders( // === Functions ===
+    )
 
 def verifyOptionsListingTableHeaders() {
-	[
-		'div-th_type',
-		'div-th_reference',
-		'div-th_recipient',
-		'div-th_options',
-		'div-th_grantDate',
-		'div_sortableIconsType',
-		'div_sortableIconsReference',
-		'div_sortableIconsRecipient',
-		'div_sortableIconsOptions',
-		'div_sortableIconsGrantDate'	
-	].each {
-		CustomKeywords.'UIKeywords.verifyElementPresentVisible'("Object Repository/StatSquad/dataTable/optionsListing/${it}")
-	}
+    ['div-th_type', 'div-th_reference', 'div-th_recipient', 'div-th_options', 'div-th_grantDate', 'div_sortableIconsType'
+        , 'div_sortableIconsReference', 'div_sortableIconsRecipient', 'div_sortableIconsOptions', 'div_sortableIconsGrantDate'].each(
+        { 
+            CustomKeywords.'UIKeywords.verifyElementPresentVisible'("Object Repository/StatSquad/dataTable/optionsListing/$it")
+        })
 }
-
 
 def verifyDropdownOptions(String dropdownPath, List<String> labelList) {
-	CustomKeywords.'UIKeywords.clickElement'("Object Repository/StatSquad/dataTable/${dropdownPath}")
-	labelList.each {
-		CustomKeywords.'UIKeywords.verifyElementPresentVisible'("Object Repository/StatSquad/dataTable/optionsListing/${it}")
-	}
+    CustomKeywords.'UIKeywords.clickElement'("Object Repository/StatSquad/dataTable/$dropdownPath")
+
+    labelList.each({ 
+            CustomKeywords.'UIKeywords.verifyElementPresentVisible'("Object Repository/StatSquad/dataTable/optionsListing/$it")
+        })
 }
+

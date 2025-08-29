@@ -15,7 +15,7 @@
       <guid>5b2e4746-31a9-498c-a6b2-3959b49f488f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/dataTable/optionsListingPage</testCaseId>
+      <testCaseId>Test Cases/StatSquad/dataTable/Options Listing Page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

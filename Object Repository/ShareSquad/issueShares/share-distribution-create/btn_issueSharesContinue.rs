@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_This report calculates - intrinsic</name>
+   <name>btn_issueSharesContinue</name>
    <tag></tag>
-   <elementGuidId>3d506eb6-0c1e-4ac9-be6d-e4a39ac036ff</elementGuidId>
+   <elementGuidId>65dcbaab-6bf0-4c40-96da-43ec65d29b07</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+         <key>CSS</key>
+         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//p[(contains(text(), 'Intrinsic value') or contains(., 'Intrinsic value'))]</value>
+         <value>//*[(text() = 'Continue' or . = 'Continue')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
+         <key>XPATH</key>
+         <value>//div[@id='sidebarCapital']/ul/li[11]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+         <value>internal:role=link[name=&quot;Issue shares&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>p</value>
-      <webElementGuid>a79aae1a-b082-4ae4-9326-0f2a2bf0ba75</webElementGuid>
+      <value>button</value>
+      <webElementGuid>ed8b8f6a-f798-4f1a-8776-c0bbb9f82b16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Intrinsic value</value>
-      <webElementGuid>2b2c3e0c-f090-4380-a27c-9dcaf3a43666</webElementGuid>
+      <value>Continue</value>
+      <webElementGuid>d9fd5d02-d9ad-432c-9bf9-5dc5ca681984</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

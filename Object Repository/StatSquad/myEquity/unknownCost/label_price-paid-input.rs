@@ -6,16 +6,16 @@
    <elementGuidId>17a86d3e-ca4f-478b-993f-450989725e6f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[(contains(text(), '-10 shares at £0.0001 nominal value'))]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(contains(text(), '£/share1,000 shares at £0.0001 nominal value SaveCancel') or contains(., '£/share1,000 shares at £0.0001 nominal value SaveCancel'))]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.d-flex.align-items-center.flex-wrap.justify-content-between</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(contains(text(), 'shares at £0.0001 nominal value'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e20d806c-9216-49a8-a9a9-3addac6fd187</webElementGuid>
+      <webElementGuid>577fbe16-78fa-43b9-bc58-4a18300f7f95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>d-flex align-items-center flex-wrap justify-content-between</value>
-      <webElementGuid>fdfd8e6b-ce5d-422a-be87-c68461354407</webElementGuid>
+      <webElementGuid>8ea2d0f8-bdd5-421e-8fda-d9febcc783f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>£/share1,000 shares at £0.0001 nominal value SaveCancel</value>
-      <webElementGuid>1d26e9f0-4fbc-4943-819c-107483d7749c</webElementGuid>
+      <webElementGuid>7b984264-8816-4b04-8851-6c4fc13b1dc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center mt-4&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;card overflow-hidden v-card bg-white mb-3&quot;]/div[@class=&quot;d-flex flex-column&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[1]/div[@class=&quot;d-flex align-items-center flex-wrap justify-content-between&quot;]</value>
-      <webElementGuid>79f22972-d59c-4aad-b199-7e213b2d08d4</webElementGuid>
+      <webElementGuid>46f2d565-2008-4d81-b3dd-de0d7248c6a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div[4]/div[2]/div/div/table/tbody/tr/td/div</value>
-      <webElementGuid>6f6db990-49f5-4d4d-a2b3-e4d91841f8f2</webElementGuid>
+      <webElementGuid>babc1e3a-9568-4e88-8a93-ff57472d89ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Details'])[1]/following::div[1]</value>
-      <webElementGuid>42b8f0fd-8e1e-4b7c-b7f7-28263ebb0f02</webElementGuid>
+      <webElementGuid>9e634e07-80b8-4042-a3a5-a3b4de218037</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Price paid'])[1]/following::div[1]</value>
-      <webElementGuid>0bafde41-002c-4c5e-a474-e0f7439409fc</webElementGuid>
+      <webElementGuid>56218505-1ad4-472e-ba43-93109359aea2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div</value>
-      <webElementGuid>59408feb-dbef-47e5-bf49-4f489f974535</webElementGuid>
+      <webElementGuid>66d7eefd-d5e0-4504-9df9-1fd237a0e0a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '£/share1,000 shares at £0.0001 nominal value SaveCancel' or . = '£/share1,000 shares at £0.0001 nominal value SaveCancel')]</value>
-      <webElementGuid>6f0ae744-2457-4e8e-8ec8-fc71d03aa512</webElementGuid>
+      <webElementGuid>a5268379-e47d-4bf0-b9f9-ab78635a9bf2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

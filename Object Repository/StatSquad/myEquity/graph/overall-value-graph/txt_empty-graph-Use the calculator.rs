@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_empty-graph-Use the calculator to visualise</name>
+   <name>txt_empty-graph-Use the calculator</name>
    <tag></tag>
    <elementGuidId>8c18965f-a594-4835-b940-e7199707656c</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.p-sm-5.d-flex.flex-column.justify-content-center.align-items-center > p</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[(text() = 'Use the calculator to visualise your future values.')]</value>
@@ -12,10 +16,6 @@
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = ' Use the calculator to visualise your future values. ' or . = ' Use the calculator to visualise your future values. ')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>div.p-sm-5.d-flex.flex-column.justify-content-center.align-items-center > p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

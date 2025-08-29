@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_empty-graph-This is where your potential growth</name>
+   <name>txt_empty-graph-This is where</name>
    <tag></tag>
    <elementGuidId>72c4a401-a1f4-4536-8d0d-518f72294733</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h5.mb-1</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/div/div/div/div/h5</value>
@@ -12,10 +16,6 @@
       <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'This is where your potential growth statistics will appear!' or . = 'This is where your potential growth statistics will appear!')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>h5.mb-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

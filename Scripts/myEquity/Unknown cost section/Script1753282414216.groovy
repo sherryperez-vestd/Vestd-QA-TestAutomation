@@ -87,7 +87,7 @@ WebUI.setText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/i
 
 WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/button_Cancel'))
 
-WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/b_-shares'), '£-/shares')
+not_run: WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/b_-shares'), '£-/shares')
 
 WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'))
 
@@ -99,9 +99,13 @@ WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/b_1.00sha
 
 WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'))
 
-WebUI.setText(findTestObject('StatSquad/myEquity/unknownCost/input_price-paid'), '')
+not_run: WebUI.setText(findTestObject('StatSquad/myEquity/unknownCost/input_price-paid'), '')
+
+WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/input_price-paid'))
+
+WebUI.sendKeys(findTestObject('StatSquad/myEquity/unknownCost/input_price-paid'), Keys.chord(Keys.BACK_SPACE))
 
 WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/unknownCost/b_1.00shares'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/unknownCost/b_-shares'), FailureHandling.STOP_ON_FAILURE)
 

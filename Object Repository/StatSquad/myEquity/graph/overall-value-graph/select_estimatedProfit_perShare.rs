@@ -6,16 +6,16 @@
    <elementGuidId>acde9798-3689-430f-83b3-8fd56fc21853</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Per share' or . = 'Per share')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#whF9bBj1ErBHFiwB</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//span[(text() = 'Per share' or . = 'Per share') and @class = 'multiselect-single-label-text'])[2]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'Per share' or . = 'Per share') and @class = 'multiselect-single-label-text']</value>
+         <value>(//span[(text() = 'Per share' or . = 'Per share')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e8b30d57-fb6e-47e1-abe4-bd8560073182</webElementGuid>
+      <webElementGuid>90f2cf82-2062-42b1-b11d-0acf92337f7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,14 +41,14 @@
       <name>text</name>
       <type>Main</type>
       <value>Per share</value>
-      <webElementGuid>4ea162bc-d240-436e-a632-4a73be93a75c</webElementGuid>
+      <webElementGuid>666b0beb-8e7e-4680-b82f-e5a76b5be62f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>multiselect-single-label-text</value>
-      <webElementGuid>ed84725f-60e8-4be4-8f8e-74c4dd9acd75</webElementGuid>
+      <webElementGuid>7caa995a-3430-4fca-9bda-4378e114ed1a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

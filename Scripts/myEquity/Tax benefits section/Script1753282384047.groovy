@@ -33,19 +33,17 @@ import org.openqa.selenium.Keys as Keys
  *    • Growth Shares user sees explanatory text
  * 4. Assert expected content is shown in each case.
  */
-
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Login and navigate to My equity page'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370192')
 
-WebUI.setText(findTestObject('StatSquad/myEquity/awardSection/input_estimatedProfitPerShare'), '1')
+WebUI.setText(findTestObject('StatSquad/myEquity/_common/input_estimatedProfit'), '10')
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/i_Your tax benefits_'))
 
 //CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatSquad/myEquity/taxBenefits/p_emi_14percent')
 //CustomKeywords.'UIKeywords.verifyElementContainsPartialText'('Object Repository/StatSquad/myEquity/taxBenefits/p_emi_14percent','14%')
-
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/p_emi_14percent'), 0)
 
 def elementText = WebUI.getText(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/p_emi_14percent'))
@@ -54,7 +52,17 @@ assert elementText.contains('14%')
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370432')
 
-WebUI.setText(findTestObject('StatSquad/myEquity/awardSection/input_estimatedProfitPerShare'), '1')
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/overall-value-graph/select_estimatedProfit'), 0)
+
+WebUI.click(findTestObject('StatSquad/myEquity/graph/overall-value-graph/select_estimatedProfit'))
+
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/overall-value-graph/select_estimatedProfit_perShare'), 0)
+
+WebUI.click(findTestObject('StatSquad/myEquity/graph/overall-value-graph/select_estimatedProfit_perShare'))
+
+WebUI.clearText(findTestObject('StatSquad/myEquity/_common/input_estimatedProfit'))
+
+WebUI.setText(findTestObject('StatSquad/myEquity/_common/input_estimatedProfit'), '10')
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/i_Your tax benefits_'))
 
@@ -66,7 +74,7 @@ assert elementText2.contains('20%')
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370450')
 
-WebUI.setText(findTestObject('StatSquad/myEquity/awardSection/input_estimatedProfitPerShare'), '1')
+WebUI.setText(findTestObject('StatSquad/myEquity/_common/input_estimatedProfit'), '10')
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/i_Your tax benefits_'))
 

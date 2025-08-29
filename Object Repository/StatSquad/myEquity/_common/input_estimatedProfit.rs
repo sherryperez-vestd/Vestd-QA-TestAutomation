@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_estimatedProfit</name>
+   <name>input_estimatedProfit</name>
    <tag></tag>
-   <elementGuidId>20647a66-ffff-4167-8287-290fd6e2105f</elementGuidId>
+   <elementGuidId>037e9d0d-b87b-4e62-8fea-6ead838c4fe5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @class = 'multiselect-search']</value>
+         <value>//span[(text() = 'Per share' or . = 'Per share')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type = 'text' and @class = 'multiselect-search'])[1]</value>
+         <value>(//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -32,23 +32,23 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>373ca783-0c6d-41e9-bd33-2f45faaf17f2</webElementGuid>
+      <value>span</value>
+      <webElementGuid>17dc1002-4fbe-41d8-9870-ea777b30e74a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>text</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>9cfd972c-74ef-4c35-b07e-dbfecda873cf</webElementGuid>
+      <value>Per share</value>
+      <webElementGuid>0acb3c0a-e5fb-43a7-92ce-2edfb4bbfc3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>multiselect-search</value>
-      <webElementGuid>41ace6e2-2ffd-4506-8373-d04a76d8d4d0</webElementGuid>
+      <value>multiselect-single-label-text</value>
+      <webElementGuid>54b8faca-4ef5-40ba-907b-a19be5d01b8d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

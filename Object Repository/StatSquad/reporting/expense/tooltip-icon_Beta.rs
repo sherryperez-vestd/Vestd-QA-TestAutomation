@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_estimatedProfit</name>
+   <name>tooltip-icon_Beta</name>
    <tag></tag>
-   <elementGuidId>20647a66-ffff-4167-8287-290fd6e2105f</elementGuidId>
+   <elementGuidId>0e877dd4-7b5c-4a52-9863-0cae9ff78d15</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @class = 'multiselect-search']</value>
+         <value>//span[@class = 'static-content']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#whF9bBj1ErBHFiwB</value>
+         <value>th:nth-of-type(4) > div.v-popper.v-popper--theme-tooltip.d-inline-flex.align-top.v-info-tip > span.static-content</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type = 'text' and @class = 'multiselect-search'])[1]</value>
+         <value>(//span[@class = 'static-content'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>//input[@id='whF9bBj1ErBHFiwB']</value>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]/div/table/thead/tr/th[4]/div/span</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,23 +32,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>373ca783-0c6d-41e9-bd33-2f45faaf17f2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>9cfd972c-74ef-4c35-b07e-dbfecda873cf</webElementGuid>
+      <value>span</value>
+      <webElementGuid>3558c2c2-8d18-46a1-a04d-52ba2ee58650</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>multiselect-search</value>
-      <webElementGuid>41ace6e2-2ffd-4506-8373-d04a76d8d4d0</webElementGuid>
+      <value>static-content</value>
+      <webElementGuid>0ae6b86d-a4f4-4468-b37f-be8cc7f68227</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

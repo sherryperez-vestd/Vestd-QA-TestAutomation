@@ -27,9 +27,7 @@ WebUI.verifyElementPresent(findTestObject('ShareSquad/authorisations/Top up pool
 //if (topUpText.contains('Top up the pool')) {
 //WebUI.click(findTestObject('ShareSquad/authorisations/Top up pool/a_Top up pool'))
 //}
-
 //WebUI.verifyElementText(findTestObject('ShareSquad/authorisations/Top up pool/a_Top up pool'), 'Top up the pool')
-
 WebUI.click(findTestObject('ShareSquad/authorisations/Top up pool/a_Top up pool'))
 
 WebUI.verifyElementPresent(findTestObject('ShareSquad/authorisations/Top up pool/label_How many new shares'), 0)
@@ -39,7 +37,6 @@ WebUI.verifyElementText(findTestObject('ShareSquad/authorisations/Top up pool/la
 WebUI.verifyElementPresent(findTestObject('ShareSquad/authorisations/Top up pool/input_top-up-Pool size'), 0)
 
 //WebUI.setText(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create/input_Pool size_share_pool_size'), '0')
-
 WebUI.click(findTestObject('ShareSquad/authorisations/Top up pool/button_Continue'))
 
 WebUI.verifyElementPresent(findTestObject('ShareSquad/authorisations/Top up pool/txt-alert_num shares must be at least 1'), 
@@ -47,4 +44,6 @@ WebUI.verifyElementPresent(findTestObject('ShareSquad/authorisations/Top up pool
 
 WebUI.verifyElementText(findTestObject('ShareSquad/authorisations/Top up pool/txt-alert_num shares must be at least 1'), 
     'The num shares must be at least 1 when generating a resolution.')
+
+WebUI.closeBrowser()
 

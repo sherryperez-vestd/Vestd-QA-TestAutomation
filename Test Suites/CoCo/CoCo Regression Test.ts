@@ -92,7 +92,7 @@
       <guid>2b78f7bf-3311-4985-954e-1779187d9571</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/dasboard/dashboard - Customise Groups</testCaseId>
+      <testCaseId>Test Cases/CoCo/dasboard/dashboard - Customise groups</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -148,7 +148,7 @@
       <guid>83db4365-1e8c-47d4-987f-4d683129cd6d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/capTable/Cap Table</testCaseId>
+      <testCaseId>Test Cases/CoCo/capTable/Cap table</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

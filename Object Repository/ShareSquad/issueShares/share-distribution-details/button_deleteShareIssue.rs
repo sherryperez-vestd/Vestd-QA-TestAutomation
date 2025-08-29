@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_price-paid</name>
+   <name>button_deleteShareIssue</name>
    <tag></tag>
-   <elementGuidId>a57d2770-41a6-4c70-b234-f0d15d26757d</elementGuidId>
+   <elementGuidId>c830ba7b-bd81-4d63-8df1-371d3425f187</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control']</value>
+         <key>CSS</key>
+         <value>button.btn.btn-outline-primary.btn-sm</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#ZVGphHxntxz6jRc7</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and (text() = 'Delete' or . = 'Delete') and @title = 'Delete share distribution']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control'])[4]</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>//input[@id='ZVGphHxntxz6jRc7']</value>
+         <value>internal:role=button[name=&quot;Issue immediately&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,31 +32,31 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>08c4d766-ea03-4b43-86c5-dffb04652da3</webElementGuid>
+      <value>button</value>
+      <webElementGuid>008bf6a2-25c2-42b0-a2c0-ddba84a212d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>c4c0cea4-4535-407a-aed6-c04a6c86342d</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>54d313a2-2775-476d-bf8e-19f6704f0ee2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-test-id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>form-number-input</value>
-      <webElementGuid>1ee901c9-c53b-4262-bab4-40955aecc73b</webElementGuid>
+      <value>Delete</value>
+      <webElementGuid>6b4e8adc-83f9-4dec-8ecc-b0a73637f251</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>title</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>7f356b45-3a09-4459-a192-e2265b38969e</webElementGuid>
+      <value>Delete share distribution</value>
+      <webElementGuid>bc7d5cbc-3e32-4d39-9596-3e8d197c8145</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

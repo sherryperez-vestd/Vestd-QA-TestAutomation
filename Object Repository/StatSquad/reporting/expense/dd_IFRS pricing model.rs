@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_estimatedProfit</name>
+   <name>dd_IFRS pricing model</name>
    <tag></tag>
-   <elementGuidId>20647a66-ffff-4167-8287-290fd6e2105f</elementGuidId>
+   <elementGuidId>1085a5d1-724c-4f8b-8544-2342765c11fe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'text' and @class = 'multiselect-search']</value>
+         <value>//div[@role = 'combobox' and @class = 'multiselect-wrapper']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#whF9bBj1ErBHFiwB</value>
+         <value>button.btn.btn-primary</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type = 'text' and @class = 'multiselect-search'])[1]</value>
+         <value>(//div[@role = 'combobox'])[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>//input[@id='whF9bBj1ErBHFiwB']</value>
+         <value>//button[@type='submit']</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,23 +32,23 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>373ca783-0c6d-41e9-bd33-2f45faaf17f2</webElementGuid>
+      <value>div</value>
+      <webElementGuid>31e79c4b-fef4-4e5e-82ba-e3a3d6015763</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>role</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>9cfd972c-74ef-4c35-b07e-dbfecda873cf</webElementGuid>
+      <value>combobox</value>
+      <webElementGuid>766180e1-63bc-48c8-9e56-29b2a771a83c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>multiselect-search</value>
-      <webElementGuid>41ace6e2-2ffd-4506-8373-d04a76d8d4d0</webElementGuid>
+      <value>multiselect-wrapper</value>
+      <webElementGuid>d1ced3d7-266d-4315-a92f-ae7ba49181a5</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

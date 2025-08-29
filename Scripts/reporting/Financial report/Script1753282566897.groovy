@@ -123,13 +123,13 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/label_F
 
 WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/label_Fetch records up to this date'), 'Fetch records up to this date')
 
-not_run: WebUI.verifyElementClickable(findTestObject('StatSquad/reporting/financial/btn_Download Report'))
+not_run: WebUI.verifyElementClickable(findTestObject('StatSquad/reporting/btn_Download Report'))
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/btn_Download Report'), 0)
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/btn_Download Report'), 0)
 
 WebUI.setText(findTestObject('StatSquad/reporting/financial/input_Year_from_date_year'), '2029')
 
-WebUI.click(findTestObject('StatSquad/reporting/financial/btn_Download Report'))
+WebUI.click(findTestObject('StatSquad/reporting/btn_Download Report'))
 
 not_run: WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/list-validation-message_The from date must be a date before'), 
     0)
@@ -159,7 +159,7 @@ WebUI.refresh()
 
 WebUI.setText(findTestObject('StatSquad/reporting/financial/input_Year_to_date_year'), '2029')
 
-WebUI.click(findTestObject('StatSquad/reporting/financial/btn_Download Report'))
+WebUI.click(findTestObject('StatSquad/reporting/btn_Download Report'))
 
 not_run: WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/list-validation-message_The to date must be a date before or equal'), 
     0)
@@ -175,7 +175,7 @@ not_run: WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/l
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('StatSquad/reporting/financial/btn_Download Report'))
+WebUI.click(findTestObject('StatSquad/reporting/btn_Download Report'))
 
 url = WebUI.getUrl()
 

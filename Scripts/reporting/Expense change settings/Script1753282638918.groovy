@@ -52,7 +52,7 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/p_To upda
 
 WebUI.click(findTestObject('StatSquad/reporting/expense/a_click here'))
 
-WebUI.click(findTestObject('StatSquad/reporting/expense/dd_Valuation method'))
+WebUI.click(findTestObject('StatSquad/reporting/expense/dd_IFRS pricing model'))
 
 WebUI.click(findTestObject('StatSquad/reporting/expense/li_Intrinsic value'))
 
@@ -62,7 +62,7 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/p_This re
 
 WebUI.click(findTestObject('StatSquad/reporting/expense/a_click here'))
 
-WebUI.click(findTestObject('StatSquad/reporting/expense/dd_Valuation method'))
+WebUI.click(findTestObject('StatSquad/reporting/expense/dd_IFRS pricing model'))
 
 WebUI.click(findTestObject('StatSquad/reporting/expense/li_Black-Scholes'))
 
@@ -74,11 +74,11 @@ WebUI.click(findTestObject('StatSquad/reporting/expense/btn_Edit Expense report 
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/p_This report calculates - Black-Scholes'), 0)
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/btn_Download Report'), 0)
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/btn_Download Report'), 0)
 
-WebUI.verifyElementClickable(findTestObject('StatSquad/reporting/financial/btn_Download Report'))
+WebUI.verifyElementClickable(findTestObject('StatSquad/reporting/btn_Download Report'))
 
-WebUI.click(findTestObject('StatSquad/reporting/financial/btn_Download Report'))
+WebUI.click(findTestObject('StatSquad/reporting/btn_Download Report'))
 
 url = WebUI.getUrl()
 

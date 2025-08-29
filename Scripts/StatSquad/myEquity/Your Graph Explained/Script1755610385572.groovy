@@ -36,7 +36,7 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
-WebUI.click(findTestObject('StatSquad/myEquity/graph/tab_overall-value'))
+WebUI.click(findTestObject('StatSquad/myEquity/_common/tab_overall-value'))
 
 CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/chevron_yourGraphExplained','Your graph explained')
 WebUI.click(findTestObject('StatSquad/myEquity/graphExplained/chevron_yourGraphExplained'))
