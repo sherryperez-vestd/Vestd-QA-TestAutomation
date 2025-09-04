@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_estimatedProfit</name>
+   <tag></tag>
+   <elementGuidId>03ae6d5f-dc0a-4267-a29a-0a676e39e02c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @class = 'multiselect-search' and @role = 'combobox']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#whF9bBj1ErBHFiwB</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type = 'text' and @class = 'multiselect-search' and @role = 'combobox'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//input[@id='whF9bBj1ErBHFiwB']</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>e15c7ee8-6435-48a4-baf7-b4728f8a8b80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>7ab656c4-d34c-4469-9a01-ca0c14f2059c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect-search</value>
+      <webElementGuid>cb22e6fc-ac7d-4ddb-9ae5-6630ea87ec9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>combobox</value>
+      <webElementGuid>1a607caa-50db-47bb-92be-6cbca0613e61</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

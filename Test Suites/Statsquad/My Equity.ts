@@ -92,7 +92,14 @@
       <guid>d4f2dc84-2f13-4995-857b-537f7430fccf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/myEquity/Projection graph</testCaseId>
+      <testCaseId>Test Cases/myEquity/Projection graph-</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>56618ac7-9a5a-42f4-94df-6f8f02f96c10</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/myEquity/Projection graph-</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

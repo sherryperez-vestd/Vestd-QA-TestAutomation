@@ -4,7 +4,7 @@
    <name>Sharesquad Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>swetha.yeguvapalli@vestd.com;arthur@vestd.com;pramod@vestd.com;</mailRecipient>
+   <mailRecipient>swetha.yeguvapalli@vestd.com;arthur@vestd.com;pramod@vestd.com;aanu.abiola@vestd.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -103,7 +103,21 @@
       <guid>aa4cfab6-7692-4ad7-b3ed-24faebaa5d0a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ShareSquad/stockTransfer/on-platform/Create on platform stock transfer</testCaseId>
+      <testCaseId>Test Cases/ShareSquad/stockTransfer/on-platform/On platform stock transfer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aba3cd0b-8f6d-4374-a6f6-c43e4e5989bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/stockTransfer/off-platform/Off platform stock transfer</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b1bec205-e7e2-489b-8d17-2499b44f5bce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/stockTransfer/bulk/Bulk stock transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

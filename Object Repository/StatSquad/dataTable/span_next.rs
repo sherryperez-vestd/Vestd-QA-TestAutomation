@@ -6,15 +6,15 @@
    <elementGuidId>ea4cd911-7533-4120-8421-afa933b39885</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
+         <value>//span[(contains(text(), 'Next') or contains(., 'Next'))]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.col-12.pb-2 > div > div > div.col-12</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//span[(contains(text(), 'Next') or contains(., 'Next'))]</value>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>4d6f322d-113e-4ea7-a340-2b628d250bed</webElementGuid>
+      <webElementGuid>c5e96d74-caa9-4241-9d97-6c7fc7e9cfab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +40,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Next</value>
-      <webElementGuid>48452da3-e712-4b95-bfef-ab7f8fd50ee7</webElementGuid>
+      <webElementGuid>42a40b4d-66af-4318-97ad-bc8a04fc1378</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

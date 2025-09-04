@@ -22,7 +22,7 @@ not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:],
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50915/dashboard?user_id=370447')
 
-WebUI.click(findTestObject('StatSquad/myEquity/sharesOptionsBreakdown/chevron_summary-bar'))
+WebUI.click(findTestObject('StatSquad/myEquity/_common/span_summayBarChevron'))
 
 'Check Buyback label and value are displayed'
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/sharesOptionsBreakdown/options-breakdown/span_Buyback'), 0)

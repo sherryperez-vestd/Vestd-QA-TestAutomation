@@ -30,12 +30,12 @@ import org.openqa.selenium.Keys as Keys
  * 5. Navigate again to Agreement Summary → perform part-cancellation of 40 shares.
  * 6. Confirm “Cancelled: 40” is displayed again on My Equity.
  */
+not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 'Login and navigate to My equity page'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370192')
 
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelledDeferred/myEquityPage/i_Projected value'))
+WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/_common/span_summayBarChevron'))
 
 'Check Cancelled label and value are displayed on My Equity'
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/cancelledDeferred/myEquityPage/span_Cancelled'))
@@ -64,7 +64,7 @@ WebUI.acceptAlert()
 'Check Cancelled label and value are NOT displayed on My Equity\r\n'
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelledDeferred/agreementsPage/a_Recipient My Equity page'))
 
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelledDeferred/myEquityPage/i_Projected value'))
+WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/_common/span_summayBarChevron'))
 
 WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/cancelledDeferred/myEquityPage/span_Cancelled'), 0)
 
@@ -90,7 +90,7 @@ WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelledDeferr
 'Check Cancelled label and value are displayed on My Equity'
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelledDeferred/agreementsPage/a_Recipient My Equity page'))
 
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelledDeferred/myEquityPage/i_Projected value'))
+WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/_common/span_summayBarChevron'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/cancelledDeferred/myEquityPage/span_Cancelled'))
 

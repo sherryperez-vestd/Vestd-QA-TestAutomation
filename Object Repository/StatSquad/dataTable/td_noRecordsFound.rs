@@ -6,6 +6,16 @@
    <elementGuidId>779b0d45-3758-4e4a-ace9-bf707504c0f4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//td[&#xd;
+  contains(., 'No records found') &#xd;
+  or contains(., 'No matching records found') &#xd;
+  or contains(., 'No data available in table')&#xd;
+]&#xd;
+&#xd;
+</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.col-12.pb-2 > div > div > div.col-12</value>
       </entry>
@@ -13,11 +23,8 @@
          <key>BASIC</key>
          <value>//td[(contains(text(), 'No records found.') or contains(., 'No records found.'))]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -32,7 +39,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>5578b806-13fb-4c8b-be60-d24ed040cd24</webElementGuid>
+      <webElementGuid>d74876c4-b228-429c-89fa-0dcbd6c4af02</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +47,6 @@
       <name>text</name>
       <type>Main</type>
       <value>No records found.</value>
-      <webElementGuid>ddae0f65-7fb1-4d6e-a6ed-97649d388964</webElementGuid>
+      <webElementGuid>a475804f-c579-4e06-92f5-2759d0ee292f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

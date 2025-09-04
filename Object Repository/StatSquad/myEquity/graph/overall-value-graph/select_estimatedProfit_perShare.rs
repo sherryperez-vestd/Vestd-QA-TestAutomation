@@ -15,7 +15,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//span[(text() = 'Per share' or . = 'Per share')])[1]</value>
+         <value>(//li[contains(@class,'multiselect-option') and @aria-label='Per share']/span)[2]&#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +34,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>90f2cf82-2062-42b1-b11d-0acf92337f7b</webElementGuid>
+      <webElementGuid>25e210bc-ffa7-439b-a008-67a5342ad42b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Per share</value>
-      <webElementGuid>666b0beb-8e7e-4680-b82f-e5a76b5be62f</webElementGuid>
+      <webElementGuid>45553940-1421-4fa3-bf8a-4496d75bbf04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,6 +50,6 @@
       <name>class</name>
       <type>Main</type>
       <value>multiselect-single-label-text</value>
-      <webElementGuid>7caa995a-3430-4fca-9bda-4378e114ed1a</webElementGuid>
+      <webElementGuid>968fb3fe-ef2c-421f-b98f-9589030f3ed1</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

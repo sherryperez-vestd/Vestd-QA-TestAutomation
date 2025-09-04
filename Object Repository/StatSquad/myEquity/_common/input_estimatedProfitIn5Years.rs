@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_estimatedProfitIn5Years</name>
+   <tag></tag>
+   <elementGuidId>037e9d0d-b87b-4e62-8fea-6ead838c4fe5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@class = 'form-control']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#whF9bBj1ErBHFiwB</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//input[@id='whF9bBj1ErBHFiwB']</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>06b00683-a46e-4800-8371-23f00ff0ca63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>fc5cae5b-c87a-4f03-b8f9-de12c3669d7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>form-number-input</value>
+      <webElementGuid>7046c046-1f6f-4bc1-ae82-06320aeca616</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

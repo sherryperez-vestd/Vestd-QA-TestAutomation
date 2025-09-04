@@ -17,26 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/**
- * Test: EMI Option Listing - UI Verification
- * URL: https://demo.app.vestd.com/company/50934/option?type=emi&page=1&per_page=25
- *
- * Steps:
- * 1. Login as staff user.
- * 2. Navigate to the EMI option listing page.
- * 3. Verify presence of core UI elements (filters, pagination, search, etc.).
- * 4. Expand row and check detailed option info (vesting, exercise, employee data).
- * 5. Confirm each detail cell is not empty.
- * 6. Validate column headers and sorting icons.
- * 7. Open filter panel and verify dropdown filter values.
- * 8. Test search functionality and clear input.
- * 9. Re-check headers after search reset.
- */
+/*
+------------------------------------------------------------
+Test Case: Options Listing Page Verification
+URL(s): 
+ - EMI Options: https://demo.app.vestd.com/company/50934/option?type=emi&page=1&per_page=25
+ - Unapproved Options: https://demo.app.vestd.com/company/50934/option?type=unapproved-option&page=1&per_page=25
+ - EMI & options: https://demo.app.vestd.com/company/50934/option?page=1&per_page=25
+
+Steps Covered:
+1. Login with staff user.
+2. Navigate to Options listing page (EMI/UO/EMI & options).
+3. Verify presence & visibility of static elements (buttons, search, pagination, etc.).
+4. Expand row and check option details are displayed and not empty.
+5. Verify table headers are correct.
+6. Open and validate filter dropdown options.
+7. Test search:
+   - No results (search=x).
+   - Records found (search=b).
+8. Verify correct "entries count" text depending on current URL.
+9. Re-check table headers after filtering.
+10. Validate filtering by status ("Draft").
+
+Functions Used:
+- verifyOptionsListingTableHeaders() → checks column headers & sort icons.
+- verifyDropdownOptions() → validates dropdown contains expected options.
+
+Outcome:
+Ensures options listing page UI elements, filters, search, and entries count text match expectations across different URLs.
+------------------------------------------------------------
+*/
 // Login
 CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
-// Navigate to Option Listing
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/option?type=emi&page=1&per_page=25')
+// ------------------  EMI  ----------------------------
+WebUI.navigateToUrl(optionListURL)
 
 // Verify static elements
 ['btn_download', 'btn_filter', 'input_search', 'div_entryCount', 'span_previous', 'span_next', 'tr_chevron', 'span_badge'].each(
@@ -62,33 +77,75 @@ verifyOptionsListingTableHeaders()
 CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/dataTable/btn_filter')
 
 // Verify filter options
-verifyDropdownOptions('optionsListing/div_status', ['label_draft', 'label_live', 'label_completed', 'label_cancelled'])
+verifyDropdownFilter('optionsListing/div_status', ['label_draft', 'label_live', 'label_completed', 'label_cancelled'])
 
-verifyDropdownOptions('optionsListing/div_recipientStatus', ['label_notInvited', 'label_inviteRejected', 'label_inviteExpired'
+verifyDropdownFilter('optionsListing/div_recipientStatus', ['label_notInvited', 'label_inviteRejected', 'label_inviteExpired'
         , 'label_waitingToAcceptInvite', 'label_waitingToAcceptOption', 'label_accepted', 'label_leftEmployment'])
 
-verifyDropdownOptions('optionsListing/div_employee', ['label_Yes', 'label_No'])
+verifyDropdownFilter('optionsListing/div_employee', ['label_Yes', 'label_No'])
 
 // Search functionality 
 // No records found
 def searchBox = findTestObject('StatSquad/dataTable/input_search')
+
 WebUI.setText(searchBox, 'x')
+
 CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatSquad/dataTable/td_noRecordsFound')
 
 // Clear search text
 WebUI.click(searchBox)
+
 WebUI.sendKeys(searchBox, Keys.chord(Keys.BACK_SPACE))
 
 // Records found
 def searchBox2 = findTestObject('StatSquad/dataTable/input_search')
+
 WebUI.setText(searchBox2, 'b')
+
 WebUI.scrollToElement(findTestObject('StatSquad/dataTable/div_entryCount'), 0)
-WebUI.delay(5)
-WebUI.verifyTextPresent('3 entries', true)
+
+WebUI.delay(3)
+
+// Get the current URL
+String currentUrl = WebUI.getUrl()
+
+// Check against different URLs
+if (currentUrl == 'https://demo.app.vestd.com/company/50934/option?type=emi&page=1&per_page=25') {
+    WebUI.verifyTextPresent('3 entries', true)
+} else if (currentUrl == 'https://demo.app.vestd.com/company/50934/option?type=unapproved-option&page=1&per_page=25&search=b') {
+    WebUI.verifyTextPresent('1 entry', true)
+} else if (currentUrl == 'https://demo.app.vestd.com/company/50934/option?page=1&per_page=25&search=b') {
+    WebUI.verifyTextPresent('4 entries', true)
+} else {
+    WebUI.comment('No matching URL found: ' + currentUrl)
+}
+
+WebUI.sendKeys(searchBox2, Keys.chord(Keys.BACK_SPACE))
 
 // Re-verify headers
-verifyOptionsListingTableHeaders( // === Functions ===
-    )
+verifyOptionsListingTableHeaders()
+
+// Filter functionality
+CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/dataTable/btn_filter')
+
+CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/dataTable/optionsListing/div_status')
+
+CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/dataTable/optionsListing/label_draft')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatSquad/dataTable/td_noRecordsFound')
+
+WebUI.click(findTestObject('StatSquad/dataTable/div_xClearFilter'))
+
+// Check against different URLs
+if (currentUrl == 'https://demo.app.vestd.com/company/50934/option?type=emi&page=1&per_page=25') {
+    WebUI.verifyTextPresent('6 entries', true)
+} else if (currentUrl == 'https://demo.app.vestd.com/company/50934/option?type=unapproved-option&page=1&per_page=25') {
+    WebUI.verifyTextPresent('2 entry', true)
+} else if (currentUrl == 'https://demo.app.vestd.com/company/50934/option?page=1&per_page=25') {
+    WebUI.verifyTextPresent('8 entries', true)
+} else {
+    WebUI.comment('No matching URL found: ' + currentUrl)
+}
 
 def verifyOptionsListingTableHeaders() {
     ['div-th_type', 'div-th_reference', 'div-th_recipient', 'div-th_options', 'div-th_grantDate', 'div_sortableIconsType'
@@ -98,7 +155,7 @@ def verifyOptionsListingTableHeaders() {
         })
 }
 
-def verifyDropdownOptions(String dropdownPath, List<String> labelList) {
+def verifyDropdownFilter(String dropdownPath, List<String> labelList) {
     CustomKeywords.'UIKeywords.clickElement'("Object Repository/StatSquad/dataTable/$dropdownPath")
 
     labelList.each({ 

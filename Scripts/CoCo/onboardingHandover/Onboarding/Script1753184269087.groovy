@@ -331,7 +331,7 @@ newTotalSahres.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'text\
 WebUI.setText(newTotalSahres, '1000')
 
 // === New Share Class for EMI/UO ===
-verifyHeading('New share class for EMI/UO')
+verifyHeading('New share class for EMI/CSOP/UO')
 
 TestObject yesCheckbox = new TestObject()
 

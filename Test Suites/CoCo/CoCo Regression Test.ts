@@ -4,7 +4,7 @@
    <name>CoCo Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>radhika.chaudhary@vestd.com;swetha.yeguvapalli@vestd.com;arthur@vestd.com;ameen.ahmed@vestd.com;</mailRecipient>
+   <mailRecipient>radhika.chaudhary@vestd.com;swetha.yeguvapalli@vestd.com;arthur@vestd.com;imran.iqbal@vestd.com;hester.griffin@vestd.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -149,6 +149,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CoCo/capTable/Cap table</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f313966f-eb56-48fc-b702-27be2988eb90</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CoCo/director/Resign director</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -6,15 +6,15 @@
    <elementGuidId>50682d9f-1da1-4452-96bb-cc2f992fd6fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.col-12.pb-2 > div > div > div.col-12</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//span[(contains(text(), 'Previous') or contains(., 'Previous'))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

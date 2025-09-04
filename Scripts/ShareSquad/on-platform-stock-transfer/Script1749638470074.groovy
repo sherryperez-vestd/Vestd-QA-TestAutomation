@@ -41,7 +41,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/stockTran
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/select_Investment-Rounds'), '128377', true)
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/input_create one_btn btn-primary'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/btn_NextBulk'))
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer create/input_Select Stamp duty'))
 
