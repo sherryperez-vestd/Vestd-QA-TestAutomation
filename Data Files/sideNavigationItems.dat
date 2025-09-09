@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>sideNavigationItems</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>8212f19a-8187-4a0a-ba59-321c2d3e5525</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>CoCo%2Fnavigation%2Fside-nav%2Fa_My+equity My+Equity true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2Fa_Home Home true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FPage_Home%2Fh1_company-name Reid+Ltd true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2Fa_Share+schemes Share+schemes true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2Fli_Schemes SCHEMES true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_ESU%2Fa_Existing+scheme+uploads Existing+scheme+uploads true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_ESU%2Fh1_Existing+scheme+uploads Existing+scheme+uploads true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_EMI%2Fa_EMI EMI true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_EMI%2Fh1_EMI EMI false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Unapproved+Options%2Fa_Unapproved+options Unapproved+options true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Unapproved+Options%2Fh1_Unapproved+options Unapproved+options false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_CSOP%2Fa_CSOP CSOP true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_CSOP%2Fh1_CSOP CSOP false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Phantom%2Fa_Phantom+shares Phantom+shares true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Phantom%2Fh1_Phantom Phantom false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_All-options-agreements%2Fa_All+option+agreements All+option+agreements true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_All-options-agreements%2Fh1_All+option+agreements All+option+agreements false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_GS%2Fa_Growth+shares Growth+shares true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_GS%2Fh1_Growth+shares Growth+shares false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_RSA%2Fa_RSAs RSAs true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_RSA%2Fh1_RSAs RSAs false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Agile+partnerships%2Fa_Agile+Partnership Agile+Partnership true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Agile+partnerships%2Fh1_Agile+Partnerships Agile+Partnership false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2Fli_Compliance COMPLIANCE false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Valuations%2Fa_Valuations Valuations true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Valuations%2Fh1_Valuations Valuations false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Share-pools%2Fa_Share+pools Share+pools true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Share-pools%2Fh1_Authorisations Authorisations true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Annual+HMRC+notifications%2Fa_Annual+notifications Annual+notifications true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Annual+HMRC+notifications%2Fh1_Annual+notifications Annual+notifications false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Initial-Notification%2Fa_Initial+notifications Initial+notifications true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_Initial-Notification%2Fh1_EMI+initial+notifications+to+HMRC EMI+initial+notifications+to+HMRC false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2Fa_Investment Investment true</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FInvestment%2Fli_investment+rounds INVESTMENT+ROUNDS false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FInvestment%2FPage_Investment-hub%2Fa_Investment+hub Investment+hub true</data>
+   <data>%27CoCo%2Fnavigation%2Fside-nav%2FInvestment%2FPage_Investment-hub%2Fh1_Investment+-+InVestd+Raise Investment+-+InVestd+Raise false</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FInvestment%2FPage_Guided-Flow%2Fa_Guided+flow Guided+flow true</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Object</name>
+      <size>37</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Text</name>
+      <size>37</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>Click</name>
+      <size>37</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

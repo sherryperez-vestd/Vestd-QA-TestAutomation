@@ -33,7 +33,7 @@ import org.openqa.selenium.Keys as Keys
  *    https://demo.app.vestd.com/company/50135/temporary-file
  * 7. Validate presence of expiry message and "Download" button on temporary file page.
  */
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports/financial-report')
 

@@ -28,7 +28,7 @@ import org.openqa.selenium.Keys as Keys
  * 3. Verify redirection to the correct Cap Table URL:
  *    https://demo.app.vestd.com/company/50135/cap-table
  */
-not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
 

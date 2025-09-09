@@ -32,7 +32,7 @@ import org.openqa.selenium.Keys as Keys
 
 
 //'Login and navigate to My equity page'
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Check EMI vesting graph'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')

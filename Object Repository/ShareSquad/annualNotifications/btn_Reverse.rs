@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Reverse</name>
+   <tag></tag>
+   <elementGuidId>089253b4-4411-4635-a572-6f1ba4a2b044</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Reverse' or . = 'Reverse')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tbody/tr[1]//button[normalize-space()='Reverse']&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-md.btn-primary.btn-not-submit.v-btn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b30f7279-0231-4bfb-a70b-cff488e363ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reverse</value>
+      <webElementGuid>ec83b105-e3bd-4344-9446-e8a4c52a1e0e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

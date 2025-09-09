@@ -68,4 +68,16 @@ public class UIKeywords {
 		String text = WebUI.getText(findTestObject(objectPath))
 		WebUI.verifyNotEqual(text.trim(), '', FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@Keyword
+	def verifyURL(String objectPath, String expectedURL) {
+		WebUI.click(findTestObject(objectPath))
+		String url = WebUI.getUrl()
+		WebUI.verifyEqual(url, expectedURL)
+		
+	}
+
+	
+	
+	
 }

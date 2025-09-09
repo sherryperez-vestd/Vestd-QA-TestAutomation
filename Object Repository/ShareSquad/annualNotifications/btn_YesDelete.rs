@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_YesDelete</name>
+   <tag></tag>
+   <elementGuidId>c7dc860c-b457-4474-bef9-8d286275751f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Yes, delete this submission' or . = 'Yes, delete this submission')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>&#xd;
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-md.btn-primary.btn-not-submit.v-btn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>94bbab93-15d7-4319-9046-f0deea20d84a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yes, delete this submission</value>
+      <webElementGuid>3d344bd5-5beb-485f-9718-86dabde8f2bb</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

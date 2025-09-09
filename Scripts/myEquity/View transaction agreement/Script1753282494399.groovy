@@ -29,7 +29,7 @@ import org.openqa.selenium.Keys as Keys
  * 4. Close the modal and confirm that post-close elements (e.g., "View agreement summary") are visible.
  */
 
-//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 'Login and navigate to My equity page'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 

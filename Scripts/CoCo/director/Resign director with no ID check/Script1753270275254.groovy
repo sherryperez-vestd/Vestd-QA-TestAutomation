@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 //import java.text.SimpleDateFormat
 //import java.util.Calendar
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/director')
 

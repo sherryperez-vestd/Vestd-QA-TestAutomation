@@ -19,24 +19,23 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>286486c1-25d6-42f5-8f08-f89c7240ae80</guid>
+      <guid>14128785-2934-4f76-a5c1-965ea1b13bc7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/navigationMenu/IN Editor top navigation</testCaseId>
+      <testCaseId>Test Cases/CoCo/navigationMenu/Staff-Editor-Recipient Top navigation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e2974a5b-cdfb-4a88-a926-1561ac8768c5</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>0f43333e-503e-4b59-a8a5-a9659ac91b5d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CoCo/navigationMenu/UK Editor side navigation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>67d23252-c128-49b5-9a29-24b592ae3f96</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/navigationMenu/UK Editor top navigation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -47,24 +46,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3e6e3f8b-3ead-4516-a91d-628ff1591550</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/navigationMenu/IN Staff top navigation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c7e82b30-1886-4bfa-a802-c931d574d882</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CoCo/navigationMenu/UK Staff side navigation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c305b100-96d3-402f-8913-814b7713c19b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/navigationMenu/UK Staff top navigation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -33,7 +33,7 @@ import org.openqa.selenium.Keys as Keys
  * 6. Validate download button is present but **not clickable**.
  * 7. Navigate to a second company report and click additional controls.
  */
-not_run: WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Login as Admin and navigate to expense reports page'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports/expense-report')
@@ -122,5 +122,5 @@ WebUI.verifyElementClickable(findTestObject('StatSquad/reporting/btn_Download Re
 
 WebUI.click(findTestObject('StatSquad/reporting/btn_Download Report'))
 
-not_run: WebUI.callTestCase(findTestCase('StatSquad/reports/Download Report'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('StatSquad/Reports/Download Report'), [:], FailureHandling.STOP_ON_FAILURE)
 

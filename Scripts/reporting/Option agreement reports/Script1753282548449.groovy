@@ -35,7 +35,7 @@ import org.openqa.selenium.Keys as Keys
  *    - Download button with label "Download"
  */
 
-//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
 
 WebUI.click(findTestObject('StatSquad/reporting/index/link_generate-option-agreement'))

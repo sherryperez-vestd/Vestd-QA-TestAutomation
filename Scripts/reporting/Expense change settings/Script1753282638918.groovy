@@ -36,7 +36,7 @@ import org.openqa.selenium.Keys as Keys
  */
 
 
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
 'Login as Admin and navigate to expense reports page (diff company for expense settings)'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/reports/expense-report')
 

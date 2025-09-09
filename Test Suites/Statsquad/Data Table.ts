@@ -15,7 +15,7 @@
       <guid>2f2524d0-772f-482c-be31-237b6908c197</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/dataTable/Options Listing Page</testCaseId>
+      <testCaseId>Test Cases/StatSquad/Data Table/Options Listing Page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -28,21 +28,21 @@
       <guid>b0c55324-5511-4f28-8af9-c88b35b8de51</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/dataTable/Stock transfer</testCaseId>
+      <testCaseId>Test Cases/StatSquad/Data Table/Stock transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>689347dd-33c2-4fb1-a12c-143813f8cb51</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/dataTable/Exercise requests</testCaseId>
+      <testCaseId>Test Cases/StatSquad/Data Table/Exercise requests</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>aa91582a-5225-46b7-a81f-678c4b837de3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/dataTable/Shareholders</testCaseId>
+      <testCaseId>Test Cases/StatSquad/Data Table/Shareholders</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

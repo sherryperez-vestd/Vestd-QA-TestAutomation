@@ -78,7 +78,7 @@
       <guid>fa5c3725-a810-4b3c-9a1e-d46760d478ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/myEquity/On off diluted toggle</testCaseId>
+      <testCaseId>Test Cases/StatSquad/My Equity/On off diluted toggle</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

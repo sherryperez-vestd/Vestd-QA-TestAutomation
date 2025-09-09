@@ -57,21 +57,21 @@
       <guid>87d88dfd-e195-445b-aee2-9950f526c92b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/myEquity/On off diluted toggle</testCaseId>
+      <testCaseId>Test Cases/StatSquad/My Equity/On off diluted toggle</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>dee9f7ec-4e01-437f-a81d-f76d4eafa32e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/myEquity/Your Graph Explained</testCaseId>
+      <testCaseId>Test Cases/StatSquad/My Equity/Your Graph Explained</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4124f69f-45d4-492e-9c36-c36342758ff1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/myEquity/Vesting details</testCaseId>
+      <testCaseId>Test Cases/StatSquad/My Equity/Vesting details</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -152,37 +152,37 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>645b2bbb-17cf-496c-a0b7-a59305aeb857</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/dataTable/Options Listing Page</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8869d5c3-f8fd-46f5-93e0-c9b55b456d57</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e668f7ef-3548-472a-b42d-91ee9dc44d33</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/dataTable/Stock transfer</testCaseId>
+      <testCaseId>Test Cases/StatSquad/Data Table/Stock transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>5180df3e-8d7b-49a8-92dc-ea35a82ef279</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/dataTable/Exercise requests</testCaseId>
+      <testCaseId>Test Cases/StatSquad/Data Table/Exercise requests</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>a751cec9-912f-4026-9d8c-ce5c5d10d514</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/dataTable/Shareholders</testCaseId>
+      <testCaseId>Test Cases/StatSquad/Data Table/Shareholders</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>645b2bbb-17cf-496c-a0b7-a59305aeb857</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StatSquad/Data Table/Options Listing Page</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8869d5c3-f8fd-46f5-93e0-c9b55b456d57</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

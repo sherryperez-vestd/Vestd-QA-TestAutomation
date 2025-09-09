@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Login and navigate to Record Option buyback page'
-WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50915/option-buyback')
 WebUI.verifyElementPresent(findTestObject('ShareSquad/buyback/option-buyback/Page_Buyback options Index/Record-buyback'), 0)
 WebUI.click(findTestObject('ShareSquad/buyback/option-buyback/Page_Buyback options Index/Record-buyback'))

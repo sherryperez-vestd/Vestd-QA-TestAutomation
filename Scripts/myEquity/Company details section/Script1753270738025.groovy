@@ -29,7 +29,7 @@ import org.openqa.selenium.Keys as Keys
  * 4. Click the link and confirm it opens the correct legal document in a new tab.
  */
 
-//WebUI.callTestCase(findTestCase('usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/companyDetails/span_Company details'), 0)
