@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>sideNavigationItems2</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>8212f19a-8187-4a0a-ba59-321c2d3e5525</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>CoCo%2Fnavigation%2Fside-nav%2Fa_My+equity My+Equity true CoCo%2Fnavigation%2Fside-nav%2FPage_Home%2Fh1_company-name Reid+Ltd</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2Fa_Home Home true null null</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2Fa_Share+schemes Share+schemes true null null</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2Fli_Schemes SCHEMES true null null</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_ESU%2Fa_Existing+scheme+uploads Existing+scheme+uploads true CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_ESU%2Fh1_Existing+scheme+uploads Existing+scheme+uploads</data>
+   <data>CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_EMI%2Fa_EMI EMI true CoCo%2Fnavigation%2Fside-nav%2FShare+schemes%2FPage_EMI%2Fh1_EMI EMI</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>sideNavObject</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>text</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>click</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>headingObject</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>headingText</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

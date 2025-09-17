@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Start this initial notification</name>
+   <name>a_Continue subdivision</name>
    <tag></tag>
-   <elementGuidId>9b5a638e-0602-44e2-9117-1e814270f133</elementGuidId>
+   <elementGuidId>531a2075-fc37-4b1a-a79b-62742494bc3e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,16 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[(contains(text(), 'Start this initial notification') or contains(., 'Start this initial notification'))])[1]&#xd;
-&#xd;
-</value>
+         <value>(//a[(text() = 'Start Notification' or . = 'Start Notification')])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//a[(contains(text(), 'Start this initial notification') or contains(., 'Start this initial notification'))]</value>
+         <value>//a[(contains(text(), 'Continue subdivision') or contains(., 'Continue subdivision'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -35,14 +33,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6ae00b8b-cf52-4e22-b728-576248323245</webElementGuid>
+      <webElementGuid>4b445bbf-0bdd-4030-bc02-450dc9efde1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Start this initial notification</value>
-      <webElementGuid>98433be9-0fe9-430c-b647-cad0df43f003</webElementGuid>
+      <value>Continue subdivision</value>
+      <webElementGuid>77de40c8-7145-41a3-922b-f8ac0e72aa74</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

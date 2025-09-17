@@ -30,13 +30,13 @@ WebUI.verifyElementPresent(findTestObject('CoCo/dashboard/Page_Dashboard/h5_Dash
 
 WebUI.waitForElementVisible(findTestObject('CoCo/dashboard/Page_Dashboard/h5_Dashboard - company'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/dashboard/Page_Dashboard/h5_Dashboard - company'), 'QA Test UK2 (Test Co)')
+WebUI.verifyElementText(findTestObject('CoCo/dashboard/Page_Dashboard/h5_Dashboard - company'), 'QA Automation UK2 (Pls do not modify) (Test Co)')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/dashboard/Page_Dashboard/h5_Dashboard - company2'), 0)
 
 WebUI.waitForElementVisible(findTestObject('CoCo/dashboard/Page_Dashboard/h5_Dashboard - company2'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/dashboard/Page_Dashboard/h5_Dashboard - company2'), 'QA Test IN (Indian Co)')
+WebUI.verifyElementText(findTestObject('CoCo/dashboard/Page_Dashboard/h5_Dashboard - company2'), 'QA Automation IN (Pls do not modify) (Indian Co)')
 
 'Check Potential profit graph'
 WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Potential profit graph'), 0)

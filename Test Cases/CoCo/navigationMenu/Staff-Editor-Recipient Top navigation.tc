@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Staff-Editor-Recipient Top navigation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>df832ede-63f1-49fe-a419-bb86e25d53d9</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>8b30a0ac-d624-4bfb-b84a-6fcb7b82c4aa</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/userName</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>8b30a0ac-d624-4bfb-b84a-6fcb7b82c4aa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>userName</value>
+      <variableId>20945ab0-8b2a-4006-be27-b9a4c17521b1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4369a57a-a2a4-4bb0-bdda-4a133f3960c9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('userName')</defaultValue>
+      <description></description>
+      <id>20945ab0-8b2a-4006-be27-b9a4c17521b1</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('topNavItemsData')</defaultValue>
+      <description></description>
+      <id>4369a57a-a2a4-4bb0-bdda-4a133f3960c9</id>
+      <masked>false</masked>
+      <name>topNavItemsData</name>
+   </variable>
+</TestCaseEntity>

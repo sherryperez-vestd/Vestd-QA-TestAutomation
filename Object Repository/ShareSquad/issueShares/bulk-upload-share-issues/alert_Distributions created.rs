@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>alert_Distributions created</name>
+   <tag></tag>
+   <elementGuidId>3fed715a-b210-4506-92d1-e5fdddbf4e0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#share_pool_size</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@data-test-id = 'alert-content' and (contains(text(), 'Distributions created') or contains(., 'Distributions created'))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='share_pool_size']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//input[@id='share_pool_size']</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>alert-content</value>
+      <webElementGuid>95ee5662-cd05-430f-815d-844df339d768</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d88d6c06-0a84-4512-ac69-2463de092bcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Distributions created</value>
+      <webElementGuid>cc8c5021-290c-4f54-96f9-63958e935930</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='share_pool_size']</value>
+      <webElementGuid>e8400fdf-dbe9-4985-a8f9-a94d0a49c81b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='js-share-approval-form']/div[2]/input</value>
+      <webElementGuid>845ac0b1-cc30-4285-ac1d-9d801b77bc4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/input</value>
+      <webElementGuid>5448df9a-1f1f-44e5-b9a4-964ef1209b22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'share_pool_size' and @type = 'number' and @id = 'share_pool_size']</value>
+      <webElementGuid>23823c4f-a9ad-4f22-bb92-e97de78c5514</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

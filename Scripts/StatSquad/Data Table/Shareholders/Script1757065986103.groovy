@@ -19,8 +19,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import com.kms.katalon.core.testdata.TestData as TestData
 
 // Login
-not_run: CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
-
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/shareholder?page=1&per_page=25')
 
@@ -103,9 +102,7 @@ WebUI.click(findTestObject('StatSquad/dataTable/div_xClearFilter' //WebUI.verify
         // Verify header text
         // Verify sortable icon div inside header
         // ------------------   Functions  ----------------------------
-        ))
-
-//WebUI.closeBrowser()
+        )) //WebUI.closeBrowser()
 
 def verifyTableHeadersAndSortIcons(List<String> headers, int timeout = 10) {
     headers.each({ def header ->

@@ -37,7 +37,7 @@ WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-r
 WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Last name_family_name'), 
     'Recipient')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Email_email'), 'sherry.perez+testrecipient@vestd.com')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Email_email'), 'sherry.perez+csoprecipient@vestd.com')
 
 WebUI.setText(findTestObject('ShareSquad/schemes/csop/add new recipient/input_Number of shares'), '1000')
 

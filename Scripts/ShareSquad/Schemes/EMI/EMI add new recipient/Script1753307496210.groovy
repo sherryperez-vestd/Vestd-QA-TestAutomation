@@ -21,8 +21,8 @@ not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-edit
 
 not_run: WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/reward-template/40375')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/select_Option pool'), '167068', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/select_Option pool'), 
+    '167068', true)
 
 WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Day'), '1')
 
@@ -30,28 +30,31 @@ WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-r
 
 WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Year'), '2024')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_First name_given_name'), 'Test')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_First name_given_name'), 
+    'Test')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Last name_family_name'), 'Recipient')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Last name_family_name'), 
+    'Recipient')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Email_email'), 'sherry.perez+testrecipient@vestd.com')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Email_email'), 'sherry.perez+emirecipient@vestd.com')
 
 WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Number of options'), '1000')
 
 WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_NI number_ni_number'), 'AB123456C')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Unique identifier'), 
-    '12345')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/input_Unique identifier'), '12345')
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/button_Save as draft and add another'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Test Recipient'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Test Recipient'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Test Recipient'), 
+    0)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Test Recipient Draft'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Test Recipient Draft'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Test Recipient Draft'), 
+    0)
 
 not_run: WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Test Recipient Draft'), 
     'Test Recipient\n \n Not invited')
@@ -60,13 +63,15 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/schemes/
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Ordinary'), 0)
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Ordinary'), 'Ordinary')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Ordinary'), 
+    'Ordinary')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_1,000'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_1,000'), 0)
 
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_1,000'), '1,000')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_1,000'), 
+    '1,000')
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_No'), 0)
 
@@ -98,27 +103,34 @@ not_run: WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/reward-te
 
 not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Test Recipient'))
 
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Test Recipient'), 0)
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Test Recipient'), 
+    0)
 
 not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Test Recipient Draft'))
 
 not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Ordinary'))
 
-not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Ordinary'), 0)
+not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Ordinary'), 
+    0)
 
 not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_1,000'))
 
-not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_1,000'), 0)
+not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_1,000'), 
+    0)
 
-not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_No'), FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_No'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_No'), 0)
+not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_No'), 
+    0)
 
 not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_No_1'))
 
-not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_No_1'), 0)
+not_run: WebUI.verifyElementNotPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_No_1'), 
+    0)
 
-not_run: WebUI.waitForElementNotPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Edit'), 0)
+not_run: WebUI.waitForElementNotPresent(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Edit'), 
+    0)
 
 not_run: WebUI.verifyElementNotVisible(findTestObject('Object Repository/ShareSquad/schemes/emi/add-new-recipient/td_Edit'))
 

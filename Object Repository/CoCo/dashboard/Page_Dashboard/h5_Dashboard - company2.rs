@@ -6,16 +6,16 @@
    <elementGuidId>45914e8b-d1dd-4792-ac5c-8b1a85dbaeea</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//h5[(text() = 'QA Test IN (Indian Co)' or . = 'QA Test IN (Indian Co)')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>h1</value>
+         <value>//h5[(text() = 'QA Automation IN (Pls do not modify) (Indian Co)' or . = 'QA Automation IN (Pls do not modify) (Indian Co)')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,15 +27,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>h5</value>
-      <webElementGuid>b3078d68-ecd1-4ac2-b227-f964c4572dbe</webElementGuid>
+      <webElementGuid>f7d7010c-c452-46e5-9ff9-66fe89be0e4e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>QA Test IN (Indian Co)</value>
-      <webElementGuid>70dec624-cf84-4380-a038-edd21cd27408</webElementGuid>
+      <value>QA Automation IN (Pls do not modify) (Indian Co)</value>
+      <webElementGuid>baa6f543-aada-4c1f-8f20-53e863c9cd93</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>221cccfc-9328-4223-a90e-67ba13247964</webElementGuid>
+      <webElementGuid>43141cd6-4e6f-4c14-a6a4-3ade2632ce81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -51,7 +51,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::h1[1]</value>
-      <webElementGuid>86710c76-da31-4061-abfa-c374a626d1e6</webElementGuid>
+      <webElementGuid>2c3bc606-efd5-4aeb-8d69-69f686e0555a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add your own company'])[1]/following::h1[1]</value>
-      <webElementGuid>6c3c544d-a4f0-40e5-82c8-2f723041abda</webElementGuid>
+      <webElementGuid>1ef31800-b90c-494b-b6f2-0c061f742ac8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to your dashboard'])[1]/preceding::h1[1]</value>
-      <webElementGuid>245ff646-12c1-40f1-ab31-713ecec4cebc</webElementGuid>
+      <webElementGuid>b0e9d5f7-2202-48b7-954e-d2bc5094bdc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>4304a37c-fc76-4516-8aff-90b12a6295cc</webElementGuid>
+      <webElementGuid>acff0a59-544d-49a4-b338-c5a321dc8307</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
     ' or . = '
         Dashboard
     ')]</value>
-      <webElementGuid>3baba56e-c19d-4070-9e06-ed04be6abbd3</webElementGuid>
+      <webElementGuid>5db486af-51ba-475f-9d7a-c8c0b446f6f6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -19,16 +19,22 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>14128785-2934-4f76-a5c1-965ea1b13bc7</guid>
+      <guid>1eb1a931-7793-4888-8533-600ee270b738</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CoCo/navigationMenu/Staff-Editor-Recipient Top navigation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>e2974a5b-cdfb-4a88-a926-1561ac8768c5</variableId>
+         <variableId>20945ab0-8b2a-4006-be27-b9a4c17521b1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4369a57a-a2a4-4bb0-bdda-4a133f3960c9</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

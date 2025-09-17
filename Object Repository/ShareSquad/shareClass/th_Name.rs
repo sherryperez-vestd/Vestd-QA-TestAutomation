@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Start this initial notification</name>
+   <name>th_Name</name>
    <tag></tag>
-   <elementGuidId>9b5a638e-0602-44e2-9117-1e814270f133</elementGuidId>
+   <elementGuidId>8b8cab6c-0592-4a16-a913-e1101fed671a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,16 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[(contains(text(), 'Start this initial notification') or contains(., 'Start this initial notification'))])[1]&#xd;
-&#xd;
-</value>
+         <value>(//a[(text() = 'Start Notification' or . = 'Start Notification')])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//a[(contains(text(), 'Start this initial notification') or contains(., 'Start this initial notification'))]</value>
+         <value>//th[(contains(text(), 'Name') or contains(., 'Name'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -34,15 +32,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>6ae00b8b-cf52-4e22-b728-576248323245</webElementGuid>
+      <value>th</value>
+      <webElementGuid>baa55fb5-f077-423b-ad91-75d91d3622fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Start this initial notification</value>
-      <webElementGuid>98433be9-0fe9-430c-b647-cad0df43f003</webElementGuid>
+      <value>Name</value>
+      <webElementGuid>97b5dd54-f8b5-4286-afff-26bb27bcf14f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

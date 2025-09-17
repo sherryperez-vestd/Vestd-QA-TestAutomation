@@ -55,5 +55,20 @@ WebUI.click(findTestObject('ShareSquad/schemes/emi/scheme-template/Page_Option-t
 
 WebUI.acceptAlert()
 
+'Delete created csop template'
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/shareholder?page=1&per_page=25')
+
+WebUI.scrollToElement(findTestObject('CoCo/shareholders/shareholder-index/a_Test Recipient'), 0)
+
+WebUI.click(findTestObject('CoCo/shareholders/shareholder-index/a_Test Recipient'))
+
+WebUI.click(findTestObject('CoCo/shareholders/shareholders details/button_Delete'))
+
+WebUI.delay(2)
+
+WebUI.acceptAlert()
+
+WebUI.refresh()
+
 WebUI.closeBrowser()
 

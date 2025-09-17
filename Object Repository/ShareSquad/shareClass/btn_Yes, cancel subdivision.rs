@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Start this initial notification</name>
+   <name>btn_Yes, cancel subdivision</name>
    <tag></tag>
-   <elementGuidId>9b5a638e-0602-44e2-9117-1e814270f133</elementGuidId>
+   <elementGuidId>a10773c8-e792-4022-99d4-1a58778e29f0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
          <value>button.btn.btn-md.btn-primary.btn-not-submit.v-btn</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[(contains(text(), 'Start this initial notification') or contains(., 'Start this initial notification'))])[1]&#xd;
-&#xd;
-</value>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Yes, cancel subdivision' or . = 'Yes, cancel subdivision')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[(contains(text(), 'Start this initial notification') or contains(., 'Start this initial notification'))]</value>
+         <key>XPATH</key>
+         <value>(//a[(text() = 'Start Notification' or . = 'Start Notification')])[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -34,15 +32,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>6ae00b8b-cf52-4e22-b728-576248323245</webElementGuid>
+      <value>button</value>
+      <webElementGuid>97f3e4d8-a249-406b-a1d2-26208cfc67eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Start this initial notification</value>
-      <webElementGuid>98433be9-0fe9-430c-b647-cad0df43f003</webElementGuid>
+      <value>Yes, cancel subdivision</value>
+      <webElementGuid>4758c932-ac19-4636-8faa-b07a3a2e7241</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

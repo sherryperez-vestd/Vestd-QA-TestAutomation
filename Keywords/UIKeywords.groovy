@@ -15,6 +15,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.testdata.TestDataFactory
 
 import internal.GlobalVariable
 
@@ -68,16 +69,40 @@ public class UIKeywords {
 		String text = WebUI.getText(findTestObject(objectPath))
 		WebUI.verifyNotEqual(text.trim(), '', FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Keyword
 	def verifyURL(String objectPath, String expectedURL) {
 		WebUI.click(findTestObject(objectPath))
 		String url = WebUI.getUrl()
 		WebUI.verifyEqual(url, expectedURL)
-		
 	}
 
-	
-	
-	
+	@Keyword
+	def verifyTopNavItemsFromData(String dataFileName, String userName) {
+		def data = findTestData(dataFileName)
+		int rowCount = data.getRowNumbers()
+
+		for (int i = 1; i <= rowCount; i++) {
+			def objPath = data.getValue("Object", i)
+			def text = data.getValue("Text", i)
+			def url = data.getValue("URL", i)
+			def staffOnly = data.getValue("StaffOnly", i)
+
+			// Skip staff-only items if not staff
+			if (staffOnly?.toBoolean() && !userName.equalsIgnoreCase("sherry.perez@vestd.com")) {
+				continue
+			}
+
+			if (text) {
+				verifyElementPresentVisibleText(objPath, text)
+			} else {
+				verifyElementPresentVisible(objPath)
+			}
+
+			if (url) {
+				verifyURL(objPath, url)
+				WebUI.back()
+			}
+		}
+	}
 }

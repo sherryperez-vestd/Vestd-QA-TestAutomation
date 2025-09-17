@@ -22,7 +22,8 @@ CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVari
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/reward-upload/create?reward-type=ordinary-shares')
 
-WebUI.scrollToElement(findTestObject('ShareSquad/issueShares/bulk-upload-share-issues/file_upload-import-share-issues'), 0)
+WebUI.scrollToElement(findTestObject('ShareSquad/issueShares/bulk-upload-share-issues/file_upload-import-share-issues'), 
+    0)
 
 WebUI.uploadFile(findTestObject('ShareSquad/issueShares/bulk-upload-share-issues/file_upload-import-share-issues'), 'C:\\Users\\admin\\Documents\\VestdApp-TestAutomation Katalon\\Vestd QA Test Automation\\TestData\\issue-shares-bulk-upload.csv')
 
@@ -30,7 +31,21 @@ WebUI.click(findTestObject('ShareSquad/issueShares/bulk-upload-share-issues/btn_
 
 WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/bulk-upload-share-issues/txt_Upload_successful'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/bulk-upload-share-issues/a_issue_shares_active'), 0)
+WebUI.click(findTestObject('ShareSquad/issueShares/bulk-upload-share-issues/btn_confirm'))
+
+WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/bulk-upload-share-issues/alert_Distributions created'), 
+    0)
+
+not_run: WebUI.verifyElementPresent(findTestObject('ShareSquad/issueShares/bulk-upload-share-issues/a_issue_shares_active'), 
+    0)
+
+WebUI.click(findTestObject('ShareSquad/issueShares/bulk-upload-share-issues/a_share distribution bulk'))
+
+WebUI.click(findTestObject('ShareSquad/issueShares/bulk-upload-share-issues/btn_Delete'))
+
+WebUI.acceptAlert()
+
+WebUI.verifyTextPresent('No records found.', false)
 
 WebUI.closeBrowser()
 

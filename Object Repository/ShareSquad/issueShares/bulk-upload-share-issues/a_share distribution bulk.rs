@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_share distribution bulk</name>
+   <tag></tag>
+   <elementGuidId>2d065ec2-b120-4bc0-af8d-f52540357e08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#share_pool_size</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='share_pool_size']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(contains(text(), 'Ordinary share distribution for test bulk') or contains(., 'Ordinary share distribution for test bulk'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//input[@id='share_pool_size']</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a67e81c5-dffb-4492-bb7d-21b6a23bfd1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ordinary share distribution for test bulk</value>
+      <webElementGuid>a0d39e47-b3b3-4773-8687-3637b3ea1cd1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='share_pool_size']</value>
+      <webElementGuid>0b9361ad-ccae-46ea-a679-3d1477b7c40a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='js-share-approval-form']/div[2]/input</value>
+      <webElementGuid>2d123c2a-6652-45b7-b060-036dacf4026e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/input</value>
+      <webElementGuid>ee5f0aa5-f8f9-4745-b758-6c45881bdf11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'share_pool_size' and @type = 'number' and @id = 'share_pool_size']</value>
+      <webElementGuid>cad67e91-5a93-4f5d-b4f5-02176a2e5841</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

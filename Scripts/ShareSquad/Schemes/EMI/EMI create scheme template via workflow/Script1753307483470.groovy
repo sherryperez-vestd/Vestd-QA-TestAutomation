@@ -29,6 +29,10 @@ WebUI.click(findTestObject('Object Repository/ShareSquad/schemes/emi/scheme-temp
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
 
+WebUI.click(findTestObject('ShareSquad/schemes/emi/scheme-template/Page_scheme-design-workflow/label_dont want to specify vest at an exit event'))
+
+WebUI.click(findTestObject('Object Repository/ShareSquad/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))
+
 WebUI.click(findTestObject('Object Repository/ShareSquad/schemes/emi/scheme-template/Page_scheme-design-workflow/label_Over time This is the most common app'))
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/schemes/emi/scheme-template/Page_scheme-design-workflow/button_Next'))

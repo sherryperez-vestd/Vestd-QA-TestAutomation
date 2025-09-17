@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>topNavItemsData</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>55f0e6e5-3c7e-4c5b-8520-44c90271cd5b</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Ftop-nav%2Fa_Dashboard Dashboard https%3A%2F%2Fdemo.app.vestd.com%2Fcompany%2Fall false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Ftop-nav%2Fa_Earn Earn+%C2%A3100 null false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Ftop-nav%2Fa_Information null null false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Ftop-nav%2Fa_Notification null null false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Ftop-nav%2Fa_user-account null null false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Ftop-nav%2Fa_Staff Staff null true</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Object</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>Text</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>URL</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>StaffOnly</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

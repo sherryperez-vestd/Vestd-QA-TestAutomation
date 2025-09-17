@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Start this initial notification</name>
+   <name>btn_Staff actions</name>
    <tag></tag>
-   <elementGuidId>9b5a638e-0602-44e2-9117-1e814270f133</elementGuidId>
+   <elementGuidId>c890c1bb-c6fc-4d6a-89c4-6eb6fee6abc7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
          <value>button.btn.btn-md.btn-primary.btn-not-submit.v-btn</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[(contains(text(), 'Start this initial notification') or contains(., 'Start this initial notification'))])[1]&#xd;
-&#xd;
-</value>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Staff actions' or . = 'Staff actions')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[(contains(text(), 'Start this initial notification') or contains(., 'Start this initial notification'))]</value>
+         <key>XPATH</key>
+         <value>(//a[(text() = 'Start Notification' or . = 'Start Notification')])[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -34,15 +32,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>6ae00b8b-cf52-4e22-b728-576248323245</webElementGuid>
+      <value>button</value>
+      <webElementGuid>3bf570c0-e4d1-41e9-9393-2af1fc088eb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Start this initial notification</value>
-      <webElementGuid>98433be9-0fe9-430c-b647-cad0df43f003</webElementGuid>
+      <value>Staff actions</value>
+      <webElementGuid>188190c5-7856-4992-91f8-24cc28169197</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Upload_successful - Copy</name>
+   <tag></tag>
+   <elementGuidId>d470ee64-e184-4c43-a29c-9e2a2e050d40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#share_pool_size</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='share_pool_size']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@data-test-id = 'alert-content' and (contains(text(), 'Upload successful') or contains(., 'Upload successful'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//input[@id='share_pool_size']</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>alert-content</value>
+      <webElementGuid>a6b8b500-acd9-4579-aa05-0aa91c528e2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>58fbb214-1ed1-435a-afc1-64e8ef155835</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Upload successful</value>
+      <webElementGuid>137a5a9b-0772-4b1a-81fb-07cfa97422ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='share_pool_size']</value>
+      <webElementGuid>9c9d7e89-6b60-4ea1-a630-e9e78a1aa434</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='js-share-approval-form']/div[2]/input</value>
+      <webElementGuid>d55d483f-fb64-4974-a34a-f43f8df68f55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/input</value>
+      <webElementGuid>7541533a-44d3-42c1-a04a-1143472fc4a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@name = 'share_pool_size' and @type = 'number' and @id = 'share_pool_size']</value>
+      <webElementGuid>f89927b4-bb67-49c6-accf-078958ec531a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
