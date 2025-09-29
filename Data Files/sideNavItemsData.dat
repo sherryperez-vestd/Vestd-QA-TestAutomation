@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>sideNavItemsData</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>8212f19a-8187-4a0a-ba59-321c2d3e5525</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_MyEquity My+Equity true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FPage_Home%2Fh1_MyEquity My+Equity+ null</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Home Home true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FPage_Home%2Fh1_company-name Reid+Ltd false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_ShareSchemes Share+schemes true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FPage_Home%2Fh1_ShareSchemes Share+schemes false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Investment Investment true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FPage_Home%2Fh1_InvestmentI_InVestdRaise null null</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_ShareCapital Share+capital false null null null</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Compliance Compliance true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FPage_Home%2Fh1_Compliance null null</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Documents Documents true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FPage_Home%2Fh1_Documents null null</data>
+   <data>null null null null null null</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_PeopleCommunication People+%26+communication true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FPage_Home%2Fh1_ShareSchemes null null</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Company-staff Company+-+staff true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FPage_Home%2Fh1_ShareSchemes null null</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_HelpCentre Help+centre true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FPage_Home%2Fh1_ShareSchemes null null</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_App-staff App+-+staff true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FPage_Home%2Fh1_ShareSchemes null null</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fimg-ISO null false null null null</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fp_Vestd_Ltd_authorised_and_regulated_by null false null null null</data>
+   <data>null null null null null null</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>sideNavObject</name>
+      <size>15</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>text</name>
+      <size>15</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>click</name>
+      <size>15</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>verifyObj</name>
+      <size>15</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>verifyText</name>
+      <size>15</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>staffOnly</name>
+      <size>15</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

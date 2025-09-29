@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Continue</name>
+   <tag></tag>
+   <elementGuidId>d87185ac-9e19-484e-9784-af873a7ddd43</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-md.btn-primary.btn-not-submit.v-btn</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[(text() = 'Start Notification' or . = 'Start Notification')])[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(contains(text(), 'Continue') or contains(., 'Continue'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5f77d4d1-ebd3-4746-a1f8-4790077f26f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Continue</value>
+      <webElementGuid>4401130c-9a72-4a19-9251-632e845ab9d3</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -6,46 +6,50 @@
    <elementGuidId>721edd5e-684b-465c-a0ea-94ad7a889533</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@value='Confirm partial cancellation']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>input.btn.btn-primary</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@class = 'btn btn-primary' and @onclick = 'return confirmPartialCancellation(event)' and @type = 'submit' and @value = 'Confirm partial cancellation']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='Confirm partial cancellation']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:role=button[name=&quot;Confirm partial cancellation&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>793421e2-db08-4226-9618-18ff528f77eb</webElementGuid>
+      <webElementGuid>662cda2c-1055-4283-957f-d5e2bd5627b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>5344262f-2550-4e1a-913a-8ed17b04fcde</webElementGuid>
+      <webElementGuid>6a922a2f-867c-4a8a-97a4-8b8d1551aa4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
       <value>return confirmPartialCancellation(event)</value>
-      <webElementGuid>a5187c24-34a7-4749-920a-a15f56182e5c</webElementGuid>
+      <webElementGuid>65eccf63-1c85-4023-84ca-682aa337f9eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,23 +57,15 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>7642b129-5901-404a-bebf-28632bf3c9e6</webElementGuid>
+      <webElementGuid>3c92f713-514d-4190-b47b-600048e778b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>Confirm partial cancellation</value>
-      <webElementGuid>4574aed7-6db2-4c6f-a4bc-165557ce1769</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;partial-cancel-form&quot;)/div[@class=&quot;form-group&quot;]/div[@class=&quot;action-object d-lg-flex justify-content-end align-items-start flex-row-reverse&quot;]/div[@class=&quot;action-object___buttons&quot;]/input[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>60432a10-073e-494c-b248-1731369876ed</webElementGuid>
+      <webElementGuid>f0e0b6f1-d7ed-4651-99a3-8999830e3b64</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@value='Confirm partial cancellation']</value>
-      <webElementGuid>d0d2a4d5-e5b1-46e9-b913-a8089045f504</webElementGuid>
+      <webElementGuid>1098b02f-11c5-4212-b550-93d572575592</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='partial-cancel-form']/div[4]/div/div[2]/input</value>
-      <webElementGuid>fa593964-7ab0-45e5-b10a-7bb88c082a62</webElementGuid>
+      <webElementGuid>c69f437f-b244-4bf6-a9a3-024dafbf625d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>c97c5c01-1062-4f04-8dc4-b69f48c74e0d</webElementGuid>
+      <webElementGuid>d1be29f5-3b69-4c6f-817e-781757068645</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'submit']</value>
-      <webElementGuid>97aac33d-463d-4a65-9e7a-d238e2edca3b</webElementGuid>
+      <webElementGuid>79623a73-c386-4c96-b827-79221fe3e664</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

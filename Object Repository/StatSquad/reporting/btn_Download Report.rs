@@ -10,18 +10,22 @@
          <value>button.btn.btn-primary</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (contains(text(), 'Download report') or contains(., 'Download report'))]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:role=button[name=&quot;Download Report&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e3073bf7-61c2-4e8d-a1d0-d3dde0a3cea7</webElementGuid>
+      <webElementGuid>6ab727ab-9088-4dd2-ba9f-6fc2acb7d6ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>71c52f66-6992-43c7-bf4d-774573d3aca3</webElementGuid>
+      <webElementGuid>bf037a10-f1b9-48e6-83ec-6dc7566fae85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,15 +49,15 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>d3651883-f2ce-430a-afa2-3f95a82e00f5</webElementGuid>
+      <webElementGuid>5dca5115-35e5-4a1d-8bc5-5cdb2e537eeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Download Report</value>
-      <webElementGuid>02fc9248-9bc8-4b53-a155-db9393b514f3</webElementGuid>
+      <value>Download report</value>
+      <webElementGuid>0fb849d8-ba3e-4f55-8990-de11e9407c4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/form[1]/fieldset[1]/div[@class=&quot;row mt-3&quot;]/div[@class=&quot;col-md-12&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>b6eba89c-2708-4b6d-877e-ff2f9e29af3e</webElementGuid>
+      <webElementGuid>bd5e56ac-2ffb-420e-acf2-9154690d63f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>9cfdaba1-c784-459d-907a-984c94b9f2ac</webElementGuid>
+      <webElementGuid>f94b290f-7969-4b74-9c1f-88a5319a4244</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div[2]/div/button</value>
-      <webElementGuid>672b7b57-6961-48bc-b31f-745c23124c53</webElementGuid>
+      <webElementGuid>1c71d90b-1b63-44a3-bf6b-7e7f03ad51ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fetch records up to this date'])[1]/following::button[1]</value>
-      <webElementGuid>b0cf4c64-60c7-4c2f-8448-3d391fa5789f</webElementGuid>
+      <webElementGuid>b1ca8a9e-b639-4d28-b778-33628b1cea68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Information provided in the report:'])[1]/preceding::button[1]</value>
-      <webElementGuid>5bf6abe0-bf30-49fb-a349-b41407e66836</webElementGuid>
+      <webElementGuid>5e9c1d54-19d4-4276-9866-eb365825e601</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Download Report']/parent::*</value>
-      <webElementGuid>036fd6d7-9474-4849-9622-bb55ff7a465c</webElementGuid>
+      <webElementGuid>174b0f07-0300-48f4-abe8-9c033ad63793</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>d5a629f3-7a8e-4213-9313-2b80fe56ca9b</webElementGuid>
+      <webElementGuid>f16e53ba-c06b-404c-9e15-ebb1209dcdd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = 'Download Report' or . = 'Download Report')]</value>
-      <webElementGuid>54f7df02-66dc-42df-bca0-479cab4915ac</webElementGuid>
+      <webElementGuid>f6ebd985-d5e1-4f16-aceb-0727af34bc80</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

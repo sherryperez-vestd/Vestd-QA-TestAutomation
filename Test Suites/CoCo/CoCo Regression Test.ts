@@ -4,7 +4,7 @@
    <name>CoCo Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>radhika.chaudhary@vestd.com;swetha.yeguvapalli@vestd.com;arthur@vestd.com;imran.iqbal@vestd.com;hester.griffin@vestd.com;</mailRecipient>
+   <mailRecipient>radhika.chaudhary@vestd.com;swetha.yeguvapalli@vestd.com;arthur@vestd.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>

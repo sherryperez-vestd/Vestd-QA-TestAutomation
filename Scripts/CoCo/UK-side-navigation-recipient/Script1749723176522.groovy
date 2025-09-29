@@ -21,15 +21,15 @@ WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-recipient'), 
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370192')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_My equity'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_My equity'), 'My Equity')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 'My Equity')
 
-WebUI.click(findTestObject('CoCo/navigation/side-nav/Page_MyEquity/h1_My Equity'))
+WebUI.click(findTestObject('CoCo/navigation/side-nav/Page_MyEquity/h1_MyEquity'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Page_MyEquity/h1_My Equity'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Page_MyEquity/h1_MyEquity'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Page_MyEquity/h1_My Equity'), 'My Equity')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Page_MyEquity/h1_MyEquity'), 'My Equity')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Communication'), 0)
 
@@ -43,29 +43,29 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Page_Communicat
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Home'), 0)
 
-WebUI.verifyElementNotVisible(findTestObject('CoCo/navigation/side-nav/a_Share schemes'), FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementNotVisible(findTestObject('CoCo/navigation/side-nav/a_ShareSchemes'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Investment'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Share capital'), 0)
+WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_ShareCapital'), 0)
 
 //WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Compliance'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_People  communication'), 0)
+WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_PeopleCommunication'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Company - staff'), 0)
+WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Company-staff'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Company settings'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_App - staff'), 0)
+WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_App-staff'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Help Centre'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_HelpCentre'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Help Centre'), 'Help centre')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_HelpCentre'), 'Help centre')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/img-ISO'), 0)
-WebUI.verifyElementPresent(findTestObject('CoCo/p_Vestd Ltd is authorised and regulated by'), 0)
-WebUI.verifyElementText(findTestObject('CoCo/p_Vestd Ltd is authorised and regulated by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/img-ISO'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/p_Vestd_Ltd_authorised_and_regulated_by'), 0)
+WebUI.verifyElementText(findTestObject('CoCo/navigation/p_Vestd_Ltd_authorised_and_regulated_by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
 
 WebUI.closeBrowser()
 

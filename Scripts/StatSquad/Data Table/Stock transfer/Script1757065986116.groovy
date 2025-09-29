@@ -70,7 +70,7 @@ WebUI.scrollToElement(findTestObject('StatSquad/dataTable/div_entryCount2'), 0)
 
 WebUI.delay(3)
 
-WebUI.verifyTextPresent('3 entries', true)
+WebUI.verifyTextPresent('4 entries', true)
 
 WebUI.sendKeys(searchBox2, Keys.chord(Keys.BACK_SPACE))
 
@@ -82,7 +82,7 @@ CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/dataTable/
 
 CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/dataTable/stockTransfer/div_status')
 
-CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/dataTable/stockTransfer/label_Draft')
+CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/dataTable/stockTransfer/label_In progress')
 
 CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatSquad/dataTable/td_noRecordsFound')
 
@@ -90,7 +90,7 @@ CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatS
 // Verify sortable icon div inside header
 WebUI.click(findTestObject('StatSquad/dataTable/btn_clearFilter'))
 
-WebUI.verifyTextPresent('3 entries', true)
+WebUI.verifyTextPresent('4 entries', true)
 
 def verifyTableHeaders(List<String> headers, int timeout = 10) {
     headers.each({ def header ->

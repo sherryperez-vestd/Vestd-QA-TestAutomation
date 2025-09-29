@@ -6,16 +6,16 @@
    <elementGuidId>ca665d24-4635-49f9-9298-ac1a8b684d63</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div/div/div/div/label</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Day' or . = 'Day')]</value>
+         <value>//*[@for = 'from-date-day' and (text() = 'Day' or . = 'Day')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.mr-3 > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div/div/div/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>33e2e11c-b3a2-41fc-9cec-df29c5c14030</webElementGuid>
+      <webElementGuid>a7d19bd8-e961-4fbd-a196-26440dbf625d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
       <value>from-date-day</value>
-      <webElementGuid>5f0b2006-d775-4f81-b1c3-db008ce415e6</webElementGuid>
+      <webElementGuid>733c1d54-f23e-4d5c-96da-d87c5b855658</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Day</value>
-      <webElementGuid>7665b955-0deb-4f38-b3fb-b9668e6e0349</webElementGuid>
+      <webElementGuid>7868f2d1-dd9b-469e-8c87-ff98cb87c71a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/form[1]/fieldset[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;d-flex flex-wrap&quot;]/div[@class=&quot;mr-3&quot;]/label[1]</value>
-      <webElementGuid>e0510de6-8a1b-4f57-ba93-cd49ca57e4e5</webElementGuid>
+      <webElementGuid>77fe085e-1eab-4eec-907c-ab6864c720e3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div/div/div/div/label</value>
-      <webElementGuid>d7d0074f-b500-45ba-bab6-5a8b2dde10cd</webElementGuid>
+      <webElementGuid>d670c2cf-9589-4444-af6c-5ccc05e56e74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='From Date'])[1]/following::label[1]</value>
-      <webElementGuid>5e08ecb5-af9b-4c17-8ecb-498760b8559c</webElementGuid>
+      <webElementGuid>98cc57c1-0781-4a0e-bfbb-5292bc990592</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Financial Report'])[1]/following::label[2]</value>
-      <webElementGuid>e57b83bd-cbd6-44e0-81a3-a835b3d6127d</webElementGuid>
+      <webElementGuid>a82388f5-222a-4414-ba83-7c418b5506e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Day']/parent::*</value>
-      <webElementGuid>f4237c00-01ba-440b-ab45-5601a27c307e</webElementGuid>
+      <webElementGuid>5ffb8cdb-5015-4d84-b5c2-695479dcb6b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/label</value>
-      <webElementGuid>890169d3-f5e2-430a-8ae7-c21a2f465727</webElementGuid>
+      <webElementGuid>812525db-1c1d-48cd-a5fb-292104482949</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Day' or . = 'Day')]</value>
-      <webElementGuid>b406d0fa-f532-4893-aaaf-ba4d17002116</webElementGuid>
+      <webElementGuid>0d3d9700-a52b-45ae-9b3f-f84c4d8ed1ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

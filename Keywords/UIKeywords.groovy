@@ -16,6 +16,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import com.kms.katalon.core.testdata.TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository
 
 import internal.GlobalVariable
 
@@ -102,6 +103,34 @@ public class UIKeywords {
 			if (url) {
 				verifyURL(objPath, url)
 				WebUI.back()
+			}
+		}
+	}
+
+
+	@Keyword
+	def verifySideNavItems(TestData testData) {
+		for (int row = 1; row <= testData.getRowNumbers(); row++) {
+			def objPath = testData.getValue('sideNavObject', row)  // <-- changed here
+			def expectedText = testData.getValue('text', row)
+
+			if (objPath) {
+				WebUI.waitForElementPresent(findTestObject(objPath), 10, FailureHandling.CONTINUE_ON_FAILURE)
+				WebUI.verifyElementPresent(
+						ObjectRepository.findTestObject(objPath),
+						10,
+						FailureHandling.CONTINUE_ON_FAILURE
+						)
+
+				if (expectedText) {
+					WebUI.verifyElementText(
+							ObjectRepository.findTestObject(objPath),
+							expectedText,
+							FailureHandling.CONTINUE_ON_FAILURE
+							)
+				}
+			} else {
+				WebUI.comment("⚠️ Skipped row $row with no 'sideNavObject' defined")
 			}
 		}
 	}

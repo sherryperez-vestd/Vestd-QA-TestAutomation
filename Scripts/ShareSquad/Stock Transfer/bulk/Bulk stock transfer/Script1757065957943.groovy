@@ -21,14 +21,14 @@ WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:],
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/stock-transfer/bulk-stock-transfer/start')
 
-WebUI.verifyElementPresent(findTestObject('ShareSquad/stockTransfer/Page_Stock transfer create/select_transferType'), 0)
+CustomKeywords.'UIKeywords.verifyElementPresentVisible'("ShareSquad/stockTransfer/Page_Stock transfer create/select_transferType")
 
 WebUI.click(findTestObject('ShareSquad/stockTransfer/Page_Stock transfer create/select_transferType'))
 
 WebUI.click(findTestObject('ShareSquad/stockTransfer/Page_Stock transfer create/li_newStockTransfer'))
 
-WebUI.verifyElementPresent(findTestObject('ShareSquad/stockTransfer/Page_Stock transfer create/file_upload-bulkST-Template'), 
-    0)
+
+WebUI.verifyElementPresent(findTestObject('ShareSquad/stockTransfer/Page_Stock transfer create/file_upload-bulkST-Template'), 0)
 
 WebUI.uploadFile(findTestObject('ShareSquad/stockTransfer/Page_Stock transfer create/file_upload-bulkST-Template'), 'C:\\Users\\admin\\Documents\\VestdApp-TestAutomation Katalon\\Vestd QA Test Automation\\TestData\\bulk-stock-transfer-upload.xlsx')
 
@@ -43,21 +43,27 @@ WebUI.delay(5)
 WebUI.verifyElementPresent(findTestObject('ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'), 
-    0)
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1', 'Draft stock transfers created' )
 
-WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'), 
-    'Draft stock transfers created')
+//WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'), 
+//    0)
+
+//WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created_1'), 
+//    'Draft stock transfers created')
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/button_Delete'))
 
 WebUI.click(findTestObject('ShareSquad/stockTransfer/Page_Stock transfer details/button_DeleteYes'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted'), 
-    0)
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/ShareSquad/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted', 'All stock transfers have been deleted' )
 
-WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted'), 
-    'All stock transfers have been deleted')
+
+
+//WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted'), 
+//    0)
+//
+//WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfers index/div_The stock transfer has been deleted'), 
+//    'All stock transfers have been deleted')
 
 WebUI.closeBrowser()
 

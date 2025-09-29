@@ -30,13 +30,13 @@ not_run: WebUI.verifyElementText(findTestObject('null'), 'Staff')
 
 not_run: WebUI.verifyElementNotVisible(findTestObject('null'))
 
-WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Company - staff'), 0)
+WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Company-staff'), 0)
 
 not_run: WebUI.verifyElementText(findTestObject('null'), 'Company - staff')
 
 not_run: WebUI.verifyElementNotVisible(findTestObject('null'))
 
-WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_App - staff'), 0)
+WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_App-staff'), 0)
 
 not_run: WebUI.verifyElementText(findTestObject('null'), 'App - staff')
 
@@ -46,11 +46,11 @@ WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Home'), 0)
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Home'), 'Home')
 
-WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_Share schemes'))
+WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_ShareSchemes'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Share schemes'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_ShareSchemes'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Share schemes'), 'Share schemes')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_ShareSchemes'), 'Share schemes')
 
 WebUI.waitForElementVisible(findTestObject('CoCo/navigation/side-nav/a_Investment'), 0)
 
@@ -58,11 +58,11 @@ WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Investment
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Investment'), 'Investment')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Share capital'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_ShareCapital'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_Share capital'))
+WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_ShareCapital'))
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Share capital'), 'Share capital')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_ShareCapital'), 'Share capital')
 
 WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_Compliance'))
 
@@ -74,17 +74,17 @@ WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Documents'
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Documents'), 'Documents')
 
-WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_People  communication'))
+WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_PeopleCommunication'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_People  communication'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_PeopleCommunication'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_People  communication'), 'People & communication')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_PeopleCommunication'), 'People & communication')
 
-WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_Help Centre'))
+WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_HelpCentre'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Help Centre'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_HelpCentre'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Help Centre'), 'Help centre')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_HelpCentre'), 'Help centre')
 
 WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_Company settings'))
 
@@ -94,19 +94,19 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Company setti
 
 not_run: WebUI.verifyElementVisible(findTestObject('null'))
 
-WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_App - staff'), 0)
+WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_App-staff'), 0)
 
 not_run: WebUI.verifyElementText(findTestObject('null'), 'App - staff')
 
-WebUI.verifyElementVisible(findTestObject('CoCo/img-ISO'))
+WebUI.verifyElementVisible(findTestObject('CoCo/navigation/img-ISO'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/img-ISO'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/img-ISO'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CoCo/p_Vestd Ltd is authorised and regulated by'))
+WebUI.verifyElementVisible(findTestObject('CoCo/navigation/p_Vestd_Ltd_authorised_and_regulated_by'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/p_Vestd Ltd is authorised and regulated by'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/p_Vestd_Ltd_authorised_and_regulated_by'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/p_Vestd Ltd is authorised and regulated by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/p_Vestd_Ltd_authorised_and_regulated_by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
 
 WebUI.closeBrowser()
 

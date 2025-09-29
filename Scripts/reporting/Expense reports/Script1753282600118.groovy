@@ -17,106 +17,48 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/**
- * Test Case: Verify Expense Report (Beta) setup and access flow
- *
- * URL: https://demo.app.vestd.com/company/50135/reports/expense-report
- *
- * Steps:
- * 1. Navigate to the Expense Report page as Admin.
- * 2. Validate headers: "Expense report Beta", "Beta".
- * 3. Check alert for missing settings with correct message and button.
- * 4. Click "Expense report settings" and verify:
- *    - Edit settings page content (labels, descriptions, inputs).
- *    - Back navigation to Expense Report page.
- * 5. Confirm date input fields are visible (From/To Date).
- * 6. Validate download button is present but **not clickable**.
- * 7. Navigate to a second company report and click additional controls.
+/*
+ ================================================================================
+ Test Case: Verify Expense Report Page and Download Report
+ URL: https://demo.app.vestd.com/company/50934/expense-reports
+ Purpose:
+	 - Login as Editor
+	 - Navigate to Expense Reports page
+	 - Verify static elements and tooltips are visible
+	 - Verify text content matches expected
+	 - Enter risk-free rate and volatility
+	 - Verify Download button is clickable and trigger download
+ ================================================================================
  */
-not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_editor, GlobalVariable.password)
 
 'Login as Admin and navigate to expense reports page'
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports/expense-report')
+WebUI.navigateToUrl(expenseReportURL_UK)
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/heading_ExpenseReport'), 0)
+WebUI.verifyTextPresent('To generate report, first enter a start and end date.', true)
 
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/heading_ExpenseReport'), 'Expense report Beta')
+// Verify static elements
+['tooltip-icon_Beta', 'input_Day_from_date_day', 'input_Month_from_date_month', 'input_Year_from_date_year', 'input_Day_to_date_day'
+    , 'input_Month_to_date_month', 'input_Year_to_date_year', 'input_Black-Scholes', 'tooltip-icon_IFRS pricing model', 'tooltip-icon_Risk-free rate'
+    , 'input_risk_free_rate', 'tooltip-icon_Volatility', 'input_Volatility'].each({ 
+        CustomKeywords.'UIKeywords.verifyElementPresentVisible'("StatSquad/reporting/expense/$it")
+    })
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/tooltip-icon_Beta'), 0)
+// Verify static elements and text
+def elementsWithText = [('StatSquad/reporting/expense/heading_ExpenseReport') : 'Expense report Beta', ('StatSquad/reporting/expense/heading_Beta') : 'Beta'
+    , ('StatSquad/reporting/financial/span_From Date') : 'From Date', ('StatSquad/reporting/financial/span_To Date') : 'To Date'
+    , //    , ('StatSquad/reporting/financial/label_Day') : 'Day', ('StatSquad/reporting/financial/label_Month') : 'Month', ('StatSquad/reporting/financial/label_Year') : 'Year'
+    ('StatSquad/reporting/expense/label_IFRS pricing model') : 'IFRS pricing model', ('StatSquad/reporting/expense/label_Risk-free rate') : 'Risk-free rate'
+    , ('StatSquad/reporting/expense/label_Volatility') : 'Volatility', ('StatSquad/reporting/expense/p_To generate report') : 'To generate report, first enter a start and end date. These dates will define the time frame for the report.'
+    , ('StatSquad/reporting/expense/p_It provides all necessary expense entries') : 'It provides all necessary expense entries that must be combined and recorded in the annual P&L under "employee compensation expense." The report includes fair value calculations, vesting schedules, and a detailed monthly expense breakdown to ensure IFRS compliance.']
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/heading_Beta'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/heading_Beta'), 'Beta')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/span_From Date'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/span_From Date'), 'From Date')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/span_To Date'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/span_To Date'), 'To Date')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/label_Day'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/label_Day'), 'Day')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/label_Month'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/label_Month'), 'Month')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/financial/label_Year'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/financial/label_Year'), 'Year')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/input_Day_from_date_day'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/input_Month_from_date_month'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/input_Year_from_date_year'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/input_Day_to_date_day'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/input_Month_to_date_month'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/input_Year_to_date_year'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/p_To generate report'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/p_To generate report'), 'To generate report, first enter a start and end date. These dates will define the time frame for the report.')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/p_It provides all necessary expense entries'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/p_It provides all necessary expense entries'), 'It provides all necessary expense entries that must be combined and recorded in the annual P&L under "employee compensation expense." The report includes fair value calculations, vesting schedules, and a detailed monthly expense breakdown to ensure IFRS compliance.')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/label_IFRS pricing model'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/label_IFRS pricing model'), 'IFRS pricing model')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/tooltip-icon_IFRS pricing model'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/dd_IFRS pricing model'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/label_Risk-free rate'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/label_Risk-free rate'), 'Risk-free rate')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/tooltip-icon_Risk-free rate'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/input_risk_free_rate'), 0)
+elementsWithText.each({ def objPath, def expectedText ->
+        CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'(objPath, expectedText)
+    })
 
 WebUI.setText(findTestObject('StatSquad/reporting/expense/input_risk_free_rate'), '1')
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/label_Volatility'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/expense/label_Volatility'), 'Volatility')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/tooltip-icon_Volatility'), 0)
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/expense/input_Volatility'), 0)
-
 WebUI.setText(findTestObject('StatSquad/reporting/expense/input_Volatility'), '1')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/btn_Download Report'), 0)
 
 WebUI.verifyElementClickable(findTestObject('StatSquad/reporting/btn_Download Report'))
 

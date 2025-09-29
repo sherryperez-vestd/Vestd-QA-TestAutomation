@@ -233,4 +233,17 @@
       <testCaseId>Test Cases/ShareSquad/Initial notifications/Initial notifications</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>27fcd3cf-d35f-412b-9016-323233182739</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/Share Class/Subdivision</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e527679d-c31e-47a2-9479-7bbe3b0db010</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

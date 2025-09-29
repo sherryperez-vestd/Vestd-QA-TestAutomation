@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Black-Scholes</name>
+   <tag></tag>
+   <elementGuidId>9833e965-7eb8-4e4f-84a8-2ef5c8a4720e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@class = 'multiselect-fake-input' and @value = 'Black-Scholes']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#from-date-day</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//input[@id='from-date-day']</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f2e36a81-02c1-4c46-bbe8-9a8346e4f87f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect-fake-input</value>
+      <webElementGuid>4088510d-1c4b-46ce-9daf-3dbb02812cb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Black-Scholes</value>
+      <webElementGuid>a6f2d11d-37ec-48ef-8d2f-39f2ea4ae7b4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

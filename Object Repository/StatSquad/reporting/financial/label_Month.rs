@@ -6,21 +6,25 @@
    <elementGuidId>c5f2a535-25b7-4078-9bbb-722dcb59bfd4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@for = 'from-date-month' and (text() = 'Month' or . = 'Month')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div/div/div/div[2]/label</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:text=&quot;Month&quot;i >> nth=0</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,15 +32,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>ef41a6f6-1975-4d47-ae6c-49b52ca0e35e</webElementGuid>
+      <webElementGuid>d6150a23-6f41-454b-9313-fd6f5b593d23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
       <value>from-date-month</value>
-      <webElementGuid>6e6430d6-ff67-4a7c-bbc7-55ceb3755a2f</webElementGuid>
+      <webElementGuid>d7797f76-3c48-4ea8-af7f-bbe89275d5f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +48,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Month</value>
-      <webElementGuid>999ed412-9fa6-4af8-a115-628b312dda9e</webElementGuid>
+      <webElementGuid>9807b053-4a5b-41c1-b013-c5a2033dc27d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/form[1]/fieldset[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;d-flex flex-wrap&quot;]/div[@class=&quot;mr-3&quot;]/label[1]</value>
-      <webElementGuid>13c4fbc8-4799-4d8c-9f37-0f12ad0a88b4</webElementGuid>
+      <webElementGuid>d229821e-fb4f-4231-8e55-8b5a6ad793e6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/form/fieldset/div/div/div/div/div[2]/label</value>
-      <webElementGuid>2a5925d2-55c5-488e-bf51-c9d8dc82b322</webElementGuid>
+      <webElementGuid>58ec7002-bf6b-48ee-8dba-0af937aaeb6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='From Date'])[1]/following::label[2]</value>
-      <webElementGuid>c64f86ea-2e36-45e0-9b1a-559132b30837</webElementGuid>
+      <webElementGuid>242591f8-578c-4966-a5f9-43e32ce5a304</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fetch records from this date'])[1]/preceding::label[2]</value>
-      <webElementGuid>953c1cd7-c316-4cc8-a75c-224febdb8997</webElementGuid>
+      <webElementGuid>2d4463a3-0ae6-45d3-89ec-fa24725802bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Month']/parent::*</value>
-      <webElementGuid>2edf8e42-849f-489e-a9d8-efbbc746ccd5</webElementGuid>
+      <webElementGuid>a1820ae9-f15b-40a1-9545-05c257ff33bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +96,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/label</value>
-      <webElementGuid>c3ff67dc-e8db-4030-a8ff-600c6b4135d2</webElementGuid>
+      <webElementGuid>286ad459-7c7a-4977-a281-514957476aa6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +104,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Month' or . = 'Month')]</value>
-      <webElementGuid>d8207b91-4f30-42da-b578-23d3fd7cd675</webElementGuid>
+      <webElementGuid>deeb9521-39e5-4f73-ba82-f8d1618f407e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

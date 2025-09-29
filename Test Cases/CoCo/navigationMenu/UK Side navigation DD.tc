@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>3cf3230d-d21c-4cfe-a14b-0c8b56344dba</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e70322c9-b25d-4b66-b6a3-bfba16f6fc5b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demo.app.vestd.com/company/50934/home'</defaultValue>
+      <description></description>
+      <id>e70322c9-b25d-4b66-b6a3-bfba16f6fc5b</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
 </TestCaseEntity>

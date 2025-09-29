@@ -143,6 +143,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/reporting/Expense reports</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6977f414-7006-4ea6-97b2-6f568f64f42a</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6489cf37-f2c0-46e9-a90d-a3ee1908659e</guid>
@@ -150,6 +156,13 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/reporting/Option agreement reports</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc25eb44-83e0-4549-8da8-bbd98540fe39</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/reporting/Financial report</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e668f7ef-3548-472a-b42d-91ee9dc44d33</guid>
@@ -166,6 +179,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>9f3451c2-1097-4d6e-addc-9a5099e4b9dc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StatSquad/Data Table/All documents</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>a751cec9-912f-4026-9d8c-ce5c5d10d514</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -176,13 +196,26 @@
       <guid>645b2bbb-17cf-496c-a0b7-a59305aeb857</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/Data Table/Options Listing Page</testCaseId>
+      <testCaseId>Test Cases/StatSquad/Data Table/Options Listing</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
          <variableId>8869d5c3-f8fd-46f5-93e0-c9b55b456d57</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bfc0cec5-0f28-43c0-b480-2c3b47fb1a29</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StatSquad/Data Table/Share movement history</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>58ade133-880d-42d6-acd0-db1c427674c6</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

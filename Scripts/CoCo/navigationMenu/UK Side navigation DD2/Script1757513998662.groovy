@@ -19,33 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 'Login and navigate to the home page'
 CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/home')
 
-// Define side nav items as an array of maps
-def sideNavItems = [
-    [obj: 'CoCo/navigation/side-nav/a_My equity', text: 'My Equity'],
-    [obj: 'CoCo/navigation/side-nav/a_Home', text: 'Home'],
-    [obj: 'CoCo/navigation/side-nav/a_Share schemes', text: 'Share schemes'],
-    [obj: 'CoCo/navigation/side-nav/a_Investment', text: 'Investment'],
-    [obj: 'CoCo/navigation/side-nav/a_Share capital', text: 'Share capital'],
-    [obj: 'CoCo/navigation/side-nav/a_Compliance', text: 'Compliance'],
-    [obj: 'CoCo/navigation/side-nav/a_Documents', text: 'Documents'],
-    [obj: 'CoCo/navigation/side-nav/a_People  communication', text: 'People & communication'],
-    [obj: 'CoCo/navigation/side-nav/a_Company - staff', text: 'Company - staff'],
-    [obj: 'CoCo/navigation/side-nav/a_Help Centre', text: 'Help centre'],
-    [obj: 'CoCo/navigation/side-nav/a_Company settings 2'],
-    [obj: 'CoCo/navigation/side-nav/a_App - staff', text: 'App - staff']
-]
+WebUI.navigateToUrl(appURL)
 
-// Loop through and check
-sideNavItems.each { menu ->
-	CustomKeywords.'UIKeywords.verifyElementPresentVisible'(menu.obj)
-    if (menu.text) {
-        CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'(menu.obj, menu.text)
-    }
-   
-}
+// Load test data
+def sideNavData = findTestData('sideNavItemsData')
 
+// Verify via custom keyword
+CustomKeywords.'UIKeywords.verifySideNavItems'(sideNavData)
 
 
 WebUI.closeBrowser()

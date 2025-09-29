@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Share movement history</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5ab80cd-662e-4fd0-b8e7-c672c0184d18</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>58ade133-880d-42d6-acd0-db1c427674c6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demo.app.vestd.com/company/50934/share-movement?page=1&amp;per_page=25&amp;sort=-movement_type'</defaultValue>
+      <description></description>
+      <id>58ade133-880d-42d6-acd0-db1c427674c6</id>
+      <masked>false</masked>
+      <name>shareMovementHistoryURL</name>
+   </variable>
+</TestCaseEntity>

@@ -23,7 +23,8 @@ CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVari
 WebUI.navigateToUrl(shareClassPageURL)
 
 // Verify static elements
-['a_Start subdivision', 'btn_Consider nominal values', 'btn_Staff actions', 'canvas_share class chart','th_Status', 'th_Name', 'th_Total shares', 'th_Voting rights' , 'th_Growth shares' , 'th_Nominal value', 'span_Live','th_Total'].each({ 
+['a_Start subdivision', 'btn_Consider nominal values', 'btn_Staff actions', 'canvas_share class chart', 'th_Status', 'th_Name'
+    , 'th_Total shares', 'th_Voting rights', 'th_Growth shares', 'th_Nominal value', 'span_Live', 'th_Total'].each({ 
         CustomKeywords.'UIKeywords.verifyElementPresentVisible'("Object Repository/ShareSquad/shareClass/$it")
     })
 
@@ -40,6 +41,33 @@ CustomKeywords.'UIKeywords.clickElement'('Object Repository/ShareSquad/shareClas
 CustomKeywords.'UIKeywords.clickElement'('Object Repository/ShareSquad/shareClass/btn_Yes, cancel subdivision')
 
 CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/ShareSquad/shareClass/a_Start subdivision')
+
+//CustomKeywords.'UIKeywords.clickElement'('Object Repository/ShareSquad/shareClass/a_Start subdivision')
+//
+//CustomKeywords.'UIKeywords.clickElement'('Object Repository/ShareSquad/shareClass/btn_Next')
+//
+//WebUI.setText(findTestObject('ShareSquad/shareClass/input_Subdivide by other'), '2')
+//
+//CustomKeywords.'UIKeywords.clickElement'('Object Repository/ShareSquad/shareClass/btn_Next')
+//
+//CustomKeywords.'UIKeywords.clickElement'('Object Repository/ShareSquad/shareClass/span_Model Articles')
+//
+//CustomKeywords.'UIKeywords.clickElement'('Object Repository/ShareSquad/shareClass/btn_Next')
+//
+//CustomKeywords.'UIKeywords.clickElement'('Object Repository/ShareSquad/shareClass/span_Shareholders agreement No')
+//
+//CustomKeywords.'UIKeywords.clickElement'('Object Repository/ShareSquad/shareClass/btn_Next')
+//
+//CustomKeywords.'UIKeywords.clickElement'('Object Repository/ShareSquad/shareClass/btn_Send resolutions for signing')
+//
+//CustomKeywords.'UIKeywords.clickElement'('Object Repository/ShareSquad/shareClass/btn_Continue')
+//
+//WebUI.verifyTextPresent('The resolutions have been sent for signing. Once passed, we\'ll automatically complete the subdivision and update Companies House.', 
+//    false)
+//
+//WebUI.verifyTextPresent('Subdivision in progress...', false)
+
+//WebUI.verifyTextPresent('Starting a new subdivision is disabled because another subdivision is in progress.', false)
 
 WebUI.closeBrowser()
 

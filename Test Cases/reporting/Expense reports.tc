@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>8f302456-975d-4c15-8bd8-f37ec4b69f12</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6977f414-7006-4ea6-97b2-6f568f64f42a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demo.app.vestd.com/company/50135/reports/expense-report'</defaultValue>
+      <description></description>
+      <id>6977f414-7006-4ea6-97b2-6f568f64f42a</id>
+      <masked>false</masked>
+      <name>expenseReportURL_UK</name>
+   </variable>
 </TestCaseEntity>
