@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DatePickerMonthMay</name>
+   <tag></tag>
+   <elementGuidId>c4bc985e-e0a2-4309-9e07-50154c55e1ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'dp__overlay_cell dp__overlay_cell_pad' and (contains(text(), 'May') or contains(., 'May'))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dp__overlay_cell dp__overlay_cell_pad</value>
+      <webElementGuid>83f1e386-334e-46d4-bdcd-7f19d1e753b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>May</value>
+      <webElementGuid>a989a41e-09b9-4cfe-a7cd-5075c7fb58ec</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

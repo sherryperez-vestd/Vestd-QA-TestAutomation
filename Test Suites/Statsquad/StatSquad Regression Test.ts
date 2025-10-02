@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>dc5ef601-140b-4d64-96d0-35c659194ddd</testSuiteGuid>
    <testCaseLink>
-      <guid>2ed9a6b5-5d6b-491a-a72c-fbef56f41d1b</guid>
+      <guid>f2a5a96e-8c7d-4e51-ace2-175e77c3a71d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/myEquity/Option share phantom graph</testCaseId>
@@ -149,6 +149,12 @@
          <value></value>
          <variableId>6977f414-7006-4ea6-97b2-6f568f64f42a</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c056ca45-9add-419b-b174-ddce5934f037</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>6489cf37-f2c0-46e9-a90d-a3ee1908659e</guid>
@@ -217,5 +223,25 @@
          <value></value>
          <variableId>58ade133-880d-42d6-acd0-db1c427674c6</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>45336f62-7368-4af5-9356-8816d9c062ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StatSquad/Waterfall modelling/waterfallModelling</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9865058f-11a9-4578-8bb3-a93c937b4cd1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2653c7f9-fc28-4baa-8cea-1b78156bca3f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StatSquad/capTable/Cap table</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

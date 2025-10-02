@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 'Login and navigate to the dashboard page'
 CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_recipient, GlobalVariable.password)
+
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370192')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 0)
@@ -27,11 +28,11 @@ WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 'My Equity')
 
-WebUI.click(findTestObject('CoCo/navigation/side-nav/Page_MyEquity/h1_MyEquity'))
+WebUI.click(findTestObject('CoCo/navigation/side-nav/MyEquity/h1_MyEquity'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Page_MyEquity/h1_MyEquity'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/MyEquity/h1_MyEquity'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Page_MyEquity/h1_MyEquity'), 'My Equity')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/MyEquity/h1_MyEquity'), 'My Equity')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Communication'), 0)
 
@@ -39,9 +40,9 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Communication
 
 WebUI.click(findTestObject('CoCo/navigation/side-nav/a_Communication'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Page_Communication/h1_Communication'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/PeopleAndCommunication/h1_Communication'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Page_Communication/h1_Communication'), 'Communication')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/PeopleAndCommunication/h1_Communication'), 'Communication')
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Home'), 0)
 

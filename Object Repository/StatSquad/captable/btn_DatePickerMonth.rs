@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_DatePickerMonth</name>
+   <tag></tag>
+   <elementGuidId>1a6ffac1-64e5-4b67-86bc-1eab0acd149f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[contains(@data-test-id, 'month-toggle-overlay-0')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>27a3ce29-48fd-44af-b7b2-a4450d0683d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>month-toggle-overlay-0</value>
+      <webElementGuid>11d2ebb4-261b-49d2-9533-c8371cd05a28</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

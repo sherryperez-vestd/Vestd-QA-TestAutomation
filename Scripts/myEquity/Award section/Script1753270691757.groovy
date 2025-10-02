@@ -28,7 +28,7 @@ import org.openqa.selenium.Keys as Keys
  * 4. Validate dynamic values (e.g., Total price to pay not empty).
  * 5. Modify estimated profit per share and ensure related values update accordingly.
  */
-WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Login and navigate to My equity page'
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')

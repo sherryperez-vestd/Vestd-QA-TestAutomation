@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>waterfallModelling</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>094776a2-e68b-4859-9786-6c2673e77417</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9865058f-11a9-4578-8bb3-a93c937b4cd1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demo.app.vestd.com/company/50934/cap-table/waterfall-model'</defaultValue>
+      <description></description>
+      <id>9865058f-11a9-4578-8bb3-a93c937b4cd1</id>
+      <masked>false</masked>
+      <name>appURL</name>
+   </variable>
+</TestCaseEntity>

@@ -32,29 +32,43 @@ import org.openqa.selenium.Keys as Keys
  *        - Section title, breakdown table headers (e.g., Month, Value per share).
  *        - Additional messages for GS (e.g., "Watch your share value grow!", hurdle message).
  */
+not_run: CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
-CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 
 WebUI.click(findTestObject('StatSquad/myEquity/_common/tab_overall-value'))
 
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/chevron_yourGraphExplained','Your graph explained')
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/chevron_yourGraphExplained', 
+    'Your graph explained')
+
 WebUI.click(findTestObject('StatSquad/myEquity/graphExplained/chevron_yourGraphExplained'))
 
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/th_monthByMonthBreakdown', 'Month-by-month breakdown:')
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/th_monthByMonthBreakdown', 
+    'Month-by-month breakdown:')
+
 CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/th_Month', 'Month')
+
 CustomKeywords.'UIKeywords.verifyElementPresentVisible'('StatSquad/myEquity/graphExplained/th_valuationConsidered')
+
 CustomKeywords.'UIKeywords.verifyElementPresentVisible'('StatSquad/myEquity/graphExplained/th_companyEquity')
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/th_recipientEquity','Recipient equity')
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/th_valuePerShare','Value per share')
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/th_recipientValue','Recipient value')
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/th_recipientCost','Recipient Cost')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/th_recipientEquity', 'Recipient equity')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/th_valuePerShare', 'Value per share')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/th_recipientValue', 'Recipient value')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/th_recipientCost', 'Recipient Cost')
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370451')
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/myEquity/graphExplained/heading_yourGraphExplained','Your graph explained')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/myEquity/graphExplained/heading_yourGraphExplained', 
+    'Your graph explained')
+
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/graphExplained/chevron_yourGraphExplained GS'))
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/myEquity/graphExplained/txt_watchYourShareValueGrow', 'Watch your share value grow!')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/myEquity/graphExplained/txt_watchYourShareValueGrow', 
+    'Watch your share value grow!')
+
 CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatSquad/myEquity/graphExplained/txt_hurdleMessage')
-
-
 

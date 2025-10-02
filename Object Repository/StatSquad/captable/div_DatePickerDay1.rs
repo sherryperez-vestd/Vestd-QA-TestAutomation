@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DatePickerDay1</name>
+   <tag></tag>
+   <elementGuidId>53b9e141-9c21-4d5d-963b-265c34f3b52e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'dp__cell_inner dp__pointer dp--past dp__date_hover' and (contains(text(), '1') or contains(., '1'))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dp__cell_inner dp__pointer dp--past dp__date_hover</value>
+      <webElementGuid>ec5aedcb-0c62-4c00-9626-c87b67ba12c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>edd78ee0-be20-4f82-a0a4-d0814ccea43a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

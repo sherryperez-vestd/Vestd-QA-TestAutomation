@@ -18,16 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Login and navigate to the home page'
-CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
+CustomKeywords.'UIKeywords.loginToApp'(userName, GlobalVariable.password)
 
 WebUI.navigateToUrl(appURL)
 
-// Load test data
-def sideNavData = findTestData('sideNavItemsData')
-
-// Verify via custom keyword
-CustomKeywords.'UIKeywords.verifySideNavItems'(sideNavData)
-
+// Call side nav verification
+CustomKeywords.'UIKeywords.verifySideNavItemsFromData'('sideNavItemsData', userName)
 
 WebUI.closeBrowser()
 

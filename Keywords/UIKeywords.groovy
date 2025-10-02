@@ -17,6 +17,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import com.kms.katalon.core.testdata.TestDataFactory
 import com.kms.katalon.core.testobject.ObjectRepository
+import com.kms.katalon.core.webui.driver.DriverFactory
+import org.openqa.selenium.WebDriver
 
 import internal.GlobalVariable
 
@@ -38,7 +40,8 @@ public class UIKeywords {
 
 	@Keyword
 	def verifyElementPresentVisibleText(String objectPath, String objectText) {
-		WebUI.scrollToElement(findTestObject(objectPath), 0)
+		WebUI.waitForElementPresent(findTestObject(objectPath), 10)
+		WebUI.scrollToElement(findTestObject(objectPath), 10)
 		WebUI.verifyElementVisible(findTestObject(objectPath), FailureHandling.STOP_ON_FAILURE)
 		WebUI.verifyElementPresent(findTestObject(objectPath), 0)
 		WebUI.verifyElementText(findTestObject(objectPath), objectText)
@@ -133,5 +136,70 @@ public class UIKeywords {
 				WebUI.comment("⚠️ Skipped row $row with no 'sideNavObject' defined")
 			}
 		}
+	}
+
+	@Keyword
+	def verifySideNavItemsFromData(String dataFileName, String userName) {
+		def data = findTestData(dataFileName)
+		int rowCount = data.getRowNumbers()
+
+		for (int i = 1; i <= rowCount; i++) {
+			def objPath = data.getValue("sideNavObject", i)
+			def text = data.getValue("text", i)
+			def click = data.getValue("click", i)?.toBoolean()
+			def verifyObj = data.getValue("verifyObj", i)
+			def verifyText = data.getValue("verifyObjectText", i)
+			def staffOnly = data.getValue("staffOnly", i)?.toBoolean()
+
+			// Skip staff-only items if not staff
+			if (staffOnly && !userName.equalsIgnoreCase("sherry.perez@vestd.com")) {
+				continue
+			}
+
+			if (text) {
+				verifyElementPresentVisibleText(objPath, text)
+			} else {
+				verifyElementPresentVisible(objPath)
+			}
+
+			if (click) {
+				WebUI.click(findTestObject(objPath))
+
+				if (verifyObj && verifyText) {
+					verifyElementPresentVisibleText(verifyObj, verifyText)
+				}
+
+				//				WebUI.back()
+			}
+		}
+	}
+
+	
+	@Keyword
+	def verifyTemporaryFilePage(String expectedUrl) {
+
+		// Switch to the next window
+		int currentWindow = WebUI.getWindowIndex()
+		WebUI.switchToWindowIndex(currentWindow + 1)
+
+		// Verify URL
+		WebUI.verifyEqual(WebUI.getUrl(), expectedUrl)
+
+		// Verify heading
+		TestObject heading = findTestObject('Object Repository/StatSquad/reporting/temporaryFile/h1_Temporary files')
+		WebUI.verifyElementPresent(heading, 0)
+		WebUI.verifyElementText(heading, 'Temporary files')
+
+		// Verify expiration label
+		TestObject expiryLabel = findTestObject('Object Repository/StatSquad/reporting/temporaryFile/label_Expires in 23 hours')
+		WebUI.verifyElementPresent(expiryLabel, 0)
+		WebUI.verifyElementVisible(expiryLabel)
+		WebUI.verifyElementText(expiryLabel, 'Expires in 23 hours')
+
+		// Verify Download button
+		TestObject downloadBtn = findTestObject('Object Repository/StatSquad/reporting/temporaryFile/btn_Download')
+		WebUI.verifyElementPresent(downloadBtn, 0)
+		WebUI.verifyElementVisible(downloadBtn)
+		WebUI.verifyElementText(downloadBtn, 'Download')
 	}
 }

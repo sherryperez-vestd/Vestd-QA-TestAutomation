@@ -25,11 +25,11 @@ WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_MyEquity')
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 'My Equity')
 
-WebUI.click(findTestObject('CoCo/navigation/side-nav/Page_MyEquity/h1_MyEquity'))
+WebUI.click(findTestObject('CoCo/navigation/side-nav/MyEquity/h1_MyEquity'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Page_MyEquity/h1_MyEquity'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/MyEquity/h1_MyEquity'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Page_MyEquity/h1_MyEquity'), 'My Equity')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/MyEquity/h1_MyEquity'), 'My Equity')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Communication'), 0)
 
@@ -37,9 +37,9 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Communication
 
 WebUI.click(findTestObject('CoCo/navigation/side-nav/a_Communication'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Page_Communication/h1_Communication'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/PeopleAndCommunication/h1_PeopleAndCommunication'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Page_Communication/h1_Communication'), 'Communication')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/PeopleAndCommunication/h1_PeopleAndCommunication'), 'Communication')
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Home'), 0)
 

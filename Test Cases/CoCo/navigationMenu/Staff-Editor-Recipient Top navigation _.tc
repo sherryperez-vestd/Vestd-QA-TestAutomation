@@ -13,7 +13,7 @@
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/userName</testDataId>
+      <testDataId>Data Files/userNameData</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>8b30a0ac-d624-4bfb-b84a-6fcb7b82c4aa</testDataLinkId>
@@ -22,7 +22,7 @@
       <variableId>e2974a5b-cdfb-4a88-a926-1561ac8768c5</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('userName')</defaultValue>
+      <defaultValue>findTestData('Data Files/userNameData')</defaultValue>
       <description></description>
       <id>e2974a5b-cdfb-4a88-a926-1561ac8768c5</id>
       <masked>false</masked>

@@ -6,12 +6,12 @@
    <elementGuidId>895ba27f-7792-4488-921d-d37d21381a45</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//p[(contains(text(), 'It provides all necessary expense entries that must be combined and recorded in the annual P&amp;L under &quot;employee compensation expense.&quot; The report includes fair value calculations, vesting schedules, and a detailed monthly expense breakdown to ensure IFRS compliance.') or contains(., 'It provides all necessary expense entries that must be combined and recorded in the annual P&amp;L under &quot;employee compensation expense.&quot; The report includes fair value calculations, vesting schedules, and a detailed monthly expense breakdown to ensure IFRS compliance.'))]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(contains(text(), 'This report calculates stock option expenses using the Black-Scholes, a standard method for estimating the fair value of options based on exercise price, vesting period, expected volatility, and the risk-free interest rate.') or contains(., 'This report calculates stock option expenses using the Black-Scholes, a standard method for estimating the fair value of options based on exercise price, vesting period, expected volatility, and the risk-free interest rate.'))]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -33,14 +33,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>5fbd7d54-9794-4d0b-a819-ed99c5c72007</webElementGuid>
+      <webElementGuid>3a3dd4c5-0b2f-4c95-aee8-0f17322c9f76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>It provides all necessary expense entries that must be combined and recorded in the annual P&amp;L under &quot;employee compensation expense.&quot; The report includes fair value calculations, vesting schedules, and a detailed monthly expense breakdown to ensure IFRS compliance.</value>
-      <webElementGuid>ce89c385-4992-4b29-9ef9-e597e36b51d0</webElementGuid>
+      <value>This report calculates stock option expenses using the Black-Scholes, a standard method for estimating the fair value of options based on exercise price, vesting period, expected volatility, and the risk-free interest rate.</value>
+      <webElementGuid>c031af18-e893-4f7c-860a-bbe94222b632</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -29,9 +29,9 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Home'), 'Home
 
 WebUI.click(findTestObject('CoCo/navigation/side-nav/a_Home'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Page_Home/h1_company-name'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Home/h1_company-name'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Page_Home/h1_company-name'), 'Indian Co')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Home/h1_company-name'), 'Indian Co')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_ShareSchemes'), 0)
 
@@ -39,66 +39,66 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_ShareSchemes'
 
 WebUI.click(findTestObject('CoCo/navigation/side-nav/a_ShareSchemes'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/li_Schemes'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/li_Schemes'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/li_Schemes'), 'SCHEMES')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/li_Schemes'), 'SCHEMES')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_ESOP/a_ESOP'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_ESOP/a_ESOP'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_ESOP/a_ESOP'), 'ESOP')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_ESOP/a_ESOP'), 'ESOP')
 
-WebUI.click(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_ESOP/a_ESOP'))
+WebUI.click(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_ESOP/a_ESOP'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_ESOP/h1_ESOP'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_ESOP/h1_ESOP'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_ESOP/h1_ESOP'), 'ESOP')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_ESOP/h1_ESOP'), 'ESOP')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_All-options-agreements/a_All option agreements'), 
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/a_All option agreements'), 
     0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_All-options-agreements/a_All option agreements'), 
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/a_All option agreements'), 
     'All option agreements')
 
-WebUI.click(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_All-options-agreements/a_All option agreements'))
+WebUI.click(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/a_All option agreements'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_All-options-agreements/h1_All option agreements'), 
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/h1_All option agreements'), 
     0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_All-options-agreements/h1_All option agreements'), 
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/h1_All option agreements'), 
     'All option agreements')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/li_Compliance'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/li_Compliance'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/li_Compliance'), 'COMPLIANCE')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/li_Compliance'), 'COMPLIANCE')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Valuations/a_Valuations'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Valuations/a_Valuations'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Valuations/a_Valuations'), 'Valuations')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Valuations/a_Valuations'), 'Valuations')
 
-WebUI.click(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Valuations/a_Valuations'))
+WebUI.click(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Valuations/a_Valuations'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Valuations/h1_Valuations'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Valuations/h1_Valuations'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Valuations/h1_Valuations'), 'Valuations')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Valuations/h1_Valuations'), 'Valuations')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Share-pools/a_Share pools'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/a_Share pools'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Share-pools/a_Share pools'), 'Share pools')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/a_Share pools'), 'Share pools')
 
-WebUI.click(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Share-pools/a_Share pools'))
+WebUI.click(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/a_Share pools'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Share-pools/h1_Authorisations'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/h1_Authorisations'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Share-pools/h1_Authorisations'), 'Authorisations')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/h1_Authorisations'), 'Authorisations')
 
-WebUI.click(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Buyback options/a_Buyback-options'))
+WebUI.click(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Buyback options/a_Buyback-options'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Buyback options/h1_Buyback-options'), 
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Buyback options/h1_Buyback-options'), 
     0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Buyback options/h1_Buyback-options'), 'Buyback options')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Buyback options/h1_Buyback-options'), 'Buyback options')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/Share schemes/Page_Buyback options/h1_Buyback-options'), 
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Buyback options/h1_Buyback-options'), 
     0)
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Investment'), 0)

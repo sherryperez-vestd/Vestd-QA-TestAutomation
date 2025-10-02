@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>alert_date-selection-disabled</name>
+   <tag></tag>
+   <elementGuidId>517ca151-9ab3-46f0-ab35-771030000ecf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(contains(text(), ' Date selection is disabled in simulation views. Switch to Capital Ownership to view historical data. ') or contains(., ' Date selection is disabled in simulation views. Switch to Capital Ownership to view historical data. ')) and @class = 'alert-content d-block' and @data-test-id = 'alert-content']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>621edef7-c212-4dda-9aa8-afc3a115554e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Date selection is disabled in simulation views. Switch to Capital Ownership to view historical data. </value>
+      <webElementGuid>0eae5f2c-52bb-4c78-9b74-d1a345f021f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert-content d-block</value>
+      <webElementGuid>1902555b-0f40-40be-8a0e-48231b10a2b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-test-id</name>
+      <type>Main</type>
+      <value>alert-content</value>
+      <webElementGuid>c0722a08-aea2-4b6f-847a-c38d8356c459</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

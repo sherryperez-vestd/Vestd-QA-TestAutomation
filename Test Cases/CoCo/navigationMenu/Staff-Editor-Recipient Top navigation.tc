@@ -13,12 +13,12 @@
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/userName</testDataId>
+      <testDataId>Data Files/userNameData</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>8b30a0ac-d624-4bfb-b84a-6fcb7b82c4aa</testDataLinkId>
       <type>DATA_COLUMN</type>
-      <value>userName</value>
+      <value>userNameColumn</value>
       <variableId>20945ab0-8b2a-4006-be27-b9a4c17521b1</variableId>
    </variableLinks>
    <variableLinks>
@@ -28,7 +28,7 @@
       <variableId>4369a57a-a2a4-4bb0-bdda-4a133f3960c9</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('userName')</defaultValue>
+      <defaultValue>findTestData('Data Files/userNameData')</defaultValue>
       <description></description>
       <id>20945ab0-8b2a-4006-be27-b9a4c17521b1</id>
       <masked>false</masked>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DatePickerYear</name>
+   <tag></tag>
+   <elementGuidId>97cb8ad3-c5f0-4658-a589-0a9cc60e2133</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'dp__overlay_cell dp__overlay_cell_pad' and (contains(text(), '2022') or contains(., '2022'))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dp__overlay_cell dp__overlay_cell_pad</value>
+      <webElementGuid>8fafb67c-9f32-4325-aa71-d5bb3a1c0b12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2022</value>
+      <webElementGuid>7db75cf0-135d-4094-a4db-9259bbf6557a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

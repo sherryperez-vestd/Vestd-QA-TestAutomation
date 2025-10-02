@@ -10,12 +10,12 @@
          <value>h1</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+         <key>BASIC</key>
+         <value>//p[(contains(text(), 'To generate a report, enter a start and end date to define the reporting period.') or contains(., 'To generate a report, enter a start and end date to define the reporting period.'))]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//p[(contains(text(), 'To generate report, first enter a start and end date. These dates will define the time frame for the report.') or contains(., 'To generate report, first enter a start and end date. These dates will define the time frame for the report.'))]</value>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,14 +33,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>11d01747-af65-4f35-85b2-fde619ce822f</webElementGuid>
+      <webElementGuid>431b1349-b0b7-438a-8056-67dd172f30bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>To generate report, first enter a start and end date. These dates will define the time frame for the report.</value>
-      <webElementGuid>14b7cf64-94b5-45d3-a515-9151fc0e1e17</webElementGuid>
+      <value>To generate a report, enter a start and end date to define the reporting period.</value>
+      <webElementGuid>911a46b4-5792-48f9-8c13-919d6a734ace</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -12,11 +12,24 @@
       <value></value>
       <variableId>6977f414-7006-4ea6-97b2-6f568f64f42a</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c056ca45-9add-419b-b174-ddce5934f037</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'https://demo.app.vestd.com/company/50135/reports/expense-report'</defaultValue>
       <description></description>
       <id>6977f414-7006-4ea6-97b2-6f568f64f42a</id>
       <masked>false</masked>
       <name>expenseReportURL_UK</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://demo.app.vestd.com/company/50915/reports/expense-report'</defaultValue>
+      <description></description>
+      <id>c056ca45-9add-419b-b174-ddce5934f037</id>
+      <masked>false</masked>
+      <name>expenseReportURL_IN</name>
    </variable>
 </TestCaseEntity>
