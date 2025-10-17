@@ -17,6 +17,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/reporting/reports-index</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>67d08365-6adf-453b-b9c2-360bcc53872d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ff8890c5-a0a2-4003-b046-be5b90fe5a1f</guid>
@@ -56,13 +62,7 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6977f414-7006-4ea6-97b2-6f568f64f42a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c056ca45-9add-419b-b174-ddce5934f037</variableId>
+         <variableId>2636a5fa-e5ef-4660-97a5-d9ec704b598e</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

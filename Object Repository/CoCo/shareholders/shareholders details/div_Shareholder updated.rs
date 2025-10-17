@@ -10,11 +10,15 @@
          <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'alert-content d-block' and @data-test-id = 'alert-content' and (contains(text(), 'Shareholder updated') or contains(., 'Shareholder updated'))]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.alert-content.d-block</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,46 +28,36 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>87f30bd6-6679-44e6-a9e9-f362a79dad50</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>alert-content d-block</value>
-      <webElementGuid>dc6bdb3c-ac1a-40b6-ad09-563b51be232e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-test-id</name>
-      <type>Main</type>
-      <value>alert-content</value>
-      <webElementGuid>b8a07705-239d-4a15-b29a-fcf4c476cc7d</webElementGuid>
+      <webElementGuid>0c3542ba-b608-4d84-b3e4-c65f7ec2a9a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>
-        Shareholder updated
-    </value>
-      <webElementGuid>4447e3be-dd32-457c-b9b4-f09f8104f903</webElementGuid>
+      <value>alert-content d-block</value>
+      <webElementGuid>de6e006e-5c30-4cfd-a0bd-3cd9551483a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>data-test-id</name>
       <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;alert alert-success alert-lg&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;justify-content-center d-flex flex-column align-items-start&quot;]/div[@class=&quot;alert-content d-block&quot;]</value>
-      <webElementGuid>8fe07cb9-c837-4186-a820-857eb4110312</webElementGuid>
+      <value>alert-content</value>
+      <webElementGuid>be0e7d11-d5ad-421b-b164-86eee9e8f1dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shareholder updated</value>
+      <webElementGuid>74130969-1f0c-4f29-a2ae-028fed98d1f7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div</value>
-      <webElementGuid>be2fd959-166d-4503-af36-b6dc01b76aa1</webElementGuid>
+      <webElementGuid>8cbec3b9-8ecb-45c5-ac3a-0897f8d2c5fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vestd Nominees Ltd shareholdings'])[3]/following::div[9]</value>
-      <webElementGuid>3a008cbd-8682-4f13-9c60-9f15b4fd5a7e</webElementGuid>
+      <webElementGuid>f1e6063b-b822-4177-8c9d-82b7c466fc28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview system emails'])[3]/following::div[9]</value>
-      <webElementGuid>25fd6c9e-11d2-4792-a32e-3fa758c6f1c7</webElementGuid>
+      <webElementGuid>bf27013f-f644-4b95-88cc-92e2fcb69c1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Details'])[1]/preceding::div[3]</value>
-      <webElementGuid>df0c9023-8629-4dda-831b-73472d5c0f3e</webElementGuid>
+      <webElementGuid>89d59573-d79f-48db-9660-b22c059993fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Shareholder updated']/parent::*</value>
-      <webElementGuid>ff685963-0b36-4902-887d-a69b979b03b3</webElementGuid>
+      <webElementGuid>ce015399-b35d-43fc-83ed-97d8a607adca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div/div/div/div</value>
-      <webElementGuid>342ad2c0-f4d0-4842-ba02-2c86f6c7384d</webElementGuid>
+      <webElementGuid>05467cf5-fc60-4e91-aa11-b4d11d1047ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -123,6 +117,6 @@
     ' or . = '
         Shareholder updated
     ')]</value>
-      <webElementGuid>9bcdc97f-fcaf-4ea2-888d-6c0523fcc916</webElementGuid>
+      <webElementGuid>8202275b-087b-49ad-ae47-feb098082205</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

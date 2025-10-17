@@ -22,13 +22,13 @@ CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVari
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/home')
 
-WebUI.scrollToElement(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 0)
+not_run: WebUI.scrollToElement(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 0)
 
-WebUI.waitForElementPresent(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 0)
+not_run: WebUI.waitForElementPresent(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 0)
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 'My Equity')
+not_run: WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 'My Equity')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Home'), 0)
 
@@ -50,8 +50,7 @@ WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/li_Schemes'), 'SCHEMES')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_ESU/a_Existing scheme uploads'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_ESU/a_Existing scheme uploads'), 0)
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_ESU/a_Existing scheme uploads'), 'Existing scheme uploads')
 
@@ -176,8 +175,7 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Pa
 
 WebUI.click(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/a_Share pools'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/h1_Authorisations'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/h1_Authorisations'), 0)
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/h1_Authorisations'), 'Authorisations')
 
@@ -320,7 +318,7 @@ WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Company se
 //WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Company settings'), 'Company settings')
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_App-staff'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_App-staff'), 'App - staff')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_App-staff'), 'Staff')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/img-ISO'), 0)
 

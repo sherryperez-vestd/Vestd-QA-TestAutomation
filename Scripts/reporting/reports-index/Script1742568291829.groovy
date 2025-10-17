@@ -15,111 +15,91 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.Keys as Keys
 
-/**
- * Test Case: Verify all available report types and "Request a custom report" functionality
- *
- * URL: https://demo.app.vestd.com/company/50135/reports
- *
- * Steps:
- * 1. Navigate to the Reports page and confirm visibility of the "Reporting Beta" header and subtext.
- * 2. Verify the presence and text of the following reports and descriptions:
- *    - Shareholders report
- *    - Financial report
- *    - Cap table report
- *    - Option agreement report
- *    - Expense report
- * 3. Ensure all "Generate" buttons are clickable for each report.
- * 4. Click "Request a custom report here" → confirm it opens the correct external form:
- *    https://usabi.li/do/1951db0cc1b3/7cf2
- */
 
+WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
+WebUI.navigateToUrl(reportsCountryURL)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/heading_Reporting Beta'))
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/reporting/index/heading_Reporting Beta', 
+    'Reporting Beta')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/index/heading_Reporting Beta'), 0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/heading_Reporting Beta'), 'Reporting Beta')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/lead-text_Access detailed reports'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/lead-text_Access detailed reports'), 
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/reporting/index/lead-text_Access detailed reports', 
     'Access detailed reports tailored to your needs. Can\'t find what you\'re looking for? Request a custom report here.')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/th_Report name'))
+// Verify table headers
+def reportIndexTableHeaders = ['Report name', 'Description', 'Action']
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/th_Report name'), 'Report name')
+verifyTableHeaders(reportIndexTableHeaders)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/th_Description'))
+// Verify reports name
+List<String> expectedReports = ['Shareholders report', 'Employee report', 'Financial report', 'Cap table report', 'Option agreement report'
+    , 'Expense report']
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/th_Description'), 'Description')
+// Add "MGT1 report" if IN company
+String currentUrl = WebUI.getUrl()
+if (currentUrl == 'https://demo.app.vestd.com/company/50915/reports') {
+	expectedReports.add('MGT1 report')
+}
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/th_Action'))
+// Loop through each row
+for (int i = 1; i <= expectedReports.size(); i++) {
+    // XPath for the first column of the current row
+    TestObject firstColumn = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//tbody/tr[' + i) + ']/td[1]')
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/th_Action'), 'Action')
+    String actualText = WebUI.getText(firstColumn)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_Shareholders report'))
+    // Verify text matches expected
+    WebUI.verifyEqual(actualText, expectedReports[(i - 1)])
+}
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_Shareholders report'), 'Shareholders report')
+// Verify report description
+def descriptions = [[('path') : 'StatSquad/reporting/index/td_shareholders description', ('text') : 'This report will provide a download of your shareholders names, emails and other basic information.']
+    , [('path') : 'StatSquad/reporting/index/td_financial report description', ('text') : 'This report will provide options vested, options lapsed, options exercised, reversed options and exercise requests. You will be able to select the start and end date on the next page.']
+    , [('path') : 'StatSquad/reporting/index/td_cap table description', ('text') : 'This will take you to cap table page where you can simulate the ownership structure of your company in different scenarios.']
+    , [('path') : 'StatSquad/reporting/index/td_option agreement description', ('text') : 'This report will provide a download of all option agreements, the status, the option holders name, option type, and other related information.']
+    , [('path') : 'StatSquad/reporting/index/td_Expense report description', ('text') : 'This report calculates stock option expenses under the selected valuation method. It includes fair values, vesting schedules, and a monthly breakdown to ensure IFRS-compliant entries for "employee compensation expense" in the annual P&L.']]
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_shareholders description'))
+// Conditionally add MGT1 description if IN company
+if (currentUrl == 'https://demo.app.vestd.com/company/50915/reports') {
+	descriptions.add([
+		('path') : 'StatSquad/reporting/index/td_MGT1Description',
+		('text') : 'Register of members. pursuant to section 88 (1)(a) of the companies act, 2013 and rule 3(1) of the companies (management and administration) rules, 2014'
+	])
+}
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_shareholders description'), 'This report will provide a download of your shareholders names, emails and other basic information.')
+descriptions.each({ def el ->
+        CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'("Object Repository/$el.path", el.text)
+    })
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/link_generate-shareholders'))
+// Verify Generate links
+def elements = [[('path') : 'StatSquad/reporting/index/link_generate-shareholders', ('text') : 'Generate'], [('path') : 'StatSquad/reporting/index/link_generate-employee-report'
+        , ('text') : 'Generate'], [('path') : 'StatSquad/reporting/index/link_generate-financial', ('text') : 'Generate']
+    , [('path') : 'StatSquad/reporting/index/link_generate-cap-table', ('text') : 'Generate'], [('path') : 'StatSquad/reporting/index/link_generate-option-agreement'
+        , ('text') : 'Generate'], [('path') : 'StatSquad/reporting/index/link_generate-expense', ('text') : 'Generate'], [
+        ('path') : 'StatSquad/reporting/index/link_Request a custom report here', ('text') : 'Request a custom report here']]
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/link_generate-shareholders'), 'Generate')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_Financial report'))
+// Conditionally add MGT1 description if IN company
+if (currentUrl == 'https://demo.app.vestd.com/company/50915/reports') {
+	elements.add([
+		('path') : 'StatSquad/reporting/index/link_generate-MGT1',
+		('text') : 'Generate'
+	])
+}
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_Financial report'), 'Financial report')
+elements.each({ def el ->
+        // Verify element is present, visible, and has expected text
+        CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'("Object Repository/$el.path", el.text)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_financial report description'))
+        // Verify element is clickable
+        WebUI.verifyElementClickable(findTestObject("Object Repository/$el.path"))
+    })
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_financial report description'), 'This report will provide options vested, options lapsed, options exercised, reversed options and exercise requests. You will be able to select the start and end date on the next page.')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_Cap table report'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_Cap table report'), 'Cap table report')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_cap table description'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_cap table description'), 'This will take you to cap table page where you can simulate the ownership structure of your company in different scenarios.')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_Option agreement report'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_Option agreement report'), 'Option agreement report')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/index/td_option agreement description'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/index/td_option agreement description'), 'This report will provide a download of all option agreements, the status, the option holders name, option type, and other related information.')
-
-WebUI.verifyElementVisible(findTestObject('StatSquad/reporting/index/td_Expense report'))
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/index/td_Expense report'), 'Expense report')
-
-WebUI.verifyElementVisible(findTestObject('StatSquad/reporting/index/td_Expense report description'))
-
-WebUI.verifyElementText(findTestObject('StatSquad/reporting/index/td_Expense report description'), 'This report calculates stock option expenses under the selected valuation method. It includes fair values, vesting schedules, and a monthly breakdown to ensure IFRS-compliant entries for "employee compensation expense" in the annual P&L.')
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/reporting/index/link_generate-shareholders'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/reporting/index/link_generate-financial'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/reporting/index/link_generate-cap-table'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/reporting/index/link_generate-option-agreement'))
-
-WebUI.verifyElementClickable(findTestObject('StatSquad/reporting/index/link_generate-expense'))
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/reporting/index/link_Request a custom report here'))
-
-WebUI.click(findTestObject('StatSquad/reporting/index/link_Request a custom report here'))
-
+//Click "Request a custom report here" and verify new URL
+CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/reporting/index/link_Request a custom report here')
 currentWindow = WebUI.getWindowIndex()
 
 //WebUI.switchToWindowIndex(currentWindow)
@@ -128,4 +108,12 @@ WebUI.switchToWindowIndex(currentWindow + 1)
 url = WebUI.getUrl()
 
 WebUI.verifyEqual(url, 'https://usabi.li/do/1951db0cc1b3/7cf2')
+
+def verifyTableHeaders(List<String> headers, int timeout = 10) {
+    headers.each({ def header ->
+            TestObject thHeader = new TestObject().addProperty('xpath', ConditionType.EQUALS, "//th[contains(normalize-space(.), '$header')]")
+
+            WebUI.verifyElementPresent(thHeader, timeout)
+        })
+}
 

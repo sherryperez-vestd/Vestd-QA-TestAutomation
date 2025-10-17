@@ -32,9 +32,14 @@ import org.openqa.selenium.Keys as Keys
  *        - Section title, breakdown table headers (e.g., Month, Value per share).
  *        - Additional messages for GS (e.g., "Watch your share value grow!", hurdle message).
  */
-not_run: CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
+
+WebUI.setText(findTestObject('StatSquad/myEquity/awardSection/input_estimatedProfitPerShare'), '1')
+
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/_common/tab_overall-value'), 0)
 
 WebUI.click(findTestObject('StatSquad/myEquity/_common/tab_overall-value'))
 

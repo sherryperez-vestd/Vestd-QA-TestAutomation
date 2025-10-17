@@ -29,8 +29,9 @@ import org.openqa.selenium.Keys as Keys
  */
 not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
 'Login and navigate to My company admin page'
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
+WebUI.navigateToUrl(GlobalVariable.staffCompanyAdminPage)
 
 'Check option to hide/show value graph and calculator are present'
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideSettings/label_Hide My Equity calculator and graph2'), 
@@ -68,7 +69,8 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/message_Company updated'), 
     'Company updated')
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/_common/tab_Overall value'))
 
@@ -83,7 +85,8 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/
     0)
 
 // WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/div_Estimated Profit in 5 Years'))
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
+WebUI.navigateToUrl(GlobalVariable.staffCompanyAdminPage)
 
 'Set option to Hide value graph and calculator'
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/input_Hide My Equity calculator and graph'))
@@ -96,7 +99,8 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/message_Company updated'), 
     'Company updated')
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 
 'Check value graph and calculator are NOT displayed'
 WebUI.verifyElementNotPresent(findTestObject('Object Repository/StatSquad/myEquity/_common/tab_Overall value'), 0)

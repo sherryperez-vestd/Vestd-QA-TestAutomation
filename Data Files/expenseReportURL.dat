@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>expenseReportURL</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>51ba19e0-7cbd-4f67-8d24-99c0b54f5354</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>https%3A%2F%2Fdemo.app.vestd.com%2Fcompany%2F50135%2Freports%2Fexpense-report</data>
+   <data>https%3A%2F%2Fdemo.app.vestd.com%2Fcompany%2F50915%2Freports%2Fexpense-report</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>expenseReportCountryURL</name>
+      <size>2</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

@@ -28,9 +28,10 @@ import org.openqa.selenium.Keys as Keys
  * 5. Confirm the toggle is no longer visible on the My Equity page.
  * 6. Reset the setting back to "Yes" for cleanup.
  */
-not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
+WebUI.navigateToUrl(GlobalVariable.staffCompanyAdminPage)
 
 'Check \'Show diluted numbers on the My Equity page\' is set to Yes on Company page '
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideDilutedToggle/label_Show diluted numbers on the My Equity page'), 
@@ -46,10 +47,17 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideDilutedTog
 
 WebUI.verifyElementChecked(findTestObject('StatSquad/myEquity/showHideDilutedToggle/radio_Show diluted numbers Yes'), 10)
 
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 'Check Diluted Undiluted toggle is present on My Equity page'
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
+
+WebUI.setText(findTestObject('StatSquad/myEquity/awardSection/input_estimatedProfitPerShare'), '1')
+
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/_common/tab_Overall value'), 0)
 
 WebUI.click(findTestObject('StatSquad/myEquity/_common/tab_Overall value'))
+
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/showHideDilutedToggle/text_ Ownership view'), 0)
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideDilutedToggle/text_ Ownership view'), 0)
 
@@ -59,8 +67,9 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideDilutedTog
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideDilutedToggle/toggle_diluted-undiluted'), 0)
 
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
 'Check \'Show diluted numbers on the My Equity page\' is set to No on Company page '
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
+WebUI.navigateToUrl(GlobalVariable.staffCompanyAdminPage)
 
 WebUI.click(findTestObject('StatSquad/myEquity/showHideDilutedToggle/radio_Show diluted numbers No'))
 
@@ -68,8 +77,9 @@ WebUI.click(findTestObject('StatSquad/myEquity/_common/button_Save'))
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideDilutedToggle/div_Company updated'), 0)
 
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 'Check Diluted Undiluted toggle is NOT present on My Equity page'
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 
 WebUI.click(findTestObject('StatSquad/myEquity/_common/tab_Overall value'))
 
@@ -79,8 +89,9 @@ WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/showHideDiluted
 
 WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/showHideDilutedToggle/span_Diluted'), 0)
 
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
 'Set back \'Show diluted numbers on the My Equity page\' to Yes on Company page '
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
+WebUI.navigateToUrl(GlobalVariable.staffCompanyAdminPage)
 
 WebUI.click(findTestObject('StatSquad/myEquity/showHideDilutedToggle/radio_Show diluted numbers Yes'))
 

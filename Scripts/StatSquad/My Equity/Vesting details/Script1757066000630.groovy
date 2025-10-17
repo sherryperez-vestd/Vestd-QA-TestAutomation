@@ -28,7 +28,8 @@ import org.openqa.selenium.Keys as Keys
  */
 
 //CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 
 CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/span_yourVestingDetails', 'Your vesting details')
 WebUI.click(findTestObject('StatSquad/myEquity/vestingDetails/span_yourVestingDetails'))

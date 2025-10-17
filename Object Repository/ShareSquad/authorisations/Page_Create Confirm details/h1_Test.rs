@@ -6,19 +6,19 @@
    <elementGuidId>f17859bf-9eea-4a39-a979-67f6abd4aeff</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//h1[(contains(text(), 'Test'))]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//h1[@class = 'h4 mb-0' and (text() = 'Test' or . = 'Test')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h1.h4.mb-0</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(contains(text(), 'Test'))]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(contains(text(), 'Test') or contains(., 'Test')) and @data-test-id = 'header-title']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -32,31 +32,23 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>2c6856e7-2425-41f4-b31e-2e825b64bb7a</webElementGuid>
+      <value>span</value>
+      <webElementGuid>2c9eb1ba-156f-40fd-b3ba-bfa997659dbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>h4 mb-0</value>
-      <webElementGuid>74c4d4eb-3385-4aa3-a7a1-628f9fa13631</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Test</value>
-      <webElementGuid>966eb6c2-b683-45e1-a029-83129195725e</webElementGuid>
+      <webElementGuid>c28df094-5b77-4e18-9184-a3459ca39699</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>data-test-id</name>
       <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;card my-5&quot;]/div[@class=&quot;card-body bg-light&quot;]/h1[@class=&quot;h4 mb-0&quot;]</value>
-      <webElementGuid>840ebbfe-19ee-46b8-a08c-4af3a068dc6d</webElementGuid>
+      <value>header-title</value>
+      <webElementGuid>9d000cea-b270-498a-a3aa-eb91bc3763ef</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -90,8 +90,7 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Pa
 
 WebUI.click(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/a_Share pools'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/h1_Authorisations'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/h1_Authorisations'), 0)
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_Share-pools/h1_Authorisations'), 'Authorisations')
 
@@ -207,7 +206,7 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Company setti
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_App-staff'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_App-staff'), 'App - staff')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_App-staff'), 'Staff')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/img-ISO'), 0)
 

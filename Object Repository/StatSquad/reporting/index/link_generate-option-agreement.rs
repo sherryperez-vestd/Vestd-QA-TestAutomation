@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/table/tbody/tr[4]/td[3]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = 'https://demo.app.vestd.com/company/50135/distribution/download' and (text() = 'Generate' or . = 'Generate')]</value>
+         <value>//tr[td[text()='Option agreement report']]//a[(text()='Generate')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>tr:nth-of-type(4) > td:nth-of-type(3) > a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://demo.app.vestd.com/company/50135/distribution/download' and (text() = 'Generate' or . = 'Generate')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>43484046-dee5-4b48-ba6a-088d3b779602</webElementGuid>
+      <webElementGuid>7490783e-4402-4273-910b-27b353018b81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50135/distribution/download</value>
-      <webElementGuid>3a4867d8-cba2-4849-9501-437bcf9917e2</webElementGuid>
+      <webElementGuid>a5eda05a-4530-43f4-a508-d7b510678088</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,78 +49,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Generate</value>
-      <webElementGuid>0f38e02f-0765-4174-97fb-461cfa18d589</webElementGuid>
+      <webElementGuid>217e5617-0101-49f2-8eb6-10600c2a0ede</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/table/tbody/tr[4]/td[3]/a</value>
-      <webElementGuid>8c99440c-dead-41a9-8c3b-66ab08867d03</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>(//a[contains(text(),'Generate')])[4]</value>
-      <webElementGuid>d5eb8d61-704d-4385-a586-2ebb57b55b49</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Option agreement report'])[1]/following::a[1]</value>
-      <webElementGuid>eb5174f5-e28f-4f91-b986-0868985fdf9d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate'])[3]/following::a[1]</value>
-      <webElementGuid>e49a6c80-d277-4f8a-8422-cfc52c72e381</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::a[1]</value>
-      <webElementGuid>2b3b19bf-d150-484a-81ca-36b328d052cb</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[2]/preceding::a[2]</value>
-      <webElementGuid>1afc749b-215c-4794-bf8f-1119939a8ab3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50135/distribution/download')]</value>
-      <webElementGuid>4d3da5ac-9567-49f4-be89-9fe853cf6cdd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//tr[4]/td[3]/a</value>
-      <webElementGuid>61f54759-af47-4e8b-b955-eef81f880aa4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = 'https://demo.app.vestd.com/company/50135/distribution/download' and (text() = 'Generate' or . = 'Generate')]</value>
-      <webElementGuid>52367c05-20a5-4c26-9577-14b51ee8bcfe</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

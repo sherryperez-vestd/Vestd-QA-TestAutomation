@@ -31,7 +31,7 @@ import org.openqa.selenium.Keys as Keys
  */
 not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370417')
+WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/_common/tab_overall-value'))
 

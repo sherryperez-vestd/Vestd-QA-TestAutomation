@@ -8,27 +8,36 @@
    <testCaseGuid>df832ede-63f1-49fe-a419-bb86e25d53d9</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>8b30a0ac-d624-4bfb-b84a-6fcb7b82c4aa</id>
+      <id>22fe4458-d84d-42e2-b6de-5759e8768290</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
       <testDataId>Data Files/userNameData</testDataId>
    </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b7ed1736-e88e-4956-930c-2e9c90b9b4c1</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/topNavItemsData</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId>8b30a0ac-d624-4bfb-b84a-6fcb7b82c4aa</testDataLinkId>
+      <testDataLinkId>22fe4458-d84d-42e2-b6de-5759e8768290</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>userNameColumn</value>
       <variableId>20945ab0-8b2a-4006-be27-b9a4c17521b1</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>b7ed1736-e88e-4956-930c-2e9c90b9b4c1</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Object</value>
       <variableId>4369a57a-a2a4-4bb0-bdda-4a133f3960c9</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>findTestData('Data Files/userNameData')</defaultValue>
+      <defaultValue>findTestData('userNameData')</defaultValue>
       <description></description>
       <id>20945ab0-8b2a-4006-be27-b9a4c17521b1</id>
       <masked>false</masked>

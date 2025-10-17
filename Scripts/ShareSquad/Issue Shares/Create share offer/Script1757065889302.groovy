@@ -141,7 +141,7 @@ WebUI.click(findTestObject('Object Repository/CoCo/shareholders/shareholders edi
 
 WebUI.setText(findTestObject('Object Repository/CoCo/shareholders/shareholders edit details/input_Email_email'), '1@vestd.com')
 
-WebUI.click(findTestObject('Object Repository/CoCo/shareholders/shareholders edit details/div_First name Last name 2'))
+not_run: WebUI.click(findTestObject('Object Repository/CoCo/shareholders/shareholders edit details/div_First name Last name 2'))
 
 WebUI.click(findTestObject('Object Repository/CoCo/shareholders/shareholders edit details/button_Save details'))
 

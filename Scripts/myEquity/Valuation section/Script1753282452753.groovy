@@ -33,7 +33,8 @@ import org.openqa.selenium.Keys as Keys
 not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Check Company valuation history section with 0 valuations'
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50066/dashboard?user_id=285633')
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50066/dashboard?user_id=285633')
+WebUI.navigateToUrl(GlobalVariable.Valuations_0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/txt_0Valuations'), 'Valuations recorded by the company help show the actual growth of your shareholding up to today. Please contact the company to add a historical valuation.')
 
@@ -41,7 +42,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/val
 WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/valuationSection/btn_See_more'), 0)
 
 'Check Company valuation history section with 1 valuation'
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+WebUI.navigateToUrl(GlobalVariable.Valuations_1)
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tile_1Company-valuation-history'))
 
@@ -53,7 +55,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/
 WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/valuationSection/btn_See_more'), 0)
 
 'Check Company valuation history section with 2 valuations'
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/51622/dashboard?user_id=365693')
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/51622/dashboard?user_id=365693')
+WebUI.navigateToUrl(GlobalVariable.Valuations_2)
 
 // WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tile_2Company-valuation-history'), 0)
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/btn_See_more'), 0)

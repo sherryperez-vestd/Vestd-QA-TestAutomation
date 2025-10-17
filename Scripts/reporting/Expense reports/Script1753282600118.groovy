@@ -31,10 +31,11 @@ import org.openqa.selenium.Keys as Keys
 	 - Verify Download button is clickable and trigger download
  ================================================================================
  */
-not_run: CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_editor, GlobalVariable.password)
 
 'Login as Admin and navigate to expense reports page'
-WebUI.navigateToUrl(expenseReportURL_UK)
+//CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_editor, GlobalVariable.password)
+WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl(expenseReportCountryURL)
 
 // Verify static elements
 verifyStaticExpenseElements(['tooltip-icon_Beta', 'input_Day_from_date_day', 'input_Month_from_date_month', 'input_Year_from_date_year'
@@ -57,35 +58,40 @@ TestObject multiSelect = new TestObject('multiSelect')
 
 multiSelect.addProperty('xpath', ConditionType.EQUALS, '//div[contains(@class,\'multiselect-wrapper\')]')
 
-WebUI.verifyElementNotPresent(findTestObject('StatSquad/reporting/expense/li_Intrinsic value'), 0)
 
-WebUI.setText(findTestObject('StatSquad/reporting/expense/input_risk_free_rate'), '1')
 
-WebUI.setText(findTestObject('StatSquad/reporting/expense/input_Volatility'), '1')
+// Verify Intrinsic value not present if UK company
+String currentUrl = WebUI.getUrl()
+if (currentUrl == 'https://demo.app.vestd.com/company/50135/reports/expense-report') {
+	WebUI.verifyElementNotPresent(findTestObject('StatSquad/reporting/expense/li_Intrinsic value'), 0)
+	WebUI.setText(findTestObject('StatSquad/reporting/expense/input_risk_free_rate'), '1')
+	WebUI.setText(findTestObject('StatSquad/reporting/expense/input_Volatility'), '1')
+	WebUI.verifyElementClickable(findTestObject('StatSquad/reporting/btn_Download Report'))
+}
 
-WebUI.verifyElementClickable(findTestObject('StatSquad/reporting/btn_Download Report'))
 
-'Login as Admin and navigate to expense reports page'
-WebUI.navigateToUrl(expenseReportURL_IN)
+//'Login as Admin and navigate to expense reports page'
+//WebUI.navigateToUrl(expenseReportURL_IN)
+//
+//WebUI.verifyTextPresent('Black-Scholes', false)
+//
+//WebUI.click(findTestObject('StatSquad/reporting/expense/dd_IFRS pricing model'))
+//
+//WebUI.click(findTestObject('StatSquad/reporting/expense/li_Intrinsic value'))
+//
+//WebUI.verifyTextPresent('Intrinsic value', false)
+//
+//WebUI.click(findTestObject('StatSquad/reporting/btn_Download Report'))
 
-WebUI.verifyTextPresent('Black-Scholes', false)
-
-WebUI.click(findTestObject('StatSquad/reporting/expense/dd_IFRS pricing model'))
-
-WebUI.click(findTestObject('StatSquad/reporting/expense/li_Intrinsic value'))
-
-WebUI.verifyTextPresent('Intrinsic value', false)
-
-not_run: WebUI.click(findTestObject('StatSquad/reporting/btn_Download Report'))
-
-not_run: WebUI.callTestCase(findTestCase('StatSquad/Reports/Download Report'), [:], FailureHandling.STOP_ON_FAILURE /**
+//WebUI.callTestCase(findTestCase('StatSquad/Reports/Download Report'), [:], FailureHandling.STOP_ON_FAILURE )
+/**
  * Verify multiple static elements are present and visible
  * @param elements List of element IDs under "StatSquad/reporting/expense"
  */ /**
  * 
  * Verify multiple elements are present, visible, and contain expected text
  * @param elementsWithText Map of [objectPath : expectedText]
- */ )
+ */ 
 
 def verifyStaticExpenseElements(List<String> elements) {
     elements.each({ def element ->

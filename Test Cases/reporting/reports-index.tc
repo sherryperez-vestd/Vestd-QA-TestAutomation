@@ -6,4 +6,26 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>c03096fd-2470-413c-9681-1d503f410dea</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>fec62ded-1b3d-4e9f-b8e6-e195797bdbd4</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/reportsURL</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>fec62ded-1b3d-4e9f-b8e6-e195797bdbd4</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>reportsCountryURL</value>
+      <variableId>67d08365-6adf-453b-b9c2-360bcc53872d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('reportsURL')</defaultValue>
+      <description></description>
+      <id>67d08365-6adf-453b-b9c2-360bcc53872d</id>
+      <masked>false</masked>
+      <name>reportsCountryURL</name>
+   </variable>
 </TestCaseEntity>

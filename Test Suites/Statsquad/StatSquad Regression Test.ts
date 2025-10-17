@@ -4,7 +4,7 @@
    <name>StatSquad Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>swetha.yeguvapalli@vestd.com;arthur@vestd.com;minaxi.patel@vestd.com;</mailRecipient>
+   <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -75,6 +75,13 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>d6d6ec22-9b51-4d08-82d9-0a5daca3109a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StatSquad/My Equity/Convertibles breakdown</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>605e971f-6015-4b75-ad8a-2a4aec55f0a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -121,7 +128,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/reporting/reports-index</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>67d08365-6adf-453b-b9c2-360bcc53872d</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c94f0a7b-25e9-4851-a848-0397a0f3d01a</guid>
@@ -147,13 +160,7 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>6977f414-7006-4ea6-97b2-6f568f64f42a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c056ca45-9add-419b-b174-ddce5934f037</variableId>
+         <variableId>2636a5fa-e5ef-4660-97a5-d9ec704b598e</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

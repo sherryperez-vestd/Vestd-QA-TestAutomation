@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/table/tbody/tr/td[3]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = 'Generate' or . = 'Generate')]</value>
+         <value>//tr[td[text()='Shareholders report']]//a[(text()='Generate')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>td:nth-of-type(3) > a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://demo.app.vestd.com/company/50135/reports/shareholders-report' and (text() = 'Generate' or . = 'Generate')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>799fbe4a-f036-4044-848b-2f85a393e062</webElementGuid>
+      <webElementGuid>24b8fadd-47c3-4952-a86d-c53b4d5a147a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>https://demo.app.vestd.com/company/50135/reports/shareholders-report</value>
-      <webElementGuid>2c3be2a2-b65a-404d-885d-e482b0103cd2</webElementGuid>
+      <webElementGuid>ae3b4e67-d775-42d5-be64-06105e3952d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,86 +49,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Generate</value>
-      <webElementGuid>c166543b-d0c0-459b-9133-fe2328b28c27</webElementGuid>
+      <webElementGuid>b52d2e00-4fab-4ad2-b5bb-ceecfb58abc3</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/table/tbody/tr/td[3]/a</value>
-      <webElementGuid>7a727f3b-a8f1-4ed1-9835-842a4befa39e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Generate')]</value>
-      <webElementGuid>41ab5e1f-7466-4efe-a43b-73f1b76783d0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shareholders report'])[1]/following::a[1]</value>
-      <webElementGuid>7767fab2-480e-4dac-889b-7a26ef38d547</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/following::a[1]</value>
-      <webElementGuid>ef290b32-1901-4f1e-8397-83a64b1f31a2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Financial report'])[1]/preceding::a[1]</value>
-      <webElementGuid>9f525e75-41ef-4ffb-88ef-6bc3cd45e06c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Generate'])[2]/preceding::a[1]</value>
-      <webElementGuid>676d793a-a1d4-4139-8f20-31d28fb025ba</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Generate']/parent::*</value>
-      <webElementGuid>d4219dd8-6b92-42ad-9025-1b3e2c41c062</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50135/reports/shareholders-report')]</value>
-      <webElementGuid>88fdf78e-8a39-47ff-a400-1abbf46e64aa</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//td[3]/a</value>
-      <webElementGuid>eaf37b1b-8fd0-40e4-aa99-588889b976c4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = 'https://demo.app.vestd.com/company/50135/reports/shareholders-report' and (text() = 'Generate' or . = 'Generate')]</value>
-      <webElementGuid>080879ff-5108-42f8-ae25-3a08ddb06ba0</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

@@ -33,7 +33,7 @@ import org.openqa.selenium.Keys as Keys
 not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Login and navigate to My equity page'
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 
 'Check Unknown cost section elements(text, labels)'
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/txt-heading_unknown-cost'), 'Unknown cost')

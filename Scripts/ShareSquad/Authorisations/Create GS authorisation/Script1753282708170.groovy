@@ -75,9 +75,12 @@ WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/authorisati
 'Delete GS authorisation\r\n'
 WebUI.click(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create Confirm details/button_Delete'))
 
-WebUI.acceptAlert()
+'Delete GS authorisation\r\n'
+WebUI.click(findTestObject('ShareSquad/authorisations/Page_Create Confirm details/button_DeleteApproval'))
 
-WebUI.sendKeys(null, Keys.chord(Keys.ENTER))
+not_run: WebUI.acceptAlert()
+
+not_run: WebUI.sendKeys(null, Keys.chord(Keys.ENTER))
 
 WebUI.closeBrowser()
 

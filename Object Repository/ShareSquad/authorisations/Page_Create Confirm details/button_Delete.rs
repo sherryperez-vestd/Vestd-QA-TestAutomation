@@ -6,16 +6,16 @@
    <elementGuidId>a58fa1b8-a00c-4dbc-a5d2-189e7aa19e9d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-outline-danger.btn-sm</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//button[@type = 'submit' and @class = 'btn btn-outline-danger btn-sm' and @title = 'Delete share approval' and @onclick = 'return confirm(&quot;Confirm delete?&quot;)' and (text() = 'Delete' or . = 'Delete')]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-outline-danger.btn-sm</value>
+         <value>//button[@type = 'submit' and (contains(text(), 'Delete') or contains(., 'Delete'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fae57c98-e24b-40bd-9d5b-25c6aab82875</webElementGuid>
+      <webElementGuid>1b67c756-0062-474d-831e-4c3b8d92592c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,47 +41,15 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>e157576a-f793-4ae0-b4aa-8e316bb75eb4</webElementGuid>
+      <webElementGuid>db4b136c-72d2-4ad6-949c-c72cad5f7a84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-outline-danger btn-sm</value>
-      <webElementGuid>c677127e-eb71-4b11-9794-01b2d59e8eee</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Delete share approval</value>
-      <webElementGuid>403e13b5-3025-4ccd-9c8d-a9a207be2fbe</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onclick</name>
-      <type>Main</type>
-      <value>return confirm(&quot;Confirm delete?&quot;)</value>
-      <webElementGuid>7dac8613-c009-4909-aa1c-323d6ae08e7c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Delete</value>
-      <webElementGuid>c560e617-ce38-4863-aeb5-5a7455c99a89</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/button[@class=&quot;btn btn-outline-danger btn-sm&quot;]</value>
-      <webElementGuid>f81d970c-3f33-4c1e-8063-675e92f8c531</webElementGuid>
+      <webElementGuid>afcba626-9ef7-4369-a7f9-b5cae6660235</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -89,7 +57,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>d5cadb90-5cb7-43f9-b46e-801fd6a2fa1f</webElementGuid>
+      <webElementGuid>6dcf7a46-d442-4339-a4d1-b5828cf57c0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/button</value>
-      <webElementGuid>3b1fa55e-4975-41c3-a981-817cd681a01a</webElementGuid>
+      <webElementGuid>2be2f125-a96a-462b-b7f4-736736993115</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Expiry date'])[1]/following::button[1]</value>
-      <webElementGuid>5db4a02b-dd84-4224-a4f0-36ca668c54bc</webElementGuid>
+      <webElementGuid>bc753d7d-c62f-4c21-91be-017c03a24093</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shares available to distribute'])[1]/following::button[1]</value>
-      <webElementGuid>4e7b8636-643a-481f-a223-b7509b89592e</webElementGuid>
+      <webElementGuid>d08871e9-5f96-435d-9aaa-1454e30449e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::button[1]</value>
-      <webElementGuid>50ffe25d-614e-40d2-a947-d2ec297534e2</webElementGuid>
+      <webElementGuid>df03616d-c75e-4dd0-a78f-64e583e9f513</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[2]/preceding::button[2]</value>
-      <webElementGuid>548d213b-65f5-4061-973e-f66354d8744d</webElementGuid>
+      <webElementGuid>e8ddd62e-2bf2-49b0-a756-235a791ff9ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Delete']/parent::*</value>
-      <webElementGuid>a941fd30-4c35-442e-9ffa-41772285b0a8</webElementGuid>
+      <webElementGuid>cf90f173-d00f-42e5-a214-037b581ba3ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>8e022951-da43-441e-b8bb-612e4d9f63df</webElementGuid>
+      <webElementGuid>059464a4-fd96-4d52-9536-c89570e06ceb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -153,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and @title = 'Delete share approval' and (text() = 'Delete' or . = 'Delete')]</value>
-      <webElementGuid>4dc779e6-67cd-4cfe-acda-6467aa2a6e0d</webElementGuid>
+      <webElementGuid>84e5676d-678f-41cc-b95e-f9947feb027a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

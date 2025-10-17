@@ -30,10 +30,10 @@ import org.openqa.selenium.Keys as Keys
  * 5. Navigate again to Agreement Summary → perform part-cancellation of 40 shares.
  * 6. Confirm “Cancelled: 40” is displayed again on My Equity.
  */
-not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Login and navigate to My equity page'
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370192')
+WebUI.navigateToUrl(GlobalVariable.cancelledOptionsURL)
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/_common/span_summayBarChevron'))
 
@@ -70,7 +70,7 @@ WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/cancelledDeferr
 
 WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/cancelledDeferred/myEquityPage/strong_40'), 0)
 
-'Go to summary agreement and part cancell some option'
+'Go to summary agreement and part cancel some option'
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelledDeferred/myEquityPage/a_View agreement summary'))
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/cancelledDeferred/agreementsPage/a_Part cancel this option'))

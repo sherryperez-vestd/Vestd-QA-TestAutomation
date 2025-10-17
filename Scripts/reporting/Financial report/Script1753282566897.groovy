@@ -33,7 +33,7 @@ import org.openqa.selenium.Keys as Keys
  *    https://demo.app.vestd.com/company/50135/temporary-file
  * 7. Validate presence of expiry message and "Download" button on temporary file page.
  */
-not_run: CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_editor, GlobalVariable.password)
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_editor, GlobalVariable.password)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports/financial-report')
 

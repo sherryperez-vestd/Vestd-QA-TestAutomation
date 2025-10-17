@@ -44,7 +44,7 @@ import com.kms.katalon.core.testdata.TestData as TestData
 
 // -------------------- LOGIN --------------------
 // Log in using staff credentials
-not_run: CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
 // Navigate to the Waterfall Modelling page
 WebUI.navigateToUrl(appURL)
@@ -114,8 +114,8 @@ CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/waterfallM
 
 CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/waterfallModelling/li_INR')
 
-WebUI.verifyTextPresent('Exit amount (₹)', false) // -------------------- FUNCTIONS --------------------
-/**
+WebUI.verifyTextPresent('Exit amount (₹)', false // -------------------- FUNCTIONS --------------------
+    ) /**
  * Verifies that table headers are present on the page.
  * Dynamically creates a TestObject for each header.
  *

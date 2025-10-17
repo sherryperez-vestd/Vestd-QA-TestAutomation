@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'sherry.perez@vestd.com'</initValue>
+      <initValue>'sherry.perez+staff@vestd.com'</initValue>
       <name>username_staff</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -43,5 +43,90 @@
       <description></description>
       <initValue>'Radhika@123'</initValue>
       <name>password2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50915/reports'</initValue>
+      <name>reportIndexURL_IN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50135/reports'</initValue>
+      <name>reportIndexURL_UK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50135/dashboard?user_id=365431'</initValue>
+      <name>EMIVestingGraphURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50135/dashboard?user_id=370417'</initValue>
+      <name>UOVestingGraphURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50135/dashboard?user_id=370432'</initValue>
+      <name>CSOPVestingGraphURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50915/dashboard?user_id=370324'</initValue>
+      <name>ESOPVestingGraphURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50135/dashboard?user_id=370451'</initValue>
+      <name>GSVestingGraphURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50135/dashboard?user_id=382358 '</initValue>
+      <name>CSVestingGraphURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50135/dashboard?user_id=370449'</initValue>
+      <name>phantomVestingGraphURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50135/dashboard?user_id=396401'</initValue>
+      <name>allGraphURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50135/admin'</initValue>
+      <name>staffCompanyAdminPage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50135/dashboard?user_id=370192'</initValue>
+      <name>cancelledOptionsURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50915/dashboard?user_id=370324'</initValue>
+      <name>buybackWindowURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50915/dashboard?user_id=370447'</initValue>
+      <name>buybackOptionsURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50066/dashboard?user_id=285633'</initValue>
+      <name>Valuations_0</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50135/dashboard?user_id=365431'</initValue>
+      <name>Valuations_1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.app.vestd.com/company/51622/dashboard?user_id=365693'</initValue>
+      <name>Valuations_2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

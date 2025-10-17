@@ -19,7 +19,7 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import com.kms.katalon.core.testdata.TestData as TestData
 
 // Login
-not_run: CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
 // ------------------  EMI  ----------------------------
 WebUI.navigateToUrl(shareMovementHistoryURL)
@@ -105,8 +105,8 @@ CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatS
 WebUI.click(findTestObject('StatSquad/dataTable/div_xClearFilter'))
 
 verifyTableHeaders(headersToCheck //WebUI.verifyTextPresent('2 entries', true)
-    ) // Verify header text
-// Verify sortable icon div inside header
+    // Verify header text
+    ) // Verify sortable icon div inside header
 
 def verifyTableHeaders(List<String> headers, int timeout = 10) {
     headers.each({ def header ->

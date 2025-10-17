@@ -76,9 +76,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/ShareSquad/authorisati
 'Delete share authorisation'
 WebUI.click(findTestObject('Object Repository/ShareSquad/authorisations/Page_Create Confirm details/button_Delete'))
 
-WebUI.acceptAlert()
-
-WebUI.sendKeys(null, Keys.chord(Keys.ENTER))
+'Delete share authorisation'
+WebUI.click(findTestObject('ShareSquad/authorisations/Page_Create Confirm details/button_DeleteApproval'))
 
 WebUI.closeBrowser()
 

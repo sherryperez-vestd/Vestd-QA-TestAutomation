@@ -6,30 +6,26 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>8f302456-975d-4c15-8bd8-f37ec4b69f12</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b0a4eb13-31d1-46bf-8e33-feb3315b6a0c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/expenseReportURL</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>6977f414-7006-4ea6-97b2-6f568f64f42a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>c056ca45-9add-419b-b174-ddce5934f037</variableId>
+      <testDataLinkId>b0a4eb13-31d1-46bf-8e33-feb3315b6a0c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expenseReportCountryURL</value>
+      <variableId>2636a5fa-e5ef-4660-97a5-d9ec704b598e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'https://demo.app.vestd.com/company/50135/reports/expense-report'</defaultValue>
+      <defaultValue>findTestData('expenseReportURL')</defaultValue>
       <description></description>
-      <id>6977f414-7006-4ea6-97b2-6f568f64f42a</id>
+      <id>2636a5fa-e5ef-4660-97a5-d9ec704b598e</id>
       <masked>false</masked>
-      <name>expenseReportURL_UK</name>
-   </variable>
-   <variable>
-      <defaultValue>'https://demo.app.vestd.com/company/50915/reports/expense-report'</defaultValue>
-      <description></description>
-      <id>c056ca45-9add-419b-b174-ddce5934f037</id>
-      <masked>false</masked>
-      <name>expenseReportURL_IN</name>
+      <name>expenseReportCountryURL</name>
    </variable>
 </TestCaseEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[(text() = '0.0050%' or . = '0.0050%')]</value>
+         <value>//strong[(contains(text(), '0.0055%') or contains(., '0.0055%'))]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -28,28 +28,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>strong</value>
-      <webElementGuid>a3ec13e3-7a07-4989-8388-9d21f87c1caf</webElementGuid>
+      <webElementGuid>ae14c30b-610a-4ef3-b112-4628f365748e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>0.0050%</value>
-      <webElementGuid>96a7deca-f2d8-42b8-9dcf-171b4845645d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;uYSvIiTQ9VRLZ2CL&quot;)/div[@class=&quot;modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;share-issue-transaction&quot;]/div[@class=&quot;col mb-2&quot;]/ul[@class=&quot;mt-1 list-unstyled&quot;]/li[4]/strong[1]</value>
-      <webElementGuid>354788cc-a26a-4302-a3d2-fc2b0209e635</webElementGuid>
+      <value>0.0055%</value>
+      <webElementGuid>529d6024-b3bb-4744-9a55-5219a98b5ff1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='uYSvIiTQ9VRLZ2CL']/div/div/div[2]/div/div/ul/li[4]/strong</value>
-      <webElementGuid>2a6293f5-35dc-4520-849b-3f118750e7db</webElementGuid>
+      <webElementGuid>d325dc3a-3083-498c-a673-fa4874a7dfcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Shares with equity rights:'])[1]/following::strong[1]</value>
-      <webElementGuid>733a8299-3f35-464b-a918-ab94cd6de9b3</webElementGuid>
+      <webElementGuid>4ea169c2-ecc5-4c9e-bd0e-651b41814fff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Price paid per share:'])[1]/preceding::strong[1]</value>
-      <webElementGuid>4a0233ad-a8de-4428-a7f8-79306038647a</webElementGuid>
+      <webElementGuid>fd2e5556-7d43-4781-af2f-7165ef98c0ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='£1.00'])[1]/preceding::strong[1]</value>
-      <webElementGuid>a8a14e3c-09fd-4810-83a3-69241ff107b9</webElementGuid>
+      <webElementGuid>790dc874-67a9-4e40-94d3-a799d6072183</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='0.0050%']/parent::*</value>
-      <webElementGuid>6be2a4b8-d5fc-4dcc-8d4c-50e8ecc7e91b</webElementGuid>
+      <webElementGuid>33be2ea0-2f99-4f49-828b-449f0f97b2f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/strong</value>
-      <webElementGuid>af40d3fa-9344-4cb8-84a3-3ab5307a1b7b</webElementGuid>
+      <webElementGuid>4c623803-1dae-405c-bb86-01b7c7d2f425</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//strong[(text() = '0.0050%' or . = '0.0050%')]</value>
-      <webElementGuid>012f0ff6-cc03-4e5c-97c9-54c627cf5302</webElementGuid>
+      <webElementGuid>3bdaa690-99b3-47a6-b520-8356a3828488</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

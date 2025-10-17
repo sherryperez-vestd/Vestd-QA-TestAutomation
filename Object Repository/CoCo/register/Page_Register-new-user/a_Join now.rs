@@ -6,54 +6,34 @@
    <elementGuidId>5915f63e-2917-4290-b977-3cc14eb19946</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//main[@id='app']/div/div[2]/div/div/p/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.btn.btn-primary.btn-lg.mb-0</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Join now' or . = 'Join now')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='app']/div/div[2]/div/div/p/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
          <value>internal:role=button[name=&quot;Join now&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1cc9ff06-b2d6-481b-9377-8ba16d5c7ccd</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary btn-lg mb-0</value>
-      <webElementGuid>9d5bfbe8-6369-49e6-baa9-61beddb68cd0</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>https://demo.app.vestd.com/register</value>
-      <webElementGuid>db208bdc-6241-46b7-8166-e23ba0e8e612</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>da63a0be-2e82-45ef-ae2b-84c890e4a441</webElementGuid>
+      <webElementGuid>adb8a39d-7f3d-4e2d-b742-343f4d1cc19b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,15 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Join now</value>
-      <webElementGuid>9924680e-cd42-408c-8f8d-b858eb32aeb4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;hero-form-container&quot;]/div[@class=&quot;right-side&quot;]/div[@class=&quot;right-side-content&quot;]/div[@class=&quot;d-flex justify-content-between align-items-center&quot;]/p[1]/a[@class=&quot;btn btn-primary btn-lg mb-0&quot;]</value>
-      <webElementGuid>247edf18-e196-4901-8c38-4bcbccd40430</webElementGuid>
+      <webElementGuid>17399a77-21c4-4e02-87c1-bb65861ee4f1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='app']/div/div[2]/div/div/p/a</value>
-      <webElementGuid>93d00df9-97da-452d-9a16-d9c4c75b1268</webElementGuid>
+      <webElementGuid>01fea8ad-9cbb-40c4-906f-0a28b7acf90f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +57,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Join now')]</value>
-      <webElementGuid>3f930abf-1cec-4437-b8fc-0a94d7830a11</webElementGuid>
+      <webElementGuid>de497674-ab05-44be-932b-83d2c2799290</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome'])[1]/following::a[1]</value>
-      <webElementGuid>ed7e5efa-6944-4cde-84e1-e94af5a89974</webElementGuid>
+      <webElementGuid>4010b8ab-c5b0-4c90-971c-9376495af18e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='The sharetech platform.'])[1]/following::a[1]</value>
-      <webElementGuid>3cc06017-59e0-4d82-b1fd-fe0f93c4ea74</webElementGuid>
+      <webElementGuid>fcf36e51-1f5a-47ef-9e73-69dcb799a655</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='or'])[1]/preceding::a[1]</value>
-      <webElementGuid>0c3b7e20-27b7-48f6-ac8c-77ea49acd500</webElementGuid>
+      <webElementGuid>adbb4252-b78c-43f5-8f8c-222cdab9d84e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start a demo'])[1]/preceding::a[1]</value>
-      <webElementGuid>fba4d6bd-9735-443d-9cc7-17b579219e16</webElementGuid>
+      <webElementGuid>dcafea47-24e8-4867-8281-ff9bd4f872aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Join now']/parent::*</value>
-      <webElementGuid>9c65b463-29de-41d7-9d05-5bda93944df4</webElementGuid>
+      <webElementGuid>25051cb5-5a56-4aac-ae34-25833cb18451</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +105,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://demo.app.vestd.com/register')]</value>
-      <webElementGuid>da35e29b-ca40-4fc3-9bb9-c8ed5d25f6ff</webElementGuid>
+      <webElementGuid>cdec17cb-ac1b-4f7a-a3b9-73a1471b138c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p/a</value>
-      <webElementGuid>a8637a1f-c973-4c68-8c70-70a7d837e435</webElementGuid>
+      <webElementGuid>3a4b220d-6ffc-4aaf-bdcd-b704db468b38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://demo.app.vestd.com/register' and (text() = 'Join now' or . = 'Join now')]</value>
-      <webElementGuid>078a1279-cb8a-43b4-973c-dafd4e8e1b2e</webElementGuid>
+      <webElementGuid>5b4f984d-71e6-43e3-9dc0-1b262f4b3082</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

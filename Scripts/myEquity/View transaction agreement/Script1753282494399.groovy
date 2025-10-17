@@ -28,62 +28,80 @@ import org.openqa.selenium.Keys as Keys
  *    - Ensure values (e.g., shares issued, price paid) match expected text.
  * 4. Close the modal and confirm that post-close elements (e.g., "View agreement summary") are visible.
  */
+WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 'Login and navigate to My equity page'
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 
 'Check View transactions history window elements (labels and values)'
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/chevron_summary bar'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_View transactions'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_View transactions'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_View transactions'), 
+    0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_View transactions'), 'View transactions')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_View transactions'), 
+    'View transactions')
 
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_View transactions'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/h5_Transaction History'))
 
 // WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/h5_Transaction History'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/h5_Transaction History'), 'Transaction History')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/h5_Transaction History'), 
+    'Transaction History')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/p_250 Ordinary shares'))
 
+WebUI.verifyTextPresent('-100 Ordinary shares', false)
+
+WebUI.verifyTextPresent('Redeemed on: 17th Oct 2025', false)
+
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/p_250 Ordinary shares'), 
+    0)
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/p_250 Ordinary shares'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/p_250 Ordinary shares'), '250 Ordinary shares')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Transaction'))
-
-// WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Transaction'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Transaction'), 'Transaction:')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/p_250 Ordinary shares'), 
+    '250 Ordinary shares')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_Transaction_Number'))
 
 // WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_Transaction_Number'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_Transaction_Number'), '2')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_Transaction_Number'), 
+    '3')
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Transaction'))
+
+// WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Transaction'), 0)
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Transaction'), 
+    'Transaction:')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Related to'))
 
 // WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Related to'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Related to'), 'Related to:')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Related to'), 
+    'Related to:')
 
 WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_FTest LTest option'))
 
 // WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_FTest LTest option'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_FTest LTest option'), 'FTest LTest option')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_FTest LTest option'), 
+    'FTest LTest option')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Share issue'))
 
 // WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Share issue'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Share issue'), 'Share issue:')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Share issue'), 
+    'Share issue:')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_250 Ordinary (voting)'))
 
 // WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_250 Ordinary (voting)'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_250 Ordinary (voting)'), '250 Ordinary (voting)')
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_250 Ordinary (voting)'), 
+    '250 Ordinary (voting)')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Shares with equity rights'))
 
@@ -95,7 +113,7 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/
 
 // WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_0.0050'), 0)
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_0.0050'), 
-    '0.0050%')
+    '0.0055%')
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_Price paid per share'))
 

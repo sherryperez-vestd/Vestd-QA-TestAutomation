@@ -26,9 +26,7 @@ import org.openqa.selenium.Keys as Keys
  * 3. Verify the heading text, eligibility message, and presence of the "View offer" link.
  * 4. Ensure the "View offer" link is clickable.
  */
-
-//WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50915/dashboard?user_id=370324')
+WebUI.navigateToUrl(GlobalVariable.buybackWindowURL)
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/buyback/alert buyback'), 0)
 

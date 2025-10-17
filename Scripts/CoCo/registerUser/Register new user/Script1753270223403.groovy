@@ -21,6 +21,12 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/')
 
+WebUI.maximizeWindow()
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Coco/register/Page_Register-new-user/a_Join now')
+CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Coco/register/Page_Register-new-user/a_StartUKDemo')
+CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Coco/register/Page_Register-new-user/a_StartIndiaDemo')
+
 WebUI.click(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/a_Join now'))
 
 WebUI.setText(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/input_First name_given_name'), 'test')
@@ -31,7 +37,8 @@ WebUI.setText(findTestObject('Object Repository/CoCo/register/Page_Register-new-
 
 WebUI.setText(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/input_Email address_email'), 'sherry.perez+new@vestd.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/input_Password_password'), 'BXwrjJCMvIr67Y1Dtu7MbQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/input_Password_password'), 
+    'BXwrjJCMvIr67Y1Dtu7MbQ==')
 
 WebUI.click(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/span_Role_multiselect-caret is-open'))
 
@@ -43,9 +50,11 @@ WebUI.click(findTestObject('Object Repository/CoCo/register/Page_Register-new-us
 
 WebUI.click(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/button_Join'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/register/Page_Verify email - Vestd/div_You should have received a verification_b4194e'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/register/Page_Verify email - Vestd/div_You should have received a verification_b4194e'), 
+    0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/CoCo/register/Page_Verify email - Vestd/div_You should have received a verification_b4194e'), 'You should have received a verification email to the address provided below. Please follow the link to verify your email.')
+WebUI.verifyElementText(findTestObject('Object Repository/CoCo/register/Page_Verify email - Vestd/div_You should have received a verification_b4194e'), 
+    'You should have received a verification email to the address provided below. Please follow the link to verify your email.')
 
 WebUI.closeBrowser()
 

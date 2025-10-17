@@ -10,11 +10,15 @@
          <value>//div[@id='main-content-wrapper']/div/div/p/a</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = '&lt; Back to list of share issues' or . = '&lt; Back to list of share issues')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>p > a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -24,36 +28,20 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>853c1a03-e4a7-45cb-a36d-e692a1c903f9</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>https://demo.app.vestd.com/company/50934/share-offer</value>
-      <webElementGuid>4a146841-7693-431f-bdbc-2383a4ea0a18</webElementGuid>
+      <webElementGuid>520364a3-3ce6-45b6-b7a8-2bc11dded069</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Back to list of share distributions</value>
-      <webElementGuid>c62087c2-56e6-4db2-99ed-150c2a2ef960</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/p[1]/a[1]</value>
-      <webElementGuid>3f31a63d-0758-4f7a-bc49-9759dd071e30</webElementGuid>
+      <value>&lt; Back to list of share issues</value>
+      <webElementGuid>cfd1ca12-d978-4d66-a523-e480ed1fcc72</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/p/a</value>
-      <webElementGuid>d52eb7e4-1a75-4015-85f8-b537c0212114</webElementGuid>
+      <webElementGuid>df31c963-1b0e-4efd-8b53-8123cecb1aab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +57,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Back to list of share distributions')]</value>
-      <webElementGuid>01c3cd07-4126-4053-a69c-6c6e23f12460</webElementGuid>
+      <webElementGuid>36b77daa-9285-4403-886b-1f775081808b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company settings'])[1]/following::a[1]</value>
-      <webElementGuid>fbc0b17e-26c2-427f-a9c0-283ba243a8a3</webElementGuid>
+      <webElementGuid>81bde9da-6d72-41ca-9fb6-ffd255be59f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Share offer summary'])[1]/preceding::a[1]</value>
-      <webElementGuid>ef1943fd-206c-4036-9d38-d3fa246f1981</webElementGuid>
+      <webElementGuid>5394c8ba-bb31-44e0-a1c6-4e6f13a3946b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Back to list of share distributions']/parent::*</value>
-      <webElementGuid>2301092f-65a3-4840-9d2e-9183106e4a72</webElementGuid>
+      <webElementGuid>cec84ddd-3071-4be3-bc69-b9e70ff734fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +89,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'https://demo.app.vestd.com/company/50934/share-offer')])[2]</value>
-      <webElementGuid>54857933-7ed7-48a7-a337-d061c208a4d7</webElementGuid>
+      <webElementGuid>36829fa2-8de7-4dfa-970a-b1d91a760a1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p/a</value>
-      <webElementGuid>c1f5f0b0-315d-41ea-b864-4d301b0f52aa</webElementGuid>
+      <webElementGuid>420d8122-95a7-471b-a9cd-b93343ce64cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://demo.app.vestd.com/company/50934/share-offer' and (text() = 'Back to list of share distributions' or . = 'Back to list of share distributions')]</value>
-      <webElementGuid>48d1cb1d-07d4-4ca2-afa2-8a32788c3175</webElementGuid>
+      <webElementGuid>869bc720-88bc-495b-ac81-872ef27a8f7c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

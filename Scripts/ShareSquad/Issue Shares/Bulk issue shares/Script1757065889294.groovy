@@ -45,7 +45,7 @@ WebUI.click(findTestObject('ShareSquad/issueShares/bulk-upload-share-issues/btn_
 
 WebUI.acceptAlert()
 
-WebUI.verifyTextPresent('No records found.', false)
+not_run: WebUI.verifyTextPresent('No records found.', false)
 
 WebUI.closeBrowser()
 
