@@ -28,13 +28,14 @@ import org.openqa.selenium.Keys as Keys
  * 3. Verify redirection to the correct Cap Table URL:
  *    https://demo.app.vestd.com/company/50135/cap-table
  */
-not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+//not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_editor, GlobalVariable.password)
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
+WebUI.navigateToUrl(GlobalVariable.reportIndexURL_UK)
 
 WebUI.click(findTestObject('StatSquad/reporting/index/link_generate-cap-table'))
 
 url = WebUI.getUrl()
+WebUI.verifyEqual(url.contains('cap-table'), true)
 
-WebUI.verifyEqual(url, 'https://demo.app.vestd.com/company/50135/cap-table')
 

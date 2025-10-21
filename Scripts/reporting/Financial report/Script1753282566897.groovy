@@ -35,7 +35,9 @@ import org.openqa.selenium.Keys as Keys
  */
 CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_editor, GlobalVariable.password)
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports/financial-report')
+WebUI.navigateToUrl(GlobalVariable.reportIndexURL_UK)
+
+WebUI.click(findTestObject('StatSquad/reporting/index/link_generate-financial'))
 
 // Verify static elements
 ['input_Day_from_date_day', 'input_Month_from_date_month', 'input_Year_from_date_year'].each({ 
@@ -84,37 +86,4 @@ WebUI.setText(findTestObject('StatSquad/reporting/financial/input_Year_to_date_y
 
 CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/reporting/btn_Download Report')
 
-url = WebUI.getUrl()
-
-split_url = url.split('/')
-
-removedurlchars = (split_url[(split_url.size() - 1)])
-
-partial_url = url.minus(removedurlchars)
-
-WebUI.verifyEqual(partial_url, 'https://demo.app.vestd.com/company/50135/job-monitor/')
-
-WebUI.delay(20)
-
-url = WebUI.getUrl()
-
-WebUI.verifyEqual(url, 'https://demo.app.vestd.com/company/50135/temporary-file')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/h1_Temporary files'), 0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/h1_Temporary files'), 'Temporary files')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/label_Expires in 23 hours'), 
-    0)
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/label_Expires in 23 hours'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/label_Expires in 23 hours'), 
-    'Expires in 23 hours')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/btn_Download'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/btn_Download'), 0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/btn_Download'), 'Download')
-
+CustomKeywords.'UIKeywords.verifyTemporaryFileDownloadPage'()

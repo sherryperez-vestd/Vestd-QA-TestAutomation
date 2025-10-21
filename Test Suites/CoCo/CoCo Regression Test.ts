@@ -4,39 +4,13 @@
    <name>CoCo Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>radhika.chaudhary@vestd.com;swetha.yeguvapalli@vestd.com;arthur@vestd.com;imran.iqbal@vestd.com;hester.griffin@vestd.com;</mailRecipient>
+   <mailRecipient>radhika.chaudhary@vestd.com;swetha.yeguvapalli@vestd.com;arthur@vestd.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>096a8a98-ff15-44e4-ac36-7cff33f82370</testSuiteGuid>
-   <testCaseLink>
-      <guid>7330aa1b-f86d-435b-b991-d4dd53604158</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/registerUser/Register new user</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1d90f0e1-05c7-4422-9827-5f755dff1403</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/navigationMenu/Staff-Editor-Recipient Top navigation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>20945ab0-8b2a-4006-be27-b9a4c17521b1</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4369a57a-a2a4-4bb0-bdda-4a133f3960c9</variableId>
-      </variableLink>
-   </testCaseLink>
    <testCaseLink>
       <guid>0f43333e-503e-4b59-a8a5-a9659ac91b5d</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -141,6 +115,25 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/CoCo/director/Resign director</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1d90f0e1-05c7-4422-9827-5f755dff1403</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CoCo/navigationMenu/Staff-Editor-Recipient Top navigation</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>20945ab0-8b2a-4006-be27-b9a4c17521b1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4369a57a-a2a4-4bb0-bdda-4a133f3960c9</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3d045fdc-7bf9-47d6-9f72-9e2613aacf98</guid>

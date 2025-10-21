@@ -31,9 +31,9 @@ import org.openqa.selenium.Keys as Keys
  *    https://demo.app.vestd.com/company/50135/temporary-file
  * 5. Validate presence of "Temporary files" header, expiry message, and final "Download" button.
  */
-
 //WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/reports')
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_editor, GlobalVariable.password)
+WebUI.navigateToUrl(GlobalVariable.reportIndexURL_UK)
 
 WebUI.click(findTestObject('StatSquad/reporting/index/link_generate-shareholders'))
 
@@ -59,37 +59,5 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/reporti
 
 WebUI.click(findTestObject('Object Repository/StatSquad/reporting/shareholders/btn_Download Report'))
 
-url = WebUI.getUrl()
-
-split_url = url.split('/')
-
-removedurlchars = (split_url[(split_url.size() - 1)])
-
-partial_url = url.minus(removedurlchars)
-
-WebUI.verifyEqual(partial_url, 'https://demo.app.vestd.com/company/50135/job-monitor/')
-
-WebUI.delay(20)
-
-url = WebUI.getUrl()
-
-WebUI.verifyEqual(url, 'https://demo.app.vestd.com/company/50135/temporary-file')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/h1_Temporary files'), 0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/h1_Temporary files'), 'Temporary files')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/label_Expires in 23 hours'), 
-    0)
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/label_Expires in 23 hours'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/label_Expires in 23 hours'), 
-    'Expires in 23 hours')
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/btn_Download'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/btn_Download'), 0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/reporting/temporaryFile/btn_Download'), 'Download')
+CustomKeywords.'UIKeywords.verifyTemporaryFileDownloadPage'()
 

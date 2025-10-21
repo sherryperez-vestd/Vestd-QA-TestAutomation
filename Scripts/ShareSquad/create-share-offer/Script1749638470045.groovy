@@ -147,9 +147,9 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/share-certificate'
 
 WebUI.refresh()
 
-WebUI.click(findTestObject('CoSec/shareCertificates/icon_Delete'))
+WebUI.click(findTestObject('CoCo/CoSec/shareCertificates/icon_Delete'))
 
-WebUI.click(findTestObject('CoSec/shareCertificates/button_ConfirmDelete'))
+WebUI.click(findTestObject('CoCo/CoSec/shareCertificates/button_ConfirmDelete'))
 
 WebUI.closeBrowser()
 

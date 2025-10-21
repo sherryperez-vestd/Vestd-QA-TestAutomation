@@ -27,7 +27,7 @@ import org.openqa.selenium.Keys as Keys
  * 4. Set the toggle to "Hide", save changes, and confirm the graph/calculator is not displayed on the recipient dashboard.
  * 5. Reset the toggle to "Show" for cleanup.
  */
-not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
 'Login and navigate to My company admin page'

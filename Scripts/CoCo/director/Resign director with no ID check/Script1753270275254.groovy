@@ -23,15 +23,15 @@ WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-editor'), [:]
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/director')
 
-WebUI.click(findTestObject('CoSec/directors/a_Directorname'))
+WebUI.click(findTestObject('CoCo/CoSec/directors/a_Directorname'))
 
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/a_Resign'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/CoSec/directors/a_Resign'), 0)
 
-WebUI.verifyElementText(findTestObject('CoSec/directors/a_Resign'), 'Resign')
+WebUI.verifyElementText(findTestObject('CoCo/CoSec/directors/a_Resign'), 'Resign')
 
-WebUI.verifyElementNotPresent(findTestObject('CoSec/directors/th_Resigned'), 0)
+WebUI.verifyElementNotPresent(findTestObject('CoCo/CoSec/directors/th_Resigned'), 0)
 
-WebUI.click(findTestObject('CoSec/directors/a_Resign'))
+WebUI.click(findTestObject('CoCo/CoSec/directors/a_Resign'))
 
 //// Get calendar instance with current date
 //Calendar calendar = Calendar.getInstance()
@@ -46,36 +46,36 @@ WebUI.click(findTestObject('CoSec/directors/a_Resign'))
 //// Print to console (optional)
 ////println("Incremented day is: " + incrementedDay)
 //
-//WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), incrementedDay)
-WebUI.setText(findTestObject('CoSec/directors/input_ResignDay'), '5')
+//WebUI.setText(findTestObject('CoCo/CoSec/directors/input_ResignDay'), incrementedDay)
+WebUI.setText(findTestObject('CoCo/CoSec/directors/input_ResignDay'), '5')
 
-WebUI.setText(findTestObject('CoSec/directors/input_ResignMonth'), '2')
+WebUI.setText(findTestObject('CoCo/CoSec/directors/input_ResignMonth'), '2')
 
-WebUI.setText(findTestObject('CoSec/directors/input_ResignYear'), '2025')
+WebUI.setText(findTestObject('CoCo/CoSec/directors/input_ResignYear'), '2025')
 
-WebUI.check(findTestObject('CoSec/directors/input_checkboxActions'))
+WebUI.check(findTestObject('CoCo/CoSec/directors/input_checkboxActions'))
 
-WebUI.click(findTestObject('CoSec/directors/btn_ResignDirector'))
+WebUI.click(findTestObject('CoCo/CoSec/directors/btn_ResignDirector'))
 
-WebUI.click(findTestObject('CoSec/directors/btn_ResignConfirm'))
+WebUI.click(findTestObject('CoCo/CoSec/directors/btn_ResignConfirm'))
 
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/alert_Director resigned'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/CoSec/directors/alert_Director resigned'), 0)
 
-WebUI.verifyElementText(findTestObject('CoSec/directors/alert_Director resigned'), 'Director resigned.')
+WebUI.verifyElementText(findTestObject('CoCo/CoSec/directors/alert_Director resigned'), 'Director resigned.')
 
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/label_Resigned'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/CoSec/directors/label_Resigned'), 0)
 
-WebUI.verifyElementText(findTestObject('CoSec/directors/label_Resigned'), 'Resigned')
+WebUI.verifyElementText(findTestObject('CoCo/CoSec/directors/label_Resigned'), 'Resigned')
 
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/th_Resigned'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/CoSec/directors/th_Resigned'), 0)
 
-WebUI.verifyElementText(findTestObject('CoSec/directors/th_Resigned'), 'Resigned')
+WebUI.verifyElementText(findTestObject('CoCo/CoSec/directors/th_Resigned'), 'Resigned')
 
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/a_Reappoint'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/CoSec/directors/a_Reappoint'), 0)
 
-WebUI.verifyElementText(findTestObject('CoSec/directors/a_Reappoint'), 'Reappoint')
+WebUI.verifyElementText(findTestObject('CoCo/CoSec/directors/a_Reappoint'), 'Reappoint')
 
-WebUI.click(findTestObject('CoSec/directors/a_Reappoint'))
+WebUI.click(findTestObject('CoCo/CoSec/directors/a_Reappoint'))
 
 //// Get calendar instance with current date
 //Calendar calendar2 = Calendar.getInstance()
@@ -87,24 +87,24 @@ WebUI.click(findTestObject('CoSec/directors/a_Reappoint'))
 //SimpleDateFormat dayFormat = new SimpleDateFormat("dd")
 //String incrementedDay2 = dayFormat.format(calendar2.getTime())
 //
-//WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), incrementedDay2)
-WebUI.setText(findTestObject('CoSec/directors/input_appointedDay'), '6')
+//WebUI.setText(findTestObject('CoCo/CoSec/directors/input_appointedDay'), incrementedDay2)
+WebUI.setText(findTestObject('CoCo/CoSec/directors/input_appointedDay'), '6')
 
-WebUI.setText(findTestObject('CoSec/directors/input_appointedMonth'), '2')
+WebUI.setText(findTestObject('CoCo/CoSec/directors/input_appointedMonth'), '2')
 
-WebUI.setText(findTestObject('CoSec/directors/input_appointedYear'), '2025')
+WebUI.setText(findTestObject('CoCo/CoSec/directors/input_appointedYear'), '2025')
 
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/btn_Reappoint'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/CoSec/directors/btn_Reappoint'), 0)
 
-WebUI.click(findTestObject('CoSec/directors/btn_Reappoint'))
+WebUI.click(findTestObject('CoCo/CoSec/directors/btn_Reappoint'))
 
 WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/alert_Director reappointment'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/CoSec/directors/alert_Director reappointment'), 0)
 
-WebUI.verifyElementText(findTestObject('CoSec/directors/alert_Director reappointment'), 'Director reappointment started.')
+WebUI.verifyElementText(findTestObject('CoCo/CoSec/directors/alert_Director reappointment'), 'Director reappointment started.')
 
-WebUI.verifyElementPresent(findTestObject('CoSec/directors/th_Appointed'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/CoSec/directors/th_Appointed'), 0)
 
 WebUI.closeBrowser()
 

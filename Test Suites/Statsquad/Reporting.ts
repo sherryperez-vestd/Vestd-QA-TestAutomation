@@ -12,19 +12,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>a6c3dd2d-542a-4dfc-b9d6-93d3d92ff51a</testSuiteGuid>
    <testCaseLink>
-      <guid>63b45148-6bfc-4a57-a1ce-0891d051ed9b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/reporting/reports-index</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>67d08365-6adf-453b-b9c2-360bcc53872d</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>ff8890c5-a0a2-4003-b046-be5b90fe5a1f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -49,27 +36,7 @@
       <guid>d929f48a-e177-45e1-b7d5-f4b00ae072fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/reporting/Option agreement reports</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b8caa156-b12a-4c98-a35c-45750ac1ce2d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/reporting/Expense reports</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>2636a5fa-e5ef-4660-97a5-d9ec704b598e</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a612e826-5868-46b8-ac48-476aa2fc0e16</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/reporting/Expense change settings</testCaseId>
+      <testCaseId>Test Cases/reporting/Option agreement report</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -80,10 +47,10 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>929da512-3e8a-4d94-a3ed-6613dbced3a1</guid>
+      <guid>aae48bf2-3254-4064-aecd-9bb77cdc8e3c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/reporting/Financial report</testCaseId>
+      <testCaseId>Test Cases/StatSquad/Reports/Employee report</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

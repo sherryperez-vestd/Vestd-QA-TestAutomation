@@ -25,15 +25,15 @@ WebUI.navigateToUrl('https://demo.app.vestd.com/login')
 
 WebUI.takeFullPageScreenshotAsCheckpoint('login-page')
 
-WebUI.setText(findTestObject('Object Repository/CoCo/login/input_email'), 'sherry.perez@vestd.com')
+WebUI.setText(findTestObject('Object Repository/Platform/login/input_email'), 'sherry.perez@vestd.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CoCo/login/input_password'), 'BXwrjJCMvIr67Y1Dtu7MbQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Platform/login/input_password'), 'BXwrjJCMvIr67Y1Dtu7MbQ==')
 
-WebUI.click(findTestObject('Object Repository/CoCo/login/btn_Login'))
+WebUI.click(findTestObject('Object Repository/Platform/login/btn_Login'))
 
-WebUI.click(findTestObject('Object Repository/CoCo/login/a_SP'))
+WebUI.click(findTestObject('Object Repository/Platform/login/a_SP'))
 
-WebUI.click(findTestObject('Object Repository/CoCo/login/a_Log out'))
+WebUI.click(findTestObject('Object Repository/Platform/login/a_Log out'))
 
 WebUI.takeFullPageScreenshotAsCheckpoint('logout-page')
 

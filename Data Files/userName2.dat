@@ -9,7 +9,7 @@
    <dataFileGUID>86c5b765-9b5d-491b-832f-c573a28ec02c</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>sherry.perez%40vestd.com</data>
+   <data>sherry.perez%2Bstaff%40vestd.com</data>
    <data>sherry.perez%2Beditor2%40vestd.com</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>

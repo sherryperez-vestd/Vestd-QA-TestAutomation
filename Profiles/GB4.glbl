@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'sherry.perez@vestd.com'</initValue>
+      <initValue>'sherry.perez+staff@vestd.com'</initValue>
       <name>username_staff</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'sherry.perez+editor2@vestd.com'</initValue>
+      <initValue>'sherry.perez+editor@vestd.com'</initValue>
       <name>username_editor</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,6 +46,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://gb4.sprint.app.vestd.com/company/170/reports'</initValue>
+      <name>reportIndexURL_UK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://gb4.sprint.app.vestd.com/company/170/legal-doc'</initValue>
+      <name>legalDocURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://gb4.sprint.app.vestd.com/company/150/dashboard?user_id=711'</initValue>
       <name>EMIVestingGraphURL</name>
    </GlobalVariableEntity>
@@ -61,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'-'</initValue>
+      <initValue>'https://gb4.sprint.app.vestd.com/company/145/dashboard?user_id=719&amp;beta=1'</initValue>
       <name>ESOPVestingGraphURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -81,7 +91,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'-'</initValue>
+      <initValue>'https://gb4.sprint.app.vestd.com/company/150/dashboard?user_id=703'</initValue>
       <name>allGraphURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

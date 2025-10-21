@@ -57,6 +57,7 @@ for (int i = 1; i <= expectedReports.size(); i++) {
 
 // Verify report description
 def descriptions = [[('path') : 'StatSquad/reporting/index/td_shareholders description', ('text') : 'This report will provide a download of your shareholders names, emails and other basic information.']
+	, [('path') : 'StatSquad/reporting/index/td_employee report description', ('text') : 'This report will provide a download of your employees’ names, emails, and other basic information.']
     , [('path') : 'StatSquad/reporting/index/td_financial report description', ('text') : 'This report will provide options vested, options lapsed, options exercised, reversed options and exercise requests. You will be able to select the start and end date on the next page.']
     , [('path') : 'StatSquad/reporting/index/td_cap table description', ('text') : 'This will take you to cap table page where you can simulate the ownership structure of your company in different scenarios.']
     , [('path') : 'StatSquad/reporting/index/td_option agreement description', ('text') : 'This report will provide a download of all option agreements, the status, the option holders name, option type, and other related information.']

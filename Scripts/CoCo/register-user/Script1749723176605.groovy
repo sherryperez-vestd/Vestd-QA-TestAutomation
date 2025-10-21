@@ -21,36 +21,36 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/')
 
-WebUI.click(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/a_Join now'))
+WebUI.click(findTestObject('Object Repository/Platform/register/Page_Register-new-user/a_Join now'))
 
-WebUI.setText(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/input_First name_given_name'), 
+WebUI.setText(findTestObject('Object Repository/Platform/register/Page_Register-new-user/input_First name_given_name'), 
     'test')
 
-WebUI.click(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/div_Last name'))
+WebUI.click(findTestObject('Object Repository/Platform/register/Page_Register-new-user/div_Last name'))
 
-WebUI.setText(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/input_Last name_family_name'), 
+WebUI.setText(findTestObject('Object Repository/Platform/register/Page_Register-new-user/input_Last name_family_name'), 
     'new')
 
-WebUI.setText(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/input_Email address_email'), 
+WebUI.setText(findTestObject('Object Repository/Platform/register/Page_Register-new-user/input_Email address_email'), 
     'sherry.perez+new@vestd.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Platform/register/Page_Register-new-user/input_Password_password'), 
     'BXwrjJCMvIr67Y1Dtu7MbQ==')
 
-WebUI.click(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/span_Role_multiselect-caret is-open'))
+WebUI.click(findTestObject('Object Repository/Platform/register/Page_Register-new-user/span_Role_multiselect-caret is-open'))
 
-WebUI.click(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/li_Employee'))
+WebUI.click(findTestObject('Object Repository/Platform/register/Page_Register-new-user/li_Employee'))
 
-WebUI.click(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/input_Other_agreed_to_terms'))
+WebUI.click(findTestObject('Object Repository/Platform/register/Page_Register-new-user/input_Other_agreed_to_terms'))
 
-WebUI.click(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/input_Participant Terms_subscribe_to_marketing'))
+WebUI.click(findTestObject('Object Repository/Platform/register/Page_Register-new-user/input_Participant Terms_subscribe_to_marketing'))
 
-WebUI.click(findTestObject('Object Repository/CoCo/register/Page_Register-new-user/button_Join'))
+WebUI.click(findTestObject('Object Repository/Platform/register/Page_Register-new-user/button_Join'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/register/Page_Verify email - Vestd/div_You should have received a verification_b4194e'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Platform/register/Page_Verify email - Vestd/div_You should have received a verification_b4194e'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/CoCo/register/Page_Verify email - Vestd/div_You should have received a verification_b4194e'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Platform/register/Page_Verify email - Vestd/div_You should have received a verification_b4194e'), 
     'You should have received a verification email to the address provided below. Please follow the link to verify your email.')
 
 WebUI.closeBrowser()

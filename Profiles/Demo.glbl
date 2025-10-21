@@ -56,6 +56,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50135/legal-doc'</initValue>
+      <name>legalDocURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'https://demo.app.vestd.com/company/50135/dashboard?user_id=365431'</initValue>
       <name>EMIVestingGraphURL</name>
    </GlobalVariableEntity>

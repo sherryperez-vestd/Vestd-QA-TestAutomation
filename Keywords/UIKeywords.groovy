@@ -29,11 +29,11 @@ public class UIKeywords {
 		WebUI.openBrowser('')
 		WebUI.maximizeWindow()
 		WebUI.navigateToUrl(GlobalVariable.url)
-		WebUI.verifyElementPresent(findTestObject('CoCo/login/input_email'), 0)
-		WebUI.setText(findTestObject('Object Repository/CoCo/login/input_email'), username)
-		WebUI.verifyElementPresent(findTestObject('CoCo/login/input_password'), 0)
-		WebUI.setText(findTestObject('Object Repository/CoCo/login/input_password'), password)
-		WebUI.click(findTestObject('Object Repository/CoCo/login/btn_Login'))
+		WebUI.verifyElementPresent(findTestObject('Platform/login/input_email'), 0)
+		WebUI.setText(findTestObject('Object Repository/Platform/login/input_email'), username)
+		WebUI.verifyElementPresent(findTestObject('Platform/login/input_password'), 0)
+		WebUI.setText(findTestObject('Object Repository/Platform/login/input_password'), password)
+		WebUI.click(findTestObject('Object Repository/Platform/login/btn_Login'))
 	}
 
 	// === Assertions ===
@@ -199,6 +199,38 @@ public class UIKeywords {
 		// Verify Download button
 		TestObject downloadBtn = findTestObject('Object Repository/StatSquad/reporting/temporaryFile/btn_Download')
 		WebUI.verifyElementPresent(downloadBtn, 0)
+		WebUI.verifyElementVisible(downloadBtn)
+		WebUI.verifyElementText(downloadBtn, 'Download')
+	}
+
+	@Keyword
+	def verifyTemporaryFileDownloadPage() {
+		// Verify Job Monitor URL
+		String url = WebUI.getUrl()
+		WebUI.verifyEqual(url.contains('job-monitor'), true)
+
+		// Wait for navigation or file generation to complete
+		WebUI.delay(25)
+
+		// Verify Temporary File page URL
+		url = WebUI.getUrl()
+		WebUI.verifyEqual(url.contains('temporary-file'), true)
+
+		// Verify 'Temporary files' header
+		TestObject header = findTestObject('Object Repository/StatSquad/reporting/temporaryFile/h1_Temporary files')
+		WebUI.verifyElementPresent(header, 10)
+		WebUI.verifyElementVisible(header)
+		WebUI.verifyElementText(header, 'Temporary files')
+
+		// Verify 'Expires in 23 hours' label
+		TestObject expiresLabel = findTestObject('Object Repository/StatSquad/reporting/temporaryFile/label_Expires in 23 hours')
+		WebUI.verifyElementPresent(expiresLabel, 10)
+		WebUI.verifyElementVisible(expiresLabel)
+		WebUI.verifyElementText(expiresLabel, 'Expires in 23 hours')
+
+		// Verify 'Download' button
+		TestObject downloadBtn = findTestObject('Object Repository/StatSquad/reporting/temporaryFile/btn_Download')
+		WebUI.verifyElementPresent(downloadBtn, 10)
 		WebUI.verifyElementVisible(downloadBtn)
 		WebUI.verifyElementText(downloadBtn, 'Download')
 	}
