@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Phantom shares</name>
+   <name>a_Phantom</name>
    <tag></tag>
    <elementGuidId>2078a0f3-d7e1-4340-bff8-36b1384795de</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//span[(text() = 'Phantom shares')]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@href = 'https://demo.app.vestd.com/company/50934/scheme-template/phantom/dashboard' and (text() = '
@@ -16,6 +12,10 @@
                                         ' or . = '
                                             Phantom shares
                                         ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Phantom shares')]</value>
       </entry>
       <entry>
          <key>CSS</key>

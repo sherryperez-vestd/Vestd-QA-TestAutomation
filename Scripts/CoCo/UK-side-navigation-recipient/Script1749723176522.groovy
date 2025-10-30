@@ -55,7 +55,7 @@ WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_PeopleC
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Company-staff'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Company settings'), 0)
+WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_companySettings'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_App-staff'), 0)
 

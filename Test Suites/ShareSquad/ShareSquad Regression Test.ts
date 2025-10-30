@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Sharesquad Regression Test</name>
+   <name>ShareSquad Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient>swetha.yeguvapalli@vestd.com;arthur@vestd.com;pramod@vestd.com;aanu.abiola@vestd.com;</mailRecipient>
@@ -244,6 +244,19 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>e527679d-c31e-47a2-9479-7bbe3b0db010</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c05a8967-0c54-4992-9efe-ffa2cda55bf1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ShareSquad/Capital reduction/Capital reduction</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a0d61c5a-7a88-4a8f-9d01-643dc5e4c360</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Document signing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ec8cf93b-ca62-470a-9783-ef4d5bfbd741</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2afb4110-9d08-4873-9ca2-2c86a79b2045</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demo.app.vestd.com/company/50934/document-signing'</defaultValue>
+      <description></description>
+      <id>2afb4110-9d08-4873-9ca2-2c86a79b2045</id>
+      <masked>false</masked>
+      <name>documentSigningURL</name>
+   </variable>
+</TestCaseEntity>

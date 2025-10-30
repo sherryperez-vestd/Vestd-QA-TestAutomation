@@ -28,9 +28,11 @@ import org.openqa.selenium.Keys as Keys
  * 3. Verify the "View AoA" (Articles of Association) link is present, visible, and clickable.
  * 4. Click the link and confirm it opens the correct legal document in a new tab.
  */
-not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
+
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/companyDetails/span_Company details'), 0)
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/companyDetails/span_Company details'), 0)
 

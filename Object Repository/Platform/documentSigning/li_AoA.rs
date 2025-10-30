@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_AoA</name>
+   <tag></tag>
+   <elementGuidId>f4ccd26d-f2d0-4fb5-a27e-2ce4c3757b9b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#L95fPejezWwDnpOu-multiselect-option-692094</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(contains(text(), 'Articles of Association') or contains(., 'Articles of Association'))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[(contains(text(), 'Articles of Association') or contains(., 'Articles of Association'))])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//li[@id='L95fPejezWwDnpOu-multiselect-option-692094']</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>fddbd7c5-0cdd-4fa8-8a2a-b57aa53a0e63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Articles of Association</value>
+      <webElementGuid>da868820-ab85-4afb-a84c-22f1c0824145</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect-option</value>
+      <webElementGuid>5a96572a-fa83-4c36-8a93-4ad977f179d9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

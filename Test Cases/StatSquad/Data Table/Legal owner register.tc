@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Legal owner register</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>54ef506d-706b-4336-9f5c-e8d66607b669</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8788f553-44f6-49c9-ac72-5c4240623516</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demo.app.vestd.com/company/50934/share-register'</defaultValue>
+      <description></description>
+      <id>8788f553-44f6-49c9-ac72-5c4240623516</id>
+      <masked>false</masked>
+      <name>legalOwnerRegisterURL</name>
+   </variable>
+</TestCaseEntity>

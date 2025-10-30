@@ -61,6 +61,16 @@ public class UIKeywords {
 		assert fullText.contains(partialText)
 	}
 
+	
+	@Keyword
+	def verifyElementContainsPartialText2(String objectPath, String partialText) {
+		WebUI.scrollToElement(findTestObject(objectPath), 0)
+		TestObject element = findTestObject(objectPath)
+		def fullText = WebUI.getText(element)
+		assert fullText.contains(partialText)
+	}
+
+	
 	@Keyword
 	def clickElement(String objectPath) {
 		WebUI.scrollToElement(findTestObject(objectPath), 0)
@@ -152,7 +162,7 @@ public class UIKeywords {
 			def staffOnly = data.getValue("staffOnly", i)?.toBoolean()
 
 			// Skip staff-only items if not staff
-			if (staffOnly && !userName.equalsIgnoreCase("sherry.perez@vestd.com")) {
+			if (staffOnly && !userName.equalsIgnoreCase("sherry.perez+staff@vestd.com")) {
 				continue
 			}
 

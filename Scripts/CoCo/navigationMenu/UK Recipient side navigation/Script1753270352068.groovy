@@ -28,7 +28,7 @@ WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_MyEquity'), 'My Equity')
 
-WebUI.click(findTestObject('CoCo/navigation/side-nav/MyEquity/h1_MyEquity'))
+not_run: WebUI.click(findTestObject('CoCo/navigation/side-nav/MyEquity/h1_MyEquity'))
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/MyEquity/h1_MyEquity'), 0)
 
@@ -57,7 +57,7 @@ WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_PeopleC
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Company-staff'), 0)
 
-WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Company settings'), 0)
+WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_companySettings'), 0)
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_App-staff'), 0)
 

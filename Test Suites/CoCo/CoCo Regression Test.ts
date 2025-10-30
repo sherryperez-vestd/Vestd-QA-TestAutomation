@@ -4,7 +4,7 @@
    <name>CoCo Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient>radhika.chaudhary@vestd.com;swetha.yeguvapalli@vestd.com;arthur@vestd.com;</mailRecipient>
+   <mailRecipient>radhika.chaudhary@vestd.com;swetha.yeguvapalli@vestd.com;arthur@vestd.com;imran.iqbal@vestd.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -121,7 +121,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CoCo/navigationMenu/Staff-Editor-Recipient Top navigation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -136,7 +136,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3d045fdc-7bf9-47d6-9f72-9e2613aacf98</guid>
+      <guid>5a85e9d4-8887-4565-b392-778d02a1c1e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CoCo/onboardingHandover/Onboarding</testCaseId>

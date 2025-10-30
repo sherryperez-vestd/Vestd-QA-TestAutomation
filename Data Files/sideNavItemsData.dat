@@ -9,8 +9,15 @@
    <dataFileGUID>8212f19a-8187-4a0a-ba59-321c2d3e5525</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_MyEquity My+Equity true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FMyEquity%2Fh1_MyEquity My+Equity true</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Home Home true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FHome%2Fh1_company-name Reid+Ltd false</data>
    <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_ShareSchemes Share+schemes true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2Fh1_ShareSchemes Share+schemes false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_ESU%2Fa_ESU Existing+scheme+uploads true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_ESU%2Fh1_ESU Existing+scheme+uploads false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_EMI%2Fa_EMI EMI true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_EMI%2Fh1_EMI EMI false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_UO%2Fa_UO Unapproved+options true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_UO%2Fh1_UO Unapproved+options false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_CSOP%2Fa_CSOP CSOP true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_CSOP%2Fh1_CSOP CSOP false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_Phantom%2Fa_Phantom Phantom+shares true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_Phantom%2Fh1_Phantom Phantom false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_All-options-agreements%2Fa_allOptionAgreements All+option+agreements true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_All-options-agreements%2Fh1_allOptionAgreements All+option+agreements false</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_GS%2Fa_growthShares Growth+shares true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_GS%2Fh1_growthShares Growth+shares false</data>
    <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Investment Investment true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FInvestment%2FPage_Investment-hub%2Fh1_InvestmentI_InVestdRaise Investment+-+InVestd+Raise false</data>
    <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_ShareCapital Share+capital false null null false</data>
    <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Compliance Compliance true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FCompliance%2Fh1_Compliance Compliance true</data>
@@ -19,38 +26,38 @@
    <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_PeopleCommunication People+%26+communication true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FPeopleAndCommunication%2Fh1_PeopleAndCommunication People+%26+communication false</data>
    <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Company-staff Company+-+staff false null null true</data>
    <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_HelpCentre Help+centre false null null false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_App-staff App+-+staff false null null true</data>
+   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_App-staff Staff false null null true</data>
    <data>Object+Repository%2FCoCo%2Fnavigation%2Fimg-ISO null false null null false</data>
    <data>Object+Repository%2FCoCo%2Fnavigation%2Fp_Vestd_Ltd_authorised_and_regulated_by null false null null false</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>sideNavObject</name>
-      <size>13</size>
+      <size>20</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>text</name>
-      <size>13</size>
+      <size>20</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>click</name>
-      <size>13</size>
+      <size>20</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>verifyObj</name>
-      <size>13</size>
+      <size>20</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
       <name>verifyObjectText</name>
-      <size>13</size>
+      <size>20</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>5</columnIndex>
       <name>staffOnly</name>
-      <size>13</size>
+      <size>20</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

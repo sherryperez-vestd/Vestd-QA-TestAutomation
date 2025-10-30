@@ -4,7 +4,7 @@
    <name>Platform Regression Test</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <mailRecipient></mailRecipient>
+   <mailRecipient>ameen.ahmed@vestd.com;swetha.yeguvapalli@vestd.com;arthur@vestd.com;</mailRecipient>
    <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
@@ -31,5 +31,25 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Platform/Company messaging</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fb5151a8-fdcb-4f44-992b-908e2e045d3c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Platform/Company settings</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4cc7ede5-ad47-4608-92d1-24f270ea84e3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Platform/Document signing</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2afb4110-9d08-4873-9ca2-2c86a79b2045</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

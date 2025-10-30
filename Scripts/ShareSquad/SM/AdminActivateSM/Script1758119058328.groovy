@@ -19,47 +19,52 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import java.time.LocalDate as LocalDate
 
-//WebUI.openBrowser('')
-//
-//WebUI.navigateToUrl('https://demo.app.vestd.com/company/52618')
-//
-//WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/Page_403 - Vestd/input_Email address_email'), 'radhika.chaudhary+1@vestd.com')
-//
-//WebUI.setEncryptedText(findTestObject('Object Repository/ShareSquad/SM/Page_403 - Vestd/input_Password_password'), '5ayXGn/UQ1Ic+1mHCRSZgA==')
-//
-//WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_403 - Vestd/button_Log in'))
+WebUI.openBrowser('')
 
-CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/52618')
 
-WebUI.verifyElementPresent(findTestObject('ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/a_Company settings'), 0)
+WebUI.setText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_403 - Vestd/input_Email address_email'), 'radhika.chaudhary+1@vestd.com')
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/a_Company settings'))
+WebUI.setEncryptedText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_403 - Vestd/input_Password_password'), '5ayXGn/UQ1Ic+1mHCRSZgA==')
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/span_Secondary market'), 
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_403 - Vestd/button_Log in'))
+
+WebUI.verifyElementPresent(findTestObject('ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/a_Company settings'), 0)
+
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/a_Company settings'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/span_Secondary market'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/p_Your go-to space for shareholders to sell_a36c2f'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/p_Your go-to space for shareholders to sell_a36c2f'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/a_Turn on'))
+//WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/a_Turn on'))
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/a_Turn on'))
+def clickElementByXPath(String xpath) {
+	TestObject dynamicObject = new TestObject('dynamicObject')
+	dynamicObject.addProperty('xpath', ConditionType.EQUALS, xpath)
+	WebUI.click(dynamicObject)
+}
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/h1_Secondary market'), 0)
+clickElementByXPath("//a[text()='Turn on' or text()='Turn off']")
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/h1_Secondary market'))
+//WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/a_Turn on'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/span_Activate the Secondary Market to let y_0a1909'), 
+WebUI.waitForElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/h1_Secondary market'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/h1_Secondary market'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/span_Activate the Secondary Market to let y_0a1909'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Enable share sales in Secondary Marke_1eb124'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Enable share sales in Secondary Marke_1eb124'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Enable share sales in Secondary Marke_1eb124'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Enable share sales in Secondary Marke_1eb124'))
 
-TestObject shareClassLabel = findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/label_Share class')
+TestObject shareClassLabel = findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/label_Share class')
 
-TestObject enableShareSalesCheckbox = findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Enable share sales in Secondary Marke_1eb124')
+TestObject enableShareSalesCheckbox = findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Enable share sales in Secondary Marke_1eb124')
 
 // Check if the element is present (visible on the page)
 if (WebUI.verifyElementPresent(shareClassLabel, 3, FailureHandling.OPTIONAL)) {
@@ -72,18 +77,18 @@ if (WebUI.verifyElementPresent(shareClassLabel, 3, FailureHandling.OPTIONAL)) {
     WebUI.click(enableShareSalesCheckbox)
 }
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/label_Share class'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/label_Share class'), 0)
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Share class_lqsNn8eUC0pcBijw'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Share class_lqsNn8eUC0pcBijw'))
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Share class_lqsNn8eUC0pcBijw'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Share class_lqsNn8eUC0pcBijw'))
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/li_Ordinary A'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/li_Ordinary A'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/div_Sales window Select a date range in whi_83d30a'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/div_Sales window Select a date range in whi_83d30a'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/span_Start date'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/span_Start date'))
 
 // Get today's date
 LocalDate today = LocalDate.now()
@@ -105,54 +110,54 @@ String endMonth = endDate.getMonthValue().toString().padLeft(2, '0')
 
 String endYear = endDate.getYear().toString()
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Day_started_at_day'), day)
+WebUI.setText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Day_started_at_day'), day)
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Month_started_at_month'), month)
+WebUI.setText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Month_started_at_month'), month)
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Year_started_at_year'), year)
+WebUI.setText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Year_started_at_year'), year)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/span_End date'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/span_End date'), 0)
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Day_ended_at_day'), '1')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Day_ended_at_day'), '1')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Month_ended_at_month'), '1')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Month_ended_at_month'), '1')
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Year_ended_at_year'), '2024')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Year_ended_at_year'), '2024')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/label_Enter price per share'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/label_Enter price per share'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/span_'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/span_'))
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input__ul7KyLCn7tiEks2M'), '1')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input__ul7KyLCn7tiEks2M'), '1')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/p_Allowed price deviation'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/p_Allowed price deviation'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/label_Lower limit'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/label_Lower limit'))
 
-WebUI.setText(findTestObject('ShareSquad/SM/Page_Secondary market - Vestd/input_Lower limit_HrqnbbuGPZpk4YUQ'), '5')
+WebUI.setText(findTestObject('ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Lower limit_HrqnbbuGPZpk4YUQ'), '5')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/span_Minimum percentage deviation from the _b64591'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/span_Minimum percentage deviation from the _b64591'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/label_Upper limit'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/label_Upper limit'), 0)
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Upper limit_v2KBh3fr7eoLpQTu'), '10')
+WebUI.setText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Upper limit_v2KBh3fr7eoLpQTu'), '10')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/span_Maximum percentage deviation from the _173e0d'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/span_Maximum percentage deviation from the _173e0d'), 
     0)
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/button_Save'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/button_Save'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/h5_Are you sure you want to save these settings'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/h5_Are you sure you want to save these settings'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/p_Shareholders of the selected share class _7cecbd'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/p_Shareholders of the selected share class _7cecbd'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/button_Yes'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/button_Yes'))
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/button_Yes'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/button_Yes'))
 
 TestObject dateError = new TestObject()
 
@@ -164,48 +169,58 @@ String errorText = WebUI.getText(dateError)
 
 println('Date Error Message: ' + errorText)
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Day_ended_at_day'), endDay)
+WebUI.setText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Day_ended_at_day'), endDay)
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Month_ended_at_month'), endMonth)
+WebUI.setText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Month_ended_at_month'), endMonth)
 
-WebUI.setText(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Year_ended_at_year'), endYear)
-
-
-WebUI.scrollToElement(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Share class_lqsNn8eUC0pcBijw'), 5)
-WebUI.waitForElementClickable(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Share class_lqsNn8eUC0pcBijw'), 5)
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Share class_lqsNn8eUC0pcBijw'))
-
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/input_Share class_lqsNn8eUC0pcBijw'))
-
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/li_Ordinary A'))
+WebUI.setText(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Year_ended_at_year'), endYear)
 
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/button_Save'))
+WebUI.scrollToElement(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Share class_lqsNn8eUC0pcBijw'), 5)
+WebUI.waitForElementClickable(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Share class_lqsNn8eUC0pcBijw'), 5)
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Share class_lqsNn8eUC0pcBijw'))
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/button_Save'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/input_Share class_lqsNn8eUC0pcBijw'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/h5_Are you sure you want to save these settings'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/li_Ordinary A'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/p_Shareholders of the selected share class _7cecbd'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/button_Yes'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/ShareSquad/SM/Page_Secondary market - Vestd/button_Yes'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/button_Save'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/div_Success, secondary market have been suc_6b17f4'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/h5_Are you sure you want to save these settings'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/div_Ordinary A'), 
-    0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/p_Shareholders of the selected share class _7cecbd'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/div_Ordinary A'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/button_Yes'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/time_5th May 2025'))
+WebUI.click(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_Secondary market - Vestd/button_Yes'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/time_6th May 2025'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/div_Success, secondary market have been suc_6b17f4'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/span_5'))
+//WebUI.waitForElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/div_Ordinary A'), 
+//    0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/SM/Page_DoNotUse_AutomationTest - Vestd/span_10'))
+//WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/div_Ordinary A'))
+
+CustomKeywords.'com.utilities.verifyTextInTag'("div", "Ordinary A", false)
+
+//LocalDate today = LocalDate.now()
+//
+//String day = today.getDayOfMonth().toString().padLeft(2, '0')
+//
+//String month = today.getMonthValue().toString().padLeft(2, '0')
+//
+//String year = today.getYear().toString()
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/time_5th May 2025'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/time_6th May 2025'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/span_5'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/ShareSquad/secondaryMarket/Page_DoNotUse_AutomationTest - Vestd/span_10'))
 
 WebUI.callTestCase(findTestCase('Test Cases/ShareSquad/SM/SellMyShares') // Path to the test case
     , [:] // Pass parameters here if needed

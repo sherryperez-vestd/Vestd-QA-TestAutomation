@@ -81,11 +81,11 @@ WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_HelpCentre
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_HelpCentre'), 'Help centre')
 
-WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_Company settings'))
+WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/a_companySettings'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_Company settings'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_companySettings'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Company settings'), 'Company settings')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_companySettings'), 'Company settings')
 
 not_run: WebUI.verifyElementVisible(findTestObject('null'))
 

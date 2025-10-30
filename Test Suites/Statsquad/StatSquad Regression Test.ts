@@ -239,6 +239,19 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>156ece99-80b7-4e4c-abb0-311c3b3b79fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StatSquad/Data Table/Legal owner register</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8788f553-44f6-49c9-ac72-5c4240623516</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>45336f62-7368-4af5-9356-8816d9c062ab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

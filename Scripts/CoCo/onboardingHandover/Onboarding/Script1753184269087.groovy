@@ -28,23 +28,13 @@ import org.openqa.selenium.By as By
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/program-options')
+WebUI.navigateToUrl('https://demo.app.vestd.com/company/50470/home')
 
 WebUI.setText(findTestObject('CoCo/handoverObjects/Tabs/Page_403 - Vestd/input_Email address_email'), 'radhika.chaudhary@vestd.com')
 
 WebUI.setEncryptedText(findTestObject('CoCo/handoverObjects/Tabs/Page_403 - Vestd/input_Password_password'), 'dKUWoKfqioauKpv97TPFcQ==')
 
 WebUI.click(findTestObject('CoCo/handoverObjects/Tabs/Page_403 - Vestd/button_Log in'))
-
-WebUI.click(findTestObject('Object Repository/CoCo/handoverObjects/Page_Get started - Vestd/a_Staff'))
-
-WebUI.click(findTestObject('Object Repository/CoCo/handoverObjects/Page_Get started - Vestd/a_Companies'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/handoverObjects/Page_My companies - Vestd/a_Turner Ltd'), 0)
-
-WebUI.verifyElementClickable(findTestObject('Object Repository/CoCo/handoverObjects/Page_My companies - Vestd/a_Turner Ltd'))
-
-WebUI.doubleClick(findTestObject('Object Repository/CoCo/handoverObjects/Page_My companies - Vestd/a_Turner Ltd'))
 
 // Step 1: Get the WebDriver instance
 WebDriver driver = DriverFactory.getWebDriver()
@@ -1213,7 +1203,7 @@ verifyHeading('Need a call with Onboarding about this customer?')
 // ✅ Knowledge level
 TestObject knowledgeLevel = new TestObject()
 
-knowledgeLevel.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()=\'Knowledge level\']')
+knowledgeLevel.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()="Knowledge level"]')
 
 WebUI.verifyElementPresent(knowledgeLevel, 3)
 
@@ -1221,25 +1211,27 @@ assertEquals('Knowledge level title', 'Knowledge level', WebUI.getText(knowledge
 
 TestObject knowledgeLevelDropdown = new TestObject()
 
-knowledgeLevelDropdown.addProperty('xpath', ConditionType.EQUALS, '(//input[@type=\'text\' and @class=\'multiselect-search\'])[1]')
+knowledgeLevelDropdown.addProperty('xpath', ConditionType.EQUALS, '(//input[@type="text" and @class="multiselect-search"])[1]')
 
-WebUI.waitForElementClickable(knowledgeLevelDropdown, 5)
+//WebUI.waitForElementClickable(knowledgeLevelDropdown, 5)
+WebUI.setText(knowledgeLevelDropdown, "2")
 
-WebUI.click(knowledgeLevelDropdown)
+WebUI.sendKeys(knowledgeLevelDropdown, Keys.chord(Keys.ENTER))
+//WebUI.click(knowledgeLevelDropdown)
 
-TestObject optionTwo = new TestObject()
-
-optionTwo.addProperty('xpath', ConditionType.EQUALS, '(//li[@class=\'multiselect-option\' and @aria-label=\'2\'])[1]')
-
-WebUI.scrollToElement(optionTwo, 5)
-
-WebUI.waitForElementClickable(optionTwo, 5)
-
-WebUI.click(optionTwo)
+//TestObject optionTwo = new TestObject()
+//
+//optionTwo.addProperty('xpath', ConditionType.EQUALS, '(//li[@class="multiselect-option" and @aria-label="2"])[1]')
+//
+//WebUI.scrollToElement(optionTwo, 5)
+//
+//WebUI.waitForElementClickable(optionTwo, 5)
+//
+//WebUI.click(optionTwo)
 
 TestObject optionTwoVerified = new TestObject()
 
-optionTwoVerified.addProperty('xpath', ConditionType.EQUALS, '//span[@class=\'multiselect-single-label-text\']')
+optionTwoVerified.addProperty('xpath', ConditionType.EQUALS, '//span[@class="multiselect-single-label-text"]')
 
 assert WebUI.getText(optionTwoVerified).contains('2')
 
@@ -1248,7 +1240,7 @@ println('✅ Knowledge level value 2 is selected')
 // ✅ AML risk score
 TestObject amlLevel = new TestObject()
 
-amlLevel.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()=\'AML risk score (1-4)\']')
+amlLevel.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()="AML risk score (1-4)"]')
 
 WebUI.verifyElementPresent(amlLevel, 3)
 
@@ -1256,7 +1248,7 @@ assertEquals('AML risk score (1-4) title', 'AML risk score (1-4)', WebUI.getText
 
 TestObject amlLevelDropdown = new TestObject()
 
-amlLevelDropdown.addProperty('xpath', ConditionType.EQUALS, '(//input[@type=\'text\' and @class=\'multiselect-search\'])[2]')
+amlLevelDropdown.addProperty('xpath', ConditionType.EQUALS, '(//input[@type="text" and @class="multiselect-search"])[2]')
 
 WebUI.waitForElementClickable(amlLevelDropdown, 5)
 
@@ -1264,7 +1256,7 @@ WebUI.click(amlLevelDropdown)
 
 TestObject amlOptionTwo = new TestObject()
 
-amlOptionTwo.addProperty('xpath', ConditionType.EQUALS, '(//li[contains(@class,\'multiselect-option\') and @aria-label=\'2\'])[2]')
+amlOptionTwo.addProperty('xpath', ConditionType.EQUALS, '(//li[contains(@class,"multiselect-option") and @aria-label="2"])[2]')
 
 WebUI.scrollToElement(amlOptionTwo, 5)
 
@@ -1279,61 +1271,61 @@ println(isSelected == 'true' ? '✅ AML Risk value 2 is selected' : '❌ AML Ris
 // ✅ AML Document
 TestObject amlDocument = new TestObject()
 
-amlDocument.addProperty('xpath', ConditionType.EQUALS, '//a[normalize-space()=\'AML document\']')
+amlDocument.addProperty('xpath', ConditionType.EQUALS, '//a[normalize-space()="AML document"]')
 
 println(WebUI.getText(amlDocument) + 'is present')
 
 // ✅ Method of communication
 TestObject methodCommunication = new TestObject()
 
-methodCommunication.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()=\'Preferred method of communication or notes about the preferred method\']')
+methodCommunication.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()="Preferred method of communication or notes about the preferred method"]')
 
 assertEquals('Preferred method of communication or notes about the preferred method title', 'Preferred method of communication or notes about the preferred method', 
     WebUI.getText(methodCommunication))
 
 TestObject methodCommunicationInput = new TestObject()
 
-methodCommunicationInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'text\' and contains(@name,\'communication_method\') ]')
+methodCommunicationInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type="text" and contains(@name,"communication_method") ]')
 
 WebUI.setText(methodCommunicationInput, 'mail')
 
 // ✅ Add more users
 TestObject addUsers = new TestObject()
 
-addUsers.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()=\'Do they want to add any more Editors (Admin users), or read only Directors/Shareholders?\']')
+addUsers.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()="Do they want to add any more Editors (Admin users), or read only Directors/Shareholders?"]')
 
 assertEquals('Do they want to add any more Editors (Admin users), or read only Directors/Shareholders? title', 'Do they want to add any more Editors (Admin users), or read only Directors/Shareholders?', 
     WebUI.getText(addUsers))
 
 TestObject addUsersInput = new TestObject()
 
-addUsersInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'text\' and contains(@name,\'add_more_editors\') ]')
+addUsersInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type="text" and contains(@name,"add_more_editors") ]')
 
 WebUI.verifyElementPresent(addUsersInput, 2)
 
 // ✅ Co-Sec managed
 TestObject cosecManaged = new TestObject()
 
-cosecManaged.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()=\'How is their Co-Sec currently managed?\']')
+cosecManaged.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()="How is their Co-Sec currently managed?"]')
 
 assertEquals('How is their Co-Sec currently managed? title', 'How is their Co-Sec currently managed?', WebUI.getText(cosecManaged))
 
 TestObject cosecManagedInput = new TestObject()
 
-cosecManagedInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'text\' and contains(@name,\'co_sec_currently_managed\') ]')
+cosecManagedInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type="text" and contains(@name,"co_sec_currently_managed") ]')
 
 WebUI.verifyElementPresent(cosecManagedInput, 2)
 
 // ✅ G-Drive
 TestObject driveLink = new TestObject()
 
-driveLink.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()=\'G-Drive link\']')
+driveLink.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()="G-Drive link"]')
 
 assertEquals('G-Drive link title', 'G-Drive link', WebUI.getText(driveLink))
 
 TestObject driveLinkInput = new TestObject()
 
-driveLinkInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'text\' and contains(@name,\'g_drive\') ]')
+driveLinkInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type="text" and contains(@name,"g_drive") ]')
 
 WebUI.verifyElementPresent(driveLinkInput, 2)
 
@@ -1342,19 +1334,19 @@ WebUI.setText(driveLinkInput, 'drive')
 // ✅ Additional comments
 TestObject additionalComments = new TestObject()
 
-additionalComments.addProperty('xpath', ConditionType.EQUALS, '//*[@id=\'main-content-wrapper\']//h5[normalize-space()=\'Additional comments\']')
+additionalComments.addProperty('xpath', ConditionType.EQUALS, '//*[@id="main-content-wrapper"]//h5[normalize-space()="Additional comments"]')
 
 WebUI.verifyElementPresent(additionalComments, 2)
 
 TestObject comments = new TestObject()
 
-comments.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()=\'Comments\']')
+comments.addProperty('xpath', ConditionType.EQUALS, '//label[normalize-space()="Comments"]')
 
 assertEquals('Comments title', 'Comments', WebUI.getText(comments))
 
 TestObject commentsInput = new TestObject()
 
-commentsInput.addProperty('xpath', ConditionType.EQUALS, '//textarea[contains(@name,\'additional_comments\') ]')
+commentsInput.addProperty('xpath', ConditionType.EQUALS, '//textarea[contains(@name,"additional_comments") ]')
 
 WebUI.verifyElementPresent(commentsInput, 2)
 

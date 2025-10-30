@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>a9f8e897-328a-444c-9272-1c729d8cd119</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a0d61c5a-7a88-4a8f-9d01-643dc5e4c360</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demo.app.vestd.com/company/52534/share-movement/create?type=capital-reduction'</defaultValue>
+      <description></description>
+      <id>a0d61c5a-7a88-4a8f-9d01-643dc5e4c360</id>
+      <masked>false</masked>
+      <name>capitalReductionURL</name>
+   </variable>
 </TestCaseEntity>

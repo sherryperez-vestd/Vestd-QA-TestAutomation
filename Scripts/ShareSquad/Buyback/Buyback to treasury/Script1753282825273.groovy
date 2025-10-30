@@ -54,11 +54,11 @@ WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/buyback-details
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/buyback/buyback-details/button_Yes, continue'))
 
-WebUI.delay(10)
+WebUI.delay(7)
 
 WebUI.refresh()
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.refresh()
 

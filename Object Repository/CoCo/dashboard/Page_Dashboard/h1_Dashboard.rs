@@ -6,93 +6,35 @@
    <elementGuidId>07b984f9-048e-49f6-b909-029c66962e6a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'Dashboard' or . = 'Dashboard')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>h1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[(text() = 'Dashboard' or . = 'Dashboard')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>e9b69625-af88-42ee-a900-4de76e329d63</webElementGuid>
+      <webElementGuid>aa61f93b-ec8c-4649-84c4-0da22094b33e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-        Dashboard
-    </value>
-      <webElementGuid>c30a48ad-b7f6-4db3-b69c-26a8d29e8c9d</webElementGuid>
+      <value>Dashboard</value>
+      <webElementGuid>ada69480-1fc6-4cb7-85ae-3ecffd3732a5</webElementGuid>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>9ff9545a-267b-42fd-b84c-cba57bdc1007</webElementGuid>
-   </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>9f3d7c73-2f47-4fb7-9671-2ce7d2208d4a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::h1[1]</value>
-      <webElementGuid>201e5169-1a94-4feb-9d4f-ee15e697971f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add your own company'])[1]/following::h1[1]</value>
-      <webElementGuid>9fe83973-e540-4319-91ef-1e60b828a70d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to your dashboard'])[1]/preceding::h1[1]</value>
-      <webElementGuid>31cd39f2-946f-4bff-a9cb-9d74d142083e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//h1</value>
-      <webElementGuid>577dc955-d484-4fcc-b522-0832bdd8fcba</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//h1[(text() = '
-        Dashboard
-    ' or . = '
-        Dashboard
-    ')]</value>
-      <webElementGuid>52a9c61a-992c-4225-a5dc-7ed2b21a569e</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

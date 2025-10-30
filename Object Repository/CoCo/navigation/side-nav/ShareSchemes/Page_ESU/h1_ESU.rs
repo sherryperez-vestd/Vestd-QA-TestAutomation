@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_Existing scheme uploads</name>
+   <name>h1_ESU</name>
    <tag></tag>
    <elementGuidId>36bc348c-56ee-4d07-bd62-ae8bd2b87639</elementGuidId>
    <selectorCollection>

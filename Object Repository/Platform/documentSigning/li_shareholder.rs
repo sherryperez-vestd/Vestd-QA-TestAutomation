@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_shareholder</name>
+   <tag></tag>
+   <elementGuidId>0d66ccf8-ce80-4792-a85c-057e13f2858d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#L95fPejezWwDnpOu-multiselect-option-692094</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(contains(text(), '1 1') or contains(., '1 1'))]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//li[@id='L95fPejezWwDnpOu-multiselect-option-692094']</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>dd94bfea-a8ec-4f04-a024-e2b776ca2628</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1 1</value>
+      <webElementGuid>7aad171f-147b-40d7-b677-aade8e43c324</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

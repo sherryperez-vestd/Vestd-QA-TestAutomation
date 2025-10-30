@@ -6,6 +6,15 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>9408ffde-e83c-49fa-ae87-23e00b1b8603</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>26aea3bf-652d-4127-80b4-e6ee04653338</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/userName2</testDataId>
+   </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -13,9 +22,9 @@
       <variableId>56c9b2d4-faf9-4a4e-b8a0-456b528609d2</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>26aea3bf-652d-4127-80b4-e6ee04653338</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>userName</value>
       <variableId>6e2be084-a2f3-4313-ab53-843ed9bf3790</variableId>
    </variableLinks>
    <variable>

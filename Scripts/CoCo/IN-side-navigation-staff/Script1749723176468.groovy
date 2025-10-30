@@ -53,18 +53,18 @@ WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_ESOP/h1_ESOP'), 'ESOP')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/a_All option agreements'), 
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/a_allOptionAgreements'), 
     0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/a_All option agreements'), 
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/a_allOptionAgreements'), 
     'All option agreements')
 
-WebUI.click(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/a_All option agreements'))
+WebUI.click(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/a_allOptionAgreements'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/h1_All option agreements'), 
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/h1_allOptionAgreements'), 
     0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/h1_All option agreements'), 
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/ShareSchemes/Page_All-options-agreements/h1_allOptionAgreements'), 
     'All option agreements')
 
 WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/ShareSchemes/li_Compliance'), 0)

@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_All option agreements</name>
+   <name>a_ESU</name>
    <tag></tag>
-   <elementGuidId>aa6a0801-878a-4151-9549-5e0486a8d081</elementGuidId>
+   <elementGuidId>6e1de0a8-24bf-4f64-8fbe-4f62640eb79c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[(text() = 'All option agreements')]</value>
+         <value>//span[(text() = 'Existing scheme uploads')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = 'https://demo.app.vestd.com/company/50934/distribution' and (text() = '
-                                        All option agreements
-                                    ' or . = '
-                                        All option agreements
-                                    ')]</value>
+         <value>//*[@href = 'https://demo.app.vestd.com/company/50934/existing-scheme-upload' and (text() = '
+                                            Existing scheme uploads
+                                        ' or . = '
+                                            Existing scheme uploads
+                                        ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
+         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>//div[@id='sidebarSchemes']/ul/li[7]/a</value>
+         <value>//div[@id='sidebarSchemes']/ul/li[2]/a</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -37,23 +37,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c0f31697-9827-4ee0-b645-3d945fd14921</webElementGuid>
+      <webElementGuid>3805192f-23cf-451f-8762-ca60edb9fe26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>https://demo.app.vestd.com/company/50934/distribution</value>
-      <webElementGuid>e41edda4-0f41-4088-b1ba-5905842a2f7a</webElementGuid>
+      <value>https://demo.app.vestd.com/company/50934/existing-scheme-upload</value>
+      <webElementGuid>4bb976dc-27f0-49df-bc82-1decfcc9b160</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>nav-link active</value>
-      <webElementGuid>a573f3de-7aa3-4e3e-b6be-4490348f4598</webElementGuid>
+      <value>nav-link</value>
+      <webElementGuid>37543f95-8636-41fa-b2ab-c6161628954b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,100 +61,100 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                                        All option agreements
-                                    </value>
-      <webElementGuid>ed3a312a-6fa5-43c9-ac99-b2a9a329012c</webElementGuid>
+                                            Existing scheme uploads
+                                        </value>
+      <webElementGuid>28f8dd49-bee2-4717-9347-ccc069d827e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link active&quot;]</value>
-      <webElementGuid>841b6f93-3bb9-4572-9a96-b29e50d971f1</webElementGuid>
+      <value>id(&quot;sidebarSchemes&quot;)/ul[@class=&quot;nav flex-column mt-0&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <webElementGuid>ceb160e3-dbcf-4931-a845-1100fd5c84c0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='sidebarSchemes']/ul/li[7]/a</value>
-      <webElementGuid>8ec976a6-08e6-408c-a12b-636569e7440c</webElementGuid>
+      <value>//div[@id='sidebarSchemes']/ul/li[2]/a</value>
+      <webElementGuid>80abe346-9e95-4e5c-b739-115f34c26348</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'All option agreements')]</value>
-      <webElementGuid>ce4aaa23-d7c6-4747-8fb9-aa615530bdd6</webElementGuid>
+      <value>//a[contains(text(),'Existing scheme uploads')]</value>
+      <webElementGuid>487881c7-7982-4eab-b9d5-4409313ff3b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phantom shares'])[1]/following::a[1]</value>
-      <webElementGuid>3c275c95-ad4d-4e03-bd8a-34dcc78ca6d8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Schemes'])[1]/following::a[1]</value>
+      <webElementGuid>086bf7c7-1be3-4ed1-929b-8d0f4ccc42c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='CSOP'])[1]/following::a[2]</value>
-      <webElementGuid>cb7dc5d2-b6d0-48ce-a274-dd9980d64242</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share schemes'])[1]/following::a[1]</value>
+      <webElementGuid>47473054-27d4-4e65-a154-de1c7d5c4183</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Growth shares'])[1]/preceding::a[1]</value>
-      <webElementGuid>25401261-e580-4552-9a8d-cf26472e16c5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EMI'])[1]/preceding::a[1]</value>
+      <webElementGuid>0b14fdce-bb31-4f21-8df7-7108e89392c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='RSAs'])[1]/preceding::a[2]</value>
-      <webElementGuid>42c0ab6a-d82f-4929-a9be-ab2177cf9924</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unapproved options'])[1]/preceding::a[2]</value>
+      <webElementGuid>f8c4840e-fa8b-4c42-bff5-a6e9ad68fc48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='All option agreements']/parent::*</value>
-      <webElementGuid>87342e66-2c5f-4257-aaa7-0ab3d33adc4b</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Existing scheme uploads']/parent::*</value>
+      <webElementGuid>f0d488c3-3072-4ecb-a2e4-280faef904d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/distribution')]</value>
-      <webElementGuid>5c6bfe27-7079-4870-adec-f7c760e1ec4d</webElementGuid>
+      <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/existing-scheme-upload')]</value>
+      <webElementGuid>2766fb31-e8eb-4cdd-839e-1ba183b4b326</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/div/ul/li[7]/a</value>
-      <webElementGuid>22b7bbd1-62a3-4036-a3db-d56977f7557b</webElementGuid>
+      <value>//li[3]/div/ul/li[2]/a</value>
+      <webElementGuid>25f74cae-6a02-472e-ab6d-5a401643103e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'https://demo.app.vestd.com/company/50934/distribution' and (text() = '
-                                        All option agreements
-                                    ' or . = '
-                                        All option agreements
-                                    ')]</value>
-      <webElementGuid>998aed38-9c90-4e72-a217-8dfdf3fd7707</webElementGuid>
+      <value>//a[@href = 'https://demo.app.vestd.com/company/50934/existing-scheme-upload' and (text() = '
+                                            Existing scheme uploads
+                                        ' or . = '
+                                            Existing scheme uploads
+                                        ')]</value>
+      <webElementGuid>6dcb8638-3b1a-4710-a52d-0ad01eac8100</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

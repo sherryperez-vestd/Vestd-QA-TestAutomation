@@ -6,19 +6,19 @@
    <elementGuidId>6ae99d78-ddad-4b99-8a8e-82164e9ec6fe</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[@data-test-id = 'v-icon-component']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>i.vi.vi-sm.mt-auto.ml-lg-2.mt-lg-0.vi-chevron-down</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//span[@class = 'icon feather icon-chevrons-down icon-default icon-sm icon-fixed icon-bg-none']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div[2]/i</value>
+         <value>(//span[@data-test-id = 'v-icon-component'])[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,30 +33,22 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f9492151-7b8b-4af5-b57a-ce4a07a90b60</webElementGuid>
+      <webElementGuid>ed511a05-4e35-4369-aab6-7d77f1b27de3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>icon feather icon-chevrons-down icon-default icon-sm icon-fixed icon-bg-none</value>
-      <webElementGuid>49584b1b-8b07-44e2-a37c-fa8cc47d4ede</webElementGuid>
+      <webElementGuid>4425b184-e7e7-4460-a31f-b510613ebb27</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
+   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>data-test-id</name>
       <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div/div/div/div/div[2]/i</value>
-      <webElementGuid>2a125a1f-6da6-4cd4-9c4a-87b190cb005e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/i</value>
-      <webElementGuid>c4420a87-7fbe-4e55-b1c6-3995b15f2f4e</webElementGuid>
-   </webElementXpaths>
+      <value>v-icon-component</value>
+      <webElementGuid>4c3dd78b-50c3-4a31-b2ec-0ab2e6812d0a</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>
