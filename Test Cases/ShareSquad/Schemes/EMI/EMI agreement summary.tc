@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>EMI agreement summary</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>30a7e6b3-82d8-454b-b8b2-4779bbd74ddc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d2c60ba-a0ca-451b-8b3d-a53d624c7427</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demo.app.vestd.com/company/50135/option/459392'</defaultValue>
+      <description></description>
+      <id>3d2c60ba-a0ca-451b-8b3d-a53d624c7427</id>
+      <masked>false</masked>
+      <name>agreementSummaryURL</name>
+   </variable>
+</TestCaseEntity>

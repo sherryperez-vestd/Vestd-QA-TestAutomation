@@ -216,7 +216,7 @@
       <guid>645b2bbb-17cf-496c-a0b7-a59305aeb857</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/Data Table/Options Listing</testCaseId>
+      <testCaseId>Test Cases/StatSquad/Data Table/Options listing</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -249,6 +249,19 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>8788f553-44f6-49c9-ac72-5c4240623516</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>71a6aab5-5037-455f-9da7-f2b89d62fa7b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StatSquad/Data Table/Companies listing</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2f7b3891-499d-44d7-922f-7c55347ba4d7</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

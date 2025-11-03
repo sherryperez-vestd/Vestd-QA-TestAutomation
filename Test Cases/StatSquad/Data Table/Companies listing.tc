@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Companies listing</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d3318fd-d0fd-4946-8247-f062343560b9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2f7b3891-499d-44d7-922f-7c55347ba4d7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://demo.app.vestd.com/company?page=1&amp;per_page=25'</defaultValue>
+      <description></description>
+      <id>2f7b3891-499d-44d7-922f-7c55347ba4d7</id>
+      <masked>false</masked>
+      <name>companiesListingURL</name>
+   </variable>
+</TestCaseEntity>

@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_delete</name>
+   <name>div_entryCount</name>
    <tag></tag>
-   <elementGuidId>b65d91e3-112f-43d3-8540-20ea1fb47306</elementGuidId>
+   <elementGuidId>bee0bf7c-495c-4941-bdfd-3c3f79e28a6d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//i[@class = 'feather icon-trash-2 pr-0']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//i[contains(@class,'icon-trash')])[1]&#xd;
-</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>div.col-12.pb-2 > div > div > div.col-12</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'd-flex align-items-baseline entry-count']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,15 +31,15 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
-      <webElementGuid>c3327f5c-ce1b-4175-8b89-26c65be4f854</webElementGuid>
+      <value>div</value>
+      <webElementGuid>ca96c563-06c7-47fe-b875-eadf44457dc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>feather icon-trash-2 pr-0</value>
-      <webElementGuid>919f044d-2201-424e-bda3-584434e81633</webElementGuid>
+      <value>d-flex align-items-baseline entry-count</value>
+      <webElementGuid>9410842e-f5e8-4de7-8d20-587937b92657</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

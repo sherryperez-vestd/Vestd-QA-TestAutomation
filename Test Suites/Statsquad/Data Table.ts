@@ -42,7 +42,7 @@
       <guid>957cae78-6f7f-4ea5-bdd9-75bcfd077aaf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/StatSquad/Data Table/Options Listing</testCaseId>
+      <testCaseId>Test Cases/StatSquad/Data Table/Options listing</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -77,5 +77,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/StatSquad/Data Table/Stock transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1a34016b-6336-434a-9cb3-f8410266c502</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/StatSquad/Data Table/Companies listing</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2f7b3891-499d-44d7-922f-7c55347ba4d7</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
