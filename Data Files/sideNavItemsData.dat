@@ -9,55 +9,111 @@
    <dataFileGUID>8212f19a-8187-4a0a-ba59-321c2d3e5525</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Home Home true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FHome%2Fh1_company-name Reid+Ltd false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_ShareSchemes Share+schemes true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2Fh1_ShareSchemes Share+schemes false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_ESU%2Fa_ESU Existing+scheme+uploads true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_ESU%2Fh1_ESU Existing+scheme+uploads false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_EMI%2Fa_EMI EMI true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_EMI%2Fh1_EMI EMI false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_UO%2Fa_UO Unapproved+options true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_UO%2Fh1_UO Unapproved+options false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_CSOP%2Fa_CSOP CSOP true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_CSOP%2Fh1_CSOP CSOP false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_Phantom%2Fa_Phantom Phantom+shares true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_Phantom%2Fh1_Phantom Phantom false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_All-options-agreements%2Fa_allOptionAgreements All+option+agreements true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_All-options-agreements%2Fh1_allOptionAgreements All+option+agreements false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_GS%2Fa_growthShares Growth+shares true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FShareSchemes%2FPage_GS%2Fh1_growthShares Growth+shares false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Investment Investment true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FInvestment%2FPage_Investment-hub%2Fh1_InvestmentI_InVestdRaise Investment+-+InVestd+Raise false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_ShareCapital Share+capital false null null false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Compliance Compliance true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FCompliance%2Fh1_Compliance Compliance true</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Documents Documents true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FDocuments%2Fh1_Documents Documents false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Reports Reports true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FReports%2Fh1_Reports Reporting+Beta false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_PeopleCommunication People+%26+communication true Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2FPeopleAndCommunication%2Fh1_PeopleAndCommunication People+%26+communication false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_Company-staff Company+-+staff false null null true</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_HelpCentre Help+centre false null null false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fside-nav%2Fa_App-staff Staff false null null true</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fimg-ISO null false null null false</data>
-   <data>Object+Repository%2FCoCo%2Fnavigation%2Fp_Vestd_Ltd_authorised_and_regulated_by null false null null false</data>
+   <data>a_Home Home true Home%2Fh1_company-name Reid+Ltd false true</data>
+   <data>a_ShareSchemes Share+schemes true ShareSchemes%2Fh1_ShareSchemes Share+schemes false true</data>
+   <data>ShareSchemes%2FESU%2Fa_ESU Existing+scheme+uploads true ShareSchemes%2FESU%2Fh1_ESU Existing+scheme+uploads false true</data>
+   <data>ShareSchemes%2FAll-options-agreements%2Fa_allAgreements All+agreements true ShareSchemes%2FAll-options-agreements%2Fh1_allAgreements All+agreements false true</data>
+   <data>ShareSchemes%2FAnnual-HMRC-Notifications%2Fa_annualNotifications Annual+notifications true ShareSchemes%2FAnnual-HMRC-Notifications%2Fh1_annualNotifications Annual+notifications false true</data>
+   <data>ShareSchemes%2FInitial-Notification%2Fa_initialNotifications Initial+notifications true ShareSchemes%2FInitial-Notification%2Fh1_EMIInitialNotifications EMI+initial+notifications+to+HMRC false true</data>
+   <data>ShareSchemes%2FAll-options-agreements%2Fa_allOptionAgreements All+option+agreements true ShareSchemes%2FAll-options-agreements%2Fh1_allOptionAgreements All+option+agreements false true</data>
+   <data>ShareSchemes%2FEMI%2Fa_EMI EMI true ShareSchemes%2FEMI%2Fh1_EMI EMI false false</data>
+   <data>ShareSchemes%2FUO%2Fa_UO Unapproved+options true ShareSchemes%2FUO%2Fh1_UO Unapproved+options false false</data>
+   <data>ShareSchemes%2FCSOP%2Fa_CSOP CSOP true ShareSchemes%2FCSOP%2Fh1_CSOP CSOP false false</data>
+   <data>ShareSchemes%2FPhantom%2Fa_Phantom Phantom+shares true ShareSchemes%2FPhantom%2Fh1_Phantom Phantom false false</data>
+   <data>ShareSchemes%2FAll-options-agreements%2Fa_allShareAgreements All+share+agreements true ShareSchemes%2FAll-options-agreements%2Fh1_allShareAgreements All+share+agreements false true</data>
+   <data>ShareSchemes%2FGS%2Fa_growthShares Growth+shares true ShareSchemes%2FGS%2Fh1_growthShares Growth+shares false false</data>
+   <data>ShareSchemes%2FRSA%2Fa_RSAs RSAs true ShareSchemes%2FRSA%2Fh1_RSAs RSAs true false</data>
+   <data>ShareSchemes%2FAgile-partnerships%2Fa_agilePartnership Agile+Partnership true ShareSchemes%2FAgile-partnerships%2Fh1_agilePartnership Agile+Partnership false false</data>
+   <data>ShareSchemes%2FValuations%2Fa_Valuations Valuations true ShareSchemes%2FValuations%2Fh1_Valuations Valuations false true</data>
+   <data>a_ShareSchemes Share+schemes true null null null null</data>
+   <data>ShareSchemes%2Fa_shareOptionPools Share%2Foption+pools true ShareManagement%2FAuthorisations%2Fh1_Authorisations Authorisations false true</data>
+   <data>ShareManagement%2FcapTable%2Fa_capTable Cap+table true ShareManagement%2FcapTable%2Fh1_capTable Cap+table false true</data>
+   <data>ShareManagement%2FshareClasses%2Fa_shareClasses Share+classes true ShareManagement%2FshareClasses%2Fh1_shareClasses Share+classes false true</data>
+   <data>ShareManagement%2FissueShares%2Fa_issueShares Issue+shares true ShareManagement%2FissueShares%2Fh1_issueShares Issue+shares false true</data>
+   <data>ShareManagement%2FstockTransfers%2Fa_stockTransfers Stock+transfers true ShareManagement%2FstockTransfers%2Fh1_stockTransfers Stock+transfers false true</data>
+   <data>ShareManagement%2FshareBuybacks%2Fa_shareBuybacks Buyback+shares true ShareManagement%2FshareBuybacks%2Fh1_shareBuybacks Share+buybacks false true</data>
+   <data>ShareManagement%2FshareClassConversions%2Fa_shareClassConversions Share+class+conversions true ShareManagement%2FshareClassConversions%2Fh1_shareClassConversions Share+class+conversions false true</data>
+   <data>ShareManagement%2FConvertibles%2Fa_Convertibles Convertibles true ShareManagement%2FConvertibles%2Fh1_Convertibles Convertibles false true</data>
+   <data>ShareManagement%2FshareMovementHistory%2Fa_shareMovementHistory Share+movement+history true ShareManagement%2FshareMovementHistory%2Fh1_shareMovementHistory Share+movement+history false true</data>
+   <data>ShareManagement%2FlegalOwnerRegister%2Fa_legalOwnerRegister Legal+owner+register true ShareManagement%2FlegalOwnerRegister%2Fh1_legalOwnerRegister Legal+owner+register false true</data>
+   <data>a_shareManagement Share+management true null null null null</data>
+   <data>ShareManagement%2FDividends%2Fa_Dividends Dividends true ShareManagement%2FDividends%2Fh1_Dividends Dividends false true</data>
+   <data>a_shareManagement Share+management true null null null null</data>
+   <data>ShareManagement%2FInvestmentAndFunding%2Fa_investmentAndFunding Investment+%26+funding true ShareManagement%2FInvestmentAndFunding%2Fh1_investmentAndFunding Investment+-+InVestd+Raise false true</data>
+   <data>a_Investment Investment+%26+funding true Investment%2Fh1_InvestmentRaiseWithInVestd Investment+-+Raise+with+InVestd false true</data>
+   <data>Investment%2FInvestment-hub%2Fa_InvestmentRounds Investment+rounds true Investment%2FInvestment-hub%2Fh1_Investment_InVestdRaise Investment+-+InVestd+Raise false true</data>
+   <data>Investment%2FGuidedFlow%2Fa_guidedFlow Guided+flow true Investment%2FGuidedFlow%2Fh1_guidedFlow Investment+via+InVestd+Raise false true</data>
+   <data>Investment%2Fa_Dividends Dividends true ShareManagement%2FDividends%2Fh1_Dividends Dividends false true</data>
+   <data>a_Investment Investment+%26+funding true null null null null</data>
+   <data>Investment%2Fa_businessDocuments Business+document+templates true null null false true</data>
+   <data>a_Compliance Compliance true Compliance%2Fh1_Compliance Compliance false true</data>
+   <data>Compliance%2FGovernance%2Fa_Governance Governance true Compliance%2FGovernance%2Fh1_Governance Company+governance false true</data>
+   <data>Compliance%2Fa_Valuations Valuations true ShareSchemes%2FValuations%2Fh1_Valuations Valuations false true</data>
+   <data>Compliance%2Fa_Dividends Dividends true ShareManagement%2FDividends%2Fh1_Dividends Dividends false true</data>
+   <data>Compliance%2Fa_ShareAuthorisation Share+authorisations true ShareManagement%2FAuthorisations%2Fh1_Authorisations Authorisations false true</data>
+   <data>a_Compliance Compliance true null null null null</data>
+   <data>Compliance%2FarticlesOfAssociation%2Fa_articlesOfAssociation Articles+of+Association true Compliance%2FarticlesOfAssociation%2Fh1_articlesOfAssociation Articles+of+Association false true</data>
+   <data>Compliance%2FstatutoryBooks%2Fa_statutoryBooks Statutory+books true Compliance%2FstatutoryBooks%2Fh1_statutoryBooks Statutory+books false true</data>
+   <data>Compliance%2Fa_legalOwnerRegister Legal+owner+register true ShareManagement%2FlegalOwnerRegister%2Fh1_legalOwnerRegister Legal+owner+register false true</data>
+   <data>Compliance%2FconfirmationStatements%2Fa_confirmationStatements Confirmation+statements true Compliance%2FconfirmationStatements%2Fh1_confirmationStatements Confirmation+statements false true</data>
+   <data>Compliance%2Fa_initialNotifications Initial+notifications true ShareSchemes%2FInitial-Notification%2Fh1_EMIInitialNotifications EMI+initial+notifications+to+HMRC false true</data>
+   <data>Compliance%2Fa_annualNotifications Annual+notifications true ShareSchemes%2FAnnual-HMRC-Notifications%2Fh1_annualNotifications Annual+notifications false true</data>
+   <data>a_Documents Documents true Documents%2Fh1_Documents Documents false true</data>
+   <data>Documents%2FallDocuments%2Fa_allDocuments All+documents true Documents%2FallDocuments%2Fh1_allDocuments All+documents false true</data>
+   <data>Documents%2FResolutions%2Fa_Resolutions Resolutions true Documents%2FResolutions%2Fh1_Resolutions Resolutions false true</data>
+   <data>a_Documents Documents true null null null null</data>
+   <data>Documents%2FshareCertificates%2Fa_shareCertificates Share+certificates true Documents%2FshareCertificates%2Fh1_shareCertificates Share+certificates false true</data>
+   <data>Documents%2FdocumentSigning%2Fa_documentSigning Document+signing true Documents%2FdocumentSigning%2Fh1_documentSigning Document+signing false true</data>
+   <data>Documents%2Fa_businessDocuments Business+document+templates true null null null null</data>
+   <data>Documents%2FdataRooms%2Fa_dataRooms Data+rooms true Documents%2FdataRooms%2Fh1_dataRooms Data+rooms false true</data>
+   <data>Documents%2Fa_Compliance Compliance true null null false true</data>
+   <data>a_Reports Reports false null null false true</data>
+   <data>a_PeopleCommunication People+%26+communication true PeopleAndCom%2Fh1_PeopleAndCommunication People+%26+communication false true</data>
+   <data>PeopleAndCom%2FDirectors%2Fa_Directors Directors true PeopleAndCom%2FDirectors%2Fh1_Directors Directors false true</data>
+   <data>PeopleAndCom%2FShareholders%2Fa_Shareholders Shareholders true PeopleAndCom%2FShareholders%2Fh1_Shareholders Shareholders false true</data>
+   <data>PeopleAndCom%2FPSCs%2Fa_PSCs PSCs true PeopleAndCom%2FPSCs%2Fh1_PSCs PSCs false true</data>
+   <data>PeopleAndCom%2FEmployees%2Fa_Employees Employees true null null false true</data>
+   <data>PeopleAndCom%2FAdminUsers%2Fa_adminUsers Admin+users true PeopleAndCom%2FAdminUsers%2Fh1_adminUsers Admin+users false true</data>
+   <data>PeopleAndCom%2FCommunication%2Fa_Communication Communication true PeopleAndCom%2FCommunication%2Fh1_Communication Communication false true</data>
+   <data>a_Company-staff Company+-+staff false null null true true</data>
+   <data>a_HelpCentre Help+centre false null null false true</data>
+   <data>a_App-staff Staff false null null true true</data>
+   <data>img-ISO null false null null false true</data>
+   <data>p_Vestd_Ltd_authorised_and_regulated_by null false null null false true</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>sideNavObject</name>
-      <size>20</size>
+      <size>71</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>text</name>
-      <size>20</size>
+      <size>71</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>click</name>
-      <size>20</size>
+      <size>71</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>verifyObj</name>
-      <size>20</size>
+      <size>71</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
       <name>verifyObjectText</name>
-      <size>20</size>
+      <size>71</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>5</columnIndex>
       <name>staffOnly</name>
-      <size>20</size>
+      <size>71</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>IN</name>
+      <size>71</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

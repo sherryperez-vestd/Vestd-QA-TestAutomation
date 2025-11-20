@@ -37,9 +37,9 @@ WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_Communication
 
 WebUI.click(findTestObject('CoCo/navigation/side-nav/a_Communication'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/PeopleAndCommunication/h1_PeopleAndCommunication'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/PeopleAndCom/h1_PeopleAndCommunication'), 0)
 
-WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/PeopleAndCommunication/h1_PeopleAndCommunication'), 'Communication')
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/PeopleAndCom/h1_PeopleAndCommunication'), 'Communication')
 
 WebUI.verifyElementNotPresent(findTestObject('CoCo/navigation/side-nav/a_Home'), 0)
 
@@ -63,9 +63,9 @@ WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/a_HelpCentre
 
 WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/a_HelpCentre'), 'Help centre')
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/img-ISO'), 0)
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/p_Vestd_Ltd_authorised_and_regulated_by'), 0)
-WebUI.verifyElementText(findTestObject('CoCo/navigation/p_Vestd_Ltd_authorised_and_regulated_by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/img-ISO'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/p_Vestd_Ltd_authorised_and_regulated_by'), 0)
+WebUI.verifyElementText(findTestObject('CoCo/navigation/side-nav/p_Vestd_Ltd_authorised_and_regulated_by'), 'Vestd Ltd is authorised and regulated by the Financial Conduct Authority (685992).')
 
 WebUI.closeBrowser()
 

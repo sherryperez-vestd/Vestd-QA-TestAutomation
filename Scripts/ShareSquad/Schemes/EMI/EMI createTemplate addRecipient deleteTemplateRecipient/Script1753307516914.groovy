@@ -48,8 +48,6 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/ShareSquad/schemes/e
 
 WebUI.click(findTestObject('Object Repository/ShareSquad/schemes/emi/scheme-template/Page_scheme-design-template/btn_Save'))
 
-not_run: WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/reward-template?type=emi')
-
 WebUI.callTestCase(findTestCase('ShareSquad/Schemes/EMI/EMI add new recipient'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl('https://demo.app.vestd.com/company/50934/reward-template')

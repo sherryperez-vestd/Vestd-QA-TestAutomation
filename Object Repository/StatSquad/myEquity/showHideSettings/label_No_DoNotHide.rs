@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_No_DoNotHide</name>
+   <tag></tag>
+   <elementGuidId>e8bf3c69-1dbb-4d7b-986d-4eecedb6d70c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/form/div[10]/div[2]/div[2]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = 'No, do not hide' or . = 'No, do not hide')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;No, show the value graph and calculator to the recipients&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>120a65af-ab91-432e-9c5a-0d3fcd9c30a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No, do not hide</value>
+      <webElementGuid>0440b379-c348-4907-bc2f-6d000243d7f5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/form/div[10]/div[2]/div[2]/label</value>
+      <webElementGuid>91d465e4-5880-47d2-9ba9-9631f054f6a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes, hide the value graph and the calculator from the recipients'])[1]/following::label[1]</value>
+      <webElementGuid>48dbbca1-1119-4de9-aa13-8f851fd9d92d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide “My Equity calculator and graph” (recipient dashboard) from the recipients'])[1]/following::label[2]</value>
+      <webElementGuid>506bb6bf-22f5-4418-a600-fbeafe6eb7d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Allow split ownership (legal &amp; beneficial) share movements'])[1]/preceding::label[1]</value>
+      <webElementGuid>19dfd6d3-5051-46e8-900a-35f93d2733cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[6]/preceding::label[2]</value>
+      <webElementGuid>91db06f6-428a-4eed-a4df-c807c990c019</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No, show the value graph and calculator to the recipients']/parent::*</value>
+      <webElementGuid>fa2a9450-3da8-4ea7-9e4f-6c998955c0fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div[2]/div[2]/label</value>
+      <webElementGuid>f09e3a6c-7a1f-4fbd-bbd3-b57858315e34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'No, show the value graph and calculator to the recipients' or . = 'No, show the value graph and calculator to the recipients')]</value>
+      <webElementGuid>2f451feb-104d-4758-aaae-94cc730b1dff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

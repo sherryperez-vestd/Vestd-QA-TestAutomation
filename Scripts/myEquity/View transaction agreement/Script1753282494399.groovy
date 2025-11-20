@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration
 
 /**
  * Test Case: Verify transaction history modal content on My Equity page
@@ -28,10 +29,11 @@ import org.openqa.selenium.Keys as Keys
  *    - Ensure values (e.g., shares issued, price paid) match expected text.
  * 4. Close the modal and confirm that post-close elements (e.g., "View agreement summary") are visible.
  */
-WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Login and navigate to My equity page'
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
 //WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
-'Login and navigate to My equity page'
 WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 
 'Check View transactions history window elements (labels and values)'
@@ -52,6 +54,45 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/
 // WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/h5_Transaction History'), 0)
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/h5_Transaction History'), 
     'Transaction History')
+
+String currentProfile = RunConfiguration.getExecutionProfile()
+
+if (currentProfile == 'Demo') {
+	WebUI.comment("Running verification steps for profile: ${currentProfile}")
+	verifyTransactionHistoryDetailsDemo()
+} else {
+	WebUI.comment("Skipping verification — current profile is '${currentProfile}', not 'Demo'")
+	verifyTransactionHistoryDetailsGB4()
+}
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_'))
+
+//WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_'), 0)
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_Close'))
+
+// WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_Close'),  0)
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_Close'),
+	'Close')
+
+WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_Close'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/a_View agreement summary'))
+
+// WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/a_View agreement summary'), 0)
+WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/a_View agreement summary'),
+	'View agreement summary')
+
+
+def verifyTransactionHistoryDetailsGB4() {	
+	WebUI.verifyTextPresent('-30 Ordinary shares', false)
+	WebUI.verifyTextPresent('Cancellation: -30 Ordinary (voting)', false)
+	WebUI.verifyTextPresent('Shares with equity rights: 0.0015%', false)
+	WebUI.verifyTextPresent('Price received per share: £0.03333', false)
+	WebUI.verifyTextPresent('Total price received: £1.00', false)
+	WebUI.verifyTextPresent('Cancelled on: 25th Feb 2025', false)	
+}
+
+def verifyTransactionHistoryDetailsDemo() {
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/p_250 Ordinary shares'))
 
@@ -150,21 +191,9 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/
 // WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_20th Feb 2025'),  0)
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/strong_20th Feb 2025'), 
     '20th Feb 2025')
+}
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_'))
 
-//WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/span_'), 0)
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_Close'))
 
-// WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_Close'),  0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_Close'), 
-    'Close')
 
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/button_Close'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/a_View agreement summary'))
-
-// WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/a_View agreement summary'), 0)
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/sharesOptionsBreakdown/Transaction History/a_View agreement summary'), 
-    'View agreement summary')
 

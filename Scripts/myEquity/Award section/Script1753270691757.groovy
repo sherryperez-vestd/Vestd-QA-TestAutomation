@@ -28,7 +28,8 @@ import org.openqa.selenium.Keys as Keys
  * 4. Validate dynamic values (e.g., Total price to pay not empty).
  * 5. Modify estimated profit per share and ensure related values update accordingly.
  */
-not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+// Login
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
 'Login and navigate to My equity page'
 WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)

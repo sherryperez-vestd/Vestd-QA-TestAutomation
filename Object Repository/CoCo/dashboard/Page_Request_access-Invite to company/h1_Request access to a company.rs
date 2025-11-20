@@ -6,40 +6,36 @@
    <elementGuidId>8d775440-2fe9-4fa9-8ceb-0135d3c18669</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
+         <key>BASIC</key>
+         <value>//h1[(contains(text(), 'Request access to a company') or contains(., 'Request access to a company'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>8f1cbe7a-7fba-4575-b3f9-d6502817d407</webElementGuid>
+      <webElementGuid>fee3361f-9d61-4116-b54f-adc164a8b115</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Request access to a company</value>
-      <webElementGuid>a777cc39-2928-4a6c-9503-2b39c89b4e3d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>49724251-8df8-49ac-8f7c-ec77276168d3</webElementGuid>
+      <webElementGuid>f5384cd2-d76b-44d1-9eb2-d0a42582f4bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +43,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>a253c769-d327-42a3-a448-c3b61d13d15d</webElementGuid>
+      <webElementGuid>33577450-cc19-43d0-a1a6-be80f4a7dc06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +51,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::h1[1]</value>
-      <webElementGuid>bf8608c7-04e6-49a6-9833-8e9fa4e5fd0c</webElementGuid>
+      <webElementGuid>91c3ddbb-8f2b-4e00-8869-d31c718cc496</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add your own company'])[1]/following::h1[1]</value>
-      <webElementGuid>4cf3576b-e9ea-4840-a577-c8c0e79fd528</webElementGuid>
+      <webElementGuid>9b63c8f9-3222-45a5-a14b-06aec7b190c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='already'])[1]/preceding::h1[1]</value>
-      <webElementGuid>5414919b-797d-458f-8ece-25c45dda46ad</webElementGuid>
+      <webElementGuid>68c8ef39-c0f7-4582-8768-10365099fbe0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Request access to a company']/parent::*</value>
-      <webElementGuid>743f8a01-f754-44b6-abb3-5d09513d43a4</webElementGuid>
+      <webElementGuid>b82068bc-5667-437d-a37a-8dc10a98be0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +83,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>6841efda-3da5-4103-9df3-1aad55d9be93</webElementGuid>
+      <webElementGuid>3959a66d-a38b-4b6d-bbf6-5b6fe9fc57c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +91,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Request access to a company' or . = 'Request access to a company')]</value>
-      <webElementGuid>955867cb-f022-4cfe-9e7f-86e83b58e278</webElementGuid>
+      <webElementGuid>0c0f1de2-d79e-49c5-9ef1-e31cc44532ba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

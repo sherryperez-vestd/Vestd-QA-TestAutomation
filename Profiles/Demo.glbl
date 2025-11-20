@@ -11,6 +11,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://demo.app.vestd.com/company/50915/home'</initValue>
+      <name>url_IN</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'sherry.perez+staff@vestd.com'</initValue>
       <name>username_staff</name>
    </GlobalVariableEntity>

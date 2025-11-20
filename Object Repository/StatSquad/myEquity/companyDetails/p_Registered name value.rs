@@ -6,19 +6,20 @@
    <elementGuidId>6e46287d-75e6-4143-bad3-66d82727c749</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//p[(contains(text(), 'Test Co') or contains(., 'Test Co'))]</value>
+         <key>XPATH</key>
+         <value>//p[(contains(text(), 'Test Co') or contains(., 'Test Co') or contains(text(), 'Palmer Ltd') or contains(., 'Palmer Ltd'))]&#xd;
+</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.col-12.pb-2 > div > div > div.col-12</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]</value>
+         <key>BASIC</key>
+         <value>//p[(contains(text(), 'Test Co') or contains(., 'Test Co'))]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,7 +34,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>057ba6de-01ae-483d-9e23-f59955371ab4</webElementGuid>
+      <webElementGuid>8e845843-3ff5-48fb-9e41-fb5444f110c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,46 +42,6 @@
       <name>text</name>
       <type>Main</type>
       <value>Test Co</value>
-      <webElementGuid>c458347d-9528-406e-832a-ab813ad02578</webElementGuid>
+      <webElementGuid>8a31d55d-8b43-4c8b-8b45-e9ad490de6ba</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='main-content-wrapper']/div/div/div/div/div/div[4]/div/div[2]/div/div/div[2]/div/div/div[4]</value>
-      <webElementGuid>0e8c8858-86dd-4400-b788-ca989b90a843</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual growth'])[1]/following::div[3]</value>
-      <webElementGuid>3304096b-b078-4902-bbb7-947637374f23</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total value'])[1]/following::div[3]</value>
-      <webElementGuid>72cced28-c35b-4ff7-9630-0232aecc9785</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/div[4]</value>
-      <webElementGuid>dea560bd-e179-4c2f-a55f-dea0b7e04a47</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'Award (No. of shares)Total valueTotal price to pay Pre-tax profit 9,750£288.97£9,750.00-' or . = 'Award (No. of shares)Total valueTotal price to pay Pre-tax profit 9,750£288.97£9,750.00-')]</value>
-      <webElementGuid>73fbfde8-d4c1-4544-80f8-8e1713c47335</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

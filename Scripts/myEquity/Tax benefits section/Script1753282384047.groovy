@@ -33,52 +33,32 @@ import org.openqa.selenium.Keys as Keys
  *    • Growth Shares user sees explanatory text
  * 4. Assert expected content is shown in each case.
  */
-not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Login and navigate to My equity page'
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 
 WebUI.setText(findTestObject('StatSquad/myEquity/_common/input_estimatedProfitIn5Years'), '10')
-
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/i_Your tax benefits_'))
-
-//CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatSquad/myEquity/taxBenefits/p_emi_14percent')
-//CustomKeywords.'UIKeywords.verifyElementContainsPartialText'('Object Repository/StatSquad/myEquity/taxBenefits/p_emi_14percent','14%')
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/p_emi_14percent'), 0)
 
 def elementText = WebUI.getText(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/p_emi_14percent'))
-
 assert elementText.contains('14%')
-
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370432')
-
+WebUI.navigateToUrl(GlobalVariable.CSOPVestingGraphURL)
 WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/overall-value-graph/select_estimatedProfit'), 0)
-
 WebUI.click(findTestObject('StatSquad/myEquity/graph/overall-value-graph/select_estimatedProfit'))
-
 WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/overall-value-graph/select_estimatedProfit_perShare'), 0)
-
-not_run: WebUI.click(findTestObject('StatSquad/myEquity/graph/overall-value-graph/select_estimatedProfit_perShare'))
-
 WebUI.clearText(findTestObject('StatSquad/myEquity/_common/input_estimatedProfitIn5Years'))
-
 WebUI.setText(findTestObject('StatSquad/myEquity/_common/input_estimatedProfitIn5Years'), '10')
-
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/i_Your tax benefits_'))
-
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/taxBenefits/p_csop_20percent'), 0)
 
+
 def elementText2 = WebUI.getText(findTestObject('StatSquad/myEquity/taxBenefits/p_csop_20percent'))
-
 assert elementText2.contains('20%')
-
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370450')
-
+WebUI.navigateToUrl(GlobalVariable.GSVestingGraphURL)
 WebUI.setText(findTestObject('StatSquad/myEquity/_common/input_estimatedProfitIn5Years'), '10')
-
 WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/taxBenefits/i_Your tax benefits_'))
-
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/taxBenefits/p_Growth shares tax profit calculations'), 0)
-
 WebUI.verifyElementText(findTestObject('StatSquad/myEquity/taxBenefits/p_Growth shares tax profit calculations'), 'Growth shares tax & profit calculations (these are indicative and will depend on your personal tax circumstances)')
 

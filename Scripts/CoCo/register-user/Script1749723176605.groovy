@@ -47,10 +47,10 @@ WebUI.click(findTestObject('Object Repository/Platform/register/Page_Register-ne
 
 WebUI.click(findTestObject('Object Repository/Platform/register/Page_Register-new-user/button_Join'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Platform/register/Page_Verify email - Vestd/div_You should have received a verification_b4194e'), 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Platform/register/Page_Verify email - Vestd/div_You should have received a verification'), 
     0)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Platform/register/Page_Verify email - Vestd/div_You should have received a verification_b4194e'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Platform/register/Page_Verify email - Vestd/div_You should have received a verification'), 
     'You should have received a verification email to the address provided below. Please follow the link to verify your email.')
 
 WebUI.closeBrowser()

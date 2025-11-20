@@ -61,7 +61,7 @@ public class UIKeywords {
 		assert fullText.contains(partialText)
 	}
 
-	
+
 	@Keyword
 	def verifyElementContainsPartialText2(String objectPath, String partialText) {
 		WebUI.scrollToElement(findTestObject(objectPath), 0)
@@ -70,7 +70,7 @@ public class UIKeywords {
 		assert fullText.contains(partialText)
 	}
 
-	
+
 	@Keyword
 	def clickElement(String objectPath) {
 		WebUI.scrollToElement(findTestObject(objectPath), 0)
@@ -152,9 +152,10 @@ public class UIKeywords {
 	def verifySideNavItemsFromData(String dataFileName, String userName) {
 		def data = findTestData(dataFileName)
 		int rowCount = data.getRowNumbers()
+		String basePath = "Object Repository/CoCo/navigation/side-nav/"
 
 		for (int i = 1; i <= rowCount; i++) {
-			def objPath = data.getValue("sideNavObject", i)
+			def sideNavObject  = data.getValue("sideNavObject", i)
 			def text = data.getValue("text", i)
 			def click = data.getValue("click", i)?.toBoolean()
 			def verifyObj = data.getValue("verifyObj", i)
@@ -166,17 +167,20 @@ public class UIKeywords {
 				continue
 			}
 
+
+			def objPath = basePath + sideNavObject
 			if (text) {
 				verifyElementPresentVisibleText(objPath, text)
 			} else {
 				verifyElementPresentVisible(objPath)
 			}
 
+
 			if (click) {
 				WebUI.click(findTestObject(objPath))
-
-				if (verifyObj && verifyText) {
-					verifyElementPresentVisibleText(verifyObj, verifyText)
+				def verifyObjHeading = basePath + verifyObj
+				if (verifyObjHeading && verifyText) {
+					verifyElementPresentVisibleText(verifyObjHeading, verifyText)
 				}
 
 				//				WebUI.back()
@@ -220,7 +224,7 @@ public class UIKeywords {
 		WebUI.verifyEqual(url.contains('job-monitor'), true)
 
 		// Wait for navigation or file generation to complete
-		WebUI.delay(25)
+		WebUI.delay(35)
 
 		// Verify Temporary File page URL
 		url = WebUI.getUrl()

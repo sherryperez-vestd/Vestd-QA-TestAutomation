@@ -30,7 +30,8 @@ import org.openqa.selenium.Keys as Keys
  * 5. Navigate again to Agreement Summary → perform part-cancellation of 40 shares.
  * 6. Confirm “Cancelled: 40” is displayed again on My Equity.
  */
-WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+// Login
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
 'Login and navigate to My equity page'
 WebUI.navigateToUrl(GlobalVariable.cancelledOptionsURL)

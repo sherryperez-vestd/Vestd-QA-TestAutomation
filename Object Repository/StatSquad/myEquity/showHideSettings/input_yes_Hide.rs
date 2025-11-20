@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_yes_Hide</name>
+   <tag></tag>
+   <elementGuidId>6701a4d5-57f2-4588-8d8b-a41c22b6c752</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@name = 'feature_recipient_dashboard_hide_calculator_and_graph' and @type = 'radio'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#feature_recipient_dashboard_hide_calculator_and_graph_yes</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'feature_recipient_dashboard_hide_calculator_and_graph' and @type = 'radio']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Yes, hide the value graph and the calculator from the recipients&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>75dbe677-1d3e-46ac-9a35-7d87832b844f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>feature_recipient_dashboard_hide_calculator_and_graph</value>
+      <webElementGuid>de84b9c8-8706-4f01-8cc2-b5f679a99961</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+      <webElementGuid>1930e5cf-41e0-42eb-85d0-50c995191c87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gtm-form-interact-field-id</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>dacd5438-04eb-4e14-8925-f8d549865f1e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

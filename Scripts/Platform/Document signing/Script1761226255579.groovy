@@ -97,10 +97,10 @@ WebUI.delay(15)
 WebUI.verifyTextPresent('Setup Articles of Association signing', false)
 
 // Verify the presence of “Save and send for signing” button
-CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/Platform/documentSigning/btn_saveAndSendForSigning')
+CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/Platform/documentSigning/btn_sendForSigning')
 
 // STEP 9: Send document for signing and confirm alert text
-CustomKeywords.'UIKeywords.clickElement'('Object Repository/Platform/documentSigning/btn_saveAndSendForSigning')
+CustomKeywords.'UIKeywords.clickElement'('Object Repository/Platform/documentSigning/btn_sendForSigning')
 CustomKeywords.'UIKeywords.verifyElementContainsPartialText2'('Object Repository/Platform/documentSigning/div_alert', 
     'signature on the document')
 

@@ -6,16 +6,16 @@
    <elementGuidId>15a34ede-04bb-472b-b43b-170d9291043f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
+         <key>BASIC</key>
+         <value>//h1[(contains(text(), 'Reporting') or contains(., 'Reporting'))]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>h1</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//h1[(contains(text(), 'Beta') or contains(., 'Beta'))]</value>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,15 +33,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>55272c64-a42f-4955-9f7e-06129c93b61f</webElementGuid>
+      <webElementGuid>6736ff7c-9340-453f-b221-fb4f431571dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Beta</value>
-      <webElementGuid>6e8436af-e1ab-4735-bf8b-537ade271f23</webElementGuid>
+      <value>Reporting</value>
+      <webElementGuid>586c3ed5-24e6-48ac-aaa2-25a391732483</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>0537ab12-70a8-45b0-8d39-239f64131cac</webElementGuid>
+      <webElementGuid>cf381a16-b3ef-4832-8ceb-bd77d363ae78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID documents'])[3]/following::h1[1]</value>
-      <webElementGuid>a0b71d2a-1d5f-4419-90a3-3ca0948dee87</webElementGuid>
+      <webElementGuid>3ea30655-6259-4295-8a87-f354df08d065</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ID checks'])[3]/following::h1[1]</value>
-      <webElementGuid>d70a628e-18ce-4cba-a394-a97613bb933d</webElementGuid>
+      <webElementGuid>52e6e393-5239-4fa0-a519-c342f138e87e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Request a custom report here'])[1]/preceding::h1[1]</value>
-      <webElementGuid>35f2b58b-7242-47de-af62-2396fcd5484c</webElementGuid>
+      <webElementGuid>7c75a868-23cc-464f-b2c2-3649d6d9db4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Reporting']/parent::*</value>
-      <webElementGuid>21f530e8-bdac-45ec-b570-b51941a0f184</webElementGuid>
+      <webElementGuid>e74839e5-6b4a-4f1e-8ad3-d8a174657276</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +89,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>f926b4e1-1f6d-48cd-8900-fb28be3ecdbc</webElementGuid>
+      <webElementGuid>49026c96-8b2a-4559-b491-eca8fc8ed309</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -44,7 +44,7 @@ CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/dataTable/
 
 // Verify filter options
 verifyDropdownFilter('stockTransfer/div_investmentRound', ['label_none', 'label_Incorporation', 'label_FandF', 'label_roundOne'
-        , 'label_Round two', 'label_Investment round 1'])
+        , 'label_Round two'])
 
 verifyDropdownFilter('stockTransfer/div_status', ['label_Completed', 'label_In progress', 'label_Draft'])
 

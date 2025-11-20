@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 /**
  * This test script logs in to the application and navigates to the company dashboard
@@ -26,39 +27,67 @@ import org.openqa.selenium.Keys as Keys
  * the correct text. Custom keywords are used for cleaner verification of element
  * presence and content.
  */
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
-//CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
-//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/span_yourVestingDetails', 'Your vesting details')
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/span_yourVestingDetails', 
+    'Your vesting details')
+
 WebUI.click(findTestObject('StatSquad/myEquity/vestingDetails/span_yourVestingDetails'))
 
 // === Scheduled Vesting Tab Verification ===
 CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/a_scheduledVestingTab', 'Scheduled vesting')
+
 WebUI.click(findTestObject('StatSquad/myEquity/vestingDetails/a_scheduledVestingTab'))
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/h5_FullSchedule','Full schedule (49 tranches)')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/h5_FullSchedule', 'Full schedule (49 tranches)')
+
 CustomKeywords.'UIKeywords.verifyElementPresentVisible'('StatSquad/myEquity/vestingDetails/span_tooltipIconFullSched')
+
 WebUI.click(findTestObject('StatSquad/myEquity/vestingDetails/span_tooltipIconFullSched'))
+
 CustomKeywords.'UIKeywords.verifyElementPresentVisible'('StatSquad/myEquity/vestingDetails/span_tooltipTextFullSched')
+
 WebUI.click(findTestObject('StatSquad/myEquity/vestingDetails/span_tooltipIconFullSched'))
+
 CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_Vested', 'Vested')
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_vestingPeriod','Vesting period')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_vestingPeriod', 'Vesting period')
+
 CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_numberOfShares', 'Number of shares')
+
 CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_agreementName', 'Agreement name')
 
 // === Manual Vesting Tab Verification ===
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/a_manualVestingTab','Manual vesting')
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/a_manualVestingTab', 'Manual vesting')
+
 WebUI.click(findTestObject('StatSquad/myEquity/vestingDetails/a_manualVestingTab'))
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/h5_fullHistory','Full history (1 event)')
+
+String currentProfile = RunConfiguration.getExecutionProfile()
+
+if (currentProfile == 'Demo') {
+	CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/h5_fullHistory', 'Full history (1 event)')
+} else {
+	WebUI.verifyTextPresent('Full history (3 events)', false)
+}
+
+
 CustomKeywords.'UIKeywords.verifyElementPresentVisible'('StatSquad/myEquity/vestingDetails/span_tooltipIconFullHistory')
+
 WebUI.click(findTestObject('StatSquad/myEquity/vestingDetails/span_tooltipIconFullHistory'))
+
 CustomKeywords.'UIKeywords.verifyElementPresentVisible'('StatSquad/myEquity/vestingDetails/span_tooltipTextFullHistory')
+
 WebUI.click(findTestObject('StatSquad/myEquity/vestingDetails/span_tooltipIconFullHistory'))
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_Vested2','Vested')
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_Date','Date')
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_numberOfShares2','Number of shares')
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_agreementName2','Agreement name')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_Vested2', 'Vested')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_Date', 'Date')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_numberOfShares2', 'Number of shares')
+
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/vestingDetails/th_agreementName2', 'Agreement name')
 
 
 

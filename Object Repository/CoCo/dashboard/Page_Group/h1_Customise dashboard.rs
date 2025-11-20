@@ -6,40 +6,36 @@
    <elementGuidId>6da32e9e-de8c-42f3-95ca-20f49c1c2e7e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
+         <key>BASIC</key>
+         <value>//h1[(contains(text(), 'Customise dashboard') or contains(., 'Customise dashboard'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>d6b0973a-40bc-47d8-918e-96dea20427db</webElementGuid>
+      <webElementGuid>a39f03d8-2e5b-449c-a906-5ce7084af300</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Customise dashboard</value>
-      <webElementGuid>33d7d4d3-4b22-4585-9af9-61d7936fea14</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>53f4221f-b2d0-4508-935b-d2ff2a62d1ad</webElementGuid>
+      <webElementGuid>93790ed4-e40b-47d5-be8e-8bfa899cc0ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +43,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>b1f27cf1-82d5-4388-8f98-2c9b41bc2279</webElementGuid>
+      <webElementGuid>d95bff87-ebc3-410f-875b-a460fa085872</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +51,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt; Back to Dashboard'])[1]/following::h1[1]</value>
-      <webElementGuid>6818deef-15d3-4e87-8284-bfbe33d05d46</webElementGuid>
+      <webElementGuid>ac6311f5-fa31-4dc3-afef-1c46fa26f1cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::h1[1]</value>
-      <webElementGuid>8710f5b1-746b-4092-91e2-b7ac67567523</webElementGuid>
+      <webElementGuid>0d6d4e04-837a-403f-bd32-0af428adc9cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='New group'])[1]/preceding::h1[1]</value>
-      <webElementGuid>dfe53e0e-fc91-4113-b788-9cd486471b4c</webElementGuid>
+      <webElementGuid>c097c2ea-8fa2-4738-9608-c398f0e201cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::h1[1]</value>
-      <webElementGuid>6b0ad402-f300-408b-bc7c-3a7670f581eb</webElementGuid>
+      <webElementGuid>f8fe380a-f109-4fe7-a613-d7fbd4315e17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Customise dashboard']/parent::*</value>
-      <webElementGuid>ba152052-4f83-41ee-9c32-4ba4d829993d</webElementGuid>
+      <webElementGuid>e9f7ab01-0cb0-4550-b04c-2e914a974c73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>325bb620-b192-426f-af33-aca1a61ac00a</webElementGuid>
+      <webElementGuid>eddd34f4-3f24-4d2e-9b7c-e7bf536389f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Customise dashboard' or . = 'Customise dashboard')]</value>
-      <webElementGuid>9eba024f-ba40-4ccb-9b71-14a97f9330df</webElementGuid>
+      <webElementGuid>3aa11740-68d6-4097-abf2-986b97130b30</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

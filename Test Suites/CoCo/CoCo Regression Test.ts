@@ -12,41 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>096a8a98-ff15-44e4-ac36-7cff33f82370</testSuiteGuid>
    <testCaseLink>
-      <guid>0f43333e-503e-4b59-a8a5-a9659ac91b5d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/navigationMenu/UK Editor side navigation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9aacb587-e538-454e-9a79-0e8719855eb0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/navigationMenu/IN Staff side navigation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c7e82b30-1886-4bfa-a802-c931d574d882</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/navigationMenu/UK Staff side navigation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c61f0398-75ee-49c2-94ff-d95a407fe70a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/navigationMenu/UK Recipient side navigation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>eb3c5877-14c7-434f-8d0d-6d7dbe72f753</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CoCo/navigationMenu/UK ViewOnly Admin side navigation</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>2ab620e2-adc4-4c9e-9da4-99e89838b3fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -133,6 +98,32 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>4369a57a-a2a4-4bb0-bdda-4a133f3960c9</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c61f0398-75ee-49c2-94ff-d95a407fe70a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CoCo/navigationMenu/UK Recipient side navigation</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>17add04e-9a2d-41f3-a7b0-1faebe794bc2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CoCo/navigationMenu/UK Side navigation</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>56c9b2d4-faf9-4a4e-b8a0-456b528609d2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6e2be084-a2f3-4313-ab53-843ed9bf3790</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

@@ -6,18 +6,18 @@
    <elementGuidId>81bca82a-709e-4ddf-99f8-9fd3ff729190</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content-wrapper']/div/div/form/div[10]/div[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/form/div[10]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;Yes, hide the value graph and the calculator from the recipients No, show the va&quot;i</value>
+         <value>internal:text=&quot;Hide “My Equity calculator and graph” (recipient dashboard) from the recipients&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>true</smartLocatorEnabled>
@@ -28,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>863f9769-d38e-4450-ada3-818481a75a61</webElementGuid>
+      <webElementGuid>2c43f770-3967-4fd9-bd37-96b797827236</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check</value>
-      <webElementGuid>907305b6-cb63-4361-8268-4e87403eb6b2</webElementGuid>
+      <webElementGuid>3fe18dc3-0197-4fd9-81ed-3b291c8d232a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Yes, hide the value graph and the calculator from the recipients  No, show the value graph and calculator to the recipients</value>
-      <webElementGuid>21f9af29-0dc5-4b20-8690-2d3c171dec1d</webElementGuid>
+      <webElementGuid>62dbe0b5-2de9-4d91-be8c-7cfc54a2d81a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/form[1]/div[@class=&quot;form-group&quot;]/div[@class=&quot;form-check&quot;]</value>
-      <webElementGuid>114ae50d-6c06-4e97-8164-bdca39485920</webElementGuid>
+      <webElementGuid>779a7615-c323-46a0-a359-d3b41de2b745</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/form/div[10]/div[2]</value>
-      <webElementGuid>d7130553-b21c-440e-82a8-dded25121a01</webElementGuid>
+      <webElementGuid>ebe2c10b-e5dd-4656-9af6-c85f2bfc3762</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide “My Equity calculator and graph” (recipient dashboard) from the recipients'])[1]/following::div[1]</value>
-      <webElementGuid>6611bd75-71ed-43f2-a22a-74b094f3674e</webElementGuid>
+      <webElementGuid>66d1f29d-5fbd-40cc-bbb2-96417277f3b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No, only show non diluted numbers on the My Equity page'])[1]/following::div[3]</value>
-      <webElementGuid>e0180523-ba9a-4106-a3bf-b0b1bfd77b42</webElementGuid>
+      <webElementGuid>4f70bc0c-bd31-4f13-a3bb-130b35906cd7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/div[2]</value>
-      <webElementGuid>fd2afc25-480f-450c-8426-e6085a236c4f</webElementGuid>
+      <webElementGuid>215f3b3b-e319-43a3-b47d-689c1d14b170</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +92,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Yes, hide the value graph and the calculator from the recipients  No, show the value graph and calculator to the recipients' or . = ' Yes, hide the value graph and the calculator from the recipients  No, show the value graph and calculator to the recipients')]</value>
-      <webElementGuid>c8f4604f-934d-480c-b456-7c832b5e0918</webElementGuid>
+      <webElementGuid>984d7784-1b17-4eff-9736-8b4750934bf0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

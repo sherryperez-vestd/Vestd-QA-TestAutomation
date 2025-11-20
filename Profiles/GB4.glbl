@@ -101,6 +101,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'https://gb4.sprint.app.vestd.com/company/608/dashboard?user_id=21059'</initValue>
+      <name>cancelledOptionsURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'-'</initValue>
       <name>buybackWindowURL</name>
    </GlobalVariableEntity>

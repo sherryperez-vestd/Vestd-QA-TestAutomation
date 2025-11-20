@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration
 
 /**
  * Test Case: Validate the Unknown Cost section and update flow on the My Equity page
@@ -30,82 +31,91 @@ import org.openqa.selenium.Keys as Keys
  *    - Set and save price input → verify updated display.
  *    - Clear price input and save → verify retained previous valid value.
  */
-not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+// Login
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
-'Login and navigate to My equity page'
-WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
+String currentProfile = RunConfiguration.getExecutionProfile()
 
-'Check Unknown cost section elements(text, labels)'
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/txt-heading_unknown-cost'), 'Unknown cost')
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/txt_unknown-cost-lead-text'), 'We don’t have a record of how much you paid for these shareholdings, so we’ve defaulted to nominal value. Update the price you paid for these shares to see your actual profit.')
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/td_Price paid'), 'Price paid')
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/td_Details'), 'Details')
-
-WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'), 'Update price')
-
-WebUI.verifyElementClickable(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/small_0.0001 nominal value'), '£0.0001 nominal value')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/small_shares_date_issued'), 
-    0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/b_1,000 shares'), '1,000 shares')
-
-'Check update price elements (link, labels, CTAs(edit, save, cancel)'
-WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/label_price-paid-input'), 0)
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/label_price-paid-input'))
-
-WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/unknownCost/button_Cancel'))
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/unknownCost/button_Cancel'), 0)
-
-WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/button_Cancel'), 'Cancel')
-
-WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/unknownCost/button_Save'), 0)
-
-WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/unknownCost/button_Save'))
-
-WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/button_Save'), 'Save')
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/input-label-currency'), '£')
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/input-label_per-share'), '/share')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/input_price-paid'), 0)
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/input_price-paid'))
-
-'Check Price Paid value can be edited and saved'
-WebUI.setText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/input_price-paid'), '1')
-
-WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/button_Cancel'))
-
-not_run: WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/b_-shares'), '£-/shares')
-
-WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'))
-
-WebUI.setText(findTestObject('StatSquad/myEquity/unknownCost/input_price-paid'), '1')
-
-WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/button_Save'))
-
-WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/b_1.00shares'), '£1.00/shares')
-
-WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'))
-
-not_run: WebUI.setText(findTestObject('StatSquad/myEquity/unknownCost/input_price-paid'), '')
-
-WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/input_price-paid'))
-
-WebUI.sendKeys(findTestObject('StatSquad/myEquity/unknownCost/input_price-paid'), Keys.chord(Keys.BACK_SPACE))
-
-WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/button_Save'))
-
-WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/unknownCost/b_-shares'), FailureHandling.STOP_ON_FAILURE)
-
+if (currentProfile == 'Demo') {
+	WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)	
+} else {
+	WebUI.navigateToUrl('https://gb4.sprint.app.vestd.com/company/150/dashboard?user_id=705')	
+}
+	
+	'Check Unknown cost section elements(text, labels)'
+	WebUI.scrollToElement(findTestObject('StatSquad/myEquity/unknownCost/txt-heading_unknown-cost'), 0)
+	
+	WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/txt-heading_unknown-cost'), 'Unknown cost')
+	
+	WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/txt_unknown-cost-lead-text'), 'We don’t have a record of how much you paid for these shareholdings, so we’ve defaulted to nominal value. Update the price you paid for these shares to see your actual profit.')
+	
+	WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/td_Price paid'), 'Price paid')
+	
+	WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/td_Details'), 'Details')
+	
+	WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'), 'Update price')
+	
+	WebUI.verifyElementClickable(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'))
+	
+	WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/small_0.0001 nominal value'), '£0.0001 nominal value')
+	
+	WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/small_shares_date_issued'),
+		0)
+	
+	WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/b_1,000 shares'), '1,000 shares')
+	
+	'Check update price elements (link, labels, CTAs(edit, save, cancel)'
+	WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'))
+	
+	WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/label_price-paid-input'), 0)
+	
+	WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/label_price-paid-input'))
+	
+	WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/unknownCost/button_Cancel'))
+	
+	WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/unknownCost/button_Cancel'), 0)
+	
+	WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/button_Cancel'), 'Cancel')
+	
+	WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/unknownCost/button_Save'), 0)
+	
+	WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/unknownCost/button_Save'))
+	
+	WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/button_Save'), 'Save')
+	
+	WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/input-label-currency'), '£')
+	
+	WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/input-label_per-share'), '/share')
+	
+	WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/input_price-paid'), 0)
+	
+	WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/input_price-paid'))
+	
+	'Check Price Paid value can be edited and saved'
+	WebUI.setText(findTestObject('Object Repository/StatSquad/myEquity/unknownCost/input_price-paid'), '1')
+	
+	WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/button_Cancel'))
+	
+	not_run: WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/b_-shares'), '£-/shares')
+	
+	WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'))
+	
+	WebUI.setText(findTestObject('StatSquad/myEquity/unknownCost/input_price-paid'), '1')
+	
+	WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/button_Save'))
+	
+	WebUI.verifyElementText(findTestObject('StatSquad/myEquity/unknownCost/b_1.00shares'), '£1.00/shares')
+	
+	WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/a_Update price'))
+	
+	not_run: WebUI.setText(findTestObject('StatSquad/myEquity/unknownCost/input_price-paid'), '')
+	
+	WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/input_price-paid'))
+	
+	WebUI.sendKeys(findTestObject('StatSquad/myEquity/unknownCost/input_price-paid'), Keys.chord(Keys.BACK_SPACE))
+	
+	WebUI.click(findTestObject('StatSquad/myEquity/unknownCost/button_Save'))
+	
+	WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/unknownCost/b_-shares'), FailureHandling.STOP_ON_FAILURE)
+	
+	

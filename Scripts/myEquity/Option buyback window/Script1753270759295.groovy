@@ -26,6 +26,9 @@ import org.openqa.selenium.Keys as Keys
  * 3. Verify the heading text, eligibility message, and presence of the "View offer" link.
  * 4. Ensure the "View offer" link is clickable.
  */
+
+// Login
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 WebUI.navigateToUrl(GlobalVariable.buybackWindowURL)
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/buyback/alert buyback'), 0)

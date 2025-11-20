@@ -23,93 +23,57 @@ import org.openqa.selenium.Keys as Keys
  * Steps:
  * 1. Navigate to the company admin page.
  * 2. Verify the presence of the "Hide My Equity calculator and graph" toggle.
- * 3. Set the toggle to "Show", save changes, and verify graph/calculator is visible on the recipient dashboard.
- * 4. Set the toggle to "Hide", save changes, and confirm the graph/calculator is not displayed on the recipient dashboard.
- * 5. Reset the toggle to "Show" for cleanup.
+ * 3. Set the toggle to "Hide", save changes, and confirm the graph/calculator is not displayed on the recipient dashboard.
+ * 4. Reset the toggle to "Show" for cleanup.
  */
-WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
-
-//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
 'Login and navigate to My company admin page'
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
+
 WebUI.navigateToUrl(GlobalVariable.staffCompanyAdminPage)
 
 'Check option to hide/show value graph and calculator are present'
-WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/showHideSettings/label_Hide My Equity calculator and graph2'), 
-    0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/label_Hide My Equity calculator and graph2'), 
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/myEquity/showHideSettings/label_hideMyEquityCalculatorAndGraph', 
     'Hide “My Equity calculator and graph” (recipient dashboard) from the recipients')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/div_Yes, hide the value graph and the calculator'), 
-    0)
+CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatSquad/myEquity/showHideSettings/input_yes_Hide')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/input_Hide My Equity calculator and graph'), 
-    0)
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/myEquity/showHideSettings/label_Yes', 
+    'Yes')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/label_Yes, hide the value graph and the calculator'), 
-    0)
+CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatSquad/myEquity/showHideSettings/input_no_DoNotHide')
 
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/label_Yes, hide the value graph and the calculator'), 
-    'Yes, hide the value graph and the calculator from the recipients')
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/myEquity/showHideSettings/label_No_DoNotHide', 
+    'No, do not hide')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/input_No show the value graph and the calculator'), 
-    0)
+'Hide value graph and calculator\r\n'
+CustomKeywords.'UIKeywords.clickElement'('StatSquad/myEquity/showHideSettings/input_yes_Hide')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/label_No, show the value graph and calculator'), 
-    0)
+CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/myEquity/_common/button_Save')
 
-'Set option to Show value graph and calculator\r\n'
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/label_No, show the value graph and calculator'))
-
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/_common/button_Save'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/message_Company updated'), 
-    0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/message_Company updated'), 
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/myEquity/showHideSettings/message_Company updated', 
     'Company updated')
 
-//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
-
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/_common/tab_Overall value'))
 
 'Check value graph and calculator are displayed\r\n'
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/_common/tab_Overall value'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/link_Overall value'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/_common/tab_Overall value'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/div_Estimated Profit in 5 Years'), 
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/StatSquad/myEquity/_common/tab_Overall value'), 0)
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/div_Estimated Profit in 5 Years'), 
     0)
 
-// WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/div_Estimated Profit in 5 Years'))
-//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
 WebUI.navigateToUrl(GlobalVariable.staffCompanyAdminPage)
 
-'Set option to Hide value graph and calculator'
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/input_Hide My Equity calculator and graph'))
+'Unhide value graph and calculator\r\n'
+CustomKeywords.'UIKeywords.clickElement'('StatSquad/myEquity/showHideSettings/input_no_DoNotHide')
 
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/_common/button_Save'))
+CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/myEquity/_common/button_Save')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/message_Company updated'), 
-    0)
-
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/showHideSettings/message_Company updated'), 
+CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/myEquity/showHideSettings/message_Company updated', 
     'Company updated')
 
-//WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
 WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 
-'Check value graph and calculator are NOT displayed'
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/StatSquad/myEquity/_common/tab_Overall value'), 0)
+'Check value graph and calculator are now displayed'
+CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatSquad/myEquity/_common/tab_Overall value')
+CustomKeywords.'UIKeywords.verifyElementPresentVisible'('Object Repository/StatSquad/myEquity/showHideSettings/div_Estimated Profit in 5 Years')
 
-WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/showHideSettings/link_Overall value'), 0)
-
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/admin')
-
-WebUI.click(findTestObject('StatSquad/myEquity/showHideSettings/input_No show the value graph and the calculator'))
-
-WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/_common/button_Save'))
 

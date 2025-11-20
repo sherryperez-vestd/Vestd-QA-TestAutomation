@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_RSAs</name>
+   <tag></tag>
+   <elementGuidId>5781bcea-4a10-49a5-a2ab-2c374f15393f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(contains(text(), 'RSAs') or contains(., 'RSAs'))]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.nav.flex-column.mt-0 > li.nav-item > a.nav-link.active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'RSAs')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>//div[@id='sidebarSchemes']/ul/li[9]/a</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>81a0e8c2-aece-4db4-85eb-77434e00bec7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>RSAs</value>
+      <webElementGuid>1776defb-c631-481a-837a-02bab9682109</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sidebarSchemes']/ul/li[9]/a</value>
+      <webElementGuid>7aabcada-efac-4320-819e-65435042535d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'RSAs')]</value>
+      <webElementGuid>c088ac3b-cdbb-4973-88fb-8d35e6fcaab5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Growth shares'])[1]/following::a[1]</value>
+      <webElementGuid>1b7f1a28-15db-4a9f-a6be-951a693548b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All option agreements'])[1]/following::a[2]</value>
+      <webElementGuid>361f8821-e2af-4a7e-8c82-f593579a2cc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agile Partnership'])[1]/preceding::a[1]</value>
+      <webElementGuid>5584cf07-13cf-4b52-be9c-c6270988cefb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compliance'])[1]/preceding::a[2]</value>
+      <webElementGuid>3a1566b2-77ed-4081-8ada-ac797384bc85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='RSAs']/parent::*</value>
+      <webElementGuid>99536e96-989d-43c8-b443-7b45c5167bce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://demo.app.vestd.com/company/50934/distribution?type=rsa')]</value>
+      <webElementGuid>e99a03e6-0383-4e34-9402-43504cd9e539</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/ul/li[9]/a</value>
+      <webElementGuid>51f17ff6-8e22-4d3a-a76a-a81b0e490d13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://demo.app.vestd.com/company/50934/distribution?type=rsa' and (text() = '
+                                            RSAs
+                                        ' or . = '
+                                            RSAs
+                                        ')]</value>
+      <webElementGuid>351ad2b8-8f1a-430f-b267-b42de0cd9fad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

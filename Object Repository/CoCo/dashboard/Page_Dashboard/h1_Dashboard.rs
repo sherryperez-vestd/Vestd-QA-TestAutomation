@@ -6,16 +6,16 @@
    <elementGuidId>07b984f9-048e-49f6-b909-029c66962e6a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//h1[(text() = 'Dashboard' or . = 'Dashboard')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h1</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//*[(text() = 'Dashboard' or . = 'Dashboard')])[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(contains(text(), 'Dashboard') or contains(., 'Dashboard'))]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,14 +27,14 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>aa61f93b-ec8c-4649-84c4-0da22094b33e</webElementGuid>
+      <webElementGuid>098c65a0-2b6e-4c2a-a9b6-e08fa3606056</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Dashboard</value>
-      <webElementGuid>ada69480-1fc6-4cb7-85ae-3ecffd3732a5</webElementGuid>
+      <webElementGuid>eb1b4138-4eef-422f-ad05-d497f000ddce</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

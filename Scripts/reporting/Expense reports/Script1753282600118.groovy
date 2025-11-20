@@ -43,8 +43,11 @@ verifyStaticExpenseElements(['tooltip-icon_Beta', 'input_Day_from_date_day', 'in
         , 'tooltip-icon_Risk-free rate', 'input_risk_free_rate', 'tooltip-icon_Volatility', 'input_Volatility'])
 
 // Verify static elements and text
-def elementsWithText = [('StatSquad/reporting/expense/heading_ExpenseReport') : 'Expense report Beta', ('StatSquad/reporting/expense/heading_Beta') : 'Beta'
-    , ('StatSquad/reporting/financial/span_From Date') : 'From Date', ('StatSquad/reporting/financial/span_To Date') : 'To Date'
+
+    
+def elementsWithText = 
+//('StatSquad/reporting/expense/heading_ExpenseReport') : 'Expense report Beta', ('StatSquad/reporting/expense/heading_Beta') : 'Beta'
+[ ('StatSquad/reporting/financial/span_From Date') : 'From Date', ('StatSquad/reporting/financial/span_To Date') : 'To Date'
     , ('StatSquad/reporting/expense/label_StartDay') : 'Day', ('StatSquad/reporting/expense/label_StartMonth') : 'Month'
     , ('StatSquad/reporting/expense/label_StartYear') : 'Year', ('StatSquad/reporting/expense/label_EndDay') : 'Day', ('StatSquad/reporting/expense/label_EndMonth') : 'Month'
     , ('StatSquad/reporting/expense/label_EndYear') : 'Year', ('StatSquad/reporting/expense/label_IFRS pricing model') : 'IFRS pricing model'

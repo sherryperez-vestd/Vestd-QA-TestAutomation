@@ -6,16 +6,16 @@
    <elementGuidId>a57d2770-41a6-4c70-b234-f0d15d26757d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#ZVGphHxntxz6jRc7</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control'])[4]</value>
+         <value>//span[text()='/share']/preceding::input[@type='text'][1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @data-test-id = 'form-number-input' and @class = 'form-control']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>08c4d766-ea03-4b43-86c5-dffb04652da3</webElementGuid>
+      <webElementGuid>ccbf59e0-3c8e-4c84-acef-e3ce1b569788</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>c4c0cea4-4535-407a-aed6-c04a6c86342d</webElementGuid>
+      <webElementGuid>0610031c-df86-497c-bd99-72b5a42f3862</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>form-number-input</value>
-      <webElementGuid>1ee901c9-c53b-4262-bab4-40955aecc73b</webElementGuid>
+      <webElementGuid>852440c8-422d-43d4-bff1-332d967fb458</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,6 +57,6 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>7f356b45-3a09-4459-a192-e2265b38969e</webElementGuid>
+      <webElementGuid>dbca7a3c-b1ab-4b18-8cdb-44429450f444</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

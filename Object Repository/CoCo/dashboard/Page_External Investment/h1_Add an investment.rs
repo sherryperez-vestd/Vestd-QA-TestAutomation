@@ -6,24 +6,28 @@
    <elementGuidId>c6db2779-4791-4d83-9320-e48ad445d01b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content-wrapper']/div/div/h1</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'Add an investment' or . = 'Add an investment')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>3e4e54e7-b67e-4d8e-98f3-1ab8c0c4d946</webElementGuid>
+      <webElementGuid>2daf5e64-844a-4a98-a92d-2b060ae33a6b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,15 +35,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add an investment</value>
-      <webElementGuid>40f94c3c-3145-4d0a-b337-22a322afad85</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;main-content-wrapper&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;container&quot;]/h1[1]</value>
-      <webElementGuid>86bbe474-95a3-4de0-9c5f-0f3976f70712</webElementGuid>
+      <webElementGuid>8b757168-2b9a-40d8-9315-fd3cefffb5d9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +43,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='main-content-wrapper']/div/div/h1</value>
-      <webElementGuid>7e05b224-df41-45a0-9002-b9416332c7e9</webElementGuid>
+      <webElementGuid>d6ffc972-4bbb-4995-b533-b7da3cba88df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +51,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt; Back to Dashboard'])[1]/following::h1[1]</value>
-      <webElementGuid>bdc6440d-302a-45cf-a276-09a04679d386</webElementGuid>
+      <webElementGuid>7d077de3-2e4b-40b4-b02b-fb437733bda9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::h1[1]</value>
-      <webElementGuid>c5cfd9c4-8672-4029-827e-1399ca2079eb</webElementGuid>
+      <webElementGuid>2f00434f-6ce4-4cf2-b2e4-95730105344e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Add an investment']/parent::*</value>
-      <webElementGuid>370343aa-bbdc-4597-b5db-a9605959134c</webElementGuid>
+      <webElementGuid>ea4211f8-542c-4cb5-9272-6e32f9078bc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +75,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>4957b939-4d16-46d3-bb68-635571f27dae</webElementGuid>
+      <webElementGuid>0945d2c3-7e12-4369-a9a2-66cbe591e23e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +83,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Add an investment' or . = 'Add an investment')]</value>
-      <webElementGuid>67099264-ab70-4fc0-818d-4de7e1fb78fb</webElementGuid>
+      <webElementGuid>1f44680e-1745-4354-b4d3-0ff5a0f8e27f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

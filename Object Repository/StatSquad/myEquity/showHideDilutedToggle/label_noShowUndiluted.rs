@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_noShowUndiluted</name>
+   <tag></tag>
+   <elementGuidId>8fbb1361-9eb8-44bf-bbbd-613dd9fbbb12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-content-wrapper']/div/div/form/div[10]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(contains(text(), 'No, show undiluted numbers') or contains(., 'No, show undiluted numbers'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Hide “My Equity calculator and graph” (recipient dashboard) from the recipients&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>34d5a47b-943c-4f26-a07d-288aa681e6b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No, show undiluted numbers</value>
+      <webElementGuid>bbe2789f-a5aa-417c-9742-c43e5bf890a2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-content-wrapper']/div/div/form/div[10]/div/label</value>
+      <webElementGuid>5dcd88eb-c55c-402d-946d-48ed2c70270c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No, only show non diluted numbers on the My Equity page'])[1]/following::label[1]</value>
+      <webElementGuid>4e29a31a-8fc2-40dd-974c-2becfeb51a16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[5]/following::label[2]</value>
+      <webElementGuid>fa16b72d-e2ce-42e0-9945-ab889c3c819a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes, hide the value graph and the calculator from the recipients'])[1]/preceding::label[1]</value>
+      <webElementGuid>7329d9e6-932e-47e0-8c58-68710d69ddf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No, show the value graph and calculator to the recipients'])[1]/preceding::label[2]</value>
+      <webElementGuid>bf3e4d92-fac1-49b9-9ba4-e8eb64c7c69a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Hide “My Equity calculator and graph” (recipient dashboard) from the recipients']/parent::*</value>
+      <webElementGuid>d2046568-b51b-4cff-95d3-f984299f9ec8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/label</value>
+      <webElementGuid>03332174-6e24-4ead-a4cb-9177255201a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Hide “My Equity calculator and graph” (recipient dashboard) from the recipients' or . = 'Hide “My Equity calculator and graph” (recipient dashboard) from the recipients')]</value>
+      <webElementGuid>b0830d93-a6d3-49a3-94bd-ab4b64d53766</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

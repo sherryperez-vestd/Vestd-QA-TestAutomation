@@ -65,7 +65,7 @@ CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/
 
 CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('StatSquad/myEquity/graphExplained/th_recipientCost', 'Recipient Cost')
 
-WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=370451')
+WebUI.navigateToUrl(GlobalVariable.GSVestingGraphURL)
 
 CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/myEquity/graphExplained/heading_yourGraphExplained', 
     'Your graph explained')

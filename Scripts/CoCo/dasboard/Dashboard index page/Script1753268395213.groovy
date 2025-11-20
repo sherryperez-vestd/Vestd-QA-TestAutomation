@@ -182,11 +182,11 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/div_Ask a company to add you'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/img-ISO'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/img-ISO'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CoCo/navigation/img-ISO'))
+WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/img-ISO'))
 
-WebUI.verifyElementPresent(findTestObject('CoCo/navigation/p_Vestd_Ltd_authorised_and_regulated_by'), 0)
+WebUI.verifyElementPresent(findTestObject('CoCo/navigation/side-nav/p_Vestd_Ltd_authorised_and_regulated_by'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CoCo/navigation/p_Vestd_Ltd_authorised_and_regulated_by'))
+WebUI.verifyElementVisible(findTestObject('CoCo/navigation/side-nav/p_Vestd_Ltd_authorised_and_regulated_by'))
 

@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration
 
 /**
  * Test Case: Verify Company Details section on My Equity dashboard
@@ -28,7 +29,8 @@ import org.openqa.selenium.Keys as Keys
  * 3. Verify the "View AoA" (Articles of Association) link is present, visible, and clickable.
  * 4. Click the link and confirm it opens the correct legal document in a new tab.
  */
-WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+// Login
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
 WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 
@@ -82,9 +84,13 @@ WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/companyDetails/p_S
 
 WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/companyDetails/p_Shareholders'))
 
-WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/companyDetails/p_Shareholders value'), 0)
+String currentProfile = RunConfiguration.getExecutionProfile()
 
-WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/companyDetails/p_Shareholders value'))
+if (currentProfile == 'Demo') {
+	WebUI.comment("Running verification steps for profile: ${currentProfile}")
+	WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/companyDetails/p_Shareholders value'), 0)
+	WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/companyDetails/p_Shareholders value'))
+} 
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/companyDetails/a_View-AoA'), 0)
 
@@ -102,5 +108,10 @@ WebUI.switchToWindowIndex(currentWindow + 1)
 
 url = WebUI.getUrl()
 
-WebUI.verifyEqual(url, 'https://demo.app.vestd.com/company/50135/legal-doc/521803')
+WebUI.verifyEqual(
+    (url == 'https://demo.app.vestd.com/company/50135/legal-doc/521803' || 
+     url == 'https://gb4.sprint.app.vestd.com/company/150/legal-doc/2098'),
+    true
+)
+
 

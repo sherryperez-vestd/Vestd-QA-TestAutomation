@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 //'Login and navigate to the dashboard page'
 CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/h1_Dashboard'), 0)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/h1_Dashboard'), 0)
@@ -36,6 +37,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/CoCo/dashboard/Page_Da
 WebUI.verifyElementClickable(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Potential profit graph'))
 
 WebUI.click(findTestObject('Object Repository/CoCo/dashboard/Page_Dashboard/a_Potential profit graph'))
+
+WebUI.delay(10)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/CoCo/dashboard/Page_Potential value profit/h1_Potential value profit'), 
     0)

@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//span[@class = 'static-content'])[4]</value>
+         <value>(//span[@class = 'static-content'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>5cd56972-1486-4d9c-925f-23a5a7ba8abd</webElementGuid>
+      <webElementGuid>569ded14-ee37-4164-ab3c-017b2b763b26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,6 +41,6 @@
       <name>class</name>
       <type>Main</type>
       <value>static-content</value>
-      <webElementGuid>b6fc1678-1e95-47ee-9f06-88432ec7c5f9</webElementGuid>
+      <webElementGuid>a8da56ce-2113-4dd9-b4b5-701b40f2db71</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

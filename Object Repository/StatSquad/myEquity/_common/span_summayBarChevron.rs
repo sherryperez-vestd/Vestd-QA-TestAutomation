@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//span[@data-test-id = 'v-icon-component'])[1]</value>
+         <value>(//div[@data-test-id = 'header-actions'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>ed511a05-4e35-4369-aab6-7d77f1b27de3</webElementGuid>
+      <webElementGuid>13b73ff5-f64a-4c0b-9e00-a64ab802726f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>icon feather icon-chevrons-down icon-default icon-sm icon-fixed icon-bg-none</value>
-      <webElementGuid>4425b184-e7e7-4460-a31f-b510613ebb27</webElementGuid>
+      <webElementGuid>2b63cfdb-9bb9-437a-83e9-4632760a0af8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,6 +49,6 @@
       <name>data-test-id</name>
       <type>Main</type>
       <value>v-icon-component</value>
-      <webElementGuid>4c3dd78b-50c3-4a31-b2ec-0ab2e6812d0a</webElementGuid>
+      <webElementGuid>29521839-fd3b-4d9f-9586-ef21d571770f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

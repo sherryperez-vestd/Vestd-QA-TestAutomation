@@ -29,8 +29,8 @@ import org.openqa.selenium.Keys as Keys
  *    - Click the tab and confirm the corresponding vesting graph (canvas) is displayed.
  * 4. RSA vesting check is commented out (not run).
  */
-//'Login and navigate to My equity page'
-WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+// Login
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
 'Check EMI vesting graph'
 WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
@@ -73,6 +73,8 @@ WebUI.verifyElementClickable(findTestObject('StatSquad/myEquity/graph/vesting-gr
 
 WebUI.click(findTestObject('StatSquad/myEquity/graph/vesting-graph/tab_Option-vesting'))
 
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-options'), 0)
+
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-options'), 0)
 
 WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-options'))
@@ -87,6 +89,8 @@ WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/graph/vesting-grap
 WebUI.verifyElementClickable(findTestObject('StatSquad/myEquity/graph/vesting-graph/tab-esop_Option-vesting'))
 
 WebUI.click(findTestObject('StatSquad/myEquity/graph/vesting-graph/tab-esop_Option-vesting'))
+
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-esop'), 0)
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-esop'), 0)
 
@@ -103,6 +107,8 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/
 WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/tab_Share-vesting'))
 
 WebUI.click(findTestObject('StatSquad/myEquity/graph/vesting-graph/tab_Share-vesting'))
+
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-options'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/canvas-graph-options'), 
     0)
@@ -134,6 +140,8 @@ WebUI.verifyElementClickable(findTestObject('StatSquad/myEquity/graph/vesting-gr
 
 WebUI.click(findTestObject('StatSquad/myEquity/graph/vesting-graph/tab-link_Share-vesting'))
 
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-shares'), 0)
+
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-shares'), 0)
 
 WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-shares'))
@@ -150,13 +158,14 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/
 
 WebUI.click(findTestObject('StatSquad/myEquity/graph/vesting-graph/tab_Phantom-shares'))
 
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-phantom'), 0)
+
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-phantom'), 0)
 
 WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-phantom'))
 
 'Check Option/Shares/Phantom/ Overall vesting graph'
 WebUI.navigateToUrl(GlobalVariable.allGraphURL)
-
 
 WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/graph/vesting-graph/tab_Option-vesting'), 0)
 
@@ -166,9 +175,11 @@ WebUI.verifyElementClickable(findTestObject('StatSquad/myEquity/graph/vesting-gr
 
 WebUI.click(findTestObject('StatSquad/myEquity/graph/vesting-graph/tab_Option-vesting'))
 
-not_run: WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-options'), 0)
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-options-all'), 0)
 
-not_run: WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-options'))
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-options-all'), 0)
+
+WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-options-all'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/tab_Share-vesting'), 
     0)
@@ -179,10 +190,11 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/StatSquad/myEquit
 
 WebUI.click(findTestObject('StatSquad/myEquity/graph/vesting-graph/tab_Share-vesting'))
 
-not_run: WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/canvas-graph-options'), 
-    0)
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-shares-all'), 0)
 
-not_run: WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/canvas-graph-options'))
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-shares-all'), 0)
+
+WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-shares-all'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/graph/vesting-graph/tab_Phantom-shares'))
 
@@ -193,9 +205,11 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/
 
 WebUI.click(findTestObject('StatSquad/myEquity/graph/vesting-graph/tab_Phantom-shares'))
 
-not_run: WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-phantom'), 0)
+WebUI.scrollToElement(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-phantom-all'), 0)
 
-not_run: WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-phantom'))
+WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-phantom-all'), 0)
+
+WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/graph/vesting-graph/canvas-graph-phantom-all'))
 
 WebUI.verifyElementVisible(findTestObject('StatSquad/myEquity/_common/tab_overall-value'))
 

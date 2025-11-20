@@ -29,7 +29,8 @@ import org.openqa.selenium.Keys as Keys
  * 7. Verify tooltips for each vesting option by clicking tooltip icons, checking tooltip text, and toggling visibility.
  * 8. Click each vesting option radio button and verify the graph canvas updates accordingly.
  */
-not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+// Login
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
 WebUI.navigateToUrl(GlobalVariable.EMIVestingGraphURL)
 

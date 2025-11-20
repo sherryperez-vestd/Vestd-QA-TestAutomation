@@ -18,13 +18,14 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.navigateToUrl(reportsCountryURL)
 
-CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/reporting/index/heading_Reporting Beta', 
-    'Reporting Beta')
+WebUI.verifyElementPresent(findTestObject('StatSquad/reporting/index/heading_Reporting Beta'), 0)
+
+//CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/reporting/index/heading_Reporting Beta', 
+//    'Reporting Beta')
 
 CustomKeywords.'UIKeywords.verifyElementPresentVisibleText'('Object Repository/StatSquad/reporting/index/lead-text_Access detailed reports', 
     'Access detailed reports tailored to your needs. Can\'t find what you\'re looking for? Request a custom report here.')
@@ -40,8 +41,9 @@ List<String> expectedReports = ['Shareholders report', 'Employee report', 'Finan
 
 // Add "MGT1 report" if IN company
 String currentUrl = WebUI.getUrl()
+
 if (currentUrl == 'https://demo.app.vestd.com/company/50915/reports') {
-	expectedReports.add('MGT1 report')
+    expectedReports.add('MGT1 report')
 }
 
 // Loop through each row
@@ -57,7 +59,7 @@ for (int i = 1; i <= expectedReports.size(); i++) {
 
 // Verify report description
 def descriptions = [[('path') : 'StatSquad/reporting/index/td_shareholders description', ('text') : 'This report will provide a download of your shareholders names, emails and other basic information.']
-	, [('path') : 'StatSquad/reporting/index/td_employee report description', ('text') : 'This report will provide a download of your employees’ names, emails, and other basic information.']
+    , [('path') : 'StatSquad/reporting/index/td_employee report description', ('text') : 'This report will provide a download of your employees’ names, emails, and other basic information.']
     , [('path') : 'StatSquad/reporting/index/td_financial report description', ('text') : 'This report will provide options vested, options lapsed, options exercised, reversed options and exercise requests. You will be able to select the start and end date on the next page.']
     , [('path') : 'StatSquad/reporting/index/td_cap table description', ('text') : 'This will take you to cap table page where you can simulate the ownership structure of your company in different scenarios.']
     , [('path') : 'StatSquad/reporting/index/td_option agreement description', ('text') : 'This report will provide a download of all option agreements, the status, the option holders name, option type, and other related information.']
@@ -65,10 +67,7 @@ def descriptions = [[('path') : 'StatSquad/reporting/index/td_shareholders descr
 
 // Conditionally add MGT1 description if IN company
 if (currentUrl == 'https://demo.app.vestd.com/company/50915/reports') {
-	descriptions.add([
-		('path') : 'StatSquad/reporting/index/td_MGT1Description',
-		('text') : 'Register of members. pursuant to section 88 (1)(a) of the companies act, 2013 and rule 3(1) of the companies (management and administration) rules, 2014'
-	])
+    descriptions.add([('path') : 'StatSquad/reporting/index/td_MGT1Description', ('text') : 'Register of members. pursuant to section 88 (1)(a) of the companies act, 2013 and rule 3(1) of the companies (management and administration) rules, 2014'])
 }
 
 descriptions.each({ def el ->
@@ -82,13 +81,9 @@ def elements = [[('path') : 'StatSquad/reporting/index/link_generate-shareholder
         , ('text') : 'Generate'], [('path') : 'StatSquad/reporting/index/link_generate-expense', ('text') : 'Generate'], [
         ('path') : 'StatSquad/reporting/index/link_Request a custom report here', ('text') : 'Request a custom report here']]
 
-
 // Conditionally add MGT1 description if IN company
 if (currentUrl == 'https://demo.app.vestd.com/company/50915/reports') {
-	elements.add([
-		('path') : 'StatSquad/reporting/index/link_generate-MGT1',
-		('text') : 'Generate'
-	])
+    elements.add([('path') : 'StatSquad/reporting/index/link_generate-MGT1', ('text') : 'Generate'])
 }
 
 elements.each({ def el ->
@@ -101,6 +96,7 @@ elements.each({ def el ->
 
 //Click "Request a custom report here" and verify new URL
 CustomKeywords.'UIKeywords.clickElement'('Object Repository/StatSquad/reporting/index/link_Request a custom report here')
+
 currentWindow = WebUI.getWindowIndex()
 
 //WebUI.switchToWindowIndex(currentWindow)

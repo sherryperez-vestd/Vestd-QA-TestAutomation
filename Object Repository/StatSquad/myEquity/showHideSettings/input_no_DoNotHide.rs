@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_no_DoNotHide</name>
+   <tag></tag>
+   <elementGuidId>8d493506-85b3-44d7-b94c-8e2dec7b9750</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@name = 'feature_recipient_dashboard_hide_calculator_and_graph' and @type = 'radio'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#feature_recipient_dashboard_hide_calculator_and_graph_no</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@data-gtm-form-interact-field-id = '2' and @name = 'feature_recipient_dashboard_hide_calculator_and_graph' and @type = 'radio']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;No, show the value graph and calculator to the recipients&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>a0991a82-3b66-4412-a138-3488cb3cb6de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gtm-form-interact-field-id</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>cde86881-ed42-4c78-b7e9-1de864d69022</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>feature_recipient_dashboard_hide_calculator_and_graph</value>
+      <webElementGuid>67623d31-116e-44e9-8055-250a1104948a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>radio</value>
+      <webElementGuid>53a25441-538b-4b5a-947a-793e2e763ac4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

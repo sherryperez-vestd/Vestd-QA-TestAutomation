@@ -60,6 +60,8 @@ WebUI.setText(findTestObject('ShareSquad/stockTransfer/Page_Stock transfer creat
 
 WebUI.setText(findTestObject('ShareSquad/stockTransfer/Page_Stock transfer create/input_STFormYear'), '2025')
 
+WebUI.scrollToElement(findTestObject('ShareSquad/stockTransfer/Page_Stock transfer create/input_btn-Save as draft'), 0)
+
 WebUI.click(findTestObject('ShareSquad/stockTransfer/Page_Stock transfer create/input_btn-Save as draft'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/ShareSquad/stockTransfer/Page_Stock transfer details/div_Stock transfer created'), 

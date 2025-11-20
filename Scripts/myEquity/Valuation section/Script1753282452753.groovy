@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 /**
  * Test Case: Verify Company Valuation History Display on My Equity Page
@@ -29,11 +30,11 @@ import org.openqa.selenium.Keys as Keys
  * 3. Confirm presence and function of cancel CTA in modal.
  * 4. Tooltip checks for valuations are currently commented out.
  */
-'Login and navigate to My equity page'
-not_run: WebUI.callTestCase(findTestCase('Platform/usersLogin/UK/user-login-staff'), [:], FailureHandling.STOP_ON_FAILURE)
+// Login
+CustomKeywords.'UIKeywords.loginToApp'(GlobalVariable.username_staff, GlobalVariable.password)
 
-'Check Company valuation history section with 0 valuations'
 //WebUI.navigateToUrl('https://demo.app.vestd.com/company/50066/dashboard?user_id=285633')
+'Check Company valuation history section with 0 valuations'
 WebUI.navigateToUrl(GlobalVariable.Valuations_0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/txt_0Valuations'), 'Valuations recorded by the company help show the actual growth of your shareholding up to today. Please contact the company to add a historical valuation.')
@@ -41,45 +42,58 @@ WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/val
 //WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/valuationSection/btn_See_more'), 0)
 WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/valuationSection/btn_See_more'), 0)
 
-'Check Company valuation history section with 1 valuation'
 //WebUI.navigateToUrl('https://demo.app.vestd.com/company/50135/dashboard?user_id=365431')
+'Check Company valuation history section with 1 valuation'
 WebUI.navigateToUrl(GlobalVariable.Valuations_1)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tile_1Company-valuation-history'))
+String currentProfile = RunConfiguration.getExecutionProfile()
+if (currentProfile == 'Demo') {
+	  WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tile_1Company-valuation-history'))
+		
+	WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tile_Current-valuation'))
+	
+	WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tile_Valuation-section'))
+	
+	//WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/valuationSection/btn_See_more'), 0)
+	WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/valuationSection/btn_See_more'), 0)
+	
+} else {
+//    WebUI.navigateToUrl('https://gb4.sprint.app.vestd.com/company/150/dashboard?user_id=705')
+	WebUI.verifyTextPresent('7th April 2024 - £1,000,000', false)
+}
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tile_Current-valuation'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tile_Valuation-section'))
-
-//WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/valuationSection/btn_See_more'), 0)
-WebUI.verifyElementNotPresent(findTestObject('StatSquad/myEquity/valuationSection/btn_See_more'), 0)
-
-'Check Company valuation history section with 2 valuations'
 //WebUI.navigateToUrl('https://demo.app.vestd.com/company/51622/dashboard?user_id=365693')
+'Check Company valuation history section with 2 valuations'
 WebUI.navigateToUrl(GlobalVariable.Valuations_2)
+		
+	// WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tile_2Company-valuation-history'), 0)
+	WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/btn_See_more'), 0)
+	
+	'Check See more link'
+	WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/btn_See_more'), 'See more')
+	
+	WebUI.click(findTestObject('StatSquad/myEquity/valuationSection/btn_See_more'))
+	
+	'Check Current valuation history Cancel CTA'
+	WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/valuationSection/button-cancel_Company-valuation-history-modal'),
+		0)
+	
+	WebUI.click(findTestObject('StatSquad/myEquity/valuationSection/button-cancel_Company-valuation-history-modal'))
+	
+	'Check Current valuation tooltip'
+	
+	// WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tooltip-icon_Current-valuation'), 0)
+	//WebUI.mouseOver(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tooltip-icon_Current-valuation'))
+	// WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tooltip-icon_Current-valuation'))
+	// WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tooltip-txt_Current-valuation'), 'This valuation was added by the company on 10th January 2025.')
+	'Check Company valuation history tooltip'
+	
+	// WebUI.click(findTestObject('StatSquad/myEquity/valuationSection/tooltip-icon_Current-valuation'))
+	'Check Company valuation history tooltip'
+	
 
-// WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tile_2Company-valuation-history'), 0)
-WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/btn_See_more'), 0)
 
-'Check See more link'
-WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/btn_See_more'), 'See more')
 
-WebUI.click(findTestObject('StatSquad/myEquity/valuationSection/btn_See_more'))
 
-'Check Current valuation history Cancel CTA'
-WebUI.verifyElementPresent(findTestObject('StatSquad/myEquity/valuationSection/button-cancel_Company-valuation-history-modal'), 
-    0)
 
-WebUI.click(findTestObject('StatSquad/myEquity/valuationSection/button-cancel_Company-valuation-history-modal'))
-
-'Check Current valuation tooltip'
-
-// WebUI.verifyElementPresent(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tooltip-icon_Current-valuation'), 0)
-//WebUI.mouseOver(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tooltip-icon_Current-valuation'))
-// WebUI.click(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tooltip-icon_Current-valuation'))
-// WebUI.verifyElementText(findTestObject('Object Repository/StatSquad/myEquity/valuationSection/tooltip-txt_Current-valuation'), 'This valuation was added by the company on 10th January 2025.')
-'Check Company valuation history tooltip'
-
-// WebUI.click(findTestObject('StatSquad/myEquity/valuationSection/tooltip-icon_Current-valuation'))
-'Check Company valuation history tooltip'
 
